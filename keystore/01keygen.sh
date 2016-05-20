@@ -1,0 +1,1 @@
+keytool -genkey -dname "cn=Zeljko Cvijanovic, OU=programer, O=ZELJUS, L=Teslic, ST=Teslic, C=RS" -alias zeljus -keyalg RSA -keystore zeljus.keystore -storepass 111111 -keypass 111111 -validity 360 -keysize 2048

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/ppc386" Date="1457035728"/>
+  <Params Value=" -Tlinux -Parm -MObjFPC -Scghi -O1 -l -vewnhibq -Fi/home/zeljko/RAZVOJ/Android/pandroid/component/AndroidLibrary/FBSQlite/jni/lib/arm-linux -Fl/usr/local/codetyphon/binLibraries/arm-linux-pi -Fu/usr/local/codetyphon/fpcsrc/packages/fcl-db/src/sqldb/sqlite -Fu/home/zeljko/RAZVOJ/zeljus/component/indy-10.2.0.3/fpc -Fu/usr/local/codetyphon/fpcsrc/packages/jni/src -Fu/usr/local/codetyphon/fpcsrc/packages/fcl-net/src -Fu/usr/local/codetyphon/typhon/components/pl_Synapse/source -Fu/usr/local/codetyphon/typhon/components/BaseUtils/lib/arm-linux -Fu/usr/local/codetyphon/typhon/packager/units/arm-linux -Fu/home/zeljko/RAZVOJ/Android/pandroid/component/AndroidLibrary/FBSQlite/jni/ -FU/home/zeljko/RAZVOJ/Android/pandroid/component/AndroidLibrary/FBSQlite/jni/lib/arm-linux/ -FE/home/zeljko/RAZVOJ/Android/pandroid/component/AndroidLibrary/FBSQlite/lib/armeabi/ -olibfbsqliterepl.so project1.lpr"/>
+</CONFIG>

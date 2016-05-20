@@ -1,0 +1,1 @@
+keytool -list -v -keystore zeljus.keystore -storepass 111111

@@ -1,0 +1,43 @@
+  CTI2CTools = class external 'cilico.tools' name 'I2CTools' (JLObject)
+  public
+    constructor create(); overload;
+    class function readVersion(): jint; static; overload;
+    class function ReadUID(): JLString; static; overload;
+    class function ReadBlock(para1: Arr1jbyte; para2: Arr1jbyte; para3: jbyte; para4: jbyte): jint; static; overload;
+    class function ReadBlock(var para1: array of jbyte; var para2: array of jbyte; para3: jbyte; para4: jbyte): jint; static; overload;
+    class function ReadSector(para1: Arr1jbyte; para2: Arr1jbyte; para3: Arr1jbyte; para4: jbyte; para5: jbyte): jint; static; overload;
+    class function ReadSector(var para1: array of jbyte; var para2: array of jbyte; var para3: array of jbyte; para4: jbyte; para5: jbyte): jint; static; overload;
+    class function WriteSector(para1: Arr1jbyte; para2: Arr1jbyte; para3: Arr1jbyte; para4: jbyte; para5: jbyte): jint; static; overload;
+    class function WriteSector(var para1: array of jbyte; var para2: array of jbyte; var para3: array of jbyte; para4: jbyte; para5: jbyte): jint; static; overload;
+    class function ChangeKeys(para1: Arr1jbyte; para2: jbyte; para3: jint; para4: Arr1jbyte; para5: Arr1jbyte; para6: Arr1jbyte): jint; static; overload;
+    class function ChangeKeys(var para1: array of jbyte; para2: jbyte; para3: jint; var para4: array of jbyte; var para5: array of jbyte; var para6: array of jbyte): jint; static; overload;
+    class function ReadBlocksEx(para1: Arr1jbyte; para2: Arr1jint; para3: Arr1jbyte; para4: jbyte; para5: jint; para6: jint): jint; static; overload;
+    class function ReadBlocksEx(var para1: array of jbyte; var para2: array of jint; var para3: array of jbyte; para4: jbyte; para5: jint; para6: jint): jint; static; overload;
+    class function ReadSectorEx(para1: Arr1jbyte; para2: Arr1jbyte; para3: Arr1jbyte; para4: jbyte; para5: jbyte; para6: jbyte): jint; static; overload;
+    class function ReadSectorEx(var para1: array of jbyte; var para2: array of jbyte; var para3: array of jbyte; para4: jbyte; para5: jbyte; para6: jbyte): jint; static; overload;
+    class function WriteBlock(para1: Arr1jbyte; para2: Arr1jbyte; para3: jbyte; para4: jbyte): jint; static; overload;
+    class function WriteBlock(var para1: array of jbyte; var para2: array of jbyte; para3: jbyte; para4: jbyte): jint; static; overload;
+    class function WriteSectorEx(para1: Arr1jbyte; para2: Arr1jbyte; para3: Arr1jbyte; para4: jbyte; para5: jbyte; para6: jbyte): jint; static; overload;
+    class function WriteSectorEx(var para1: array of jbyte; var para2: array of jbyte; var para3: array of jbyte; para4: jbyte; para5: jbyte; para6: jbyte): jint; static; overload;
+    class function WriteBlocksEx(para1: Arr1jbyte; para2: Arr1jint; para3: Arr1jbyte; para4: jbyte; para5: jint; para6: jint): jint; static; overload;
+    class function WriteBlocksEx(var para1: array of jbyte; var para2: array of jint; var para3: array of jbyte; para4: jbyte; para5: jint; para6: jint): jint; static; overload;
+    class function ChangeKeysEx(para1: Arr1jbyte; para2: jbyte; para3: jbyte; para4: jbyte; para5: Arr1jbyte; para6: Arr1jbyte; para7: Arr1jbyte): jint; static; overload;
+    class function ChangeKeysEx(var para1: array of jbyte; para2: jbyte; para3: jbyte; para4: jbyte; var para5: array of jbyte; var para6: array of jbyte; var para7: array of jbyte): jint; static; overload;
+    class function InitWallet(para1: Arr1jbyte; para2: jbyte; para3: jint; para4: jbyte): jint; static; overload;
+    class function InitWallet(var para1: array of jbyte; para2: jbyte; para3: jint; para4: jbyte): jint; static; overload;
+    class function IncreaseWallet(para1: Arr1jbyte; para2: jbyte; para3: jint; para4: jbyte): jint; static; overload;
+    class function IncreaseWallet(var para1: array of jbyte; para2: jbyte; para3: jint; para4: jbyte): jint; static; overload;
+    class function DecreaseWallet(para1: Arr1jbyte; para2: jbyte; para3: jint; para4: jbyte): jint; static; overload;
+    class function DecreaseWallet(var para1: array of jbyte; para2: jbyte; para3: jint; para4: jbyte): jint; static; overload;
+    class function BackupWallet(para1: Arr1jbyte; para2: jbyte; para3: jbyte; para4: jbyte): jint; static; overload;
+    class function BackupWallet(var para1: array of jbyte; para2: jbyte; para3: jbyte; para4: jbyte): jint; static; overload;
+    class function ReadWallet(para1: Arr1jbyte; para2: jbyte; para3: Arr1jint; para4: jbyte): jint; static; overload;
+    class function ReadWallet(var para1: array of jbyte; para2: jbyte; var para3: array of jint; para4: jbyte): jint; static; overload;
+    class function stringToBytes(para1: JLString): Arr1jbyte; static; overload;
+    class function BytesToString(para1: Arr1jbyte): JLString; static; overload;
+    class function BytesToString(var para1: array of jbyte): JLString; static; overload;
+    class function byteToInt(para1: Arr1jbyte): jint; static; overload;
+    class function byteToInt(var para1: array of jbyte): jint; static; overload;
+    class function intToByte(para1: jint; para2: jint): Arr1jbyte; static; overload;
+  end;
+

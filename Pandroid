@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/local/pandroid/pandroid
+Path=/usr/local/pandroid
+Icon=/usr/local/pandroid/pandroid.png
+GenericName=Pascal Android

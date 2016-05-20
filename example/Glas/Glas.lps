@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Glas.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="46" Y="9"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20749"/>
+        <CursorPos X="11" Y="20750"/>
+        <UsageCount Value="11"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../units/AActivity.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="238"/>
+        <CursorPos X="3" Y="285"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="24" Y="21"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="44" Column="17" TopLine="28"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="42" Column="45" TopLine="22"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="100" Column="7" TopLine="95"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="76" Column="29" TopLine="50"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="18" Column="32" TopLine="11"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="44" Column="56" TopLine="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="124" Column="59" TopLine="106"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="109" TopLine="82"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="89" Column="32" TopLine="73"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="117" Column="46" TopLine="81"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Glas.lpr"/>
+        <Caret Line="44" Column="15" TopLine="16"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

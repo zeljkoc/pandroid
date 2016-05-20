@@ -1,0 +1,1 @@
+keytool -keystore zeljus.keystore -certreq -alias zeljus -keyalg rsa -file zeljus.csr

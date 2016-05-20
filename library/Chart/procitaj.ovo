@@ -1,0 +1,16 @@
+pri izradi compile.sh
+
+u chart.pas dodati:
+  uses androidr15;
+
+{$namespace zeljus.com.units} 
+
+
+za koristenje chart komponente
+
+
+kopirati library: achartengine-1.0.0.jar
+u manifest dodati: <activity android:name="org.achartengine.GraphicalActivity" />
+
+verzije nove
+https://repository-achartengine.forge.cloudbees.com/snapshot/org/achartengine/achartengine/1.2.0/

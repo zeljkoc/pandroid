@@ -1,0 +1,1 @@
+keytool -certreq -v -alias zeljus -keypass 111111 -storepass 111111 -keystore zeljus.keystore -file zeljus.csr

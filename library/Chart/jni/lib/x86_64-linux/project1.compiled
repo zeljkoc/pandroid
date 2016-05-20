@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/codetyphon/fpc/fpc64/bin/x86_64-linux/fpc" Date="1461610435"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/usr/local/pandroid/library/Chart/jni/lib/x86_64-linux -Fu/usr/local/pandroid/library/Chart/jni/ -FU/usr/local/pandroid/library/Chart/jni/lib/x86_64-linux/ -olibproject1.so project1.lpr"/>
+</CONFIG>

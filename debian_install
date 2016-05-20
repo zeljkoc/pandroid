@@ -1,0 +1,19 @@
+openjdk-7-jdk 
+/usr/lib/jvm/java-7-openjdk-amd64
+
+#: apt-get install ant
+#: apt-get install android-tools-adb
+
+directory 
+sdk 
+prema sdk.png
+
+extract to
+
+/usr/local/pandroid/
+/usr/local/pandroid/keystore
+/usr/local/pandroid/library
+/usr/local/pandroid/sdk
+/usr/local/pandroid/source
+/usr/local/pandroid/template
+/usr/local/pandroid/units

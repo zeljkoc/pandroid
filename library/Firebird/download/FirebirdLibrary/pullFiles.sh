@@ -1,0 +1,1 @@
+adb push libfbclient.so.3.0.0 /system/lib/libfbclient.so.3.0.0

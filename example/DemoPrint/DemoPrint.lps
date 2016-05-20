@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="DemoPrint.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="66"/>
+        <CursorPos X="91" Y="82"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="DemoPrint.lpr"/>
+        <Caret Line="66" Column="44" TopLine="58"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DemoPrint.lpr"/>
+        <Caret Line="96" Column="99" TopLine="70"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

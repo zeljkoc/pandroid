@@ -1,0 +1,1 @@
+keygen -genseckey -alias zeljus -keyalg DSA -keysize 2048 -keypass 111111 -keystore zeljus.keystore -storepass 111111 -v -protected -J zeljus.jar

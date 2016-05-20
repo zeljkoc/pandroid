@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/codetyphon/fpc/fpc64/bin/x86_64-linux/fpc" Date="1461610435"/>
+  <Params Value=" -Tandroid -Parm -MObjFPC -Scghi -O1 -l -vewnhibq -Fi/usr/local/pandroid/library/FBSQlite/jni/lib/arm-android -Fl/usr/local/codetyphon/binLibraries/android-4.0-api14-arm -Fu/usr/local/codetyphon/fpcsrc/packages/fcl-db/src/sqldb/sqlite -Fu/usr/local/codetyphon/fpcsrc/packages/jni/src -Fu/usr/local/codetyphon/fpcsrc/packages/fcl-net/src -Fu/usr/local/pandroid/library/Lazarus/indy-10.2.0.3/fpc -Fu/usr/local/codetyphon/typhon/components/pl_Synapse/source -Fu/usr/local/codetyphon/typhon/components/BaseUtils/lib/arm-android -Fu/usr/local/codetyphon/typhon/packager/units/arm-android -Fu/usr/local/pandroid/library/FBSQlite/jni/ -FU/usr/local/pandroid/library/FBSQlite/jni/lib/arm-android/ -FE/usr/local/pandroid/library/FBSQlite/lib/armeabi/ -olibfbsqliterepl.so project1.lpr"/>
+</CONFIG>

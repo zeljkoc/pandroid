@@ -1,0 +1,1 @@
+keytool -import -v -alias zeljus -file zeljus.crt -keystore zeljus.keystore -storepass 111111

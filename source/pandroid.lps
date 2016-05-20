@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="pandroid.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="10" Y="15"/>
+        <UsageCount Value="168"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="82"/>
+        <CursorPos Y="92"/>
+        <UsageCount Value="168"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="FNewProject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="248"/>
+        <CursorPos X="69" Y="271"/>
+        <UsageCount Value="168"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../Projekti/TEMP/Button.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="39" Y="15"/>
+        <UsageCount Value="4"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../lib/codetyphon/fpcsrc/rtl/android/jvm/androidr14.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11739"/>
+        <CursorPos X="56" Y="11754"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../p4a/Projekti/PDAProdajaKumalBlagajna/src/fBlagajna.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="205"/>
+        <CursorPos X="22" Y="222"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="241" Column="55" TopLine="228"/>
+      </Position1>
+      <Position2>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="85" Column="36" TopLine="74"/>
+      </Position2>
+      <Position3>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="117" Column="54" TopLine="91"/>
+      </Position3>
+      <Position4>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="125" Column="54" TopLine="99"/>
+      </Position4>
+      <Position5>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="136" Column="54" TopLine="111"/>
+      </Position5>
+      <Position6>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="156" Column="54" TopLine="130"/>
+      </Position6>
+      <Position7>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="164" Column="54" TopLine="138"/>
+      </Position7>
+      <Position8>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="171" Column="54" TopLine="146"/>
+      </Position8>
+      <Position9>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="190" Column="54" TopLine="164"/>
+      </Position9>
+      <Position10>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="197" Column="35" TopLine="171"/>
+      </Position10>
+      <Position11>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="211" Column="56" TopLine="185"/>
+      </Position11>
+      <Position12>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="219" Column="48" TopLine="193"/>
+      </Position12>
+      <Position13>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="242" Column="55" TopLine="217"/>
+      </Position13>
+      <Position14>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="269" Column="54" TopLine="244"/>
+      </Position14>
+      <Position15>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="278" Column="55" TopLine="253"/>
+      </Position15>
+      <Position16>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="294" Column="45" TopLine="269"/>
+      </Position16>
+      <Position17>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="306" Column="45" TopLine="281"/>
+      </Position17>
+      <Position18>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="271" Column="64" TopLine="251"/>
+      </Position18>
+      <Position19>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="269" Column="63" TopLine="254"/>
+      </Position19>
+      <Position20>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="199" Column="65" TopLine="177"/>
+      </Position20>
+      <Position21>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="205" Column="24" TopLine="190"/>
+      </Position21>
+      <Position22>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="141" Column="38" TopLine="114"/>
+      </Position22>
+      <Position23>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="162" Column="39" TopLine="150"/>
+      </Position23>
+      <Position24>
+        <Filename Value="pandroid.lpr"/>
+        <Caret Line="9" Column="67"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="133" Column="11" TopLine="101"/>
+      </Position25>
+      <Position26>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="22" Column="10" TopLine="2"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="133" Column="11" TopLine="101"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="94" TopLine="84"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="93" TopLine="83"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="92" TopLine="82"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,1 @@
+keytool -gencert -v -alias zeljus -keypass 111111 -storepass 111111 -keystore zeljus.keystore -infile zeljus.csr -outfile zeljus.crt -ext KeyUsage:critical="digitalSignature,keyEncipherment" -ext EKU="serverAuth" -ext SAN="DNS:zeljus" -rfc

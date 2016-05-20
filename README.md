@@ -3,6 +3,11 @@
 Create Android application from FPC JVM 
 
 
-debian
+extract pandroid to debian 8 64 
 
 /usr/local/pandroid
+
+example
+
+/usr/local/pandroid/example
+

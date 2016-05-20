@@ -335,6 +335,9 @@ begin
      lFile.Add('adb shell am start -n '+AProject.gJavaPackageName +PathDelim+ AProject.gJavaPackageName+'.MainActivity');
      lFile.Add('');
   //   lFile.Add('sleep 100');
+     lFile.Add('Delete android/bin and android/gen ===========================');
+     lFile.Add('rm -rf bin');
+     lFile.Add('rm -rf gen');
      lFile.SaveToFile(AProject.gProjectDir+ PathDelim+'android' + PathDelim + 'build_debug_apk.sh');
     {$else}
      lFile.Add('SET PATH='+gPATHJava+';'+AProject.gApacheAnt);

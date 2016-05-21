@@ -42,3 +42,7 @@ adb install -r $PROJECT/TempFirebird.apk
 
 adb shell am start -n zeljus.com.tempfirebird/zeljus.com.tempfirebird.MainActivity
 
+echo Delete android/bin and /android/gen -----------------------------
+rm -rf bin
+rm -rf gen
+

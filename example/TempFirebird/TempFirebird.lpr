@@ -26,6 +26,7 @@ var
    CharSet:JLString;
    UserName: JLString;
    Password: JLstring;
+   Lib: JLString;
 
    IDRadnoMjesto: Integer; //= '10';
    IDPDA: Integer;    
@@ -95,7 +96,7 @@ begin
  // UIBDataBase.Init(JLString('192.168.1.22/3070:01Zdravstvo25'), JLString('UTF8'), JLString('/system/lib/libfbclient.so.3.0.0'));
  // UIBDataBase.setUserNamePassword(JLString('SYSDBA'), JLString('jedan'));
 
-  UIBDataBase.Init(DataBaseName, CharSet, JLString('/system/lib/libfbclient.so.3.0.0'));
+  UIBDataBase.Init(DataBaseName, CharSet, Lib); // JLString('/system/lib/libfbclient.so.3.0.0'));
   UIBDataBase.setUserNamePassword(UserName, Password);
 
   UIBDataSet:= ZCFUIBDataSet.create();
@@ -203,6 +204,8 @@ begin
        ini.getString(JLString('PDAsetings'), JLString('UserName'), JLString('SYSDBA')) );
     ini.setString(JLString('PDAsetings'), JLString('Password'),
        ini.getString(JLString('PDAsetings'), JLString('Password'), JLString('masterkey')) );
+    ini.setString(JLString('PDAsetings'), JLString('Lib'),
+       ini.getString(JLString('PDAsetings'), JLString('Lib'), JLString('/system/lib/libfbclient.so.3.0.0')) );
 
    ReadIniFile;
 end;
@@ -213,6 +216,7 @@ begin
   CharSet  := ini.getString(JLString('PDAsetings'), JLString('CharSet'), JLString('UTF8'));
   UserName  := ini.getString(JLString('PDAsetings'), JLString('UserName'), JLString('SYSDBA'));
   Password  := ini.getString(JLString('PDAsetings'), JLString('Password'), JLString('masterkey'));
+  Lib  := ini.getString(JLString('PDAsetings'), JLString('Lib'), JLString('/system/lib/libfbclient.so.3.0.0'));
 end;
 
 end.

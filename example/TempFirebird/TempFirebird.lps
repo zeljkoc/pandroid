@@ -8,14 +8,16 @@
         <Filename Value="TempFirebird.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="38" Y="10"/>
+        <TopLine Value="184"/>
+        <CursorPos X="59" Y="208"/>
         <UsageCount Value="99"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="android/build_debug_apk.sh"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="43" Y="8"/>
+        <TopLine Value="8"/>
+        <CursorPos X="71" Y="45"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>

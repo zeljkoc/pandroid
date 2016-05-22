@@ -9,7 +9,7 @@ install pandroid to debian 8 64
 
 $: cd /usr/local
 
-$: git https://github.com/zeljkoc/pandroid.git
+$: git clone https://github.com/zeljkoc/pandroid.git
 
 
 Install CodeTyphon and Cross element for jvm_android

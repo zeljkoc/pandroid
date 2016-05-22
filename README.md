@@ -14,3 +14,15 @@ example
 
 /usr/local/pandroid/example
 
+=======================================
+
+Build APK : 
+
+Run -> Build file
+
+or 
+
+$: sh build_debug_apk.sh 
+
+
+

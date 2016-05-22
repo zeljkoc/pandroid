@@ -5,8 +5,11 @@ Create Android application from FPC JVM
 Edit and build CodeTyphon http://www.pilotlogic.com
 
 
-extract pandroid to debian 8 64 
-/usr/local/pandroid
+install pandroid to debian 8 64 
+
+$: cd /usr/local
+$: git https://github.com/zeljkoc/pandroid.git
+
 
 Install CodeTyphon and Cross element for jvm_android
 

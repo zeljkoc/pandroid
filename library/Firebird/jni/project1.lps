@@ -7,7 +7,7 @@
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
+        <TopLine Value="13"/>
         <UsageCount Value="388"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -98,6 +98,7 @@
       </Unit12>
       <Unit13>
         <Filename Value="../compile.sh"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <CursorPos X="64" Y="21"/>
         <UsageCount Value="37"/>

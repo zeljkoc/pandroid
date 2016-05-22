@@ -8,6 +8,7 @@ Edit and build CodeTyphon http://www.pilotlogic.com
 install pandroid to debian 8 64 
 
 $: cd /usr/local
+
 $: git https://github.com/zeljkoc/pandroid.git
 
 

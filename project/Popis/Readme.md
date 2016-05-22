@@ -1,3 +1,4 @@
-popis work to pda barcode scaner
+Popis.apk work to pda barcode scaner 
+
 http://www.zeljus.com/novosti
 

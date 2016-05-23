@@ -44,13 +44,14 @@ procedure Java_zeljus_com_firebird_UIBDataSet_Last(env: PJNIEnv; this: jobject);
 procedure Java_zeljus_com_firebird_UIBDataSet_setRecNo(env: PJNIEnv; this: jobject; RecNo: jint); {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 function  Java_zeljus_com_firebird_UIBDataSet_getRecNo(env: PJNIEnv; this: jobject): jint; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 
-function  Java_zeljus_com_firebird_UIBDataSet_RecordCount(env: PJNIEnv; this: jobject): jint; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
-
 function  Java_zeljus_com_firebird_UIBDataSet_FieldCount(env: PJNIEnv; this: jobject): jint; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
+function  Java_zeljus_com_firebird_UIBDataSet_FieldName(env: PJNIEnv; this: jobject; FieldNo: jint): jString; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 
+function  Java_zeljus_com_firebird_UIBDataSet_RecordCount(env: PJNIEnv; this: jobject): jint; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 function  Java_zeljus_com_firebird_UIBDataSet_getAsString(env: PJNIEnv; this: jobject; FieldNo: jint): jString; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 function  Java_zeljus_com_firebird_UIBDataSet_getAsInteger(env: PJNIEnv; this: jobject; FieldNo: jint): jint; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 procedure Java_zeljus_com_firebird_UIBDataSet_setAsString(env: PJNIEnv; this: jobject; FieldNo: jint; Value: JString); {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
+procedure Java_zeljus_com_firebird_UIBDataSet_setAsInteger(env: PJNIEnv; this: jobject; FieldNo: jint; Value: JInt); {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 
 //Opste
 function JNI_JStringToString(env: PJNIEnv; JStr: JString): string;
@@ -225,6 +226,11 @@ begin
   Result := ZCUIBDataSet.FieldCount;
 end;
 
+function Java_zeljus_com_firebird_UIBDataSet_FieldName(env: PJNIEnv; this: jobject; FieldNo: jint): jString; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
+begin
+    Result := JNI_StringToJString(env,ZCUIBDataSet.Fields[FieldNo].FieldName );
+end;
+
 function Java_zeljus_com_firebird_UIBDataSet_getAsString(env: PJNIEnv; this: jobject; FieldNo: jint): jString; {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 begin
   Result := JNI_StringToJString(env,ZCUIBDataSet.Fields[FieldNo].AsString );
@@ -238,6 +244,11 @@ end;
 procedure Java_zeljus_com_firebird_UIBDataSet_setAsString(env: PJNIEnv; this: jobject; FieldNo: jint; Value: JString); {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 begin
   ZCUIBDataSet.Fields[FieldNo].AsString:= JNI_JStringToString(env, Value);
+end;
+
+procedure Java_zeljus_com_firebird_UIBDataSet_setAsInteger(env: PJNIEnv; this: jobject; FieldNo: jint; Value: JInt); {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
+begin
+  ZCUIBDataSet.Fields[FieldNo].AsInteger :=  Value;
 end;
 
 

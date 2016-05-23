@@ -29,7 +29,10 @@ final public class UIBDataSet
     public static native void setRecNo(long RecNo);
 
     public static native long FieldCount();
+    public static native String FieldName(long FieldNo);
+
     public static native long RecordCount();
     public static native String getAsString(long FieldNo);
     public static native void setAsString(long FieldNo, String Value);
+    public static native void setAsInteger(long FieldNo, long Value);
 }

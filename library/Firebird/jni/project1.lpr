@@ -40,10 +40,13 @@ exports
   Java_zeljus_com_firebird_UIBDataSet_setRecNo,
 
   Java_zeljus_com_firebird_UIBDataSet_FieldCount,
+  Java_zeljus_com_firebird_UIBDataSet_FieldName,
+
   Java_zeljus_com_firebird_UIBDataSet_RecordCount,
   Java_zeljus_com_firebird_UIBDataSet_getAsString,
   Java_zeljus_com_firebird_UIBDataSet_getAsInteger,
-  Java_zeljus_com_firebird_UIBDataSet_setAsString
+  Java_zeljus_com_firebird_UIBDataSet_setAsString,
+  Java_zeljus_com_firebird_UIBDataSet_setAsInteger
 
 ;
 

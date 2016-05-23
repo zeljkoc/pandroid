@@ -27,8 +27,10 @@
     class function getRecNo(): jlong; static; overload;
     class procedure setRecNo(para1: jlong); static; overload;
     class function FieldCount(): jlong; static; overload;
+    class function FieldName(para1: jlong): JLString; static; overload;
     class function RecordCount(): jlong; static; overload;
     class function getAsString(para1: jlong): JLString; static; overload;
     class procedure setAsString(para1: jlong; para2: JLString); static; overload;
+    class procedure setAsInteger(para1: jlong; para2: jlong); static; overload;
   end;
 

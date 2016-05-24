@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiLanguage</string>
+
+    <!-- TextView Rec  -->
+	<string name="Rec">Hello world! res/values </string>
+</resources>

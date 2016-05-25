@@ -11,7 +11,7 @@ library project1;
 
 {$mode objfpc}{$H+}
 
-uses jni, zcFirebird;
+uses jni, zcFirebird, JNIUtils;
 
 exports
   //UIBDataBase

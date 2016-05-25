@@ -11,7 +11,8 @@ unit zcFirebird;
 interface
 
 uses jni, Classes, sysutils,
-     uib, uiblib, uibdataset;
+     uib, uiblib, uibdataset,
+     JNIUtils;
 
 
 var
@@ -53,9 +54,6 @@ function  Java_zeljus_com_firebird_UIBDataSet_getAsInteger(env: PJNIEnv; this: j
 procedure Java_zeljus_com_firebird_UIBDataSet_setAsString(env: PJNIEnv; this: jobject; FieldNo: jint; Value: JString); {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 procedure Java_zeljus_com_firebird_UIBDataSet_setAsInteger(env: PJNIEnv; this: jobject; FieldNo: jint; Value: JInt); {$ifdef mswindows}stdcall;{$else}cdecl;{$endif}
 
-//Opste
-function JNI_JStringToString(env: PJNIEnv; JStr: JString): string;
-function JNI_StringToJString(env: PJNIEnv; Str: string): jstring;
 
 implementation
 
@@ -253,34 +251,6 @@ end;
 
 
 
-//Opste
-function JNI_JStringToString(env: PJNIEnv; JStr: JString): string;
-var
-  pAnsiCharTMP: pAnsiChar;
-  pIsCopy: Byte;
-begin
-   // IsCopy := JNI_TRUE;
-
-    if (JStr = nil) then begin
-      Result := '';
-      Exit;
-    end;
-
-     pAnsiCharTMP := env^^.GetStringUTFChars(env, JStr, @pIsCopy);
-
-    if (pAnsiCharTMP = nil) then begin
-      Result := '';
-    end else begin
-      Result := StrPas(pAnsiCharTMP); //Return the result;
-       //Release the temp string
-      Env^^.ReleaseStringUTFChars(env, JStr, pAnsiCharTMP);
-    end;
-end;
-
-function JNI_StringToJString(env: PJNIEnv; Str: string): jstring;
-begin
-    Result := env^^.NewStringUTF(env, @Str[1]);
-end;
 
 
 end.

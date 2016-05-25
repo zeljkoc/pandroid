@@ -133,7 +133,7 @@ install:
         <PackageName Value="bs_Utils"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -142,6 +142,10 @@ install:
         <Filename Value="zcFirebird.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -152,7 +156,7 @@ install:
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <Libraries Value="/usr/local/codetyphon/binLibraries/android-4.0-api14-arm/"/>
-      <OtherUnitFiles Value="/usr/local/codetyphon/fpcsrc/packages/jni/src/;/usr/local/codetyphon/typhon/components/pl_UIB/source/"/>
+      <OtherUnitFiles Value="/usr/local/codetyphon/fpcsrc/packages/jni/src/;/usr/local/codetyphon/typhon/components/pl_UIB/source/;../../Lazarus/jni"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>

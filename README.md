@@ -28,5 +28,8 @@ or
 
 $: sh build_debug_apk.sh 
 
+YOUTUBE
+https://www.youtube.com/watch?v=ZHlzS15Jy9k&feature=youtu.be
+
 
 

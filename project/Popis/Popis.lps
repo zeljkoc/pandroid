@@ -8,7 +8,6 @@
         <Filename Value="Popis.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="142"/>
         <CursorPos X="64" Y="79"/>
         <UsageCount Value="220"/>
         <Loaded Value="True"/>
@@ -109,7 +108,7 @@
       <Unit13>
         <Filename Value="android/build_debug_apk.sh"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="45" Y="11"/>
+        <CursorPos X="17" Y="32"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>

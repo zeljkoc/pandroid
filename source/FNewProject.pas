@@ -329,7 +329,7 @@ begin
      lFile.Add('');
     // lFile.Add('sleep 1');
      lFile.Add('');
-     lFile.Add('adb unistall '+AProject.gJavaPackageName);
+     lFile.Add('adb shell pm uninstall -k '+AProject.gJavaPackageName);
      lFile.Add('adb install -r $PROJECT'+ PathDelim +AProject.gAppName+'.apk');
      lFile.Add('');
      lFile.Add('adb shell am start -n '+AProject.gJavaPackageName +PathDelim+ AProject.gJavaPackageName+'.MainActivity');

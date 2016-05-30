@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Demo3DCube" default="help">
+<property name="java.target" value="1.6" />
+<property name="java.source" value="1.6" />
+<property file="project.properties" />
+<property file="ant.properties" />
+<path id="android.antlibs">
+<pathelement path="${sdk.dir}/tools/lib/anttasks.jar" />
+<pathelement path="${sdk.dir}/tools/lib/sdklib.jar" />
+<pathelement path="${sdk.dir}/tools/lib/androidprefs.jar" />
+</path>
+<import file="${sdk.dir}/tools/ant/build.xml" />
+
+</project>

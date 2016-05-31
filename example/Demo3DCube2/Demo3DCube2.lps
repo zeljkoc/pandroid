@@ -16,7 +16,8 @@
         <Filename Value="MyView.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="3" Y="10"/>
+        <TopLine Value="21"/>
+        <CursorPos X="73" Y="45"/>
         <UsageCount Value="28"/>
         <Loaded Value="True"/>
       </Unit1>

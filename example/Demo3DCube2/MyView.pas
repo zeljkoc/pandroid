@@ -42,7 +42,7 @@ type
 					JMKOGL10.GL_LINEAR
 					);
             fogColorLength = 3;
-	    fogColor:array[0..fogColorLength] of jfloat = (0.5, 0.5, 0.5, 1.0);
+	    fogColor:array[0..fogColorLength] of jfloat = (0.1, 0.1, 0.1, 1.0);
 	    {
 	     * The initial light values for ambient and diffuse
 	     * as well as the light position

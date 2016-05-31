@@ -248,8 +248,9 @@ procedure MyGLRenderer.onDrawFrame(gl: JMKOGL10);
 
 begin
   //Clear Screen And Depth Buffer
-  gl.glClear(JMKOGL10.GL_COLOR_BUFFER_BIT);
   gl.glClear(JMKOGL10.GL_DEPTH_BUFFER_BIT);
+  gl.glClear(JMKOGL10.GL_COLOR_BUFFER_BIT);
+
   gl.glLoadIdentity();				//Reset The Current Modelview Matrix
 
   //Check if the light flag has been set to enable/disable lighting

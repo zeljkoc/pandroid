@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="ReadGPS.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="54" Y="6"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../units/androidr15.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1968"/>
+        <CursorPos X="18" Y="2003"/>
+        <UsageCount Value="20"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="maps.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="70" Y="164"/>
+        <UsageCount Value="8"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="maps.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="6"/>
+        <UsageCount Value="8"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53710"/>
+        <CursorPos X="29" Y="53751"/>
+        <UsageCount Value="19"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="44" Y="4"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="22" HistoryIndex="21">
+      <Position1>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="41" Column="36" TopLine="6"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="44" Column="45" TopLine="6"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="43" Column="12" TopLine="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="26" Column="34" TopLine="9"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="28" Column="81" TopLine="5"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="35" Column="36" TopLine="7"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="36" Column="71" TopLine="14"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="90" Column="58" TopLine="59"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="44" Column="49" TopLine="30"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="90" Column="57" TopLine="57"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="93" Column="25" TopLine="69"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="106" Column="30" TopLine="69"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="89" Column="20" TopLine="69"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="88" Column="21" TopLine="66"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="44" Column="48" TopLine="22"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="55" Column="67" TopLine="32"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="192" Column="79" TopLine="157"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="55" Column="47" TopLine="34"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="140" TopLine="121"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="160" Column="45" TopLine="141"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="135" Column="9" TopLine="127"/>
+      </Position21>
+      <Position22>
+        <Filename Value="ReadGPS.lpr"/>
+        <Caret Line="58" Column="26" TopLine="38"/>
+      </Position22>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

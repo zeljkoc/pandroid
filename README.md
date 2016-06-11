@@ -29,9 +29,7 @@ or
 $: sh build_debug_apk.sh 
 
 YOUTUBE
-<iframe width="854" height="480" src="https://www.youtube.com/watch?v=ZHlzS15Jy9k" frameborder="0" allowfullscreen></iframe>
 
-
-
+[![Everything Is AWESOME](https://i.ytimg.com/vi/ZHlzS15Jy9k/hqdefault.jpg)](https://www.youtube.com/watch?v=ZHlzS15Jy9k "Everything Is AWESOME")
 
 

@@ -29,7 +29,9 @@ or
 $: sh build_debug_apk.sh 
 
 YOUTUBE
-https://www.youtube.com/watch?v=ZHlzS15Jy9k
+<iframe width="854" height="480" src="https://www.youtube.com/watch?v=ZHlzS15Jy9k" frameborder="0" allowfullscreen></iframe>
+
+
 
 
 

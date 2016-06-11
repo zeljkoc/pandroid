@@ -29,7 +29,6 @@ or
 $: sh build_debug_apk.sh 
 
 YOUTUBE
-[![Everything Is AWESOME](https://www.youtube.com/watch?v=ZHlzS15Jy9k)]
 (https://www.youtube.com/watch?v=ZHlzS15Jy9k "Everything Is AWESOME")
 
 

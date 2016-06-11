@@ -29,7 +29,13 @@ or
 $: sh build_debug_apk.sh 
 
 YOUTUBE
-(https://www.youtube.com/watch?v=ZHlzS15Jy9k "Everything Is AWESOME")
+<object width="425" height="350">
+  <param name="movie" value="https://www.youtube.com/watch?v=ZHlzS15Jy9k" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://www.youtube.com/watch?v=ZHlzS15Jy9k"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
 
 
 

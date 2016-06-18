@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="ProgressBar.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="58" Y="6"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../units/androidr15.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12035"/>
+        <CursorPos X="17" Y="12073"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17384"/>
+        <CursorPos X="27" Y="17419"/>
+        <UsageCount Value="11"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="48" Y="4"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="18" Column="14" TopLine="10"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="27" Column="10" TopLine="13"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="26" Column="25" TopLine="5"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="22" Column="42" TopLine="5"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="24" Column="5"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="35" Column="29" TopLine="12"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="36" Column="32" TopLine="28"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="110" Column="35" TopLine="76"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="122" Column="30" TopLine="89"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="29" Column="68" TopLine="24"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="84" Column="8" TopLine="49"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="80" Column="9" TopLine="49"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -343,7 +343,7 @@ begin
         SQL := SQL.concat(JLString.CopyValueOf(JLString(Text).toCharArray, 0, JLString(Text).length-0));
 
      SQL := SQL.concat(string('%") ')).concat(' order by ').concat(' SUBSTR(UPPER(').
-             concat(FLookupResultField).concat(') , ').concat(JLInteger.toString(Length(Text)+1)).concat(', 1 ) ');
+             concat(FLookupResultField).concat(') , ').concat(JLInteger.toString(Length(Text)+1)).concat(', 1 ) ') ;
 
      if FSQLDatabase.isopen then
         FCursor := FSQLDatabase.rawQuery(SQL, nil);
@@ -392,24 +392,24 @@ begin
   //----------------------------------------------
   try
      SQL := FSQL.concat(' where').concat(FWhere.toString).concat(' (UPPER(').concat(FLookupResultField).concat(') LIKE "').concat(JLString(Text)).concat('%") ').
-               concat(' order by ').concat(FLookupResultField);
+               concat(' order by ').concat(FLookupResultField).concat(' ASC LIMIT 50 ');    //--- show max 50 row select data
 
      if FSQLDatabase.isopen then
          FCursor := FSQLDatabase.rawQuery(SQL, nil);
      FAdapter.Cursor := FCursor;
 
-     setCaption(FCaption);
+    // setCaption(FCaption);
    except
    end;
 
 end;
 
 procedure AZCLookUpSQLDialog.setCaption(aCaption: String);
-var
-   Broj: string;
+{var
+   Broj: string;  }
 begin
-    Broj := JLInteger.toString(FCursor.getCount);
-    self.setTitle(JLString(aCaption).concat(': <').concat(Broj).concat(String('>')));
+    //Broj := JLInteger.toString(FCursor.getCount);
+    self.setTitle(JLString(aCaption)); //.concat(': <').concat(Broj).concat(String('>')));
     FCaption := aCaption;
 end;
 

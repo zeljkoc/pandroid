@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="DemoToolBar.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="38"/>
+        <CursorPos X="25" Y="68"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="AZCToolBar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="18" Y="114"/>
+        <UsageCount Value="38"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../units/AZCAdapters.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <UsageCount Value="8"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../units/AZCScrollButons.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="27" Y="75"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56171"/>
+        <CursorPos X="5" Y="56190"/>
+        <UsageCount Value="18"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../units/AZCForms.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../units/AZCDialogs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="318"/>
+        <CursorPos X="7" Y="325"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../units/AZCToolBar.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="36" Y="4"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="14" HistoryIndex="13">
+      <Position1>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="18" Column="50"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="68" Column="12" TopLine="47"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="52" Column="27" TopLine="42"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="18" Column="52" TopLine="3"/>
+      </Position4>
+      <Position5>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="32" Column="9" TopLine="3"/>
+      </Position5>
+      <Position6>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="47" Column="11" TopLine="17"/>
+      </Position6>
+      <Position7>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="48" Column="16" TopLine="17"/>
+      </Position7>
+      <Position8>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="49" Column="32" TopLine="17"/>
+      </Position8>
+      <Position9>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="50" Column="34" TopLine="17"/>
+      </Position9>
+      <Position10>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="51" Column="38" TopLine="17"/>
+      </Position10>
+      <Position11>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="52" Column="28" TopLine="17"/>
+      </Position11>
+      <Position12>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="60" Column="14" TopLine="25"/>
+      </Position12>
+      <Position13>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="18" Column="42"/>
+      </Position13>
+      <Position14>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="6" Column="46"/>
+      </Position14>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -8,9 +8,9 @@
         <Filename Value="DemoToolBar.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="38"/>
-        <CursorPos X="25" Y="68"/>
-        <UsageCount Value="38"/>
+        <TopLine Value="5"/>
+        <CursorPos X="14" Y="80"/>
+        <UsageCount Value="39"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,7 +19,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="90"/>
         <CursorPos X="18" Y="114"/>
-        <UsageCount Value="38"/>
+        <UsageCount Value="39"/>
       </Unit1>
       <Unit2>
         <Filename Value="../../units/AZCAdapters.pas"/>
@@ -55,17 +55,16 @@
       </Unit6>
       <Unit7>
         <Filename Value="../../units/AZCToolBar.pas"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="4"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="79" Y="15"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="android/build_debug_apk.sh"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="36" Y="4"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit8>
     </Units>

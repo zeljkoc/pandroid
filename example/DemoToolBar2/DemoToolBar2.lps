@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="41"/>
+        <CursorPos X="5" Y="53"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../units/AZCToolBar.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="13" Y="128"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <Caret Line="31" Column="33" TopLine="17"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <Caret Line="58" Column="29" TopLine="6"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <Caret Line="72" Column="39" TopLine="54"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <Caret Line="18" Column="41" TopLine="9"/>
+      </Position4>
+      <Position5>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <Caret Line="70" Column="75" TopLine="43"/>
+      </Position5>
+      <Position6>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <Caret Line="75" Column="86" TopLine="49"/>
+      </Position6>
+      <Position7>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <Caret Line="70" Column="102" TopLine="44"/>
+      </Position7>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

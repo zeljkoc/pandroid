@@ -44,7 +44,7 @@ type
     function add(para1: JLObject): jboolean; overload; virtual;
     procedure Clear;
   public
-
+    property Items: JUArrayList read FItems;
   end;
 
 implementation

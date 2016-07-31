@@ -7,7 +7,6 @@
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos X="33" Y="4"/>
         <UsageCount Value="388"/>
         <Loaded Value="True"/>
@@ -15,7 +14,9 @@
       <Unit1>
         <Filename Value="insertRecord.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
+        <TopLine Value="197"/>
         <CursorPos X="73" Y="292"/>
         <UsageCount Value="382"/>
         <Loaded Value="True"/>

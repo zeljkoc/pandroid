@@ -7,7 +7,7 @@ unit Rjava;
 
 {$mode objfpc}{$H+}
 {$modeswitch unicodestrings}
-{$namespace com.zeljus.mydatabase}
+{$namespace #JavaPackageName#}
 
 interface
 

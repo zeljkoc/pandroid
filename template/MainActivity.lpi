@@ -45,8 +45,7 @@
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="#PANDROID#/units"/>
-      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
-      <SrcPath Value="/usr/local/codetyphon/fpc/fpc64/units/jvm-android/rtl/;/usr/local/codetyphon/fpc/fpc64/units/jvm-android/rtl/org/freepascal/rtl/"/>
+      <UnitOutputDirectory Value="#ProjectDir#/android/bin/classes"/>    
     </SearchPaths>
     <CodeGeneration>
       <TargetCPU Value="jvm"/>

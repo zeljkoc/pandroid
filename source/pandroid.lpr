@@ -12,7 +12,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms,  mainform, FNewProject
+  Forms,  mainform, FNewProject, MainUnit
   { you can add units after this };
 
 {$R *.res}

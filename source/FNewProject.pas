@@ -10,53 +10,16 @@ unit FNewProject;
 
 interface
 uses
-  Classes, SysUtils, FileUtil, Forms, dialogs;
+  Classes, SysUtils, FileUtil, Forms, dialogs, MainUnit;
 
-type
-   TAProject = record
-       gProjectDir: String;
-       gJavaPackageName: string;
-       gJavaProjectName: string;
-       gAndroidSDKDir: string;
-       gTarget: string;
-       gAppName: string;
-       gActivityName: String;
-    end;
-
-var
-  AProject : TAProject;
 
 procedure CreateNewAndroidProject;
 procedure BuildRJavaFiles(tAppName, tJavaPackageName, tRJava, tRJavaPAs: string);
 
-function Replace(S, Old, New: String): String;
 
 implementation
 
-function Replace(S, Old, New: String): String;
-var i: integer;
-begin
-  Result := '';
-  for i:=1 to Length(S) do begin
-     if S[i]=Old then Result := Result + New
-     else Result := Result + S[i];
-  end;
-end;
-
-function StringNameReplace(S: String): String;
-begin
- S :=  StringReplace(S, '#ProjectDir#',      AProject.gProjectDir,      [rfReplaceAll]);
- S :=  StringReplace(S, '#JavaPackageName#', AProject.gJavaPackageName, [rfReplaceAll]);
- S :=  StringReplace(S, '#JavaProjectName#', AProject.gJavaProjectName, [rfReplaceAll]);
- S :=  StringReplace(S, '#AndroidSDKDir#',   AProject.gAndroidSDKDir,   [rfReplaceAll]);
- S :=  StringReplace(S, '#Target#',          AProject.gTarget,          [rfReplaceAll]);
- S :=  StringReplace(S, '#AppName#',         AProject.gAppName,         [rfReplaceAll]);
- S :=  StringReplace(S, '#ActivityName#',    AProject.gActivityName,    [rfReplaceAll]);
- S :=  StringReplace(S, '#PANDROID#',        ExtractFileDir(Application.ExeName),    [rfReplaceAll]);
- S :=  StringReplace(S, '#DatumVreme#',      DateTimeToStr(now),        [rfReplaceAll]);
- Result := S;
-end;
-
+procedure AddJavaBuildXml(); forward;
 procedure AddJavaBuildFiles(); forward;
 procedure AddPasBuildFiles(); forward;
 procedure AddResFiles(); forward;
@@ -84,6 +47,9 @@ begin
    Str := StringReplace(AProject.gJavaPackageName, '.', PathDelim, [rfReplaceAll]);
    ForceDirectories(AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'src' + PathDelim + Str);
 
+   //New AndroidManifest.xml and build.xml
+   AddJavaBuildXml();
+
    // Now add the Java build files
    AddJavaBuildFiles();
 
@@ -102,14 +68,13 @@ begin
  end;
 end;
 
-procedure AddJavaBuildFiles;
+procedure AddJavaBuildXml();
 var
   lFile: TStringList;
   i: integer;
 begin
   lFile := TStringList.Create;
   try
-
     lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+'android'+PathDelim+ 'AndroidManifest.xml');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
@@ -123,6 +88,19 @@ begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
     lFile.SaveToFile(AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'build.xml');
+
+  finally
+    lFile.Free;
+  end;
+end;
+
+procedure AddJavaBuildFiles;
+var
+  lFile: TStringList;
+  i: integer;
+begin
+    lFile := TStringList.Create;
+  try
 
     lFile.Clear;
     lFile.Add('# Project target.');

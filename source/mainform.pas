@@ -18,20 +18,19 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
+    Button1: TButton;
     buttonGenerateHeaders1: TButton;
     buttonGenerateHeaders2: TButton;
     buttonNewProject: TButton;
+    eTarget: TComboBox;
     eAppName: TEdit;
     eAndroidSDKDir: TDirectoryEdit;
     eJavaPackageName: TEdit;
-    eJavaProjectName: TEdit;
     eProjectDir: TDirectoryEdit;
-    eTarget: TDirectoryEdit;
     GroupBox1: TGroupBox;
     GroupBox2: TGroupBox;
     Label1: TLabel;
     Label11: TLabel;
-    Label5: TLabel;
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
@@ -54,7 +53,7 @@ var
 implementation
 
 {$R *.lfm}
-uses FNewProject, Inifiles, process;
+uses FNewProject, Inifiles, process, MainUnit;
 
 { TForm1 }
 
@@ -86,9 +85,8 @@ begin
    IniFile := TIniFile.Create(ChangeFileExt(Application.ExeName, '.ini'));
    try
      eJavaPackageName.Text   := IniFile.ReadString('pandroid', 'JavaPackageName', 'zeljus.com.button');
-     eJavaProjectName.Text   := IniFile.ReadString('pandroid', 'JavaProjectName', 'ButtonTest');
      eAppName.Text           := IniFile.ReadString('pandroid', 'AppName', 'Button');
-     eProjectDir.Text        := IniFile.ReadString('pandroid', 'ProjectDir', '/home/zeljko/RAZVOJ/Android/Projekti/TEMP');
+     eProjectDir.Text        := IniFile.ReadString('pandroid', 'ProjectDir', '/usr/local/pandroid/example');
 
      eAndroidSDKDir.Text     := IniFile.ReadString('pandroid', 'AndroidSDKDir', '/usr/local/pandroid/sdk');
      eTarget.Text            := IniFile.ReadString('pandroid', 'Target', 'android-15');
@@ -108,7 +106,6 @@ begin
   IniFile := TIniFile.Create(ChangeFileExt(Application.ExeName, '.ini'));
   try
      IniFile.WriteString('pandroid', 'JavaPackageName', eJavaPackageName.Text);
-     IniFile.WriteString('pandroid', 'JavaProjectName', eJavaProjectName.Text);
      IniFile.WriteString('pandroid', 'AppName',         eAppName.Text);
      IniFile.WriteString('pandroid', 'ProjectDir',      eProjectDir.Text);
 
@@ -123,7 +120,6 @@ procedure TForm1.EditToAProject;
 begin
   with AProject do begin
     gJavaPackageName    := eJavaPackageName.Text;
-    gJavaProjectName    := eJavaProjectName.Text;
     gAppName            := eAppName.Text;
     gProjectDir         := eProjectDir.Text;
     gAndroidSDKDir      := eAndroidSDKDir.Text;

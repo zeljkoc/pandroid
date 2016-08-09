@@ -1,25 +1,26 @@
 object Form1: TForm1
   Left = 343
-  Height = 221
+  Height = 241
   Top = 206
   Width = 929
   Caption = 'Pandroid'
-  ClientHeight = 221
+  ClientHeight = 241
   ClientWidth = 929
   OnCreate = FormCreate
   LCLVersion = '5.7'
   object GroupBox1: TGroupBox
     Left = 0
-    Height = 128
+    Height = 120
     Top = 1
     Width = 752
-    ClientHeight = 124
+    Caption = 'New projects'
+    ClientHeight = 103
     ClientWidth = 748
     TabOrder = 0
     object Label1: TLabel
-      Left = 37
+      Left = 35
       Height = 15
-      Top = 16
+      Top = 18
       Width = 133
       Caption = 'Java Package Name:'
       ParentColor = False
@@ -33,26 +34,10 @@ object Form1: TForm1
       TabOrder = 0
       Text = 'com.zeljus.button'
     end
-    object Label5: TLabel
-      Left = 46
-      Height = 15
-      Top = 40
-      Width = 123
-      Caption = 'Android app name:'
-      ParentColor = False
-    end
-    object eJavaProjectName: TEdit
-      Left = 176
-      Height = 25
-      Top = 32
-      Width = 200
-      TabOrder = 1
-      Text = 'ButtonTest'
-    end
     object Label6: TLabel
       Left = 87
       Height = 15
-      Top = 88
+      Top = 82
       Width = 81
       Caption = 'Project Path:'
       ParentColor = False
@@ -60,20 +45,20 @@ object Form1: TForm1
     object eProjectDir: TDirectoryEdit
       Left = 176
       Height = 25
-      Top = 80
+      Top = 72
       Width = 560
       Directory = '/home/zeljko/RAZVOJ/Android/Projekti/TEMP/'
       ShowHidden = False
       ButtonWidth = 23
       NumGlyphs = 1
       MaxLength = 0
-      TabOrder = 2
+      TabOrder = 1
       Text = '/home/zeljko/RAZVOJ/Android/Projekti/TEMP/'
     end
     object Label8: TLabel
-      Left = 51
+      Left = 48
       Height = 15
-      Top = 64
+      Top = 50
       Width = 120
       Caption = 'Application Name:'
       ParentColor = False
@@ -81,45 +66,33 @@ object Form1: TForm1
     object eAppName: TEdit
       Left = 176
       Height = 25
-      Top = 56
+      Top = 40
       Width = 200
-      TabOrder = 3
+      TabOrder = 2
       Text = 'Button'
     end
   end
   object GroupBox2: TGroupBox
     Left = 0
-    Height = 89
-    Top = 112
+    Height = 96
+    Top = 136
     Width = 752
-    ClientHeight = 85
+    Caption = 'Options'
+    ClientHeight = 79
     ClientWidth = 748
     TabOrder = 1
     object Label11: TLabel
-      Left = 51
+      Left = 47
       Height = 15
-      Top = 64
+      Top = 52
       Width = 121
       Caption = 'APK SDK Platform:'
       ParentColor = False
     end
-    object eTarget: TDirectoryEdit
-      Left = 176
-      Height = 25
-      Top = 56
-      Width = 560
-      Directory = 'android-14'
-      ShowHidden = False
-      ButtonWidth = 23
-      NumGlyphs = 1
-      MaxLength = 0
-      TabOrder = 0
-      Text = 'android-14'
-    end
     object Label7: TLabel
       Left = 51
       Height = 15
-      Top = 34
+      Top = 16
       Width = 117
       Caption = 'Android SDK Path:'
       ParentColor = False
@@ -127,21 +100,37 @@ object Form1: TForm1
     object eAndroidSDKDir: TDirectoryEdit
       Left = 176
       Height = 25
-      Top = 27
+      Top = 6
       Width = 560
       Directory = '/home/zeljko/RAZVOJ/Android/android-sdk-linux'
       ShowHidden = False
       ButtonWidth = 23
       NumGlyphs = 1
       MaxLength = 0
-      TabOrder = 1
+      TabOrder = 0
       Text = '/home/zeljko/RAZVOJ/Android/android-sdk-linux'
+    end
+    object eTarget: TComboBox
+      Left = 176
+      Height = 27
+      Top = 40
+      Width = 348
+      ItemHeight = 0
+      ItemIndex = 0
+      Items.Strings = (
+        'android-15'
+        'android-16'
+        'android-17'
+        'android-18'
+      )
+      TabOrder = 1
+      Text = 'android-15'
     end
   end
   object buttonGenerateHeaders2: TButton
     Left = 760
     Height = 25
-    Top = 176
+    Top = 200
     Width = 152
     Caption = 'E&xit'
     OnClick = buttonGenerateHeaders2Click
@@ -150,7 +139,7 @@ object Form1: TForm1
   object buttonGenerateHeaders1: TButton
     Left = 760
     Height = 25
-    Top = 40
+    Top = 168
     Width = 152
     Caption = '&Save ini file'
     OnClick = buttonGenerateHeaders1Click
@@ -164,5 +153,13 @@ object Form1: TForm1
     Caption = '&Create new Project'
     OnClick = buttonNewProjectClick
     TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 760
+    Height = 24
+    Top = 40
+    Width = 152
+    Caption = 'Create new unit'
+    TabOrder = 5
   end
 end

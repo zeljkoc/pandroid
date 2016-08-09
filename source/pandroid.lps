@@ -19,7 +19,7 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="41"/>
+        <TopLine Value="89"/>
         <CursorPos X="87" Y="99"/>
         <UsageCount Value="169"/>
         <Loaded Value="True"/>
@@ -34,26 +34,6 @@
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
-        <Filename Value="../../Projekti/TEMP/Button.pas"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="39" Y="15"/>
-        <UsageCount Value="4"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="../../../lib/codetyphon/fpcsrc/rtl/android/jvm/androidr14.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="11739"/>
-        <CursorPos X="56" Y="11754"/>
-        <UsageCount Value="10"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="../../../p4a/Projekti/PDAProdajaKumalBlagajna/src/fBlagajna.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="205"/>
-        <CursorPos X="22" Y="222"/>
-        <UsageCount Value="10"/>
-      </Unit5>
-      <Unit6>
         <Filename Value="MainUnit.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
@@ -61,6 +41,26 @@
         <CursorPos X="66" Y="18"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../Projekti/TEMP/Button.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="39" Y="15"/>
+        <UsageCount Value="4"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../lib/codetyphon/fpcsrc/rtl/android/jvm/androidr14.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11739"/>
+        <CursorPos X="56" Y="11754"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../p4a/Projekti/PDAProdajaKumalBlagajna/src/fBlagajna.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="205"/>
+        <CursorPos X="22" Y="222"/>
+        <UsageCount Value="10"/>
       </Unit6>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">

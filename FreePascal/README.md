@@ -1,4 +1,4 @@
-# pandroid
+# Pandroid
 
 OS: Debina 8.5 32 bit LXDE
 

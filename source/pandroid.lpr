@@ -27,9 +27,9 @@ begin
      BuildRJavaFiles(ParamStr(2), ParamStr(3), ParamStr(4), ParamStr(5));
   end else
 
-  if (Paramcount = 5) and (ParamStr(1) = 'B') then
-             //ACompPath,    AProjPath,  AJavaPackageName, AProjFile
-     Build_Apk(ParamStr(2), ParamStr(3), ParamStr(4),      ParamStr(5)) //Build apk
+  if (Paramcount = 6) and (ParamStr(1) = 'B') then
+             //ACompPath,    AProjPath,  AJavaPackageName, AProjFile  , AFPCSrcDir
+     Build_Apk(ParamStr(2), ParamStr(3), ParamStr(4),      ParamStr(5), ParamStr(6)) //Build apk
 
   else
 

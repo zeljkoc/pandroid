@@ -67,7 +67,7 @@
     <Other>
       <CompilerPath Value="$(CompPath) "/>
       <ExecuteBefore>
-        <Command Value="$(PANDROID) B $(CompPath) $(ProjPath) $(JavaPackageName) $(ProjFile)"/>
+        <Command Value="$(PANDROID) B $(CompPath) $(ProjPath) $(JavaPackageName) $(ProjFile) $(FPCSrcDir)"/>
       </ExecuteBefore>
     </Other>
     <CompileReasons Build="False"/>

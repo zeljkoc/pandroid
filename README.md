@@ -1,4 +1,4 @@
-# pandroid
+# Pandroid
 
 # Create Android application from FreePascal JVM 
 

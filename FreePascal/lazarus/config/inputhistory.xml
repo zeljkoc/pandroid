@@ -2,10 +2,11 @@
 <CONFIG>
   <InputHistory>
     <Version Value="1"/>
-    <FileDialog InitialDir="/home/zeljko/Android/DemoPrint/">
-      <HistoryList Count="2">
-        <Item1 Value="/home/zeljko/Android/DemoPrint/"/>
-        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/"/>
+    <FileDialog InitialDir="/usr/local/pandroid/source/">
+      <HistoryList Count="3">
+        <Item1 Value="/usr/local/pandroid/source/"/>
+        <Item2 Value="/home/zeljko/Android/DemoPrint/"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/"/>
       </HistoryList>
     </FileDialog>
   </InputHistory>

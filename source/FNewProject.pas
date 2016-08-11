@@ -14,7 +14,7 @@ uses
 
 
 procedure CreateNewAndroidProject;
-procedure Build_Apk(ACompPath, AProjPath, AJavaPackageName, AProjFile: String);
+procedure Build_Apk(ACompPath, AProjPath, AJavaPackageName, AProjFile, AFPCSrcDir: String);
 
 
 procedure BuildRJavaFiles(tAppName, tJavaPackageName, tRJava, tRJavaPAs: string);
@@ -73,7 +73,7 @@ begin
  end;
 end;
 
-procedure Build_Apk(ACompPath, AProjPath, AJavaPackageName,  AProjFile: String);
+procedure Build_Apk(ACompPath, AProjPath, AJavaPackageName,  AProjFile, AFPCSrcDir: String);
 var
   Str, Message: String;
   AProcess: TProcess;
@@ -126,11 +126,11 @@ begin
    Writeln('------------------- Compile ppcjvm ----------------------');
 
    AddJavaBuildFiles;
-   Str := Copy(ExtractFileDir(ACompPath), 1, Length(ExtractFileDir(ACompPath))- 4);
+   Str := AFPCSrcDir; //Copy(ExtractFileDir(ACompPath), 1, Length(ExtractFileDir(ACompPath))- 4);
 
    writeln(str);
 
-   if RunCommand( Str+'/bin/ppcjvm '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
+   if RunCommand(ACompPath+' '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
                                '-Fi'+Str+'/rtl/inc '+
                                '-Fi'+Str+'/rtl/jvm '+
                                '-Fi'+Str+'/rtl/java -FE. '+
@@ -140,7 +140,7 @@ begin
                                Writeln(Message) else begin Writeln('Error *********: '+ Message); Abort; end;
 
 
-   if RunCommand(Str+'/bin/ppcjvm '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
+   if RunCommand(ACompPath+' '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
                                '-Fi'+Str+'/rtl/inc '+
                                '-Fi'+Str+'/rtl/jvm '+
                                '-Fi'+Str+'/rtl/java -FE. '+
@@ -149,7 +149,7 @@ begin
                                Str+'/rtl/inc/uuchar.pp', Message) then
                                Writeln(Message) else begin Writeln('Error *********: '+ Message); Abort; end;
 
-  if RunCommand(Str+'/bin/ppcjvm '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
+  if RunCommand(ACompPath+' '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
                                '-Fi'+Str+'/rtl/inc '+
                                '-Fi'+Str+'/rtl/jvm '+
                                '-Fi'+Str+'/rtl/java -FE. '+
@@ -158,7 +158,7 @@ begin
                                Str+'/rtl/java/objpas.pp', Message) then
                                Writeln(Message) else begin Writeln('Error *********: '+ Message); Abort; end;
 
-  if RunCommand(Str+'/bin/ppcjvm '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
+  if RunCommand(ACompPath+' '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
                                '-Fi'+Str+'/rtl/inc '+
                                '-Fi'+Str+'/rtl/jvm '+
                                '-Fi'+Str+'/rtl/java -FE. '+

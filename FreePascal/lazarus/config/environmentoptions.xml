@@ -1,49 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <EnvironmentOptions>
-    <CompilerFilename Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc">
-      <History Count="4">
-        <Item1 Value="/usr/local/bin/fpc"/>
-        <Item2 Value="/usr/bin/fpc"/>
-        <Item3 Value="/opt/fpc/fpc"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc"/>
-      </History>
-    </CompilerFilename>
-    <LazarusDirectory Value="/usr/local/pandroid/FreePascal/lazarus">
-      <History Count="1">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/"/>
-      </History>
-    </LazarusDirectory>
     <Version Value="109" Lazarus="1.7"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/TestBarCode/TestBarCode.lpi" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
         <CreationColor Value="128"/>
       </Rubberband>
     </FormEditor>
-    <Recent AlreadyPopulated="True">
-      <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/source/pandroid.lpi"/>
-        <Item2 Value="/home/zeljko/Android/DemoPrint/DemoPrint.lpi"/>
-        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/examples/hello.lpi"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/examples/imagelist/project1.lpi"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/examples/openglcontrol/openglcontrol_demo.lpi"/>
-      </ProjectFiles>
-      <PackageFiles Count="1">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
-      </PackageFiles>
-      <OpenFiles Count="1">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
-      </OpenFiles>
-    </Recent>
-    <ExternalTools Version="3" Count="1">
-      <Tool1>
-        <Title Value="Pandroid"/>
-        <Filename Value="/usr/local/pandroid/pandroid"/>
-      </Tool1>
-    </ExternalTools>
-    <CharcaseFileAction Value="Ask"/>
-    <AutoSave ActiveDesktop="False" LastSavedProjectFile="/usr/local/pandroid/source/pandroid.lpi"/>
+    <LazarusDirectory Value="/usr/local/pandroid/FreePascal/lazarus">
+      <History Count="1">
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/"/>
+      </History>
+    </LazarusDirectory>
+    <CompilerFilename Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc">
+      <History Count="5">
+        <Item1 Value="/usr/local/bin/fpc"/>
+        <Item2 Value="/usr/bin/fpc"/>
+        <Item3 Value="/opt/fpc/fpc"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc"/>
+        <Item5 Value="$(CompPath)"/>
+      </History>
+    </CompilerFilename>
     <FPCSourceDirectory Value="/usr/local/pandroid/FreePascal/fpc">
       <History Count="2">
         <Item1 Value="/usr/local/pandroid/FreePascal/fpc"/>
@@ -63,6 +42,12 @@
         <Item3 Value="/var/tmp/"/>
       </History>
     </TestBuildDirectory>
+    <CompilerMessagesFilename>
+      <History Count="1">
+        <Item2 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
+        <Item1 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
+      </History>
+    </CompilerMessagesFilename>
     <LastCalledByLazarusFullPath Value="/usr/local/pandroid/FreePascal/lazarus/lazarus"/>
     <BackupProjectFiles AdditionalExtension="bak" MaxCounter="9" SubDirectory=""/>
     <BackupOtherFiles AdditionalExtension="bak" MaxCounter="9" SubDirectory=""/>
@@ -77,17 +62,34 @@
         <Item4 Value="/opt/fpc/gdb"/>
       </History>
     </DebuggerFilename>
-    <CompilerMessagesFilename>
-      <History Count="1">
-        <Item2 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
-        <Item1 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
-      </History>
-    </CompilerMessagesFilename>
     <DebuggerOptions>
       <ShowStopMessage Value="False"/>
     </DebuggerOptions>
+    <Recent AlreadyPopulated="True">
+      <OpenFiles Count="2">
+        <Item1 Value="/usr/local/pandroid/example/TestBarCode/android/build_debug_apk.sh"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
+      </OpenFiles>
+      <ProjectFiles Count="5">
+        <Item1 Value="/usr/local/pandroid/example/TestBarCode/TestBarCode.lpi"/>
+        <Item2 Value="/usr/local/pandroid/example/TestBarCode/TestBarCode.lpr"/>
+        <Item3 Value="/usr/local/pandroid/example/Vibrator/Vibrator.lpi"/>
+        <Item4 Value="/home/android/Proba/DemoPrint.lpi"/>
+        <Item5 Value="/usr/local/pandroid/source/pandroid.lpi"/>
+      </ProjectFiles>
+      <PackageFiles Count="1">
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
+      </PackageFiles>
+    </Recent>
+    <ExternalTools Version="3" Count="1">
+      <Tool1>
+        <Title Value="Pandroid"/>
+        <Filename Value="/usr/local/pandroid/pandroid"/>
+      </Tool1>
+    </ExternalTools>
+    <CharcaseFileAction Value="Ask"/>
   </EnvironmentOptions>
-  <ObjectInspectorOptions ShowHints="False" InfoBoxHeight="50" ShowStatusBar="False" ShowInfoBox="False">
+  <ObjectInspectorOptions ShowHints="False" ShowStatusBar="False" ShowInfoBox="False" InfoBoxHeight="50">
     <Version Value="3"/>
   </ObjectInspectorOptions>
   <Desktops Count="2" ActiveDesktop="default docked">

@@ -8,8 +8,6 @@
         <Filename Value="TestBarCode.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="196"/>
-        <CursorPos X="66" Y="146"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -35,18 +33,12 @@
       </Unit3>
       <Unit4>
         <Filename Value="android/build_debug_apk.sh"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="58" Y="15"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit4>
     </Units>
-    <JumpHistory Count="1">
-      <Position1>
-        <Filename Value="android/build_debug_apk.sh"/>
-        <Caret Line="16" Column="70" TopLine="7"/>
-      </Position1>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
   </ProjectSession>
 </CONFIG>

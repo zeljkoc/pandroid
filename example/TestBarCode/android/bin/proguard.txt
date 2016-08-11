@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:33
+-keep class org.achartengine.GraphicalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class zeljus.com.testbarcode.MainActivity { <init>(...); }
+

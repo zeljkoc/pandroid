@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:34
+-keep class org.achartengine.GraphicalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class zeljus.com.vibrator.MainActivity { <init>(...); }
+

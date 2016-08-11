@@ -1,6 +1,6 @@
 # pandroid
 
-# Create Android application from FreePascall JVM 
+# Create Android application from FreePascal JVM 
 
 Edit and build CodeTyphon http://www.pilotlogic.com
 

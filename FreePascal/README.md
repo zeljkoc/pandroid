@@ -27,7 +27,9 @@ Install:
 
 
  #: cd /usr/local
+ 
  #: git clone https://github.com/zeljkoc/pandroid.git
+ 
  #: chmod 0777 -R pandroid
 
 shortcut:

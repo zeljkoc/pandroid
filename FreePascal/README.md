@@ -28,6 +28,7 @@ Install:
  #: chmod 0777 -R pandroid
 
 shortcut:
+
 /usr/local/pandroid/FreePascal\Lazarus
 
 /usr/local/pandroid/pandroid

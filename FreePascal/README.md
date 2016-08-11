@@ -11,7 +11,7 @@ FrePasscal v. 3.1.1
 # Create Android application from FreePascal JVM 
 
 
-[![Everything Is AWESOME](https://i.ytimg.com/vi/75T2XKjF93M/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=68&sigh=qIkv3LdeDKlD22qFBLyovMhEbBk)](https://www.youtube.com/watch?v=75T2XKjF93M "Everything Is AWESOME")
+[![Everything Is AWESOME](https://i.ytimg.com/vi/75T2XKjF93M/1.jpg?time=1470919900701)](https://www.youtube.com/watch?v=75T2XKjF93M "Everything Is AWESOME")
 
 
 Install:

@@ -1,0 +1,248 @@
+#
+#   Makefile.fpc for Free Pascal Haiku RTL
+#
+
+[package]
+main=rtl
+
+[target]
+loaders=prt0 cprt0 dllcprt0 func dllprt
+units=system uuchar baseunix unixtype ctypes objpas macpas iso7185 extpas strings \
+#      beos \
+      errors dos dl \
+      sysconst sysutils \
+      types charset cpall character typinfo classes fgl math \
+      cpu mmx getopts heaptrc lineinfo lnfodwrf \
+      rtlconsts syscall unix unixutil termio initc \
+      cmem \
+      dynlibs cwstring cthreads \
+      fpintres unixcp fpwidestring
+rsts=math typinfo sysconst rtlconsts
+implicitunits=exeinfo \
+      cp1250 cp1251 cp1252 cp1253 cp1254 cp1255 cp1256 cp1257 cp1258 \
+      cp437 cp646 cp850 cp856 cp866 cp874 cp8859_1 cp8859_5 cp8859_2 cp852 \
+      unicodedata unicodenumtable
+
+[require]
+nortl=y
+
+[install]
+fpcpackage=y
+
+[default]
+fpcdir=../..
+target=haiku
+cpu=i386
+
+[compiler]
+includedir=$(INC) $(PROCINC) $(UNIXINC) $(CPU_TARGET) $(OSPROCINC) $(HAIKUINC)
+sourcedir=$(INC) $(PROCINC) $(UNIXINC) $(CPU_TARGET) $(HAIKUINC)
+targetdir=.
+
+[lib]
+libname=libfprtl.so
+libversion=2.0.0
+libunits=$(SYSTEMUNIT) objpas strings \
+      unix  \
+      dos \
+      sysutils typinfo math \
+      $(CPU_UNITS) getopts heaptrc \
+      errors dynlibs
+
+
+[prerules]
+RTL=..
+INC=$(RTL)/inc
+PROCINC=$(RTL)/$(CPU_TARGET)
+UNIXINC=$(RTL)/unix
+HAIKUINC=$(RTL)/haiku
+
+UNITPREFIX=rtl
+
+# Use new feature from 1.0.5 version
+# that generates release PPU files
+# which will not be recompiled
+ifdef RELEASE
+override FPCOPT+=-Ur
+endif
+
+override FPCOPT+= -dHASUNIX -n -dFPC_USE_LIBC -Si
+
+# Paths
+OBJPASDIR=$(RTL)/objpas
+GRAPHDIR=$(INC)/graph
+
+[rules]
+# Get the system independent include file names.
+# This will set the following variables :
+# SYSINCNAMES
+include $(INC)/makefile.inc
+SYSINCDEPS=$(addprefix $(INC)/,$(SYSINCNAMES))
+
+# Get the processor dependent include file names.
+# This will set the following variables :
+# CPUINCNAMES
+include $(PROCINC)/makefile.cpu
+SYSCPUDEPS=$(addprefix $(PROCINC)/,$(CPUINCNAMES))
+
+# Put system unit dependencies together.
+SYSDEPS=$(SYSINCDEPS) $(SYSCPUDEPS)
+SYSTEMUNIT=system
+
+#
+# Loaders
+#
+
+prt0$(OEXT) : $(CPU_TARGET)/prt0.as
+        $(AS) -o $(UNITTARGETDIRPREFIX)prt0$(OEXT) $(CPU_TARGET)/prt0.as
+
+cprt0$(OEXT) : $(CPU_TARGET)/cprt0.as
+        $(AS) -o $(UNITTARGETDIRPREFIX)cprt0$(OEXT) $(CPU_TARGET)/cprt0.as
+
+dllcprt0$(OEXT) : $(CPU_TARGET)/dllcprt0.as
+        $(AS) -o $(UNITTARGETDIRPREFIX)dllcprt0$(OEXT) $(CPU_TARGET)/dllcprt0.as
+
+func$(OEXT) : $(CPU_TARGET)/func.as
+        $(AS) -o $(UNITTARGETDIRPREFIX)func$(OEXT) $(CPU_TARGET)/func.as
+
+dllprt$(OEXT) : $(CPU_TARGET)/dllprt.as
+        $(AS) -o $(UNITTARGETDIRPREFIX)dllprt$(OEXT) $(CPU_TARGET)/dllprt.as
+
+#
+# system Units (system, Objpas, Strings)
+#
+
+system$(PPUEXT) : system.pp $(SYSDEPS) $(UNIXINC)/sysunixh.inc
+        $(COMPILER) -Us -Sg $(SYSTEMUNIT).pp
+
+uuchar$(PPUEXT): $(SYSTEMUNIT)$(PPUEXT) $(INC)/uuchar.pp
+
+objpas$(PPUEXT): $(OBJPASDIR)/objpas.pp $(INC)/except.inc $(SYSTEMUNIT)$(PPUEXT)
+        $(COMPILER) -Fi$(OBJPASDIR) $(OBJPASDIR)/objpas.pp
+
+strings$(PPUEXT) : $(INC)/strings.pp $(INC)/stringsi.inc \
+                   $(PROCINC)/strings.inc $(PROCINC)/stringss.inc \
+                   $(SYSTEMUNIT)$(PPUEXT)
+
+#
+# system Dependent Units
+#
+
+# beos$(PPUEXT) : beos.pp $(SYSTEMUNIT)$(PPUEXT)
+
+baseunix$(PPUEXT) : $(UNIXINC)/unixtype.pp $(SYSTEMUNIT)$(PPUEXT)
+        $(COMPILER) -Fi$(UNIXINC) -Fu$(UNIXINC) baseunix.pp
+
+unix$(PPUEXT) : $(UNIXINC)/unix.pp strings$(PPUEXT) $(INC)/textrec.inc $(INC)/filerec.inc \
+                 sysconst.inc $(UNIXINC)/timezone.inc \
+                 baseunix$(PPUEXT) $(SYSTEMUNIT)$(PPUEXT)
+
+linux$(PPUEXT) : baseunix$(PPUEXT) $(SYSTEMUNIT)$(PPUEXT)
+
+unixcp$(PPUEXT) : $(UNIXINC)/unixcp.pp $(SYSTEMUNIT)$(PPUEXT) objpas$(PPUEXT) baseunix$(PPUEXT)
+        $(COMPILER) $(UNIXINC)/unixcp.pp
+
+#
+# TP7 Compatible RTL Units
+#
+
+# dos$(PPUEXT) : dos.pp $(INC)/filerec.inc $(INC)/textrec.inc strings$(PPUEXT) \
+#               beos$(PPUEXT) system$(PPUEXT)
+
+dos$(PPUEXT) : $(UNIXINC)/dos.pp $(INC)/filerec.inc $(INC)/textrec.inc strings$(PPUEXT) \
+               unix$(PPUEXT) $(SYSTEMUNIT)$(PPUEXT)
+        $(COMPILER) -I$(INC) -Fu$(INC) $(UNIXINC)/dos.pp
+                       
+#
+# Delphi Compatible Units
+#
+
+sysutils$(PPUEXT) : sysutils.pp $(wildcard $(OBJPASDIR)/sysutils/*.inc) \
+                    objpas$(PPUEXT) $(OBJPASDIR)/sysconst$(PPUEXT) # beos$(PPUEXT)
+        $(COMPILER) -Fi$(OBJPASDIR)/sysutils -Fi$(UNIXINC) $(UNIXINC)/sysutils.pp
+
+classes$(PPUEXT) : classes.pp $(wildcard $(OBJPASDIR)/classes/*.inc) \
+                   sysutils$(PPUEXT) $(OBJPASDIR)/typinfo$(PPUEXT) types$(PPUEXT) $(OBJPASDIR)/rtlconsts$(PPUEXT) 
+#                   $(UNIXINC)/systhrd$(PPUEXT)
+        $(COMPILER) -Fi$(OBJPASDIR) -Fi$(OBJPASDIR)/classes classes.pp
+
+fgl$(PPUEXT) : $(OBJPASDIR)/fgl.pp objpas$(PPUEXT) types$(PPUEXT) system$(PPUEXT) sysutils$(PPUEXT)
+        $(COMPILER) $(OBJPASDIR)/fgl.pp
+
+typinfo$(PPUEXT): $(OBJPASDIR)/typinfo.pp objpas$(PPUEXT)
+        $(COMPILER) -Sg $(OBJPASDIR)/typinfo.pp
+
+# let it depend on buildcollations to prevent simultaneous building of unicodedata
+character$(PPUEXT): sysutils$(PPUEXT) $(OBJPASDIR)/character.pas objpas$(PPUEXT) rtlconsts$(PPUEXT)
+        $(COMPILER) $(OBJPASDIR)/character.pas
+
+math$(PPUEXT): $(OBJPASDIR)/math.pp objpas$(PPUEXT) sysutils$(PPUEXT)
+        $(COMPILER) $(OBJPASDIR)/math.pp
+
+types$(PPUEXT) : $(OBJPASDIR/types.pp objpas$(PPUEXT) $(SYSTEMUNIT)$(PPUEXT)
+       	$(COMPILER) $(OBJPASDIR)/types.pp
+
+sysconst$(PPUEXT) : $(OBJPASDIR)/sysconst.pp objpas$(PPUEXT) $(SYSTEMUNIT)$(PPUEXT)
+        $(COMPILER) $(OBJPASDIR)/sysconst.pp
+
+rtlconsts$(PPUEXT) : $(OBJPASDIR)/rtlconsts.pp objpas$(PPUEXT) $(SYSTEMUNIT)$(PPUEXT)
+         $(COMPILER) $(OBJPASDIR)/rtlconsts.pp
+
+#
+# Mac Pascal Model
+#
+
+macpas$(PPUEXT) : $(INC)/macpas.pp objpas$(PPUEXT) math$(PPUEXT)
+        $(COMPILER) $(INC)/macpas.pp $(REDIR)
+        
+#
+# Other system-independent RTL Units
+#
+
+cpu$(PPUEXT) : $(PROCINC)/cpu.pp system$(PPUEXT)
+
+mmx$(PPUEXT) : $(PROCINC)/mmx.pp cpu$(PPUEXT) system$(PPUEXT)
+
+getopts$(PPUEXT) : $(INC)/getopts.pp system$(PPUEXT)
+
+heaptrc$(PPUEXT) : $(INC)/heaptrc.pp system$(PPUEXT)
+        $(COMPILER) $(INC)/heaptrc.pp
+
+lineinfo$(PPUEXT) : $(INC)/lineinfo.pp system$(PPUEXT)
+
+lnfodwrf$(PPUEXT) : $(INC)/lnfodwrf.pp $(SYSTEMUNIT)$(PPUEXT) strings$(PPUEXT)
+
+charset$(PPUEXT) : $(INC)/charset.pp objpas$(PPUEXT)
+
+cpall$(PPUEXT): $(RTL)/charmaps/cpall.pas system$(PPUEXT) charset$(PPUEXT)
+        $(COMPILER) -Fu$(INC) -Fi$(RTL)/charmaps $(RTL)/charmaps/cpall.pas
+
+iso7185$(PPUEXT) : $(INC)/iso7185.pp $(SYSTEMUNIT)$(PPUEXT)
+        $(COMPILER) $(INC)/iso7185.pp
+
+extpas$(PPUEXT) : $(INC)/extpas.pp dos$(PPUEXT) $(SYSTEMUNIT)$(PPUEXT)
+        $(COMPILER) $(INC)/extpas.pp
+
+fpintres$(PPUEXT) : $(INC)/fpintres.pp $(SYSTEMUNIT)$(PPUEXT)
+        $(COMPILER) $(INC)/fpintres.pp
+
+fpwidestring$(PPUEXT) : $(OBJPASDIR)/fpwidestring.pp character$(PPUEXT) unixcp$(PPUEXT) $(SYSTEMUNIT)$(PPUEXT)
+        $(COMPILER) $(OBJPASDIR)/fpwidestring.pp
+#
+# Other system-dependent RTL Units
+#
+
+termio$(PPUEXT) : baseunix$(PPUEXT)
+
+dl$(PPUEXT) : $(SYSTEMUNIT)$(PPUEXT) unixtype$(PPUEXT)
+
+dynlibs$(PPUEXT) : $(INC)/dynlibs.pas $(UNIXINC)/dynlibs.inc dl$(PPUEXT) objpas$(PPUEXT)
+
+cmem$(PPUEXT) : $(INC)/cmem.pp $(SYSTEMUNIT)$(PPUEXT)
+
+ctypes$(PPUEXT) :  $(INC)/ctypes.pp $(SYSTEMUNIT)$(PPUEXT)
+
+cthreads$(PPUEXT) : $(UNIXINC)/cthreads.pp $(SYSTEMUNIT)$(PPUEXT)
+
+cwstring$(PPUEXT) : $(UNIXINC)/cwstring.pp $(SYSTEMUNIT)$(PPUEXT) sysutils$(PPUEXT) baseunix$(PPUEXT) unix$(PPUEXT) unixtype$(PPUEXT) ctypes$(PPUEXT) dynlibs$(PPUEXT)
+

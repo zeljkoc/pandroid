@@ -1,0 +1,4 @@
+Language Resources for FastCube 2
+Language: German
+Translator: Thomas Werling
+E-mail: 

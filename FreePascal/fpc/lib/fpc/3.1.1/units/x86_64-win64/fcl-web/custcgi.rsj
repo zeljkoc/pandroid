@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":154720114,"name":"custcgi.swebmaster","sourcebytes":[119,101,98,109,97,115,116,101,114],"value":"webmaster"},
+{"hash":209281793,"name":"custcgi.serrnocontentlength","sourcebytes":[78,111,32,99,111,110,116,101,110,116,32,108,101,110,103,116,104,32,112,97,115,115,101,100,32,102,114,111,109,32,115,101,114,118,101,114,33],"value":"No content length passed from server!"}
+]}

@@ -1,0 +1,1 @@
+..\res2utf8 ..\codepages.txt Spanish

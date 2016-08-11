@@ -1,0 +1,10 @@
+Name=utils-pas2jni
+Version=3.1.1
+Checksum=1470866848
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/utils/pas2jni/
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE
+Depends=rtl,fcl-base|1470866810,fcl-process|1470866818,fcl-json|1470866814
+NeedLibC=N
+FPMakeAddIn=N

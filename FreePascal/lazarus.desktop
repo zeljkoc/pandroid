@@ -1,0 +1,9 @@
+[Desktop Entry]
+
+Name=Lazarus
+Comment=A free pascal development environment
+Exec=/usr/local/pandroid/FreePascal/lazarus/lazarus.sh
+Icon=/usr/local/pandroid/FreePascal/lazarus/images/icons/lazarus_orange.ico
+Terminal=false
+Type=Application
+Categories=Development;IDE;

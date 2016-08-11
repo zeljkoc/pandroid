@@ -1,0 +1,9 @@
+Name=xforms
+Version=3.1.1
+Checksum=1470866833
+CPU=i386
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,x11|1470866807
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources CodePage="1252">
+  <StrRes Name="8000" Text="Exportar Excel"/>
+  <StrRes Name="8001" Text="Estilos"/>
+  <StrRes Name="8002" Text="Imágenes"/>
+  <StrRes Name="8003" Text="Combinar celdas"/>
+  <StrRes Name="8004" Text="Exportar Rápido"/>
+  <StrRes Name="8005" Text="Tal como lo vés"/>
+  <StrRes Name="8006" Text="Como texto"/>
+  <StrRes Name="8007" Text="Segundo plano"/>
+  <StrRes Name="8008" Text="Abrir Excel después de exportar"/>
+  <StrRes Name="8009" Text="Archivo de Excel (*.xls)|*.xls"/>
+  <StrRes Name="8010" Text=".xls"/>
+  <StrRes Name="8100" Text="Exportar a Excel"/>
+  <StrRes Name="8101" Text="Estilos"/>
+  <StrRes Name="8102" Text="Tal como lo vés"/>
+  <StrRes Name="8103" Text="Abrir Excel después de exportar"/>
+  <StrRes Name="8104" Text="Segundo Plano"/>
+  <StrRes Name="8105" Text="Archivo XML Excel (*.xls)|*.xls"/>
+  <StrRes Name="8106" Text=".xls"/>
+  <StrRes Name="8200" Text="Exportar a HTML"/>
+  <StrRes Name="8201" Text="Abrir después de exportar"/>
+  <StrRes Name="8202" Text="Estilos"/>
+  <StrRes Name="8203" Text="Imágenes"/>
+  <StrRes Name="8204" Text="Todo en una misma carpeta"/>
+  <StrRes Name="8205" Text="Ancho fijo"/>
+  <StrRes Name="8206" Text="Navegador"/>
+  <StrRes Name="8207" Text="Multipágina"/>
+  <StrRes Name="8208" Text="Navegador Mozilla"/>
+  <StrRes Name="8209" Text="Segundo Plano"/>
+  <StrRes Name="8210" Text="Archivo HTML (*.html)|*.html"/>
+  <StrRes Name="8211" Text=".html"/>
+  <StrRes Name="8300" Text="Exportar a texto (Impresoras matriciales)"/>
+  <StrRes Name="8301" Text="Vista previa Si/No"/>
+  <StrRes Name="8302" Text=" Propiedades de Exportar"/>
+  <StrRes Name="8303" Text="Separador de páginas"/>
+  <StrRes Name="8304" Text="Código de página OEM"/>
+  <StrRes Name="8305" Text="Líneas vacías"/>
+  <StrRes Name="8306" Text="Lead spaces"/>
+  <StrRes Name="8307" Text="Páginas:"/>
+  <StrRes Name="8308" Text="Indique los números de página y/o un rango, separado por comas. Por ejemplo: 1,3,5-12"/>
+  <StrRes Name="8309" Text=" Escalado"/>
+  <StrRes Name="8310" Text="Escala X"/>
+  <StrRes Name="8311" Text="Escala Y"/>
+  <StrRes Name="8312" Text=" Marcos"/>
+  <StrRes Name="8313" Text="Ninguno"/>
+  <StrRes Name="8314" Text="Simple"/>
+  <StrRes Name="8315" Text="Gráfico"/>
+  <StrRes Name="8316" Text="Solo códigos de página OEM"/>
+  <StrRes Name="8317" Text="Imprimir después de exportar"/>
+  <StrRes Name="8318" Text="Guardar opciones"/>
+  <StrRes Name="8319" Text=" Vista previa"/>
+  <StrRes Name="8320" Text="Ancho:"/>
+  <StrRes Name="8321" Text="Alto:"/>
+  <StrRes Name="8322" Text="Página"/>
+  <StrRes Name="8323" Text="Más Zoom"/>
+  <StrRes Name="8324" Text="Menos Zoom"/>
+  <StrRes Name="8325" Text="Archivo de texto (Impresoras matriciales)(*.prn)|*.prn"/>
+  <StrRes Name="8326" Text=".prn"/>
+  <StrRes Name="8400" Text="Imprimir"/>
+  <StrRes Name="8401" Text="Impresora"/>
+  <StrRes Name="8402" Text="Nombre"/>
+  <StrRes Name="8403" Text="Configurar..."/>
+  <StrRes Name="8404" Text="Copias"/>
+  <StrRes Name="8405" Text="Número de copias"/>
+  <StrRes Name="8406" Text=" Configuración"/>
+  <StrRes Name="8407" Text="Tipo de impresora"/>
+  <StrRes Name="8408" Text=".fpi"/>
+  <StrRes Name="8409" Text="Printer init template (*.fpi)|*.fpi"/>
+  <StrRes Name="8410" Text=".fpi"/>
+  <StrRes Name="8411" Text="Printer init template (*.fpi)|*.fpi"/>
+  <StrRes Name="8500" Text="Exportar a RTF"/>
+  <StrRes Name="8501" Text="Imágenes"/>
+  <StrRes Name="8502" Text="Tal como lo vés"/>
+  <StrRes Name="8503" Text="Abrir después de exportar"/>
+  <StrRes Name="8504" Text="Archivo RTF (*.rtf)|*.rtf"/>
+  <StrRes Name="8505" Text=".rtf"/>
+  <StrRes Name="8600" Text="Opciones de Exportar"/>
+  <StrRes Name="8601" Text=" Opciones de imagen"/>
+  <StrRes Name="8602" Text="Calidad JPEG"/>
+  <StrRes Name="8603" Text="Resolución (dpi)"/>
+  <StrRes Name="8604" Text="Archivos Separados"/>
+  <StrRes Name="8605" Text="Crop páginas"/>
+  <StrRes Name="8606" Text="Monocromo"/>
+  <StrRes Name="8700" Text="Exportar a PDF"/>
+  <StrRes Name="8701" Text="Comprimir"/>
+  <StrRes Name="8702" Text="Fuentes Embebidas"/>
+  <StrRes Name="8703" Text="Impresión Optimizada"/>
+  <StrRes Name="8704" Text="Segundo Plano"/>
+  <StrRes Name="8705" Text="Abrir después de exportar"/>
+  <StrRes Name="8706" Text="Outline"/>
+  <StrRes Name="8707" Text="Archivos de Adobe PDF (*.pdf)|*.pdf"/>
+  <StrRes Name="8708" Text=".pdf"/>
+  <StrRes Name="RTFexport" Text="Archivo RTF"/>
+  <StrRes Name="BMPexport" Text="Imagen BMP"/>
+  <StrRes Name="JPEGexport" Text="Imagen JPEG"/>
+  <StrRes Name="TIFFexport" Text="Imagen TIFF"/>
+  <StrRes Name="TextExport" Text="Texto (Impresora matricial)"/>
+  <StrRes Name="XlsOLEexport" Text="Tabla Excel (OLE)"/>
+  <StrRes Name="HTMLexport" Text="Archivo HTML"/>
+  <StrRes Name="XlsXMLexport" Text="Tabla Excel (XML)"/>
+  <StrRes Name="PDFexport" Text="Archivo PDF"/>
+  <StrRes Name="ProgressWait" Text="Espere por favor"/>
+  <StrRes Name="ProgressRows" Text="Opciones de filas"/>
+  <StrRes Name="ProgressColumns" Text="Opciones de columnas"/>
+  <StrRes Name="ProgressStyles" Text="Opciones de Estilos"/>
+  <StrRes Name="ProgressObjects" Text="Exportando objetos"/>
+  <StrRes Name="TIFFexportFilter" Text="Imagen Tiff (*.tif)|*.tif"/>
+  <StrRes Name="BMPexportFilter" Text="Imagen BMP (*.bmp)|*.bmp"/>
+  <StrRes Name="JPEGexportFilter" Text="Imagen Jpeg (*.jpg)|*.jpg"/>
+  <StrRes Name="HTMLNavFirst" Text="Primera"/>
+  <StrRes Name="HTMLNavPrev" Text="Anterior"/>
+  <StrRes Name="HTMLNavNext" Text="Siguiente"/>
+  <StrRes Name="HTMLNavLast" Text="Ultima"/>
+  <StrRes Name="HTMLNavRefresh" Text="Refrescar"/>
+  <StrRes Name="HTMLNavPrint" Text="Imprimir"/>
+  <StrRes Name="HTMLNavTotal" Text="Total páginas"/>
+  <StrRes Name="8800" Text="Exportar a Texto"/>
+  <StrRes Name="8801" Text="Archivo de Texto (*.txt)|*.txt"/>
+  <StrRes Name="8802" Text=".txt"/>
+  <StrRes Name="SimpleTextExport" Text="Archivo de Texto"/>
+  <StrRes Name="8850" Text="Exportar a CSV"/>
+  <StrRes Name="8851" Text="Archivo CSV (*.csv)|*.csv"/>
+  <StrRes Name="8852" Text=".csv"/>
+  <StrRes Name="8853" Text="Separador"/>
+  <StrRes Name="CSVExport" Text="Archivo CSV"/>
+  <StrRes Name="8900" Text="Enviar por E-mail"/>
+  <StrRes Name="8901" Text="E-mail"/>
+  <StrRes Name="8902" Text="Cuenta"/>
+  <StrRes Name="8903" Text="Conexión"/>
+  <StrRes Name="8904" Text="Dirección"/>
+  <StrRes Name="8905" Text="Adjunto"/>
+  <StrRes Name="8906" Text="Formato"/>
+  <StrRes Name="8907" Text="De la Dirección"/>
+  <StrRes Name="8908" Text="Del Nombre"/>
+  <StrRes Name="8909" Text="Servidor"/>
+  <StrRes Name="8910" Text="Usuario"/>
+  <StrRes Name="8911" Text="Correo"/>
+  <StrRes Name="8912" Text="Mensage"/>
+  <StrRes Name="8913" Text="Texto"/>
+  <StrRes Name="8914" Text="Organización"/>
+  <StrRes Name="8915" Text="Contraseña"/>
+  <StrRes Name="8916" Text="Puerto"/>
+  <StrRes Name="8917" Text="Recordar propiedades"/>
+  <StrRes Name="8918" Text="Algunos campos obligatorios no se han rellenado"/>
+  <StrRes Name="8919" Text="Configuración avanzada"/>
+  <StrRes Name="8920" Text="Firma"/>
+  <StrRes Name="8921" Text="Construir"/>
+  <StrRes Name="8922" Text="Asunto"/>
+  <StrRes Name="8923" Text="Un saludo"/>
+  <StrRes Name="8924" Text="Enviar el correo a"/>
+  <StrRes Name="EmailExport" Text="E-mail"/>
+  <StrRes Name="FastReportFile" Text="Archivo FastReport"/>
+  <StrRes Name="GifexportFilter" Text="Archivo Gif (*.gif)|*.gif"/>
+  <StrRes Name="GIFexport" Text="Imagen Gif"/>
+  <StrRes Name="8950" Text="Continuo"/>
+  <StrRes Name="8951" Text="Cabecera de página/Pié"/>
+  <StrRes Name="8952" Text="Texto"/>
+  <StrRes Name="8953" Text="Cabecera/Pié"/>
+  <StrRes Name="8954" Text="Ninguno"/>
+  <StrRes Name="ODSExportFilter" Text="Hoja de Cálculo OpenOffice/LibreOffice (*.ods)|*.ods"/>
+  <StrRes Name="ODSExport" Text="Hoja de Cálculo OpenOffice/LibreOffice"/>
+  <StrRes Name="ODTExportFilter" Text="Texto OpenOffice/LibreOffice (*.odt)|*.odt"/>
+  <StrRes Name="ODTExport" Text="Texto OpenOffice/LibreOffice"/>
+  <StrRes Name="8960" Text=".ods"/>
+  <StrRes Name="8961" Text=".odt"/>
+  <StrRes Name="8962" Text="Securidad"/>
+  <StrRes Name="8963" Text="Opciones de Seguridad"/>
+  <StrRes Name="8964" Text="Contraseña de Propietario"/>
+  <StrRes Name="8965" Text="Contraseña de Usuario"/>
+  <StrRes Name="8966" Text="Imprimir el documento"/>
+  <StrRes Name="8967" Text="Modificar el documento"/>
+  <StrRes Name="8968" Text="Copiar texto y gráficos"/>
+  <StrRes Name="8969" Text="Añadir o modificar anotaciones"/>
+  <StrRes Name="8970" Text="Seguridad del PDF"/>
+  <StrRes Name="8971" Text="Información del Documento"/>
+  <StrRes Name="8972" Text="Información"/>
+  <StrRes Name="8973" Text="Título"/>
+  <StrRes Name="8974" Text="Autor"/>
+  <StrRes Name="8975" Text="Asunto"/>
+  <StrRes Name="8976" Text="Palabras clave"/>
+  <StrRes Name="8977" Text="Creador"/>
+  <StrRes Name="8978" Text="Productor"/>
+  <StrRes Name="8979" Text="Autentificación"/>
+  <StrRes Name="8980" Text="Permisos"/>
+  <StrRes Name="8981" Text="Visor"/>
+  <StrRes Name="8982" Text="Preferencias del visor"/>
+  <StrRes Name="8983" Text="Ocultar barra de herramientas"/>
+  <StrRes Name="8984" Text="Ocultar barra de menú"/>
+  <StrRes Name="8985" Text="Ocultar ventana de usuario"/>
+  <StrRes Name="8986" Text="Ajustar ventana"/>
+  <StrRes Name="8987" Text="Centrar ventana"/>
+  <StrRes Name="8988" Text="Imprimir escalado"/>
+  <StrRes Name="8989" Text="Confirmar lectura"/>
+  <StrRes Name="9000" Text="Recuento de Filas:"/>
+  <StrRes Name="9001" Text="Dividir a la hoja"/>
+  <StrRes Name="9002" Text="No Dividir a la hoja"/>
+  <StrRes Name="9003" Text="Usar páginas del Informe"/>
+  <StrRes Name="9004" Text="Usar impresión del ancestro"/>
+  <StrRes Name="9101" Text="Exportar a DBF"/>
+  <StrRes Name="9102" Text="dBase (DBF) export"/>
+  <StrRes Name="9103" Text=".dbf"/>
+  <StrRes Name="9104" Text="Fallo al cargar el archivo"/>
+  <StrRes Name="9105" Text="Fallo"/>
+  <StrRes Name="9106" Text="Nombre de campos"/>
+  <StrRes Name="9107" Text="Automaticamente"/>
+  <StrRes Name="9108" Text="Manualmente"/>
+  <StrRes Name="9109" Text="Cargar desde archivo"/>
+  <StrRes Name="9110" Text="Archivos de texto (*.txt)|*.txt|All files|*.*"/>
+  <StrRes Name="9111" Text="Archivos DBF (*.dbf)|*.dbf|All files|*.*"/>
+  <StrRes Name="9151" Text="Fichero Excel 97/2000/XP"/>
+  <StrRes Name="9152" Text="Fichero Auto creado"/>
+  <StrRes Name="9153" Text="Opciones"/>
+  <StrRes Name="9154" Text="Página"/>
+  <StrRes Name="9155" Text="Líneas de Regilla"/>
+  <StrRes Name="9156" Text="Todas en una página"/>
+  <StrRes Name="9157" Text="Agrupación de datos"/>
+  <StrRes Name="9158" Text="Similar al informe"/>
+  <StrRes Name="9159" Text="Trozos. Cada fragmento tien (líneas):"/>
+  <StrRes Name="9160" Text="El tamaño del trozo debe ser un valor entero no negativo."/>
+  <StrRes Name="9161" Text="Una sóla hoja debe ser Falso cuando se exporta por trozos"/>
+  <StrRes Name="9162" Text="Autor"/>
+  <StrRes Name="9163" Text="Comentarios"/>
+  <StrRes Name="9164" Text="Keywords"/>
+  <StrRes Name="9165" Text="Revision"/>
+  <StrRes Name="9166" Text="Version"/>
+  <StrRes Name="9167" Text="Aplicación"/>
+  <StrRes Name="9168" Text="Asunto"/>
+  <StrRes Name="9169" Text="Categoría"/>
+  <StrRes Name="9170" Text="Compañía"/>
+  <StrRes Name="9171" Text="Titulo"/>
+  <StrRes Name="9172" Text="Administrador"/>
+  <StrRes Name="9173" Text="General"/>
+  <StrRes Name="9174" Text="Información"/>
+  <StrRes Name="9175" Text="Protección"/>
+  <StrRes Name="9176" Text="Contraseña"/>
+  <StrRes Name="9177" Text="Si se establece una contraseña, el documento generado estará protegido con esta contraseña. Ésta debe ser siempre en carateres Unicode e inferior a 256 caracteres."/>
+  <StrRes Name="9178" Text="Confirmación"/>
+  <StrRes Name="9179" Text="La confirmación de la contraseña no coincide. Escriba la contraseña de nuevo."/>
+  <StrRes Name="9180" Text="Se intenta establecer una contraseña de %d caracteres. El máximo permitido es de %d caracteres."/>
+  <StrRes Name="9181" Text="Ajustar tamaño de página"/>
+  <StrRes Name="9200" Text="Microsoft Excel 2007 XML"/>
+  <StrRes Name="9201" Text="Microsoft PowerPoint 2007 XML"/>
+  <StrRes Name="expMailAddr" Text="Dirección o direcciones delimitadas por coma"/>
+  <StrRes Name="sExport" Text="Export"/>
+  <StrRes Name="sXMLExport" Text="XML Export"/>
+  <StrRes Name="sXMLFormat" Text="XML format"/>
+  <StrRes Name="sXMLFilter" Text="XML file (*.xml)|*.xml"/>
+  <StrRes Name="sXMLExt" Text=".xml"/>
+  <StrRes Name="sRepeatAxesValues" Text="Repeat axes values"/>
+  <StrRes Name="sHTMLFormat" Text="HTML format"/>
+  <StrRes Name="sUseDefaultPalette" Text="Use Default Palette"/>
+  <StrRes Name="sBiffAllowColCount" Text="Excel 97-2007 allows only %d columns"/>
+  <StrRes Name="sBiffAllowRowCount" Text="Excel 97-2007 allows only %d rows"/>
+  <StrRes Name="PNGexport" Text="PNG image"/>
+  <StrRes Name="EMFexport" Text="EMF image"/>
+  <StrRes Name="PNGexportFilter" Text="PNG image (*.png)|*.png"/>
+  <StrRes Name="EMFexportFilter" Text="EMF image (*.emf)|*.emf"/>
+  <StrRes Name="9182" Text="Export to Excel 97/2000/XP"/>
+  <StrRes Name="9183" Text="Delete empty rows"/>
+  <StrRes Name="9184" Text="Export formulas"/>
+  <StrRes Name="BiffCol" Text="Resizing columns"/>
+  <StrRes Name="BiffRow" Text="Resizing rows"/>
+  <StrRes Name="BiffCell" Text="Exporting cells"/>
+  <StrRes Name="BiffImg" Text="Exporting pictures"/>
+  <StrRes Name="9203" Text="Microsoft Word 2007 XML"/>
+  <StrRes Name="9300" Text="HTML Layered"/>
+  <StrRes Name="9301" Text="HTML files (*.html)|*.html|All files|*.*"/>
+  <StrRes Name="9302" Text="HTML Layered Export"/>
+  <StrRes Name="9303" Text="HTML5 Layered"/>
+  <StrRes Name="9304" Text="HTML4 Layered"/>
+  <StrRes Name="9400" Text="Reordering components"/>
+  <StrRes Name="9401" Text="Rendering components"/>
+  <StrRes Name="9402" Text="Adjusting intersecting components"/>
+  <StrRes Name="9403" Text="Removing empty rows"/>
+  <StrRes Name="9404" Text="Adjusting frames"/>
+  <StrRes Name="9405" Text="Splitting big cells"/>
+  <StrRes Name="9406" Text="Composing BIFF file"/>
+  <StrRes Name="xProto" Text="Export Prototype"/>
+  <StrRes Name="xBlank" Text="Blank Export"/>
+</Resources>

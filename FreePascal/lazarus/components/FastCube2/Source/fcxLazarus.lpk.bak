@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="fcxLazarus"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="FastReports"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="FastCube 2"/>
+    <Version Major="2"/>
+    <Files Count="64">
+      <Item1>
+        <Filename Value="fcxAlerts.pas"/>
+        <UnitName Value="fcxAlerts"/>
+      </Item1>
+      <Item2>
+        <Filename Value="fcxCodeUtils.pas"/>
+        <UnitName Value="fcxCodeUtils"/>
+      </Item2>
+      <Item3>
+        <Filename Value="fcxComponent.pas"/>
+        <UnitName Value="fcxComponent"/>
+      </Item3>
+      <Item4>
+        <Filename Value="fcxCube.pas"/>
+        <UnitName Value="fcxCube"/>
+      </Item4>
+      <Item5>
+        <Filename Value="fcxCubeGrid.pas"/>
+        <UnitName Value="fcxCubeGrid"/>
+      </Item5>
+      <Item6>
+        <Filename Value="fcxCustomGrid.pas"/>
+        <UnitName Value="fcxCustomGrid"/>
+      </Item6>
+      <Item7>
+        <Filename Value="fcxDataSource.pas"/>
+        <UnitName Value="fcxDataSource"/>
+      </Item7>
+      <Item8>
+        <Filename Value="fcxDefaultSettings.pas"/>
+        <UnitName Value="fcxDefaultSettings"/>
+      </Item8>
+      <Item9>
+        <Filename Value="fcxError.pas"/>
+        <UnitName Value="fcxError"/>
+      </Item9>
+      <Item10>
+        <Filename Value="fcxFields.pas"/>
+        <UnitName Value="fcxFields"/>
+      </Item10>
+      <Item11>
+        <Filename Value="fcxFilterPopup.pas"/>
+        <UnitName Value="fcxFilterPopup"/>
+      </Item11>
+      <Item12>
+        <Filename Value="fcxFilters.pas"/>
+        <UnitName Value="fcxFilters"/>
+      </Item12>
+      <Item13>
+        <Filename Value="fcxFormats.pas"/>
+        <UnitName Value="fcxFormats"/>
+      </Item13>
+      <Item14>
+        <Filename Value="fcxGraphicUtils.pas"/>
+        <UnitName Value="fcxGraphicUtils"/>
+      </Item14>
+      <Item15>
+        <Filename Value="fcxGridPainters.pas"/>
+        <UnitName Value="fcxGridPainters"/>
+      </Item15>
+      <Item16>
+        <Filename Value="fcxInterpreter.pas"/>
+        <UnitName Value="fcxInterpreter"/>
+      </Item16>
+      <Item17>
+        <Filename Value="fcxList.pas"/>
+        <UnitName Value="fcxList"/>
+      </Item17>
+      <Item18>
+        <Filename Value="fcxMeasureEditor.dfm"/>
+        <Type Value="Text"/>
+      </Item18>
+      <Item19>
+        <Filename Value="fcxMeasureEditor.pas"/>
+        <UnitName Value="fcxMeasureEditor"/>
+      </Item19>
+      <Item20>
+        <Filename Value="fcxPainters.pas"/>
+        <UnitName Value="fcxPainters"/>
+      </Item20>
+      <Item21>
+        <Filename Value="fcxPopupWindow.pas"/>
+        <UnitName Value="fcxPopupWindow"/>
+      </Item21>
+      <Item22>
+        <Filename Value="fcxQSort.pas"/>
+        <UnitName Value="fcxQSort"/>
+      </Item22>
+      <Item23>
+        <Filename Value="fcxrcDesgn.pas"/>
+        <UnitName Value="fcxrcDesgn"/>
+      </Item23>
+      <Item24>
+        <Filename Value="fcxrcStrings.pas"/>
+        <UnitName Value="fcxrcStrings"/>
+      </Item24>
+      <Item25>
+        <Filename Value="fcxReg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="fcxReg"/>
+      </Item25>
+      <Item26>
+        <Filename Value="fcxRes.pas"/>
+        <UnitName Value="fcxRes"/>
+      </Item26>
+      <Item27>
+        <Filename Value="fcxSliceGrid.pas"/>
+        <UnitName Value="fcxSliceGrid"/>
+      </Item27>
+      <Item28>
+        <Filename Value="fcxSliceGridToolbar.pas"/>
+        <UnitName Value="fcxSliceGridToolbar"/>
+      </Item28>
+      <Item29>
+        <Filename Value="fcxSlice.pas"/>
+        <UnitName Value="fcxSlice"/>
+      </Item29>
+      <Item30>
+        <Filename Value="fcxSort.pas"/>
+        <UnitName Value="fcxSort"/>
+      </Item30>
+      <Item31>
+        <Filename Value="fcxStreamUtils.pas"/>
+        <UnitName Value="fcxStreamUtils"/>
+      </Item31>
+      <Item32>
+        <Filename Value="fcxStringUtils.pas"/>
+        <UnitName Value="fcxStringUtils"/>
+      </Item32>
+      <Item33>
+        <Filename Value="fcxTypes.pas"/>
+        <UnitName Value="fcxTypes"/>
+      </Item33>
+      <Item34>
+        <Filename Value="fcxUniqueArray.pas"/>
+        <UnitName Value="fcxUniqueArray"/>
+      </Item34>
+      <Item35>
+        <Filename Value="fcxUniqueValue.pas"/>
+        <UnitName Value="fcxUniqueValue"/>
+      </Item35>
+      <Item36>
+        <Filename Value="fcxZone.pas"/>
+        <UnitName Value="fcxZone"/>
+      </Item36>
+      <Item37>
+        <Filename Value="fcxDimensionEditor.lfm"/>
+        <Type Value="LFM"/>
+      </Item37>
+      <Item38>
+        <Filename Value="fcxDimensionEditor.pas"/>
+        <UnitName Value="fcxDimensionEditor"/>
+      </Item38>
+      <Item39>
+        <Filename Value="fcxFormatFrame.lfm"/>
+        <Type Value="LFM"/>
+      </Item39>
+      <Item40>
+        <Filename Value="fcxFormatFrame.pas"/>
+        <UnitName Value="fcxFormatFrame"/>
+      </Item40>
+      <Item41>
+        <Filename Value="fcxContinuousHighlightFrame.lfm"/>
+        <Type Value="LFM"/>
+      </Item41>
+      <Item42>
+        <Filename Value="fcxContinuousHighlightFrame.pas"/>
+        <UnitName Value="fcxContinuousHighlightFrame"/>
+      </Item42>
+      <Item43>
+        <Filename Value="fcxHighlightRuleEditor.lfm"/>
+        <Type Value="LFM"/>
+      </Item43>
+      <Item44>
+        <Filename Value="fcxHighlightRuleEditor.pas"/>
+        <UnitName Value="fcxHighlightRuleEditor"/>
+      </Item44>
+      <Item45>
+        <Filename Value="fcxHighlights.pas"/>
+        <UnitName Value="fcxHighlights"/>
+      </Item45>
+      <Item46>
+        <Filename Value="fcxImagesPopup.pas"/>
+        <UnitName Value="fcxImagesPopup"/>
+      </Item46>
+      <Item47>
+        <Filename Value="fcxRangeHighlightFrame.lfm"/>
+        <Type Value="LFM"/>
+      </Item47>
+      <Item48>
+        <Filename Value="fcxRangeHighlightFrame.pas"/>
+        <UnitName Value="fcxRangeHighlightFrame"/>
+      </Item48>
+      <Item49>
+        <Filename Value="fcxStyleFrame.lfm"/>
+        <Type Value="LFM"/>
+      </Item49>
+      <Item50>
+        <Filename Value="fcxStyleFrame.pas"/>
+        <UnitName Value="fcxStyleFrame"/>
+      </Item50>
+      <Item51>
+        <Filename Value="fcxStylesEditor.lfm"/>
+        <Type Value="LFM"/>
+      </Item51>
+      <Item52>
+        <Filename Value="fcxStylesEditor.pas"/>
+        <UnitName Value="fcxStylesEditor"/>
+      </Item52>
+      <Item53>
+        <Filename Value="fcxCustomToolbar.pas"/>
+        <UnitName Value="fcxCustomToolbar"/>
+      </Item53>
+      <Item54>
+        <Filename Value="fcxUtils.pas"/>
+        <UnitName Value="fcxUtils"/>
+      </Item54>
+      <Item55>
+        <Filename Value="fcxUnicodeUtils.pas"/>
+        <UnitName Value="fcxUnicodeUtils"/>
+      </Item55>
+      <Item56>
+        <Filename Value="fcxCustomExport.pas"/>
+        <UnitName Value="fcxCustomExport"/>
+      </Item56>
+      <Item57>
+        <Filename Value="fcxrcExports.pas"/>
+        <UnitName Value="fcxrcExports"/>
+      </Item57>
+      <Item58>
+        <Filename Value="fcxInfo.lfm"/>
+        <Type Value="LFM"/>
+      </Item58>
+      <Item59>
+        <Filename Value="fcxInfo.pas"/>
+        <UnitName Value="fcxInfo"/>
+      </Item59>
+      <Item60>
+        <Filename Value="fcxCubeGridToolBar.pas"/>
+        <UnitName Value="fcxCubeGridToolBar"/>
+      </Item60>
+      <Item61>
+        <Filename Value="fcxXml.pas"/>
+        <UnitName Value="fcxXml"/>
+      </Item61>
+      <Item62>
+        <Filename Value="fcxControl.pas"/>
+        <UnitName Value="fcxControl"/>
+      </Item62>
+      <Item63>
+        <Filename Value="fcxAxisEditor.lfm"/>
+        <Type Value="LFM"/>
+      </Item63>
+      <Item64>
+        <Filename Value="fcxAxisEditor.pas"/>
+        <UnitName Value="fcxAxisEditor"/>
+      </Item64>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="lz_tachart"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

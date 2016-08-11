@@ -1,0 +1,13 @@
+{"version":1,"strings":[
+{"hash":258052484,"name":"fpcodtmp.label_codetemplate_shortcut","sourcebytes":[126,83,126,104,111,114,116,99,117,116],"value":"~S~hortcut"},
+{"hash":122765684,"name":"fpcodtmp.label_codetemplate_content","sourcebytes":[126,84,126,101,109,112,108,97,116,101,32,99,111,110,116,101,110,116],"value":"~T~emplate content"},
+{"hash":82923011,"name":"fpcodtmp.label_codetemplate_templates","sourcebytes":[126,84,126,101,109,112,108,97,116,101,115],"value":"~T~emplates"},
+{"hash":182163044,"name":"fpcodtmp.msg_codetemplate_alreadyinlist","sourcebytes":[65,32,116,101,109,112,108,97,116,101,32,110,97,109,101,100,32,34,37,115,34,32,105,115,32,97,108,114,101,97,100,121,32,105,110,32,116,104,101,32,108,105,115,116],"value":"A template named \"%s\" is already in the list"},
+{"hash":45927253,"name":"fpcodtmp.dialog_modifytemplate","sourcebytes":[77,111,100,105,102,121,32,116,101,109,112,108,97,116,101],"value":"Modify template"},
+{"hash":252428037,"name":"fpcodtmp.dialog_newtemplate","sourcebytes":[78,101,119,32,116,101,109,112,108,97,116,101],"value":"New template"},
+{"hash":357166,"name":"fpcodtmp.button_ok","sourcebytes":[79,126,75,126],"value":"O~K~"},
+{"hash":77089212,"name":"fpcodtmp.button_cancel","sourcebytes":[67,97,110,99,101,108],"value":"Cancel"},
+{"hash":8611015,"name":"fpcodtmp.button_new","sourcebytes":[126,78,126,101,119],"value":"~N~ew"},
+{"hash":137186052,"name":"fpcodtmp.button_edit","sourcebytes":[126,69,126,100,105,116],"value":"~E~dit"},
+{"hash":206316677,"name":"fpcodtmp.button_delete","sourcebytes":[126,68,126,101,108,101,116,101],"value":"~D~elete"}
+]}

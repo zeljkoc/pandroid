@@ -19,8 +19,16 @@
     <VersionInfo>
       <StringTable ProductVersion=""/>
     </VersionInfo>
+    <MacroValues Count="2">
+      <Macro1 Name="PANDROID" Value="#PANDROID#/pandroid"/>
+      <Macro2 Name="JavaPackageName" Value="#JavaPackageName#"/>
+    </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="2">
+        <Item1 ID="029710570552" Modes="Default" Type="IDEMacro" MacroName="PANDROID" Value="#PANDROID#/pandroid"/>
+        <Item2 ID="417476021979" Modes="Default" Type="IDEMacro" MacroName="JavaPackageName" Value="#JavaPackageName#"/>
+      </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
@@ -56,6 +64,13 @@
         <GenerateDebugInfo Value="False"/>
       </Debugging>
     </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath) "/>
+      <ExecuteBefore>
+        <Command Value="$(PANDROID) B $(CompPath) $(ProjPath) $(JavaPackageName) $(ProjFile)"/>
+      </ExecuteBefore>
+    </Other>
+    <CompileReasons Build="False"/>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

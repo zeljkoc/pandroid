@@ -1,0 +1,22 @@
+{"version":1,"strings":[
+{"hash":94862996,"name":"xpath.snodeset","sourcebytes":[110,111,100,101,32,115,101,116],"value":"node set"},
+{"hash":157690654,"name":"xpath.sboolean","sourcebytes":[98,111,111,108,101,97,110],"value":"boolean"},
+{"hash":123484354,"name":"xpath.snumber","sourcebytes":[110,117,109,98,101,114],"value":"number"},
+{"hash":128684103,"name":"xpath.sstring","sourcebytes":[115,116,114,105,110,103],"value":"string"},
+{"hash":143677013,"name":"xpath.svarnoconversion","sourcebytes":[67,111,110,118,101,114,115,105,111,110,32,102,114,111,109,32,37,115,32,116,111,32,37,115,32,110,111,116,32,112,111,115,115,105,98,108,101],"value":"Conversion from %s to %s not possible"},
+{"hash":111178148,"name":"xpath.sscannerunclosedstring","sourcebytes":[83,116,114,105,110,103,32,108,105,116,101,114,97,108,32,119,97,115,32,110,111,116,32,99,108,111,115,101,100],"value":"String literal was not closed"},
+{"hash":169975714,"name":"xpath.sscannerinvalidchar","sourcebytes":[73,110,118,97,108,105,100,32,99,104,97,114,97,99,116,101,114],"value":"Invalid character"},
+{"hash":182767806,"name":"xpath.sscannermalformedqname","sourcebytes":[69,120,112,101,99,116,101,100,32,34,42,34,32,111,114,32,108,111,99,97,108,32,112,97,114,116,32,97,102,116,101,114,32,99,111,108,111,110],"value":"Expected \"*\" or local part after colon"},
+{"hash":5640818,"name":"xpath.sscannerexpectedvarname","sourcebytes":[69,120,112,101,99,116,101,100,32,118,97,114,105,97,98,108,101,32,110,97,109,101,32,97,102,116,101,114,32,34,36,34],"value":"Expected variable name after \"$\""},
+{"hash":242831106,"name":"xpath.sparserexpectedleftbracket","sourcebytes":[69,120,112,101,99,116,101,100,32,34,40,34],"value":"Expected \"(\""},
+{"hash":242831122,"name":"xpath.sparserexpectedrightbracket","sourcebytes":[69,120,112,101,99,116,101,100,32,34,41,34],"value":"Expected \")\""},
+{"hash":49378373,"name":"xpath.sparserbadaxisname","sourcebytes":[73,110,118,97,108,105,100,32,97,120,105,115,32,110,97,109,101],"value":"Invalid axis name"},
+{"hash":147982773,"name":"xpath.sparserbadnodetype","sourcebytes":[73,110,118,97,108,105,100,32,110,111,100,101,32,116,121,112,101],"value":"Invalid node type"},
+{"hash":221376949,"name":"xpath.sparserexpectedrightsquarebracket","sourcebytes":[69,120,112,101,99,116,101,100,32,34,93,34,32,97,102,116,101,114,32,112,114,101,100,105,99,97,116,101],"value":"Expected \"]\" after predicate"},
+{"hash":63748814,"name":"xpath.sparserinvalidprimexpr","sourcebytes":[73,110,118,97,108,105,100,32,112,114,105,109,97,114,121,32,101,120,112,114,101,115,115,105,111,110],"value":"Invalid primary expression"},
+{"hash":160350798,"name":"xpath.sparsergarbageafterexpression","sourcebytes":[85,110,114,101,99,111,103,110,105,122,101,100,32,105,110,112,117,116,32,97,102,116,101,114,32,101,120,112,114,101,115,115,105,111,110],"value":"Unrecognized input after expression"},
+{"hash":41668873,"name":"xpath.sparserinvalidnodetest","sourcebytes":[73,110,118,97,108,105,100,32,110,111,100,101,32,116,101,115,116,32,40,115,121,110,116,97,120,32,101,114,114,111,114,41],"value":"Invalid node test (syntax error)"},
+{"hash":249635298,"name":"xpath.sevalunknownfunction","sourcebytes":[85,110,107,110,111,119,110,32,102,117,110,99,116,105,111,110,58,32,34,37,115,34],"value":"Unknown function: \"%s\""},
+{"hash":86308754,"name":"xpath.sevalunknownvariable","sourcebytes":[85,110,107,110,111,119,110,32,118,97,114,105,97,98,108,101,58,32,34,37,115,34],"value":"Unknown variable: \"%s\""},
+{"hash":43558403,"name":"xpath.sevalinvalidargcount","sourcebytes":[73,110,118,97,108,105,100,32,110,117,109,98,101,114,32,111,102,32,102,117,110,99,116,105,111,110,32,97,114,103,117,109,101,110,116,115],"value":"Invalid number of function arguments"}
+]}

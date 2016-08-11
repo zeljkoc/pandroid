@@ -1,3 +1,8 @@
+{**********************************************************
+Copyright (C) 2012-2016
+Zeljko Cvijanovic www.zeljus.com (cvzeljko@gmail.com) &
+Miran Horjak usbdoo@gmail.com
+***********************************************************}
 unit MainUnit;
 
 {$mode objfpc}{$H+}
@@ -15,6 +20,7 @@ type
        gJavaProjectName: string;
        gAndroidSDKDir: string;
        gTarget: string;
+       gBuildTools: string;
        gAppName: string;
        gActivityName: String;
     end;
@@ -43,6 +49,7 @@ begin
  S :=  StringReplace(S, '#JavaPackageName#', AProject.gJavaPackageName, [rfReplaceAll]);
  S :=  StringReplace(S, '#AndroidSDKDir#',   AProject.gAndroidSDKDir,   [rfReplaceAll]);
  S :=  StringReplace(S, '#Target#',          AProject.gTarget,          [rfReplaceAll]);
+ S :=  StringReplace(S, '#BuildTools#',      AProject.gBuildTools,      [rfReplaceAll]);
  S :=  StringReplace(S, '#AppName#',         AProject.gAppName,         [rfReplaceAll]);
  S :=  StringReplace(S, '#ActivityName#',    AProject.gActivityName,    [rfReplaceAll]);
  S :=  StringReplace(S, '#PANDROID#',        ExtractFileDir(Application.ExeName),    [rfReplaceAll]);

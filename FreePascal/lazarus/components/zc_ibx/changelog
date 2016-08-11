@@ -1,0 +1,48 @@
+IBX Change Log  version          (1.0-4) Thu, 28 Feb 2013 16:56:13 +0000
+
+1. In a TIBCustomDataset descendent, a generator now only sets the value when
+   it is null. This allows for alternative user defined setting of the generator
+
+   Many thanks to Julio Jiménez for this fix
+
+2. An Error Dialog is now displayed in the Lazarus IDE if IBX cannot find the Firebird Library
+   and suggests that the user may have forgotten to install it.
+
+IBX Change Log  version         (1.0-3) Thu, 22 Nov 2012 22:53:39 +0000
+
+1. Conditional compilation used to limit registration of TIntegerField to
+   Lazarus versions less than 1.1
+
+2. When a database connection is created, character set is now by default set
+   to UTF8 (Unix) or to the current Windows code page (Windows) if in the range
+   1250 to 1254.
+
+
+IBX Change Log  version     (1.0-2) Tue, 09 Oct 2012 09:10:30 +0100
+
+1. TBookmark change conditional compile changed to > 2.6.2 to match expected availability of change.
+
+
+IBX Change Log  version    (1.0-1) Sun, 05 Aug 2012 20:00:04 +0100
+
+1. In IBCustomDataset. Changed CurBookmark from string to TBookmark for compiler versions > 2.6.0
+   Necessary because of TBookmark type and TDataSet.Bookmark property change in fpc 2.7.1
+
+2. IBX now registers TIntegerField as a "No Icon" component. This may be removed if the fpc DB
+   package is changed to do this (which it should do).
+
+IBX Change Log  version (1.0-0)  Sat, 28 Apr 2012 16:43:00 +0100
+
+1. Add "if active then active := false" to TIBCustomDataset destructor. (Avoid error on database close).
+
+2. Make use of $STATIC conditional in IBSQLMonitor (Needed for FPC 2.6.0 compliance)
+
+3. Database Property Editor: Character Set drop down box now uses "OnChange" rather than "OnCloseUp" to react to changes
+
+4. Property editors should now correctly resize.
+
+5. In IBDatabaseEdit.TestClick, the LoginPrompt is now set to the state of the LoginPrompt Checkbox
+   (restored original functionality)
+
+6. Under OSX, if IBX fails to load libfbclient.dylib, it will now try and load the firebird
+   library using the absolute path /Library/Frameworks/Firebird.framework/Firebird.

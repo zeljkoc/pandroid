@@ -1,0 +1,396 @@
+object MacroListView: TMacroListView
+  Left = 390
+  Height = 365
+  Top = 249
+  Width = 424
+  Caption = 'MacroListView'
+  ClientHeight = 365
+  ClientWidth = 424
+  Constraints.MinHeight = 365
+  Constraints.MinWidth = 300
+  OnActivate = FormActivate
+  OnDeactivate = FormActivate
+  LCLVersion = '1.5'
+  object Panel1: TPanel
+    AnchorSideRight.Control = pnlButtons
+    Left = 6
+    Height = 310
+    Top = 6
+    Width = 285
+    Align = alLeft
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Right = 6
+    BevelOuter = bvNone
+    ClientHeight = 310
+    ClientWidth = 285
+    TabOrder = 0
+    object lbRecordedView: TListView
+      Left = 0
+      Height = 261
+      Top = 24
+      Width = 285
+      Align = alClient
+      AutoWidthLastColumn = True
+      Columns = <      
+        item
+          Width = 267
+        end>
+      PopupMenu = PopupMenu1
+      RowSelect = True
+      ShowColumnHeaders = False
+      SortType = stText
+      TabOrder = 1
+      ViewStyle = vsReport
+      OnSelectItem = lbRecordedViewSelectItem
+    end
+    object ToolBar1: TToolBar
+      Left = 0
+      Height = 24
+      Top = 0
+      Width = 285
+      AutoSize = True
+      BorderSpacing.InnerBorder = 1
+      EdgeBorders = []
+      ParentShowHint = False
+      ShowCaptions = True
+      ShowHint = True
+      TabOrder = 0
+      object tbRecorded: TToolButton
+        Tag = 1
+        Left = 3
+        Top = 2
+        Caption = 'tbRecorded'
+        Down = True
+        Grouped = True
+        OnClick = tbRecordedClick
+        Style = tbsCheck
+      end
+      object tbProject: TToolButton
+        Tag = 1
+        Left = 99
+        Top = 2
+        Caption = 'tbProject'
+        Grouped = True
+        OnClick = tbProjectClick
+        Style = tbsCheck
+      end
+      object tbIDE: TToolButton
+        Tag = 1
+        Left = 179
+        Top = 2
+        Caption = 'tbIDE'
+        Grouped = True
+        OnClick = tbIDEClick
+        Style = tbsCheck
+      end
+      object ToolButton3: TToolButton
+        Left = 91
+        Height = 22
+        Top = 2
+        Width = 8
+        Caption = 'ToolButton3'
+        Style = tbsSeparator
+      end
+      object ToolButton4: TToolButton
+        Left = 171
+        Height = 22
+        Top = 2
+        Width = 8
+        Caption = 'ToolButton4'
+        Style = tbsSeparator
+      end
+    end
+    object ToolBar2: TToolBar
+      Left = 0
+      Height = 22
+      Top = 288
+      Width = 285
+      Align = alBottom
+      AutoSize = True
+      BorderSpacing.Top = 3
+      EdgeBorders = []
+      Flat = False
+      ShowCaptions = True
+      TabOrder = 2
+      object lbMoveTo: TLabel
+        Left = 1
+        Height = 22
+        Top = 0
+        Width = 66
+        Align = alLeft
+        Caption = 'lbMoveTo'
+        Layout = tlCenter
+        ParentColor = False
+      end
+      object tbMoveProject: TToolButton
+        Left = 67
+        Top = 0
+        Caption = 'tbMoveProject'
+        OnClick = tbMoveProjectClick
+      end
+      object tbMoveIDE: TToolButton
+        Left = 176
+        Top = 0
+        Caption = 'tbMoveIDE'
+        OnClick = tbMoveIDEClick
+      end
+    end
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 37
+    Top = 322
+    Width = 412
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    HelpButton.OnClick = HelpButtonClick
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 2
+    ShowButtons = [pbClose, pbHelp]
+  end
+  object pnlButtons: TPanel
+    Left = 297
+    Height = 316
+    Top = 0
+    Width = 127
+    Align = alRight
+    AutoSize = True
+    BevelOuter = bvNone
+    ClientHeight = 316
+    ClientWidth = 127
+    Constraints.MinHeight = 250
+    TabOrder = 1
+    object btnSelect: TButton
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = pnlButtons
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 29
+      Top = 6
+      Width = 115
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 6
+      Caption = 'btnSelect'
+      OnClick = btnSelectClick
+      TabOrder = 0
+    end
+    object btnRename: TButton
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = btnSelect
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 29
+      Top = 41
+      Width = 115
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 6
+      Caption = 'btnRename'
+      OnClick = btnRenameClick
+      TabOrder = 1
+    end
+    object btnPlay: TButton
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = chkRepeat
+      Left = 6
+      Height = 29
+      Top = 160
+      Width = 115
+      Anchors = [akLeft, akRight, akBottom]
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Right = 6
+      BorderSpacing.Bottom = 3
+      Caption = 'btnPlay'
+      OnClick = btnPlayClick
+      TabOrder = 5
+    end
+    object btnRecord: TButton
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = btnRename
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = btnRecordStop
+      Left = 6
+      Height = 29
+      Top = 252
+      Width = 115
+      Anchors = [akLeft, akRight, akBottom]
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Right = 6
+      BorderSpacing.Bottom = 6
+      Caption = 'btnRecord'
+      OnClick = btnRecordClick
+      TabOrder = 8
+    end
+    object btnRecordStop: TButton
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = btnRename
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = pnlButtons
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 29
+      Top = 287
+      Width = 115
+      Anchors = [akLeft, akRight, akBottom]
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Right = 6
+      Caption = 'btnRecordStop'
+      OnClick = btnRecordStopClick
+      TabOrder = 9
+    end
+    object chkRepeat: TCheckBox
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = btnPlay
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = edRepeat
+      Left = 6
+      Height = 24
+      Top = 192
+      Width = 115
+      Anchors = [akLeft, akRight, akBottom]
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 3
+      BorderSpacing.Right = 6
+      BorderSpacing.Bottom = 3
+      Caption = 'chkRepeat'
+      TabOrder = 6
+    end
+    object edRepeat: TSpinEdit
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = chkRepeat
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = btnRecord
+      Left = 6
+      Height = 23
+      Top = 219
+      Width = 115
+      Anchors = [akLeft, akRight, akBottom]
+      AutoSize = False
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 3
+      BorderSpacing.Right = 6
+      BorderSpacing.Bottom = 10
+      MaxValue = 999
+      MinValue = 1
+      TabOrder = 7
+      Value = 1
+    end
+    object btnDelete: TButton
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = btnEdit
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 29
+      Top = 146
+      Width = 115
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 6
+      Caption = 'btnDelete'
+      OnClick = btnDeleteClick
+      TabOrder = 4
+    end
+    object btnSetKeys: TButton
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = btnRename
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 29
+      Top = 76
+      Width = 115
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 6
+      Caption = 'btnSetKeys'
+      OnClick = btnSetKeysClick
+      TabOrder = 2
+    end
+    object btnEdit: TButton
+      AnchorSideLeft.Control = pnlButtons
+      AnchorSideTop.Control = btnSetKeys
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnlButtons
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 29
+      Top = 111
+      Width = 115
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 6
+      Caption = 'btnEdit'
+      OnClick = btnEditClick
+      TabOrder = 3
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    left = 144
+    top = 72
+    object mnExport: TMenuItem
+      Caption = 'New Item1'
+      OnClick = mnExportClick
+    end
+    object mnImport: TMenuItem
+      Caption = 'New Item2'
+      OnClick = mnImportClick
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.xml'
+    Filter = 'xml|*.xml|*|*'
+    Options = [ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofNoReadOnlyReturn, ofEnableSizing, ofViewDetail]
+    left = 24
+    top = 56
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '.xml'
+    Filter = 'xml|*.xml|*|*'
+    Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
+    left = 88
+    top = 64
+  end
+end

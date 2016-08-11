@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":30419045,"name":"sparta_strconsts.sargumentoutofrange","sourcebytes":[65,114,103,117,109,101,110,116,32,111,117,116,32,111,102,32,114,97,110,103,101],"value":"Argument out of range"},
+{"hash":304549,"name":"sparta_strconsts.scode","sourcebytes":[67,111,100,101],"value":"Code"},
+{"hash":211804258,"name":"sparta_strconsts.sdesigner","sourcebytes":[68,101,115,105,103,110,101,114],"value":"Designer"}
+]}

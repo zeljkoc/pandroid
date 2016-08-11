@@ -1,0 +1,53 @@
+package fcxcd17;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'FastCube 2 Charting'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+{$INCLUDE fcx.inc}
+{$INCLUDE fcxTee.inc}
+
+requires
+{$IFDEF TeeChartStd} Tee, TeeUI, {$ENDIF}
+{$IFDEF TeeChart4}   Tee417, TeePRO417, {$ENDIF}
+{$IFDEF TeeChart5}   Tee517, TeePRO517, {$ENDIF}
+{$IFDEF TeeChart6}   Tee617, TeePRO617, {$ENDIF}
+{$IFDEF TeeChart7}   Tee717, TeePRO717, {$ENDIF}
+{$IFDEF TeeChart8}   Tee817, TeePRO817, {$ENDIF}
+{$IFDEF TeeChartStd7}Tee717, TeeUI717,  {$ENDIF}
+{$IFDEF TeeChartStd8}Tee817, TeeUI817,  {$ENDIF}
+{$IFDEF TeeChartStd9}Tee917, TeeUI917,  {$ENDIF}
+{$IFDEF TeeChart9}   Tee917, TeePRO917, {$ENDIF}
+  fcxd17;
+
+contains
+  fcxChart in 'fcxChart.pas',
+  fcxChartDataManager in 'fcxChartDataManager.pas' {fcxChartDataManager},
+  fcxChartEditor in 'fcxChartEditor.pas' {fcxChartEditor};
+
+end.

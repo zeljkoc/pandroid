@@ -1,33 +1,38 @@
 # pandroid
 
-# Create Android application from FPC JVM 
+OS Debina 8.6 32 bit LXDE
 
-Edit and build CodeTyphon http://www.pilotlogic.com
+
+Pandroid   v. 1.0 
+GetLazarus v. 1.7      
+FrePasscal v. 3.1.1
+
+
+# Create Android application from FPC_JVM 
+
 
 [![Everything Is AWESOME](https://i.ytimg.com/vi/ZHlzS15Jy9k/hqdefault.jpg)](https://www.youtube.com/watch?v=ZHlzS15Jy9k "Everything Is AWESOME")
 
-install pandroid to debian 8 64 
 
-$: cd /usr/local
+Install:
+#: apt-get update
+#: apt-get install build-essential p7zip-full libgtk2.0-dev libcairo2-dev
+#: apt-get install libpango1.0-dev libgdk-pixbuf2.0-dev libatk1.0-dev libghc-x11-dev
 
-$: git clone https://github.com/zeljkoc/pandroid.git
+#: apt-get install mtp-tools ant android-tools-adb
+#: apt-get install gdb openjdk-7-jdk
 
 
-Install CodeTyphon and Cross element for jvm_android
+#: cd /usr/local
+#: mkdir pandroid
+#: chmod 0777 -R pandroid
 
-example
+copy Pandroid_getlazarus_0100.7z to /usr/local/pandroid
 
-/usr/local/pandroid/example
+extract Pandroid_getlazarus_0100.7z to here
 
-=======================================
 
-Build APK : 
-
-Run -> Build file
-
-or 
-
-$: sh build_debug_apk.sh 
+start lazarus and change FPC sources: /usr/local/pandroid/FreePascal/fpc
 
 
 

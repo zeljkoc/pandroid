@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources CodePage="1250">
+  <StrRes Name="SOkBtn" Text="Rendben"/>
+  <StrRes Name="SCancelBtn" Text="Mégsem"/>
+  <StrRes Name="sEditBtn" Text="Szerkeszt ..."/>
+  <StrRes Name="sAddBtn" Text="Hozzáad ..."/>
+  <StrRes Name="sDeleteBtn" Text="Töröl"/>
+  <StrRes Name="SDataOverflow" Text="Adattúlcsordulási hiba!"/>
+  <StrRes Name="sDemoBlocked" Text="Ez a funkció a tesztben zárolva!"/>
+  <StrRes Name="sCheckBtn" Text="Ellenőriz"/>
+  <StrRes Name="sNoErrors" Text="Hiba nem található"/>
+  <StrRes Name="sConfirmClearSchema" Text="Valóban törölni szeretné a táblázat elrendezést?"/>
+  <StrRes Name="sTrue" Text="Igaz"/>
+  <StrRes Name="sFalse" Text="Hamis"/>
+  <StrRes Name="SDayPrefix" Text="Nap_"/>
+  <StrRes Name="SMonthPrefix" Text="Hónap_"/>
+  <StrRes Name="SQuarterPrefix" Text="Negyedév_"/>
+  <StrRes Name="SYearPrefix" Text="Év_"/>
+  <StrRes Name="SDayOfWeekPrefix" Text="Hét_napjai_"/>
+  <StrRes Name="SHourPrefix" Text="Óra_"/>
+  <StrRes Name="SMinutePrefix" Text="Perc_"/>
+  <StrRes Name="SSecondPrefix" Text="Másodperc_"/>
+  <StrRes Name="SCounter" Text="(számláló)"/>
+  <StrRes Name="SMeasures" Text="Lépések"/>
+  <StrRes Name="SCounterItem" Text="Rendszer számláló"/>
+  <StrRes Name="sError" Text="??.?? %"/>
+  <StrRes Name="sUnknown" Text="???"/>
+  <StrRes Name="sBadValue" Text="?hiba?"/>
+  <StrRes Name="sFileLockError" Text="A %s állomány nem törölhető. Valószinüleg egy másik alkalmazás foglalja."/>
+  <StrRes Name="sDataSetUnAssigned" Text="Adatforrás nincs megadva!"/>
+  <StrRes Name="sDataSetOpenError" Text="A %s megnyitása sikertelen!"/>
+  <StrRes Name="sCellAlreadyExist" Text="Létező adatcella"/>
+  <StrRes Name="sUnknownCubeFormat" Text="Hibás kocka formátum!"/>
+  <StrRes Name="STotal" Text="Össz."/>
+  <StrRes Name="STotalBy" Text="Összesen "/>
+  <StrRes Name="SNothing" Text="Érték"/>
+  <StrRes Name="sSchemaFilter" Text="OLAP sablonállomány|*.mds"/>
+  <StrRes Name="sCubeFilter" Text="OLAP állományok|*.mdc"/>
+  <StrRes Name="sChartTemplateFilter" Text="Grafikon sablonállomány|*.mdt"/>
+  <StrRes Name="sXLSFilter" Text="Excel állományok|*.xls"/>
+  <StrRes Name="sDOCFilter" Text="Word állományok|*.doc"/>
+  <StrRes Name="sHTMLFilter" Text="HTML állományok|*.html"/>
+  <StrRes Name="sXMLFilter" Text="XML állományok|*.xml"/>
+  <StrRes Name="sEditMeasure" Text="Lépésszerkesztő"/>
+  <StrRes Name="sEditMeasures" Text="Edit Measures"/>
+  <StrRes Name="sMeasure" Text="Lépés"/>
+  <StrRes Name="sMeasures" Text="Lépések"/>
+  <StrRes Name="sCaption" Text="Felirat"/>
+  <StrRes Name="sAggregate" Text="Aggregate:"/>
+  <StrRes Name="sDigitsAfter" Text="Pontosság:"/>
+  <StrRes Name="sAggAlreadyExist" Text="Létező összesítő!"/>
+  <StrRes Name="sField" Text="Összesítő mező:"/>
+  <StrRes Name="sFormula" Text="Kiértékelő képlet:"/>
+  <StrRes Name="sCalcOrder" Text="Kiértékelési sorrend:"/>
+  <StrRes Name="sFilter" Text="Szűrő:"/>
+  <StrRes Name="sEditor" Text="Szerkesztő ..."/>
+  <StrRes Name="sFuncNotAllWithDate" Text="Lehetetlen, hogy használja ezt a funkciót a dátummal!"/>
+  <StrRes Name="sFuncNotAll" Text="Lehetetlen, hogy használja ezt a funkciót ezzel a mezővel!"/>
+  <StrRes Name="sFuncNotAllWithCalc" Text="Lehetetlen, hogy használja ezt a funkciót kiértékelő lépéssel!"/>
+  <StrRes Name="sIncorrectPrecision" Text="Ismeretlen a [%d] pontosság. A pontosságnak valós egész számnak kell lennie &#38;#62;= 0! "/>
+  <StrRes Name="sIncorrectCalcOrder" Text="Ismeretlen kiértékelési sorrend [%d]. A kiértékelés érdekében a %d és %d között kell lennie!"/>
+  <StrRes Name="sDisplayFormat" Text="Megjelenítési forma"/>
+  <StrRes Name="sFilterAll" Text="Mind"/>
+  <StrRes Name="sFilterFirst" Text="Első"/>
+  <StrRes Name="sFilterInversion" Text="Inverzió"/>
+  <StrRes Name="sFieldFormCaption" Text="Mezőlista"/>
+  <StrRes Name="sFieldFormDragLabel" Text="Áthelyezés a táblázatba"/>
+  <StrRes Name="sFieldformAddBtn" Text="Hozzáad a"/>
+  <StrRes Name="sFieldFormAreaText" Text="Szűrők'#$D#$A'Sorok'#$D#$A'Oszlopok'#$D#$A'Lépések"/>
+  <StrRes Name="sFieldFormRename" Text="Átnevez"/>
+  <StrRes Name="sDefCubeCaption" Text="&#60;nincs felirat&#62;"/>
+  <StrRes Name="sFieldLabelChangeCaption" Text="Mezőfelirat módosítása"/>
+  <StrRes Name="sFieldLabelChangePropmpt" Text="Adja meg az új mezőfeliratot"/>
+  <StrRes Name="sCubeChangeCaption" Text="Kocka feliratának módosítása"/>
+  <StrRes Name="sCubeChangePropmpt" Text="Adja meg az új kockafeliratot"/>
+  <StrRes Name="sStatFormCaption" Text="Kereszttáblázati mérőszámok"/>
+  <StrRes Name="sStatFormSourceRowCount" Text="Forrássorok darabszáma"/>
+  <StrRes Name="sStatFormSliceGeometry" Text="Szeletgeometria"/>
+  <StrRes Name="sStatFormRowDimCount" Text="Sordimenziók száma"/>
+  <StrRes Name="sStatFormColDimCount" Text="Oszlopdimenziók száma"/>
+  <StrRes Name="sStatFormFactsCount" Text="Mérőszámok száma"/>
+  <StrRes Name="sStatFormFilterCount" Text="Szűrőmezők száma"/>
+  <StrRes Name="sStatFormTimeChar" Text="Időstatisztika (mperc.)"/>
+  <StrRes Name="sStatFormTimeOpen" Text="Források megnyitása"/>
+  <StrRes Name="sStatFormTimeLoad" Text="Források betöltése"/>
+  <StrRes Name="sStatFormTimeSources" Text="Források feldolgozása"/>
+  <StrRes Name="sStatFormTimeAxisX" Text="X adatok építése"/>
+  <StrRes Name="sStatFormTimeAxisY" Text="Y adatok építése"/>
+  <StrRes Name="sStatFormTimeFacts" Text="Mérőszámok építése"/>
+  <StrRes Name="sStatFormTimeLinks" Text="Linkek feltöltése"/>
+  <StrRes Name="sStatFormTimeUniques" Text="Egyedi értékek feltöltése"/>
+  <StrRes Name="sRangeFormCaption" Text="Adatjelölések beállítása"/>
+  <StrRes Name="sRangeFormFieldRanges" Text="Mezőtartományok"/>
+  <StrRes Name="sRangeFormRanges" Text="Tartományok"/>
+  <StrRes Name="sRangeFormRangeParams" Text="Tartományok beállítása"/>
+  <StrRes Name="sRangeFormColor" Text="Színek"/>
+  <StrRes Name="sRangeFormReplace" Text="Cserél"/>
+  <StrRes Name="sRangeFormAdd" Text="Hozzáad"/>
+  <StrRes Name="sRangeFormDelete" Text="Töröl"/>
+  <StrRes Name="sAllRange" Text="Minden érték"/>
+  <StrRes Name="sTextColor" Text="Szövegszín"/>
+  <StrRes Name="sBGColor" Text="Háttérszín"/>
+  <StrRes Name="sCubeSave" Text="Kocka mentése"/>
+  <StrRes Name="sCubeLoad" Text="Kocka betöltése"/>
+  <StrRes Name="sClearGrid" Text="Táblázat törlése"/>
+  <StrRes Name="sSchemaSave" Text="Sablon mentése"/>
+  <StrRes Name="sSchemaLoad" Text="Sablon betöltése"/>
+  <StrRes Name="sExportTo" Text="Exportálás ..."/>
+  <StrRes Name="sShowHints" Text="Hintek megjelenítése"/>
+  <StrRes Name="sHideRowZeros" Text="Nullák elrejtése"/>
+  <StrRes Name="sHideColZeros" Text="Nulla oszlopok elrejtése"/>
+  <StrRes Name="sRowSort" Text="Sor sorrend típus"/>
+  <StrRes Name="sColSort" Text="Oszlop sorrend típus"/>
+  <StrRes Name="sDataMarker" Text="Adatjelölő"/>
+  <StrRes Name="sIncDecimal" Text="Pontosság növelése"/>
+  <StrRes Name="sDecDecimal" Text="POntosság csökkentése"/>
+  <StrRes Name="sAlignment" Text="Igazítás"/>
+  <StrRes Name="sRemoveToPage" Text="Elemek mozgatása az oldalra"/>
+  <StrRes Name="sDisplayAs" Text="Megjelenítés másként..."/>
+  <StrRes Name="sFieldList" Text="Mezőlista"/>
+  <StrRes Name="sStatistics" Text="Statisztika"/>
+  <StrRes Name="sFloatYAxis" Text="Y tengely úsztatás"/>
+  <StrRes Name="sSortByValues" Text="Sorrend értéktengely alapján"/>
+  <StrRes Name="sSortByTotals" Text="Sorrend lépésösszesítés alapján"/>
+  <StrRes Name="sSortByXSelection" Text="Sorrend jelölt sor alapján"/>
+  <StrRes Name="sSortByYSelection" Text="Sorrend jelölt oszlopo alapján"/>
+  <StrRes Name="sExportToExcel" Text="Exportálás Excel-be"/>
+  <StrRes Name="sExportToHTML" Text="Exportálás  Html-be"/>
+  <StrRes Name="sExportToWord" Text="Exportálás  Word-be"/>
+  <StrRes Name="sExportToXML" Text="Exportálás XML-be"/>
+  <StrRes Name="sOriginalValue" Text="Eredeti érték"/>
+  <StrRes Name="sRowPercentTotal" Text="Teljes sor százalék"/>
+  <StrRes Name="sColPercentTotal" Text="Teljes oszlop százalék"/>
+  <StrRes Name="sRowPercentGroup" Text="Csoportszázalék soronként"/>
+  <StrRes Name="sColPercentGroup" Text="Csoportszázalék oszloponként"/>
+  <StrRes Name="sGrandTotalPercent" Text="Mindösszesen százalék"/>
+  <StrRes Name="sBackSort" Text="Sorrend megváltoztatása"/>
+  <StrRes Name="sShowTotals" Text="Összesítés megjelenítése"/>
+  <StrRes Name="sCollapseDimension" Text="Dimenziók összevonása"/>
+  <StrRes Name="sExpandDimension" Text="Dimenziók kibontása"/>
+  <StrRes Name="sSelectRow" Text="Sor jelölése"/>
+  <StrRes Name="sSelectCol" Text="Oszlop jelölése"/>
+  <StrRes Name="sSelectAll" Text="Kijelöl mind"/>
+  <StrRes Name="sCopy" Text="Másolás"/>
+  <StrRes Name="sQuarter_1" Text="1 negyedév"/>
+  <StrRes Name="sQuarter_2" Text="2 negyedév"/>
+  <StrRes Name="sQuarter_3" Text="3 negyedév"/>
+  <StrRes Name="sQuarter_4" Text="4 negyedév"/>
+  <StrRes Name="sSumPrefix" Text="Összesen "/>
+  <StrRes Name="sCountPrefix" Text="Darabszám "/>
+  <StrRes Name="sMinPrefix" Text="Minimum "/>
+  <StrRes Name="sMaxPrefix" Text="Maximum "/>
+  <StrRes Name="sAvgPrefix" Text="Átlag "/>
+  <StrRes Name="sMulPrefix" Text="Szorzat "/>
+  <StrRes Name="sVariancePrefix" Text="Eltérés "/>
+  <StrRes Name="sStdDevPrefix" Text="Std Dev of "/>
+  <StrRes Name="sVarianceSPrefix" Text="A S eltérés "/>
+  <StrRes Name="sStdDevSPrefix" Text="Std DevS of "/>
+  <StrRes Name="sFuncPrefix" Text="Kiszámolt "/>
+  <StrRes Name="sCountOfUniquePrefix" Text="Egyedi darabszámok "/>
+  <StrRes Name="sFuncDetPrefix" Text="Kiszámolt (részletek) "/>
+  <StrRes Name="sMedianPrefix" Text="Median "/>
+  <StrRes Name="sWeightedMeanPrefix" Text="Weighted arithmetic mean of "/>
+  <StrRes Name="sWeightedMeanCaption" Text="Weighted arithmetic mean"/>
+  <StrRes Name="sFactsRegion" Text="lépésmezők mozgatása ide"/>
+  <StrRes Name="sRowsRegion" Text="Sormezők mozgatása ide"/>
+  <StrRes Name="sFiltersRegion" Text="Szűrőmezők mozgatása ide"/>
+  <StrRes Name="sColsRegion" Text="Oszlopmezők mozgatása ide"/>
+  <StrRes Name="sServiceRegion" Text="Szolgáltatás"/>
+  <StrRes Name="sSumCaption" Text="Összesen"/>
+  <StrRes Name="sCountCaption" Text="Darab"/>
+  <StrRes Name="sMinCaption" Text="Minimum"/>
+  <StrRes Name="sMaxCaption" Text="Maximum"/>
+  <StrRes Name="sAvgCaption" Text="Átlag"/>
+  <StrRes Name="sMulCaption" Text="Szorzat "/>
+  <StrRes Name="sVarianceCaption" Text="Eltérés"/>
+  <StrRes Name="sStdDevCaption" Text="Std Dev"/>
+  <StrRes Name="sVarianceSCaption" Text="Eltérések"/>
+  <StrRes Name="sStdDevSCaption" Text="Std DevS"/>
+  <StrRes Name="sFuncCaption" Text="Kalkuláció"/>
+  <StrRes Name="sCountOfUniqueCaption" Text="Egyedi darab"/>
+  <StrRes Name="sFuncDetCaption" Text="Kiszámolt (részletek)"/>
+  <StrRes Name="sMedianCaption" Text="Median"/>
+  <StrRes Name="sLinkToSelf" Text="Önmagára hivatkozás! Kód=%d."/>
+  <StrRes Name="sParentNotFound" Text="Szülő nem található! Kód=%d."/>
+  <StrRes Name="sLoopLink" Text="Körkörös hivatkozás! Kód=%d."/>
+  <StrRes Name="sAllValues" Text="Minden érték"/>
+  <StrRes Name="sErBadLexem" Text="Helytelen lexema!"/>
+  <StrRes Name="sErCommentNotClosed" Text="Végtelen megjegyzés!"/>
+  <StrRes Name="sErMixDigitChar" Text="Mixing digit with char!"/>
+  <StrRes Name="sErUnfinishedIdent" Text="Az azonosítók deklarása nem befejezett"/>
+  <StrRes Name="sDetailGridCaption" Text="Cell részletezés"/>
+  <StrRes Name="sLeftJustify" Text="balra"/>
+  <StrRes Name="sCenter" Text="középre"/>
+  <StrRes Name="sRightJustify" Text="jobbra"/>
+  <StrRes Name="sPopupHint1" Text="Mindent kijelöl"/>
+  <StrRes Name="sPopupHint2" Text="Kijelölést elvesz"/>
+  <StrRes Name="sPopupHint3" Text="Fordított kijelölés"/>
+  <StrRes Name="sPopupHint4" Text="Alkalmaz"/>
+  <StrRes Name="sPopupHint5" Text="Mégsem"/>
+  <StrRes Name="sPopupHint6" Text="Mozgatás fel"/>
+  <StrRes Name="sPopupHint7" Text="Mozgatás le"/>
+  <StrRes Name="sPopupHint8" Text="Mindent kibont"/>
+  <StrRes Name="sPopupHint9" Text="Mindent összevon"/>
+  <StrRes Name="sFormulaEditor" Text="Formula szerkesztő"/>
+  <StrRes Name="sScriptErrorsFound" Text="[%s] hiba található. Mindezek ellenére menti?"/>
+  <StrRes Name="sChartDataManagerCaption" Text="Adatkezelő"/>
+  <StrRes Name="sErrorFieldAfterHierarchi" Text="A hierarchia mögött mozgó mezők átmenetileg elérhetetlenek!"/>
+  <StrRes Name="sChartSaveTemplate" Text="Diagramsablon mentése"/>
+  <StrRes Name="sChartOpenTemplate" Text="Diagramsablon betöltése"/>
+  <StrRes Name="sChartStyle" Text="Diagram stílusa"/>
+  <StrRes Name="sChartByRows" Text="Soronként"/>
+  <StrRes Name="sChartByCols" Text="Oszloponként"/>
+  <StrRes Name="sChartMarks" Text="Jelölések"/>
+  <StrRes Name="sChartLegend" Text="Történet"/>
+  <StrRes Name="sChartDataManager" Text="Adatkezelő"/>
+  <StrRes Name="sChartStyleBar" Text="Oszlopdiagram stílus"/>
+  <StrRes Name="sChartStyleLine" Text="Vonaldiagram stílus"/>
+  <StrRes Name="sChartStylePoint" Text="Pontdiagram stílus"/>
+  <StrRes Name="sChartStyleArea" Text="Területdiagram stílus"/>
+  <StrRes Name="sChartStylePie" Text="Körcikkdiagram stílus"/>
+  <StrRes Name="sChartLegendLeft" Text="Balra"/>
+  <StrRes Name="sChartLegendRight" Text="Jobbra"/>
+  <StrRes Name="sChartLegendTop" Text="Felülre"/>
+  <StrRes Name="sChartLegendBottom" Text="Alulra"/>
+  <StrRes Name="sAutoSize_Default" Text="Alapértelmezett"/>
+  <StrRes Name="sAutoSize_BySlice" Text="Méretezés táblázathoz"/>
+  <StrRes Name="sAutoSize_ColWidth" Text="Automatikus szélesség"/>
+  <StrRes Name="sAutoSize_ColWidthRestrict" Text="Automatikus szélesség megkötéssel"/>
+  <StrRes Name="sAutoSize_RowHeight" Text="Automatikus magasság"/>
+  <StrRes Name="sAutoSize_ByMemoSize" Text="Méretezés megjegyzéshez"/>
+  <StrRes Name="propCube" Text="Többdimenziós adatforrás"/>
+  <StrRes Name="propPaintSizes" Text="Méretszámítás érték és algóritmus szerint"/>
+  <StrRes Name="propShowNames" Text="Meghatározza, amennyiben a keresztben megjelennek a mezőnekek"/>
+  <StrRes Name="propAutoSizeStyle" Text="Méretkalkulációs algóritmus"/>
+  <StrRes Name="propDefaultColWidth" Text="Adott szélesség minden cellára ha AutoSizeStyle=ssDefault be van állítva"/>
+  <StrRes Name="propDefaultRowHeight" Text="Adott magasság minden cellára ha AutoSizeStyle=ssDefault be van állítva"/>
+  <StrRes Name="propMaxColWidth" Text="Maximális oszlopszélesség megkötése alkalmazódik ha AutoSizeStyle=ssAutoColWidthRestrict be van állítva"/>
+  <StrRes Name="propFileName" Text="File-név létező kockához"/>
+  <StrRes Name="sConvFieldName" Text="Mezőnév"/>
+  <StrRes Name="sConvFieldType" Text="Típus"/>
+  <StrRes Name="sConvFieldSize" Text="Méret"/>
+  <StrRes Name="sConvFieldCaption" Text="Felirat"/>
+  <StrRes Name="sConvFieldConv" Text="Fordító használata"/>
+  <StrRes Name="sConvFieldNewType" Text="Céltípus"/>
+  <StrRes Name="sConvFieldNewSize" Text="Célméret"/>
+  <StrRes Name="sConvEditField" Text="Mező szerkesztése"/>
+  <StrRes Name="sConvSaveToFile" Text="Mentés File-ba"/>
+  <StrRes Name="sConvLoadFromFile" Text="Betöltés File-ból"/>
+  <StrRes Name="sConvNoType" Text="Céltípus szükséges!"/>
+  <StrRes Name="sConvNoSize" Text="Célméret megkötése &#62; 0!"/>
+  <StrRes Name="dmSelectExample" Text="Példa megjelenítése"/>
+  <StrRes Name="dmSchema" Text="Sablonok"/>
+  <StrRes Name="dmFRPreview" Text="Megjelenítés jelentésként"/>
+  <StrRes Name="dmCrossTbl" Text="Kereszttábla"/>
+  <StrRes Name="dmChart" Text="Grafikon"/>
+  <StrRes Name="dmSourceTbl" Text="Forrástáblák"/>
+  <StrRes Name="dmSelectExample" Text="Példa kiválasztása"/>
+  <StrRes Name="dmConf" Text="democonfen.txt"/>
+  <StrRes Name="sPercentFormat" Text="Százalék forma"/>
+  <StrRes Name="sDefaultFormat" Text="Százalék forma"/>
+  <StrRes Name="sChartRealTimeChange" Text="Változások automatikus érvényesítése"/>
+  <StrRes Name="sChartDataSource" Text="Grafikon adatforrás tulajdonságok"/>
+  <StrRes Name="sChartSeriesAxis" Text="Használat sorozatként:"/>
+  <StrRes Name="sChartValuesAxis" Text="Használat kategóriaként:"/>
+  <StrRes Name="sChartSeriesFieldCount" Text="Sorozat meződarabszáma:"/>
+  <StrRes Name="sChartValuesFieldCount" Text="Kategória meződarabszáma:"/>
+  <StrRes Name="sChartMeasureFiledIndex" Text="Lépésindex:"/>
+  <StrRes Name="sChartFrozen" Text="Grafikon rögzítése"/>
+  <StrRes Name="sChartDataProperty" Text="Grafikon tulajdonságok"/>
+  <StrRes Name="sAxisX" Text="Dimenziók az oszlopokból"/>
+  <StrRes Name="sAxisY" Text="Dimenziók az sorokból"/>
+  <StrRes Name="sChartByAxisAxis" Text="Sorozatok és kategóriák a dimenziókból"/>
+  <StrRes Name="sChartByAxisMeasures" Text="Sorozatok a lépésekből, kategóriák a dimenziókból"/>
+  <StrRes Name="sChartByMeasuresAxis" Text="Sorozatok a dimenziókból, kategóriák a lépésekből"/>
+  <StrRes Name="sChartPropsAreNotCorrect" Text="Diagram tulajdonságia nem megfelelőek"/>
+  <StrRes Name="sScriptErrorFilter" Text="Hiba történt a szűrők kiszámolásakor:"/>
+  <StrRes Name="sScriptErrorCalc" Text="Hiba történt a parancsfile-k kiértékelésekor:"/>
+  <StrRes Name="sErrorStr" Text="Hiba"/>
+  <StrRes Name="SWeekNumberPrefix" Text="Hét_szám"/>
+  <StrRes Name="SDayOfYearPrefix" Text="Év_napja_"/>
+  <StrRes Name="sFirstValue" Text="Első érték"/>
+  <StrRes Name="sFirstValuePrefix" Text="Első érték a"/>
+  <StrRes Name="sMeasureName" Text="Lépés neve"/>
+  <StrRes Name="sListOfUniquePrefix" Text="Egyediek listája "/>
+  <StrRes Name="sListOfUniqueCaption" Text="Egyediség lista"/>
+  <StrRes Name="sExportCloneMasterValue" Text="Mesterérték klón"/>
+  <StrRes Name="sCopyWithHeader" Text="Másolás fejléccel"/>
+  <StrRes Name="fkCustom" Text="Egyedi"/>
+  <StrRes Name="sChartStyleHorizBar" Text="Vizszintes oszlopdiagram stílus"/>
+  <StrRes Name="sChartStackType" Text="Többoszlopos diagram"/>
+  <StrRes Name="sChartStackNone" Text="nincs"/>
+  <StrRes Name="sChartStackSide" Text="Oldal"/>
+  <StrRes Name="sChartStackStacked" Text="Halmozott"/>
+  <StrRes Name="sChartStackStacked100" Text="100% halmozott"/>
+  <StrRes Name="sChartStackSideAll" Text="Minden oldalon"/>
+  <StrRes Name="sChartStackSelfStack" Text="Sajáton"/>
+  <StrRes Name="sLastValue" Text="Utolsó érték"/>
+  <StrRes Name="sLastValuePrefix" Text="A utolsó értéke "/>
+  <StrRes Name="obfrcCube" Text="FastCube kocka elem"/>
+  <StrRes Name="obfrcChartView" Text="FastCube diagram elem"/>
+  <StrRes Name="obfrcCrossView" Text="FastCube kereszttábla elem"/>
+  <StrRes Name="fc2600" Text="FastCube-ról"/>
+  <StrRes Name="fc2601" Text="Weboldalunk megnyitása a bővebb információkért:"/>
+  <StrRes Name="fc2602" Text="Értékesítés:"/>
+  <StrRes Name="fc2603" Text="Támogatás:"/>
+  <StrRes Name="sSliceEditorCaption" Text="Slice Editor"/>
+  <StrRes Name="sApplyBtn" Text="Apply"/>
+  <StrRes Name="sNull" Text="Null"/>
+  <StrRes Name="SMillisecondPrefix" Text="Millisecond_"/>
+  <StrRes Name="sDateAttributeLabelPrefix" Text="Date_"/>
+  <StrRes Name="sTimeAttributeLabelPrefix" Text="Time_"/>
+  <StrRes Name="sGrandTotal" Text="Grand total"/>
+  <StrRes Name="sName" Text="Name"/>
+  <StrRes Name="sUseDifferentAggregateForTotals" Text="Use different aggregate for totals"/>
+  <StrRes Name="sCalcTotalsOnTotals" Text="Calculate totals on totals"/>
+  <StrRes Name="sUseXAxisTotalsAsBase" Text="Use column totals as base"/>
+  <StrRes Name="sTotalsConflictResolving" Text="Totals conflict resolution"/>
+  <StrRes Name="sTotalPosition" Text="Total position"/>
+  <StrRes Name="sAdditionalTotals" Text="Additional Totals"/>
+  <StrRes Name="sEmptyCell" Text="Empty Cell"/>
+  <StrRes Name="sUseXAxisTotal" Text="Use Column Total"/>
+  <StrRes Name="sUseYAxisTotal" Text="Use Row Total"/>
+  <StrRes Name="sClearAll" Text="Clear all"/>
+  <StrRes Name="sInverse" Text="Inverse"/>
+  <StrRes Name="sInfoFormCaption" Text="Cube information"/>
+  <StrRes Name="sInfoFormSliceGeometry" Text="Slice geometry"/>
+  <StrRes Name="sInfoFormSourceRowCount" Text="Source row count"/>
+  <StrRes Name="sInfoFormRowDimCount" Text="Count of row dimensions"/>
+  <StrRes Name="sInfoFormColDimCount" Text="Count of column dimesions"/>
+  <StrRes Name="sInfoFormFactsCount" Text="Count of measures"/>
+  <StrRes Name="sInfoFormFilterCount" Text="Count of filter fields"/>
+  <StrRes Name="sInfoFormColCount" Text="Column count"/>
+  <StrRes Name="sInfoFormRowCount" Text="Row count"/>
+  <StrRes Name="sInfoFormTimeChar" Text="Time characteristics (sec.)"/>
+  <StrRes Name="sInfoFormFullTime" Text="Full loading time"/>
+  <StrRes Name="sInfoFormDBOpenTime" Text="Opening data sources"/>
+  <StrRes Name="sInfoFormOpenTime" Text="Preparing to loading"/>
+  <StrRes Name="sInfoFormDBMoveTime" Text="Data fetch"/>
+  <StrRes Name="sInfoFormDBGetDataTime" Text="Getting values"/>
+  <StrRes Name="sInfoFormConvertTime" Text="Converting values"/>
+  <StrRes Name="sInfoFormDBCloseTime" Text="Closing data sources"/>
+  <StrRes Name="sInfoFormSortTime" Text="Sorting data"/>
+  <StrRes Name="sInfoFormDataBuildTime" Text="Calculation measures"/>
+  <StrRes Name="sInfoFormTimeSources" Text="Processing sources"/>
+  <StrRes Name="sInfoFormTimeAxisX" Text="Building X axis"/>
+  <StrRes Name="sInfoFormTimeAxisY" Text="Building Y axis"/>
+  <StrRes Name="sInfoFormTimeFacts" Text="Building measures"/>
+  <StrRes Name="sInfoFormTimeLinks" Text="Filling links"/>
+  <StrRes Name="sInfoFormTimeUniques" Text="Filling unique values"/>
+  <StrRes Name="sSave" Text="Save"/>
+  <StrRes Name="sLoad" Text="Load"/>
+  <StrRes Name="sCubeLoadAdditional" Text="Load additional cube"/>
+  <StrRes Name="sInformation" Text="Information"/>
+  <StrRes Name="sTranspose" Text="Transpose"/>
+  <StrRes Name="sRowRank" Text="Rank by row"/>
+  <StrRes Name="sColRank" Text="Rank by column"/>
+  <StrRes Name="sSelect" Text="Select"/>
+  <StrRes Name="sDeleteMeasure" Text="Delete measure"/>
+  <StrRes Name="sProperties" Text="Properties..."/>
+  <StrRes Name="sChartMeasureFieldIndex" Text="Measure index:"/>
+  <StrRes Name="sMeasureEditor" Text="Measure Editor"/>
+  <StrRes Name="sGeneral" Text="General"/>
+  <StrRes Name="sFieldBased" Text="Field Based"/>
+  <StrRes Name="sBaseField" Text="Base Field"/>
+  <StrRes Name="sCalculated" Text="Calculated"/>
+  <StrRes Name="sFunction" Text="Function"/>
+  <StrRes Name="sOrder" Text="Order"/>
+  <StrRes Name="sCalcAllCells" Text="Calc all cells"/>
+  <StrRes Name="sTotals" Text="Totals"/>
+  <StrRes Name="sFiltering" Text="Filtering"/>
+  <StrRes Name="sStyle" Text="Style"/>
+  <StrRes Name="sFillStyle" Text="Fill Style"/>
+  <StrRes Name="sFillColor" Text="Fill Color %d"/>
+  <StrRes Name="sTextStyle" Text="Text Style"/>
+  <StrRes Name="sRange" Text="Range"/>
+  <StrRes Name="sExample" Text="Example"/>
+  <StrRes Name="sAdd" Text="Add"/>
+  <StrRes Name="sDelete" Text="Delete"/>
+  <StrRes Name="sMoveUp" Text="Move Up"/>
+  <StrRes Name="sMoveDown" Text="Move Down"/>
+  <StrRes Name="sExampleString" Text="Example string"/>
+  <StrRes Name="sBold" Text="Bold"/>
+  <StrRes Name="sItalic" Text="Italic"/>
+  <StrRes Name="sUnderline" Text="Underline"/>
+  <StrRes Name="sStrikeOut" Text="Strike Out"/>
+  <StrRes Name="sSolidColor" Text="Solid color"/>
+  <StrRes Name="sHorzGradient" Text="Horizontal gradient"/>
+  <StrRes Name="sVertGradient" Text="Vertical gradient"/>
+  <StrRes Name="sHorzCenterGradient" Text="Horz-Center gradient"/>
+  <StrRes Name="sVertCenterGradient" Text="Vert-Center gradient"/>
+  <StrRes Name="sDiag1Gradient" Text="Diagonal gradient 1"/>
+  <StrRes Name="sDiag2Gradient" Text="Diagonal gradient 2"/>
+  <StrRes Name="sDiag1CenterGradient" Text="Diag-Center gradient 1"/>
+  <StrRes Name="sDiag2CenterGradient" Text="Diag-Center gradient 2"/>
+  <StrRes Name="sCorner1Gradient" Text="Corner gradient 1"/>
+  <StrRes Name="sCorner2Gradient" Text="Corner gradient 2"/>
+  <StrRes Name="sCorner3Gradient" Text="Corner gradient 3"/>
+  <StrRes Name="sCorner4Gradient" Text="Corner gradient 4"/>
+  <StrRes Name="sCenterGradient" Text="Center gradient"/>
+  <StrRes Name="sConfirmDelete" Text="Confirm deletion"/>
+  <StrRes Name="sDimensionEditor" Text="Dimension Editor"/>
+  <StrRes Name="sUseTotalPositionFromMeasure" Text="Use total position from measure"/>
+  <StrRes Name="sSortDirection" Text="Sort direction"/>
+  <StrRes Name="sExpand" Text="Expand"/>
+  <StrRes Name="sCollapse" Text="Collapse"/>
+  <StrRes Name="sExpandGroup" Text="Expand group"/>
+  <StrRes Name="sCollapseGroup" Text="Collapse group"/>
+  <StrRes Name="sExpandAll" Text="Expand all"/>
+  <StrRes Name="sCollapseAll" Text="Collapse all"/>
+  <StrRes Name="sMoveToGroup" Text="Move to group"/>
+  <StrRes Name="sMoveFromGroup" Text="Move from group"/>
+  <StrRes Name="sDeleteGroup" Text="Delete group"/>
+  <StrRes Name="sRenameGroup" Text="Rename group..."/>
+  <StrRes Name="sFilterOutThisItem" Text="Filter out this item"/>
+  <StrRes Name="sFilterOutAllOtherItems" Text="Filter out all other items"/>
+  <StrRes Name="sHideNode" Text="Hide node"/>
+  <StrRes Name="sShowHiddenNodes" Text="Show hidden nodes"/>
+  <StrRes Name="sShowTopN" Text="Show Top N..."/>
+  <StrRes Name="sClearTopN" Text="Clear Top N"/>
+  <StrRes Name="sActiveTopN" Text="Active Top N filters: %d"/>
+  <StrRes Name="sAxisType" Text="Axis type"/>
+  <StrRes Name="sBefore" Text="Before"/>
+  <StrRes Name="sAfter" Text="After"/>
+  <StrRes Name="sHide" Text="Hide"/>
+  <StrRes Name="sFromMeasure" Text="From measure"/>
+  <StrRes Name="sStandard" Text="Standard"/>
+  <StrRes Name="sTreeLike" Text="Tree like"/>
+  <StrRes Name="sCreateNew" Text="Create new"/>
+  <StrRes Name="sNewGroup" Text="New group"/>
+  <StrRes Name="sCreateANewGroup" Text="Create a new group"/>
+  <StrRes Name="sEnterANewGroupName" Text="Enter a new group name:"/>
+  <StrRes Name="sSort" Text="Sort"/>
+  <StrRes Name="sRename" Text="Rename..."/>
+  <StrRes Name="sMoveToPage" Text="Move to page"/>
+  <StrRes Name="sClearFilter" Text="Clear filter"/>
+  <StrRes Name="sSplits" Text="Splits"/>
+  <StrRes Name="sCreateNewGroup" Text="Create new group..."/>
+  <StrRes Name="sCreateOtherGroup" Text="Create &#60;other&#62; group..."/>
+  <StrRes Name="sAddNewMeasure" Text="Add new measure..."/>
+  <StrRes Name="sOther" Text="Other"/>
+  <StrRes Name="sEnterOtherGroupCaption" Text="Enter &#38;#60;other&#38;#62; group caption:"/>
+  <StrRes Name="sAscending" Text="Ascending"/>
+  <StrRes Name="sDescending" Text="Descending"/>
+  <StrRes Name="sDay" Text="Day"/>
+  <StrRes Name="sMonth" Text="Month"/>
+  <StrRes Name="sQuarter" Text="Quarter"/>
+  <StrRes Name="sYear" Text="Year"/>
+  <StrRes Name="sDayOfWeek" Text="Day of week"/>
+  <StrRes Name="sWeekNumber" Text="Week number"/>
+  <StrRes Name="sDayOfYear" Text="Day of year"/>
+  <StrRes Name="sHour" Text="Hour"/>
+  <StrRes Name="sMinute" Text="Minute"/>
+  <StrRes Name="sSecond" Text="Second"/>
+  <StrRes Name="sMillisecond" Text="Millisecond"/>
+  <StrRes Name="sTimeSplits" Text="Splits of time"/>
+  <StrRes Name="sDateSplits" Text="Splits of date"/>
+  <StrRes Name="sDateAttribute" Text="Date attribute"/>
+  <StrRes Name="sTimeAttribute" Text="Time attribute"/>
+  <StrRes Name="sCalcForSelection" Text="Calc for selection"/>
+  <StrRes Name="sScale" Text="Scale"/>
+  <StrRes Name="sScaleSlider" Text="Scale slider"/>
+  <StrRes Name="sDimension" Text="Dimension"/>
+  <StrRes Name="sShow" Text="Show"/>
+  <StrRes Name="sCreateOthers" Text="Create &#60;others&#62;"/>
+  <StrRes Name="sTopMax" Text="most"/>
+  <StrRes Name="sTopMin" Text="least"/>
+  <StrRes Name="sStylesEditor" Text="Styles Editor"/>
+  <StrRes Name="sCaptionArea" Text="Caption area"/>
+  <StrRes Name="sHeaderArea" Text="Header area"/>
+  <StrRes Name="sHeaderCells" Text="Header cells"/>
+  <StrRes Name="sHeaderCellsSelected" Text="Header cells (selected)"/>
+  <StrRes Name="sDataArea" Text="Data area"/>
+  <StrRes Name="sDataCells" Text="Data cells"/>
+  <StrRes Name="sDataCellsSelected" Text="Data cells (selected)"/>
+  <StrRes Name="sActiveDimension" Text="Active dimension"/>
+  <StrRes Name="sInactiveDimension" Text="Inactive dimension"/>
+  <StrRes Name="sDataCellsTotals" Text="Data cells (totals)"/>
+  <StrRes Name="sFieldsItem" Text="Fields item"/>
+  <StrRes Name="sStatusArea" Text="Status area"/>
+  <StrRes Name="sHighlightRuleEditor" Text="Highlight rule editor"/>
+  <StrRes Name="sRangeHighlightCaption" Text="Highlight cells matched condition"/>
+  <StrRes Name="sRule" Text="Rule (applies in order)"/>
+  <StrRes Name="sCellValueBetween" Text="Cell value between %f and %f"/>
+  <StrRes Name="sCellValueBeyond" Text="Cell value beyond %f and %f"/>
+  <StrRes Name="sCellValueEqual" Text="Cell value = %f"/>
+  <StrRes Name="sCellValueNotEqual" Text="Cell value &#60;&#62; %f"/>
+  <StrRes Name="sCellValueGreater" Text="Cell value &#62; %f"/>
+  <StrRes Name="sCellValueLess" Text="Cell value &#60; %f"/>
+  <StrRes Name="sCellValueGreaterOrEqual" Text="Cell value &#62;= %f"/>
+  <StrRes Name="sCellValueLessOrEqual" Text="Cell value &#60;= %f"/>
+  <StrRes Name="sCellTextContains" Text="Cell text contains '%s'"/>
+  <StrRes Name="sCellTextNotContains" Text="Cell text not contains '%s'"/>
+  <StrRes Name="sCellTextStartsWith" Text="Cell text starts with '%s'"/>
+  <StrRes Name="sCellTextEndsWith" Text="Cell text ends with '%s'"/>
+  <StrRes Name="sCellValueIsNull" Text="Cell value is null"/>
+  <StrRes Name="sCellValueIsNotNull" Text="Cell value is not null"/>
+  <StrRes Name="sCellValue" Text="Value"/>
+  <StrRes Name="sCellText" Text="Text"/>
+  <StrRes Name="sCellDate" Text="Date"/>
+  <StrRes Name="sCellNull" Text="Empty"/>
+  <StrRes Name="sCellNotNull" Text="Not empty"/>
+  <StrRes Name="sBetween" Text="between"/>
+  <StrRes Name="sBeyond" Text="beyond"/>
+  <StrRes Name="sEqual" Text="equal"/>
+  <StrRes Name="sNotEqual" Text="not equal"/>
+  <StrRes Name="sGreater" Text="greater"/>
+  <StrRes Name="sLess" Text="less"/>
+  <StrRes Name="sGreaterOrEqual" Text="greater or equal"/>
+  <StrRes Name="sLessOrEqual" Text="less or equal"/>
+  <StrRes Name="sContains" Text="contains"/>
+  <StrRes Name="sNotContains" Text="not contains"/>
+  <StrRes Name="sStartsWith" Text="starts with"/>
+  <StrRes Name="sEndsWith" Text="ends with"/>
+  <StrRes Name="sAnd" Text="and"/>
+  <StrRes Name="sOr" Text="or"/>
+  <StrRes Name="sEditStyle" Text="Style..."/>
+  <StrRes Name="sStyleEditor" Text="Style editor"/>
+  <StrRes Name="sApplyTo" Text="Apply to"/>
+  <StrRes Name="sToCells" Text="Cells"/>
+  <StrRes Name="sToTotals" Text="Totals"/>
+  <StrRes Name="sToGrandTotal" Text="Grand Total"/>
+  <StrRes Name="sContinuousHighlightCaption" Text="Highlight all cells dependent on value"/>
+  <StrRes Name="sHighlightKind" Text="Highlight type"/>
+  <StrRes Name="sTwoColorScale" Text="Two color scale"/>
+  <StrRes Name="sThreeColorScale" Text="Three color scale"/>
+  <StrRes Name="sBarChart" Text="Bar"/>
+  <StrRes Name="sIconSet" Text="Icon set"/>
+  <StrRes Name="sMinValue" Text="Minimal value"/>
+  <StrRes Name="sMinValueByRow" Text="Minimal value by row"/>
+  <StrRes Name="sMinValueByCol" Text="Minimal value by col"/>
+  <StrRes Name="sMidValue" Text="Average value"/>
+  <StrRes Name="sMaxValue" Text="Maximal value"/>
+  <StrRes Name="sMaxValueByRow" Text="Maximal value by row"/>
+  <StrRes Name="sMaxValueByCol" Text="Maximal value by col"/>
+  <StrRes Name="sType" Text="Type"/>
+  <StrRes Name="sValue" Text="Value"/>
+  <StrRes Name="sColor" Text="Color"/>
+  <StrRes Name="sNumber" Text="Number"/>
+  <StrRes Name="sPercentByRow" Text="Percent by row"/>
+  <StrRes Name="sPercentByCol" Text="Percent by col"/>
+  <StrRes Name="sPercentileByRow" Text="Percentile by row"/>
+  <StrRes Name="sPercentileByCol" Text="Percentile by col"/>
+  <StrRes Name="sBarColor" Text="Bar color"/>
+  <StrRes Name="sTheShortestBar" Text="The shortest bar"/>
+  <StrRes Name="sTheLongestBar" Text="The longest bar"/>
+  <StrRes Name="sShowCellValue" Text="Show cell value"/>
+  <StrRes Name="sGradientDraw" Text="Draw gradient"/>
+  <StrRes Name="sFrameColor" Text="Frame color"/>
+  <StrRes Name="sIfValue" Text="if value"/>
+  <StrRes Name="sIfValue1" Text="if %s %g"/>
+  <StrRes Name="sReverseOrder" Text="Reverse order"/>
+  <StrRes Name="sIcon" Text="Icon"/>
+  <StrRes Name="sNoIcon" Text="No icon"/>
+  <StrRes Name="sCustom" Text="Custom"/>
+  <StrRes Name="sString" Text="String"/>
+  <StrRes Name="sNumeric" Text="Numeric"/>
+  <StrRes Name="sDateTime" Text="DateTime"/>
+  <StrRes Name="sSkipNullPoints" Text="Skip null points"/>
+  <StrRes Name="sBaseAxisDataType" Text="Data type for base axis"/>
+  <StrRes Name="sRangeEditor" Text="Range editor"/>
+  <StrRes Name="sCustomFilter" Text="Custom filter..."/>
+  <StrRes Name="sShowAvailable" Text="Show available"/>
+  <StrRes Name="dtMeasures" Text="Measures"/>
+  <StrRes Name="dtDimensions" Text="Dimensions"/>
+  <StrRes Name="dtSliceFields" Text="SliceFields"/>
+  <StrRes Name="sAxisProperties" Text="Axis properties..."/>
+  <StrRes Name="sAxisEditor" Text="Axis editor"/>
+  <StrRes Name="sGrandTotalPosition" Text="Grand total position"/>
+  <StrRes Name="sAdditionalGrandTotals" Text="Additional grand totals"/>
+  <StrRes Name="sDistinctField" Text="Distinct Field"/>
+  <StrRes Name="sDistinct" Text="Distinct"/>
+</Resources>

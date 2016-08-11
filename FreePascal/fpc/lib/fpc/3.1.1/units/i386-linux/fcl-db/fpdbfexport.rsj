@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":95933971,"name":"fpdbfexport.serrfailedtodeletefile","sourcebytes":[70,97,105,108,101,100,32,116,111,32,100,101,108,101,116,101,32,101,120,105,115,116,105,110,103,32,68,66,70,32,102,105,108,101,58,32,37,115],"value":"Failed to delete existing DBF file: %s"},
+{"hash":141347491,"name":"fpdbfexport.sdbfdescription","sourcebytes":[68,66,70,32,102,105,108,101,115],"value":"DBF files"}
+]}

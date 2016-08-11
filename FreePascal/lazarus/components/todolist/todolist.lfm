@@ -1,0 +1,150 @@
+object IDETodoWindow: TIDETodoWindow
+  Left = 415
+  Height = 300
+  Top = 429
+  Width = 643
+  ActiveControl = lvTodo
+  Caption = 'IDETodoWindow'
+  ClientHeight = 300
+  ClientWidth = 643
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.5'
+  object lvTodo: TListView
+    Left = 6
+    Height = 205
+    Top = 54
+    Width = 631
+    Align = alClient
+    BorderSpacing.Around = 6
+    Columns = <    
+      item
+        Caption = 'Done'
+        Width = 100
+      end    
+      item
+        Caption = 'Description'
+        Width = 700
+      end    
+      item
+        Caption = 'Priority'
+        Width = 100
+      end    
+      item
+        Caption = 'Module'
+        Width = 100
+      end    
+      item
+        Caption = 'Line'
+        Width = 100
+      end    
+      item
+        Caption = 'Owner'
+        Width = 100
+      end    
+      item
+        Caption = 'Category'
+        Width = 100
+      end>
+    RowSelect = True
+    ScrollBars = ssAutoBoth
+    SortType = stText
+    TabOrder = 0
+    ViewStyle = vsReport
+    OnClick = lvTodoClick
+    OnColumnClick = lvTodoColumnClick
+    OnCompare = lvTodoCompare
+  end
+  object ToolBar: TToolBar
+    Left = 0
+    Height = 48
+    Top = 0
+    Width = 643
+    AutoSize = True
+    ButtonHeight = 46
+    ButtonWidth = 47
+    Caption = 'ToolBar'
+    ParentShowHint = False
+    ShowCaptions = True
+    ShowHint = True
+    TabOrder = 1
+    object tbOptions: TToolButton
+      Left = 209
+      Top = 2
+      AllowAllUp = True
+      AutoSize = True
+      Caption = 'Options'
+      Visible = False
+    end
+    object tbPrint: TToolButton
+      Left = 162
+      Top = 2
+      AutoSize = True
+      Caption = 'Print'
+      Visible = False
+    end
+    object tbRefresh: TToolButton
+      Left = 1
+      Top = 2
+      Action = acRefresh
+      AutoSize = True
+    end
+    object tbGoto: TToolButton
+      Left = 61
+      Top = 2
+      Action = acGoto
+      AutoSize = True
+    end
+    object tbExport: TToolButton
+      Left = 108
+      Top = 2
+      Action = acExport
+      AutoSize = True
+    end
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 29
+    Top = 265
+    Width = 631
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    HelpButton.OnClick = HelpButtonClick
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 2
+    ShowButtons = [pbClose, pbHelp]
+    ShowBevel = False
+  end
+  object ActionList: TActionList
+    left = 414
+    top = 11
+    object acGoto: TAction
+      Caption = 'Goto'
+      OnExecute = acGotoExecute
+    end
+    object acRefresh: TAction
+      Caption = 'Refresh'
+      OnExecute = acRefreshExecute
+    end
+    object acExport: TAction
+      Caption = 'Export'
+      OnExecute = acExportExecute
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    OnShow = SaveDialog1Show
+    DefaultExt = '.csv'
+    Filter = 'csv|*.csv'
+    Options = [ofCreatePrompt, ofEnableSizing, ofViewDetail]
+    left = 448
+    top = 11
+  end
+end

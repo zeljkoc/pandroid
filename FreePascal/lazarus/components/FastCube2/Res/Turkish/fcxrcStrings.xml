@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources CodePage="1254">
+  <StrRes Name="SOkBtn" Text="Tamam"/>
+  <StrRes Name="SCancelBtn" Text="Vazgeç"/>
+  <StrRes Name="sEditBtn" Text="Düzenle ..."/>
+  <StrRes Name="sAddBtn" Text="Ekle ..."/>
+  <StrRes Name="sDeleteBtn" Text="Sil"/>
+  <StrRes Name="SDataOverflow" Text="Veri taşması hatası!"/>
+  <StrRes Name="sDemoBlocked" Text="Bu fonksiyon demo'da kapatılmıştır."/>
+  <StrRes Name="sCheckBtn" Text="Kontrol"/>
+  <StrRes Name="sNoErrors" Text="Hata yok"/>
+  <StrRes Name="sConfirmClearSchema" Text="Izgarayı temizleyecekmisiniz?"/>
+  <StrRes Name="sTrue" Text="Doğru"/>
+  <StrRes Name="sFalse" Text="Yanlış"/>
+  <StrRes Name="SDayPrefix" Text="Tarih_"/>
+  <StrRes Name="SMonthPrefix" Text="Ay_"/>
+  <StrRes Name="SQuarterPrefix" Text="Ceyrek_"/>
+  <StrRes Name="SYearPrefix" Text="Yil_"/>
+  <StrRes Name="SDayOfWeekPrefix" Text="Haftanin_Gunu_"/>
+  <StrRes Name="SCounter" Text="(Sayac)"/>
+  <StrRes Name="SMeasures" Text="Ölçü"/>
+  <StrRes Name="SCounterItem" Text="Sistem sayaci"/>
+  <StrRes Name="sError" Text="??.?? %"/>
+  <StrRes Name="sUnknown" Text="???"/>
+  <StrRes Name="sBadValue" Text="?Hata?"/>
+  <StrRes Name="sFileLockError" Text="%s dosyası oluşturlamadı. Başka bir uygulama tarafından kullanılıyor olabilir."/>
+  <StrRes Name="sDataSetUnAssigned" Text="DataSet tanımsız!"/>
+  <StrRes Name="sDataSetOpenError" Text="%s açılırken hata!"/>
+  <StrRes Name="sCellAlreadyExist" Text="Veri hücresi zaten var"/>
+  <StrRes Name="sUnknownCubeFormat" Text="Bilinmeyen küp biçimi!"/>
+  <StrRes Name="STotal" Text="Toplam"/>
+  <StrRes Name="STotalBy" Text="Toplamı"/>
+  <StrRes Name="SNothing" Text="Değer"/>
+  <StrRes Name="sSchemaFilter" Text="Küp şema dosyaları|*.mds"/>
+  <StrRes Name="sCubeFilter" Text="Küp dosyaları|*.mdc"/>
+  <StrRes Name="sChartTemplateFilter" Text="Çart (grafik) dosyaları|*.mdt"/>
+  <StrRes Name="sXLSFilter" Text="Excel dosyaları|*.xls"/>
+  <StrRes Name="sDOCFilter" Text="Word dosyaları|*.doc"/>
+  <StrRes Name="sHTMLFilter" Text="HTML dosyaları|*.html"/>
+  <StrRes Name="sXMLFilter" Text="XML dosyaları|*.xml"/>
+  <StrRes Name="sEditMeasure" Text="Ölçü düzenle"/>
+  <StrRes Name="sEditMeasures" Text="Ölçüleri düzenle"/>
+  <StrRes Name="sMeasure" Text="Ölçü"/>
+  <StrRes Name="sMeasures" Text="Ölçüler"/>
+  <StrRes Name="sCaption" Text="Başkık"/>
+  <StrRes Name="sAggregate" Text="Agregate:"/>
+  <StrRes Name="sDigitsAfter" Text="Küsür adeti:"/>
+  <StrRes Name="sAggAlreadyExist" Text="Agregate zaten var!"/>
+  <StrRes Name="sField" Text="Saha:"/>
+  <StrRes Name="sFormula" Text="Formül:"/>
+  <StrRes Name="sCalcOrder" Text="Hesaplama sırası:"/>
+  <StrRes Name="sFilter" Text="Filtre:"/>
+  <StrRes Name="sEditor" Text="Editor ..."/>
+  <StrRes Name="sFuncNotAllWithDate" Text="Tarih ile bu fonksiyon geçersizdir!"/>
+  <StrRes Name="sIncorrectPrecision" Text="Geçersiz küsürat [%d]. Küsürat tam sayı olmalı &#38;#62;= 0! "/>
+  <StrRes Name="sIncorrectCalcOrder" Text="Geçersiz hesaplama sırası [%d]. Hesaplama sırası %d ve %d arasında olmalı!"/>
+  <StrRes Name="sFilterAll" Text="Tümü"/>
+  <StrRes Name="sFilterFirst" Text="İlk"/>
+  <StrRes Name="sFilterInversion" Text="Ters"/>
+  <StrRes Name="sFieldFormCaption" Text="Sahalar"/>
+  <StrRes Name="sFieldFormDragLabel" Text="Izgaraya taşı"/>
+  <StrRes Name="sFieldformAddBtn" Text="Ekle"/>
+  <StrRes Name="sFieldFormAreaText" Text="Filtreler'#$D#$A'Satırlar'#$D#$A'Kolonlar'#$D#$A'Ölçüler"/>
+  <StrRes Name="sFieldFormRename" Text="Yeniden isimlendir"/>
+  <StrRes Name="sDefCubeCaption" Text="&#60;Başlıksız&#62;"/>
+  <StrRes Name="sFieldLabelChangeCaption" Text="Saha başlığını değiştir"/>
+  <StrRes Name="sFieldLabelChangePropmpt" Text="Yeni saha başlığı gir"/>
+  <StrRes Name="sCubeChangeCaption" Text="Küp başlığı değiştir"/>
+  <StrRes Name="sCubeChangePropmpt" Text="Yeni küp başlığı gir"/>
+  <StrRes Name="sStatFormCaption" Text="Çapraz metrik"/>
+  <StrRes Name="sStatFormSourceRowCount" Text="Kaynak satır sayısı"/>
+  <StrRes Name="sStatFormSliceGeometry" Text="Slice geometri"/>
+  <StrRes Name="sStatFormRowDimCount" Text="Satır boyutunun sayısı"/>
+  <StrRes Name="sStatFormColDimCount" Text="Sütun (kolon) boyutunun sayısı"/>
+  <StrRes Name="sStatFormFactsCount" Text="Ölçü sayısı"/>
+  <StrRes Name="sStatFormFilterCount" Text="Filtre sahaların sayısı"/>
+  <StrRes Name="sStatFormTimeChar" Text="Zaman karakteri (sec.)"/>
+  <StrRes Name="sStatFormTimeOpen" Text="Kaynağı açılıyor"/>
+  <StrRes Name="sStatFormTimeLoad" Text="Kaynaklar yükleniyor"/>
+  <StrRes Name="sStatFormTimeSources" Text="Kaynaklar işleniyor"/>
+  <StrRes Name="sStatFormTimeAxisX" Text="X aksı oluşturuluyor"/>
+  <StrRes Name="sStatFormTimeAxisY" Text="Y aksı oluşturuluyor"/>
+  <StrRes Name="sStatFormTimeFacts" Text="Ölçüler oluşturuluyor"/>
+  <StrRes Name="sStatFormTimeLinks" Text="Bağlar dolduruluyor"/>
+  <StrRes Name="sStatFormTimeUniques" Text="Tekil değerler dolduruluyor"/>
+  <StrRes Name="sRangeFormCaption" Text="Veri işaretleme ayarı"/>
+  <StrRes Name="sRangeFormFieldRanges" Text="Saha sınırları"/>
+  <StrRes Name="sRangeFormRanges" Text="Sınırlar"/>
+  <StrRes Name="sRangeFormRangeParams" Text="Sınır ayarı"/>
+  <StrRes Name="sRangeFormColor" Text="Renk"/>
+  <StrRes Name="sRangeFormReplace" Text="Değiştir"/>
+  <StrRes Name="sRangeFormAdd" Text="Ekle"/>
+  <StrRes Name="sRangeFormDelete" Text="Sil"/>
+  <StrRes Name="sAllRange" Text="Tüm değerler"/>
+  <StrRes Name="sTextColor" Text="Metin rengi"/>
+  <StrRes Name="sBGColor" Text="Zemin rengi"/>
+  <StrRes Name="sCubeSave" Text="Küp kaydet"/>
+  <StrRes Name="sCubeLoad" Text="Küp yükle"/>
+  <StrRes Name="sClearGrid" Text="Izgarayı temizle"/>
+  <StrRes Name="sSchemaSave" Text="Şema kaydet"/>
+  <StrRes Name="sSchemaLoad" Text="Şema yükle"/>
+  <StrRes Name="sExportTo" Text="Veri ver ..."/>
+  <StrRes Name="sShowHints" Text="İpuçlarını göster"/>
+  <StrRes Name="sHideRowZeros" Text="Sıfır satırları gizle"/>
+  <StrRes Name="sHideColZeros" Text="Sıfır kolonları gizle"/>
+  <StrRes Name="sRowSort" Text="Satır sıralama tipi"/>
+  <StrRes Name="sColSort" Text="Kolon sıralama tipi"/>
+  <StrRes Name="sDataMarker" Text="Veri işaretleyici"/>
+  <StrRes Name="sIncDecimal" Text="Küsürat arttır"/>
+  <StrRes Name="sDecDecimal" Text="Küsürat düşür"/>
+  <StrRes Name="sAlignment" Text="Hizalama"/>
+  <StrRes Name="sRemoveToPage" Text="Sayfa alanına taşı"/>
+  <StrRes Name="sDisplayAs" Text="Farklı göster..."/>
+  <StrRes Name="sFieldList" Text="Saha listesi"/>
+  <StrRes Name="sStatistics" Text="İstatistikler"/>
+  <StrRes Name="sFloatYAxis" Text="Y Aksı"/>
+  <StrRes Name="sSortByValues" Text="Aks değerlerine göre sırala"/>
+  <StrRes Name="sSortByTotals" Text="Ölçü toplamlarına göre sırala"/>
+  <StrRes Name="sSortByXSelection" Text="Seçili satıra göre sırala"/>
+  <StrRes Name="sSortByYSelection" Text="Seçili kolona göre sırala"/>
+  <StrRes Name="sExportToExcel" Text="Excel'e ver"/>
+  <StrRes Name="sExportToHTML" Text="HTML'ye ver"/>
+  <StrRes Name="sExportToWord" Text="Word'e ver"/>
+  <StrRes Name="sExportToXML" Text="XML'ye ver"/>
+  <StrRes Name="sOriginalValue" Text="Orijinal değer"/>
+  <StrRes Name="sRowPercentTotal" Text="Toplam satır yüzde"/>
+  <StrRes Name="sColPercentTotal" Text="Toplam kolon yüzde"/>
+  <StrRes Name="sRowPercentGroup" Text="Grup satır yüzde"/>
+  <StrRes Name="sColPercentGroup" Text="Grup kolon yüzde"/>
+  <StrRes Name="sGrandTotalPercent" Text="Genel toplam yüzde"/>
+  <StrRes Name="sBackSort" Text="Sıralama yönünü değiştir"/>
+  <StrRes Name="sShowTotals" Text="Toplamları göster"/>
+  <StrRes Name="sCollapseDimension" Text="Boyutları kapat"/>
+  <StrRes Name="sExpandDimension" Text="Boyutları aç"/>
+  <StrRes Name="sSelectRow" Text="Satır seç"/>
+  <StrRes Name="sSelectCol" Text="Kolon seç"/>
+  <StrRes Name="sSelectAll" Text="Tümünü seç"/>
+  <StrRes Name="sCopy" Text="Kopyala"/>
+  <StrRes Name="sQuarter_1" Text="1.Çeyrek"/>
+  <StrRes Name="sQuarter_2" Text="2.Çeyrek"/>
+  <StrRes Name="sQuarter_3" Text="3.Çeyrek"/>
+  <StrRes Name="sQuarter_4" Text="4.Çeyrek"/>
+  <StrRes Name="sSumPrefix" Text="Toplam "/>
+  <StrRes Name="sCountPrefix" Text="Sayaç"/>
+  <StrRes Name="sMinPrefix" Text="En küçüğü"/>
+  <StrRes Name="sMaxPrefix" Text="En büyüğü"/>
+  <StrRes Name="sAvgPrefix" Text="Ortalama"/>
+  <StrRes Name="sMulPrefix" Text="Çarpım"/>
+  <StrRes Name="sVariancePrefix" Text="Varyansı"/>
+  <StrRes Name="sStdDevPrefix" Text="Std Dev of "/>
+  <StrRes Name="sVarianceSPrefix" Text="Varyası S"/>
+  <StrRes Name="sStdDevSPrefix" Text="Std DevS of "/>
+  <StrRes Name="sFuncPrefix" Text="Hesaplama"/>
+  <StrRes Name="sCountOfUniquePrefix" Text="Count unique of "/>
+  <StrRes Name="sFuncDetPrefix" Text="Hesaplama (detail) "/>
+  <StrRes Name="sMedianPrefix" Text="Medyan "/>
+  <StrRes Name="sWeightedMeanPrefix" Text="Weighted arithmetic mean of "/>
+  <StrRes Name="sWeightedMeanCaption" Text="Weighted arithmetic mean"/>
+  <StrRes Name="sFactsRegion" Text="Ölçü sahaları buraya taşı"/>
+  <StrRes Name="sRowsRegion" Text="Satır sahaları buraya taşı"/>
+  <StrRes Name="sFiltersRegion" Text="Filtre sahaları buraya taşı"/>
+  <StrRes Name="sColsRegion" Text="Kolon sahaları buraya taşı"/>
+  <StrRes Name="sServiceRegion" Text="Servis"/>
+  <StrRes Name="sSumCaption" Text="Toplam"/>
+  <StrRes Name="sCountCaption" Text="Sayaç"/>
+  <StrRes Name="sMinCaption" Text="En küçük"/>
+  <StrRes Name="sMaxCaption" Text="En büyük"/>
+  <StrRes Name="sAvgCaption" Text="Ortalama"/>
+  <StrRes Name="sMulCaption" Text="Çarpım"/>
+  <StrRes Name="sVarianceCaption" Text="Varyans"/>
+  <StrRes Name="sStdDevCaption" Text="Std Dev"/>
+  <StrRes Name="sVarianceSCaption" Text="Varyans"/>
+  <StrRes Name="sStdDevSCaption" Text="Std DevS"/>
+  <StrRes Name="sFuncCaption" Text="Hesap"/>
+  <StrRes Name="sCountOfUniqueCaption" Text="Count unique"/>
+  <StrRes Name="sFuncDetCaption" Text="Hesap (detail)"/>
+  <StrRes Name="sMedianCaption" Text="Medyan"/>
+  <StrRes Name="sLinkToSelf" Text="Kendine bağlı! Kod=%d."/>
+  <StrRes Name="sParentNotFound" Text="Ebebeyin bulunamadı! Kod=%d."/>
+  <StrRes Name="sLoopLink" Text="İçiçe kendine bağlı! Kod=%d."/>
+  <StrRes Name="sAllValues" Text="Tüm değerler"/>
+  <StrRes Name="sErBadLexem" Text="Hatalı lexema!"/>
+  <StrRes Name="sErCommentNotClosed" Text="Bitmemiş açıklama!"/>
+  <StrRes Name="sErMixDigitChar" Text="Karakterler ile dijitleri karıştırıyor!"/>
+  <StrRes Name="sErUnfinishedIdent" Text="Tanımlayıcı ifadesi bitirilmemiş"/>
+  <StrRes Name="sDetailGridCaption" Text="Hücre detayı"/>
+  <StrRes Name="sLeftJustify" Text="Sola"/>
+  <StrRes Name="sCenter" Text="Ortaya"/>
+  <StrRes Name="sRightJustify" Text="Sağa"/>
+  <StrRes Name="sPopupHint1" Text="Tümünü seç"/>
+  <StrRes Name="sPopupHint2" Text="Tümünü bırak"/>
+  <StrRes Name="sPopupHint3" Text="Seçimi çevir"/>
+  <StrRes Name="sPopupHint4" Text="Uygula"/>
+  <StrRes Name="sPopupHint5" Text="Vazgeç"/>
+  <StrRes Name="sPopupHint6" Text="Yukarı"/>
+  <StrRes Name="sPopupHint7" Text="Aşağı"/>
+  <StrRes Name="sPopupHint8" Text="Tümünü genişlet"/>
+  <StrRes Name="sPopupHint9" Text="Tümünü daralt"/>
+  <StrRes Name="sFormulaEditor" Text="Formül Editörü"/>
+  <StrRes Name="sScriptErrorsFound" Text="Hatalar bulundu [%s]. Kayıt edilsinmi?"/>
+  <StrRes Name="sChartDataManagerCaption" Text="Veri yönetimi"/>
+  <StrRes Name="sErrorFieldAfterHierarchi" Text="Geçici kullanılmayan sahaları hiyerarşi sonrası taşı"/>
+  <StrRes Name="sChartSaveTemplate" Text="çart (grf) örneği kaydet"/>
+  <StrRes Name="sChartOpenTemplate" Text="çart (grf) örneği aç"/>
+  <StrRes Name="sChartStyle" Text="Çart tipi"/>
+  <StrRes Name="sChartByRows" Text="Satırlara göre"/>
+  <StrRes Name="sChartByCols" Text="Kolonlara göre"/>
+  <StrRes Name="sChartMarks" Text="İşaretler"/>
+  <StrRes Name="sChartLegend" Text="Şekiller"/>
+  <StrRes Name="sChartDataManager" Text="Veri yönetimi"/>
+  <StrRes Name="sChartStyleBar" Text="Bar stil"/>
+  <StrRes Name="sChartStyleLine" Text="Çizgi stil"/>
+  <StrRes Name="sChartStylePoint" Text="Nokta stil"/>
+  <StrRes Name="sChartStyleArea" Text="Alan stil"/>
+  <StrRes Name="sChartStylePie" Text="Pasta stil"/>
+  <StrRes Name="sChartLegendLeft" Text="Sola"/>
+  <StrRes Name="sChartLegendRight" Text="Sağa"/>
+  <StrRes Name="sChartLegendTop" Text="Üste"/>
+  <StrRes Name="sChartLegendBottom" Text="Alta"/>
+  <StrRes Name="sAutoSize_Default" Text="Öndeğer"/>
+  <StrRes Name="sAutoSize_BySlice" Text="Izgaraya göre boyutlandır"/>
+  <StrRes Name="sAutoSize_ColWidth" Text="Otomatik genişlik"/>
+  <StrRes Name="sAutoSize_ColWidthRestrict" Text="Sınırlamalı otomatik genişlik"/>
+  <StrRes Name="sAutoSize_RowHeight" Text="Otomatik yükseklik"/>
+  <StrRes Name="sAutoSize_ByMemoSize" Text="Memo boyuna göre"/>
+  <StrRes Name="propCube" Text="Çok boyutlu veri kaynağı"/>
+  <StrRes Name="propPaintSizes" Text="Bunun için algoritma ve değerleri hesapla"/>
+  <StrRes Name="propShowNames" Text="Sahaları gösterecek hesabı yap"/>
+  <StrRes Name="propAutoSizeStyle" Text="Algoritma boyu hesapbı"/>
+  <StrRes Name="propDefaultColWidth" Text="Tüm hücreler için. AutoSizeStyle=ssDefault"/>
+  <StrRes Name="propDefaultRowHeight" Text="Tüm sahalarının yüksekliği. AutoSizeStyle=ssDefault"/>
+  <StrRes Name="propMaxColWidth" Text="En büyük kolon genişliğini uygula. AutoSizeStyle=ssAutoColWidthRestrict"/>
+  <StrRes Name="propFileName" Text="Mevcut küpün dosyaadı"/>
+  <StrRes Name="sConvFieldName" Text="Saha adı"/>
+  <StrRes Name="sConvFieldType" Text="Tipi"/>
+  <StrRes Name="sConvFieldSize" Text="Boyut"/>
+  <StrRes Name="sConvFieldCaption" Text="Başlık"/>
+  <StrRes Name="sConvFieldConv" Text="Çevirici kullan"/>
+  <StrRes Name="sConvFieldNewType" Text="Hedef tip"/>
+  <StrRes Name="sConvFieldNewSize" Text="Hedef boyut"/>
+  <StrRes Name="sConvEditField" Text="Sahaları düzenle"/>
+  <StrRes Name="sConvSaveToFile" Text="Dosyaya kaydet"/>
+  <StrRes Name="sConvLoadFromFile" Text="Dosyadan yükle"/>
+  <StrRes Name="sConvNoType" Text="Hedef tipi gerekli!"/>
+  <StrRes Name="sConvNoSize" Text="Hedef boyu sıfırdan büyük olmalı &#38;#62; 0!"/>
+  <StrRes Name="dmSelectExample" Text="Örnek göster"/>
+  <StrRes Name="dmSchema" Text="Şemalar"/>
+  <StrRes Name="dmFRPreview" Text="FastReport'ta önizleme"/>
+  <StrRes Name="dmCrossTbl" Text="Çapraz tablo"/>
+  <StrRes Name="dmChart" Text="Çart"/>
+  <StrRes Name="dmSourceTbl" Text="Kaynak tabloları"/>
+  <StrRes Name="dmSelectExample" Text="Örnek seç"/>
+  <StrRes Name="dmConf" Text="democonfen.txt"/>
+  <StrRes Name="sPercentFormat" Text="Percent Format"/>
+  <StrRes Name="sDefaultFormat" Text="Default Format"/>
+  <StrRes Name="sChartRealTimeChange" Text="Auto apply changes"/>
+  <StrRes Name="sChartDataSource" Text="Chart data source properties"/>
+  <StrRes Name="sChartSeriesAxis" Text="Use as series:"/>
+  <StrRes Name="sChartValuesAxis" Text="Use as categories:"/>
+  <StrRes Name="sChartSeriesFieldCount" Text="Field count for Series:"/>
+  <StrRes Name="sChartValuesFieldCount" Text="Field count for Categories:"/>
+  <StrRes Name="sChartMeasureFiledIndex" Text="Measure index:"/>
+  <StrRes Name="sChartFrozen" Text="Frozen chart"/>
+  <StrRes Name="sChartDataProperty" Text="Chart properties"/>
+  <StrRes Name="sAxisX" Text="Dimensions from columns"/>
+  <StrRes Name="sAxisY" Text="Dimensions from rows"/>
+  <StrRes Name="sChartByAxisAxis" Text="Series and categories from dimensions"/>
+  <StrRes Name="sChartByAxisMeasures" Text="Series from measures, categories from dimensions"/>
+  <StrRes Name="sChartByMeasuresAxis" Text="Series from dimensions, categories from measures"/>
+  <StrRes Name="sChartPropsAreNotCorrect" Text="Chart properties are not correct"/>
+  <StrRes Name="sScriptErrorFilter" Text="Error during filter calculation:"/>
+  <StrRes Name="sScriptErrorCalc" Text="Error during script calculation:"/>
+  <StrRes Name="sErrorStr" Text="Error"/>
+  <StrRes Name="SWeekNumberPrefix" Text="Week_number_"/>
+  <StrRes Name="SDayOfYearPrefix" Text="Day_of_year_"/>
+  <StrRes Name="sFirstValue" Text="First value"/>
+  <StrRes Name="sFirstValuePrefix" Text="First value of"/>
+  <StrRes Name="sMeasureName" Text="Measure name"/>
+  <StrRes Name="sListOfUniquePrefix" Text="List unique of "/>
+  <StrRes Name="sListOfUniqueCaption" Text="List unique"/>
+  <StrRes Name="sExportCloneMasterValue" Text="Clone Master Value"/>
+  <StrRes Name="sCopyWithHeader" Text="Copy with headers"/>
+  <StrRes Name="fkCustom" Text="Custom"/>
+  <StrRes Name="sChartStyleHorizBar" Text="Horiz Bar style"/>
+  <StrRes Name="sChartStackType" Text="Multiple Bar"/>
+  <StrRes Name="sChartStackNone" Text="None"/>
+  <StrRes Name="sChartStackSide" Text="Side"/>
+  <StrRes Name="sChartStackStacked" Text="Stacked"/>
+  <StrRes Name="sChartStackStacked100" Text="Stacked 100%"/>
+  <StrRes Name="sChartStackSideAll" Text="Side All"/>
+  <StrRes Name="sChartStackSelfStack" Text="Self Stack"/>
+  <StrRes Name="sLastValue" Text="Last value"/>
+  <StrRes Name="sLastValuePrefix" Text="Last value of "/>
+  <StrRes Name="obfrcCube" Text="FastCube Cube nesne"/>
+  <StrRes Name="obfrcChartView" Text="FastCube Chart nesne"/>
+  <StrRes Name="obfrcCrossView" Text="FastCube Çapraz tablo nesne"/>
+  <StrRes Name="fc2600" Text="FastCube hakkında"/>
+  <StrRes Name="fc2601" Text="Daha fazla için websitemizi ziyaret edin:"/>
+  <StrRes Name="fc2602" Text="Satış:"/>
+  <StrRes Name="fc2603" Text="Destek:"/>
+  <StrRes Name="sSliceEditorCaption" Text="Slice Editor"/>
+  <StrRes Name="sApplyBtn" Text="Apply"/>
+  <StrRes Name="sNull" Text="Null"/>
+  <StrRes Name="SHourPrefix" Text="Hour_"/>
+  <StrRes Name="SMinutePrefix" Text="Minute_"/>
+  <StrRes Name="SSecondPrefix" Text="Second_"/>
+  <StrRes Name="SMillisecondPrefix" Text="Millisecond_"/>
+  <StrRes Name="sDateAttributeLabelPrefix" Text="Date_"/>
+  <StrRes Name="sTimeAttributeLabelPrefix" Text="Time_"/>
+  <StrRes Name="sGrandTotal" Text="Grand total"/>
+  <StrRes Name="sName" Text="Name"/>
+  <StrRes Name="sUseDifferentAggregateForTotals" Text="Use different aggregate for totals"/>
+  <StrRes Name="sCalcTotalsOnTotals" Text="Calculate totals on totals"/>
+  <StrRes Name="sUseXAxisTotalsAsBase" Text="Use column totals as base"/>
+  <StrRes Name="sTotalsConflictResolving" Text="Totals conflict resolution"/>
+  <StrRes Name="sTotalPosition" Text="Total position"/>
+  <StrRes Name="sAdditionalTotals" Text="Additional Totals"/>
+  <StrRes Name="sEmptyCell" Text="Empty Cell"/>
+  <StrRes Name="sUseXAxisTotal" Text="Use Column Total"/>
+  <StrRes Name="sUseYAxisTotal" Text="Use Row Total"/>
+  <StrRes Name="sFuncNotAll" Text="It is impossible to use this function with this field!"/>
+  <StrRes Name="sFuncNotAllWithCalc" Text="It is impossible to use this function with Calculation Measure!"/>
+  <StrRes Name="sDisplayFormat" Text="Display Format"/>
+  <StrRes Name="sClearAll" Text="Clear all"/>
+  <StrRes Name="sInverse" Text="Inverse"/>
+  <StrRes Name="sInfoFormCaption" Text="Cube information"/>
+  <StrRes Name="sInfoFormSliceGeometry" Text="Slice geometry"/>
+  <StrRes Name="sInfoFormSourceRowCount" Text="Source row count"/>
+  <StrRes Name="sInfoFormRowDimCount" Text="Count of row dimensions"/>
+  <StrRes Name="sInfoFormColDimCount" Text="Count of column dimesions"/>
+  <StrRes Name="sInfoFormFactsCount" Text="Count of measures"/>
+  <StrRes Name="sInfoFormFilterCount" Text="Count of filter fields"/>
+  <StrRes Name="sInfoFormColCount" Text="Column count"/>
+  <StrRes Name="sInfoFormRowCount" Text="Row count"/>
+  <StrRes Name="sInfoFormTimeChar" Text="Time characteristics (sec.)"/>
+  <StrRes Name="sInfoFormFullTime" Text="Full loading time"/>
+  <StrRes Name="sInfoFormDBOpenTime" Text="Opening data sources"/>
+  <StrRes Name="sInfoFormOpenTime" Text="Preparing to loading"/>
+  <StrRes Name="sInfoFormDBMoveTime" Text="Data fetch"/>
+  <StrRes Name="sInfoFormDBGetDataTime" Text="Getting values"/>
+  <StrRes Name="sInfoFormConvertTime" Text="Converting values"/>
+  <StrRes Name="sInfoFormDBCloseTime" Text="Closing data sources"/>
+  <StrRes Name="sInfoFormSortTime" Text="Sorting data"/>
+  <StrRes Name="sInfoFormDataBuildTime" Text="Calculation measures"/>
+  <StrRes Name="sInfoFormTimeSources" Text="Processing sources"/>
+  <StrRes Name="sInfoFormTimeAxisX" Text="Building X axis"/>
+  <StrRes Name="sInfoFormTimeAxisY" Text="Building Y axis"/>
+  <StrRes Name="sInfoFormTimeFacts" Text="Building measures"/>
+  <StrRes Name="sInfoFormTimeLinks" Text="Filling links"/>
+  <StrRes Name="sInfoFormTimeUniques" Text="Filling unique values"/>
+  <StrRes Name="sSave" Text="Save"/>
+  <StrRes Name="sLoad" Text="Load"/>
+  <StrRes Name="sCubeLoadAdditional" Text="Load additional cube"/>
+  <StrRes Name="sInformation" Text="Information"/>
+  <StrRes Name="sTranspose" Text="Transpose"/>
+  <StrRes Name="sRowRank" Text="Rank by row"/>
+  <StrRes Name="sColRank" Text="Rank by column"/>
+  <StrRes Name="sSelect" Text="Select"/>
+  <StrRes Name="sDeleteMeasure" Text="Delete measure"/>
+  <StrRes Name="sProperties" Text="Properties..."/>
+  <StrRes Name="sChartMeasureFieldIndex" Text="Measure index:"/>
+  <StrRes Name="sMeasureEditor" Text="Measure Editor"/>
+  <StrRes Name="sGeneral" Text="General"/>
+  <StrRes Name="sFieldBased" Text="Field Based"/>
+  <StrRes Name="sBaseField" Text="Base Field"/>
+  <StrRes Name="sCalculated" Text="Calculated"/>
+  <StrRes Name="sFunction" Text="Function"/>
+  <StrRes Name="sOrder" Text="Order"/>
+  <StrRes Name="sCalcAllCells" Text="Calc all cells"/>
+  <StrRes Name="sTotals" Text="Totals"/>
+  <StrRes Name="sFiltering" Text="Filtering"/>
+  <StrRes Name="sStyle" Text="Style"/>
+  <StrRes Name="sFillStyle" Text="Fill Style"/>
+  <StrRes Name="sFillColor" Text="Fill Color %d"/>
+  <StrRes Name="sTextStyle" Text="Text Style"/>
+  <StrRes Name="sRange" Text="Range"/>
+  <StrRes Name="sExample" Text="Example"/>
+  <StrRes Name="sAdd" Text="Add"/>
+  <StrRes Name="sDelete" Text="Delete"/>
+  <StrRes Name="sMoveUp" Text="Move Up"/>
+  <StrRes Name="sMoveDown" Text="Move Down"/>
+  <StrRes Name="sExampleString" Text="Example string"/>
+  <StrRes Name="sBold" Text="Bold"/>
+  <StrRes Name="sItalic" Text="Italic"/>
+  <StrRes Name="sUnderline" Text="Underline"/>
+  <StrRes Name="sStrikeOut" Text="Strike Out"/>
+  <StrRes Name="sSolidColor" Text="Solid color"/>
+  <StrRes Name="sHorzGradient" Text="Horizontal gradient"/>
+  <StrRes Name="sVertGradient" Text="Vertical gradient"/>
+  <StrRes Name="sHorzCenterGradient" Text="Horz-Center gradient"/>
+  <StrRes Name="sVertCenterGradient" Text="Vert-Center gradient"/>
+  <StrRes Name="sDiag1Gradient" Text="Diagonal gradient 1"/>
+  <StrRes Name="sDiag2Gradient" Text="Diagonal gradient 2"/>
+  <StrRes Name="sDiag1CenterGradient" Text="Diag-Center gradient 1"/>
+  <StrRes Name="sDiag2CenterGradient" Text="Diag-Center gradient 2"/>
+  <StrRes Name="sCorner1Gradient" Text="Corner gradient 1"/>
+  <StrRes Name="sCorner2Gradient" Text="Corner gradient 2"/>
+  <StrRes Name="sCorner3Gradient" Text="Corner gradient 3"/>
+  <StrRes Name="sCorner4Gradient" Text="Corner gradient 4"/>
+  <StrRes Name="sCenterGradient" Text="Center gradient"/>
+  <StrRes Name="sConfirmDelete" Text="Confirm deletion"/>
+  <StrRes Name="sDimensionEditor" Text="Dimension Editor"/>
+  <StrRes Name="sUseTotalPositionFromMeasure" Text="Use total position from measure"/>
+  <StrRes Name="sSortDirection" Text="Sort direction"/>
+  <StrRes Name="sExpand" Text="Expand"/>
+  <StrRes Name="sCollapse" Text="Collapse"/>
+  <StrRes Name="sExpandGroup" Text="Expand group"/>
+  <StrRes Name="sCollapseGroup" Text="Collapse group"/>
+  <StrRes Name="sExpandAll" Text="Expand all"/>
+  <StrRes Name="sCollapseAll" Text="Collapse all"/>
+  <StrRes Name="sMoveToGroup" Text="Move to group"/>
+  <StrRes Name="sMoveFromGroup" Text="Move from group"/>
+  <StrRes Name="sDeleteGroup" Text="Delete group"/>
+  <StrRes Name="sRenameGroup" Text="Rename group..."/>
+  <StrRes Name="sFilterOutThisItem" Text="Filter out this item"/>
+  <StrRes Name="sFilterOutAllOtherItems" Text="Filter out all other items"/>
+  <StrRes Name="sHideNode" Text="Hide node"/>
+  <StrRes Name="sShowHiddenNodes" Text="Show hidden nodes"/>
+  <StrRes Name="sShowTopN" Text="Show Top N..."/>
+  <StrRes Name="sClearTopN" Text="Clear Top N"/>
+  <StrRes Name="sActiveTopN" Text="Active Top N filters: %d"/>
+  <StrRes Name="sAxisType" Text="Axis type"/>
+  <StrRes Name="sBefore" Text="Before"/>
+  <StrRes Name="sAfter" Text="After"/>
+  <StrRes Name="sHide" Text="Hide"/>
+  <StrRes Name="sFromMeasure" Text="From measure"/>
+  <StrRes Name="sStandard" Text="Standard"/>
+  <StrRes Name="sTreeLike" Text="Tree like"/>
+  <StrRes Name="sCreateNew" Text="Create new"/>
+  <StrRes Name="sNewGroup" Text="New group"/>
+  <StrRes Name="sCreateANewGroup" Text="Create a new group"/>
+  <StrRes Name="sEnterANewGroupName" Text="Enter a new group name:"/>
+  <StrRes Name="sSort" Text="Sort"/>
+  <StrRes Name="sRename" Text="Rename..."/>
+  <StrRes Name="sMoveToPage" Text="Move to page"/>
+  <StrRes Name="sClearFilter" Text="Clear filter"/>
+  <StrRes Name="sSplits" Text="Splits"/>
+  <StrRes Name="sCreateNewGroup" Text="Create new group..."/>
+  <StrRes Name="sCreateOtherGroup" Text="Create &#60;other&#62; group..."/>
+  <StrRes Name="sAddNewMeasure" Text="Add new measure..."/>
+  <StrRes Name="sOther" Text="Other"/>
+  <StrRes Name="sEnterOtherGroupCaption" Text="Enter &#38;#60;other&#38;#62; group caption:"/>
+  <StrRes Name="sAscending" Text="Ascending"/>
+  <StrRes Name="sDescending" Text="Descending"/>
+  <StrRes Name="sDay" Text="Day"/>
+  <StrRes Name="sMonth" Text="Month"/>
+  <StrRes Name="sQuarter" Text="Quarter"/>
+  <StrRes Name="sYear" Text="Year"/>
+  <StrRes Name="sDayOfWeek" Text="Day of week"/>
+  <StrRes Name="sWeekNumber" Text="Week number"/>
+  <StrRes Name="sDayOfYear" Text="Day of year"/>
+  <StrRes Name="sHour" Text="Hour"/>
+  <StrRes Name="sMinute" Text="Minute"/>
+  <StrRes Name="sSecond" Text="Second"/>
+  <StrRes Name="sMillisecond" Text="Millisecond"/>
+  <StrRes Name="sTimeSplits" Text="Splits of time"/>
+  <StrRes Name="sDateSplits" Text="Splits of date"/>
+  <StrRes Name="sDateAttribute" Text="Date attribute"/>
+  <StrRes Name="sTimeAttribute" Text="Time attribute"/>
+  <StrRes Name="sCalcForSelection" Text="Calc for selection"/>
+  <StrRes Name="sScale" Text="Scale"/>
+  <StrRes Name="sScaleSlider" Text="Scale slider"/>
+  <StrRes Name="sDimension" Text="Dimension"/>
+  <StrRes Name="sShow" Text="Show"/>
+  <StrRes Name="sCreateOthers" Text="Create &#60;others&#62;"/>
+  <StrRes Name="sTopMax" Text="most"/>
+  <StrRes Name="sTopMin" Text="least"/>
+  <StrRes Name="sStylesEditor" Text="Styles Editor"/>
+  <StrRes Name="sCaptionArea" Text="Caption area"/>
+  <StrRes Name="sHeaderArea" Text="Header area"/>
+  <StrRes Name="sHeaderCells" Text="Header cells"/>
+  <StrRes Name="sHeaderCellsSelected" Text="Header cells (selected)"/>
+  <StrRes Name="sDataArea" Text="Data area"/>
+  <StrRes Name="sDataCells" Text="Data cells"/>
+  <StrRes Name="sDataCellsSelected" Text="Data cells (selected)"/>
+  <StrRes Name="sActiveDimension" Text="Active dimension"/>
+  <StrRes Name="sInactiveDimension" Text="Inactive dimension"/>
+  <StrRes Name="sDataCellsTotals" Text="Data cells (totals)"/>
+  <StrRes Name="sFieldsItem" Text="Fields item"/>
+  <StrRes Name="sStatusArea" Text="Status area"/>
+  <StrRes Name="sHighlightRuleEditor" Text="Highlight rule editor"/>
+  <StrRes Name="sRangeHighlightCaption" Text="Highlight cells matched condition"/>
+  <StrRes Name="sRule" Text="Rule (applies in order)"/>
+  <StrRes Name="sCellValueBetween" Text="Cell value between %f and %f"/>
+  <StrRes Name="sCellValueBeyond" Text="Cell value beyond %f and %f"/>
+  <StrRes Name="sCellValueEqual" Text="Cell value = %f"/>
+  <StrRes Name="sCellValueNotEqual" Text="Cell value &#60;&#62; %f"/>
+  <StrRes Name="sCellValueGreater" Text="Cell value &#62; %f"/>
+  <StrRes Name="sCellValueLess" Text="Cell value &#60; %f"/>
+  <StrRes Name="sCellValueGreaterOrEqual" Text="Cell value &#62;= %f"/>
+  <StrRes Name="sCellValueLessOrEqual" Text="Cell value &#60;= %f"/>
+  <StrRes Name="sCellTextContains" Text="Cell text contains '%s'"/>
+  <StrRes Name="sCellTextNotContains" Text="Cell text not contains '%s'"/>
+  <StrRes Name="sCellTextStartsWith" Text="Cell text starts with '%s'"/>
+  <StrRes Name="sCellTextEndsWith" Text="Cell text ends with '%s'"/>
+  <StrRes Name="sCellValueIsNull" Text="Cell value is null"/>
+  <StrRes Name="sCellValueIsNotNull" Text="Cell value is not null"/>
+  <StrRes Name="sCellValue" Text="Value"/>
+  <StrRes Name="sCellText" Text="Text"/>
+  <StrRes Name="sCellDate" Text="Date"/>
+  <StrRes Name="sCellNull" Text="Empty"/>
+  <StrRes Name="sCellNotNull" Text="Not empty"/>
+  <StrRes Name="sBetween" Text="between"/>
+  <StrRes Name="sBeyond" Text="beyond"/>
+  <StrRes Name="sEqual" Text="equal"/>
+  <StrRes Name="sNotEqual" Text="not equal"/>
+  <StrRes Name="sGreater" Text="greater"/>
+  <StrRes Name="sLess" Text="less"/>
+  <StrRes Name="sGreaterOrEqual" Text="greater or equal"/>
+  <StrRes Name="sLessOrEqual" Text="less or equal"/>
+  <StrRes Name="sContains" Text="contains"/>
+  <StrRes Name="sNotContains" Text="not contains"/>
+  <StrRes Name="sStartsWith" Text="starts with"/>
+  <StrRes Name="sEndsWith" Text="ends with"/>
+  <StrRes Name="sAnd" Text="and"/>
+  <StrRes Name="sOr" Text="or"/>
+  <StrRes Name="sEditStyle" Text="Style..."/>
+  <StrRes Name="sStyleEditor" Text="Style editor"/>
+  <StrRes Name="sApplyTo" Text="Apply to"/>
+  <StrRes Name="sToCells" Text="Cells"/>
+  <StrRes Name="sToTotals" Text="Totals"/>
+  <StrRes Name="sToGrandTotal" Text="Grand Total"/>
+  <StrRes Name="sContinuousHighlightCaption" Text="Highlight all cells dependent on value"/>
+  <StrRes Name="sHighlightKind" Text="Highlight type"/>
+  <StrRes Name="sTwoColorScale" Text="Two color scale"/>
+  <StrRes Name="sThreeColorScale" Text="Three color scale"/>
+  <StrRes Name="sBarChart" Text="Bar"/>
+  <StrRes Name="sIconSet" Text="Icon set"/>
+  <StrRes Name="sMinValue" Text="Minimal value"/>
+  <StrRes Name="sMinValueByRow" Text="Minimal value by row"/>
+  <StrRes Name="sMinValueByCol" Text="Minimal value by col"/>
+  <StrRes Name="sMidValue" Text="Average value"/>
+  <StrRes Name="sMaxValue" Text="Maximal value"/>
+  <StrRes Name="sMaxValueByRow" Text="Maximal value by row"/>
+  <StrRes Name="sMaxValueByCol" Text="Maximal value by col"/>
+  <StrRes Name="sType" Text="Type"/>
+  <StrRes Name="sValue" Text="Value"/>
+  <StrRes Name="sColor" Text="Color"/>
+  <StrRes Name="sNumber" Text="Number"/>
+  <StrRes Name="sPercentByRow" Text="Percent by row"/>
+  <StrRes Name="sPercentByCol" Text="Percent by col"/>
+  <StrRes Name="sPercentileByRow" Text="Percentile by row"/>
+  <StrRes Name="sPercentileByCol" Text="Percentile by col"/>
+  <StrRes Name="sBarColor" Text="Bar color"/>
+  <StrRes Name="sTheShortestBar" Text="The shortest bar"/>
+  <StrRes Name="sTheLongestBar" Text="The longest bar"/>
+  <StrRes Name="sShowCellValue" Text="Show cell value"/>
+  <StrRes Name="sGradientDraw" Text="Draw gradient"/>
+  <StrRes Name="sFrameColor" Text="Frame color"/>
+  <StrRes Name="sIfValue" Text="if value"/>
+  <StrRes Name="sIfValue1" Text="if %s %g"/>
+  <StrRes Name="sReverseOrder" Text="Reverse order"/>
+  <StrRes Name="sIcon" Text="Icon"/>
+  <StrRes Name="sNoIcon" Text="No icon"/>
+  <StrRes Name="sCustom" Text="Custom"/>
+  <StrRes Name="sString" Text="String"/>
+  <StrRes Name="sNumeric" Text="Numeric"/>
+  <StrRes Name="sDateTime" Text="DateTime"/>
+  <StrRes Name="sSkipNullPoints" Text="Skip null points"/>
+  <StrRes Name="sBaseAxisDataType" Text="Data type for base axis"/>
+  <StrRes Name="sRangeEditor" Text="Range editor"/>
+  <StrRes Name="sCustomFilter" Text="Custom filter..."/>
+  <StrRes Name="sShowAvailable" Text="Show available"/>
+  <StrRes Name="dtMeasures" Text="Measures"/>
+  <StrRes Name="dtDimensions" Text="Dimensions"/>
+  <StrRes Name="dtSliceFields" Text="SliceFields"/>
+  <StrRes Name="sAxisProperties" Text="Axis properties..."/>
+  <StrRes Name="sAxisEditor" Text="Axis editor"/>
+  <StrRes Name="sGrandTotalPosition" Text="Grand total position"/>
+  <StrRes Name="sAdditionalGrandTotals" Text="Additional grand totals"/>
+  <StrRes Name="sDistinctField" Text="Distinct Field"/>
+  <StrRes Name="sDistinct" Text="Distinct"/>
+</Resources>

@@ -1,0 +1,192 @@
+object IDEOptionsDialog: TIDEOptionsDialog
+  Left = 372
+  Height = 500
+  Top = 202
+  Width = 800
+  ActiveControl = FilterEdit
+  BorderIcons = [biSystemMenu]
+  Caption = 'IDEOptionsDialog'
+  ClientHeight = 500
+  ClientWidth = 800
+  Constraints.MinHeight = 350
+  Constraints.MinWidth = 500
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.5'
+  object ButtonPanel: TButtonPanel
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    Left = 6
+    Height = 37
+    Top = 457
+    Width = 788
+    BorderSpacing.Left = 6
+    BorderSpacing.Right = 6
+    BorderSpacing.Bottom = 6
+    BorderSpacing.Around = 0
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CloseButton.Enabled = False
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 0
+    ShowButtons = [pbOK, pbCancel, pbHelp]
+  end
+  object CatTVSplitter: TSplitter
+    Left = 255
+    Height = 457
+    Top = 0
+    Width = 4
+  end
+  object CategoryPanel: TPanel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 0
+    Height = 457
+    Top = 0
+    Width = 255
+    Align = alLeft
+    BevelOuter = bvNone
+    ClientHeight = 457
+    ClientWidth = 255
+    Constraints.MinWidth = 150
+    TabOrder = 2
+    object CategoryTree: TTreeView
+      AnchorSideLeft.Control = FilterEdit
+      AnchorSideTop.Control = FilterEdit
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = CategoryPanel
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = SettingsPanel
+      Left = 6
+      Height = 398
+      Top = 39
+      Width = 249
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      BorderSpacing.Top = 6
+      ReadOnly = True
+      TabOrder = 0
+      OnChange = CategoryTreeChange
+      OnCollapsed = CategoryTreeCollapsed
+      OnExpanded = CategoryTreeExpanded
+      OnKeyDown = CategoryTreeKeyDown
+      Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+    end
+    object FilterEdit: TTreeFilterEdit
+      AnchorSideLeft.Control = CategoryPanel
+      AnchorSideTop.Control = CategoryPanel
+      AnchorSideRight.Side = asrBottom
+      Left = 6
+      Height = 27
+      Top = 6
+      Width = 249
+      OnFilterItem = FilterEditFilterItem
+      UseFormActivate = True
+      ButtonWidth = 23
+      NumGlyphs = 1
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      MaxLength = 0
+      ParentFont = False
+      TabOrder = 1
+      FilteredTreeview = CategoryTree
+    end
+    object SettingsPanel: TPanel
+      Left = 0
+      Height = 20
+      Top = 437
+      Width = 255
+      Align = alBottom
+      AutoSize = True
+      BevelOuter = bvNone
+      Constraints.MinHeight = 20
+      TabOrder = 2
+    end
+  end
+  object BuildModeSelectPanel: TPanel
+    AnchorSideLeft.Control = CatTVSplitter
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = EditorsPanel
+    AnchorSideRight.Side = asrBottom
+    Left = 259
+    Height = 40
+    Top = 0
+    Width = 535
+    Anchors = [akTop, akLeft, akRight]
+    BevelOuter = bvNone
+    ClientHeight = 40
+    ClientWidth = 535
+    TabOrder = 3
+    object BuildModeComboBox: TComboBox
+      AnchorSideLeft.Control = UseBuildModeCheckBox
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = UseBuildModeCheckBox
+      AnchorSideTop.Side = asrCenter
+      Left = 124
+      Height = 27
+      Top = 5
+      Width = 154
+      BorderSpacing.Left = 7
+      ItemHeight = 23
+      OnSelect = BuildModeComboBoxSelect
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object BuildModeManageButton: TButton
+      AnchorSideLeft.Control = BuildModeComboBox
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = BuildModeComboBox
+      AnchorSideTop.Side = asrCenter
+      Left = 289
+      Height = 25
+      Top = 6
+      Width = 25
+      BorderSpacing.Left = 11
+      Caption = '...'
+      OnClick = BuildModeManageButtonClick
+      TabOrder = 1
+    end
+    object UseBuildModeCheckBox: TCheckBox
+      AnchorSideTop.Side = asrCenter
+      Left = 12
+      Height = 22
+      Top = 7
+      Width = 105
+      BorderSpacing.Left = 6
+      Caption = 'Build modes'
+      OnChange = UseBuildModeCheckBoxChange
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 2
+    end
+  end
+  object EditorsPanel: TScrollBox
+    AnchorSideLeft.Control = CatTVSplitter
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = BuildModeSelectPanel
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = ButtonPanel
+    Left = 259
+    Height = 417
+    Top = 40
+    Width = 535
+    HorzScrollBar.Page = 1
+    HorzScrollBar.Tracking = True
+    VertScrollBar.Page = 1
+    VertScrollBar.Tracking = True
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Right = 6
+    BorderStyle = bsNone
+    TabOrder = 4
+  end
+end

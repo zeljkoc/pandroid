@@ -1,0 +1,573 @@
+// common
+SOkBtn=OK
+SCancelBtn=Cancel
+sApplyBtn=Apply
+sEditBtn=Edit ...
+sAddBtn=Add ...
+sDeleteBtn=Delete
+SDataOverflow=Data overflow error!
+sDemoBlocked=This function is blocked in this demo!
+sCheckBtn=Check
+sNoErrors=Errors not found
+sConfirmClearSchema=Do you want to clear grid layout?
+//
+sNull=Null
+sTrue=True
+sFalse=False
+SDayPrefix=Day_
+SMonthPrefix=Month_
+SQuarterPrefix=Quarter_
+SYearPrefix=Year_
+SDayOfWeekPrefix=Day_of_week_
+SHourPrefix=Hour_
+SMinutePrefix=Minute_
+SSecondPrefix=Second_
+SMillisecondPrefix=Millisecond_
+sDateAttributeLabelPrefix=Date_
+sTimeAttributeLabelPrefix=Time_
+SCounter=(counter)
+SMeasures=Measures
+SCounterItem=System counter
+sError=??.?? %
+sUnknown=???
+sBadValue=?error?
+sFileLockError=Unable to create file %s. Posible it locked by another application.
+sDataSetUnAssigned=DataSet is not defined!
+sDataSetOpenError=Error of opening %s!
+sCellAlreadyExist=Data cell already exist
+sUnknownCubeFormat=Unknown cube format!
+STotal=Total
+sGrandTotal=Grand total
+STotalBy=Total by 
+SNothing=Value
+// Grid constants
+sSchemaFilter=Cube schema files|*.mds
+sCubeFilter=Cube files|*.mdc
+sChartTemplateFilter=Chart template files|*.mdt
+sXLSFilter=Excel files|*.xls
+sDOCFilter=Word files|*.doc
+sHTMLFilter=HTML files|*.html
+sXMLFilter=XML files|*.xml
+// Measures editor form
+sEditMeasure=Edit Measure
+sEditMeasures=Edit Measures
+sMeasure=Measure
+sMeasures=Measures
+sName=Name
+sCaption=Caption
+sAggregate=Aggregate:
+sUseDifferentAggregateForTotals=Use different aggregate for totals
+sCalcTotalsOnTotals=Calculate totals on totals
+sUseXAxisTotalsAsBase=Use column totals as base
+sTotalsConflictResolving=Totals conflict resolution
+sTotalPosition=Total position
+sAdditionalTotals=Additional Totals
+sEmptyCell=Empty Cell
+sUseXAxisTotal=Use Column Total
+sUseYAxisTotal=Use Row Total
+sDigitsAfter=Precision:
+sAggAlreadyExist=Aggregate is already exist!
+sField=Aggregate of field:
+sFormula=Calculation formula:
+sCalcOrder=Calculation order:
+sFilter=Filter:
+sEditor=Editor ...
+sFuncNotAllWithDate=It is impossible to use this function with Date!
+sFuncNotAll=It is impossible to use this function with this field!
+sFuncNotAllWithCalc=It is impossible to use this function with Calculation Measure!
+sIncorrectPrecision=Incorrect precision [%d]. Precision should be integer value >= 0! 
+sIncorrectCalcOrder=Incorrect calculation order [%d]. Calculation order should be between %d and %d!
+sDisplayFormat=Display Format
+// Filters
+sClearAll=Clear all
+sInverse=Inverse
+// Field form
+sFieldFormCaption=Field list
+sFieldFormDragLabel=Move to grid
+sFieldformAddBtn=Add to
+sFieldFormAreaText=Filters'#$D#$A'Rows'#$D#$A'Columns'#$D#$A'Measures
+sFieldFormRename=Rename
+sDefCubeCaption=<no caption>
+sFieldLabelChangeCaption=Change field caption
+sFieldLabelChangePropmpt=Input new field caption
+sCubeChangeCaption=Change cube caption
+sCubeChangePropmpt=Input new cube caption
+// Info form
+sInfoFormCaption=Cube information
+sInfoFormSliceGeometry=Slice geometry
+sInfoFormSourceRowCount=Source row count
+sInfoFormRowDimCount=Count of row dimensions
+sInfoFormColDimCount=Count of column dimesions
+sInfoFormFactsCount=Count of measures
+sInfoFormFilterCount=Count of filter fields
+sInfoFormColCount=Column count
+sInfoFormRowCount=Row count
+
+sInfoFormTimeChar=Time characteristics (sec.)
+sInfoFormFullTime=Full loading time
+sInfoFormDBOpenTime=Opening data sources
+sInfoFormOpenTime=Preparing to loading
+sInfoFormDBMoveTime=Data fetch
+sInfoFormDBGetDataTime=Getting values
+sInfoFormConvertTime=Converting values
+sInfoFormDBCloseTime=Closing data sources
+sInfoFormSortTime=Sorting data
+sInfoFormDataBuildTime=Calculation measures
+
+sInfoFormTimeSources=Processing sources
+sInfoFormTimeAxisX=Building X axis
+sInfoFormTimeAxisY=Building Y axis
+sInfoFormTimeFacts=Building measures
+sInfoFormTimeLinks=Filling links
+sInfoFormTimeUniques=Filling unique values
+// menu captions
+sSave=Save
+sLoad=Load
+sCubeSave=Save cube
+sCubeLoad=Load cube
+sCubeLoadAdditional=Load additional cube
+sClearGrid=Clear grid
+sSchemaSave=Save schema
+sSchemaLoad=Load schema
+sExportTo=Export to ...
+sShowHints=Show hints
+sHideRowZeros=Hide row zeros
+sHideColZeros=Hide column zeros
+sRowSort=Row sort type
+sColSort=Column sort type
+sDataMarker=Data marker
+sIncDecimal=Increase precision
+sDecDecimal=Decrease precision
+sAlignment=Alignment
+sRemoveToPage=Move items to page area
+sDisplayAs=Display as
+sFieldList=Field list
+sInformation=Information
+sFloatYAxis=Y Axis floating
+sTranspose=Transpose
+// Axis sort subMenu captions
+sSortByValues=Sort by axis values
+sSortByTotals=Sort by measure totals
+sSortByXSelection=Sort by focused row
+sSortByYSelection=Sort by focused column
+// Facts menu captions
+sOriginalValue=Original value
+sRowPercentTotal=Total percent by row
+sColPercentTotal=Total percent by column
+sRowPercentGroup=Group percent by row
+sColPercentGroup=Group percent by column
+sGrandTotalPercent=Grand total percent
+sRowRank=Rank by row
+sColRank=Rank by column
+// Data menu captions
+sSelect=Select
+sSelectRow=Select row
+sSelectCol=Select column
+sSelectAll=Select all
+sCopy=Copy
+sDeleteMeasure=Delete measure
+sProperties=Properties...
+// Quarter
+sQuarter_1=Quarter 1
+sQuarter_2=Quarter 2
+sQuarter_3=Quarter 3
+sQuarter_4=Quarter 4
+// Function labels
+sSumPrefix=Sum of 
+sCountPrefix=Count of 
+sMinPrefix=Minimum of 
+sMaxPrefix=Maximum of 
+sAvgPrefix=Average of 
+sMulPrefix=Multiplication of 
+sVariancePrefix=Variance of 
+sStdDevPrefix=Std Dev of 
+sVarianceSPrefix=Variance S of 
+sStdDevSPrefix=Std DevS of 
+sFuncPrefix=Calculation 
+sCountOfUniquePrefix=Count unique of 
+sFuncDetPrefix=Calculation (detail) 
+sMedianPrefix=Median 
+sWeightedMeanPrefix=Weighted arithmetic mean of 
+sWeightedMeanCaption=Weighted arithmetic mean
+// Empty region captions
+sFactsRegion=Move measure fields here
+sRowsRegion=Move row fields here
+sFiltersRegion=Move filter fields here
+sColsRegion=Move column fields here
+sServiceRegion=Service
+// Function captions
+sSumCaption=Sum
+sCountCaption=Count
+sMinCaption=Minimum
+sMaxCaption=Maximum
+sAvgCaption=Average
+sMulCaption=Multiplication 
+sVarianceCaption=Variance
+sStdDevCaption=Std Dev
+sVarianceSCaption=VarianceS
+sStdDevSCaption=Std DevS
+sFuncCaption=Calculation
+sCountOfUniqueCaption=Count unique
+sFuncDetCaption=Calculation (detail)
+sMedianCaption=Median
+// Hierarchi
+sLinkToSelf=Reference to self! Code=%d.
+sParentNotFound=Parent not fount! Code=%d.
+sLoopLink=Circular reference! Code=%d.
+sAllValues=All values
+//Language constants
+sErBadLexem=Uncorrert lexema!
+sErCommentNotClosed=Unfinished comment!
+sErMixDigitChar=Mixing digit with char!
+sErUnfinishedIdent=Declaration of identifier is not finished
+// Data detail
+sDetailGridCaption=Cell details
+// Alignment
+sLeftJustify=Left justify
+sCenter=Center
+sRightJustify=Right justify
+// Popup hints
+sPopupHint8=Full expand
+sPopupHint9=Full collapse
+// Formula editor form
+sFormulaEditor=Formula Editor
+sScriptErrorsFound=Found errors [%s]. Save anyway?
+// other
+sChartDataManagerCaption=Data Management
+sErrorFieldAfterHierarchi=Moving fields behind hierarchi field temporary unavailable!
+// -----------------  chart ------------------------
+//chart commands
+sChartSaveTemplate=Save chart template
+sChartOpenTemplate=Open chart template
+sChartStyle=Chart style
+sChartByRows=By Rows
+sChartByCols=By Columns
+sChartMarks=Marks
+sChartLegend=Legend
+sChartDataManager=Data managment
+//chart styles
+sChartStyleBar=Bar style
+sChartStyleLine=Line style
+sChartStylePoint=Point style
+sChartStyleArea=Area style
+sChartStylePie=Pie style
+//chart legend position
+sChartLegendLeft=Left
+sChartLegendRight=Right
+sChartLegendTop=Top
+sChartLegendBottom=Bottom
+========== FastReport objects =====
+sAutoSize_Default=Default
+sAutoSize_BySlice=By sizes of grid
+sAutoSize_ColWidth=Auto width
+sAutoSize_ColWidthRestrict=Auto width with restriction
+sAutoSize_RowHeight=Auto height
+sAutoSize_ByMemoSize=By nested memo sizes
+//properties in object inspector
+propCube=Multidimensional data source
+propPaintSizes=Size calculation algorithm and values for it
+propShowNames=Determines if the cross will show field names
+propAutoSizeStyle=Size calculation algorithm
+propDefaultColWidth=Width used for all cells when AutoSizeStyle=ssDefault
+propDefaultRowHeight=Height used for all cells when AutoSizeStyle=ssDefault
+propMaxColWidth=Maximum column width constraint which applied when AutoSizeStyle=ssAutoColWidthRestrict
+propFileName=File name of existed cube
+//convert fields
+sConvFieldName=Field name
+sConvFieldType=Type
+sConvFieldSize=Size
+sConvFieldCaption=Caption
+sConvFieldConv=Use converter
+sConvFieldNewType=Target type
+sConvFieldNewSize=Target size
+sConvEditField=Edit Field
+sConvSaveToFile=Save To File
+sConvLoadFromFile=Load From File
+sConvNoType=Need target type!
+sConvNoSize=Target size must be > 0!
+// for demo
+dmSelectExample=Show Example
+dmSchema=Schemas
+dmFRPreview=Preview in FastReport
+dmCrossTbl=Cross table
+dmChart=Chart
+dmSourceTbl=Sources table
+dmSelectExample=Select Example
+dmConf=democonfen.txt
+// 29.01.2008
+sPercentFormat=Percent Format
+sDefaultFormat=Default Format
+sChartRealTimeChange=Auto apply changes
+sChartDataSource=Chart data source properties
+sChartSeriesAxis=Use as series:
+sChartValuesAxis=Use as categories:
+sChartSeriesFieldCount=Field count for Series:
+sChartValuesFieldCount=Field count for Categories:
+sChartMeasureFieldIndex=Measure index:
+sChartFrozen=Frozen chart
+sChartDataProperty=Chart properties
+sAxisX=Dimensions from columns
+sAxisY=Dimensions from rows
+sChartByAxisAxis=Series and categories from dimensions
+sChartByAxisMeasures=Series from measures, categories from dimensions
+sChartByMeasuresAxis=Series from dimensions, categories from measures
+sChartPropsAreNotCorrect=Chart properties are not correct
+// 02.04.2008
+sScriptErrorFilter=Error during filter calculation:
+sScriptErrorCalc=Error during script calculation:
+sErrorStr=Error
+// 06.05.2008
+SWeekNumberPrefix=Week_number
+// 27.05.2008_
+SDayOfYearPrefix=Day_of_year_
+sFirstValue=First value
+sFirstValuePrefix=First value of
+sMeasureName=Measure name
+// 29.08.2008
+sListOfUniquePrefix=List unique of 
+sListOfUniqueCaption=List unique
+//09.12.2008
+sExportCloneMasterValue=Clone Master Value
+sCopyWithHeader=Copy with headers
+//11.03.2009
+fkCustom=Custom
+//19.05.2009
+sChartStyleHorizBar=Horiz Bar style
+sChartStackType=Multiple Bar
+//30.06.2009
+sChartStackNone=None
+sChartStackSide=Side
+sChartStackStacked=Stacked
+sChartStackStacked100=Stacked 100%
+sChartStackSideAll=Side All
+sChartStackSelfStack=Self Stack
+//30.09.2009
+sLastValue=Last value
+sLastValuePrefix=Last value of 
+//21.06.2010
+obfrcCube=FastCube 2 Cube object
+obfrcChartView=FastCube 2 Chart object
+obfrcCrossView=FastCube 2 Cross-tab object
+//Measure editor
+sMeasureEditor=Measure Editor
+sGeneral=General
+sCaption=Caption
+sAggregate=Aggregate
+sFieldBased=Field Based
+sBaseField=Base Field
+sCalculated=Calculated
+sFunction=Function
+sOrder=Order
+sCalcAllCells=Calc all cells
+sTotals=Totals
+sFiltering=Filtering
+sStyle=Style
+sFillStyle=Fill Style
+sFillColor=Fill Color %d
+sTextStyle=Text Style
+sTextColor=Text Color
+sRange=Range
+sExample=Example
+sAdd=Add
+sDelete=Delete
+sMoveUp=Move Up
+sMoveDown=Move Down
+sExampleString=Example string
+sBold=Bold
+sItalic=Italic
+sUnderline=Underline
+sStrikeOut=Strike Out
+sSolidColor=Solid color
+sHorzGradient=Horizontal gradient
+sVertGradient=Vertical gradient
+sHorzCenterGradient=Horz-Center gradient
+sVertCenterGradient=Vert-Center gradient
+sDiag1Gradient=Diagonal gradient 1
+sDiag2Gradient=Diagonal gradient 2
+sDiag1CenterGradient=Diag-Center gradient 1
+sDiag2CenterGradient=Diag-Center gradient 2
+sCorner1Gradient=Corner gradient 1
+sCorner2Gradient=Corner gradient 2
+sCorner3Gradient=Corner gradient 3
+sCorner4Gradient=Corner gradient 4
+sCenterGradient=Center gradient
+sConfirmDelete=Confirm deletion
+//Dimension editor
+sDimensionEditor=Dimension Editor
+sUseTotalPositionFromMeasure=Use total position from measure
+sSortDirection=Sort direction
+//AxisZone popup menu
+sExpand=Expand
+sCollapse=Collapse
+sExpandGroup=Expand group
+sCollapseGroup=Collapse group
+sExpandAll=Expand all
+sCollapseAll=Collapse all
+sMoveToGroup=Move to group
+sMoveFromGroup=Move from group
+sDeleteGroup=Delete group
+sRenameGroup=Rename group...
+sFilterOutThisItem=Filter out this item
+sFilterOutAllOtherItems=Filter out all other items
+sHideNode=Hide node
+sShowHiddenNodes=Show hidden nodes
+sShowTopN=Show Top N...
+sClearTopN=Clear Top N
+sActiveTopN=Active Top N filters: %d
+sAxisType=Axis type
+sBefore=Before
+sAfter=After
+sHide=Hide
+sFromMeasure=From measure
+sStandard=Standard
+sTreeLike=Tree like
+sCreateNew=Create new
+sNewGroup=New group
+sCreateANewGroup=Create a new group
+sEnterANewGroupName=Enter a new group name:
+sSort=Sort
+sRename=Rename...
+sMoveToPage=Move to page
+sClearFilter=Clear filter
+sSplits=Splits
+sCreateNewGroup=Create new group...
+sCreateOtherGroup=Create <other> group...
+sAddNewMeasure=Add new measure...
+sOther=Other
+sEnterOtherGroupCaption=Enter <other> group caption:
+sAscending=Ascending
+sDescending=Descending
+sDay=Day
+sMonth=Month
+sQuarter=Quarter
+sYear=Year
+sDayOfWeek=Day of week
+sWeekNumber=Week number
+sDayOfYear=Day of year
+sHour=Hour
+sMinute=Minute
+sSecond=Second
+sMillisecond=Millisecond
+sTimeSplits=Splits of time
+sDateSplits=Splits of date
+sDateAttribute=Date attribute
+sTimeAttribute=Time attribute
+sCalcForSelection=Calc for selection
+sScale=Scale
+sScaleSlider=Scale slider
+//top n dialog
+sDimension=Dimension
+sShow=Show
+sCreateOthers=Create <others>
+sTopMax=most
+sTopMin=least
+// styles
+sStylesEditor=Styles Editor
+sCaptionArea=Caption area
+sHeaderArea=Header area
+sHeaderCells=Header cells
+sHeaderCellsSelected=Header cells (selected)
+sDataArea=Data area
+sDataCells=Data cells
+sDataCellsSelected=Data cells (selected)
+sActiveDimension=Active dimension
+sInactiveDimension=Inactive dimension
+sDataCellsTotals=Data cells (totals)
+sFieldsItem=Fields item
+sStatusArea=Status area
+//highlight
+sHighlightRuleEditor=Highlight rule editor
+sRangeHighlightCaption=Highlight cells matched condition
+sRule=Rule (applies in order)
+sCellValueBetween=Cell value between %f and %f
+sCellValueBeyond=Cell value beyond %f and %f
+sCellValueEqual=Cell value = %f
+sCellValueNotEqual=Cell value <> %f
+sCellValueGreater=Cell value > %f
+sCellValueLess=Cell value < %f
+sCellValueGreaterOrEqual=Cell value >= %f
+sCellValueLessOrEqual=Cell value <= %f
+sCellTextContains=Cell text contains '%s'
+sCellTextNotContains=Cell text not contains '%s'
+sCellTextStartsWith=Cell text starts with '%s'
+sCellTextEndsWith=Cell text ends with '%s'
+sCellValueIsNull=Cell value is null
+sCellValueIsNotNull=Cell value is not null
+sCellValue=Value
+sCellText=Text
+sCellDate=Date
+sCellNull=Empty
+sCellNotNull=Not empty
+sBetween=between
+sBeyond=beyond
+sEqual=equal
+sNotEqual=not equal
+sGreater=greater
+sLess=less
+sGreaterOrEqual=greater or equal
+sLessOrEqual=less or equal
+sContains=contains
+sNotContains=not contains
+sStartsWith=starts with
+sEndsWith=ends with
+sAnd=and
+sOr=or
+sEditStyle=Style...
+sStyleEditor=Style editor
+sApplyTo=Apply to
+sToCells=Cells
+sToTotals=Totals
+sToGrandTotal=Grand Total
+sContinuousHighlightCaption=Highlight all cells dependent on value
+sHighlightKind=Highlight type
+sTwoColorScale=Two color scale
+sThreeColorScale=Three color scale
+sBarChart=Bar
+sIconSet=Icon set
+sMinValue=Minimal value
+sMinValueByRow=Minimal value by row
+sMinValueByCol=Minimal value by col
+sMidValue=Average value
+sMaxValue=Maximal value
+sMaxValueByRow=Maximal value by row
+sMaxValueByCol=Maximal value by col
+sType=Type
+sValue=Value
+sColor=Color
+sNumber=Number
+sPercentByRow=Percent by row
+sPercentByCol=Percent by col
+sPercentileByRow=Percentile by row
+sPercentileByCol=Percentile by col
+sBarColor=Bar color
+sTheShortestBar=The shortest bar
+sTheLongestBar=The longest bar
+sShowCellValue=Show cell value
+sGradientDraw=Draw gradient
+sFrameColor=Frame color
+sIfValue=if value
+sIfValue1=if %s %g
+sReverseOrder=Reverse order
+sIcon=Icon
+sNoIcon=No icon
+sCustom=Custom
+sString=String
+sNumeric=Numeric
+sDateTime=DateTime
+sSkipNullPoints=Skip null points
+sBaseAxisDataType=Data type for base axis
+sRangeEditor=Range editor
+sCustomFilter=Custom filter...
+sShowAvailable=Show available
+// DataTree
+dtMeasures=Measures
+dtDimensions=Dimensions
+dtSliceFields=SliceFields
+// Axis editor
+sAxisProperties=Axis properties...
+sAxisEditor=Axis editor
+sGrandTotalPosition=Grand total position
+sAdditionalGrandTotals=Additional grand totals
+// Distinct
+sDistinctField=Distinct Field
+sDistinct=Distinct

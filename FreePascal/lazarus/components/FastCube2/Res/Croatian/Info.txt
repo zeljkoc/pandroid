@@ -1,0 +1,3 @@
+Language Resources for FastCube 2
+Language: Croatian
+Translator: Kresimir Majdenic

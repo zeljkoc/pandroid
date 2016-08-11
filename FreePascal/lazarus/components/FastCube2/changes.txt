@@ -1,0 +1,185 @@
+Current version
++ Apply percent format to "display as percent" cells while export to XLS
++ Added support of ShortInt fields
+- Fixed error in recompile.exe
+- Convert color to RGB before using it for bar chart highlight
+- Fixed design of Measure editor for Lazarus
+
+FastCube 2.5
+---------------
++ Added restoring selected cell after loading schema
++ Added export to CSV
++ Added property TfcxAxisContainer.DimCaption[ALevel: TfcxSmallCount; AVisIndex: Integer]: TfcxString
+* Reimplemented XML-A export
+* If cell value is both minimum and maximum of the column/row then treat it as maximum for highlight rules
+- Fixed errors in language resources
+- Fixed error in HTML and Excel exports (error with property RepeatValues)
+- Fixed error in TfcxAxisContainer.DimValue
+- Fixed error with double destruction of popup menu
+- Fixed error in sorting
+
+FastCube 2.4
+---------------
++ Added OnPrepareSaveDialog event for export components. This allows to setup save dialog before showing it to user.
++ Additional totals uses property CalcTotalsOnTotals.
+- Fixed painting of expand/collapse icons when windows themes are disabled and some VCL style is used
+- Fixed error with SmallInt
+- Fixed: SliceFieldExtra is not saved in Measure Editor
+- Fixed error Out of memory in some case
+
+FastCube 2.3
+---------------
++ Added support of Embarcadero Rad Studio XE8 (Delphi XE8/C++Builder XE8)
++ Added sorting in CubeGrid and DetailGrid
++ Added TfcxSlice.ApplyDefaultSettings
++ Added TfcxSlice.ResetDisplayLabelOfFields
++ Added aggregate function Weighted arithmetic mean
++ Detail grid does not reset the list of fields on each show
++ Added aggregate function Median
++ Added option "Merge Cells" in export to Excel
+* Acceleration and optimization calculation of measures
+* Hide "Sort" menu item for "Measures" field since it has no sense for it
+* Renamed property TfcxMeasureField.SliceField2 to TfcxMeasureField.SliceFieldDistinct
+* Removed filters for number input in the Range editor
+- Fixed errors of calculation of totals which based on other totals
+- Fixed errors of measures calculation
+- Fixed error of loading filters with NULL value
+- Disabled DoubleBuffered, ParentDoubleBuffered for XE6+ since it cause painting glitches
+- Fixed error with attributes referenced from main dataset
+- Fixed error in TfcxMeasuresContainer.SetPosition
+- Fixed error in HideZero
+- Fixed memory allocation error in xls Export on 64bit platforms
+- Fixed error in TfcxAxisContainer.DimValue
+- Fixed error in CopyToClipboard from DetailGrid
+- Fixed error with determining of Minimal Value for conditional highlight in some situations
+
+FastCube 2.2
+---------------
++ Added support of Embarcadero Rad Studio XE7 (Delphi XE7/C++Builder XE7)
++ Added checking the number of rows and columns in Excel 97-2003 export 
++ Added support of Embarcadero Rad Studio XE6 (Delphi XE6/C++Builder XE6)
++ Added properties Distinct and DistinctField into Measure editor
++ Added editor for additional calculated total into Dimension editor
++ Added Axis editor
++ Added Croatian translation by Kresimir Majdenic
++ Added compatibility with FastCube 2 FMX
++ Added property TfcxSlice.ClearUnattachedFieldsFilter: Boolean and function TfcxSlice.ResetUnattachedFieldsFilter: boolean (Reset filters in fields not placed in Axis or Filters)
++ Сase insensitive compare in TfcxSliceFields.IndexOfField
++ Added properties TfcxMeasureField.Distinct: Boolean, TfcxMeasureField.DistinctForTotal: Boolean  and TfcxMeasureField.SliceField2: TfcxSliceField. It allows check uniqueness of values of additional field during calculation
++ Added support of ftSingle fields
++ Added property TfcxAxisContainer.DimValue[ALevel: TfcxSmallCount; AVisIndex: Integer]: variant
++ Added property TfcxDataSource.UseOnlyVisibleFields
++ Added property TfcxSliceGridToolbar.DialogsDefaultPath for Save/Open dialogs.
++ Added TMeasure.ColOffsetTotalValueForDims[Offset: integer; ADimNames: String]: Variant and TMeasure.RowOffsetTotalValueForDims[Offset: integer; ADimNames: String]: Variant
++ Added German translation by Thomas Werling
++ Added Italian translation by Augusto Pellis
++ Refactor code to split non-visual part from visual part to allow reuse of non-visual part in FMX version
++ Speedup filters loading
+- Fixed error in Excel 97-2003 export
+- Added: System counter can use Distinct and DistinctField
+- Fixed error with size of filter region
+- Fixed error in TMeasure.ColOffsetValue[Offset: integer]: Variant, TMeasure.RowOffsetValue[Offset: integer]: Variant and TMeasure.ColRowOffsetValue[ColOffset, RowOffset: integer]: Variant
+- Fixed error: wrong filter setting after loading filter in some case.
+- Fixed errors: AV with property CreateAllCells in calculation measure when all measures are calculation
+- Fixed error: wrong measure values in some cases during script calculation
+- Fixed errors: AV in TfcxSliceGrid not linked with TfcxSlice
+- Fixed error: AV after editing measure
+- Fixed error: AV in export
+- Fixed error: AV during adding measure when TopN is active
+- Fixed error with national characters in incremental search
+- Fixed error with TIBBCDField
+- Fixed errors in property TfcxSlice.FieldsOrder
+- Fixed error: AV after the field drop to an axis with an expanded group
+- Fixed: OK button was not translated in Information dialog
+- Fixed property spelling (was ArgFuncs become AgrFuncs)
+- Fixed status zone popup menu checks
+- Fixed error: AV in TfcxSlice.InternalSetSelectedVis
+- Fixed error in SliceGrid styles applying (memory corruption)
+
+FastCube 2.1
+---------------
+
++ Added new progress type fcxpFetchingData to track loading data progress by TfcxCube.OnProgress
++ Added TfcxSlice.OnScriptError event to handle errors in script
++ Added script functions to search measure value by dimensions values: TMeasure.GetValueWithColDimValues(ADimValues: Array of variant): Variant and TMeasure.GetValueWithRowDimValues(ADimValues: Array of variant): Variant
++ Added TfcxMeasuresContainer.AddCalculationScript procedure for adding functions to script
++ Added TMeasures.CurrentMeasureIndex: Integer and TMeasures.CurrentMeasureName: String properties for use in scripts
++ Added TfcxSliceDataZone.PopupCell: TfcxMeasureCell property for use in popup menus
++ Added an ability to use default color palette in export to Excel
++ Added an ability to override zone popup menus or to inject own menu items into zone popup menus
++ Added selection rows/columns group for selected cell
++ Added TopN Load/Save together with schema
++ TopN popup shows inactive conditions
++ Added Save menu in TfcxSliceGridToolbar
++ Added TfcxCustomToolbar.OnMenuItemClick event which allows to change reaction of menu items on toolbar 
++ Added TfcxCustomToolbar.OnButtonClick event which allows to change reaction of buttons on toolbar 
++ Added TfcxAxisContainer.ShowTotalAs: TfcxShowTotalAs property. See default value for each axis in  TfcxSlice.Settings
++ Added TfcxMeasuresContainer.DeleteMeasures
++ Added an ability to show hint for SliceGrid elements (use ShowHint = True to enable it)
++ Added TfcxCustomToolbar.OnGetButtonVisible event which allows to change visibility of particular buttons on toolbar 
++ Added TfcxpSliceGridReport component
++ Added Version property to FastCube components
++ Added XE5 support in Recompile Wizard
++ Added TfcxSliceContainer.Alignment
++ Added TfcxSliceGrid.OnDataDblClick event to be compatible with 1.x versions
++ Call the first export filter on Export button click if there are no other filters registered
++ Auto drop down toolbutton menu if it has no other click action
++ Added property TfcxSlice.Settings (default setting for axis and fields)
++ Added check type for date/time splitting 
++ Added: Fields List now popups by mouse click on any point inside button (instead of click on popup indicator only)
++ Added TfcxSliceGrid.OnGetClipboardText and TfcxCubeGrid.OnGetClipboardText event handlers to allow override standard behavior
++ Added an ability to hide CaptionZone in SliceGrid and CubeGrid
++ Added Portuguese translation and help files
++ Added Czech translation by Karel Janeček
++ Added Italian translation by Augusto Pellis
++ Added partial translation for languages from FastCube 1
+- Fixed a bug with converting types of loading data
+- Fixed scrollbar disabling when it had position > 0
+- Fixed error with HideTotalForSingleValue in axis with measures
+- Fixed errors with Hidden nodes
+- Fixed export cells with Percent and Rank
+- Fixed error in Data marker
+- Fixed error in export to Excel
+- Fixed error in row/column selection
+- Fixed some errors in TopN
+- Fixed error in GetData from DataSet in Delphi XE3-XE5
+- Fixed error of saving filters of Date and Time parts
+- Fixed some errors in TopN
+- Fixed error with TDataSet from DLL
+- Fixed error in fcxCube.AppendData
+- Fixed error in TimeStamp and BCD
+- Fixed errors while exporting an empty slice to Excel
+- Fixed AV in with empty Cube
+- Fixed some AV in empty Slice
+- Fixed memory leak in FieldsPopup
+- Fixed integer overflow in Hash for string fileds
+- Fixed "Range check error" after DblClick in empty SliceGrid
+- Fixed AV on resize in empty SliceGrid
+* Added overloaded methods AddCalcMeasure and InsertCalcMeasure to create calculation measures with var section
+* Added: Export tool button not enabled when no registered exports
+* Renamed TfcxSliceGrid.Export to TfcxSliceGrid.DoExport
+* Fixed Chart package for Delphi XE3
+* Fixed alignment popup menu check state
+* Fixed an error with memory corruption on unicode versions of Delphi (D2009+)
+* Fixed data loading from TWideStringField
+* Fixed LoadFromStream() did not load streams previosly saved by SaveToStream()
+* Fixed garbage on slice grid in some cases
+* Added missing lazarus form files for FastScript integration
+* Fixed loading string resources with FPC >= 2.7.1
+* Fixed Measure/Dimension caption change in Lazarus applications
+* Fixed file names for case sensitive file systems (like on Mac OS X and Linux)
+
+FastCube 2.0
+---------------
+
++ Added support of Embarcadero Rad Studio XE5 (Delphi XE5/C++Builder XE5)
++ Delphi XE4 support
+* Improve chart editor
+- Fixed errors with Variant to Double conversion
+- Fixed errors in resources
+- Fixed errors with style frame initialization
+* Change save toolbar item
++ Implement chart Load/Save together with schema
++ Implement filter Load/Save together with schema
++ Delphi 6 support
+- Fixed error with AdditionalTotals

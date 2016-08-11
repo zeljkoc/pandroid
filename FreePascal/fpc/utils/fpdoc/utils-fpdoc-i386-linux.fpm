@@ -1,0 +1,10 @@
+Name=utils-fpdoc
+Version=3.1.1
+Checksum=1470866844
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/utils/fpdoc/
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE
+Depends=rtl,fcl-base|1470866810,fcl-xml|1470866811,fcl-passrc|1470866817,fcl-process|1470866818,chm|1470866812
+NeedLibC=N
+FPMakeAddIn=N

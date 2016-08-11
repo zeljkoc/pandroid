@@ -1,0 +1,92 @@
+object RestrictionBrowserView: TRestrictionBrowserView
+  Left = 272
+  Height = 405
+  Top = 259
+  Width = 674
+  Caption = 'RestrictionBrowserView'
+  ClientHeight = 405
+  ClientWidth = 674
+  OnCreate = FormCreate
+  LCLVersion = '1.5'
+  object IssueMemo: TMemo
+    Left = 311
+    Height = 405
+    Top = 0
+    Width = 363
+    Align = alClient
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 405
+    Top = 0
+    Width = 306
+    Align = alLeft
+    BevelOuter = bvNone
+    ClientHeight = 405
+    ClientWidth = 306
+    TabOrder = 0
+    object IssueFilterGroupBox: TGroupBox
+      Left = 0
+      Height = 96
+      Top = 0
+      Width = 306
+      Align = alTop
+      Caption = 'IssueFilterGroupBox'
+      ClientHeight = 76
+      ClientWidth = 302
+      TabOrder = 0
+      object NameLabel: TLabel
+        Left = 10
+        Height = 15
+        Top = 44
+        Width = 60
+        Caption = 'NameLabel'
+        ParentColor = False
+      end
+      object FilterEdit: TTreeFilterEdit
+        AnchorSideLeft.Control = NameLabel
+        AnchorSideLeft.Side = asrBottom
+        Left = 76
+        Height = 23
+        Top = 41
+        Width = 156
+        UseFormActivate = True
+        ButtonWidth = 23
+        NumGlyphs = 1
+        BorderSpacing.Left = 6
+        MaxLength = 0
+        TabOrder = 0
+        FilteredTreeview = IssueTreeView
+      end
+    end
+    object IssueTreeView: TTreeView
+      Left = 0
+      Height = 309
+      Top = 96
+      Width = 306
+      Align = alClient
+      Anchors = [akTop, akLeft, akBottom]
+      DefaultItemHeight = 18
+      HideSelection = False
+      Indent = 2
+      ReadOnly = True
+      RightClickSelect = True
+      RowSelect = True
+      ScrollBars = ssAutoBoth
+      ShowButtons = False
+      ShowLines = False
+      TabOrder = 1
+      OnSelectionChanged = IssueTreeViewSelectionChanged
+      Options = [tvoAutoItemHeight, tvoKeepCollapsedNodes, tvoReadOnly, tvoRightClickSelect, tvoRowSelect, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+    end
+  end
+  object Splitter1: TSplitter
+    Left = 306
+    Height = 405
+    Top = 0
+    Width = 5
+  end
+end

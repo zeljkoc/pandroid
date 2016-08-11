@@ -1,0 +1,572 @@
+// common
+SOkBtn=OK
+SCancelBtn=Отмена
+sApplyBtn=Применить
+sEditBtn=Редактировать ...
+sAddBtn=Добавить ...
+sDeleteBtn=Удалить
+SDataOverflow=Попытка открыть источник большего размера, чем возможно!
+sDemoBlocked=Данная функция заблокирована в демо-версии!
+sCheckBtn=Проверить
+sNoErrors=Ошибок не обнаружено
+sConfirmClearSchema=Вы желаете очистить настройку таблицы?
+//
+sNull=Пусто
+sTrue=Истина
+sFalse=Ложь
+SDayPrefix=День_
+SMonthPrefix=Месяц_
+SQuarterPrefix=Квартал_
+SYearPrefix=Год_
+SDayOfWeekPrefix=День_недели_
+SHourPrefix=Час_
+SMinutePrefix=Минута_
+SSecondPrefix=Секунда_
+SMillisecondPrefix=Миллисекунда_
+sDateAttributeLabelPrefix=Дата_
+sTimeAttributeLabelPrefix=Время_
+SCounter=(счетчик)
+SMeasures=Показатели
+SCounterItem=Системный счетчик
+sError=??.?? %
+sUnknown=???
+sBadValue=?ошибка?
+sFileLockError=Невозможно создать файл %s. Возможно он заблокирован другим приложением.
+sDataSetUnAssigned=Не определен DataSet!
+sDataSetOpenError=Ошибка открытия %s!
+sCellAlreadyExist=Ячейка данных уже существует
+sUnknownCubeFormat=Неизвестный формат куба
+STotal=Итого
+sGrandTotal=Общий итог
+STotalBy=Итого по 
+SNothing=Значение
+// константы для Grid
+sSchemaFilter=Файлы схемы куба|*.mds
+sCubeFilter=Файлы куба|*.mdc
+sChartTemplateFilter=Файлы шаблона диаграммы|*.mdt
+sXLSFilter=Файлы Excel|*.xls
+sDOCFilter=Файлы Word|*.doc
+sHTMLFilter=Файлы HTML|*.html
+sXMLFilter=Файлы XML|*.xml
+// Measures editor form
+sEditMeasure=Редактор показателя
+sEditMeasures=Редактор показателей
+sMeasure=Показатель
+sMeasures=Показатели
+sName=Имя
+sCaption=Заголовок
+sAggregate=Агрегат:
+sUseDifferentAggregateForTotals=Использовать другой агрегат для итогов
+sCalcTotalsOnTotals=Вычислять итоги по итогам
+sUseXAxisTotalsAsBase=Использовать итоги столбцов за основу
+sTotalsConflictResolving=Разрешение кофликтов итогов
+sTotalPosition=Положение итога
+sAdditionalTotals=Дополнительные итоги
+sEmptyCell=Пустая ячейка
+sUseXAxisTotal=Использовать итог по столбцу
+sUseYAxisTotal=Использовать итог по строке
+sDigitsAfter=Точность:
+sAggAlreadyExist=Агрегат уже существует!
+sField=Агрегат над полем:
+sFormula=Вычисляемый показатель:
+sCalcOrder=Порядок вычисления:
+sFilter=Фильтр:
+sEditor=Редактор ...
+sFuncNotAllWithDate=Нельзя использовать эту функцию с датой!
+sFuncNotAll=Нельзя использовать эту функцию с этим полем!
+sFuncNotAllWithCalc=Нельзя использовать эту функцию с вычисляемым показателем!
+sIncorrectPrecision=Некорректная точность [%d]. Точность должна быть целым числом >= 0! 
+sIncorrectCalcOrder=Некорректный порядок вычисления [%d]. Порядок вычисления должен быть между %d и %d!
+sDisplayFormat=Формат вывода
+// Filters
+sClearAll=Очистить все
+sInverse=Инвертировать
+// Field form
+sFieldFormCaption=Список полей
+sFieldFormDragLabel=Перенесите в таблицу
+sFieldformAddBtn=Добавить в
+sFieldFormAreaText=Фильтры'#$D#$A'Строки'#$D#$A'Столбцы'#$D#$A'Показатели
+sFieldFormRename=Переименовать
+sDefCubeCaption=<без названия>
+sFieldLabelChangeCaption=Смена названия поля
+sFieldLabelChangePropmpt=Введите новое название поля
+sCubeChangeCaption=Смена названия куба 
+sCubeChangePropmpt=Введите новое название куба 
+// Info form
+sInfoFormCaption=Информация по кубу
+sInfoFormSliceGeometry=Геометрия среза
+sInfoFormSourceRowCount=Число строк исходных данных
+sInfoFormRowDimCount=Количество измерений в строках
+sInfoFormColDimCount=Количество измерений в столбцах
+sInfoFormFactsCount=Количество мер
+sInfoFormFilterCount=Количество фильтрующих полей
+sInfoFormColCount=Количество столбцов
+sInfoFormRowCount=Количество строк
+
+sInfoFormTimeChar=Временные характеристики (сек.)
+sInfoFormFullTime=Общее время загрузки данных куба
+sInfoFormDBOpenTime=Открытие источника данных
+sInfoFormOpenTime=Подготовка к загрузке
+sInfoFormDBMoveTime=Перемещение по записям источника
+sInfoFormDBGetDataTime=Получение значений из источника
+sInfoFormConvertTime=Конвертирование значений
+sInfoFormDBCloseTime=Закрытие источника данных
+sInfoFormSortTime=Сортировка данных
+sInfoFormDataBuildTime=Расчет показателей
+
+sInfoFormTimeSources=Обработка исходных данных
+sInfoFormTimeAxisX=Построение оси X
+sInfoFormTimeAxisY=Построение оси Y
+sInfoFormTimeFacts=Построение мер
+sInfoFormTimeLinks=Заполнение ссылок
+sInfoFormTimeUniques=Заполнение уникальных значений
+// service menu captions
+sSave=Сохранить
+sLoad=Загрузить
+sCubeSave=Сохранить куб
+sCubeLoad=Загрузить куб
+sCubeLoadAdditional=Загрузить дополнительный куб
+sClearGrid=Очистить
+sSchemaSave=Сохранить схему
+sSchemaLoad=Загрузить схему
+sExportTo=Экспорт ...
+sShowHints=Показывать подсказки
+sHideRowZeros=Скрыть нули в строках
+sHideColZeros=Скрыть нули в столбцах
+sRowSort=Сортировка строк
+sColSort=Сортировка столбцов
+sDataMarker=Выделение данных
+sIncDecimal=Увеличить точность
+sDecDecimal=Уменьшить точность
+sAlignment=Выравнивание
+sRemoveToPage=Перенести элементы в область фильтров
+sDisplayAs=Показывать
+sFieldList=Список полей
+sInformation=Информация
+sFloatYAxis=Привязка ширины вертикальных измерений
+sTranspose=Транспонировать
+// Axis sort subMenu captions
+sSortByValues=Сортировка по значению осей
+sSortByTotals=Сортировка по итогам показателя
+sSortByXSelection=Сортировка по активной строке
+sSortByYSelection=Сортировка по активному столбцу
+// Facts menu captions
+sOriginalValue=Значение
+sRowPercentTotal=Процент по строке общий
+sColPercentTotal=Процент по столбцу общий
+sRowPercentGroup=Процент по строке в группе
+sColPercentGroup=Процент по столбцу в группе
+sGrandTotalPercent=Процент общий
+sRowRank=Ранг по строке
+sColRank=Ранг по столбцу
+// Data menu captions
+sSelect=Выделить
+sSelectRow=Выделить строку
+sSelectCol=Выделить столбец
+sSelectAll=Выделить все
+sCopy=Копировать
+sDeleteMeasure=Удалить показатель
+sProperties=Свойства...
+// Quarter
+sQuarter_1=Квартал 1
+sQuarter_2=Квартал 2
+sQuarter_3=Квартал 3
+sQuarter_4=Квартал 4
+// Function labels
+sSumPrefix=Сумма 
+sCountPrefix=Количество 
+sMinPrefix=Минимальное из 
+sMaxPrefix=Максимальное из 
+sAvgPrefix=Среднее 
+sMulPrefix=Произведение 
+sVariancePrefix=Дисперсия от 
+sStdDevPrefix=Ср. кв. откл. от 
+sVarianceSPrefix=См. дисперсия от 
+sStdDevSPrefix=См. ср. кв. откл. от 
+sFuncPrefix=Вычисление 
+sCountOfUniquePrefix=Количество уникальных 
+sFuncDetPrefix=Вычисление детализации 
+sMedianPrefix=Медиана 
+sWeightedMeanPrefix=Среднее арифметическое взвешенное от 
+sWeightedMeanCaption=Среднее арифметическое взвешенное
+// Empty region captions
+sFactsRegion=Перенесите сюда поля мер
+sRowsRegion=Перенесите сюда поля строк
+sFiltersRegion=Перенесите сюда поля фильтров
+sColsRegion=Перенесите сюда поля столбцов
+sServiceRegion=Сервис
+// Function captions
+sSumCaption=Сумма
+sCountCaption=Количество
+sMinCaption=Минимальное
+sMaxCaption=Максимальное
+sAvgCaption=Среднее
+sMulCaption=Произведение
+sVarianceCaption=Дисперсия
+sStdDevCaption=Ср. кв. откл.
+sVarianceSCaption=См. дисперсия
+sStdDevSCaption=См. ср. кв. откл.
+sFuncCaption=Вычисление
+sCountOfUniqueCaption=Количество уникальных
+sFuncDetCaption=Вычисление на основе детализации
+sMedianCaption=Медиана
+// Detail grid
+sDetailGridCaption=Детализация ячейки
+// Alignment
+sLeftJustify=По левому краю
+sCenter=По центру
+sRightJustify=По правому краю
+// Popup hints
+sPopupHint8=Развернуть все
+sPopupHint9=Свернуть все
+// Hierarchi
+sLinkToSelf=Обнаружена ссылка на себя при построении дерева иерархии! Код= %d.
+sParentNotFound=Не обнаружен родитель при построении дерева иерархии! Код= %d.
+sLoopLink=Обнаружена циклическая ссылка при построении дерева иерархии! Код= %d.
+sAllValues=Все значения
+//Language constants
+sErBadLexem=Неверная лексема!
+sErCommentNotClosed=Комментарий не закрыт!
+sErMixDigitChar=Буква соединена с цифрой!
+sErUnfinishedIdent=Незавершенное описание идентификатора
+// Formula editor form
+sFormulaEditor=Редактор формул
+sScriptErrorsFound=Обнаружены ошибки [%s]. Сохранить?
+// other
+sChartDataManagerCaption=Управление данными
+sErrorFieldAfterHierarchi=Перетаскивание полей за поле иерархии временно недоступно!
+// -----------------  chart ------------------------
+//chart commands
+sChartSaveTemplate=Сохранить шаблон
+sChartOpenTemplate=Открыть шаблон
+sChartStyle=Стиль диаграммы
+sChartByRows=По строкам
+sChartByCols=По столбцам
+sChartMarks=Метки
+sChartLegend=Легенда
+sChartDataManager=Управление данными
+//chart styles
+sChartStyleBar=Гистограмма
+sChartStyleLine=Линейчатая
+sChartStylePoint=Точечная
+sChartStyleArea=Площади
+sChartStylePie=Круговая
+//chart legend position
+sChartLegendLeft=Слева
+sChartLegendRight=Справа
+sChartLegendTop=Сверху
+sChartLegendBottom=Снизу
+========== FastReport objects =====
+sAutoSize_Default=По умолчанию
+sAutoSize_BySlice=По размерам грида
+sAutoSize_ColWidth=Авто ширина
+sAutoSize_ColWidthRestrict=Авто ширина с пределом
+sAutoSize_RowHeight=Авто высота
+sAutoSize_ByMemoSize=По размерам встроенных memo
+//properties in object inspector
+propCube=Многомерный источник данных
+propPaintSizes=Алгоритм и параметры вычисления размеров ячеек 
+propShowNames=Определяет будут ли отображаться имена полей в кроссе
+propAutoSizeStyle=Алгоритм вычисления размеров
+propDefaultColWidth=Ширина используемая для ячеек при AutoSizeStyle=ssDefault
+propDefaultRowHeight=Высота используемая для ячеек при AutoSizeStyle=ssDefault
+propMaxColWidth=Максимальная ширина используемая при AutoSizeStyle=ssAutoColWidthRestrict
+propFileName=Имя файла куба включая путь
+//convert fields
+sConvFieldName=Имя поля
+sConvFieldType=Тип
+sConvFieldSize=Размер
+sConvFieldCaption=Название
+sConvFieldConv=Конвертировать
+sConvFieldNewType=Новый тип
+sConvFieldNewSize=Размер
+sConvEditField=Редактировать
+sConvSaveToFile=Сохранить в файл
+sConvLoadFromFile=Загрузить из файла
+sConvNoType=Не выбран тип!
+sConvNoSize=Размер должен быть больше чем 0!
+// для демки
+dmSelectExample=Показать пример
+dmSchema=Схемы
+dmFRPreview=Предварительный просмотр в FastReport
+dmCrossTbl=Кросс-таблица
+dmChart=Диаграмма
+dmSourceTbl=Исходные данные (плоская)
+dmSelectExample=Выбор примера
+dmConf=democonf.txt
+// 29.01.2008
+sPercentFormat=Формат процента
+sDefaultFormat=Формат по умолчанию
+sChartRealTimeChange=Применять изменения сразу
+sChartDataSource=Настройка источника данных
+sChartSeriesAxis=Использовать в качестве рядов
+sChartValuesAxis=Использовать в качестве категорий
+sChartSeriesFieldCount=Число полей для имени ряда
+sChartValuesFieldCount=Число полей для имени категорий
+sChartMeasureFieldIndex=Индекс показателя
+sChartFrozen=Заморозка диаграммы
+sChartDataProperty=Настройка диаграммы
+sAxisX=Измерения в столбцах
+sAxisY=Измерения в строках
+sChartByAxisAxis=Ряды и категории из измерений
+sChartByAxisMeasures=Ряды из показателей, категории из измерений
+sChartByMeasuresAxis=Ряды из измерений, категории из показателей
+sChartPropsAreNotCorrect=Параметры диаграммы некорректны
+// 02.04.2008
+sScriptErrorFilter=Ошибка при выполнении фильтра:
+sScriptErrorCalc=Ошибка при выполнении скрипта:
+sErrorStr=Ошибка
+// 06.05.2008
+SWeekNumberPrefix=Номер_недели_
+//27.05.2008
+SDayOfYearPrefix=День_в_году_
+sFirstValue=Первое значение
+sFirstValuePrefix=Первое значение из
+sMeasureName=Имя показателя
+// 29.08.2008
+sListOfUniquePrefix=Список уникальных 
+sListOfUniqueCaption=Список уникальных 
+//09.12.2008
+sExportCloneMasterValue=Клонировать группирующее значение
+sCopyWithHeader=Копировать с заголовками
+//11.03.2009
+fkCustom=Пользовательские
+//19.05.2009
+sChartStyleHorizBar=Гистограмма горизонтальная
+sChartStackType=Расположение гистограмм
+//30.06.2009
+sChartStackNone=None
+sChartStackSide=Side
+sChartStackStacked=Stacked
+sChartStackStacked100=Stacked 100%
+sChartStackSideAll=Side All
+sChartStackSelfStack=Self Stack
+//30.09.2009
+sLastValue=Последнее значение
+sLastValuePrefix=Последнее значение из
+//21.06.2010
+obfrcCube=Объект "FastCube 2 Куб"
+obfrcChartView=Объект "FastCube 2 Диаграмма"
+obfrcCrossView=Объект "FastCube 2 Кросс-таб"
+//Measure editor
+sMeasureEditor=Редактор показателей
+sGeneral=Общая
+sCaption=Заголовок
+sAggregate=Агрегат
+sFieldBased=Построеный по полю
+sBaseField=Базовое поле
+sCalculated=Вычисляемый
+sFunction=Функция
+sOrder=Порядок
+sCalcAllCells=Вычислять все ячейки
+sTotals=Итоги
+sFiltering=Фильтрация
+sStyle=Стиль
+sFillStyle=Стиль заливки
+sFillColor=Цвет заливки %d
+sTextStyle=Стиль текста
+sTextColor=Цвет текста
+sExample=Пример
+sAdd=Добавить
+sDelete=Удалить
+sMoveUp=Переместить вверх
+sMoveDown=Переметить вниз
+sExampleString=Строка пример
+sBold=Полужирный
+sItalic=Курсив
+sUnderline=Подчеркнутый
+sStrikeOut=Зачеркнутый
+sSolidColor=Сплошной цвет
+sHorzGradient=Горизонтальный градиент
+sVertGradient=Вертикальный градиент
+sHorzCenterGradient=Гориз. градиент из центра
+sVertCenterGradient=Верт. градиент из центра
+sDiag1Gradient=Диагональный градиент 1
+sDiag2Gradient=Диагональный градиент 2
+sDiag1CenterGradient=Диаг. градиент из центра 1
+sDiag2CenterGradient=Диаг. градиент из центра 2
+sCorner1Gradient=Угловой градиент 1
+sCorner2Gradient=Угловой градиент 2
+sCorner3Gradient=Угловой градиент 3
+sCorner4Gradient=Угловой градиент 4
+sCenterGradient=Градиент из центра
+sConfirmDelete=Подтвердите удаление
+//Dimension editor
+sDimensionEditor=Редатор измерения
+sUseTotalPositionFromMeasure=Использовать положение итога из показателя
+sSortDirection=Направление сортировки
+//AxisZone popup menu
+sExpand=Развернуть
+sCollapse=Свернуть
+sExpandGroup=Развернуть группу
+sCollapseGroup=Свернуть группу
+sExpandAll=Развернуть все
+sCollapseAll=Свернуть все
+sMoveToGroup=Переместить в группу
+sMoveFromGroup=Переместить из группы
+sDeleteGroup=Удалить группу
+sRenameGroup=Переименовать группу...
+sFilterOutThisItem=Отфильтровать это значение
+sFilterOutAllOtherItems=Отфильтровать все значения кроме этого
+sHideNode=Скрыть узел
+sShowHiddenNodes=Показать скрытые узлы
+sShowTopN=Показать первые N...
+sClearTopN=Сброс первых N
+sActiveTopN=Активных первых N фильтров: %d
+sAxisType=Тип оси
+sBefore=До
+sAfter=После
+sHide=Скрыть
+sFromMeasure=Как в показателе
+sStandard=Стандартная
+sTreeLike=Древовидная
+sCreateNew=Создать новую
+sNewGroup=Новая группа
+sCreateANewGroup=Создать новую группу
+sEnterANewGroupName=Ввведите название новой группы:
+sSort=Сортировка
+sRename=Переименовать...
+sMoveToPage=Переместить в область фильтров
+sClearFilter=Очистить фильтр
+sSplits=Разбиения
+sCreateNewGroup=Создать новую группу...
+sCreateOtherGroup=Создать группу <другие>...
+sAddNewMeasure=Добавить новый показатель...
+sOther=Другие
+sEnterOtherGroupCaption=Введите заголовок группы <другие>:
+sAscending=По возрастанию
+sDescending=По убыванию
+sDay=День
+sMonth=Месяц
+sQuarter=Квартал
+sYear=Год
+sDayOfWeek=День недели
+sWeekNumber=Номер недели в году
+sDayOfYear=День в году
+sHour=Час
+sMinute=Минута
+sSecond=Секунда
+sMillisecond=Миллисекунда
+sTimeSplits=Разбивка времени
+sDateSplits=Разбивка даты
+sDateAttribute=Атрибут Дата
+sTimeAttribute=Атрибут Время
+sCalcForSelection=Вычислять для выделения
+sScale=Масштаб
+sScaleSlider=Ползунок масштаба
+//top n dialog
+sDimension=Измерение
+sShow=Показать
+sCreateOthers=Создать <другие>
+sTopMax=наибольших
+sTopMin=наименьших
+// styles
+sStylesEditor=Редактор стилей
+sCaptionArea=Область заголовка
+sHeaderArea=Область шапки
+sHeaderCells=Ячейки шапки
+sHeaderCellsSelected=Ячейки шапки (выделенные)
+sDataArea=Область данных
+sDataCells=Ячейки данных
+sDataCellsSelected=Ячейки данных (выделенные)
+sActiveDimension=Активное измерение
+sInactiveDimension=Неактивное измерение
+sDataCellsTotals=Ячейки данных (итоги)
+sFieldsItem=Элемент "Поля"
+sStatusArea=Область статуса
+// выделение
+sHighlightRuleEditor=Редактор правил выделения
+sRangeHighlightCaption=Выделять ячейки попадающие под условие
+sRule=Правила (применяются последовательно)
+sCellValueBetween=Значение ячейки между %f и %f
+sCellValueBeyond=Значение ячейки вне %f и %f
+sCellValueEqual=Значение ячейки = %f
+sCellValueNotEqual=Значение ячейки <> %f
+sCellValueGreater=Значение ячейки > %f
+sCellValueLess=Значение ячейки < %f
+sCellValueGreaterOrEqual=Значение ячейки >= %f
+sCellValueLessOrEqual=Значение ячейки <= %f
+sCellTextContains=Текст ячейки содержит '%s'
+sCellTextNotContains=Текст ячейки не содержит '%s'
+sCellTextStartsWith=Текст ячейки начинается с '%s'
+sCellTextEndsWith=Текст ячейки заканчивается на '%s'
+sCellValueIsNull=Значение ячейки пусто
+sCellValueIsNotNull=Значение ячейки не пусто
+sCellValue=Значение
+sCellText=Текст
+sCellDate=Дата
+sCellNull=Пустое значение
+sCellNotNull=Не пустое значение
+sBetween=между
+sBeyond=вне
+sEqual=равно
+sNotEqual=не равно
+sGreater=больше
+sLess=меньше
+sGreaterOrEqual=больше или равно
+sLessOrEqual=меньше или равно
+sContains=содержит
+sNotContains=не содержит
+sStartsWith=начинается с
+sEndsWith=заканчивается на
+sAnd=и
+sOr=или
+sEditStyle=Стиль...
+sStyleEditor=Редактор стиля
+sApplyTo=Применять к
+sToCells=Ячейкам
+sToTotals=Итогам
+sToGrandTotal=Общему итогу
+sContinuousHighlightCaption=Выделять все ячейки в зависимости от их значения
+sHighlightKind=Вид выделения
+sTwoColorScale=Двухцветная шкала
+sThreeColorScale=Трехцветная шкала
+sBarChart=Гистограмма
+sIconSet=Набор иконок
+sMinValue=Минимальное значение
+sMinValueByRow=Минимум по строке
+sMinValueByCol=Минимум по столбцу
+sMidValue=Среднее значение
+sMaxValue=Максимальное значение
+sMaxValueByRow=Максимум по строке
+sMaxValueByCol=Максимум по столбцу
+sType=Тип
+sValue=Значение
+sColor=Цвет
+sNumber=Число
+sPercentByRow=Процент по строке
+sPercentByCol=Процент по столбцу
+sPercentileByRow=Процентиль по строке
+sPercentileByCol=Процентиль по столбцу
+sBarColor=Цвет столбца
+sTheShortestBar=Самый короткий столбец
+sTheLongestBar=Самый длинный столбец
+sShowCellValue=Показывать значение
+sGradientDraw=Градиентная заливка
+sFrameColor=Цвет рамки
+sIfValue=если значение
+sIfValue1=если %s %g
+sReverseOrder=Обратный порядок
+sIcon=Иконка
+sNoIcon=Нет иконки
+sCustom=Произвольный
+sString=Строка
+sNumeric=Число
+sDateTime=Дата-Время
+sSkipNullPoints=Пропускать пустые точки
+sBaseAxisDataType=Тип данных основной оси
+sRangeEditor=Редактор диапазона
+sCustomFilter=Настроить фильтр...
+sShowAvailable=Отображать доступные
+// DataTree
+dtMeasures=Показатели
+dtDimensions=Измерения
+dtSliceFields=Поля
+// Axis editor
+sAxisProperties=Свойства оси...
+sAxisEditor=Редактор оси
+sGrandTotalPosition=Положение общего итога
+sAdditionalGrandTotals=Дополнительные общие итоги
+sDistinctField=Уникальное поле
+sDistinct=Уникальность
+sRange=Range

@@ -1,0 +1,23 @@
+{"version":1,"strings":[
+{"hash":5989939,"name":"fptools.dialog_tools","sourcebytes":[84,111,111,108,115],"value":"Tools"},
+{"hash":107507276,"name":"fptools.dialog_modifynewtool","sourcebytes":[77,111,100,105,102,121,47,78,101,119,32,84,111,111,108],"value":"Modify\/New Tool"},
+{"hash":111900883,"name":"fptools.dialog_programarguments","sourcebytes":[80,114,111,103,114,97,109,32,65,114,103,117,109,101,110,116,115],"value":"Program Arguments"},
+{"hash":212433139,"name":"fptools.dialog_messages","sourcebytes":[77,101,115,115,97,103,101,115],"value":"Messages"},
+{"hash":122431566,"name":"fptools.msg_errorparsingparametersatpos","sourcebytes":[3,69,114,114,111,114,32,112,97,114,115,105,110,103,32,112,97,114,97,109,101,116,101,114,115,32,108,105,110,101,32,97,116,32,108,105,110,101,32,112,111,115,105,116,105,111,110,32,37,100,46],"value":"\u0003Error parsing parameters line at line position %d."},
+{"hash":8990606,"name":"fptools.msg_cantinstallmoretools","sourcebytes":[3,67,97,110,39,116,32,105,110,115,116,97,108,108,32,109,111,114,101,32,116,111,111,108,115,46,46,46],"value":"\u0003Can't install more tools..."},
+{"hash":115007197,"name":"fptools.msg_requiredparametermissingin","sourcebytes":[82,101,113,117,105,114,101,100,32,112,97,114,97,109,101,116,101,114,32,109,105,115,115,105,110,103,32,105,110,32,91,37,115,93],"value":"Required parameter missing in [%s]"},
+{"hash":77296269,"name":"fptools.msg_requiredpropertymissingin","sourcebytes":[82,101,113,117,105,114,101,100,32,112,114,111,112,101,114,116,121,32,109,105,115,115,105,110,103,32,105,110,32,91,37,115,93],"value":"Required property missing in [%s]"},
+{"hash":245420589,"name":"fptools.msg_unknowntypein","sourcebytes":[85,110,107,110,111,119,110,32,116,121,112,101,32,105,110,32,91,37,115,93],"value":"Unknown type in [%s]"},
+{"hash":207335293,"name":"fptools.msg_propertymissingin","sourcebytes":[37,115,32,112,114,111,112,101,114,116,121,32,109,105,115,115,105,110,103,32,105,110,32,91,37,115,93],"value":"%s property missing in [%s]"},
+{"hash":112820413,"name":"fptools.msg_invaliditemsin","sourcebytes":[73,110,118,97,108,105,100,32,110,117,109,98,101,114,32,111,102,32,105,116,101,109,115,32,105,110,32,91,37,115,93],"value":"Invalid number of items in [%s]"},
+{"hash":252063075,"name":"fptools.label_tools_programtitles","sourcebytes":[126,80,126,114,111,103,114,97,109,32,116,105,116,108,101,115],"value":"~P~rogram titles"},
+{"hash":63245221,"name":"fptools.label_toolprop_title","sourcebytes":[126,84,126,105,116,108,101],"value":"~T~itle"},
+{"hash":252365352,"name":"fptools.label_toolprop_programpath","sourcebytes":[80,114,111,103,114,97,109,32,126,112,126,97,116,104],"value":"Program ~p~ath"},
+{"hash":34721925,"name":"fptools.label_toolprop_commandline","sourcebytes":[67,111,109,109,97,110,100,32,126,108,126,105,110,101],"value":"Command ~l~ine"},
+{"hash":34071588,"name":"fptools.label_enterprogramargument","sourcebytes":[126,69,126,110,116,101,114,32,112,114,111,103,114,97,109,32,97,114,103,117,109,101,110,116],"value":"~E~nter program argument"},
+{"hash":357166,"name":"fptools.button_ok","sourcebytes":[79,126,75,126],"value":"O~K~"},
+{"hash":77089212,"name":"fptools.button_cancel","sourcebytes":[67,97,110,99,101,108],"value":"Cancel"},
+{"hash":8611015,"name":"fptools.button_new","sourcebytes":[126,78,126,101,119],"value":"~N~ew"},
+{"hash":137186052,"name":"fptools.button_edit","sourcebytes":[126,69,126,100,105,116],"value":"~E~dit"},
+{"hash":206316677,"name":"fptools.button_delete","sourcebytes":[126,68,126,101,108,101,116,101],"value":"~D~elete"}
+]}

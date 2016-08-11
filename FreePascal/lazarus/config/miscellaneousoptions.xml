@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <MiscellaneousOptions>
+    <Version Value="3"/>
+    <BuildLazarusOptions>
+      <Profiles Count="4">
+        <Profile0 Name="Normal IDE">
+          <LCLPlatform Value="gtk2"/>
+          <IdeBuildMode Value="Build"/>
+        </Profile0>
+        <Profile1 Name="Debug IDE">
+          <LCLPlatform Value="gtk2"/>
+          <IdeBuildMode Value="Build"/>
+          <Options Count="1">
+            <Item1 Value="-gw -gl -godwarfsets -gh -gt -Co -Cr -Ci -Sa"/>
+          </Options>
+        </Profile1>
+        <Profile2 Name="Optimized IDE">
+          <LCLPlatform Value="gtk2"/>
+          <IdeBuildMode Value="Build"/>
+          <Options Count="1">
+            <Item1 Value="-O2 -g- -Xs"/>
+          </Options>
+        </Profile2>
+        <Profile3 Name="Clean Up + Build all">
+          <LCLPlatform Value="gtk2"/>
+          <IdeBuildMode Value="Clean + Build"/>
+        </Profile3>
+      </Profiles>
+      <StaticAutoInstallPackages Count="4">
+        <Item1 Value="appexplore"/>
+        <Item2 Value="SynEditDsgn"/>
+        <Item3 Value="sparta_dockedformeditor"/>
+        <Item4 Value="anchordockingdsgn"/>
+      </StaticAutoInstallPackages>
+    </BuildLazarusOptions>
+  </MiscellaneousOptions>
+</CONFIG>

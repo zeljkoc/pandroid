@@ -1,0 +1,9 @@
+Name=ncurses
+Version=3.1.1
+Checksum=1470866828
+CPU=i386
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources CodePage="1257">
+  <StrRes Name="2000" Text="Objektų peržiūra"/>
+  <StrRes Name="oiProp" Text="Savybės"/>
+  <StrRes Name="oiEvent" Text="Įvykiai"/>
+  <StrRes Name="2100" Text="Duomenų medis"/>
+  <StrRes Name="2101" Text="Duomenys"/>
+  <StrRes Name="2102" Text="Kintamieji"/>
+  <StrRes Name="2103" Text="Funkcijos"/>
+  <StrRes Name="2104" Text="Sukurti lauką"/>
+  <StrRes Name="2105" Text="Sukurti pavadinimą"/>
+  <StrRes Name="2106" Text="Kląsės"/>
+  <StrRes Name="dtNoData" Text="Nėra duomenų"/>
+  <StrRes Name="dtNoData1" Text="Eikite į &#38;#34;Ataskaitos|Duomenys...&#38;#34; meniu, norėdami pridėti egiztuojantį duomenų rinkinį prie jūsų ataskaitos arba persijunkite į &#38;#34;Data&#38;#34; puslapį ir sukurkite naujus duomenų rinkinius."/>
+  <StrRes Name="dtData" Text="Duomenys"/>
+  <StrRes Name="dtSysVar" Text="Sistemos kintamieji"/>
+  <StrRes Name="dtVar" Text="Kintamieji"/>
+  <StrRes Name="dtFunc" Text="Funkcijos"/>
+  <StrRes Name="2200" Text="Pranešimų medis"/>
+  <StrRes Name="2300" Text="Atidaryti skripto failą"/>
+  <StrRes Name="2301" Text="Išsaugoti skriptą faile"/>
+  <StrRes Name="2302" Text="Paleisti skriptą"/>
+  <StrRes Name="2303" Text="Sekti vidun"/>
+  <StrRes Name="2304" Text="Užbaigti skriptą"/>
+  <StrRes Name="2305" Text="Įvertinti"/>
+  <StrRes Name="2306" Text="Kalba:"/>
+  <StrRes Name="2307" Text="Rikiuotė"/>
+  <StrRes Name="2308" Text="Rikiuotė kairėn"/>
+  <StrRes Name="2309" Text="Rikiuotė per vidurį"/>
+  <StrRes Name="2310" Text="Rikiuotė dešinėn"/>
+  <StrRes Name="2311" Text="Rikiuotė viršuje"/>
+  <StrRes Name="2312" Text="Rikiuotė centre"/>
+  <StrRes Name="2313" Text="Rikiuotė apačioje"/>
+  <StrRes Name="2314" Text="Horizontalūs tarpai"/>
+  <StrRes Name="2315" Text="Vertikalūs tarpai"/>
+  <StrRes Name="2316" Text="Horizontalus išcentravimas raištyje"/>
+  <StrRes Name="2317" Text="Vertikalus išcentravimas raištyje"/>
+  <StrRes Name="2318" Text="Vienodas plotis"/>
+  <StrRes Name="2319" Text="Vienodas aukštis"/>
+  <StrRes Name="2320" Text="Tekstas"/>
+  <StrRes Name="2321" Text="Stilius"/>
+  <StrRes Name="2322" Text="Šrifto pavadinimas"/> 
+  <StrRes Name="2323" Text="Šrifto dydis"/> 
+  <StrRes Name="2324" Text="Pastorintas"/> 
+  <StrRes Name="2325" Text="Kursyvas"/> 
+  <StrRes Name="2326" Text="Pabrauktas"/> 
+  <StrRes Name="2327" Text="Šrifto spalva"/>
+  <StrRes Name="2328" Text="Paryškintas"/> 
+  <StrRes Name="2329" Text="Teksto pasisukimas"/>
+  <StrRes Name="2330" Text="Kairinė rikiuotė"/>
+  <StrRes Name="2331" Text="Centrinė rikiuotė"/>
+  <StrRes Name="2332" Text="Dešninė rikiuotė"/>
+  <StrRes Name="2333" Text="Abipusė rikiuotė"/>
+  <StrRes Name="2334" Text="Rikiuoti viršuje"/>
+  <StrRes Name="2335" Text="Rikiuoti per vidurį"/>
+  <StrRes Name="2336" Text="Rikiuoti apačioje"/>
+  <StrRes Name="2337" Text="Rėmelis"/>
+  <StrRes Name="2338" Text="Viršutinė linija"/>
+  <StrRes Name="2339" Text="Apatinė linija"/>
+  <StrRes Name="2340" Text="Kairė linija"/>
+  <StrRes Name="2341" Text="Dešinė linija"/>
+  <StrRes Name="2342" Text="Visos rėmelio linijos"/>
+  <StrRes Name="2343" Text="Be rėmelio"/>
+  <StrRes Name="2344" Text="Šešėlis"/>
+  <StrRes Name="2345" Text="Fono spalva"/>
+  <StrRes Name="2346" Text="Rėmelio spalva"/>
+  <StrRes Name="2347" Text="Rėmelio stilius"/>
+  <StrRes Name="2348" Text="Rėmelio plotis"/>
+  <StrRes Name="2349" Text="Standartinis"/>
+  <StrRes Name="2350" Text="Nauja ataskaita"/>
+  <StrRes Name="2351" Text="Atidaryti ataskaitą"/> 
+  <StrRes Name="2352" Text="Išsaugoti ataskaitą"/> 
+  <StrRes Name="2353" Text="Peržiūra"/> 
+  <StrRes Name="2354" Text="Naujas ataskaitos lapas"/>
+  <StrRes Name="2355" Text="Naujas dialogo lapas"/>
+  <StrRes Name="2356" Text="Ištrinti lapą"/>
+  <StrRes Name="2357" Text="Lapo nustatymai"/>
+  <StrRes Name="2358" Text="Kintamieji"/>
+  <StrRes Name="2359" Text="Iškirpti"/>
+  <StrRes Name="2360" Text="Kopijuoti"/>
+  <StrRes Name="2361" Text="Įklijuoti"/>
+  <StrRes Name="2362" Text="Kopijuoti Formatavimą"/>
+  <StrRes Name="2363" Text="Panaikinti"/>
+  <StrRes Name="2364" Text="Atstatyti panaikinimą"/>
+  <StrRes Name="2365" Text="Grupuoti"/>
+  <StrRes Name="2366" Text="Išgrupuoti"/>
+  <StrRes Name="2367" Text="Rodyti lentelę"/>
+  <StrRes Name="2368" Text="Rykiuoti pagal lentelę"/>
+  <StrRes Name="2369" Text="Talpinti į lentelę"/>
+  <StrRes Name="2370" Text="Priartinimas"/>
+  <StrRes Name="2371" Text="Papildomii įrankiai"/>
+  <StrRes Name="2372" Text="Pasirinkimo įrankis"/>
+  <StrRes Name="2373" Text="Pasirinkimo įrankis"/>
+  <StrRes Name="2374" Text="Priartinimo įrankis"/>
+  <StrRes Name="2375" Text="Teksto redagavimo įrankis"/>
+  <StrRes Name="2376" Text="Kopijavimo Formatasavimo įrankis"/>
+  <StrRes Name="2377" Text="Įdėjimo raištis"/>
+  <StrRes Name="2378" Text="&amp;Failas"/>
+  <StrRes Name="2379" Text="&amp;Redaguoti"/>
+  <StrRes Name="2380" Text="Surasti..."/>
+  <StrRes Name="2381" Text="Surasti kito"/>
+  <StrRes Name="2382" Text="Pakeisiti..."/>
+  <StrRes Name="2383" Text="&amp;Ataskaita"/>
+  <StrRes Name="2384" Text="Duomenys..."/>
+  <StrRes Name="2385" Text="Nustatymai..."/>
+  <StrRes Name="2386" Text="Stiliai..."/>
+  <StrRes Name="2387" Text="&amp;Peržiūra"/>
+  <StrRes Name="2388" Text="Įrankių juostos"/>
+  <StrRes Name="2389" Text="Standartinis"/>
+  <StrRes Name="2390" Text="Tekstas"/>
+  <StrRes Name="2391" Text="Rėmelis"/>
+  <StrRes Name="2392" Text="Paletės rikiavimas"/>
+  <StrRes Name="2393" Text="Papildomii įrankiai"/>
+  <StrRes Name="2394" Text="Objektų peržiūra"/>
+  <StrRes Name="2395" Text="Duomenų medis"/>
+  <StrRes Name="2396" Text="Pranešimų medis"/>
+  <StrRes Name="2397" Text="Liniuotės"/>
+  <StrRes Name="2398" Text="Gidai"/>
+  <StrRes Name="2399" Text="Trinti Gidą"/>
+  <StrRes Name="2400" Text="Nustatymai..."/>
+  <StrRes Name="2401" Text="&amp;Pagalba"/>
+  <StrRes Name="2402" Text="Turinys..."/>
+  <StrRes Name="2403" Text="Apie FastReport..."/>
+  <StrRes Name="2404" Text="Šokinėjimo tvarka..."/>
+  <StrRes Name="2405" Text="Atstatyti"/>
+  <StrRes Name="2406" Text="Anuliuoti atstatymą"/>
+  <StrRes Name="2407" Text="Iškirpti"/>
+  <StrRes Name="2408" Text="Kopijuoti"/>
+  <StrRes Name="2409" Text="Įklijuoti"/>
+  <StrRes Name="2410" Text="Grupuoti"/>
+  <StrRes Name="2411" Text="Išgrupuoti"/>
+  <StrRes Name="2412" Text="Ištrinti"/>
+  <StrRes Name="2413" Text="Ištrinti puslapi"/>
+  <StrRes Name="2414" Text="Pažymėti viską"/>
+  <StrRes Name="2415" Text="Redaguoti..."/>
+  <StrRes Name="2416" Text="Iškelti į priekį"/>
+  <StrRes Name="2417" Text="Nusiųsti atgal"/>
+  <StrRes Name="2418" Text="Aaujas..."/>
+  <StrRes Name="2419" Text="Nauja ataskaita"/>
+  <StrRes Name="2420" Text="Naujas lapas"/>
+  <StrRes Name="2421" Text="Naujas dialogas"/>
+  <StrRes Name="2422" Text="Atidaryti..."/>
+  <StrRes Name="2423" Text="Išsaugoti"/>
+  <StrRes Name="2424" Text="Išsaugoti kaip..."/>
+  <StrRes Name="2425" Text="Kintamieji..."/>
+  <StrRes Name="2426" Text="Lapo nustatymai..."/>
+  <StrRes Name="2427" Text="Peržiūra"/>
+  <StrRes Name="2428" Text="Uždaryti"/>
+  <StrRes Name="2429" Text="Ataskaitos pavadinimas"/>
+  <StrRes Name="2430" Text="Ataskaitos santrauka"/>
+  <StrRes Name="2431" Text="Lapas viršutinė paraštė"/>
+  <StrRes Name="2432" Text="Lapas apatinė paraštė"/>
+  <StrRes Name="2433" Text="Viršutinė paraštė"/>
+  <StrRes Name="2434" Text="Apatinė paraštė"/>
+  <StrRes Name="2435" Text="Pagrindiniai duomenys"/>
+  <StrRes Name="2436" Text="Detalės duomenys"/>
+  <StrRes Name="2437" Text="Subdetalės duomenys"/>
+  <StrRes Name="2438" Text="Ketvirto lygio detalės duomenys"/>
+  <StrRes Name="2439" Text="Penkto lygio detalės duomenys"/>
+  <StrRes Name="2440" Text="Šešto lygio detalės duomenys"/>
+  <StrRes Name="2441" Text="Viršutinės paraštės grupavimas"/>
+  <StrRes Name="2442" Text="Apatinės paraštės grupavimas"/>
+  <StrRes Name="2443" Text="Vaikas"/>
+  <StrRes Name="2444" Text="Stulpelio viršutinė paraštė"/>
+  <StrRes Name="2445" Text="Stulpelio apatinė paraštė"/>
+  <StrRes Name="2446" Text="Išdėstymas"/>
+  <StrRes Name="2447" Text="Vertikalios juostos"/>
+  <StrRes Name="2448" Text="Viršutinė paraštė"/>
+  <StrRes Name="2449" Text="Apatinė paraštė"/>
+  <StrRes Name="2450" Text="Pagrindiniai duomenys"/>
+  <StrRes Name="2451" Text="Detalės duomenys"/>
+  <StrRes Name="2452" Text="Subdetalės duomenys"/>
+  <StrRes Name="2453" Text="Grupės viršutinė paraštė"/>
+  <StrRes Name="2454" Text="Grupės apatinė paraštė"/>
+  <StrRes Name="2455" Text="Vaikas"/>
+  <StrRes Name="2456" Text="0°"/>
+  <StrRes Name="2457" Text="45°"/>
+  <StrRes Name="2458" Text="90°"/>
+  <StrRes Name="2459" Text="180°"/>
+  <StrRes Name="2460" Text="270°"/>
+  <StrRes Name="2461" Text="Šrifto nustatymai"/>
+  <StrRes Name="2462" Text="Pastorinti"/>
+  <StrRes Name="2463" Text="Kursyvas"/>
+  <StrRes Name="2464" Text="Pabraukti"/>
+  <StrRes Name="2465" Text="SuperScriptas"/>
+  <StrRes Name="2466" Text="SubScriptas"/>
+  <StrRes Name="2467" Text="Kondensuotas"/>
+  <StrRes Name="2468" Text="Platu"/>
+  <StrRes Name="2469" Text="12 cpi"/>
+  <StrRes Name="2470" Text="15 cpi"/>
+  <StrRes Name="2471" Text="Ataskaita (*.fr3)|*.fr3"/>
+  <StrRes Name="2472" Text="Pascalio failai (*.pas)|*.pas|C++ failai (*.cpp)|*.cpp|JavaScript failai (*.js)|*.js|Paprasti failai (*.vb)|*.vb|visus failai|*.*"/>
+  <StrRes Name="2473" Text="Pascalio failai (*.pas)|*.pas|C++ failai (*.cpp)|*.cpp|JavaScript failai (*.js)|*.js|Paprasti failai (*.vb)|*.vb|visus failai|*.*"/>
+  <StrRes Name="2474" Text="Prisijungimai..."/>
+  <StrRes Name="2475" Text="Kalba"/>
+  <StrRes Name="2476" Text="Alkūnės lūžio taškas"/>
+  <StrRes Name="2477" Text="Grįžti prie rodyklės"/>
+  <StrRes Name="2478" Text="!Pridėti vaiko juostą"/>
+  <StrRes Name="dsCm" Text="Centimetrai"/>
+  <StrRes Name="dsInch" Text="Coliai"/>
+  <StrRes Name="dsPix" Text="Pikseliai"/>
+  <StrRes Name="dsChars" Text="Simboliai"/>
+  <StrRes Name="dsCode" Text="Kodas"/>
+  <StrRes Name="dsData" Text="Duomuoenys"/>
+  <StrRes Name="dsPage" Text="Lapas"/>
+  <StrRes Name="dsRepFilter" Text="Ataskaita (*.fr3)|*.fr3"/>
+  <StrRes Name="dsComprRepFilter" Text="Suspausta ataskaita (*.fr3)|*.fr3"/>
+  <StrRes Name="dsSavePreviewChanges" Text="Išsaugoti pakeitimus į Peržiūros Lapą?"/>
+  <StrRes Name="dsSaveChangesTo" Text="Išsaugoti pakeitimus į "/>
+  <StrRes Name="dsCantLoad" Text="Nepavyko įkelti failo"/>
+  <StrRes Name="dsStyleFile" Text="Stilius"/>
+  <StrRes Name="dsCantFindProc" Text="Nepavyko rasti pagrindinės procedūros"/>
+  <StrRes Name="dsClearScript" Text="Tai išvalys visą kodą. Ar tikrai norite tęsti?"/>
+  <StrRes Name="dsNoStyle" Text="Nėra stiliaus"/> 
+  <StrRes Name="dsStyleSample" Text="Stiliaus pavyzdys"/>
+  <StrRes Name="dsTextNotFound" Text="Teksto '%s' nerasta"/>
+  <StrRes Name="dsReplace" Text="Pakeisti šį '%s' atvejį?"/>
+  <StrRes Name="2600" Text="Apie FastReport"/> 
+  <StrRes Name="2601" Text="Aplankykite mūsų tinklapyje kad gautumėte daugiau informacijos:"/>
+  <StrRes Name="2602" Text="Pardavimai:"/>
+  <StrRes Name="2603" Text="Parama:"/>
+  <StrRes Name="2700" Text="Lapo parinktys"/>
+  <StrRes Name="2701" Text="Popierius"/>
+  <StrRes Name="2702" Text="Plotis"/>
+  <StrRes Name="2703" Text="Aukštis"/>
+  <StrRes Name="2704" Text="Dydis"/>
+  <StrRes Name="2705" Text="Orientatacija/>
+  <StrRes Name="2706" Text="Kairė"/>
+  <StrRes Name="2707" Text="Viršus"/>
+  <StrRes Name="2708" Text="Dešinė"/>
+  <StrRes Name="2709" Text="Apačia"/>
+  <StrRes Name="2710" Text="Paraštės"/>
+  <StrRes Name="2711" Text="Popieriaus šaltinis"/>
+  <StrRes Name="2712" Text="Pirmas lapas"/>
+  <StrRes Name="2713" Text="Kiti lapai"/>
+  <StrRes Name="2714" Text="Portretas"/> 
+  <StrRes Name="2715" Text="Gulsčias"/> 
+  <StrRes Name="2716" Text="Kitos parinktys"/>
+  <StrRes Name="2717" Text="Stulpeliai"/>
+  <StrRes Name="2718" Text="Kiekis"/>
+  <StrRes Name="2719" Text="Plotis"/>
+  <StrRes Name="2720" Text="Pozicijos"/>
+  <StrRes Name="2721" Text="Kita"/>
+  <StrRes Name="2722" Text="Dupleksas"/>
+  <StrRes Name="2723" Text="Atspausdinti į buvusį lapą"/>
+  <StrRes Name="2724" Text="Veidrodžio paraštės"/>
+  <StrRes Name="2725" Text="Didelis aukštis dizaino peržiūroj"/>
+  <StrRes Name="2726" Text="Nesibaigiantis lapo Plotis"/>
+  <StrRes Name="2727" Text="Nesibaigiantis lapo Aukštis"/>
+  <StrRes Name="2800" Text="Pasirinkti ataskaitos duomenų šaltinius"/>
+  <StrRes Name="2900" Text="Redaguoti kintamuosius"/>
+  <StrRes Name="2901" Text="Kategorija"/>
+  <StrRes Name="2902" Text="Kintamasis"/>
+  <StrRes Name="2903" Text="Redaguoti"/>
+  <StrRes Name="2904" Text="Trinti"/>
+  <StrRes Name="2905" Text="Sąrašas"/>
+  <StrRes Name="2906" Text="Užkrauti"/>
+  <StrRes Name="2907" Text="Išsaugoti"/>
+  <StrRes Name="2908" Text="Išraiška:"/>
+  <StrRes Name="2909" Text="Žodynas (*.fd3)|*.fd3"/>
+  <StrRes Name="2910" Text="Žodynas (*.fd3)|*.fd3"/>
+  <StrRes Name="vaNoVar" Text="(nėra apibrėžta kintamūjų)"/>
+  <StrRes Name="vaVar" Text="Kintamieji"/>
+  <StrRes Name="vaDupName" Text="Pasikartojantis vardas"/>
+  <StrRes Name="3000" Text="Dizaino parinktys"/>
+  <StrRes Name="3001" Text="Lentelė"/>
+  <StrRes Name="3002" Text="Tipas"/>
+  <StrRes Name="3003" Text="Dydis"/>
+  <StrRes Name="3004" Text="Dialogo forma:"/>
+  <StrRes Name="3005" Text="Kita"/>
+  <StrRes Name="3006" Text="Šriftai"/>
+  <StrRes Name="3007" Text="Kodo langas"/>
+  <StrRes Name="3008" Text="Memo redaktorius"/>
+  <StrRes Name="3009" Text="Dydis"/>
+  <StrRes Name="3010" Text="Dydis"/>
+  <StrRes Name="3011" Text="Spalvos"/>
+  <StrRes Name="3012" Text="Tarpas tarp juostų"/>
+  <StrRes Name="3013" Text="cm"/>
+  <StrRes Name="3014" Text="in"/>
+  <StrRes Name="3015" Text="pt"/>
+  <StrRes Name="3016" Text="pt"/>
+  <StrRes Name="3017" Text="pt"/>
+  <StrRes Name="3018" Text="Centimetrai:"/>
+  <StrRes Name="3019" Text="Coliai:"/>
+  <StrRes Name="3020" Text="Pikseliai:"/>
+  <StrRes Name="3021" Text="Rodyti lentelę"/>
+  <StrRes Name="3022" Text="Rykiuoti pagal lentelę"/>
+  <StrRes Name="3023" Text="Rodyti redaktorių po įdėjimo"/>
+  <StrRes Name="3024" Text="Naudoti objektus šrifto nustatymuose"/> 
+  <StrRes Name="3025" Text="Darbo aplinka"/>
+  <StrRes Name="3026" Text="Windows įrankis"/>
+  <StrRes Name="3027" Text="LCD lentelės spalva"/>
+  <StrRes Name="3028" Text="Laisvas juostų išdėstymas"/>
+  <StrRes Name="3029" Text="Rodyti nusileidžiančių laukų sąrašą"/>
+  <StrRes Name="3030" Text="Rodyti pradžios uždangą"/>
+  <StrRes Name="3031" Text="Atstatyti nustatymus"/>
+  <StrRes Name="3032" Text="Rodyti juostos įrašymus"/>
+  <StrRes Name="3100" Text="Pasirinkti duomenų šaltinį"/>
+  <StrRes Name="3101" Text="Įrašų skaičius:"/>
+  <StrRes Name="dbNotAssigned" Text="[nepriskirtas]"/>
+  <StrRes Name="3200" Text="Grupė"/>
+  <StrRes Name="3201" Text="Stabdyti ties"/>
+  <StrRes Name="3202" Text="Parinktys"/>
+  <StrRes Name="3203" Text="Duomenų laukas"/>
+  <StrRes Name="3204" Text="Išraiška"/>
+  <StrRes Name="3205" Text="Laikyti grupę kartu"/>
+  <StrRes Name="3206" Text="Pradėti naują lapą"/>
+  <StrRes Name="3207" Text="Rodyti paraštėse"/>
+  <StrRes Name="3300" Text="Sisteminis memo"/>
+  <StrRes Name="3301" Text="Duomenų juosta"/>
+  <StrRes Name="3302" Text="Duomenų šaltinis"/>
+  <StrRes Name="3303" Text="Duomenų laukas"/>
+  <StrRes Name="3304" Text="Funkcija"/>
+  <StrRes Name="3305" Text="Išraiška"/>
+  <StrRes Name="3306" Text="Agregato reikšmė"/>
+  <StrRes Name="3307" Text="Sisteminis Kintamasis"/>
+  <StrRes Name="3308" Text="Skaičiuoti nematomas juostas"/>
+  <StrRes Name="3309" Text="Tekstas"/>
+  <StrRes Name="3310" Text="Iš viso paleista"/>
+  <StrRes Name="agAggregate" Text="Pridėti agregatą"/>
+  <StrRes Name="vt1" Text="[DATA]"/>
+  <StrRes Name="vt2" Text="[LAIKAS]"/>
+  <StrRes Name="vt3" Text="[PUSLAPIS#]"/>
+  <StrRes Name="vt4" Text="[IŠVISOPUSLAPIŲ#]"/>
+  <StrRes Name="vt5" Text="[PUSLAPISIŠ#] of [PUSLAPIŲ#]"/>
+  <StrRes Name="vt6" Text="[EILUTĖ#]"/>
+  <StrRes Name="3400" Text="OLE objektas"/>
+  <StrRes Name="3401" Text="Įklijuoti..."/>
+  <StrRes Name="3402" Text="Redaguoti..."/>
+  <StrRes Name="3403" Text="Uždaryti"/>
+  <StrRes Name="olStretched" Text="Ištemptas"/>
+  <StrRes Name="3500" Text="Barkodo redaktorius"/>
+  <StrRes Name="3501" Text="Kodas"/>
+  <StrRes Name="3502" Text="Bar tipas"/>
+  <StrRes Name="3503" Text="Priartinimas:"/>
+  <StrRes Name="3504" Text="Parinktys"/>
+  <StrRes Name="3505" Text="Pasvirimas"/>
+  <StrRes Name="3506" Text="Suskaičiuota suma"/>
+  <StrRes Name="3507" Text="Tekstas"/>
+  <StrRes Name="3508" Text="0°"/>
+  <StrRes Name="3509" Text="90°"/>
+  <StrRes Name="3510" Text="180°"/>
+  <StrRes Name="3511" Text="270°"/>
+  <StrRes Name="bcCalcChecksum" Text="Suskaičiuota suma"/>
+  <StrRes Name="bcShowText" Text="Rodyti tekstą"/>
+  <StrRes Name="3600" Text="Redaguoti sinonimus"/>
+  <StrRes Name="3601" Text="Paspauskit enter norėdami redaguoti"/>
+  <StrRes Name="3602" Text="Duomenų bazės sinonimai"/>
+  <StrRes Name="3603" Text="Lauko sinonimai"/>
+  <StrRes Name="3604" Text="Atstatyti"/>
+  <StrRes Name="3605" Text="Atnaujinti"/>
+  <StrRes Name="alUserName" Text="Vartotojo vardas"/>
+  <StrRes Name="alOriginal" Text="Originalus vardas"/>
+  <StrRes Name="3700" Text="Parametrų redaktorius"/>
+  <StrRes Name="qpName" Text="Vardas"/>
+  <StrRes Name="qpDataType" Text="Duomenų tipas"/>
+  <StrRes Name="qpValue" Text="Reikšmė"/>
+  <StrRes Name="3800" Text="Valdovo-pavaldinio sąryšis"/>
+  <StrRes Name="3801" Text="Laukai pavaldiniai"/>
+  <StrRes Name="3802" Text="Laukai valdovai"/>
+  <StrRes Name="3803" Text="Surišti laukai"/>
+  <StrRes Name="3804" Text="Pridėti"/>
+  <StrRes Name="3805" Text="Išvalyti"/>
+  <StrRes Name="3900" Text="Memo"/>
+  <StrRes Name="3901" Text="Įkelti išraišką"/>
+  <StrRes Name="3902" Text="Įkelti agregatą"/>
+  <StrRes Name="3903" Text="Įkelti Formatasavimą"/>
+  <StrRes Name="3904" Text="Žodžių perkėlimas"/>
+  <StrRes Name="3905" Text="Tekstas"/>
+  <StrRes Name="3906" Text="Formatasas"/>
+  <StrRes Name="3907" Text="Paryškinimas"/>
+  <StrRes Name="4000" Text="Paveikslėlis"/>
+  <StrRes Name="4001" Text="Užkrauti"/>
+  <StrRes Name="4002" Text="Kopijuoti"/>
+  <StrRes Name="4003" Text="Įklijuoti"/>
+  <StrRes Name="4004" Text="Išvalyti"/>
+  <StrRes Name="piEmpty" Text="Tusčias"/>
+  <StrRes Name="4100" Text="Lentelės redaktorius"/>
+  <StrRes Name="4101" Text="Pridėti eilę"/>
+  <StrRes Name="4102" Text="Trinti eilę"/>
+  <StrRes Name="4103" Text="Redaguoti lentelę"/>
+  <StrRes Name="4104" Text="Juostos šaltinis"/>
+  <StrRes Name="4105" Text="Fiksuoti duomenys"/>
+  <StrRes Name="4106" Text="DataSet"/>
+  <StrRes Name="4107" Text="Data Source"/>
+  <StrRes Name="4108" Text="Reikšmės"/>
+  <StrRes Name="4109" Text="Pasirinkite lentelės eilę arba sukurkite naują"/>
+  <StrRes Name="4114" Text="Kitos parinktys"/>
+  <StrRes Name="4115" Text="TopN reikšmės"/>
+  <StrRes Name="4116" Text="TopN pavadinimai"/>
+  <StrRes Name="4117" Text="Rikiavimo tvarka"/>
+  <StrRes Name="4126" Text="X ašis"/>
+  <StrRes Name="ch3D" Text="3D peržiūra"/>
+  <StrRes Name="chAxis" Text="Rodyti ašis"/>
+  <StrRes Name="chsoNone" Text="Nieko"/>
+  <StrRes Name="chsoAscending" Text="Didėjanti"/>
+  <StrRes Name="chsoDescending" Text="Mažėjanti"/>
+  <StrRes Name="chxtText" Text="Tekstas"/>
+  <StrRes Name="chxtNumber" Text="Numeriai"/>
+  <StrRes Name="chxtDate" Text="Datos"/>
+  <StrRes Name="4200" Text="Redaktorius su nustatymais"/>
+  <StrRes Name="4201" Text="Atidaryti failą"/>
+  <StrRes Name="4202" Text="Išsaugoti failą"/>
+  <StrRes Name="4203" Text="Atšaukti"/>
+  <StrRes Name="4204" Text="Šriftas"/>
+  <StrRes Name="4205" Text="Įdėti išraišką"/>
+  <StrRes Name="4206" Text="Paryškinimas"/>
+  <StrRes Name="4207" Text="Kursyvas"/>
+  <StrRes Name="4208" Text="Pabraukimas"/>
+  <StrRes Name="4209" Text="Kairė Rikiuotė"/>
+  <StrRes Name="4210" Text="Center Rikiuotė"/>
+  <StrRes Name="4211" Text="Dešinė Rikiuotė"/>
+  <StrRes Name="4212" Text="Abipusė rikiuotė"/>
+  <StrRes Name="4213" Text="Kulkos"/>
+  <StrRes Name="4300" Text="Kryžminės tabuliacijos redaktorius"/>
+  <StrRes Name="4301" Text="Šaltinio duomenys"/>
+  <StrRes Name="4302" Text="Dimensijos"/>
+  <StrRes Name="4303" Text="Eilutės"/>
+  <StrRes Name="4304" Text="Stulpeliai"/>
+  <StrRes Name="4305" Text="Elementai"/>
+  <StrRes Name="4306" Text="Kryžminės tabuliacijos struktūra"/>
+  <StrRes Name="4307" Text="Eilutės viršutinė paraštė"/>
+  <StrRes Name="4308" Text="Stulpelio viršutinė paraštė"/>
+  <StrRes Name="4309" Text="Eilutės Galutinė suma"/>
+  <StrRes Name="4310" Text="stulpelio Galutinė suma"/>
+  <StrRes Name="4311" Text="Sukeisti Eilutes/Stulpelius"/>
+  <StrRes Name="4312" Text="!Pasirinkti Stilių"/>
+  <StrRes Name="4313" Text="!Išsaugoti dabartinį Stilius..."/>
+  <StrRes Name="4314" Text="!Rodyti pavadinimą"/>
+  <StrRes Name="4315" Text="!Lauko vardas"/>
+  <StrRes Name="4316" Text="!Perspausdinti viršutinė paraštės ant Naujo lapo"/>
+  <StrRes Name="4317" Text="!Auto Dydis"/>
+  <StrRes Name="4318" Text="!Rėmelis aplink elementus"/>
+  <StrRes Name="4319" Text="!Spausdinti down then across"/>
+  <StrRes Name="4320" Text="!Side-by-side Elementai"/>
+  <StrRes Name="4321" Text="!Join equal Elementai"/>
+  <StrRes Name="4322" Text="None"/>
+  <StrRes Name="4323" Text="Sum"/>
+  <StrRes Name="4324" Text="Min"/>
+  <StrRes Name="4325" Text="Max"/>
+  <StrRes Name="4326" Text="Average"/>
+  <StrRes Name="4327" Text="Count"/>
+  <StrRes Name="4328" Text="Ascending (A-Z)"/>
+  <StrRes Name="4329" Text="Descending (Z-A)"/>
+  <StrRes Name="4330" Text="No Sort"/>
+  <StrRes Name="43161" Text="Perspausdinti stulpelio viršutines paraštes naujame lape"/>
+  <StrRes Name="43160" Text="Perspausdinti eilutės viršutines paraštes naujame lape"/>
+  <StrRes Name="crStName" Text="!Įveskite stiliaus pavadinimą:"/>
+  <StrRes Name="crResize" Text="!Pakeisti kryžminės tabuliacijos, nustatyta &#38;#34;AutoDydis&#38;#34; savybė, kaip 'False'."/>
+  <StrRes Name="crSubtotal" Text="Tarpinė suma"/>
+  <StrRes Name="crNone" Text="Nieko"/>
+  <StrRes Name="crSum" Text="Sum"/>
+  <StrRes Name="crMin" Text="Min"/>
+  <StrRes Name="crMax" Text="Max"/>
+  <StrRes Name="crAvg" Text="Avg"/>
+  <StrRes Name="crCount" Text="Count"/>
+  <StrRes Name="crAsc" Text="A-Z"/>
+  <StrRes Name="crDesc" Text="Z-A"/>
+  <StrRes Name="4400" Text="Išraiškos redaktorius"/>
+  <StrRes Name="4401" Text="Išraiška:"/>
+  <StrRes Name="4500" Text="Atvaizdavimo Formatas"/>
+  <StrRes Name="4501" Text="Kategorija"/>
+  <StrRes Name="4502" Text="Formatas"/>
+  <StrRes Name="4503" Text="Formato eilutė:"/>
+  <StrRes Name="4504" Text="Skyrimo ženklas:"/>
+  <StrRes Name="fkText" Text="Tekstas (be formatavimo)"/>
+  <StrRes Name="fkNumber" Text="Skaičius"/>
+  <StrRes Name="fkDateTime" Text="Data/laikas"/>
+  <StrRes Name="fkBoolean" Text="Boolean"/>
+  <StrRes Name="fkNumber1" Text="1234.5;%g"/>
+  <StrRes Name="fkNumber2" Text="1234.50;%2.2f"/>
+  <StrRes Name="fkNumber3" Text="1,234.50;%2.2n"/>
+  <StrRes Name="fkSNumber4" Text="$1,234.50;%2.2m"/>
+  <StrRes Name="fkDateTime1" Text="11.28.2002;mm.dd.yyyy"/>
+  <StrRes Name="fkDateTime2" Text="28 nov 2002;dd mmm yyyy"/>
+  <StrRes Name="fkDateTime3" Text="November 28, 2002;mmmm dd, yyyy"/>
+  <StrRes Name="fkDateTime4" Text="02:14;hh:mm"/>
+  <StrRes Name="fkDateTime5" Text="02:14am;hh:mm am/pm"/>
+  <StrRes Name="fkDateTime6" Text="02:14:00;hh:mm:ss"/>
+  <StrRes Name="fkDateTime7" Text="02:14am, November 28, 2002;hh:mm am/pm, mmmm dd, yyyy"/>
+  <StrRes Name="fkBoolean1" Text="0,1;0,1"/>
+  <StrRes Name="fkBoolean2" Text="No,Yes;No,Yes"/>
+  <StrRes Name="fkBoolean3" Text="_,x;_,x"/>
+  <StrRes Name="fkBoolean4" Text="False,True;False,True"/>
+  <StrRes Name="4600" Text="Paryškintas"/>
+  <StrRes Name="4601" Text="Spalva..."/>
+  <StrRes Name="4602" Text="Spalva..."/>
+  <StrRes Name="4603" Text="Padėtis"/>
+  <StrRes Name="4604" Text="Šriftas"/>
+  <StrRes Name="4605" Text="Fonas"/>
+  <StrRes Name="4606" Text="Paryškinimas"/>
+  <StrRes Name="4607" Text="Kursyvas"/>
+  <StrRes Name="4608" Text="Pabraukimas"/>
+  <StrRes Name="4609" Text="Permatomumas"/>
+  <StrRes Name="4610" Text="Kita"/>
+  <StrRes Name="4700" Text="Ataskaitos nustatymai"/>
+  <StrRes Name="4701" Text="Pagrindinis"/>
+  <StrRes Name="4702" Text="Spausdintuvo nustatymai"/>
+  <StrRes Name="4703" Text="Kopijos"/>
+  <StrRes Name="4704" Text="Pagrindinis"/>
+  <StrRes Name="4705" Text="Slaptažodis"/>
+  <StrRes Name="4706" Text="Lyginti kopijas"/>
+  <StrRes Name="4707" Text="Dvigubas praėjimas"/>
+  <StrRes Name="4708" Text="Spausdinti jei tusčias"/>
+  <StrRes Name="4709" Text="Aprašymas"/>
+  <StrRes Name="4710" Text="Pavadinimas"/>
+  <StrRes Name="4711" Text="Aprašymas"/>
+  <StrRes Name="4712" Text="Paveikslėlis"/>
+  <StrRes Name="4713" Text="Autorius"/>
+  <StrRes Name="4714" Text="Didysis"/>
+  <StrRes Name="4715" Text="Mažasis"/>
+  <StrRes Name="4716" Text="Paleidimas"/>
+  <StrRes Name="4717" Text="Sukurti"/>
+  <StrRes Name="4718" Text="Sukurtas"/>
+  <StrRes Name="4719" Text="Redaguotas"/>
+  <StrRes Name="4720" Text="Aprašymas"/>
+  <StrRes Name="4721" Text="Versija"/>
+  <StrRes Name="4722" Text="Naršyti..."/>
+  <StrRes Name="4723" Text="Paveldėjimo nustatymai"/>
+  <StrRes Name="4724" Text="Pasirinkti nustatymą:"/>
+  <StrRes Name="4725" Text="Nekeisti"/>
+  <StrRes Name="4726" Text="Atskirti pagrindinį aprašymą"/>
+  <StrRes Name="4727" Text="Paveldėti iš pagrindinės ataskaitos:"/>
+  <StrRes Name="4728" Text="Paveldėjimas"/>
+  <StrRes Name="4729" Text="Kelias iki šablonų :"/>
+  <StrRes Name="rePrnOnPort" Text="on"/>
+  <StrRes Name="riNotInherited" Text="Ši ataskaita nėra paveldėta."/>
+  <StrRes Name="riInherited" Text="Ši ataskaita paveldėta iš: %s"/>
+  <StrRes Name="4800" Text="Eilutės"/>
+  <StrRes Name="4900" Text="SQL"/>
+  <StrRes Name="4901" Text="Užklausos redaktorius"/>
+  <StrRes Name="5000" Text="Slaptažodis"/>
+  <StrRes Name="5001" Text="Įveskite slaptažodį:"/>
+  <StrRes Name="5100" Text="Stiliaus redaktorius"/>
+  <StrRes Name="5101" Text="Spalva..."/>
+  <StrRes Name="5102" Text="Šriftas..."/>
+  <StrRes Name="5103" Text="Rėmelis..."/>
+  <StrRes Name="5104" Text="Pridėti"/>
+  <StrRes Name="5105" Text="Trinti"/>
+  <StrRes Name="5106" Text="Redaguoti"/>
+  <StrRes Name="5107" Text="Užkrauti"/>
+  <StrRes Name="5108" Text="Išsaugoti"/>
+  <StrRes Name="5200" Text="Rėmelio redaktorius"/>
+  <StrRes Name="5201" Text="Rėmelis"/>
+  <StrRes Name="5202" Text="Rėmelio eilutė"/>
+  <StrRes Name="5203" Text="Šešėlis"/>
+  <StrRes Name="5204" Text="Viršutinė linija"/>
+  <StrRes Name="5205" Text="Apatinė linija"/>
+  <StrRes Name="5206" Text="Kairė linija"/>
+  <StrRes Name="5207" Text="Dešinė linija"/>
+  <StrRes Name="5208" Text="Visos rėmelio linijos"/>
+  <StrRes Name="5209" Text="Nėra rėmelio"/>
+  <StrRes Name="5210" Text="Rėmelio spalva"/>
+  <StrRes Name="5211" Text="Rėmelio stilius"/>
+  <StrRes Name="5212" Text="Rėmelio plotis"/>
+  <StrRes Name="5213" Text="Šešėlis"/>
+  <StrRes Name="5214" Text="Šešėlio Spalva"/>
+  <StrRes Name="5215" Text="Šešėlio Plotis"/>
+  <StrRes Name="5300" Text="Naujas objektas"/>
+  <StrRes Name="5301" Text="Objektai"/>
+  <StrRes Name="5302" Text="Šablonai"/>
+  <StrRes Name="5303" Text="Paveldėti ataskaitą"/>
+  <StrRes Name="5400" Text="Šokinėjimo tvarka"/>
+  <StrRes Name="5401" Text="Komponentai surašyti šokinėjimo tvarka:"/>
+  <StrRes Name="5402" Text="Pakelti"/>
+  <StrRes Name="5403" Text="Nuleisti"/>
+  <StrRes Name="5500" Text="Įvertinti"/>
+  <StrRes Name="5501" Text="Išraiška"/>
+  <StrRes Name="5502" Text="Rezultatas"/>
+  <StrRes Name="5600" Text="Ataskaitos pagalbininkas"/>
+  <StrRes Name="5601" Text="Duomenys"/>
+  <StrRes Name="5602" Text="Laukai"/>
+  <StrRes Name="5603" Text="Grupavimas"/>
+  <StrRes Name="5604" Text="Išdėstymas"/>
+  <StrRes Name="5605" Text="Stilius"/>
+  <StrRes Name="5606" Text="Žingsnis Nr. 1. Pasirinkite duomenų šaltinį."/>
+  <StrRes Name="5607" Text="Žingsnis Nr. 2. Pasirinkite norimus laukus laukus."/>
+  <StrRes Name="5608" Text="Žingsnis Nr. 3. Grupavimas (nebūtina)."/>
+  <StrRes Name="5609" Text="Žingsnis Nr. 4. Apibrėžkite lapo orientaciją ir duomenų išdėstymą."/>
+  <StrRes Name="5610" Text="Žingsnis Nr. 5. Pasirinkite ataskaitos stilių Stilius."/>
+  <StrRes Name="5611" Text="Pridėti &#62;"/>
+  <StrRes Name="5612" Text="Pridėti visus &#62;&#62;"/>
+  <StrRes Name="5613" Text="&#60; Pašalinti"/>
+  <StrRes Name="5614" Text="&#60;&#60; Pašalinti visus"/>
+  <StrRes Name="5615" Text="Pridėti &#62;"/>
+  <StrRes Name="5616" Text="&#60; Pašalinti"/>
+  <StrRes Name="5617" Text="Pasirinkti laukai:"/>
+  <StrRes Name="5618" Text="Galimi laukai:"/>
+  <StrRes Name="5619" Text="Grupavimas:"/>
+  <StrRes Name="5620" Text="Orientacija"/>
+  <StrRes Name="5621" Text="Išdėstymas"/>
+  <StrRes Name="5622" Text="Portretas"/>
+  <StrRes Name="5623" Text="Gulsčias"/>
+  <StrRes Name="5624" Text="Tabuliatorius"/>
+  <StrRes Name="5625" Text="Columnaras"/>
+  <StrRes Name="5626" Text="Talpinti laukus į lapo plotį"/>
+  <StrRes Name="5627" Text="&#60;&#60; Grįžti"/>
+  <StrRes Name="5628" Text="Toliau &#62;&#62;"/>
+  <StrRes Name="5629" Text="Baigti"/>
+  <StrRes Name="5630" Text="Nauja lentelė..."/>
+  <StrRes Name="5631" Text="Nauja užklausa..."/>
+  <StrRes Name="5632" Text="Pasirinkti Duomenų bazės prisijungimą:"/>
+  <StrRes Name="5633" Text="Pasirinkti lentelę:"/>
+  <StrRes Name="5634" Text="arba"/>
+  <StrRes Name="5635" Text="Sukurti užklausą..."/>
+  <StrRes Name="5636" Text="Konfiguruoti prisijungimus"/>
+  <StrRes Name="wzStd" Text="Standartinis ataskaitos pagalbinkas"/>
+  <StrRes Name="wzDMP" Text="Taškų matricos ataskaitos pagalbininkas"/>
+  <StrRes Name="wzStdEmpty" Text="Standartinė ataskaita"/>
+  <StrRes Name="wzDMPEmpty" Text="Taškų matricos ataskaita"/>
+  <StrRes Name="5700" Text="Prisijungimo pagalbininkas"/>
+  <StrRes Name="5701" Text="Prisijungimas"/>
+  <StrRes Name="5702" Text="Pasirinkite prisijungimo tipą:"/>
+  <StrRes Name="5703" Text="Pasirinkite duombazę:"/>
+  <StrRes Name="5704" Text="Paskyra"/>
+  <StrRes Name="5705" Text="Slaptažodis"/>
+  <StrRes Name="5706" Text="Klausti paskyros"/>
+  <StrRes Name="5707" Text="Naudoti Paskyrą/Slaptažodį:"/>
+  <StrRes Name="5708" Text="Lentelė"/>
+  <StrRes Name="5709" Text="Pasirinkite lentelės pavadinimą:"/>
+  <StrRes Name="5710" Text="Filtruoti įrašus:"/>
+  <StrRes Name="5711" Text="Užklausa"/>
+  <StrRes Name="5712" Text="SQL sakinys:"/>
+  <StrRes Name="5713" Text="Užklausos redaktorius"/>
+  <StrRes Name="5714" Text="Redaguoti užklausos parametrus"/>
+  <StrRes Name="ftallFiles" Text="Visi failai"/>
+  <StrRes Name="ftPictures" Text="Paveikslėliai"/>
+  <StrRes Name="ftDB" Text="Duomenų bazės"/>
+  <StrRes Name="ftRichFile" Text="RichText failas"/>
+  <StrRes Name="ftTextFile" Text="Tekstinis failas"/>
+  <StrRes Name="prNotAssigned" Text="(Nepriskirta)"/>
+  <StrRes Name="prInvProp" Text="Neteisinga reikšmė"/>
+  <StrRes Name="prDupl" Text="Besikartojantis pavadinimas"/>
+  <StrRes Name="prPict" Text="(Paveikslėlis)"/>
+  <StrRes Name="mvExpr" Text="Leisti išraiškas"/>
+  <StrRes Name="mvStretch" Text="Ištempti"/>
+  <StrRes Name="mvStretchToMax" Text="Ištempti iki maksimalaus auksčio"/>
+  <StrRes Name="mvShift" Text="Pakeitimas"/>
+  <StrRes Name="mvShiftOver" Text="Pakeisti perrašant"/>
+  <StrRes Name="mvVisible" Text="Matomas"/>
+  <StrRes Name="mvPrintable" Text="Galima spausdinti"/>
+  <StrRes Name="mvFont" Text="Šriftas..."/>
+  <StrRes Name="mvFormat" Text="Peržiūros Formatas..."/>
+  <StrRes Name="mvClear" Text="Išvalyti turinį"/>
+  <StrRes Name="mvAutoWidth" Text="Auto Plotis"/>
+  <StrRes Name="mvWWrap" Text="Žodžių perkėlimas"/>
+  <StrRes Name="mvSuppress" Text="Suspausti pasikartojančias reikšmes"/>
+  <StrRes Name="mvHideZ" Text="Slėpti nulius"/>
+  <StrRes Name="mvHTML" Text="Leisti HTML tag'us"/>
+  <StrRes Name="lvDiagonal" Text="Skersinė"/>
+  <StrRes Name="pvAutoSize" Text="Auto Dydis"/>
+  <StrRes Name="pvCenter" Text="Centruoti"/>
+  <StrRes Name="pvAspect" Text="Išlaikyti proporcinį dydį"/>
+  <StrRes Name="bvSplit" Text="Leisti išskirti"/>
+  <StrRes Name="bvKeepChild" Text="Laikyti vaikus kartu"/>
+  <StrRes Name="bvPrintChild" Text="Spausdinti vaikus ir nematomus"/>
+  <StrRes Name="bvStartPage" Text="Pradėti Naują lapą"/>
+  <StrRes Name="bvPrintIfEmpty" Text="Spausdinti jei pavaldinys tusčias"/>
+  <StrRes Name="bvKeepDetail" Text="Laikyti pavaldinį kartu"/>
+  <StrRes Name="bvKeepFooter" Text="Laikyti apatinę paraštę kartu"/>
+  <StrRes Name="bvRePrint" Text="Perspausdinti naujame lape"/>
+  <StrRes Name="bvOnFirst" Text="Spausdinti pirmame lape"/>
+  <StrRes Name="bvOnLast" Text="Spausdinti paskutiniame"/>
+  <StrRes Name="bvKeepGroup" Text="Išlaikyti kartu"/>
+  <StrRes Name="bvFooterAfterEach" Text="Apatinė paraštė kiekvienoje eilutėje"/>
+  <StrRes Name="bvDrillDown" Text="Gręžti gylyn"/>
+  <StrRes Name="bvResetPageNo" Text="Atstatyti lapų numerius"/>
+  <StrRes Name="srParent" Text="Spausdinti ant tėvo"/>
+  <StrRes Name="bvKeepHeader" Text="Išlaikyti viršutinę paraštę kartu"/>
+  <StrRes Name="obCatDraw" Text="Piešti"/>
+  <StrRes Name="obCatOther" Text="Kiti objektai"/>
+  <StrRes Name="obCatOtherControls" Text="Kiti elementai"/>
+  <StrRes Name="obDiagLine" Text="Įstriža linija"/>
+  <StrRes Name="obRect" Text="Kvadratas"/>
+  <StrRes Name="obRoundRect" Text="Apvalus kvadratas"/>
+  <StrRes Name="obEllipse" Text="Elipsė"/>
+  <StrRes Name="obTrian" Text="Trikampis"/>
+  <StrRes Name="obDiamond" Text="Deimantas"/>
+  <StrRes Name="obLabel" Text="Prierašo objektas"/>
+  <StrRes Name="obEdit" Text="Redagavimo objektas"/>
+  <StrRes Name="obMemoC" Text="Memo objektas"/>
+  <StrRes Name="obButton" Text="Button objektas"/>
+  <StrRes Name="obChBoxC" Text="Checkbox objektas"/>
+  <StrRes Name="obRButton" Text="RadioButton objektas"/>
+  <StrRes Name="obLBox" Text="EditBox objektas"/>
+  <StrRes Name="obCBox" Text="ComboBox objektas"/>
+  <StrRes Name="obDateEdit" Text="DateEdit objektas"/>
+  <StrRes Name="obImageC" Text="Image objektas"/>
+  <StrRes Name="obPanel" Text="Panel objektas"/>
+  <StrRes Name="obGrBox" Text="GroupBox objektas"/>
+  <StrRes Name="obBBtn" Text="BitBtn objektas"/>
+  <StrRes Name="obSBtn" Text="SpeedButton objektas"/>
+  <StrRes Name="obMEdit" Text="MaskEdit objektas"/>
+  <StrRes Name="obChLB" Text="CheckListBox objektas"/>
+  <StrRes Name="obDBLookup" Text="DBLookupComboBox objektas"/>
+  <StrRes Name="obBevel" Text="Bevel objektas"/>
+  <StrRes Name="obShape" Text="Shape objektas"/>
+  <StrRes Name="obText" Text="Text objektas"/>
+  <StrRes Name="obSysText" Text="Sisteminis tekstas"/>
+  <StrRes Name="obLine" Text="Line objektas"/>
+  <StrRes Name="obPicture" Text="Picture objektas"/>
+  <StrRes Name="obBand" Text="Band objektas"/>
+  <StrRes Name="obDataBand" Text="Duomenų juosta"/>
+  <StrRes Name="obSubRep" Text="Subreport objektas"/>
+  <StrRes Name="obDlgPage" Text="Dialogo forma"/>
+  <StrRes Name="obRepPage" Text="Ataskaitos lapas"/>
+  <StrRes Name="obReport" Text="Report objektas"/>
+  <StrRes Name="obRich" Text="RichText objektas"/>
+  <StrRes Name="obOLE" Text="OLE objektas"/>
+  <StrRes Name="obChBox" Text="CheckBox objektas"/>
+  <StrRes Name="obChart" Text="Chart objektas"/>
+  <StrRes Name="obBarC" Text="BarKodas objektas"/>
+  <StrRes Name="obCross" Text="Kryžminės tabuliacijos objektas"/>
+  <StrRes Name="obDBCross" Text="DB Kryžminės tabuliacijos objektas"/>
+  <StrRes Name="obGrad" Text="Gradient objektas"/>
+  <StrRes Name="obDMPText" Text="Dot-matrix Text objektas"/>
+  <StrRes Name="obDMPLine" Text="Dot-matrix Line objektas"/>
+  <StrRes Name="obDMPCmd" Text="Dot-matrix Command objektas"/>
+  <StrRes Name="obBDEDB" Text="BDE Duomenų bazė"/>
+  <StrRes Name="obBDETb" Text="BDE Lentelė"/>
+  <StrRes Name="obBDEQ" Text="BDE Užklausa"/>
+  <StrRes Name="obBDEComps" Text="BDE komponentai"/>
+  <StrRes Name="obIBXDB" Text="IBX Duomenų bazė"/>
+  <StrRes Name="obIBXTb" Text="IBX Lentelė"/>
+  <StrRes Name="obIBXQ" Text="IBX Užklausa"/>
+  <StrRes Name="obIBXComps" Text="IBX Komponentai"/>
+  <StrRes Name="obADODB" Text="ADO Duomenų bazė"/>
+  <StrRes Name="obADOTb" Text="ADO Lentelė"/>
+  <StrRes Name="obADOQ" Text="ADO Užklausa"/>
+  <StrRes Name="obADOComps" Text="ADO Komponentai"/>
+  <StrRes Name="obDBXDB" Text="DBX Duomenų bazė"/>
+  <StrRes Name="obDBXTb" Text="DBX Lentelė"/>
+  <StrRes Name="obDBXQ" Text="DBX Užklausa"/>
+  <StrRes Name="obDBXComps" Text="DBX Komponentai"/>
+  <StrRes Name="obFIBDB" Text="FIB Duomenų bazė"/>
+  <StrRes Name="obFIBTb" Text="FIB Lentelė"/>
+  <StrRes Name="obFIBQ" Text="FIB Užklausa"/>
+  <StrRes Name="obFIBComps" Text="FIB Komponentai"/>
+  <StrRes Name="obDatabases" Text="Duomenų bazės"/>
+  <StrRes Name="obTables" Text="Lentelės"/>
+  <StrRes Name="obQueries" Text="Užklausos"/>
+  <StrRes Name="ctString" Text="Eilutė"/>
+  <StrRes Name="ctDate" Text="Data ir laikas"/>
+  <StrRes Name="ctConv" Text="Pokalbiai"/>
+  <StrRes Name="ctFormat" Text="Formatavimo eilutė"/>
+  <StrRes Name="ctMath" Text="Matematiniai"/>
+  <StrRes Name="ctOther" Text="Kiti"/>
+  <StrRes Name="IntToStr" Text="Konvertuoja sveikajį skaičių į tekstą"/>
+  <StrRes Name="FloatToStr" Text="Konvertuoja realujį skaičių į tekstą"/>
+  <StrRes Name="DateToStr" Text="Konvertuoja datą į tekstą"/>
+  <StrRes Name="TimeToStr" Text="Konvertuoja laiką į tekstą"/>
+  <StrRes Name="DateTimeToStr" Text="Konvertuoja datą ir laiką į tekstą"/>
+  <StrRes Name="VarToStr" Text="Konvertuoja 'Variant' tipo reikšmę į tekstą"/>
+  <StrRes Name="StrToInt" Text="Konvertuoja tekstą į sveikajį skaičių"/>
+  <StrRes Name="StrToInt64" Text="Konvertuoja tekstą į 64 bitų sveikajį skaičių"/>
+  <StrRes Name="StrToFloat" Text="Konvertuoja tekstą į realujį skaičių"/>
+  <StrRes Name="StrToDate" Text="Konvertuoja tekstą į datą"/>
+  <StrRes Name="StrToTime" Text="Konvertuoja tekstą į laiką"/>
+  <StrRes Name="StrToDateTime" Text="Konvertuoja tekstą į datą ir laiką"/>
+  <StrRes Name="Format" Text="Grąžina formatuotą eilutę, su surinktais masyvo argumentais"/>
+  <StrRes Name="FormatFloat" Text="Formatuoja realujį skaičių"/>
+  <StrRes Name="FormatDateTime" Text="Formatuoja laiką ir datą"/>
+  <StrRes Name="FormatMaskText" Text="Grąžina eilutę, formatuotą redagavimo kaukę"/>
+  <StrRes Name="EnCodeDate" Text="Grąžina 'TDateTime' tipą, nurodytiems metams, mėnesiui ir dienai"/>
+  <StrRes Name="DeCodeDate" Text="Padalina 'TDateTime' tipą į metus, mėnesį, ir dieną"/>
+  <StrRes Name="EnCodeTime" Text="Grąžina 'TDateTime' tipą, nurodytom valandom, minutėm, sekundėm ir milisekundėm."/>
+  <StrRes Name="DeCodeTime" Text="Padalina 'TDateTime' tipą į Valandas, minutes, sekundes ir milisekundes"/>
+  <StrRes Name="Date" Text="Grąžina datą"/>
+  <StrRes Name="Time" Text="Grąžina laiką"/>
+  <StrRes Name="Now" Text="Grąžina datą ir laiką"/>
+  <StrRes Name="DayOfWeek" Text="Grąžina nurodytos datos savaitės dieną."/>
+  <StrRes Name="IsLeapYear" Text="Nurodo ar metai keliamieji"/>
+  <StrRes Name="DaysInMonth" Text="Grąžina nurodyto mėnesio dienų skaičių"/>
+  <StrRes Name="Length" Text="Grąžina eilutės ilgį"/>
+  <StrRes Name="Copy" Text="Grąžina nurodytą eilutės dalį"/>
+  <StrRes Name="Pos" Text="Grąžina nurodytos eilutės padėtį kitoje eilutėje"/>
+  <StrRes Name="Delete" Text="Ištrina nurodytą eilutės dalį iš eilutės"/>
+  <StrRes Name="Insert" Text="Įklijuoja eilutę į kitą eilutę nurodytoje vietoje"/>
+  <StrRes Name="Uppercase" Text="Paverčia visas raides į didžiasias"/>
+  <StrRes Name="Lowercase" Text="Paverčia visas raides į mažasias"/>
+  <StrRes Name="Trim" Text="Ištrina visus tarpus iš eilutės galo bei priekio"/>
+  <StrRes Name="NameCase" Text="Paverčia pirmą žodžio raidę į didžiają"/>
+  <StrRes Name="CompareText" Text="Palygina dvi eilutes"/>
+  <StrRes Name="Chr" Text="Konvertuoja skaičių į simbolį"/>
+  <StrRes Name="Ord" Text="Konvertuoja simbolį į skaičių"/>
+  <StrRes Name="SetLength" Text="Nustato eilutės ilgį"/>
+  <StrRes Name="Round" Text="Suapvalina realujį skaičių į artimiausią sveikajį"/>
+  <StrRes Name="Trunc" Text="Suapvalina realujį skaičių iki sveikojo, palikdamas jo tipą realujį"/>
+  <StrRes Name="Int" Text="Suapvalina realujį skaičių iki sveikojo, paversdamas jį sveiku"/>
+  <StrRes Name="Frac" Text="Grąžina trupmeninę realaus skaičiaus dalį"/>
+  <StrRes Name="Sqrt" Text="Grąžina nurodyto skaičiaus kvadratinę šaknį"/>
+  <StrRes Name="Abs" Text="Grąžina absoliučiają reikšmę"/>
+  <StrRes Name="Sin" Text="Grąžina kampo sinusą (radianais)"/>
+  <StrRes Name="Cos" Text="Grąžina kampo kosinusą (radianais)"/>
+  <StrRes Name="ArcTan" Text="Grąžina arc tangentą"/>
+  <StrRes Name="Tan" Text="Grąžina tangentą"/>
+  <StrRes Name="Exp" Text="Grąžina eksponentą"/>
+  <StrRes Name="Ln" Text="Grąžina dešimtainį algoritmą"/>
+  <StrRes Name="Pi" Text="Grąžina pi (3.1415926...) skaičių"/>
+  <StrRes Name="Inc" Text="Padidina reikšmę vienetu"/>
+  <StrRes Name="Dec" Text="Sumažina reikšmę vienetu"/>
+  <StrRes Name="RaiseException" Text="Sukuria klaidą"/>
+  <StrRes Name="ShowMessage" Text="Rodo pranešimą"/>
+  <StrRes Name="Randomize" Text="Paleidžia atsitiktinių skaičių generavimą"/>
+  <StrRes Name="Random" Text="Grąžina atsitiktinį skaičių"/>
+  <StrRes Name="ValidInt" Text="Grąžina 'True' reikšmę, jei nurodytoje eilutėje yra taisyklingas sveikasis skaičius."/>
+  <StrRes Name="ValidFloat" Text="Grąžina 'True' reikšmę, jei nurodytoje eilutėje yra taisyklingas realusis skaičius"/>
+  <StrRes Name="ValidDate" Text="Grąžina 'True' reikšmę, jei nurodytoje eilutėje yra taisyklinga data"/>
+  <StrRes Name="IIF" Text="Grąžina 'TrueValue' jei nurodyta išraiška yra 'True', jei ne - grąžina 'FalseValue'"/>
+  <StrRes Name="Get" Text="Tik vidiniam naudojimui"/>
+  <StrRes Name="Set" Text="Tik vidiniam naudojimui"/>
+  <StrRes Name="InputBox" Text="Parodo įvedimo dialogą, kuris leidžia vartotojui įvesti tekstą"/>
+  <StrRes Name="InputQuery" Text="Parodo įvedimo dialogą, kuris leidžia vartotojui įvesti tekstą"/>
+  <StrRes Name="MessageDlg" Text="Parodo pranešimą"/>
+  <StrRes Name="CreateOleObject" Text="Sukuria OLE objektą"/>
+  <StrRes Name="VarArrayCreate" Text="Sukuria 'Variant' tipo kintamūjų masyvą"/>
+  <StrRes Name="VarType" Text="Grąžina 'Variant' tipo tipą"/>
+  <StrRes Name="DayOf" Text="Grąžina nurodytos datos dienos numerį (1..31)"/>
+  <StrRes Name="MonthOf" Text="Grąžina nurodytos datos mėnesio numerį (1..12)"/>
+  <StrRes Name="YearOf" Text="Grąžina nurodytos datos metus"/>
+  <StrRes Name="ctAggregate" Text="Agregatai"/>
+  <StrRes Name="Sum" Text="Suskaičiuoja nurodytos formulės sumą, juostos duomenų eilutei"/>
+  <StrRes Name="Avg" Text="Suskaičiuoja nurodytos formulės vidurkį, juostos duomenų eilutei"/>
+  <StrRes Name="Min" Text="Suskaičiuoja nurodytos formulės mažiausią reikšmę, juostos duomenų eilutei"/>
+  <StrRes Name="Max" Text="Suskaičiuoja nurodytos formulės didžiausią reikšmę, juostos duomenų eilutei"/>
+  <StrRes Name="Count" Text="Suskaičiuoja duomenų eilučių kiekį"/>
+  <StrRes Name="wzDBConn" Text="Naujo prisijungimo pagalbininkas"/>
+  <StrRes Name="wzDBTable" Text="Naujos Lentelės pagalbininkas"/>
+  <StrRes Name="wzDBQuery" Text="Naujos Užklausa pagalbininkas"/>
+  <StrRes Name="5800" Text="Prisijungimai"/>
+  <StrRes Name="5801" Text="Naujas"/>
+  <StrRes Name="5802" Text="Trinti"/>
+  <StrRes Name="cpName" Text="Pavadinimas"/>
+  <StrRes Name="cpConnStr" Text="Prisijungimo eilutė"/>
+  <StrRes Name="startCreateNew" Text="Sukurti naują parnešimą"/>
+  <StrRes Name="startCreateBlank" Text="Sukurti tusčią ataskaitą"/>
+  <StrRes Name="startOpenReport" Text="Atidaryti ataskaitą"/>
+  <StrRes Name="startOpenLast" Text="Atidaryti paskutinę ataskaitą"/>
+  <StrRes Name="startEditAliases" Text="Redaguoti prisijungimo sinonimus"/>
+  <StrRes Name="startHelp" Text="Pagalba"/>
+  <StrRes Name="5900" Text="Seklys"/>
+  <StrRes Name="5901" Text="Sukurti seklį"/>
+  <StrRes Name="5902" Text="Ištrinti seklį"/>
+  <StrRes Name="5903" Text="Redaguoti seklį"/>
+  <StrRes Name="6000" Text="Paveldėti klaidą"/>
+  <StrRes Name="6001" Text="Pagrindinė ir paveldėta ataskaita turi vienodus objektus. ką daryti?"/>
+  <StrRes Name="6002" Text="Trinti duplikatus"/>
+  <StrRes Name="6003" Text="Pervadinti duplikatus"/>
+  <StrRes Name="6004" Text="Rikiuoti pagal pavadinimą"/>
+  <StrRes Name="crGroup" Text="Grupė"/>
+  <StrRes Name="4331" Text="Grupavimas"/>
+  <StrRes Name="BoolToStr" Text="Grąžina 'True' eilutę, jei eilutė 'B' yra 'True', priešingu atveju, grąžina 'False'"/>
+  <StrRes Name="StrToBool" Text="Grąžina 'True' reikšmę, jei eilutė S yra 'True', 'False' reikšmę, jei S yra 'False', jei konvertavimas negalimas, įvyksta klaida"/>
+  <StrRes Name="fkNumber4" Text="$1,234.50;%2.2m"/>
+  <StrRes Name="ftAllFiles" Text="All Files"/>
+  <StrRes Name="bvReprint" Text="Reprint On New Page"/>
+  <StrRes Name="obDataBases" Text="DataBases"/>
+  <StrRes Name="EncodeDate" Text="Returns a TDateTime type for a specified Year, Month, and Day"/>
+  <StrRes Name="DecodeDate" Text="Breaks TDateTime into Year, Month, and Day values"/>
+  <StrRes Name="EncodeTime" Text="Returns a TDateTime type for a specified Hour, Min, Sec, and MSec"/>
+  <StrRes Name="DecodeTime" Text="Breaks TDateTime into hours, minutes, seconds, and milliseconds"/>
+</Resources>

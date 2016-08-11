@@ -1,8 +1,8 @@
-{*************************************************************
-*                 Zeljko Cvijanovic
-*                  2015 Teslic
-*                  www.zeljus.com
-*************************************************************}
+{**********************************************************
+Copyright (C) 2012-2016
+Zeljko Cvijanovic www.zeljus.com (cvzeljko@gmail.com) &
+Miran Horjak usbdoo@gmail.com
+***********************************************************}
 unit mainform;
 
 {$mode objfpc}{$H+}
@@ -18,10 +18,10 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
-    Button1: TButton;
     buttonGenerateHeaders1: TButton;
     buttonGenerateHeaders2: TButton;
     buttonNewProject: TButton;
+    eBuildTools: TComboBox;
     eTarget: TComboBox;
     eAppName: TEdit;
     eAndroidSDKDir: TDirectoryEdit;
@@ -31,6 +31,7 @@ type
     GroupBox2: TGroupBox;
     Label1: TLabel;
     Label11: TLabel;
+    Label2: TLabel;
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
@@ -40,11 +41,12 @@ type
     procedure FormCreate(Sender: TObject);
   private
     { private declarations }
-    procedure LoadIniFile;
+
     procedure SaveIniFile;
-    procedure EditToAProject;
   public
     { public declarations }
+     procedure LoadIniFile;
+     procedure EditToAProject;
   end;
 
 var
@@ -90,7 +92,7 @@ begin
 
      eAndroidSDKDir.Text     := IniFile.ReadString('pandroid', 'AndroidSDKDir', '/usr/local/pandroid/sdk');
      eTarget.Text            := IniFile.ReadString('pandroid', 'Target', 'android-15');
-
+     eBuildTools.Text        := IniFile.ReadString('pandroid', 'BuildTools', '23.0.3');
 
      AProject.gActivityName  := 'MainActivity';
 
@@ -111,6 +113,7 @@ begin
 
      IniFile.WriteString('pandroid', 'AndroidSDKDir',   eAndroidSDKDir.Text);
      IniFile.WriteString('pandroid', 'Target',          eTarget.Text);
+     IniFile.WriteString('pandroid', 'BuildTools',      eBuildTools.Text);
   finally
     IniFile.Free;
   end;
@@ -124,6 +127,7 @@ begin
     gProjectDir         := eProjectDir.Text;
     gAndroidSDKDir      := eAndroidSDKDir.Text;
     gTarget             := eTarget.Text;
+    gBuildTools         := eBuildTools.Text;
   end;
 end;
 

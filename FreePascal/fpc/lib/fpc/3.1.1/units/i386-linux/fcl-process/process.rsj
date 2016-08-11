@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":142512709,"name":"process.snocommandline","sourcebytes":[67,97,110,110,111,116,32,101,120,101,99,117,116,101,32,101,109,112,116,121,32,99,111,109,109,97,110,100,45,108,105,110,101],"value":"Cannot execute empty command-line"},
+{"hash":103849410,"name":"process.serrnosuchprogram","sourcebytes":[69,120,101,99,117,116,97,98,108,101,32,110,111,116,32,102,111,117,110,100,58,32,34,37,115,34],"value":"Executable not found: \"%s\""},
+{"hash":221678269,"name":"process.serrnoterminalprogram","sourcebytes":[67,111,117,108,100,32,110,111,116,32,100,101,116,101,99,116,32,88,45,84,101,114,109,105,110,97,108,32,112,114,111,103,114,97,109],"value":"Could not detect X-Terminal program"},
+{"hash":17932995,"name":"process.serrcannotfork","sourcebytes":[70,97,105,108,101,100,32,116,111,32,70,111,114,107,32,112,114,111,99,101,115,115],"value":"Failed to Fork process"},
+{"hash":57478515,"name":"process.serrcannotcreatepipes","sourcebytes":[70,97,105,108,101,100,32,116,111,32,99,114,101,97,116,101,32,112,105,112,101,115],"value":"Failed to create pipes"}
+]}

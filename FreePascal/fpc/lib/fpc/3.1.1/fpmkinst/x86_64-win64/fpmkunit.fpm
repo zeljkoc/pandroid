@@ -1,0 +1,10 @@
+Name=fpmkunit
+Version=3.1.1
+Checksum=1470866926
+CPU=x86_64
+OS=win64
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fpmkunit/
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,hash|1470866908,paszlib|1470866908,fcl-process|1470866921,libtar|1470866920
+NeedLibC=N
+FPMakeAddIn=N

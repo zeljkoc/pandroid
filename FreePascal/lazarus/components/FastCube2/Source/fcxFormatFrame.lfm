@@ -1,0 +1,146 @@
+object fcxFormatEditorFrame: TfcxFormatEditorFrame
+  Left = 0
+  Height = 233
+  Top = 0
+  Width = 311
+  AutoSize = True
+  ClientHeight = 233
+  ClientWidth = 311
+  TabOrder = 0
+  DesignLeft = 775
+  DesignTop = 212
+  object CategoryL: TGroupBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 0
+    Height = 137
+    Top = 0
+    Width = 151
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'Category'
+    ClientHeight = 119
+    ClientWidth = 147
+    TabOrder = 0
+    object CategoryLB: TListBox
+      AnchorSideLeft.Control = CategoryL
+      AnchorSideTop.Control = CategoryL
+      AnchorSideRight.Control = CategoryL
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = CategoryL
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 107
+      Top = 6
+      Width = 135
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      BorderSpacing.Around = 6
+      ItemHeight = 14
+      OnClick = CategoryLBClick
+      Style = lbOwnerDrawFixed
+      TabOrder = 0
+    end
+  end
+  object FormatL: TGroupBox
+    AnchorSideLeft.Control = CategoryL
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = GroupBox1
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = CategoryL
+    AnchorSideBottom.Side = asrBottom
+    Left = 157
+    Height = 137
+    Top = 0
+    Width = 154
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 6
+    Caption = 'Format'
+    ClientHeight = 119
+    ClientWidth = 150
+    TabOrder = 1
+    object FormatLB: TListBox
+      AnchorSideLeft.Control = FormatL
+      AnchorSideTop.Control = FormatL
+      AnchorSideRight.Control = FormatL
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = FormatL
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 107
+      Top = 6
+      Width = 138
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      BorderSpacing.Around = 6
+      ItemHeight = 14
+      OnClick = FormatLBClick
+      OnDrawItem = FormatLBDrawItem
+      Style = lbOwnerDrawFixed
+      TabOrder = 0
+    end
+  end
+  object GroupBox1: TGroupBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = CategoryL
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 96
+    Top = 137
+    Width = 311
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ClientHeight = 78
+    ClientWidth = 307
+    TabOrder = 2
+    object FormatStrL: TLabel
+      AnchorSideLeft.Control = GroupBox1
+      AnchorSideTop.Control = FormatE
+      AnchorSideTop.Side = asrCenter
+      Left = 6
+      Height = 16
+      Top = 9
+      Width = 75
+      BorderSpacing.Left = 6
+      Caption = 'Format string:'
+      ParentColor = False
+    end
+    object SeparatorL: TLabel
+      AnchorSideLeft.Control = GroupBox1
+      AnchorSideTop.Control = SeparatorE
+      AnchorSideTop.Side = asrCenter
+      Left = 6
+      Height = 16
+      Top = 38
+      Width = 99
+      BorderSpacing.Left = 6
+      Caption = 'Decimal separator:'
+      ParentColor = False
+    end
+    object FormatE: TEdit
+      AnchorSideTop.Control = GroupBox1
+      AnchorSideRight.Control = GroupBox1
+      AnchorSideRight.Side = asrBottom
+      Left = 165
+      Height = 23
+      Top = 6
+      Width = 136
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 6
+      TabOrder = 0
+    end
+    object SeparatorE: TEdit
+      AnchorSideTop.Control = FormatE
+      AnchorSideTop.Side = asrBottom
+      Left = 165
+      Height = 23
+      Top = 35
+      Width = 25
+      BorderSpacing.Top = 6
+      TabOrder = 1
+      Text = ','
+    end
+  end
+end

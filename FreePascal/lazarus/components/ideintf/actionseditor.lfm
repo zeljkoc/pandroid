@@ -1,0 +1,284 @@
+object ActionListEditor: TActionListEditor
+  Left = 497
+  Height = 315
+  Top = 189
+  Width = 404
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 299
+  Caption = 'ActionListEditor'
+  ClientHeight = 315
+  ClientWidth = 404
+  KeyPreview = True
+  OnClose = ActionListEditorClose
+  OnCreate = FormCreate
+  OnKeyDown = ActionListEditorKeyDown
+  OnKeyPress = ActionListEditorKeyPress
+  Position = poScreenCenter
+  LCLVersion = '1.5'
+  object PanelDescr: TPanel
+    Left = 0
+    Height = 26
+    Top = 28
+    Width = 404
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 26
+    ClientWidth = 404
+    FullRepaint = False
+    PopupMenu = PopMenuActions
+    TabOrder = 0
+    object lblCategory: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 67
+      Caption = 'Categories:'
+      ParentColor = False
+    end
+    object lblName: TLabel
+      Left = 162
+      Height = 15
+      Top = 6
+      Width = 48
+      Caption = 'Actions:'
+      ParentColor = False
+    end
+  end
+  object Splitter: TSplitter
+    Left = 152
+    Height = 261
+    Top = 54
+    Width = 5
+    AutoSnap = False
+    OnCanResize = SplitterCanResize
+  end
+  object lstActionName: TListBox
+    Left = 157
+    Height = 261
+    Top = 54
+    Width = 247
+    Align = alClient
+    ItemHeight = 0
+    OnClick = lstActionNameClick
+    OnDblClick = lstActionNameDblClick
+    OnDrawItem = lstActionNameDrawItem
+    OnKeyDown = lstActionNameKeyDown
+    OnMouseDown = lstActionNameMouseDown
+    PopupMenu = PopMenuActions
+    ScrollWidth = 245
+    Style = lbOwnerDrawFixed
+    TabOrder = 1
+    TopIndex = -1
+  end
+  object lstCategory: TListBox
+    Left = 0
+    Height = 261
+    Top = 54
+    Width = 152
+    Align = alLeft
+    ItemHeight = 0
+    OnClick = lstCategoryClick
+    OnMouseDown = lstActionNameMouseDown
+    PopupMenu = PopMenuActions
+    ScrollWidth = 150
+    TabOrder = 2
+    TopIndex = -1
+  end
+  object ToolBar1: TToolBar
+    Left = 0
+    Height = 28
+    Top = 0
+    Width = 404
+    ButtonHeight = 26
+    ButtonWidth = 26
+    Caption = 'ToolBar1'
+    EdgeBorders = []
+    EdgeInner = esNone
+    EdgeOuter = esNone
+    Images = ImageList1
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+    object btnAdd: TToolButton
+      Left = 1
+      Top = 0
+      Action = ActNew
+    end
+    object btnAddMore: TToolButton
+      Left = 27
+      Top = 0
+      Caption = 'btnAddMore'
+      DropdownMenu = PopMenuToolBarActions
+      ImageIndex = 0
+    end
+    object btnDelete: TToolButton
+      Left = 53
+      Top = 0
+      Action = ActDelete
+    end
+    object ToolButton4: TToolButton
+      Left = 79
+      Height = 26
+      Top = 0
+      Width = 5
+      Caption = 'ToolButton4'
+      Style = tbsDivider
+    end
+    object btnUp: TToolButton
+      Left = 84
+      Top = 0
+      Action = ActMoveUp
+    end
+    object btnDown: TToolButton
+      Left = 110
+      Top = 0
+      Action = ActMoveDown
+    end
+  end
+  object ActionListSelf: TActionList
+    left = 56
+    top = 260
+    object ActDelete: TAction
+      Category = 'AddDelete'
+      OnExecute = ActDeleteExecute
+      OnUpdate = ActDeleteUpdate
+      ShortCut = 46
+    end
+    object ActNew: TAction
+      Category = 'AddDelete'
+      OnExecute = ActNewExecute
+      ShortCut = 45
+    end
+    object ActNewStd: TAction
+      Category = 'AddDelete'
+      OnExecute = ActNewStdExecute
+      ShortCut = 16429
+    end
+    object ActMoveUp: TAction
+      Category = 'MoveUpDown'
+      OnExecute = ActMoveDownExecute
+      OnUpdate = ActMoveUpUpdate
+      ShortCut = 16422
+    end
+    object ActMoveDown: TAction
+      Category = 'MoveUpDown'
+      OnExecute = ActMoveDownExecute
+      OnUpdate = ActMoveDownUpdate
+      ShortCut = 16424
+    end
+    object ActPanelDescr: TAction
+      Category = 'Panels'
+      AutoCheck = True
+      Caption = 'ActPanelDescr'
+      Checked = True
+      OnExecute = ActPanelDescrExecute
+    end
+    object ActPanelToolBar: TAction
+      Category = 'Panels'
+      AutoCheck = True
+      Caption = 'ActPanelToolBar'
+      Checked = True
+      OnExecute = ActPanelToolBarExecute
+    end
+  end
+  object PopMenuActions: TPopupMenu
+    left = 56
+    top = 216
+    object mItemActListNewAction: TMenuItem
+      Action = ActNew
+      Caption = 'New Action'
+      OnClick = ActNewExecute
+    end
+    object mItemActListNewStdAction: TMenuItem
+      Action = ActNewStd
+      OnClick = ActNewStdExecute
+    end
+    object MenuItem8: TMenuItem
+      Caption = '-'
+    end
+    object mItemActListMoveUpAction: TMenuItem
+      Action = ActMoveUp
+      Caption = 'Move Up'
+      OnClick = ActMoveDownExecute
+    end
+    object mItemActListMoveDownAction: TMenuItem
+      Action = ActMoveDown
+      Caption = 'Move Down'
+      OnClick = ActMoveDownExecute
+    end
+    object MenuItem6: TMenuItem
+      Caption = '-'
+    end
+    object mItemActListDelAction: TMenuItem
+      Action = ActDelete
+      Caption = 'Delete'
+      OnClick = ActDeleteExecute
+    end
+    object MenuItem1: TMenuItem
+      Caption = '-'
+    end
+    object mItemActListPanelDescr: TMenuItem
+      Action = ActPanelDescr
+      AutoCheck = True
+      OnClick = ActPanelDescrExecute
+    end
+    object MenuItem2: TMenuItem
+      Action = ActPanelToolBar
+      AutoCheck = True
+      OnClick = ActPanelToolBarExecute
+    end
+  end
+  object PopMenuToolBarActions: TPopupMenu
+    left = 56
+    top = 164
+    object mItemToolBarNewAction: TMenuItem
+      Action = ActNew
+      Default = True
+      OnClick = ActNewExecute
+    end
+    object mItemToolBarNewStdAction: TMenuItem
+      Action = ActNewStd
+      OnClick = ActNewStdExecute
+    end
+  end
+  object ImageList1: TImageList
+    AllocBy = 8
+    left = 56
+    top = 116
+    Bitmap = {
+      4C69010000001000000010000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF007F7F7FFF7F7F
+      7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F
+      7FFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF007F7F
+      7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFFFFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF007F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFFFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF007F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFFFFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF007F7F7FFF7F7F7FFFFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00
+    }
+  end
+end

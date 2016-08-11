@@ -1,8 +1,8 @@
-{*************************************************************
-*                 Zeljko Cvijanovic
-*                    2015 Teslic
-*                  www.zeljus.com
-*************************************************************}
+{**********************************************************
+Copyright (C) 2012-2016
+Zeljko Cvijanovic www.zeljus.com (cvzeljko@gmail.com) &
+Miran Horjak usbdoo@gmail.com
+***********************************************************}
 program pandroid;
 
 {$mode objfpc}{$H+}
@@ -21,9 +21,18 @@ begin
   RequireDerivedFormResource:=True;
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
+
   if (Paramcount = 5) and (ParamStr(1) = 'R') then begin
-                     //tAppName,  tJavaPackageName, tRJava, tRJavaPAs
+     //tAppName,  tJavaPackageName, tRJava, tRJavaPAs
      BuildRJavaFiles(ParamStr(2), ParamStr(3), ParamStr(4), ParamStr(5));
-  end else  Application.Run ;
+  end else
+
+  if (Paramcount = 5) and (ParamStr(1) = 'B') then
+             //ACompPath,    AProjPath,  AJavaPackageName, AProjFile
+     Build_Apk(ParamStr(2), ParamStr(3), ParamStr(4),      ParamStr(5)) //Build apk
+
+  else
+
+    Application.Run ;
 end.
 

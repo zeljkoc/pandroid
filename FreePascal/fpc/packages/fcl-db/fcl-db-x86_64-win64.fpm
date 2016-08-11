@@ -1,0 +1,10 @@
+Name=fcl-db
+Version=3.1.1
+Checksum=1470866915
+CPU=x86_64
+OS=win64
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1470866909,fcl-xml|1470866911,rtl-objpas|1470866907,rtl-extra|1470866906,ibase|1470866912,mysql|1470866912,odbc|1470866912,postgres|1470866912,sqlite|1470866912,dblib|1470866911,fcl-json|1470866913
+NeedLibC=N
+FPMakeAddIn=N

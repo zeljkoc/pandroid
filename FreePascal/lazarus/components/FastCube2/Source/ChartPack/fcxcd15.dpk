@@ -1,0 +1,49 @@
+package fcxcd15;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'FastCube 2 Charting'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+{$INCLUDE fcx.inc}
+{$INCLUDE fcxTee.inc}
+
+requires
+{$IFDEF TeeChartStd} TEE, TEEUI, {$ENDIF}
+{$IFDEF TeeChart4}   TEE415, TEEPRO415, {$ENDIF}
+{$IFDEF TeeChart5}   TEE515, TEEPRO515, {$ENDIF}
+{$IFDEF TeeChart6}   TEE615, TEEPRO615, {$ENDIF}
+{$IFDEF TeeChart7}   TEE715, TEEPRO715, {$ENDIF}
+{$IFDEF TeeChart8}   TEE815, TEEPRO815, {$ENDIF}
+{$IFDEF TeeChartStd7}TEE715, TEEUI715,  {$ENDIF}
+{$IFDEF TeeChartStd8}TEE815, TEEUI815,  {$ENDIF}
+{$IFDEF TeeChartStd9}TEE915, TEEUI915,  {$ENDIF}
+{$IFDEF TeeChart9}   TEE915, TEEPRO915, {$ENDIF}
+  fcxd15;
+
+contains
+  fcxChart in 'fcxChart.pas',
+  fcxChartDataManager in 'fcxChartDataManager.pas' {fcxChartDataManager},
+  fcxChartEditor in 'fcxChartEditor.pas' {fcxChartEditor};
+end.

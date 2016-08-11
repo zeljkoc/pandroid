@@ -1,0 +1,9 @@
+Name=fppkg
+Version=3.1.1
+Checksum=1470866822
+CPU=i386
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,fcl-base|1470866810,fcl-xml|1470866811,fcl-process|1470866818,paszlib|1470866808,fpmkunit|1470866822,fcl-net|1470866818,fcl-web|1470866820,httpd22|1470866819
+NeedLibC=N
+FPMakeAddIn=N

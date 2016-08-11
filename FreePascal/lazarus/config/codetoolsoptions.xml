@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <CodeToolsOptions>
+    <Version Value="1"/>
+    <DoInsertSpaceInFront>
+      <Symbol Value="True"/>
+    </DoInsertSpaceInFront>
+    <DoInsertSpaceAfter>
+      <Symbol Value="True"/>
+    </DoInsertSpaceAfter>
+    <SetPropertyVariablename Value="Value"/>
+    <Indentation FileName="/usr/local/pandroid/FreePascal/lazarus/config/laz_indentation.pas"/>
+  </CodeToolsOptions>
+</CONFIG>

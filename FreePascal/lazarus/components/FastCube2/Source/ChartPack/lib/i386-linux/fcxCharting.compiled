@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/home/zeljko/zeljus/freepascal/fpc/bin/fpc" Date="1469871613"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fi/home/zeljko/zeljus/component/FastCube2/Source -Fu/home/zeljko/zeljus/freepascal/lazarus/packager/units/i386-linux -Fu/home/zeljko/zeljus/freepascal/lazarus/components/lazutils/lib/i386-linux -Fu/home/zeljko/zeljus/freepascal/lazarus/lcl/units/i386-linux -Fu/home/zeljko/zeljus/freepascal/lazarus/lcl/units/i386-linux/gtk2 -Fu/home/zeljko/zeljus/freepascal/lazarus/components/lazcontrols/lib/i386-linux/gtk2 -Fu/home/zeljko/zeljus/freepascal/lazarus/components/ideintf/units/i386-linux/gtk2 -Fu/home/zeljko/zeljus/component/FastCube2/Source/lib/i386-linux -Fu/home/zeljko/zeljus/freepascal/lazarus/components/tachart/lib/i386-linux/gtk2 -Fu/home/zeljko/zeljus/component/FastCube2/Source/ChartPack/ -FU/home/zeljko/zeljus/component/FastCube2/Source/ChartPack/lib/i386-linux/ -dLCL -dLCLgtk2 fcxCharting.pas"/>
+</CONFIG>

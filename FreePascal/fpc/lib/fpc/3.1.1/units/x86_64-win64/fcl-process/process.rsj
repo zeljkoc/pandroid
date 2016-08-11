@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":142512709,"name":"process.snocommandline","sourcebytes":[67,97,110,110,111,116,32,101,120,101,99,117,116,101,32,101,109,112,116,121,32,99,111,109,109,97,110,100,45,108,105,110,101],"value":"Cannot execute empty command-line"},
+{"hash":214835796,"name":"process.serrcannotexecute","sourcebytes":[70,97,105,108,101,100,32,116,111,32,101,120,101,99,117,116,101,32,37,115,32,58,32,37,100],"value":"Failed to execute %s : %d"}
+]}

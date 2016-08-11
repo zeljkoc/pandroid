@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources CodePage="1254">
+  <StrRes Name="2000" Text="Nesne izleyici"/>
+  <StrRes Name="oiProp" Text="Özellikler"/>
+  <StrRes Name="oiEvent" Text="Olaylar"/>
+  <StrRes Name="2100" Text="Veri ağacı"/>
+  <StrRes Name="2101" Text="Veri"/>
+  <StrRes Name="2102" Text="Değişkenler"/>
+  <StrRes Name="2103" Text="Fonksiyonlar"/>
+  <StrRes Name="2104" Text="Saha yarat"/>
+  <StrRes Name="2105" Text="Başlık yarat"/>
+  <StrRes Name="2106" Text="Sınıflar"/>
+  <StrRes Name="dtNoData" Text="Uygun veri yok"/>
+  <StrRes Name="dtNoData1" Text="Rapora mevcut bir dataset eklemek için &#38;#34;Rapor|Veri...&#38;#34; menüsüne gidin, yada &#38;#34;Veri&#38;#34; sekmesini açıp yeni bir dataset yaratın."/>
+  <StrRes Name="dtData" Text="Veri"/>
+  <StrRes Name="dtSysVar" Text="Sistem değişkenleri"/>
+  <StrRes Name="dtVar" Text="Değişkenler"/>
+  <StrRes Name="dtFunc" Text="Fonksiyonlar"/>
+  <StrRes Name="2200" Text="Rapor Ağacı"/>
+  <StrRes Name="2300" Text="Script dosyası aç"/>
+  <StrRes Name="2301" Text="Script dosyası kaydet"/>
+  <StrRes Name="2302" Text="Çalıştır"/>
+  <StrRes Name="2303" Text="Adımla"/>
+  <StrRes Name="2304" Text="Durdur"/>
+  <StrRes Name="2305" Text="Hesapla"/>
+  <StrRes Name="2306" Text="Dil:"/>
+  <StrRes Name="2307" Text="Ayarla"/>
+  <StrRes Name="2308" Text="Sola yasla"/>
+  <StrRes Name="2309" Text="Ortaya"/>
+  <StrRes Name="2310" Text="Sağa yasla"/>
+  <StrRes Name="2311" Text="Üste daya"/>
+  <StrRes Name="2312" Text="Ortala"/>
+  <StrRes Name="2313" Text="Alta daya"/>
+  <StrRes Name="2314" Text="Yatay boşluk"/>
+  <StrRes Name="2315" Text="Dikey boşluk"/>
+  <StrRes Name="2316" Text="Banda yatay ortala"/>
+  <StrRes Name="2317" Text="Banda dikey ortala"/>
+  <StrRes Name="2318" Text="Aynı genişlik"/>
+  <StrRes Name="2319" Text="Aynı yükseklik"/>
+  <StrRes Name="2320" Text="Metin"/>
+  <StrRes Name="2321" Text="Stil"/>
+  <StrRes Name="2322" Text="Font Adı"/>
+  <StrRes Name="2323" Text="Font Boyu"/>
+  <StrRes Name="2324" Text="Kalın"/>
+  <StrRes Name="2325" Text="italik"/>
+  <StrRes Name="2326" Text="Altıçizgili"/>
+  <StrRes Name="2327" Text="Font Rengi"/>
+  <StrRes Name="2328" Text="Parlak"/>
+  <StrRes Name="2329" Text="Metin yönü"/>
+  <StrRes Name="2330" Text="Sola yasla"/>
+  <StrRes Name="2331" Text="Ortala"/>
+  <StrRes Name="2332" Text="Sağa yasla"/>
+  <StrRes Name="2333" Text="İki yana yasla"/>
+  <StrRes Name="2334" Text="Üste daya"/>
+  <StrRes Name="2335" Text="Ortaya"/>
+  <StrRes Name="2336" Text="Alta daya"/>
+  <StrRes Name="2337" Text="Çerçeve"/>
+  <StrRes Name="2338" Text="Üst çizgi"/>
+  <StrRes Name="2339" Text="Alt çizgi"/>
+  <StrRes Name="2340" Text="Sol çizgi"/>
+  <StrRes Name="2341" Text="Sağ çizgi"/>
+  <StrRes Name="2342" Text="Tüm çizgiler"/>
+  <StrRes Name="2343" Text="Çizgi yok"/>
+  <StrRes Name="2344" Text="Gölge"/>
+  <StrRes Name="2345" Text="Zemin rengi"/>
+  <StrRes Name="2346" Text="Çerçeve rengi"/>
+  <StrRes Name="2347" Text="Çerçeve tipi"/>
+  <StrRes Name="2348" Text="Kalınlık"/>
+  <StrRes Name="2349" Text="Standard"/>
+  <StrRes Name="2350" Text="Yeni Rapor"/>
+  <StrRes Name="2351" Text="Rapor Aç"/>
+  <StrRes Name="2352" Text="Rapor Kaydet"/>
+  <StrRes Name="2353" Text="Önizleme"/>
+  <StrRes Name="2354" Text="Yeni rapor sayfası"/>
+  <StrRes Name="2355" Text="Yeni dialog formu"/>
+  <StrRes Name="2356" Text="Sayfayı sil"/>
+  <StrRes Name="2357" Text="Sayfa ayarları"/>
+  <StrRes Name="2358" Text="Değişkenler"/>
+  <StrRes Name="2359" Text="Kes"/>
+  <StrRes Name="2360" Text="Kopyala"/>
+  <StrRes Name="2361" Text="Yapıştır"/>
+  <StrRes Name="2362" Text="Biçimi kopyala"/>
+  <StrRes Name="2363" Text="Geri al"/>
+  <StrRes Name="2364" Text="Yeniden yap"/>
+  <StrRes Name="2365" Text="Grupla"/>
+  <StrRes Name="2366" Text="Grup çöz"/>
+  <StrRes Name="2367" Text="Izgara göster"/>
+  <StrRes Name="2368" Text="Izgaraya hizala"/>
+  <StrRes Name="2369" Text="Izgaraya uydur"/>
+  <StrRes Name="2370" Text="Yaklaş"/>
+  <StrRes Name="2371" Text="Ekstra Araçlar"/>
+  <StrRes Name="2372" Text="Araç seç"/>
+  <StrRes Name="2373" Text="El"/>
+  <StrRes Name="2374" Text="Yaklaş"/>
+  <StrRes Name="2375" Text="Metin kutusu"/>
+  <StrRes Name="2376" Text="Biçim kopyala"/>
+  <StrRes Name="2377" Text="Band ekle"/>
+  <StrRes Name="2378" Text="&amp;Dosya"/>
+  <StrRes Name="2379" Text="D&amp;üzen"/>
+  <StrRes Name="2380" Text="Ara..."/>
+  <StrRes Name="2381" Text="Sonrakini ara"/>
+  <StrRes Name="2382" Text="Değiştir..."/>
+  <StrRes Name="2383" Text="&amp;Rapor"/>
+  <StrRes Name="2384" Text="Veri..."/>
+  <StrRes Name="2385" Text="Seçenekler..."/>
+  <StrRes Name="2386" Text="Stiller..."/>
+  <StrRes Name="2387" Text="&amp;Görünüm"/>
+  <StrRes Name="2388" Text="Araççubukları"/>
+  <StrRes Name="2389" Text="Standard"/>
+  <StrRes Name="2390" Text="Metin"/>
+  <StrRes Name="2391" Text="Çerçeve"/>
+  <StrRes Name="2392" Text="Hizalama paleti"/>
+  <StrRes Name="2393" Text="Ekstra araçlar"/>
+  <StrRes Name="2394" Text="Nesne izleyici"/>
+  <StrRes Name="2395" Text="Veri Ağacı"/>
+  <StrRes Name="2396" Text="Rapor Ağacı"/>
+  <StrRes Name="2397" Text="Cetveller"/>
+  <StrRes Name="2398" Text="Klavuzlar"/>
+  <StrRes Name="2399" Text="Klavuz sil"/>
+  <StrRes Name="2400" Text="Seçenekler..."/>
+  <StrRes Name="2401" Text="&amp;Yardım"/>
+  <StrRes Name="2402" Text="Yardım içeriği..."/>
+  <StrRes Name="2403" Text="FastReport hakkında..."/>
+  <StrRes Name="2404" Text="Sekme sırası..."/>
+  <StrRes Name="2405" Text="Geri al"/>
+  <StrRes Name="2406" Text="Yeniden yap"/>
+  <StrRes Name="2407" Text="Kes"/>
+  <StrRes Name="2408" Text="Kopyala"/>
+  <StrRes Name="2409" Text="Yapıştır"/>
+  <StrRes Name="2410" Text="Grupla"/>
+  <StrRes Name="2411" Text="Grup çöz"/>
+  <StrRes Name="2412" Text="Sil"/>
+  <StrRes Name="2413" Text="Sayfa sil"/>
+  <StrRes Name="2414" Text="Tümünü seç"/>
+  <StrRes Name="2415" Text="Düzenle..."/>
+  <StrRes Name="2416" Text="Öne getir"/>
+  <StrRes Name="2417" Text="Arkaya gönder"/>
+  <StrRes Name="2418" Text="Yeni..."/>
+  <StrRes Name="2419" Text="Yeni rapor"/>
+  <StrRes Name="2420" Text="Yeni sayfa"/>
+  <StrRes Name="2421" Text="Yeni dialog"/>
+  <StrRes Name="2422" Text="Aç..."/>
+  <StrRes Name="2423" Text="Kaydet"/>
+  <StrRes Name="2424" Text="Farklı kaydet..."/>
+  <StrRes Name="2425" Text="Değişkenler..."/>
+  <StrRes Name="2426" Text="Sayfa ayarları..."/>
+  <StrRes Name="2427" Text="Önizleme"/>
+  <StrRes Name="2428" Text="Çıkış"/>
+  <StrRes Name="2429" Text="Rapor başlığı"/>
+  <StrRes Name="2430" Text="Rapor Özeti"/>
+  <StrRes Name="2431" Text="Sayfa üstbilgi"/>
+  <StrRes Name="2432" Text="Sayfa altbilgi"/>
+  <StrRes Name="2433" Text="Başlık"/>
+  <StrRes Name="2434" Text="Altbilgi"/>
+  <StrRes Name="2435" Text="Ana veri"/>
+  <StrRes Name="2436" Text="Detay veri"/>
+  <StrRes Name="2437" Text="Altdetay veri"/>
+  <StrRes Name="2438" Text="4ncü seviye veri"/>
+  <StrRes Name="2439" Text="5nci seviye veri"/>
+  <StrRes Name="2440" Text="6ncı seviye veri"/>
+  <StrRes Name="2441" Text="Grup başlığı"/>
+  <StrRes Name="2442" Text="Grup altbilgi"/>
+  <StrRes Name="2443" Text="Çocuk"/>
+  <StrRes Name="2444" Text="Kolon başlığı"/>
+  <StrRes Name="2445" Text="Kolon altbilgi"/>
+  <StrRes Name="2446" Text="Üstüne"/>
+  <StrRes Name="2447" Text="Dikey bandlar"/>
+  <StrRes Name="2448" Text="Başlık"/>
+  <StrRes Name="2449" Text="Altbilgi"/>
+  <StrRes Name="2450" Text="Ana veri"/>
+  <StrRes Name="2451" Text="Detay veri"/>
+  <StrRes Name="2452" Text="Altdetay veri"/>
+  <StrRes Name="2453" Text="Grup başlığı"/>
+  <StrRes Name="2454" Text="Grup altbilgi"/>
+  <StrRes Name="2455" Text="Çocuk"/>
+  <StrRes Name="2456" Text="0°"/>
+  <StrRes Name="2457" Text="45°"/>
+  <StrRes Name="2458" Text="90°"/>
+  <StrRes Name="2459" Text="180°"/>
+  <StrRes Name="2460" Text="270°"/>
+  <StrRes Name="2461" Text="Font Ayarları"/>
+  <StrRes Name="2462" Text="Kalın"/>
+  <StrRes Name="2463" Text="italik"/>
+  <StrRes Name="2464" Text="Altçizgili"/>
+  <StrRes Name="2465" Text="Üstyazı"/>
+  <StrRes Name="2466" Text="Altyazı"/>
+  <StrRes Name="2467" Text="Sıkışık yazı"/>
+  <StrRes Name="2468" Text="Geniş yazı"/>
+  <StrRes Name="2469" Text="12 cpi"/>
+  <StrRes Name="2470" Text="15 cpi"/>
+  <StrRes Name="2471" Text="Rapor (*.fr3)|*.fr3"/>
+  <StrRes Name="2472" Text="Pascal dosya (*.pas)|*.pas|C++ dosya (*.cpp)|*.cpp|JavaScript dosya (*.js)|*.js|Basic dosya (*.vb)|*.vb|Tüm dosyalar|*.*"/>
+  <StrRes Name="2473" Text="Pascal dosya (*.pas)|*.pas|C++ dosya (*.cpp)|*.cpp|JavaScript dosya (*.js)|*.js|Basic dosya (*.vb)|*.vb|Tüm dosyalar|*.*"/>
+  <StrRes Name="2474" Text="Bağlantılar..."/>
+  <StrRes Name="2475" Text="Dil"/>
+  <StrRes Name="2476" Text="Kesme noktası koy"/>
+  <StrRes Name="2477" Text="Buraya kadar çalıştır"/>
+  <StrRes Name="2478" Text="!Çocuk band ekle"/>
+  <StrRes Name="dsCm" Text="Santimetre"/>
+  <StrRes Name="dsInch" Text="İnç"/>
+  <StrRes Name="dsPix" Text="Piksel"/>
+  <StrRes Name="dsChars" Text="Karakter"/>
+  <StrRes Name="dsCode" Text="Kod"/>
+  <StrRes Name="dsData" Text="Veri"/>
+  <StrRes Name="dsPage" Text="Sayfa"/>
+  <StrRes Name="dsRepFilter" Text="Rapor (*.fr3)|*.fr3"/>
+  <StrRes Name="dsComprRepFilter" Text="Sıkıştırılmış rapor(*.fr3)|*.fr3"/>
+  <StrRes Name="dsSavePreviewChanges" Text="Önizleme sayfası kaydedilsinmi?"/>
+  <StrRes Name="dsSaveChangesTo" Text="Değişiklikleri kaydet "/>
+  <StrRes Name="dsCantLoad" Text="Dosya yüklenemiyor"/>
+  <StrRes Name="dsStyleFile" Text="Stil"/>
+  <StrRes Name="dsCantFindProc" Text="Ana işlem bulunamadı"/>
+  <StrRes Name="dsClearScript" Text="Tüm kodu temizleyecek, devam edelimmi?"/>
+  <StrRes Name="dsNoStyle" Text="Stil yok"/>
+  <StrRes Name="dsStyleSample" Text="Örnek stril"/>
+  <StrRes Name="dsTextNotFound" Text="'%s' bulunamadı"/>
+  <StrRes Name="dsReplace" Text="'%s' değiştirilsinmi?"/>
+  <StrRes Name="2600" Text="FastReport hakkında"/>
+  <StrRes Name="2601" Text="Daha fazla için websitemizi ziyaret edin:"/>
+  <StrRes Name="2602" Text="Satış:"/>
+  <StrRes Name="2603" Text="Destek:"/>
+  <StrRes Name="2700" Text="Sayfa ayarları"/>
+  <StrRes Name="2701" Text="Kağıt"/>
+  <StrRes Name="2702" Text="Genişlik"/>
+  <StrRes Name="2703" Text="Yükseklik"/>
+  <StrRes Name="2704" Text="Boyut"/>
+  <StrRes Name="2705" Text="Yön"/>
+  <StrRes Name="2706" Text="Sol"/>
+  <StrRes Name="2707" Text="Üst"/>
+  <StrRes Name="2708" Text="Sağ"/>
+  <StrRes Name="2709" Text="Alt"/>
+  <StrRes Name="2710" Text="Marjlar"/>
+  <StrRes Name="2711" Text="Kağıt kaynağı"/>
+  <StrRes Name="2712" Text="İlk sayfa"/>
+  <StrRes Name="2713" Text="Diğer sayfalar"/>
+  <StrRes Name="2714" Text="Dikey"/>
+  <StrRes Name="2715" Text="Yatay"/>
+  <StrRes Name="2716" Text="Diğer seçenekler"/>
+  <StrRes Name="2717" Text="Kolon"/>
+  <StrRes Name="2718" Text="Sayı"/>
+  <StrRes Name="2719" Text="Genişlik"/>
+  <StrRes Name="2720" Text="Yerleşimler"/>
+  <StrRes Name="2721" Text="Diğer"/>
+  <StrRes Name="2722" Text="Çift"/>
+  <StrRes Name="2723" Text="Önceki sayfayı bas"/>
+  <StrRes Name="2724" Text="Marjları aynala"/>
+  <StrRes Name="2725" Text="Dizayn modda büyük sayfa"/>
+  <StrRes Name="2726" Text="Sonsuz sayfa genişliği"/>
+  <StrRes Name="2727" Text="Sonsuz sayfa uzunluğu"/>
+  <StrRes Name="2800" Text="Rapor dataset seç"/>
+  <StrRes Name="2900" Text="Edit Variables"/>
+  <StrRes Name="2901" Text="Kategori"/>
+  <StrRes Name="2902" Text="Değişken"/>
+  <StrRes Name="2903" Text="Düzenle"/>
+  <StrRes Name="2904" Text="Sil"/>
+  <StrRes Name="2905" Text="Liste"/>
+  <StrRes Name="2906" Text="Yükle"/>
+  <StrRes Name="2907" Text="Kaydet"/>
+  <StrRes Name="2908" Text="Formül ifadesi:"/>
+  <StrRes Name="2909" Text="Sözlük (*.fd3)|*.fd3"/>
+  <StrRes Name="2910" Text="Sözlük (*.fd3)|*.fd3"/>
+  <StrRes Name="vaNoVar" Text="(Değişken tanımı yok)"/>
+  <StrRes Name="vaVar" Text="Değişkenler"/>
+  <StrRes Name="vaDupName" Text="Çift isim"/>
+  <StrRes Name="3000" Text="Dizayn seçenekleri"/>
+  <StrRes Name="3001" Text="Izgar"/>
+  <StrRes Name="3002" Text="Tip"/>
+  <StrRes Name="3003" Text="Boyut"/>
+  <StrRes Name="3004" Text="Dialog form:"/>
+  <StrRes Name="3005" Text="Diğer"/>
+  <StrRes Name="3006" Text="Font"/>
+  <StrRes Name="3007" Text="Kod penceresi"/>
+  <StrRes Name="3008" Text="Yazı editörü"/>
+  <StrRes Name="3009" Text="Boyut"/>
+  <StrRes Name="3010" Text="Boyut"/>
+  <StrRes Name="3011" Text="Renk"/>
+  <StrRes Name="3012" Text="Bandlar arası mesafe:"/>
+  <StrRes Name="3013" Text="cm"/>
+  <StrRes Name="3014" Text="in"/>
+  <StrRes Name="3015" Text="pt"/>
+  <StrRes Name="3016" Text="pt"/>
+  <StrRes Name="3017" Text="pt"/>
+  <StrRes Name="3018" Text="Santimetre:"/>
+  <StrRes Name="3019" Text="Inç:"/>
+  <StrRes Name="3020" Text="Piksel:"/>
+  <StrRes Name="3021" Text="Izgara göster"/>
+  <StrRes Name="3022" Text="Izgaraya hizala"/>
+  <StrRes Name="3023" Text="Ekledikten sonra göster"/>
+  <StrRes Name="3024" Text="Nesnenin font ayarını kullan"/>
+  <StrRes Name="3025" Text="Çalışma alanı"/>
+  <StrRes Name="3026" Text="Araç penceresi"/>
+  <StrRes Name="3027" Text="LCD ızgara renkleri"/>
+  <StrRes Name="3028" Text="Serbest band yerleşimi"/>
+  <StrRes Name="3029" Text="Sürükle bırak saha listesi göster"/>
+  <StrRes Name="3030" Text="Açılış ekranı göster"/>
+  <StrRes Name="3031" Text="Öndeğerleri yükle"/>
+  <StrRes Name="3032" Text="Band başlıklarını göster"/>
+  <StrRes Name="3100" Text="DataSet seç"/>
+  <StrRes Name="3101" Text="Kayıt sayısı:"/>
+  <StrRes Name="dbNotAssigned" Text="[Atanmamış]"/>
+  <StrRes Name="3200" Text="Grup"/>
+  <StrRes Name="3201" Text="Kopar"/>
+  <StrRes Name="3202" Text="Seçenekler"/>
+  <StrRes Name="3203" Text="Veri alanı"/>
+  <StrRes Name="3204" Text="Formül ifadesi"/>
+  <StrRes Name="3205" Text="Grubu birlikte tut"/>
+  <StrRes Name="3206" Text="Yeni sayfadan başla"/>
+  <StrRes Name="3207" Text="Dışçizgi göster"/>
+  <StrRes Name="3300" Text="Sistem veri"/>
+  <StrRes Name="3301" Text="Veri bandı"/>
+  <StrRes Name="3302" Text="DataSet"/>
+  <StrRes Name="3303" Text="Verialanı"/>
+  <StrRes Name="3304" Text="Fonksiyon"/>
+  <StrRes Name="3305" Text="Formül ifadesi"/>
+  <StrRes Name="3306" Text="Agreta Değer"/>
+  <StrRes Name="3307" Text="Sistem değişkeni"/>
+  <StrRes Name="3308" Text="Görünmez bandları say"/>
+  <StrRes Name="3309" Text="Metin"/>
+  <StrRes Name="3310" Text="Çalışan toplam"/>
+  <StrRes Name="agAggregate" Text="Agreta ekle"/>
+  <StrRes Name="vt1" Text="[DATE]"/>
+  <StrRes Name="vt2" Text="[TIME]"/>
+  <StrRes Name="vt3" Text="[PAGE#]"/>
+  <StrRes Name="vt4" Text="[TOTALPAGES#]"/>
+  <StrRes Name="vt5" Text="[PAGE#] of [TOTALPAGES#]"/>
+  <StrRes Name="vt6" Text="[LINE#]"/>
+  <StrRes Name="3400" Text="OLE nesne"/>
+  <StrRes Name="3401" Text="Ekle..."/>
+  <StrRes Name="3402" Text="Düzenle..."/>
+  <StrRes Name="3403" Text="Kapat"/>
+  <StrRes Name="olStretched" Text="Genleştirilmiş"/>
+  <StrRes Name="3500" Text="Barkod editör"/>
+  <StrRes Name="3501" Text="Kod"/>
+  <StrRes Name="3502" Text="Tipi"/>
+  <StrRes Name="3503" Text="Yaklaş:"/>
+  <StrRes Name="3504" Text="Seçenekler"/>
+  <StrRes Name="3505" Text="Yön"/>
+  <StrRes Name="3506" Text="Checksum hesapla"/>
+  <StrRes Name="3507" Text="Metin"/>
+  <StrRes Name="3508" Text="0°"/>
+  <StrRes Name="3509" Text="90°"/>
+  <StrRes Name="3510" Text="180°"/>
+  <StrRes Name="3511" Text="270°"/>
+  <StrRes Name="bcCalcChecksum" Text="Checksum hesapla"/>
+  <StrRes Name="bcShowText" Text="Metin göster"/>
+  <StrRes Name="3600" Text="isim düzenle"/>
+  <StrRes Name="3601" Text="eleman düzenlemeki için Enter'a bas"/>
+  <StrRes Name="3602" Text="Dataset ismi"/>
+  <StrRes Name="3603" Text="Saya isimleri"/>
+  <StrRes Name="3604" Text="Sıfırla"/>
+  <StrRes Name="3605" Text="Güncelle"/>
+  <StrRes Name="alUserName" Text="Kullanıcı adı"/>
+  <StrRes Name="alOriginal" Text="Orjinal adı"/>
+  <StrRes Name="3700" Text="Parametere Editorü"/>
+  <StrRes Name="qpName" Text="isim"/>
+  <StrRes Name="qpDataType" Text="Veri tipi"/>
+  <StrRes Name="qpValue" Text="Değer"/>
+  <StrRes Name="3800" Text="Ana-detay kayıtlar"/>
+  <StrRes Name="3801" Text="Detay sahalar"/>
+  <StrRes Name="3802" Text="Ana sahalar"/>
+  <StrRes Name="3803" Text="Bağlı sahalar"/>
+  <StrRes Name="3804" Text="Ekle"/>
+  <StrRes Name="3805" Text="Temizle"/>
+  <StrRes Name="3900" Text="Memo"/>
+  <StrRes Name="3901" Text="Formül ifade ekle"/>
+  <StrRes Name="3902" Text="Aggregate ekle"/>
+  <StrRes Name="3903" Text="Biçimleme ekle"/>
+  <StrRes Name="3904" Text="Kelime böl"/>
+  <StrRes Name="3905" Text="Metin"/>
+  <StrRes Name="3906" Text="Biçim"/>
+  <StrRes Name="3907" Text="Koyu"/>
+  <StrRes Name="4000" Text="Resim"/>
+  <StrRes Name="4001" Text="Yükle"/>
+  <StrRes Name="4002" Text="Kopyala"/>
+  <StrRes Name="4003" Text="Yapıştır"/>
+  <StrRes Name="4004" Text="Temizle"/>
+  <StrRes Name="piEmpty" Text="Boş"/>
+  <StrRes Name="4100" Text="Grafik Editor"/>
+  <StrRes Name="4101" Text="Seri ekle"/>
+  <StrRes Name="4102" Text="Seri sil"/>
+  <StrRes Name="4103" Text="Grafik düzenle"/>
+  <StrRes Name="4104" Text="Band kaynağı"/>
+  <StrRes Name="4105" Text="Sabit veri"/>
+  <StrRes Name="4106" Text="DataSet"/>
+  <StrRes Name="4107" Text="Veri kaynağı"/>
+  <StrRes Name="4108" Text="Değerler"/>
+  <StrRes Name="4109" Text="Yeni birini ekle yada bir grafik serisi seç"/>
+  <StrRes Name="4114" Text="Diğer seçenekler"/>
+  <StrRes Name="4115" Text="Ençok N değer"/>
+  <StrRes Name="4116" Text="Ençok N başlık"/>
+  <StrRes Name="4117" Text="Sıraya diz"/>
+  <StrRes Name="4126" Text="X Ekseni"/>
+  <StrRes Name="ch3D" Text="3D görünüm"/>
+  <StrRes Name="chAxis" Text="Aksları göster"/>
+  <StrRes Name="chsoNone" Text="Yok"/>
+  <StrRes Name="chsoAscending" Text="Artan"/>
+  <StrRes Name="chsoDescending" Text="Azalan"/>
+  <StrRes Name="chxtText" Text="Metin"/>
+  <StrRes Name="chxtNumber" Text="Sayısal"/>
+  <StrRes Name="chxtDate" Text="Tarih"/>
+  <StrRes Name="4200" Text="Zengin Metin Editör"/>
+  <StrRes Name="4201" Text="Dosya aç"/>
+  <StrRes Name="4202" Text="Dosya kaydet"/>
+  <StrRes Name="4203" Text="Geri al"/>
+  <StrRes Name="4204" Text="Font"/>
+  <StrRes Name="4205" Text="Formül ifade ekle"/>
+  <StrRes Name="4206" Text="Kalık"/>
+  <StrRes Name="4207" Text="italik"/>
+  <StrRes Name="4208" Text="Alt çizgili"/>
+  <StrRes Name="4209" Text="Sola yasla"/>
+  <StrRes Name="4210" Text="Ortala"/>
+  <StrRes Name="4211" Text="Sağa yasla"/>
+  <StrRes Name="4212" Text="İki yana yasla"/>
+  <StrRes Name="4213" Text="Noktala"/>
+  <StrRes Name="4300" Text="Çapraz tablo editör"/>
+  <StrRes Name="4301" Text="Kaynak verisi"/>
+  <StrRes Name="4302" Text="Boyutlar"/>
+  <StrRes Name="4303" Text="Satırlar"/>
+  <StrRes Name="4304" Text="Kolonlar"/>
+  <StrRes Name="4305" Text="Hücreler"/>
+  <StrRes Name="4306" Text="Çapraz tablo yapısı"/>
+  <StrRes Name="4307" Text="Satır başlığı"/>
+  <StrRes Name="4308" Text="Kolon başlığı"/>
+  <StrRes Name="4309" Text="Satır genel toplamı"/>
+  <StrRes Name="4310" Text="Kolon genel toplamı"/>
+  <StrRes Name="4311" Text="Satır/Kolon yerdeğiş"/>
+  <StrRes Name="4312" Text="!Stil seç"/>
+  <StrRes Name="4313" Text="!Mevcut stili kaydet..."/>
+  <StrRes Name="4314" Text="!Başlık göster"/>
+  <StrRes Name="4315" Text="!Saha adları"/>
+  <StrRes Name="4316" Text="!Başlıkları her sayfada yazdır"/>
+  <StrRes Name="4317" Text="!Otomatik boyutlandır"/>
+  <StrRes Name="4318" Text="!Hücreler kenarlıklı"/>
+  <StrRes Name="4319" Text="!Çapraz tablo aşağı yazdır"/>
+  <StrRes Name="4320" Text="!Hücreler yan yana"/>
+  <StrRes Name="4321" Text="!Eşit hücreleri birleştir"/>
+  <StrRes Name="4322" Text="Yok"/>
+  <StrRes Name="4323" Text="Topla"/>
+  <StrRes Name="4324" Text="Enaz"/>
+  <StrRes Name="4325" Text="Ençok"/>
+  <StrRes Name="4326" Text="Ortalama"/>
+  <StrRes Name="4327" Text="Say"/>
+  <StrRes Name="4328" Text="Artan (A-Z)"/>
+  <StrRes Name="4329" Text="Azalan (Z-A)"/>
+  <StrRes Name="4330" Text="Sıralama yok"/>
+  <StrRes Name="43161" Text="Kolon başlıklarını her sayfada yazdır"/>
+  <StrRes Name="43160" Text="Satır başkıklarını her sayfada yazdır"/>
+  <StrRes Name="crStName" Text="!Stil adı gir:"/>
+  <StrRes Name="crResize" Text="!Çapraz Tablo boyutlandırmak için , &#38;#34;AutoSize&#38;#34; özelliğini False yapın."/>
+  <StrRes Name="crSubtotal" Text="Aratoplam"/>
+  <StrRes Name="crNone" Text="Yok"/>
+  <StrRes Name="crSum" Text="Toplam"/>
+  <StrRes Name="crMin" Text="EnAz"/>
+  <StrRes Name="crMax" Text="EnÇok"/>
+  <StrRes Name="crAvg" Text="Ort"/>
+  <StrRes Name="crCount" Text="Say"/>
+  <StrRes Name="crAsc" Text="A-Z"/>
+  <StrRes Name="crDesc" Text="Z-A"/>
+  <StrRes Name="4400" Text="Formül ifade editörü"/>
+  <StrRes Name="4401" Text="Formül ifade:"/>
+  <StrRes Name="4500" Text="Biçim görüntüsü"/>
+  <StrRes Name="4501" Text="Kategori"/>
+  <StrRes Name="4502" Text="Biçim"/>
+  <StrRes Name="4503" Text="Biçim string:"/>
+  <StrRes Name="4504" Text="Sayısal ayraç:"/>
+  <StrRes Name="fkText" Text="Metin (Biçimsiz)"/>
+  <StrRes Name="fkNumber" Text="Sayı"/>
+  <StrRes Name="fkDateTime" Text="Tarih/Saat"/>
+  <StrRes Name="fkBoolean" Text="Mantıksal"/>
+  <StrRes Name="fkNumber1" Text="1234.5;%g"/>
+  <StrRes Name="fkNumber2" Text="1234.50;%2.2f"/>
+  <StrRes Name="fkNumber3" Text="1,234.50;%2.2n"/>
+  <StrRes Name="fkNumber4" Text="$1,234.50;%2.2m"/>
+  <StrRes Name="fkDateTime1" Text="11.28.2002;mm.dd.yyyy"/>
+  <StrRes Name="fkDateTime2" Text="28 nov 2002;dd mmm yyyy"/>
+  <StrRes Name="fkDateTime3" Text="November 28, 2002;mmmm dd, yyyy"/>
+  <StrRes Name="fkDateTime4" Text="02:14;hh:mm"/>
+  <StrRes Name="fkDateTime5" Text="02:14am;hh:mm am/pm"/>
+  <StrRes Name="fkDateTime6" Text="02:14:00;hh:mm:ss"/>
+  <StrRes Name="fkDateTime7" Text="02:14am, November 28, 2002;hh:mm am/pm, mmmm dd, yyyy"/>
+  <StrRes Name="fkBoolean1" Text="0,1;0,1"/>
+  <StrRes Name="fkBoolean2" Text="Hayır,Evet;Hayır,Evet"/>
+  <StrRes Name="fkBoolean3" Text="_,x;_,x"/>
+  <StrRes Name="fkBoolean4" Text="Yanlış,Doğru;Yanlış,Doğru"/>
+  <StrRes Name="4600" Text="Parlaklık"/>
+  <StrRes Name="4601" Text="Renk..."/>
+  <StrRes Name="4602" Text="Renk..."/>
+  <StrRes Name="4603" Text="ifade"/>
+  <StrRes Name="4604" Text="Font"/>
+  <StrRes Name="4605" Text="Zemin"/>
+  <StrRes Name="4606" Text="Kalın"/>
+  <StrRes Name="4607" Text="Italik"/>
+  <StrRes Name="4608" Text="Altçizgili"/>
+  <StrRes Name="4609" Text="Şeffaf"/>
+  <StrRes Name="4610" Text="Diğer"/>
+  <StrRes Name="4700" Text="Rapor ayarları"/>
+  <StrRes Name="4701" Text="Genel"/>
+  <StrRes Name="4702" Text="Yazıcı ayarları"/>
+  <StrRes Name="4703" Text="Kopya"/>
+  <StrRes Name="4704" Text="Genel"/>
+  <StrRes Name="4705" Text="Şifre"/>
+  <StrRes Name="4706" Text="Kopyaları harmanla"/>
+  <StrRes Name="4707" Text="Çift geçiş"/>
+  <StrRes Name="4708" Text="Boş olsada yazdır"/>
+  <StrRes Name="4709" Text="Açıklama"/>
+  <StrRes Name="4710" Text="İsim"/>
+  <StrRes Name="4711" Text="Tanımlama"/>
+  <StrRes Name="4712" Text="Resim"/>
+  <StrRes Name="4713" Text="Yazan"/>
+  <StrRes Name="4714" Text="Major"/>
+  <StrRes Name="4715" Text="Minor"/>
+  <StrRes Name="4716" Text="Sürüm"/>
+  <StrRes Name="4717" Text="Build"/>
+  <StrRes Name="4718" Text="oluşma"/>
+  <StrRes Name="4719" Text="düzenleme"/>
+  <StrRes Name="4720" Text="tanımlama"/>
+  <StrRes Name="4721" Text="Sürüm"/>
+  <StrRes Name="4722" Text="Gözat..."/>
+  <StrRes Name="4723" Text="Miras ayarları"/>
+  <StrRes Name="4724" Text="Seçenek seç:"/>
+  <StrRes Name="4725" Text="Değişme"/>
+  <StrRes Name="4726" Text="Ana rapordan ayır"/>
+  <StrRes Name="4727" Text="Ana rapordan miras al:"/>
+  <StrRes Name="4728" Text="Miras"/>
+  <StrRes Name="rePrnOnPort" Text="on"/>
+  <StrRes Name="riNotInherited" Text="Bu rapor mirasalınamaz"/>
+  <StrRes Name="riInherited" Text="Bu rapor %s ana raporundan miras almıştır."/>
+  <StrRes Name="4800" Text="Satırlar"/>
+  <StrRes Name="4900" Text="SQL"/>
+  <StrRes Name="4901" Text="Sorgu Editörü"/>
+  <StrRes Name="5000" Text="Parola"/>
+  <StrRes Name="5001" Text="Parola gir:"/>
+  <StrRes Name="5100" Text="Stil editör"/>
+  <StrRes Name="5101" Text="Renk..."/>
+  <StrRes Name="5102" Text="Font..."/>
+  <StrRes Name="5103" Text="Çerçeve..."/>
+  <StrRes Name="5104" Text="Ekle"/>
+  <StrRes Name="5105" Text="Sil"/>
+  <StrRes Name="5106" Text="Düzenle"/>
+  <StrRes Name="5107" Text="Yükle"/>
+  <StrRes Name="5108" Text="Kaydet"/>
+  <StrRes Name="5200" Text="Çerçeve editör"/>
+  <StrRes Name="5201" Text="Çerçeve"/>
+  <StrRes Name="5202" Text="Çerçeve çizgisi"/>
+  <StrRes Name="5203" Text="Gölge"/>
+  <StrRes Name="5204" Text="Üst çizgi"/>
+  <StrRes Name="5205" Text="Alt çizgi"/>
+  <StrRes Name="5206" Text="Sol çizgi"/>
+  <StrRes Name="5207" Text="Sağ çizgi"/>
+  <StrRes Name="5208" Text="Tüm çerçeve"/>
+  <StrRes Name="5209" Text="Çerçeve yok"/>
+  <StrRes Name="5210" Text="Çerçeve rengi"/>
+  <StrRes Name="5211" Text="Çerçeve stili"/>
+  <StrRes Name="5212" Text="Çerçeve kalınlığı"/>
+  <StrRes Name="5213" Text="Gölge"/>
+  <StrRes Name="5214" Text="Gölge rengi"/>
+  <StrRes Name="5215" Text="Gölge kalınlığı"/>
+  <StrRes Name="5300" Text="Yeni eleman"/>
+  <StrRes Name="5301" Text="Elemanlar"/>
+  <StrRes Name="5302" Text="Şablonlar"/>
+  <StrRes Name="5303" Text="Rapordan mirasla"/>
+  <StrRes Name="5400" Text="Sekme sırası"/>
+  <StrRes Name="5401" Text="Sekme sırasındaki kontroller"/>
+  <StrRes Name="5402" Text="Yukarı"/>
+  <StrRes Name="5403" Text="Aşağı"/>
+  <StrRes Name="5500" Text="Hesapla"/>
+  <StrRes Name="5501" Text="İfade"/>
+  <StrRes Name="5502" Text="Sonuç"/>
+  <StrRes Name="5600" Text="Rapor sihirbazı"/>
+  <StrRes Name="5601" Text="Veri"/>
+  <StrRes Name="5602" Text="Sahalar"/>
+  <StrRes Name="5603" Text="Gruplar"/>
+  <StrRes Name="5604" Text="Görünüm"/>
+  <StrRes Name="5605" Text="Stil"/>
+  <StrRes Name="5606" Text="Step 1. Dataset seç."/>
+  <StrRes Name="5607" Text="Step 2. Sahaları görüntüle"/>
+  <StrRes Name="5608" Text="Step 3. Grupları oluştur (seçimlik)"/>
+  <StrRes Name="5609" Text="Step 4. Sayfa görünüm ve yönünü tanımla"/>
+  <StrRes Name="5610" Text="Step 5. Rapor stili seç"/>
+  <StrRes Name="5611" Text="Ekle &#62;"/>
+  <StrRes Name="5612" Text="Tümünü ekle &#62;&#62;"/>
+  <StrRes Name="5613" Text="&#60; Kaldır"/>
+  <StrRes Name="5614" Text="&#60;&#60; Tümünü kaldır"/>
+  <StrRes Name="5615" Text="Ekle &#62;"/>
+  <StrRes Name="5616" Text="&#60; Kaldır"/>
+  <StrRes Name="5617" Text="Seçilmiş sahalar:"/>
+  <StrRes Name="5618" Text="Serbest sahalar:"/>
+  <StrRes Name="5619" Text="Gruplar:"/>
+  <StrRes Name="5620" Text="Yön"/>
+  <StrRes Name="5621" Text="Görünüm"/>
+  <StrRes Name="5622" Text="Dikey"/>
+  <StrRes Name="5623" Text="Yatay"/>
+  <StrRes Name="5624" Text="Tablo Çizelge"/>
+  <StrRes Name="5625" Text="Sütunsal"/>
+  <StrRes Name="5626" Text="Sayfa genişliğine sığdır"/>
+  <StrRes Name="5627" Text="&#60;&#60; Geri"/>
+  <StrRes Name="5628" Text="İleri &#62;&#62;"/>
+  <StrRes Name="5629" Text="Bitir"/>
+  <StrRes Name="5630" Text="Yeni tablo..."/>
+  <StrRes Name="5631" Text="Yeni sorgu..."/>
+  <StrRes Name="5632" Text="Veritabanı bağlantısı seç:"/>
+  <StrRes Name="5633" Text="Bir tablo seç:"/>
+  <StrRes Name="5634" Text="Veya"/>
+  <StrRes Name="5635" Text="Bir sorgu yarat..."/>
+  <StrRes Name="5636" Text="Bağlantıları düzenle"/>
+  <StrRes Name="wzStd" Text="Standard Rapor sihirbazı"/>
+  <StrRes Name="wzDMP" Text="Dot-Matrix Rapor sihirbazı"/>
+  <StrRes Name="wzStdEmpty" Text="Standard Rapor"/>
+  <StrRes Name="wzDMPEmpty" Text="Dot-Matrix Rapor"/>
+  <StrRes Name="5700" Text="Bağlantı sihirbazı"/>
+  <StrRes Name="5701" Text="Bağlantı"/>
+  <StrRes Name="5702" Text="Bağlantı tipi seç:"/>
+  <StrRes Name="5703" Text="Veritabanı seç:"/>
+  <StrRes Name="5704" Text="Giriş:"/>
+  <StrRes Name="5705" Text="Parola"/>
+  <StrRes Name="5706" Text="Giriş ekranı"/>
+  <StrRes Name="5707" Text="Giriş/parola kullan:"/>
+  <StrRes Name="5708" Text="Tablo"/>
+  <StrRes Name="5709" Text="Tablo adı seç:"/>
+  <StrRes Name="5710" Text="Kayıtları filtrele:"/>
+  <StrRes Name="5711" Text="Sorgu"/>
+  <StrRes Name="5712" Text="SQL ifadesi:"/>
+  <StrRes Name="5713" Text="Sorgu tasarımcı"/>
+  <StrRes Name="5714" Text="Sorgu parametresi düzenle"/>
+  <StrRes Name="ftAllFiles" Text="Tüm dosyalar"/>
+  <StrRes Name="ftPictures" Text="Resimler"/>
+  <StrRes Name="ftDB" Text="Veritabanları"/>
+  <StrRes Name="ftRichFile" Text="Zenginmetin dosyası"/>
+  <StrRes Name="ftTextFile" Text="Metin dosyası"/>
+  <StrRes Name="prNotAssigned" Text="(Atanmamış)"/>
+  <StrRes Name="prInvProp" Text="Geçersiz özellik değeri"/>
+  <StrRes Name="prDupl" Text="Çift isim"/>
+  <StrRes Name="prPict" Text="(Resim)"/>
+  <StrRes Name="mvExpr" Text="Formül ifadeye izin ver"/>
+  <StrRes Name="mvStretch" Text="Uzat"/>
+  <StrRes Name="mvStretchToMax" Text="En büyük yüksekliğe uzat"/>
+  <StrRes Name="mvShift" Text="Kaydırmak"/>
+  <StrRes Name="mvShiftOver" Text="Çakıştığında kaydır"/>
+  <StrRes Name="mvVisible" Text="Görünür"/>
+  <StrRes Name="mvPrintable" Text="Yazdırılabilir"/>
+  <StrRes Name="mvFont" Text="Font..."/>
+  <StrRes Name="mvFormat" Text="Biçim..."/>
+  <StrRes Name="mvClear" Text="İçerik temizle"/>
+  <StrRes Name="mvAutoWidth" Text="Otomatik genişlik"/>
+  <StrRes Name="mvWWrap" Text="Kelime kaydır"/>
+  <StrRes Name="mvSuppress" Text="Tekrarlanan değerleri önle"/>
+  <StrRes Name="mvHideZ" Text="Sıfırları gizle"/>
+  <StrRes Name="mvHTML" Text="HTML etiketlerine izin ver"/>
+  <StrRes Name="lvDiagonal" Text="Verev"/>
+  <StrRes Name="pvAutoSize" Text="Otomatik boyut"/>
+  <StrRes Name="pvCenter" Text="Orta"/>
+  <StrRes Name="pvAspect" Text="Boyutları koru"/>
+  <StrRes Name="bvSplit" Text="Bölmeye izin ver"/>
+  <StrRes Name="bvKeepChild" Text="Çocuğu birlikte tut"/>
+  <StrRes Name="bvPrintChild" Text="Çocuk gizliyse yazdır"/>
+  <StrRes Name="bvStartPage" Text="Yeni sayfa başlat"/>
+  <StrRes Name="bvPrintIfEmpty" Text="Detay boşsa yazdır"/>
+  <StrRes Name="bvKeepDetail" Text="Detayı birlikte tut"/>
+  <StrRes Name="bvKeepFooter" Text="Dipnotu birlikte tut"/>
+  <StrRes Name="bvReprint" Text="Yeni sayfada yeniden yazdır"/>
+  <StrRes Name="bvOnFirst" Text="İlk sayfada yazdır"/>
+  <StrRes Name="bvOnLast" Text="Son sayfada yazdır"/>
+  <StrRes Name="bvKeepGroup" Text="Grubu birlikte tut"/>
+  <StrRes Name="bvFooterAfterEach" Text="Her satırdan sonra altbilgi"/>
+  <StrRes Name="bvDrillDown" Text="Sonda"/>
+  <StrRes Name="bvResetPageNo" Text="Sayfa numaralarını sıfırla"/>
+  <StrRes Name="srParent" Text="Ebebeyniyle yazdır"/>
+  <StrRes Name="bvKeepHeader" Text="Başlıkla birlikte tut"/>
+  <StrRes Name="obCatDraw" Text="Draw"/>
+  <StrRes Name="obCatOther" Text="Diğer nesneler"/>
+  <StrRes Name="obCatOtherControls" Text="Diğer nesneler"/>
+  <StrRes Name="obDiagLine" Text="Verev"/>
+  <StrRes Name="obRect" Text="Dikdörtgen"/>
+  <StrRes Name="obRoundRect" Text="Yuvarlaklaşmış dikdörtgen"/>
+  <StrRes Name="obEllipse" Text="Elips"/>
+  <StrRes Name="obTrian" Text="Üçgen"/>
+  <StrRes Name="obDiamond" Text="Baklava"/>
+  <StrRes Name="obLabel" Text="Label"/>
+  <StrRes Name="obEdit" Text="Text kontrol"/>
+  <StrRes Name="obMemoC" Text="Memo kontrol"/>
+  <StrRes Name="obButton" Text="Button kontrol"/>
+  <StrRes Name="obChBoxC" Text="CheckBox kontrol"/>
+  <StrRes Name="obRButton" Text="RadioButton kontrol"/>
+  <StrRes Name="obLBox" Text="ListBox kontrol"/>
+  <StrRes Name="obCBox" Text="ComboBox kontrol"/>
+  <StrRes Name="obDateEdit" Text="DateEdit kontrol"/>
+  <StrRes Name="obImageC" Text="Image kontrol"/>
+  <StrRes Name="obPanel" Text="Panel kontrol"/>
+  <StrRes Name="obGrBox" Text="GroupBox kontrol"/>
+  <StrRes Name="obBBtn" Text="BitBtn kontrol"/>
+  <StrRes Name="obSBtn" Text="SpeedButton kontrol"/>
+  <StrRes Name="obMEdit" Text="MaskEdit kontrol"/>
+  <StrRes Name="obChLB" Text="CheckListBox kontrol"/>
+  <StrRes Name="obDBLookup" Text="DBLookupComboBox kontrol"/>
+  <StrRes Name="obBevel" Text="Bevel nesne"/>
+  <StrRes Name="obShape" Text="Shape nesne"/>
+  <StrRes Name="obText" Text="Text nesne"/>
+  <StrRes Name="obSysText" Text="Sistem metni"/>
+  <StrRes Name="obLine" Text="Çizgi nesne"/>
+  <StrRes Name="obPicture" Text="Resim nesne"/>
+  <StrRes Name="obBand" Text="Band nesnesi"/>
+  <StrRes Name="obDataBand" Text="Veri bandı"/>
+  <StrRes Name="obSubRep" Text="Altrapor"/>
+  <StrRes Name="obDlgPage" Text="İletişim formu"/>
+  <StrRes Name="obRepPage" Text="Rapor sayfası"/>
+  <StrRes Name="obReport" Text="Rapor nesnesi"/>
+  <StrRes Name="obRich" Text="Zengin metin nesnesi"/>
+  <StrRes Name="obOLE" Text="OLE metin"/>
+  <StrRes Name="obChBox" Text="CheckBox nesne"/>
+  <StrRes Name="obChart" Text="Chart nesne"/>
+  <StrRes Name="obBarC" Text="Barcode nesne"/>
+  <StrRes Name="obCross" Text="Çapraz tablo nesne"/>
+  <StrRes Name="obDBCross" Text="DB Çapraz nesne"/>
+  <StrRes Name="obGrad" Text="Gradient nesne"/>
+  <StrRes Name="obDMPText" Text="Dot-matrix metin nesne"/>
+  <StrRes Name="obDMPLine" Text="Dot-matrix satır nesne"/>
+  <StrRes Name="obDMPCmd" Text="Dot-matrix komut komut nesne"/>
+  <StrRes Name="obBDEDB" Text="BDE Veritabanı"/>
+  <StrRes Name="obBDETb" Text="BDE Tablo"/>
+  <StrRes Name="obBDEQ" Text="BDE Sorgu"/>
+  <StrRes Name="obBDEComps" Text="BDE Bileşenleri"/>
+  <StrRes Name="obIBXDB" Text="IBX Veritabanı"/>
+  <StrRes Name="obIBXTb" Text="IBX Tablo"/>
+  <StrRes Name="obIBXQ" Text="IBX Sorgu"/>
+  <StrRes Name="obIBXComps" Text="IBX Bileşenleri"/>
+  <StrRes Name="obADODB" Text="ADO Veritabanı"/>
+  <StrRes Name="obADOTb" Text="ADO Tablo"/>
+  <StrRes Name="obADOQ" Text="ADO Sorgu"/>
+  <StrRes Name="obADOComps" Text="ADO Bileşenleri"/>
+  <StrRes Name="obDBXDB" Text="DBX Veritabanı"/>
+  <StrRes Name="obDBXTb" Text="DBX Tablo"/>
+  <StrRes Name="obDBXQ" Text="DBX Sorgu"/>
+  <StrRes Name="obDBXComps" Text="DBX Bileşenleri"/>
+  <StrRes Name="obFIBDB" Text="FIB Veritabanı"/>
+  <StrRes Name="obFIBTb" Text="FIB Tablo"/>
+  <StrRes Name="obFIBQ" Text="FIB Sorgu"/>
+  <StrRes Name="obFIBComps" Text="FIB Bileşenleri"/>
+  <StrRes Name="ctString" Text="String"/>
+  <StrRes Name="ctDate" Text="Tarih ve Saat"/>
+  <StrRes Name="ctConv" Text="Dönüşüm"/>
+  <StrRes Name="ctFormat" Text="Biçim"/>
+  <StrRes Name="ctMath" Text="Matematik"/>
+  <StrRes Name="ctOther" Text="Diğer"/>
+  <StrRes Name="IntToStr" Text="Tamsayı değeri alfanumerik değere dönüştür"/>
+  <StrRes Name="FloatToStr" Text="Reel sayıyı alfanumerik değere dönüştür"/>
+  <StrRes Name="DateToStr" Text="Tarihi alfanumerik değer dönüştür"/>
+  <StrRes Name="TimeToStr" Text="Saat alfanumerik değer dönüştür"/>
+  <StrRes Name="DateTimeToStr" Text="TarihSaat verisini alfanumerik değer dönüştür"/>
+  <StrRes Name="VarToStr" Text="Variant değeri alfanumerik değer dönüştür"/>
+  <StrRes Name="StrToInt" Text="String (alfanumerik) değeri tamsayıya (int) dönüştür"/>
+  <StrRes Name="StrToInt64" Text="String (alfanumerik) değeri tamsayıya (int64) dönüştür"/>
+  <StrRes Name="StrToFloat" Text="String (alfanumerik) değeri reel sayıya dönüştür"/>
+  <StrRes Name="StrToDate" Text="String (alfanumerik) değeri tarihe dönüştür"/>
+  <StrRes Name="StrToTime" Text="String (alfanumerik) değeri saat değerine dönüştür"/>
+  <StrRes Name="StrToDateTime" Text="String (alfanumerik) değeri tarihsaat değerine dönüştür"/>
+  <StrRes Name="Format" Text="Parametre dizisinden biçimlendirilmiş string birleştirir"/>
+  <StrRes Name="FormatFloat" Text="Reel sayı biçimi"/>
+  <StrRes Name="FormatDateTime" Text="Tarih saat biçimi"/>
+  <StrRes Name="FormatMaskText" Text="Bir maske kullanarak biçimlendir"/>
+  <StrRes Name="EncodeDate" Text="Bir yıl, ay, gün verisini TDateTime tipine dönüştür"/>
+  <StrRes Name="DecodeDate" Text="TDateTime verisini Yıl, Ay, gün değerleri halinde böl."/>
+  <StrRes Name="EncodeTime" Text="Saat, Dakika saniye verisini TDateTime haline dönüştür."/>
+  <StrRes Name="DecodeTime" Text="TDateTime verisini Saat, Dakika, Saniye ve ms halinde böl."/>
+  <StrRes Name="Date" Text="Şu anki tarih"/>
+  <StrRes Name="Time" Text="Şu anki saat"/>
+  <StrRes Name="Now" Text="şU anki tarih ve saat"/>
+  <StrRes Name="DayOfWeek" Text="Haftanın günü"/>
+  <StrRes Name="IsLeapYear" Text="Artık yıl olup olmadığına bak."/>
+  <StrRes Name="DaysInMonth" Text="Ayın günü"/>
+  <StrRes Name="Length" Text="Stringin uzunluğu"/>
+  <StrRes Name="Copy" Text="Bir stringin altstringini alır"/>
+  <StrRes Name="Pos" Text="Altstringin string içindeki yerini bulur"/>
+  <StrRes Name="Delete" Text="Bir altstringi stringin içinden siler"/>
+  <StrRes Name="Insert" Text="Bir altstringi stringin içine yerleştirir"/>
+  <StrRes Name="Uppercase" Text="Tüm karakterleri büyük yapar"/>
+  <StrRes Name="Lowercase" Text="Tüm karakterleri küçük yapar"/>
+  <StrRes Name="Trim" Text="Bir stringin yanlarındaki boşlukları temizler"/>
+  <StrRes Name="NameCase" Text="Bir stringin ilk harfini büyük diğerlerini küçük yapar"/>
+  <StrRes Name="CompareText" Text="İki stringi karşılaştırır"/>
+  <StrRes Name="Chr" Text="Integer bir değeri char değere çevirir"/>
+  <StrRes Name="Ord" Text="Karakter değerini (char) tam sayıya çevirir"/>
+  <StrRes Name="SetLength" Text="Bir stringin uzunluğunu belirler, set eder"/>
+  <StrRes Name="Round" Text="Küsürlü bir sayıyı en yakın tamsayıya yuvarlar"/>
+  <StrRes Name="Trunc" Text="Küsürlü bir sayının küsüratını keserek tam sayıya çevirir"/>
+  <StrRes Name="Int" Text="Küsürlü bir sayının tam kısmını alır"/>
+  <StrRes Name="Frac" Text="Küsürlü bir sayının küsür kısmını alır"/>
+  <StrRes Name="Sqrt" Text="Bir sayının karekökünü alır"/>
+  <StrRes Name="Abs" Text="Bir değerin mutlak değerini bulur"/>
+  <StrRes Name="Sin" Text="Bir açının (radyan olarak) sinüsünü verir"/>
+  <StrRes Name="Cos" Text="Bir açının (radyan olarak) kosinüsünü verir"/>
+  <StrRes Name="ArcTan" Text="Arktanjant"/>
+  <StrRes Name="Tan" Text="Tanjant"/>
+  <StrRes Name="Exp" Text="Üssü değer"/>
+  <StrRes Name="Ln" Text="bir ifadenin doğal logaritmasını alır"/>
+  <StrRes Name="Pi" Text="3.1415926... (pi) sayısı"/>
+  <StrRes Name="Inc" Text="Değeri 1 arttır"/>
+  <StrRes Name="Dec" Text="Değeri 1 düşür"/>
+  <StrRes Name="RaiseException" Text="Exsepşın (hata) oluştur"/>
+  <StrRes Name="ShowMessage" Text="Mesaj kutusu"/>
+  <StrRes Name="Randomize" Text="Random sayı üretecini oluşturur"/>
+  <StrRes Name="Random" Text="Random bir sayı üret"/>
+  <StrRes Name="ValidInt" Text="Verilen stringin geçerli bir tam sayı olup olmadığını kontrol eder"/>
+  <StrRes Name="ValidFloat" Text="Verilen stringin geçerli bir reel sayı olup olmadığını kontrol eder"/>
+  <StrRes Name="ValidDate" Text="Verilen stringin geçerli bir tarih değeri olup olmadığını kontrol eder"/>
+  <StrRes Name="IIF" Text="Eğer İfade True(doğru) ise DoğruDeğer, değilse YanlışDeğer değerlerinden birini döndürür"/>
+  <StrRes Name="Get" Text="Sadece iç kullanım için"/>
+  <StrRes Name="Set" Text="Sadece iç kullanım için"/>
+  <StrRes Name="InputBox" Text="Veri giriş dialog penceresi"/>
+  <StrRes Name="InputQuery" Text="Veri giriş dialog penceresi"/>
+  <StrRes Name="MessageDlg" Text="Bir mesaj kutusu (dialog) görüntüler"/>
+  <StrRes Name="CreateOleObject" Text="Bir OLE nesnesi yaratır"/>
+  <StrRes Name="VarArrayCreate" Text="Varyant dizi nesnesi yaratır"/>
+  <StrRes Name="VarType" Text="Varyant bir değerin tipini verir"/>
+  <StrRes Name="DayOf" Text="Tarihin gün değerini verir(1..31)"/>
+  <StrRes Name="MonthOf" Text="Tarihin ay değerini verir(1..12)"/>
+  <StrRes Name="YearOf" Text="Tarihin yıl değerini verir"/>
+  <StrRes Name="ctAggregate" Text="Agregate"/>
+  <StrRes Name="Sum" Text="Banddaki datasatırının toplam değeri"/>
+  <StrRes Name="Avg" Text="Banddaki datasatırının ortalama değeri"/>
+  <StrRes Name="Min" Text="Banddaki datasatırının en küçük değeri"/>
+  <StrRes Name="Max" Text="Banddaki datasatırının en büyük değeri"/>
+  <StrRes Name="Count" Text="Data satırlarını sayar"/>
+  <StrRes Name="wzDBConn" Text="Yeni bağlantı sihirbazı"/>
+  <StrRes Name="wzDBTable" Text="Yeni tablo sihirbazı"/>
+  <StrRes Name="wzDBQuery" Text="Yeni sorgu sihirbazı"/>
+  <StrRes Name="5800" Text="Bağlantılar"/>
+  <StrRes Name="5801" Text="Yeni"/>
+  <StrRes Name="5802" Text="Sil"/>
+  <StrRes Name="cpName" Text="Adı"/>
+  <StrRes Name="cpConnStr" Text="Bağlantı string"/>
+  <StrRes Name="startCreateNew" Text="Yeni rapor"/>
+  <StrRes Name="startCreateBlank" Text="Boş rapor"/>
+  <StrRes Name="startOpenReport" Text="Rapor Aç"/>
+  <StrRes Name="startOpenLast" Text="Son raporu aç"/>
+  <StrRes Name="startEditAliases" Text="Bağlantı adlarını düzenle"/>
+  <StrRes Name="startHelp" Text="Yardım"/>
+  <StrRes Name="5900" Text="İzleme"/>
+  <StrRes Name="5901" Text="İzleme ekle"/>
+  <StrRes Name="5902" Text="İzleme sil"/>
+  <StrRes Name="5903" Text="İzleme düzenle"/>
+  <StrRes Name="6000" Text="Miras hatası"/>
+  <StrRes Name="6001" Text="Ana ve miras rapor çift nesneler içeriyor, ne yapalım?"/>
+  <StrRes Name="6002" Text="Çiftleri sil"/>
+  <StrRes Name="6003" Text="Çiftleri yeniden isimlendir"/>
+  <StrRes Name="4729" Text="Templates path :"/>
+  <StrRes Name="obDataBases" Text="DataBases"/>
+  <StrRes Name="obTables" Text="Tables"/>
+  <StrRes Name="obQueries" Text="Queries"/>
+  <StrRes Name="6004" Text="Sort by Name"/>
+  <StrRes Name="crGroup" Text="Group"/>
+  <StrRes Name="4331" Text="Grouping"/>
+  <StrRes Name="BoolToStr" Text="Returns the True string if B is true, otherwise returns the False string"/>
+  <StrRes Name="StrToBool" Text="Returns true if S='True', false if S='False'. If S can't be converted, an exception is raised."/>
+</Resources>

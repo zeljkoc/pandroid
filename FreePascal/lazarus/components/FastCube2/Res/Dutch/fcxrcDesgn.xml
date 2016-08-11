@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources CodePage="1252">
+  <StrRes Name="2000" Text="Object inspecteur"/>
+  <StrRes Name="oiProp" Text="Eigenschappen"/>
+  <StrRes Name="oiEvent" Text="Gebeurtenissen"/>
+  <StrRes Name="2100" Text="Gegevens boom"/>
+  <StrRes Name="2101" Text="Gegevens"/>
+  <StrRes Name="2102" Text="Variabelen"/>
+  <StrRes Name="2103" Text="Functies"/>
+  <StrRes Name="2104" Text="Veld aanmaken"/>
+  <StrRes Name="2105" Text="Bijschrift aanmaken"/>
+  <StrRes Name="2106" Text="Classes"/>
+  <StrRes Name="dtNoData" Text="Geen gegevens beschikbaar"/>
+  <StrRes Name="dtNoData1" Text="Go &#38;#34;Report|Data...&#38;#34; menu to add an existing datasets to your report, or switch to &#38;#34;Data&#38;#34; tab and create new datasets."/>
+  <StrRes Name="dtData" Text="Gegevens"/>
+  <StrRes Name="dtSysVar" Text="Systeem variabelen"/>
+  <StrRes Name="dtVar" Text="Variabelen"/>
+  <StrRes Name="dtFunc" Text="Functies"/>
+  <StrRes Name="2200" Text="Rapport boom"/>
+  <StrRes Name="2300" Text="Scriptbestand openen"/>
+  <StrRes Name="2301" Text="Script in bestand opslaan"/>
+  <StrRes Name="2302" Text="Script uitvoeren"/>
+  <StrRes Name="2303" Text="Trace Into"/>
+  <StrRes Name="2304" Text="Script beëindigen"/>
+  <StrRes Name="2305" Text="Evalueren"/>
+  <StrRes Name="2306" Text="Taal:"/>
+  <StrRes Name="2307" Text="Uitlijnen"/>
+  <StrRes Name="2308" Text="Links uitlijnen"/>
+  <StrRes Name="2309" Text="Horizontaal centreren"/>
+  <StrRes Name="2310" Text="Rechts uitlijnen"/>
+  <StrRes Name="2311" Text="Aan bovenzijde uitlijnen"/>
+  <StrRes Name="2312" Text="Verticaal centreren"/>
+  <StrRes Name="2313" Text="Aan onderzijde uitlijnen"/>
+  <StrRes Name="2314" Text="Horizontaal verdelen"/>
+  <StrRes Name="2315" Text="Verticaal verdelen"/>
+  <StrRes Name="2316" Text="Horizontaal centreren binnen de Band"/>
+  <StrRes Name="2317" Text="Verticaal centreren binnen de Band"/>
+  <StrRes Name="2318" Text="Gelijke breedte"/>
+  <StrRes Name="2319" Text="Gelijke hoogte"/>
+  <StrRes Name="2320" Text="Tekst"/>
+  <StrRes Name="2321" Text="Stijl"/>
+  <StrRes Name="2322" Text="Lettertype naam"/>
+  <StrRes Name="2323" Text="Lettertype grootte"/>
+  <StrRes Name="2324" Text="Vet"/>
+  <StrRes Name="2325" Text="Cursief"/>
+  <StrRes Name="2326" Text="Onderstreept"/>
+  <StrRes Name="2327" Text="Lettertype kleur"/>
+  <StrRes Name="2328" Text="Markeren"/>
+  <StrRes Name="2329" Text="Tekst verdraaiing"/>
+  <StrRes Name="2330" Text="Links uitlijnen"/>
+  <StrRes Name="2331" Text="Horizontaal Centreren"/>
+  <StrRes Name="2332" Text="Rechts uitlijnen"/>
+  <StrRes Name="2333" Text="Uitvullen"/>
+  <StrRes Name="2334" Text="Boven uitlijnen"/>
+  <StrRes Name="2335" Text="Verticaal centreren"/>
+  <StrRes Name="2336" Text="Onder uitlijnen"/>
+  <StrRes Name="2337" Text="Kaders"/>
+  <StrRes Name="2338" Text="Boven kader"/>
+  <StrRes Name="2339" Text="Onder kader"/>
+  <StrRes Name="2340" Text="Linker kader"/>
+  <StrRes Name="2341" Text="Rechter kader"/>
+  <StrRes Name="2342" Text="Alle kaders"/>
+  <StrRes Name="2343" Text="Geen kaders"/>
+  <StrRes Name="2344" Text="Schaduw"/>
+  <StrRes Name="2345" Text="Achtergrondkleur"/>
+  <StrRes Name="2346" Text="Kaderlijnkleur"/>
+  <StrRes Name="2347" Text="Kaderlijnstijl"/>
+  <StrRes Name="2348" Text="Kaderlijnbreedte"/>
+  <StrRes Name="2349" Text="Standaard"/>
+  <StrRes Name="2350" Text="Nieuw Rapport"/>
+  <StrRes Name="2351" Text="Rapport openen"/>
+  <StrRes Name="2352" Text="Rapport opslaan"/>
+  <StrRes Name="2353" Text="Voorbeeld"/>
+  <StrRes Name="2354" Text="Nieuwe rapport pagina"/>
+  <StrRes Name="2355" Text="Nieuwe dialoog pagina"/>
+  <StrRes Name="2356" Text="Pagina verwijderen"/>
+  <StrRes Name="2357" Text="Pagina instellingen"/>
+  <StrRes Name="2358" Text="Variabelen"/>
+  <StrRes Name="2359" Text="Knippen"/>
+  <StrRes Name="2360" Text="Kopiëren"/>
+  <StrRes Name="2361" Text="Plakken"/>
+  <StrRes Name="2362" Text="Opmaak kopiëren"/>
+  <StrRes Name="2363" Text="Ongedaan maken"/>
+  <StrRes Name="2364" Text="Opnieuw doen"/>
+  <StrRes Name="2365" Text="Groeperen"/>
+  <StrRes Name="2366" Text="Groepering opheffen"/>
+  <StrRes Name="2367" Text="Raster tonen"/>
+  <StrRes Name="2368" Text="Uitlijnen op het raster"/>
+  <StrRes Name="2369" Text="Formaat aanpassen aan het raster"/>
+  <StrRes Name="2370" Text="Zoom"/>
+  <StrRes Name="2371" Text="Extra gereedschap"/>
+  <StrRes Name="2372" Text="Selecteren"/>
+  <StrRes Name="2373" Text="Slepen"/>
+  <StrRes Name="2374" Text="Zoomen"/>
+  <StrRes Name="2375" Text="Tekst"/>
+  <StrRes Name="2376" Text="Opmaak kopiëren"/>
+  <StrRes Name="2377" Text="Band invoegen"/>
+  <StrRes Name="2378" Text="&amp;Bestand"/>
+  <StrRes Name="2379" Text="B&amp;ewerken"/>
+  <StrRes Name="2380" Text="Zoeken..."/>
+  <StrRes Name="2381" Text="Volgende zoeken"/>
+  <StrRes Name="2382" Text="Vervangen..."/>
+  <StrRes Name="2383" Text="&amp;Rapport"/>
+  <StrRes Name="2384" Text="Gegevens..."/>
+  <StrRes Name="2385" Text="Opties..."/>
+  <StrRes Name="2386" Text="Stijlen..."/>
+  <StrRes Name="2387" Text="Bee&amp;ld"/>
+  <StrRes Name="2388" Text="Werkbalken"/>
+  <StrRes Name="2389" Text="Standaard"/>
+  <StrRes Name="2390" Text="Tekst"/>
+  <StrRes Name="2391" Text="Kaderlijnen"/>
+  <StrRes Name="2392" Text="Uitlijn palet"/>
+  <StrRes Name="2393" Text="Extra gereedschap"/>
+  <StrRes Name="2394" Text="Object inspecteur"/>
+  <StrRes Name="2395" Text="Gegevens boom"/>
+  <StrRes Name="2396" Text="Rapport boom"/>
+  <StrRes Name="2397" Text="Linealen"/>
+  <StrRes Name="2398" Text="Hulplijnen"/>
+  <StrRes Name="2399" Text="Hulplijnen verwijderen"/>
+  <StrRes Name="2400" Text="Opties..."/>
+  <StrRes Name="2401" Text="&amp;Help"/>
+  <StrRes Name="2402" Text="Help inhoudsopgave..."/>
+  <StrRes Name="2403" Text="Over FastReport..."/>
+  <StrRes Name="2404" Text="Tab volgorde..."/>
+  <StrRes Name="2405" Text="Ongedaan maken"/>
+  <StrRes Name="2406" Text="Opnieuw doen"/>
+  <StrRes Name="2407" Text="Knippen"/>
+  <StrRes Name="2408" Text="Kopiëren"/>
+  <StrRes Name="2409" Text="Plakken"/>
+  <StrRes Name="2410" Text="Groeperen"/>
+  <StrRes Name="2411" Text="Groep opheffen"/>
+  <StrRes Name="2412" Text="Verwijderen"/>
+  <StrRes Name="2413" Text="Pagina verwijderen"/>
+  <StrRes Name="2414" Text="Alles selecteren"/>
+  <StrRes Name="2415" Text="Bewerken..."/>
+  <StrRes Name="2416" Text="Naar voorgrond brengen"/>
+  <StrRes Name="2417" Text="Naar achtergond sturen"/>
+  <StrRes Name="2418" Text="Nieuw..."/>
+  <StrRes Name="2419" Text="Nieuw rapport"/>
+  <StrRes Name="2420" Text="Nieuwe pagina"/>
+  <StrRes Name="2421" Text="Nieuwe dialoog"/>
+  <StrRes Name="2422" Text="Openen..."/>
+  <StrRes Name="2423" Text="Opslaan"/>
+  <StrRes Name="2424" Text="Opslaan als..."/>
+  <StrRes Name="2425" Text="Variabelen..."/>
+  <StrRes Name="2426" Text="Pagina instellingen..."/>
+  <StrRes Name="2427" Text="Voorbeeld"/>
+  <StrRes Name="2428" Text="Einde"/>
+  <StrRes Name="2429" Text="Rapport titel"/>
+  <StrRes Name="2430" Text="Rapport samenvatting"/>
+  <StrRes Name="2431" Text="Pagina kop"/>
+  <StrRes Name="2432" Text="Pagina voet"/>
+  <StrRes Name="2433" Text="Koptekst"/>
+  <StrRes Name="2434" Text="Voettekst"/>
+  <StrRes Name="2435" Text="Master gegevens"/>
+  <StrRes Name="2436" Text="Detail gegevens"/>
+  <StrRes Name="2437" Text="Subdetail gegevens"/>
+  <StrRes Name="2438" Text="Gegevens 4e niveau"/>
+  <StrRes Name="2439" Text="Gegevens 5e niveau"/>
+  <StrRes Name="2440" Text="Gegevens 6e niveau"/>
+  <StrRes Name="2441" Text="Groep kop"/>
+  <StrRes Name="2442" Text="Groep voet"/>
+  <StrRes Name="2443" Text="child"/>
+  <StrRes Name="2444" Text="Kolom kop"/>
+  <StrRes Name="2445" Text="Kolom voet"/>
+  <StrRes Name="2446" Text="Overlappen"/>
+  <StrRes Name="2447" Text="Verticale banden"/>
+  <StrRes Name="2448" Text="Kop"/>
+  <StrRes Name="2449" Text="Voet"/>
+  <StrRes Name="2450" Text="Master gegevens"/>
+  <StrRes Name="2451" Text="Detail gegevens"/>
+  <StrRes Name="2452" Text="Subdetail gegevens"/>
+  <StrRes Name="2453" Text="Groep kop"/>
+  <StrRes Name="2454" Text="Groep voet"/>
+  <StrRes Name="2455" Text="child"/>
+  <StrRes Name="2456" Text="0°"/>
+  <StrRes Name="2457" Text="45°"/>
+  <StrRes Name="2458" Text="90°"/>
+  <StrRes Name="2459" Text="180°"/>
+  <StrRes Name="2460" Text="270°"/>
+  <StrRes Name="2461" Text="Lettertype instellingen"/>
+  <StrRes Name="2462" Text="Vet"/>
+  <StrRes Name="2463" Text="Cursief"/>
+  <StrRes Name="2464" Text="Onderstreept"/>
+  <StrRes Name="2465" Text="SuperScript"/>
+  <StrRes Name="2466" Text="SubScript"/>
+  <StrRes Name="2467" Text="Gecomprimeerd"/>
+  <StrRes Name="2468" Text="Breed"/>
+  <StrRes Name="2469" Text="12 cpi"/>
+  <StrRes Name="2470" Text="15 cpi"/>
+  <StrRes Name="2471" Text="Rapport (*.fr3)|*.fr3"/>
+  <StrRes Name="2472" Text="Pascal bestanden (*.pas)|*.pas|C++ files (*.cpp)|*.cpp|JavaScript bestanden (*.js)|*.js|Basic bestanden (*.vb)|*.vb|Alle bestanden|*.*"/>
+  <StrRes Name="2473" Text="Pascal bestanden (*.pas)|*.pas|C++ files (*.cpp)|*.cpp|JavaScript bestanden (*.js)|*.js|Basic bestanden (*.vb)|*.vb|Alle bestanden|*.*"/>
+  <StrRes Name="2474" Text="Connections..."/>
+  <StrRes Name="2475" Text="Language"/>
+  <StrRes Name="2476" Text="Toggle breakpoint"/>
+  <StrRes Name="2477" Text="Run to cursor"/>
+  <StrRes Name="2478" Text="!Add child band"/>
+  <StrRes Name="dsCm" Text="Centimeters"/>
+  <StrRes Name="dsInch" Text="Inches"/>
+  <StrRes Name="dsPix" Text="Pixels"/>
+  <StrRes Name="dsChars" Text="Tekens"/>
+  <StrRes Name="dsCode" Text="Code"/>
+  <StrRes Name="dsData" Text="Data"/>
+  <StrRes Name="dsPage" Text="Pagina"/>
+  <StrRes Name="dsRepFilter" Text="Rapport (*.fr3)|*.fr3"/>
+  <StrRes Name="dsComprRepFilter" Text="Gecomprimeerd rapport (*.fr3)|*.fr3"/>
+  <StrRes Name="dsSavePreviewChanges" Text="Wijzigingen in voorbeeld pagina opslaan?"/>
+  <StrRes Name="dsSaveChangesTo" Text="Wijzigingen opslaan in "/>
+  <StrRes Name="dsCantLoad" Text="Bestand kon niet geladen worden"/>
+  <StrRes Name="dsStyleFile" Text="Stijl"/>
+  <StrRes Name="dsCantFindProc" Text="Kon de main procedure niet vinden"/>
+  <StrRes Name="dsClearScript" Text="Dit zal alle code wissen. Wil je hiermee doorgaan?"/>
+  <StrRes Name="dsNoStyle" Text="Geen stijl"/>
+  <StrRes Name="dsStyleSample" Text="Stijl voorbeeld"/>
+  <StrRes Name="dsTextNotFound" Text="Tekst '%s' niet gevonden"/>
+  <StrRes Name="dsReplace" Text="Vervang deze verschijning van '%s'?"/>
+  <StrRes Name="2600" Text="Over FastReport"/>
+  <StrRes Name="2601" Text="Zie de website voor meer informatie:"/>
+  <StrRes Name="2602" Text="Verkoop:"/>
+  <StrRes Name="2603" Text="Support:"/>
+  <StrRes Name="2700" Text="Pagina opties"/>
+  <StrRes Name="2701" Text="Papier"/>
+  <StrRes Name="2702" Text="Breedte"/>
+  <StrRes Name="2703" Text="Hoogte"/>
+  <StrRes Name="2704" Text="Formaat   "/>
+  <StrRes Name="2705" Text="Oriëntatie   "/>
+  <StrRes Name="2706" Text="Links"/>
+  <StrRes Name="2707" Text="Boven"/>
+  <StrRes Name="2708" Text="Rechts"/>
+  <StrRes Name="2709" Text="Onder"/>
+  <StrRes Name="2710" Text="Marges   "/>
+  <StrRes Name="2711" Text="Papier bron   "/>
+  <StrRes Name="2712" Text="Eerste pagina"/>
+  <StrRes Name="2713" Text="Overige pagina's"/>
+  <StrRes Name="2714" Text="Staand"/>
+  <StrRes Name="2715" Text="Liggend"/>
+  <StrRes Name="2716" Text="Overige opties"/>
+  <StrRes Name="2717" Text="Kolommen   "/>
+  <StrRes Name="2718" Text="Aantal"/>
+  <StrRes Name="2719" Text="Breedte"/>
+  <StrRes Name="2720" Text="Posities"/>
+  <StrRes Name="2721" Text="Anders   "/>
+  <StrRes Name="2722" Text="Dubbelzijdig"/>
+  <StrRes Name="2723" Text="Afdrukken op vorige pagina"/>
+  <StrRes Name="2724" Text="Marges spiegelen"/>
+  <StrRes Name="2725" Text="Grote hoogte in ontwerp modus"/>
+  <StrRes Name="2726" Text="Endless page width"/>
+  <StrRes Name="2727" Text="Endless page height"/>
+  <StrRes Name="2800" Text="Selecteer Rapport datasets"/>
+  <StrRes Name="2900" Text="Bewerk variabelen"/>
+  <StrRes Name="2901" Text="Categorie"/>
+  <StrRes Name="2902" Text="Variabele"/>
+  <StrRes Name="2903" Text="Bewerken"/>
+  <StrRes Name="2904" Text="Verwijderen"/>
+  <StrRes Name="2905" Text="Lijst"/>
+  <StrRes Name="2906" Text="Laden"/>
+  <StrRes Name="2907" Text="Opslaan"/>
+  <StrRes Name="2908" Text=" Expressie:"/>
+  <StrRes Name="2909" Text="Dictionary (*.fd3)|*.fd3"/>
+  <StrRes Name="2910" Text="Dictionary (*.fd3)|*.fd3"/>
+  <StrRes Name="vaNoVar" Text="(geen variabelen gedefinieerd)"/>
+  <StrRes Name="vaVar" Text="Variabelen"/>
+  <StrRes Name="vaDupName" Text="Dubbele naam"/>
+  <StrRes Name="3000" Text="Ontwerp opties"/>
+  <StrRes Name="3001" Text="Raster   "/>
+  <StrRes Name="3002" Text="Type"/>
+  <StrRes Name="3003" Text="Formaat"/>
+  <StrRes Name="3004" Text="Dialoog form:"/>
+  <StrRes Name="3005" Text="Anders   "/>
+  <StrRes Name="3006" Text="Lettertypen   "/>
+  <StrRes Name="3007" Text="Code venster"/>
+  <StrRes Name="3008" Text="Tekst bewerker"/>
+  <StrRes Name="3009" Text="Formaat"/>
+  <StrRes Name="3010" Text="Formaat"/>
+  <StrRes Name="3011" Text="Kleuren   "/>
+  <StrRes Name="3012" Text="Afstand tussen banden:"/>
+  <StrRes Name="3013" Text="cm"/>
+  <StrRes Name="3014" Text="in"/>
+  <StrRes Name="3015" Text="pt"/>
+  <StrRes Name="3016" Text="pt"/>
+  <StrRes Name="3017" Text="pt"/>
+  <StrRes Name="3018" Text="Centimeters:"/>
+  <StrRes Name="3019" Text="Inches:"/>
+  <StrRes Name="3020" Text="Pixels:"/>
+  <StrRes Name="3021" Text="Raster weergeven"/>
+  <StrRes Name="3022" Text="Uitlijnen op het raster"/>
+  <StrRes Name="3023" Text="Toon het bewerkingsgereedschap na het invoegen"/>
+  <StrRes Name="3024" Text="Gebruik lettertype van object"/>
+  <StrRes Name="3025" Text="Werkruimte"/>
+  <StrRes Name="3026" Text="Gereedschap vensters"/>
+  <StrRes Name="3027" Text="LCD raster kleur"/>
+  <StrRes Name="3028" Text="Vrije band plaatsing"/>
+  <StrRes Name="3029" Text="Show drop-down fields list"/>
+  <StrRes Name="3030" Text="Show startup screen"/>
+  <StrRes Name="3031" Text="Standaard waarden"/>
+  <StrRes Name="3032" Text="Toon band bijschriften"/>
+  <StrRes Name="3100" Text="Selecteer dataSet"/>
+  <StrRes Name="3101" Text="Number of records:"/>
+  <StrRes Name="dbNotAssigned" Text="[niet toegewezen]"/>
+  <StrRes Name="3200" Text="Groeperen"/>
+  <StrRes Name="3201" Text="Verbreken op   "/>
+  <StrRes Name="3202" Text="Opties   "/>
+  <StrRes Name="3203" Text="Gegevens veld"/>
+  <StrRes Name="3204" Text="Expressie"/>
+  <StrRes Name="3205" Text="Hou de groep bijelkaar"/>
+  <StrRes Name="3206" Text="Start met een nieuwe pagina"/>
+  <StrRes Name="3207" Text="In inhoudsopgave tonen"/>
+  <StrRes Name="3300" Text="Systeem Memo"/>
+  <StrRes Name="3301" Text="Gegevens band"/>
+  <StrRes Name="3302" Text="DataSet"/>
+  <StrRes Name="3303" Text="Gegevens veld"/>
+  <StrRes Name="3304" Text="Functie"/>
+  <StrRes Name="3305" Text="Expressie"/>
+  <StrRes Name="3306" Text="Berekende waarde"/>
+  <StrRes Name="3307" Text="Systeem variabele"/>
+  <StrRes Name="3308" Text="Tel de onzichtbare banden"/>
+  <StrRes Name="3309" Text="Tekst"/>
+  <StrRes Name="3310" Text="Tussen totaal"/>
+  <StrRes Name="agAggregate" Text="Opsomming invoegen"/>
+  <StrRes Name="vt1" Text="[DATE]"/>
+  <StrRes Name="vt2" Text="[TIME]"/>
+  <StrRes Name="vt3" Text="[PAGE#]"/>
+  <StrRes Name="vt4" Text="[TOTALPAGES#]"/>
+  <StrRes Name="vt5" Text="[PAGE#] of [TOTALPAGES#]"/>
+  <StrRes Name="vt6" Text="[LINE#]"/>
+  <StrRes Name="3400" Text="OLE Object"/>
+  <StrRes Name="3401" Text="Invoegen..."/>
+  <StrRes Name="3402" Text="Bewerken..."/>
+  <StrRes Name="3403" Text="Sluiten"/>
+  <StrRes Name="olStretched" Text="Uitgerekt"/>
+  <StrRes Name="3500" Text="Barcode Editor"/>
+  <StrRes Name="3501" Text="Code"/>
+  <StrRes Name="3502" Text="Type van de Bar"/>
+  <StrRes Name="3503" Text="Zoom:"/>
+  <StrRes Name="3504" Text="Opties   "/>
+  <StrRes Name="3505" Text="Rotatie   "/>
+  <StrRes Name="3506" Text="Checksum berekenen "/>
+  <StrRes Name="3507" Text="Tekst"/>
+  <StrRes Name="3508" Text="0°"/>
+  <StrRes Name="3509" Text="90°"/>
+  <StrRes Name="3510" Text="180°"/>
+  <StrRes Name="3511" Text="270°"/>
+  <StrRes Name="bcCalcChecksum" Text="CheckSum berekenen"/>
+  <StrRes Name="bcShowText" Text="Tekst tonen"/>
+  <StrRes Name="3600" Text="Bewerk aliasen"/>
+  <StrRes Name="3601" Text="Druk op Enter om het item te bewerken"/>
+  <StrRes Name="3602" Text="Dataset alias"/>
+  <StrRes Name="3603" Text="Veld aliases"/>
+  <StrRes Name="3604" Text="Opnieuw"/>
+  <StrRes Name="3605" Text="Update"/>
+  <StrRes Name="alUserName" Text="Gebruikers naam"/>
+  <StrRes Name="alOriginal" Text="Originele naam"/>
+  <StrRes Name="3700" Text="Parameters Editor"/>
+  <StrRes Name="qpName" Text="Naam"/>
+  <StrRes Name="qpDataType" Text="Data Type"/>
+  <StrRes Name="qpValue" Text="Waarde"/>
+  <StrRes Name="3800" Text="Master-Detail link"/>
+  <StrRes Name="3801" Text="Detail velden"/>
+  <StrRes Name="3802" Text="Master velden"/>
+  <StrRes Name="3803" Text="Linked velden"/>
+  <StrRes Name="3804" Text="Toevoegen"/>
+  <StrRes Name="3805" Text="Wissen"/>
+  <StrRes Name="3900" Text="Memo"/>
+  <StrRes Name="3901" Text="Expression invoegen"/>
+  <StrRes Name="3902" Text="Berekening invoegen"/>
+  <StrRes Name="3903" Text="Opmaak invoegen"/>
+  <StrRes Name="3904" Text="Woorden afbreken"/>
+  <StrRes Name="3905" Text="Text"/>
+  <StrRes Name="3906" Text="Format"/>
+  <StrRes Name="3907" Text="Highlight"/>
+  <StrRes Name="4000" Text="Afbeelding"/>
+  <StrRes Name="4001" Text="Laden"/>
+  <StrRes Name="4002" Text="Kopiëren"/>
+  <StrRes Name="4003" Text="Plakken"/>
+  <StrRes Name="4004" Text="Wissen"/>
+  <StrRes Name="piEmpty" Text="Leeg"/>
+  <StrRes Name="4100" Text="Chart Editor"/>
+  <StrRes Name="4101" Text="Series toevoegen"/>
+  <StrRes Name="4102" Text="Series verwijderen"/>
+  <StrRes Name="4103" Text="Edit Chart"/>
+  <StrRes Name="4104" Text="Band bron"/>
+  <StrRes Name="4105" Text="Vaste gegevens"/>
+  <StrRes Name="4106" Text="Dataset"/>
+  <StrRes Name="4107" Text="Data Source"/>
+  <StrRes Name="4108" Text="Values"/>
+  <StrRes Name="4109" Text="Select the chart series or add a new one."/>
+  <StrRes Name="4114" Text="Overige opties   "/>
+  <StrRes Name="4115" Text="TopN waarden"/>
+  <StrRes Name="4116" Text="TopN bijschrift"/>
+  <StrRes Name="4117" Text="Sorteervolgorde"/>
+  <StrRes Name="4126" Text="X Axis"/>
+  <StrRes Name="ch3D" Text="3D beeld"/>
+  <StrRes Name="chAxis" Text="As tonen"/>
+  <StrRes Name="chsoNone" Text="Geen"/>
+  <StrRes Name="chsoAscending" Text="Oplopend"/>
+  <StrRes Name="chsoDescending" Text="Aflopend"/>
+  <StrRes Name="chxtText" Text="Text"/>
+  <StrRes Name="chxtNumber" Text="Numeric"/>
+  <StrRes Name="chxtDate" Text="Date"/>
+  <StrRes Name="4200" Text="Rich Editor"/>
+  <StrRes Name="4201" Text="Bestand openen"/>
+  <StrRes Name="4202" Text="Bestand opslaan"/>
+  <StrRes Name="4203" Text="Ongedaan maken"/>
+  <StrRes Name="4204" Text="Lettertype"/>
+  <StrRes Name="4205" Text="Expressie invoegen"/>
+  <StrRes Name="4206" Text="Vet"/>
+  <StrRes Name="4207" Text="Cursief"/>
+  <StrRes Name="4208" Text="Onderstreept"/>
+  <StrRes Name="4209" Text="Links uitlijnen"/>
+  <StrRes Name="4210" Text="Horizontaal centreren"/>
+  <StrRes Name="4211" Text="Rechts uitlijnen"/>
+  <StrRes Name="4212" Text="Uitvullen"/>
+  <StrRes Name="4213" Text="Opsommingstekens"/>
+  <StrRes Name="4300" Text="Cross-tab Editor"/>
+  <StrRes Name="4301" Text="Brongegevens   "/>
+  <StrRes Name="4302" Text="Dimensies   "/>
+  <StrRes Name="4303" Text="Rijen"/>
+  <StrRes Name="4304" Text="Kolommen"/>
+  <StrRes Name="4305" Text="Cellen"/>
+  <StrRes Name="4306" Text="Kruistabel structuur   "/>
+  <StrRes Name="4307" Text="Rij kop"/>
+  <StrRes Name="4308" Text="Kolom kop"/>
+  <StrRes Name="4309" Text="Rij totaal"/>
+  <StrRes Name="4310" Text="Kolom totaal"/>
+  <StrRes Name="4311" Text="Rijen en kolommen omwisselen"/>
+  <StrRes Name="4312" Text="!Select style"/>
+  <StrRes Name="4313" Text="!Save current style..."/>
+  <StrRes Name="4314" Text="!Show title"/>
+  <StrRes Name="4315" Text="!Field names"/>
+  <StrRes Name="4316" Text="!Reprint headers on new page"/>
+  <StrRes Name="4317" Text="!Auto size"/>
+  <StrRes Name="4318" Text="!Border around cells"/>
+  <StrRes Name="4319" Text="!Print down then across"/>
+  <StrRes Name="4320" Text="!Side-by-side cells"/>
+  <StrRes Name="4321" Text="!Join equal cells"/>
+  <StrRes Name="4322" Text="Geen"/>
+  <StrRes Name="4323" Text="Som"/>
+  <StrRes Name="4324" Text="Min"/>
+  <StrRes Name="4325" Text="Max"/>
+  <StrRes Name="4326" Text="Gemiddelde"/>
+  <StrRes Name="4327" Text="Aantal"/>
+  <StrRes Name="4328" Text="Oplopend (A-Z)"/>
+  <StrRes Name="4329" Text="Aflopend (Z-A)"/>
+  <StrRes Name="4330" Text="Geen sortering"/>
+  <StrRes Name="43161" Text="Reprint column headers on new page"/>
+  <StrRes Name="43160" Text="Reprint row headers on new page"/>
+  <StrRes Name="crStName" Text="!Enter the style name:"/>
+  <StrRes Name="crResize" Text="!To resize a cross-tab, set its &#38;#34;AutoSize&#38;#34; property to False."/>
+  <StrRes Name="crSubtotal" Text="Subtotaal"/>
+  <StrRes Name="crNone" Text="Geen"/>
+  <StrRes Name="crSum" Text="Som"/>
+  <StrRes Name="crMin" Text="Min"/>
+  <StrRes Name="crMax" Text="Max"/>
+  <StrRes Name="crAvg" Text="Gem"/>
+  <StrRes Name="crCount" Text="Aantal"/>
+  <StrRes Name="crAsc" Text="A-Z"/>
+  <StrRes Name="crDesc" Text="Z-A"/>
+  <StrRes Name="4400" Text="Expressie Editor"/>
+  <StrRes Name="4401" Text="Expressie:"/>
+  <StrRes Name="4500" Text="Toon formaat"/>
+  <StrRes Name="4501" Text="Categorie"/>
+  <StrRes Name="4502" Text="Formaat"/>
+  <StrRes Name="4503" Text="Tekenreeks formaat:"/>
+  <StrRes Name="4504" Text="Decimale scheidingsteken:"/>
+  <StrRes Name="fkText" Text="Tekst (geen formattering)"/>
+  <StrRes Name="fkNumber" Text="Getal"/>
+  <StrRes Name="fkDateTime" Text="Datum/Tijd"/>
+  <StrRes Name="fkBoolean" Text="Boolean"/>
+  <StrRes Name="fkNumber1" Text="1234.5;%g"/>
+  <StrRes Name="fkNumber2" Text="1234.50;%2.2f"/>
+  <StrRes Name="fkNumber3" Text="1,234.50;%2.2n"/>
+  <StrRes Name="fkNumber4" Text="$1,234.50;%2.2m"/>
+  <StrRes Name="fkDateTime1" Text="11.28.2002;mm.dd.yyyy"/>
+  <StrRes Name="fkDateTime2" Text="28 nov 2002;dd mmm yyyy"/>
+  <StrRes Name="fkDateTime3" Text="November 28, 2002;mmmm dd, yyyy"/>
+  <StrRes Name="fkDateTime4" Text="02:14;hh:mm"/>
+  <StrRes Name="fkDateTime5" Text="02:14am;hh:mm am/pm"/>
+  <StrRes Name="fkDateTime6" Text="02:14:00;hh:mm:ss"/>
+  <StrRes Name="fkDateTime7" Text="02:14am, November 28, 2002;hh:mm am/pm, mmmm dd, yyyy"/>
+  <StrRes Name="fkBoolean1" Text="0,1;0,1"/>
+  <StrRes Name="fkBoolean2" Text="Nee,Ja;Nee,Ja"/>
+  <StrRes Name="fkBoolean3" Text="_,x;_,x"/>
+  <StrRes Name="fkBoolean4" Text="Onwaar,Waar;Onwaar,Waar"/>
+  <StrRes Name="4600" Text="Markeren"/>
+  <StrRes Name="4601" Text="Kleur..."/>
+  <StrRes Name="4602" Text="Kleur..."/>
+  <StrRes Name="4603" Text="Conditie   "/>
+  <StrRes Name="4604" Text="Lettertype   "/>
+  <StrRes Name="4605" Text="Achtergrond   "/>
+  <StrRes Name="4606" Text="Vet"/>
+  <StrRes Name="4607" Text="Cursief"/>
+  <StrRes Name="4608" Text="Onderstreept"/>
+  <StrRes Name="4609" Text="Transparant"/>
+  <StrRes Name="4610" Text="Overig"/>
+  <StrRes Name="4700" Text="Rapport instellingen"/>
+  <StrRes Name="4701" Text="Algemeen"/>
+  <StrRes Name="4702" Text="Printer instellingen   "/>
+  <StrRes Name="4703" Text="Kopieën"/>
+  <StrRes Name="4704" Text="Algemeen   "/>
+  <StrRes Name="4705" Text="Wachtwoord"/>
+  <StrRes Name="4706" Text="Kopieën groeperen"/>
+  <StrRes Name="4707" Text="Dubbele stap"/>
+  <StrRes Name="4708" Text="Afdrukken indien leeg"/>
+  <StrRes Name="4709" Text="Beschrijving"/>
+  <StrRes Name="4710" Text="Naam"/>
+  <StrRes Name="4711" Text="Beschrijving"/>
+  <StrRes Name="4712" Text="Afbeelding"/>
+  <StrRes Name="4713" Text="Auteur"/>
+  <StrRes Name="4714" Text="Major"/>
+  <StrRes Name="4715" Text="Minor"/>
+  <StrRes Name="4716" Text="Release"/>
+  <StrRes Name="4717" Text="Build"/>
+  <StrRes Name="4718" Text="Gecreëerd"/>
+  <StrRes Name="4719" Text="Gewijzigd"/>
+  <StrRes Name="4720" Text="Beschrijving   "/>
+  <StrRes Name="4721" Text="Versie   "/>
+  <StrRes Name="4722" Text="Bladeren..."/>
+  <StrRes Name="4723" Text="Inheritance settings"/>
+  <StrRes Name="4724" Text="Select the option:"/>
+  <StrRes Name="4725" Text="Don't change"/>
+  <StrRes Name="4726" Text="Detach the base report"/>
+  <StrRes Name="4727" Text="Inherit from base report:"/>
+  <StrRes Name="4728" Text="Inheritance"/>
+  <StrRes Name="rePrnOnPort" Text="aan"/>
+  <StrRes Name="riNotInherited" Text="This report is not inherited."/>
+  <StrRes Name="riInherited" Text="This report is inherited from base report: %s"/>
+  <StrRes Name="4800" Text="Regels"/>
+  <StrRes Name="4900" Text="SQL"/>
+  <StrRes Name="4901" Text="Query Builder"/>
+  <StrRes Name="5000" Text="Wachtwoord"/>
+  <StrRes Name="5001" Text="Voer het wachtwoord in:"/>
+  <StrRes Name="5100" Text="Stijl bewerken"/>
+  <StrRes Name="5101" Text="Kleur..."/>
+  <StrRes Name="5102" Text="Lettertype..."/>
+  <StrRes Name="5103" Text="Kaders..."/>
+  <StrRes Name="5104" Text="Toevoegen"/>
+  <StrRes Name="5105" Text="Verwijderen"/>
+  <StrRes Name="5106" Text="Bewerken"/>
+  <StrRes Name="5107" Text="Laden"/>
+  <StrRes Name="5108" Text="Opslaan"/>
+  <StrRes Name="5200" Text="Kaders bewerken"/>
+  <StrRes Name="5201" Text="Kader"/>
+  <StrRes Name="5202" Text="Kaderlijn"/>
+  <StrRes Name="5203" Text="Schaduw"/>
+  <StrRes Name="5204" Text="Boven kader"/>
+  <StrRes Name="5205" Text="Onder kader"/>
+  <StrRes Name="5206" Text="Linker kader"/>
+  <StrRes Name="5207" Text="Rechter kader"/>
+  <StrRes Name="5208" Text="Alle kaders"/>
+  <StrRes Name="5209" Text="Geen kaders"/>
+  <StrRes Name="5210" Text="Kaderlijnkleur"/>
+  <StrRes Name="5211" Text="Kaderlijnstijl"/>
+  <StrRes Name="5212" Text="Kaderlijnbreedte"/>
+  <StrRes Name="5213" Text="Schaduw"/>
+  <StrRes Name="5214" Text="Schaduw kleur"/>
+  <StrRes Name="5215" Text="Schaduw breedte"/>
+  <StrRes Name="5300" Text="New Item"/>
+  <StrRes Name="5301" Text="Items"/>
+  <StrRes Name="5302" Text="Templates"/>
+  <StrRes Name="5303" Text="Inherit the report"/>
+  <StrRes Name="5400" Text="Tab volgorde"/>
+  <StrRes Name="5401" Text="Controls op tab volgorde:"/>
+  <StrRes Name="5402" Text="Verplaats omhoog"/>
+  <StrRes Name="5403" Text="Verplaats omlaag"/>
+  <StrRes Name="5500" Text="Evalueer"/>
+  <StrRes Name="5501" Text="Expressie"/>
+  <StrRes Name="5502" Text="Resultaat"/>
+  <StrRes Name="5600" Text="Rapport Wizard"/>
+  <StrRes Name="5601" Text="Gegevens"/>
+  <StrRes Name="5602" Text="Fields"/>
+  <StrRes Name="5603" Text="Groepen"/>
+  <StrRes Name="5604" Text="Vormgeving"/>
+  <StrRes Name="5605" Text="Stijl"/>
+  <StrRes Name="5606" Text="Step 1. Select the dataset."/>
+  <StrRes Name="5607" Text="Step 2. Select the fields to display."/>
+  <StrRes Name="5608" Text="Step 3. Create groups (optional)."/>
+  <StrRes Name="5609" Text="Step 4. Define the page orientation and data layout."/>
+  <StrRes Name="5610" Text="Step 5. Choose the report style."/>
+  <StrRes Name="5611" Text="Toevoegen &#62;"/>
+  <StrRes Name="5612" Text="Alles toevoegen &#62;&#62;"/>
+  <StrRes Name="5613" Text="&#60; Verwijderen"/>
+  <StrRes Name="5614" Text="&#60;&#60; Alles verwijderen"/>
+  <StrRes Name="5615" Text="Toevoegen &#62;"/>
+  <StrRes Name="5616" Text="&#60; Verwijderen"/>
+  <StrRes Name="5617" Text="Geselecteerde velden:"/>
+  <StrRes Name="5618" Text="Beschikbare velden:"/>
+  <StrRes Name="5619" Text="Groepen:"/>
+  <StrRes Name="5620" Text="Oriëntatie   "/>
+  <StrRes Name="5621" Text="Vormgeving   "/>
+  <StrRes Name="5622" Text="Staand"/>
+  <StrRes Name="5623" Text="Liggend"/>
+  <StrRes Name="5624" Text="Tabelgewijs"/>
+  <StrRes Name="5625" Text="Kolomgewijs"/>
+  <StrRes Name="5626" Text="Maak velden passend binnen de pagina breedte"/>
+  <StrRes Name="5627" Text="&#60;&#60; Terug"/>
+  <StrRes Name="5628" Text="Volgende &#62;&#62;"/>
+  <StrRes Name="5629" Text="Voltooien"/>
+  <StrRes Name="5630" Text="New table..."/>
+  <StrRes Name="5631" Text="New query..."/>
+  <StrRes Name="5632" Text="Select database connection:"/>
+  <StrRes Name="5633" Text="Select a table:"/>
+  <StrRes Name="5634" Text="or"/>
+  <StrRes Name="5635" Text="Create a query..."/>
+  <StrRes Name="5636" Text="Configure connections"/>
+  <StrRes Name="wzStd" Text="Standaard Rapport Wizard"/>
+  <StrRes Name="wzDMP" Text="Dot-Matrix Rapport Wizard"/>
+  <StrRes Name="wzStdEmpty" Text="Standaard Rapport"/>
+  <StrRes Name="wzDMPEmpty" Text="Dot-Matrix Rapport"/>
+  <StrRes Name="5700" Text="Connection Wizard"/>
+  <StrRes Name="5701" Text="Connection"/>
+  <StrRes Name="5702" Text="Choose the connection type:"/>
+  <StrRes Name="5703" Text="Choose the database:"/>
+  <StrRes Name="5704" Text="Login"/>
+  <StrRes Name="5705" Text="Password"/>
+  <StrRes Name="5706" Text="Prompt login"/>
+  <StrRes Name="5707" Text="Use login/password:"/>
+  <StrRes Name="5708" Text="Table"/>
+  <StrRes Name="5709" Text="Choose the table name:"/>
+  <StrRes Name="5710" Text="Filter records:"/>
+  <StrRes Name="5711" Text="Query"/>
+  <StrRes Name="5712" Text="SQL statement:"/>
+  <StrRes Name="5713" Text="Query Builder"/>
+  <StrRes Name="5714" Text="Edit Query Parameters"/>
+  <StrRes Name="ftAllFiles" Text="Alle bestanden"/>
+  <StrRes Name="ftPictures" Text="Afbeeldingen"/>
+  <StrRes Name="ftDB" Text="Databases"/>
+  <StrRes Name="ftRichFile" Text="Opgemaakt bestand"/>
+  <StrRes Name="ftTextFile" Text="Tekst bestand"/>
+  <StrRes Name="prNotAssigned" Text="(Niet toegewezen)"/>
+  <StrRes Name="prInvProp" Text="Ongeldige waarde voor deze eigenschap"/>
+  <StrRes Name="prDupl" Text="Dubbele naam"/>
+  <StrRes Name="prPict" Text="(Afbeelding)"/>
+  <StrRes Name="mvExpr" Text="Expressies toestaan"/>
+  <StrRes Name="mvStretch" Text="Uitrekken"/>
+  <StrRes Name="mvStretchToMax" Text="Uitrekken tot maximale hoogte"/>
+  <StrRes Name="mvShift" Text="Verschuiven"/>
+  <StrRes Name="mvShiftOver" Text="Verschuiven bij overlapping"/>
+  <StrRes Name="mvVisible" Text="Zichtbaar"/>
+  <StrRes Name="mvPrintable" Text="Afdrukbaar"/>
+  <StrRes Name="mvFont" Text="Lettertype..."/>
+  <StrRes Name="mvFormat" Text="Weergave formaat..."/>
+  <StrRes Name="mvClear" Text="Inhoud wissen"/>
+  <StrRes Name="mvAutoWidth" Text="Automatische breedte"/>
+  <StrRes Name="mvWWrap" Text="Woorden afbreken"/>
+  <StrRes Name="mvSuppress" Text="Onderdruk repeterende waarden"/>
+  <StrRes Name="mvHideZ" Text="Verberg nullen"/>
+  <StrRes Name="mvHTML" Text="HTML tags toestaan"/>
+  <StrRes Name="lvDiagonal" Text="Diagonaal"/>
+  <StrRes Name="pvAutoSize" Text="Automatische grootte"/>
+  <StrRes Name="pvCenter" Text="Centreer"/>
+  <StrRes Name="pvAspect" Text="Verhouding handhaven"/>
+  <StrRes Name="bvSplit" Text="Splitsen over meerdere pagina's toestaan"/>
+  <StrRes Name="bvKeepChild" Text="Hou child en parent bij elkaar"/>
+  <StrRes Name="bvPrintChild" Text="Druk child af indien onzichtbaar"/>
+  <StrRes Name="bvStartPage" Text="Start nieuwe pagina"/>
+  <StrRes Name="bvPrintIfEmpty" Text="Afdrukken indien detail band leeg is"/>
+  <StrRes Name="bvKeepDetail" Text="Houd detail bands bij elkaar"/>
+  <StrRes Name="bvKeepFooter" Text="Houd voettekst bij elkaar"/>
+  <StrRes Name="bvReprint" Text="Opnieuw afdrukken op nieuwe pagina"/>
+  <StrRes Name="bvOnFirst" Text="Afdrukken op eerste pagina"/>
+  <StrRes Name="bvOnLast" Text="Afdrukken op laatste pagina"/>
+  <StrRes Name="bvKeepGroup" Text="Houd bij elkaar"/>
+  <StrRes Name="bvFooterAfterEach" Text="Voettekst afdrukken na iedere regel"/>
+  <StrRes Name="bvDrillDown" Text="Drill-Down"/>
+  <StrRes Name="bvResetPageNo" Text="Reset Page Numbers"/>
+  <StrRes Name="srParent" Text="Afdrukken op Parent"/>
+  <StrRes Name="bvKeepHeader" Text="Houd kopteksten bij elkaar"/>
+  <StrRes Name="obCatDraw" Text="Tekenen"/>
+  <StrRes Name="obCatOther" Text="Overige objecten"/>
+  <StrRes Name="obCatOtherControls" Text="Overige controls"/>
+  <StrRes Name="obDiagLine" Text="Diagonale lijn"/>
+  <StrRes Name="obRect" Text="Rechthoek"/>
+  <StrRes Name="obRoundRect" Text="Afgeronde rechthoek"/>
+  <StrRes Name="obEllipse" Text="Ellips"/>
+  <StrRes Name="obTrian" Text="Driehoek"/>
+  <StrRes Name="obDiamond" Text="Diamant"/>
+  <StrRes Name="obLabel" Text="Label control"/>
+  <StrRes Name="obEdit" Text="Invoerveld control"/>
+  <StrRes Name="obMemoC" Text="Tekstveld control"/>
+  <StrRes Name="obButton" Text="Knop control"/>
+  <StrRes Name="obChBoxC" Text="Vinkveld control"/>
+  <StrRes Name="obRButton" Text="Radioknop control"/>
+  <StrRes Name="obLBox" Text="Lijstveld control"/>
+  <StrRes Name="obCBox" Text="Combiveld control"/>
+  <StrRes Name="obDateEdit" Text="Datumveld control"/>
+  <StrRes Name="obImageC" Text="Afbeelding control"/>
+  <StrRes Name="obPanel" Text="Paneel control"/>
+  <StrRes Name="obGrBox" Text="Groepskader control"/>
+  <StrRes Name="obBBtn" Text="Afbeeldingsknop control"/>
+  <StrRes Name="obSBtn" Text="Werkbalkknop control"/>
+  <StrRes Name="obMEdit" Text="Gemaskerde invoerveld control"/>
+  <StrRes Name="obChLB" Text="Vinkveld lijst control"/>
+  <StrRes Name="obDBLookup" Text="DBLookupComboBox control"/>
+  <StrRes Name="obBevel" Text="Rand object"/>
+  <StrRes Name="obShape" Text="Vorm object"/>
+  <StrRes Name="obText" Text="Tekst object"/>
+  <StrRes Name="obSysText" Text="Systeem tekst"/>
+  <StrRes Name="obLine" Text="Lijn object"/>
+  <StrRes Name="obPicture" Text="Afbeelding object"/>
+  <StrRes Name="obBand" Text="Band object"/>
+  <StrRes Name="obDataBand" Text="Gegevens band"/>
+  <StrRes Name="obSubRep" Text="Subrapport object"/>
+  <StrRes Name="obDlgPage" Text="Dialoog formulier"/>
+  <StrRes Name="obRepPage" Text="Rapport pagina"/>
+  <StrRes Name="obReport" Text="Rapport object"/>
+  <StrRes Name="obRich" Text="RichText object"/>
+  <StrRes Name="obOLE" Text="OLE object"/>
+  <StrRes Name="obChBox" Text="Vinkveld object"/>
+  <StrRes Name="obChart" Text="Grafiek object"/>
+  <StrRes Name="obBarC" Text="Barcode object"/>
+  <StrRes Name="obCross" Text="Kruistabel object"/>
+  <StrRes Name="obDBCross" Text="DB kruistabel object"/>
+  <StrRes Name="obGrad" Text="Raster object"/>
+  <StrRes Name="obDMPText" Text="Dot-matrix tekst object"/>
+  <StrRes Name="obDMPLine" Text="Dot-matrix lijn object"/>
+  <StrRes Name="obDMPCmd" Text="Dot-matrix Command object"/>
+  <StrRes Name="obBDEDB" Text="BDE Database"/>
+  <StrRes Name="obBDETb" Text="BDE Tabel"/>
+  <StrRes Name="obBDEQ" Text="BDE Query"/>
+  <StrRes Name="obBDEComps" Text="BDE componenten"/>
+  <StrRes Name="obIBXDB" Text="IBX Database"/>
+  <StrRes Name="obIBXTb" Text="IBX Tabel"/>
+  <StrRes Name="obIBXQ" Text="IBX Query"/>
+  <StrRes Name="obIBXComps" Text="IBX componenten"/>
+  <StrRes Name="obADODB" Text="ADO Database"/>
+  <StrRes Name="obADOTb" Text="ADO Tabel"/>
+  <StrRes Name="obADOQ" Text="ADO Query"/>
+  <StrRes Name="obADOComps" Text="ADO componenten"/>
+  <StrRes Name="obDBXDB" Text="DBX Database"/>
+  <StrRes Name="obDBXTb" Text="DBX Tabel"/>
+  <StrRes Name="obDBXQ" Text="DBX Query"/>
+  <StrRes Name="obDBXComps" Text="DBX Componenten"/>
+  <StrRes Name="obFIBDB" Text="FIB Database"/>
+  <StrRes Name="obFIBTb" Text="FIB Table"/>
+  <StrRes Name="obFIBQ" Text="FIB Query"/>
+  <StrRes Name="obFIBComps" Text="FIB Components"/>
+  <StrRes Name="ctString" Text="Tekenreeks"/>
+  <StrRes Name="ctDate" Text="Datum en tijd"/>
+  <StrRes Name="ctConv" Text="Conversies"/>
+  <StrRes Name="ctFormat" Text="Formattering"/>
+  <StrRes Name="ctMath" Text="Mathematisch"/>
+  <StrRes Name="ctOther" Text="Overig"/>
+  <StrRes Name="IntToStr" Text="Converteert een integer waarde in een tekenreeks"/>
+  <StrRes Name="FloatToStr" Text="Converteert een decimaal getal in een tekenreeks"/>
+  <StrRes Name="DateToStr" Text="Converteert een datum in een tekenreeks"/>
+  <StrRes Name="TimeToStr" Text="Converteert een tijd in een tekenreeks"/>
+  <StrRes Name="DateTimeToStr" Text="Converteert een datum-en-tijd waarde in een tekenreeks"/>
+  <StrRes Name="VarToStr" Text="Converteert een variant waarde in een tekenreeks"/>
+  <StrRes Name="StrToInt" Text="Converteert een tekenreeks in een integer waarde"/>
+  <StrRes Name="StrToInt64" Text="Converts a string to an Int64 value"/>
+  <StrRes Name="StrToFloat" Text="Converteert een tekenreeks in een decimaal getal"/>
+  <StrRes Name="StrToDate" Text="Converteert een tekenreeks in een datumformaat"/>
+  <StrRes Name="StrToTime" Text="Converteert een tekenreeks in een tijdformaat"/>
+  <StrRes Name="StrToDateTime" Text="Converteert een tekenreeks in een datum-en-tijd formaat"/>
+  <StrRes Name="Format" Text="Geeft een geformatteerde tekenreeks terug die is opgebouwd uit een serie array waarden"/>
+  <StrRes Name="FormatFloat" Text="Formatteert een decimaal getal"/>
+  <StrRes Name="FormatDateTime" Text="Formatteert een datum-en-tijd waarde"/>
+  <StrRes Name="FormatMaskText" Text="Formatteert een tekenreeks m.b.v. een invoer masker"/>
+  <StrRes Name="EncodeDate" Text="Geeft een TDateTime type terug voor een bepaald jaar, maand en dag"/>
+  <StrRes Name="DecodeDate" Text="Verdeekt een TDateTime in jaar, maand en dag waarden"/>
+  <StrRes Name="EncodeTime" Text="Geeft een TDateTime type terug voor een bepaald uur, minuut, seconde en milliseconde"/>
+  <StrRes Name="DecodeTime" Text="Verdeelt een TDateTime in uren, minuten, secondes en millisecondes"/>
+  <StrRes Name="Date" Text="Geeft de huidige datume terug"/>
+  <StrRes Name="Time" Text="Geeft de huidige tijd terug"/>
+  <StrRes Name="Now" Text="Geeft de huidige datum en tijd terug"/>
+  <StrRes Name="DayOfWeek" Text="Geeft de dag van de week terug voor een bepaalde datum"/>
+  <StrRes Name="IsLeapYear" Text="Geeft aan of een bepaald jaar een schrikkeljaar is"/>
+  <StrRes Name="DaysInMonth" Text="Geeft het aantal dagen in een bepaalde maand terug"/>
+  <StrRes Name="Length" Text="Geeft de lengte van een tekenreeks terug"/>
+  <StrRes Name="Copy" Text="Geeft een deel van een tekenreeks terug"/>
+  <StrRes Name="Pos" Text="Geeft een positie van een tekenreeks in een andere tekenreeks terug"/>
+  <StrRes Name="Delete" Text="Verwijdert een tekenreeks uit een andere tekenreeks"/>
+  <StrRes Name="Insert" Text="Voegt een tekenreeks in een andere tekenreeks in"/>
+  <StrRes Name="Uppercase" Text="Converteert alle tekens in een tekenreeks in hoofdletters"/>
+  <StrRes Name="Lowercase" Text="Converteert alle tekens in een tekenreeks in kleine letters"/>
+  <StrRes Name="Trim" Text="Verwijdert alle linker en rechter spaties van een tekenreeks"/>
+  <StrRes Name="NameCase" Text="Converteert het eerste teken van een woord in een hoofdletter"/>
+  <StrRes Name="CompareText" Text="Vergelijkt twee tekenreeksen"/>
+  <StrRes Name="Chr" Text="Converteert een geheel getal in een karakter"/>
+  <StrRes Name="Ord" Text="Converteert een karakter in een geheel getal"/>
+  <StrRes Name="SetLength" Text="Stelt de lengte van een tekenreeks in"/>
+  <StrRes Name="Round" Text="Rondt een decimal getal af op het dichtstbijzijnde gehele getal"/>
+  <StrRes Name="Trunc" Text="Kapt een deciaal getal af tot een geheel getal"/>
+  <StrRes Name="Int" Text="Geeft het gehele getal deel terug van een decimaal getal"/>
+  <StrRes Name="Frac" Text="Geeft het decimale deel terug van een decimaal getal"/>
+  <StrRes Name="Sqrt" Text="Geeft de vierkantswortel van een bepaald getal terug"/>
+  <StrRes Name="Abs" Text="Geeft een absoluut getal terug"/>
+  <StrRes Name="Sin" Text="Geeft de sinuswaarde van een hoek terug (in radialen)"/>
+  <StrRes Name="Cos" Text="Geeft de cosinuswaarde van een hoek terug (in radialen)"/>
+  <StrRes Name="ArcTan" Text="Geeft de arctangeswaarde terug"/>
+  <StrRes Name="Tan" Text="Geeft de tangenswaarde terug"/>
+  <StrRes Name="Exp" Text="Geeft de exponentiële waarde terug"/>
+  <StrRes Name="Ln" Text="Geeft de N-Log van een reële expressie terug"/>
+  <StrRes Name="Pi" Text="Geeft het 3.1415926... getal terug"/>
+  <StrRes Name="Inc" Text="Verhoogt een waarde met 1"/>
+  <StrRes Name="Dec" Text="Verlaagt een waarde met 1"/>
+  <StrRes Name="RaiseException" Text="Toont een exceptie melding"/>
+  <StrRes Name="ShowMessage" Text="Toont een bericht kader"/>
+  <StrRes Name="Randomize" Text="Start de willekeurig getal generator"/>
+  <StrRes Name="Random" Text="Geeft een willekeurig getal terug"/>
+  <StrRes Name="ValidInt" Text="Geeft de waarde WAAR terug indien de opgegeven tekenreeks een geldig geheel getal is"/>
+  <StrRes Name="ValidFloat" Text="Geeft de waarde WAAR terug indien de opgegeven tekenreeks een geldig decimaal getal is"/>
+  <StrRes Name="ValidDate" Text="Geeft de waarde WAAR terug indien de opgegeven tekenreeks een geldige datum is"/>
+  <StrRes Name="IIF" Text="Geeft het WAAR-deel terug indien de opgegeven expressie WAAR is, ander wordt het ONWAAR-deel terug gegeven"/>
+  <StrRes Name="Get" Text="Uitsluitend voor intern gebruik"/>
+  <StrRes Name="Set" Text="Uitsluitend voor intern gebruik"/>
+  <StrRes Name="InputBox" Text="Toont een invoer dialoog waarmee de gebruiker een tekenreeks kan invoeren"/>
+  <StrRes Name="InputQuery" Text="Toont een invoer dialoog waarmee de gebruiker een tekenreeks kan invoeren"/>
+  <StrRes Name="MessageDlg" Text="Toont een bericht dialoog"/>
+  <StrRes Name="CreateOleObject" Text="Creëert een OLE object"/>
+  <StrRes Name="VarArrayCreate" Text="Creëert een variant array"/>
+  <StrRes Name="VarType" Text="Geeft het type van een variant waarde terug"/>
+  <StrRes Name="DayOf" Text="Returns day number (1..31) of given Date"/>
+  <StrRes Name="MonthOf" Text="Returns month number (1..12) of given Date"/>
+  <StrRes Name="YearOf" Text="Returns year of given Date"/>
+  <StrRes Name="ctAggregate" Text="Aggregate"/>
+  <StrRes Name="Sum" Text="Calculates the sum of the Expr for the Band datarow"/>
+  <StrRes Name="Avg" Text="Calculates the average of the Expr for the Band datarow"/>
+  <StrRes Name="Min" Text="Calculates the minimum of the Expr for the Band datarow"/>
+  <StrRes Name="Max" Text="Calculates the maximum of the Expr for the Band datarow"/>
+  <StrRes Name="Count" Text="Calculates the number of datarows"/>
+  <StrRes Name="wzDBConn" Text="New Connection Wizard"/>
+  <StrRes Name="wzDBTable" Text="New Table Wizard"/>
+  <StrRes Name="wzDBQuery" Text="New Query Wizard"/>
+  <StrRes Name="5800" Text="Connections"/>
+  <StrRes Name="5801" Text="New"/>
+  <StrRes Name="5802" Text="Delete"/>
+  <StrRes Name="cpName" Text="Name"/>
+  <StrRes Name="cpConnStr" Text="Connection string"/>
+  <StrRes Name="startCreateNew" Text="Create new report"/>
+  <StrRes Name="startCreateBlank" Text="Create blank report"/>
+  <StrRes Name="startOpenReport" Text="Open report"/>
+  <StrRes Name="startOpenLast" Text="Open last report"/>
+  <StrRes Name="startEditAliases" Text="Edit connection aliases"/>
+  <StrRes Name="startHelp" Text="Help"/>
+  <StrRes Name="5900" Text="Watches"/>
+  <StrRes Name="5901" Text="Add Watch"/>
+  <StrRes Name="5902" Text="Delete Watch"/>
+  <StrRes Name="5903" Text="Edit Watch"/>
+  <StrRes Name="6000" Text="Inherit error"/>
+  <StrRes Name="6001" Text="Base and inherited reports have duplicate objects. What should we do?"/>
+  <StrRes Name="6002" Text="Delete duplicates"/>
+  <StrRes Name="6003" Text="Rename duplicates"/>
+  <StrRes Name="4729" Text="Templates path :"/>
+  <StrRes Name="obDataBases" Text="DataBases"/>
+  <StrRes Name="obTables" Text="Tables"/>
+  <StrRes Name="obQueries" Text="Queries"/>
+  <StrRes Name="6004" Text="Sort by Name"/>
+  <StrRes Name="crGroup" Text="Group"/>
+  <StrRes Name="4331" Text="Grouping"/>
+  <StrRes Name="BoolToStr" Text="Returns the True string if B is true, otherwise returns the False string"/>
+  <StrRes Name="StrToBool" Text="Returns true if S='True', false if S='False'. If S can't be converted, an exception is raised."/>
+</Resources>

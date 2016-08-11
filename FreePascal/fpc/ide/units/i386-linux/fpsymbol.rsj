@@ -1,0 +1,20 @@
+{"version":1,"strings":[
+{"hash":262957636,"name":"fpsymbol.msg_symbolnotfound","sourcebytes":[3,83,121,109,98,111,108,32,37,115,32,110,111,116,32,102,111,117,110,100],"value":"\u0003Symbol %s not found"},
+{"hash":146526261,"name":"fpsymbol.msg_nobrowserinfoavailable","sourcebytes":[78,111,32,66,114,111,119,115,101,114,32,105,110,102,111,32,97,118,97,105,108,97,98,108,101],"value":"No Browser info available"},
+{"hash":92570851,"name":"fpsymbol.msg_cantfindfile","sourcebytes":[67,97,110,39,116,32,102,105,110,100,32,37,115],"value":"Can't find %s"},
+{"hash":91464453,"name":"fpsymbol.menu_local_gotosource","sourcebytes":[126,71,126,111,116,111,32,115,111,117,114,99,101],"value":"~G~oto source"},
+{"hash":199145845,"name":"fpsymbol.menu_local_tracksource","sourcebytes":[126,84,126,114,97,99,107,32,115,111,117,114,99,101],"value":"~T~rack source"},
+{"hash":141695150,"name":"fpsymbol.menu_local_options","sourcebytes":[126,79,126,112,116,105,111,110,115,46,46,46],"value":"~O~ptions..."},
+{"hash":45427458,"name":"fpsymbol.menu_local_clear","sourcebytes":[126,67,126,108,101,97,114],"value":"~C~lear"},
+{"hash":209195731,"name":"fpsymbol.menu_local_saveas","sourcebytes":[83,97,118,101,32,126,97,126,115],"value":"Save ~a~s"},
+{"hash":173631157,"name":"fpsymbol.menu_symlocal_browse","sourcebytes":[126,66,126,114,111,119,115,101],"value":"~B~rowse"},
+{"hash":91464453,"name":"fpsymbol.menu_symlocal_gotosource","sourcebytes":[126,71,126,111,116,111,32,115,111,117,114,99,101],"value":"~G~oto source"},
+{"hash":199145845,"name":"fpsymbol.menu_symlocal_tracksource","sourcebytes":[126,84,126,114,97,99,107,32,115,111,117,114,99,101],"value":"~T~rack source"},
+{"hash":141695150,"name":"fpsymbol.menu_symlocal_options","sourcebytes":[126,79,126,112,116,105,111,110,115,46,46,46],"value":"~O~ptions..."},
+{"hash":138243385,"name":"fpsymbol.msg_sizeinmemory","sourcebytes":[83,105,122,101,32,105,110,32,109,101,109,111,114,121],"value":"Size in memory"},
+{"hash":174772363,"name":"fpsymbol.msg_sizeonstack","sourcebytes":[83,105,122,101,32,111,110,32,115,116,97,99,107],"value":"Size on stack"},
+{"hash":201392222,"name":"fpsymbol.msg_usedfirstin","sourcebytes":[85,115,101,100,32,102,105,114,115,116,32,105,110],"value":"Used first in"},
+{"hash":131418261,"name":"fpsymbol.msg_mainsource","sourcebytes":[77,97,105,110,32,115,111,117,114,99,101],"value":"Main source"},
+{"hash":46811731,"name":"fpsymbol.msg_sourcefiles","sourcebytes":[83,111,117,114,99,101,32,102,105,108,101,115],"value":"Source files"},
+{"hash":245128099,"name":"fpsymbol.dialog_browse","sourcebytes":[66,114,111,119,115,101,58,32,37,115],"value":"Browse: %s"}
+]}

@@ -1,8 +1,8 @@
-{*************************************************************
-*                 Zeljko Cvijanovic
-*                  2015 Teslic
-*                  www.zeljus.com
-*************************************************************}
+{**********************************************************
+Copyright (C) 2012-2016
+Zeljko Cvijanovic www.zeljus.com (cvzeljko@gmail.com) &
+Miran Horjak usbdoo@gmail.com
+***********************************************************}
 unit FNewProject;
 
 {$mode objfpc}{$H+}
@@ -14,10 +14,15 @@ uses
 
 
 procedure CreateNewAndroidProject;
+procedure Build_Apk(ACompPath, AProjPath, AJavaPackageName, AProjFile: String);
+
+
 procedure BuildRJavaFiles(tAppName, tJavaPackageName, tRJava, tRJavaPAs: string);
 
 
 implementation
+
+uses process, mainform;
 
 procedure AddJavaBuildXml(); forward;
 procedure AddJavaBuildFiles(); forward;
@@ -66,6 +71,129 @@ begin
  Except
    ShowMessage('Error!');
  end;
+end;
+
+procedure Build_Apk(ACompPath, AProjPath, AJavaPackageName,  AProjFile: String);
+var
+  Str, Message: String;
+  AProcess: TProcess;
+  AStringList: TStringList;
+begin
+   Form1.LoadIniFile;
+   Form1.EditToAProject;
+
+   AProject.gProjectDir := copy(AProjPath, 1, Length(AProjPath)-1);
+   AProject.gJavaPackageName := AJavaPackageName;
+   AProject.gAppName :=  ExtractFileNameOnly(AProjFile);
+
+ AProcess:= TProcess.Create(nil);
+ AStringList:= TStringList.Create;
+ try
+   {$IFDEF Linux}
+    AProcess.CommandLine := '/bin/rm -rf '+ AProject.gProjectDir+'/android/bin & ' +
+                             '/bin/rm -rf '+AProject.gProjectDir+'/android/gen & ' +
+                             '/bin/rm -rf '+AProject.gProjectDir+'/Rjava.pas';
+    AProcess.Options := AProcess.Options + [poWaitOnExit, poUsePipes];
+    AProcess.Execute;
+
+   Writeln('DELETE ..................... '); // Writeln(AProcess.Output.ReadAnsiString);
+
+   AProcess.CommandLine := '/bin/mkdir -p '+AProject.gProjectDir+'/android/bin & ' +
+   												 '/bin/mkdir -p '+AProject.gProjectDir+'/android/gen & ' +
+                           '/bin/mkdir -p '+AProject.gProjectDir+'/android/bin/classes';
+   AProcess.Options := AProcess.Options + [poWaitOnExit, poUsePipes];
+   AProcess.Execute;
+   Writeln('CREATE DIR ..................... ');
+
+   AProcess.CommandLine := AProject.gAndroidSDKDir+'/build-tools/'+AProject.gBuildTools+'/aapt package -m -J '+
+                           AProject.gProjectDir+'/android/gen -M '+
+                           AProject.gProjectDir+'/android/AndroidManifest.xml -S '+
+                           AProject.gProjectDir+'/android/res -I '+
+                           AProject.gAndroidSDKDir+'/platforms/'+AProject.gTarget+'/android.jar -S '+
+                           AProject.gProjectDir+'/android/res -m -J '+
+                           AProject.gProjectDir+'/android/gen ';
+   AProcess.Options := AProcess.Options + [poWaitOnExit, poUsePipes];
+   AProcess.Execute;
+   Writeln('CREATE R.java ..................... ');
+
+   Str := StringReplace(AProject.gJavaPackageName, '.', PathDelim, [rfReplaceAll]);
+   ForceDirectories(AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'gen' + PathDelim + Str);
+   BuildRJavaFiles(AProject.gAppName,
+                   AProject.gJavaPackageName,
+                   AProject.gProjectDir+PathDelim+'android'+PathDelim+'gen'+PathDelim+ Str+PathDelim+'R.java',
+                   AProject.gProjectDir+PathDelim +'Rjava.pas');
+
+   Writeln('------------------- Compile ppcjvm ----------------------');
+
+   AddJavaBuildFiles;
+   Str := Copy(ExtractFileDir(ACompPath), 1, Length(ExtractFileDir(ACompPath))- 4);
+
+   writeln(str);
+
+   if RunCommand( Str+'/bin/ppcjvm '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
+                               '-Fi'+Str+'/rtl/inc '+
+                               '-Fi'+Str+'/rtl/jvm '+
+                               '-Fi'+Str+'/rtl/java -FE. '+
+                               '-Fi'+Str+'/rtl/android/jvm '+
+                               '-FU'+AProject.gProjectDir+'/android/bin/classes -djvm -dRELEASE -Us -Sg '+
+                               Str+'/rtl/java/system.pp ', Message) then
+                               Writeln(Message) else begin Writeln('Error *********: '+ Message); Abort; end;
+
+
+   if RunCommand(Str+'/bin/ppcjvm '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
+                               '-Fi'+Str+'/rtl/inc '+
+                               '-Fi'+Str+'/rtl/jvm '+
+                               '-Fi'+Str+'/rtl/java -FE. '+
+                               '-Fi'+Str+'/rtl/android/jvm '+
+                               '-FU'+AProject.gProjectDir+'/android/bin/classes -djvm -dRELEASE '+
+                               Str+'/rtl/inc/uuchar.pp', Message) then
+                               Writeln(Message) else begin Writeln('Error *********: '+ Message); Abort; end;
+
+  if RunCommand(Str+'/bin/ppcjvm '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
+                               '-Fi'+Str+'/rtl/inc '+
+                               '-Fi'+Str+'/rtl/jvm '+
+                               '-Fi'+Str+'/rtl/java -FE. '+
+                               '-Fi'+Str+'/rtl/android/jvm '+
+                               '-FU'+AProject.gProjectDir+'/android/bin/classes -djvm -dRELEASE '+
+                               Str+'/rtl/java/objpas.pp', Message) then
+                               Writeln(Message) else begin Writeln('Error *********: '+ Message); Abort; end;
+
+  if RunCommand(Str+'/bin/ppcjvm '+Str+'/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n '+
+                               '-Fi'+Str+'/rtl/inc '+
+                               '-Fi'+Str+'/rtl/jvm '+
+                               '-Fi'+Str+'/rtl/java -FE. '+
+                               '-Fi'+Str+'/rtl/android/jvm '+
+                               '-Fu'+ExtractFileDir(Application.ExeName)+'/units '+
+                               '-FU'+AProject.gProjectDir+'/android/bin/classes -djvm -dRELEASE '+
+                               AProject.gProjectDir+'/'+AProject.gAppName+'.lpr', Message) then
+                               Writeln(Message) else begin Writeln('Error *********: '+ Message); Abort; end;
+
+   Writeln('Build Classes ==============================='+#10);
+   Writeln(''+#10);
+
+
+  if RunCommandInDir(AProject.gProjectDir+'/android/', ' ant -verbose release ', Message) then
+                               Writeln('========================OK....ant -verbose release '+Message+#10)
+  														else begin Writeln('Error **** (ant -verbose release) *****: '+ Message+#10); Abort; end;
+
+  if RunCommandInDir(AProject.gProjectDir+'/android/', 'jarsigner -verify -verbose -certs '+AProject.gProjectDir+'/'+AProject.gAppName+'.apk', Message) then
+                               Writeln('========================OK....jarsigner -verify -verbose -certs '+Message+#10)
+   														else begin Writeln('Error **** (jarsigner -verify -verbose -certs) *****: '+ Message+#10); Abort; end;
+
+
+  Writeln('****************************************************************'+#10);
+  Writeln('Create android application: '+AProject.gProjectDir+'/'+AProject.gAppName+'.apk'+#10);
+  Writeln('****************************************************************'+#10);
+  {$ELSE}
+
+
+  {$ENDIF}
+
+ finally
+   AStringList.Free;
+   AProcess.Free;
+ end;
+
 end;
 
 procedure AddJavaBuildXml();
@@ -246,7 +374,7 @@ begin
     { lFile.Add('$SDK' + PathDelim +'build-tools'+ PathDelim+ '19.1.0' +PathDelim +'aapt p -f -M AndroidManifest.xml -F bin'+PathDelim +AProject.gAppName+'.ap_ -I '+
                '$SDK' + PathDelim +'platforms'+ PathDelim +AProject.gTarget +PathDelim+'android.jar -S res -m -J gen');}
 
-     lFile.Add('$SDK' + PathDelim +'build-tools'+ PathDelim+ '23.0.3' +PathDelim +'aapt package -m -J gen -M AndroidManifest.xml -S res -I '+
+     lFile.Add('$SDK' + PathDelim +'build-tools'+ PathDelim+AProject.gBuildTools+PathDelim +'aapt package -m -J gen -M AndroidManifest.xml -S res -I '+
                '$SDK' + PathDelim +'platforms'+ PathDelim +AProject.gTarget +PathDelim+'android.jar -S res -m -J gen');
 
      lFile.Add('');

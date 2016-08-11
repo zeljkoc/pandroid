@@ -1,0 +1,220 @@
+object fcxAxisEditorForm: TfcxAxisEditorForm
+  Left = 1033
+  Height = 389
+  Top = 227
+  Width = 394
+  BorderStyle = bsDialog
+  BorderWidth = 6
+  Caption = 'fcxAxisEditorForm'
+  ClientHeight = 389
+  ClientWidth = 394
+  Color = clBtnFace
+  Constraints.MinHeight = 389
+  Constraints.MinWidth = 300
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnClose = FormClose
+  Position = poScreenCenter
+  LCLVersion = '1.3'
+  object Pages: TPageControl
+    Left = 6
+    Height = 349
+    Top = 6
+    Width = 382
+    ActivePage = PageGeneral
+    Align = alTop
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    TabIndex = 0
+    TabOrder = 0
+    object PageGeneral: TTabSheet
+      BorderWidth = 6
+      Caption = 'General'
+      ClientHeight = 323
+      ClientWidth = 374
+      object lblAdditionalTotals: TLabel
+        AnchorSideLeft.Control = PageGeneral
+        Left = 6
+        Height = 13
+        Top = 180
+        Width = 85
+        BorderSpacing.Left = 6
+        Caption = 'lblAdditionalTotals'
+        ParentColor = False
+      end
+      object lblTotalPosition: TLabel
+        AnchorSideLeft.Control = PageGeneral
+        AnchorSideTop.Control = cbTotalPosition
+        AnchorSideTop.Side = asrCenter
+        Left = 6
+        Height = 13
+        Top = 89
+        Width = 71
+        BorderSpacing.Left = 6
+        Caption = 'lblTotalPosition'
+        ParentColor = False
+      end
+      object lblAxisType: TLabel
+        AnchorSideLeft.Control = PageGeneral
+        AnchorSideTop.Control = cbAxisType
+        AnchorSideTop.Side = asrCenter
+        Left = 6
+        Height = 13
+        Top = 10
+        Width = 53
+        BorderSpacing.Left = 6
+        Caption = 'lblAxisType'
+        ParentColor = False
+      end
+      object lblSortType: TLabel
+        AnchorSideLeft.Control = PageGeneral
+        AnchorSideTop.Control = cbSortType
+        AnchorSideTop.Side = asrCenter
+        Left = 6
+        Height = 13
+        Top = 37
+        Width = 53
+        BorderSpacing.Left = 6
+        Caption = 'lblSortType'
+        ParentColor = False
+      end
+      object lblFunctionTotal: TLabel
+        AnchorSideLeft.Control = PageGeneral
+        AnchorSideTop.Control = cbScriptFunctionTotal
+        AnchorSideTop.Side = asrCenter
+        Left = 6
+        Height = 13
+        Top = 116
+        Width = 44
+        BorderSpacing.Left = 6
+        Caption = 'Function:'
+        ParentColor = False
+      end
+      object clbAdditionalTotals: TCheckListBox
+        AnchorSideLeft.Control = PageGeneral
+        AnchorSideRight.Control = PageGeneral
+        AnchorSideRight.Side = asrBottom
+        AnchorSideBottom.Control = PageGeneral
+        AnchorSideBottom.Side = asrBottom
+        Left = 6
+        Height = 116
+        Top = 201
+        Width = 362
+        Align = alBottom
+        BorderSpacing.Around = 6
+        ItemHeight = 0
+        TabOrder = 0
+      end
+      object cbTotalPosition: TComboBox
+        AnchorSideTop.Control = cbHideZeros
+        AnchorSideTop.Side = asrBottom
+        Left = 142
+        Height = 21
+        Top = 85
+        Width = 176
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Top = 6
+        ItemHeight = 13
+        Style = csDropDownList
+        TabOrder = 1
+      end
+      object cbAxisType: TComboBox
+        AnchorSideTop.Control = PageGeneral
+        Left = 142
+        Height = 21
+        Top = 6
+        Width = 176
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Top = 6
+        ItemHeight = 13
+        Style = csDropDownList
+        TabOrder = 2
+      end
+      object cbSortType: TComboBox
+        AnchorSideTop.Control = cbAxisType
+        AnchorSideTop.Side = asrBottom
+        Left = 142
+        Height = 21
+        Top = 33
+        Width = 176
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Top = 6
+        ItemHeight = 13
+        Style = csDropDownList
+        TabOrder = 3
+      end
+      object cbHideZeros: TCheckBox
+        AnchorSideLeft.Control = PageGeneral
+        AnchorSideTop.Control = cbSortType
+        AnchorSideTop.Side = asrBottom
+        Left = 6
+        Height = 19
+        Top = 60
+        Width = 81
+        BorderSpacing.Left = 6
+        BorderSpacing.Top = 6
+        Caption = 'cbHideZeros'
+        TabOrder = 4
+      end
+      object cbScriptFunctionTotal: TComboBox
+        AnchorSideTop.Control = cbTotalPosition
+        AnchorSideTop.Side = asrBottom
+        Left = 142
+        Height = 21
+        Top = 112
+        Width = 177
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Top = 6
+        ItemHeight = 13
+        OnDblClick = cbScriptFunctionTotalDblClick
+        OnDropDown = cbScriptFunctionTotalDropDown
+        TabOrder = 5
+        Text = 'cbScriptFunction'
+      end
+    end
+  end
+  object OkBtn: TButton
+    AnchorSideRight.Control = CancelBtn
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 151
+    Height = 25
+    Top = 358
+    Width = 75
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Right = 6
+    Caption = '&OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object CancelBtn: TButton
+    AnchorSideRight.Control = ApplyBtn
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 232
+    Height = 25
+    Top = 358
+    Width = 75
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Right = 6
+    Cancel = True
+    Caption = '&Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object ApplyBtn: TButton
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 313
+    Height = 25
+    Top = 358
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = '&Apply'
+    OnClick = ApplyBtnClick
+    TabOrder = 3
+  end
+end

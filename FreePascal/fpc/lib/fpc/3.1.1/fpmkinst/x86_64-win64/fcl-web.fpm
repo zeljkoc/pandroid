@@ -1,0 +1,10 @@
+Name=fcl-web
+Version=3.1.1
+Checksum=1470866924
+CPU=x86_64
+OS=win64
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-web/
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1470866909,fcl-db|1470866915,fcl-xml|1470866911,fcl-json|1470866913,fcl-net|1470866921,fcl-process|1470866921,fastcgi|1470866911,httpd22|1470866923,httpd24|1470866923
+NeedLibC=N
+FPMakeAddIn=N

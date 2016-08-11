@@ -1,0 +1,10 @@
+Name=utils-unicode
+Version=3.1.1
+Checksum=1470866849
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/utils/unicode/
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE
+Depends=rtl,rtl,fcl-base|1470866810,fcl-xml|1470866811
+NeedLibC=N
+FPMakeAddIn=N

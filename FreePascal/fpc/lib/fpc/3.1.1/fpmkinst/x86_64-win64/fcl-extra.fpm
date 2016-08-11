@@ -1,0 +1,10 @@
+Name=fcl-extra
+Version=3.1.1
+Checksum=1470866919
+CPU=x86_64
+OS=win64
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-extra/
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1470866909,winunits-jedi|1470866919,winunits-base|1470866916
+NeedLibC=N
+FPMakeAddIn=N

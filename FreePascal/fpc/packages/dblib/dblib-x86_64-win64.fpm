@@ -1,0 +1,10 @@
+Name=dblib
+Version=3.1.1
+Checksum=1470866911
+CPU=x86_64
+OS=win64
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/dblib/
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl
+NeedLibC=Y
+FPMakeAddIn=N

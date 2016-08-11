@@ -1,0 +1,9 @@
+Name=imlib
+Version=3.1.1
+Checksum=1470866824
+CPU=i386
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,gtk1|1470866821,x11|1470866807
+NeedLibC=Y
+FPMakeAddIn=N

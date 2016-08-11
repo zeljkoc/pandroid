@@ -1,0 +1,85 @@
+object ProjectI18NOptionsFrame: TProjectI18NOptionsFrame
+  Left = 0
+  Height = 242
+  Top = 0
+  Width = 438
+  ClientHeight = 242
+  ClientWidth = 438
+  OnClick = FrameClick
+  TabOrder = 0
+  DesignLeft = 467
+  DesignTop = 355
+  object EnableI18NCheckBox: TCheckBox
+    Left = 0
+    Height = 24
+    Top = 0
+    Width = 438
+    Align = alTop
+    Caption = 'Enable i18n'
+    OnChange = EnableI18NCheckBoxChange
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object I18NGroupBox: TGroupBox
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Side = asrBottom
+    Left = 0
+    Height = 108
+    Top = 30
+    Width = 438
+    Align = alTop
+    AutoSize = True
+    BorderSpacing.Top = 6
+    Caption = 'i18n Options'
+    ClientHeight = 91
+    ClientWidth = 434
+    TabOrder = 1
+    object PoOutDirLabel: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 118
+      BorderSpacing.Around = 6
+      Caption = 'PO Output Directory:'
+      ParentColor = False
+    end
+    object PoForFormsCheckBox: TCheckBox
+      AnchorSideLeft.Control = PoOutDirLabel
+      AnchorSideTop.Control = POOutDirEdit
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 24
+      Top = 67
+      Width = 145
+      BorderSpacing.Top = 15
+      Caption = 'PoForFormsCheckBox'
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 1
+    end
+    object POOutDirEdit: TEditButton
+      AnchorSideLeft.Control = I18NGroupBox
+      AnchorSideTop.Control = PoOutDirLabel
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 6
+      Height = 25
+      Top = 27
+      Width = 420
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      BorderSpacing.Bottom = 6
+      ButtonWidth = 45
+      MaxLength = 0
+      NumGlyphs = 1
+      OnButtonClick = POOutDirButtonClick
+      ParentShowHint = False
+      PasswordChar = #0
+      ShowHint = True
+      TabOrder = 0
+      Text = 'POOutDirEdit'
+    end
+  end
+end

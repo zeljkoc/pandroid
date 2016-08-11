@@ -1,0 +1,166 @@
+object CleanDirectoryDialog: TCleanDirectoryDialog
+  Left = 307
+  Height = 342
+  Top = 209
+  Width = 396
+  BorderIcons = [biSystemMenu]
+  Caption = 'Clean Directory'
+  ClientHeight = 342
+  ClientWidth = 396
+  OnCreate = CleanDirectoryDialogCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '1.5'
+  object DirGroupbox: TGroupBox
+    Left = 6
+    Height = 84
+    Top = 6
+    Width = 384
+    Align = alTop
+    BorderSpacing.Around = 6
+    Caption = 'Directory'
+    ClientHeight = 64
+    ClientWidth = 380
+    TabOrder = 0
+    object DirCombobox: TComboBox
+      AnchorSideRight.Control = DirBrowseButton
+      Left = 6
+      Height = 23
+      Top = 6
+      Width = 328
+      Anchors = [akTop, akLeft, akRight]
+      AutoCompleteText = [cbactSearchAscending]
+      BorderSpacing.Around = 6
+      ItemHeight = 15
+      TabOrder = 0
+      Text = 'DirCombobox'
+    end
+    object SubDirsCheckbox: TCheckBox
+      AnchorSideTop.Control = DirCombobox
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 23
+      Top = 35
+      Width = 368
+      Align = alBottom
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      BorderSpacing.Around = 6
+      Caption = 'Clean sub directories'
+      TabOrder = 2
+    end
+    object DirBrowseButton: TButton
+      AnchorSideLeft.Control = DirCombobox
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = DirCombobox
+      AnchorSideRight.Control = DirGroupbox
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = DirCombobox
+      AnchorSideBottom.Side = asrBottom
+      Left = 340
+      Height = 23
+      Top = 6
+      Width = 35
+      Anchors = [akTop, akRight, akBottom]
+      BorderSpacing.Right = 5
+      Caption = '...'
+      OnClick = DirBrowseButtonClick
+      TabOrder = 1
+    end
+  end
+  object RemoveGroupbox: TGroupBox
+    Left = 6
+    Height = 84
+    Top = 96
+    Width = 384
+    Align = alTop
+    BorderSpacing.Around = 6
+    Caption = 'Remove files matching filter:'
+    ClientHeight = 64
+    ClientWidth = 380
+    TabOrder = 1
+    object RemoveCombobox: TComboBox
+      Left = 6
+      Height = 23
+      Top = 6
+      Width = 368
+      Align = alTop
+      AutoCompleteText = [cbactSearchAscending]
+      BorderSpacing.Around = 6
+      ItemHeight = 15
+      TabOrder = 0
+      Text = 'RemoveCombobox'
+    end
+    object SimpleSyntaxRemoveCheckbox: TCheckBox
+      Left = 6
+      Height = 19
+      Top = 35
+      Width = 368
+      Align = alTop
+      BorderSpacing.Around = 6
+      Caption = 'Simple syntax (e.g. * instead of .*)'
+      TabOrder = 1
+    end
+  end
+  object KeepGroupbox: TGroupBox
+    Left = 6
+    Height = 118
+    Top = 186
+    Width = 384
+    Align = alClient
+    BorderSpacing.Around = 6
+    Caption = 'Keep files matching filter:'
+    ClientHeight = 98
+    ClientWidth = 380
+    TabOrder = 2
+    object KeepCombobox: TComboBox
+      Left = 6
+      Height = 23
+      Top = 6
+      Width = 368
+      Align = alTop
+      AutoCompleteText = [cbactSearchAscending]
+      BorderSpacing.Around = 6
+      ItemHeight = 15
+      TabOrder = 0
+      Text = 'KeepCombobox'
+    end
+    object SimpleSyntaxKeepCheckbox: TCheckBox
+      Left = 6
+      Height = 19
+      Top = 35
+      Width = 368
+      Align = alTop
+      BorderSpacing.Around = 6
+      Caption = 'Simple syntax (e.g. * instead of .*)'
+      TabOrder = 1
+    end
+    object KeepTextFilesCheckbox: TCheckBox
+      Left = 6
+      Height = 19
+      Top = 60
+      Width = 368
+      Align = alTop
+      BorderSpacing.Around = 6
+      Caption = 'Keep Text Files'
+      TabOrder = 2
+    end
+  end
+  object ButtonPanel: TButtonPanel
+    Left = 6
+    Height = 26
+    Top = 310
+    Width = 384
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CloseButton.Enabled = False
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 3
+    ShowButtons = [pbOK, pbCancel, pbHelp]
+    ShowBevel = False
+  end
+end

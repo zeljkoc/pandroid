@@ -1,0 +1,10 @@
+Name=libmicrohttpd
+Version=3.1.1
+Checksum=1470866929
+CPU=x86_64
+OS=win64
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/libmicrohttpd/
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,rtl-extra|1470866906
+NeedLibC=Y
+FPMakeAddIn=N

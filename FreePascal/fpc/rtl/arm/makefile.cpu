@@ -1,0 +1,6 @@
+#
+# Here we set processor dependent include file names.
+#
+
+CPUNAMES=arm math set
+CPUINCNAMES=$(addsuffix .inc,$(CPUNAMES))

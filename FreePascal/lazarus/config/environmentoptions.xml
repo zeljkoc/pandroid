@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <EnvironmentOptions>
+    <CompilerFilename Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc">
+      <History Count="4">
+        <Item1 Value="/usr/local/bin/fpc"/>
+        <Item2 Value="/usr/bin/fpc"/>
+        <Item3 Value="/opt/fpc/fpc"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc"/>
+      </History>
+    </CompilerFilename>
+    <LazarusDirectory Value="/usr/local/pandroid/FreePascal/lazarus">
+      <History Count="1">
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/"/>
+      </History>
+    </LazarusDirectory>
+    <Version Value="109" Lazarus="1.7"/>
+    <FormEditor>
+      <Rubberband>
+        <SelectionColor Value="8388608"/>
+        <CreationColor Value="128"/>
+      </Rubberband>
+    </FormEditor>
+    <Recent AlreadyPopulated="True">
+      <ProjectFiles Count="5">
+        <Item1 Value="/home/zeljko/Android/DemoPrint/DemoPrint.lpi"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/examples/hello.lpi"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/examples/imagelist/project1.lpi"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/examples/openglcontrol/openglcontrol_demo.lpi"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/examples/sprites/spriteexample.lpi"/>
+      </ProjectFiles>
+      <PackageFiles Count="1">
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
+      </PackageFiles>
+    </Recent>
+    <ExternalTools Version="3" Count="1">
+      <Tool1>
+        <Title Value="Pandroid"/>
+        <Filename Value="/usr/local/pandroid/pandroid"/>
+      </Tool1>
+    </ExternalTools>
+    <CharcaseFileAction Value="Ask"/>
+    <AutoSave ActiveDesktop="False" LastSavedProjectFile="/home/zeljko/Android/DemoPrint/DemoPrint.lpi"/>
+    <FPCSourceDirectory Value="/usr/local/pandroid/FreePascal/fpc">
+      <History Count="2">
+        <Item1 Value="/usr/local/pandroid/FreePascal/fpc"/>
+        <Item2 Value="/home/gigauser/Test/fpc"/>
+      </History>
+    </FPCSourceDirectory>
+    <MakeFilename>
+      <History Count="2">
+        <Item1 Value="make"/>
+        <Item2 Value="/usr/bin/make"/>
+      </History>
+    </MakeFilename>
+    <TestBuildDirectory Value="~/tmp/">
+      <History Count="3">
+        <Item1 Value="~/tmp/"/>
+        <Item2 Value="/tmp/"/>
+        <Item3 Value="/var/tmp/"/>
+      </History>
+    </TestBuildDirectory>
+    <LastCalledByLazarusFullPath Value="/usr/local/pandroid/FreePascal/lazarus/lazarus"/>
+    <BackupProjectFiles AdditionalExtension="bak" MaxCounter="9" SubDirectory=""/>
+    <BackupOtherFiles AdditionalExtension="bak" MaxCounter="9" SubDirectory=""/>
+    <Debugger Class="TGDBMIDebugger" EventLogLineLimit="100">
+      <WatchesDlg ColumnNameWidth="-1" ColumnValueWidth="-1"/>
+    </Debugger>
+    <DebuggerFilename Value="gdb">
+      <History Count="4">
+        <Item1 Value="gdb"/>
+        <Item2 Value="/usr/bin/gdb"/>
+        <Item3 Value="/usr/local/bin/gdb"/>
+        <Item4 Value="/opt/fpc/gdb"/>
+      </History>
+    </DebuggerFilename>
+    <CompilerMessagesFilename>
+      <History Count="1">
+        <Item2 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
+        <Item1 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
+      </History>
+    </CompilerMessagesFilename>
+  </EnvironmentOptions>
+  <ObjectInspectorOptions ShowHints="False" InfoBoxHeight="50" ShowStatusBar="False" ShowInfoBox="False">
+    <Version Value="3"/>
+  </ObjectInspectorOptions>
+  <Desktops Count="2" ActiveDesktop="default docked">
+    <Desktop1 Name="default">
+      <Desktop Version="2" FormIdCount="33">
+        <FormIdList a1="MessagesView" a2="MainIDE" a3="ObjectInspectorDlg" a4="PackageEditor_appexplore" a5="SourceNotebook" a6="PseudoTerminal" a7="Watches" a8="BreakPoints" a9="Locals" a10="CallStack" a11="EvaluateModify" a12="Registers" a13="Assembler" a14="DbgOutput" a15="Inspect" a16="DbgEvents" a17="Threads" a18="DbgHistory" a19="UnitDependencies" a20="CodeExplorerView" a21="FPDocEditor" a22="ClipBrdHistory" a23="PkgGraphExplorer" a24="ProjectInspector" a25="EditorFileManager" a26="SearchResults" a27="AnchorEditor" a28="TabOrderEditor" a29="CodeBrowser" a30="IssueBrowser" a31="JumpHistory" a32="ComponentList" a33="ProcedureList"/>
+      </Desktop>
+      <MessagesView>
+        <Caption Value="MessagesView"/>
+        <CustomPosition Left="250" Top="725" Width="750" Height="100"/>
+        <Visible Value="True"/>
+      </MessagesView>
+      <MainIDE>
+        <Caption Value="MainIDE"/>
+        <CustomPosition Left="49" Top="24" Width="1200" Height="100"/>
+        <Visible Value="True"/>
+      </MainIDE>
+      <ObjectInspectorDlg>
+        <Caption Value="ObjectInspectorDlg"/>
+        <CustomPosition Left="49" Top="149" Width="230" Height="601"/>
+        <Visible Value="True"/>
+      </ObjectInspectorDlg>
+      <PackageEditor_appexplore>
+        <Caption Value="PackageEditor_appexplore"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_appexplore>
+      <SourceNotebook>
+        <Caption Value="SourceNotebook"/>
+        <CustomPosition Left="250" Top="149" Width="750" Height="551"/>
+      </SourceNotebook>
+      <PseudoTerminal>
+        <Caption Value="PseudoTerminal"/>
+      </PseudoTerminal>
+      <Watches>
+        <Caption Value="Watches"/>
+      </Watches>
+      <BreakPoints>
+        <Caption Value="BreakPoints"/>
+      </BreakPoints>
+      <Locals>
+        <Caption Value="Locals"/>
+      </Locals>
+      <CallStack>
+        <Caption Value="CallStack"/>
+      </CallStack>
+      <EvaluateModify>
+        <Caption Value="EvaluateModify"/>
+      </EvaluateModify>
+      <Registers>
+        <Caption Value="Registers"/>
+      </Registers>
+      <Assembler>
+        <Caption Value="Assembler"/>
+      </Assembler>
+      <DbgOutput>
+        <Caption Value="DbgOutput"/>
+      </DbgOutput>
+      <Inspect>
+        <Caption Value="Inspect"/>
+      </Inspect>
+      <DbgEvents>
+        <Caption Value="DbgEvents"/>
+      </DbgEvents>
+      <Threads>
+        <Caption Value="Threads"/>
+      </Threads>
+      <DbgHistory>
+        <Caption Value="DbgHistory"/>
+      </DbgHistory>
+      <UnitDependencies>
+        <Caption Value="UnitDependencies"/>
+      </UnitDependencies>
+      <CodeExplorerView>
+        <Caption Value="CodeExplorerView"/>
+      </CodeExplorerView>
+      <FPDocEditor>
+        <Caption Value="FPDocEditor"/>
+      </FPDocEditor>
+      <ClipBrdHistory>
+        <Caption Value="ClipBrdHistory"/>
+      </ClipBrdHistory>
+      <PkgGraphExplorer>
+        <Caption Value="PkgGraphExplorer"/>
+      </PkgGraphExplorer>
+      <ProjectInspector>
+        <Caption Value="ProjectInspector"/>
+      </ProjectInspector>
+      <EditorFileManager>
+        <Caption Value="EditorFileManager"/>
+      </EditorFileManager>
+      <SearchResults>
+        <Caption Value="SearchResults"/>
+      </SearchResults>
+      <AnchorEditor>
+        <Caption Value="AnchorEditor"/>
+      </AnchorEditor>
+      <TabOrderEditor>
+        <Caption Value="TabOrderEditor"/>
+      </TabOrderEditor>
+      <CodeBrowser>
+        <Caption Value="CodeBrowser"/>
+      </CodeBrowser>
+      <IssueBrowser>
+        <Caption Value="IssueBrowser"/>
+      </IssueBrowser>
+      <JumpHistory>
+        <Caption Value="JumpHistory"/>
+      </JumpHistory>
+      <ComponentList>
+        <Caption Value="ComponentList"/>
+      </ComponentList>
+      <ProcedureList>
+        <Caption Value="ProcedureList"/>
+      </ProcedureList>
+      <Dialogs Count="3">
+        <Dialog1>
+          <Name Value="TLazFindInFilesDialog"/>
+          <Size Width="0" Height="0"/>
+        </Dialog1>
+        <Dialog2>
+          <Name Value="TLazFindReplaceDialog"/>
+          <Size Width="0" Height="0"/>
+        </Dialog2>
+        <Dialog3>
+          <Name Value="TInstallPkgSetDialog"/>
+          <Size Width="607" Height="578"/>
+        </Dialog3>
+      </Dialogs>
+      <IDECoolBarOptions>
+        <Width Value="230"/>
+      </IDECoolBarOptions>
+      <EditorToolBarOptions Version="1" Count="4">
+        <Button1 Name="Jump to Implementation"/>
+        <Button2 Name="Jump back"/>
+        <Button3 Name="Jump forward"/>
+        <Button4 Name="---------------"/>
+      </EditorToolBarOptions>
+    </Desktop1>
+    <Desktop2 Name="default docked" DockMaster="TIDEAnchorDockMaster">
+      <Desktop Version="2" FormIdCount="32">
+        <FormIdList a1="MainIDE" a2="SourceNotebook" a3="ObjectInspectorDlg" a4="MessagesView" a5="SearchResults" a6="ComponentList" a7="ProjectInspector" a8="PseudoTerminal" a9="Watches" a10="BreakPoints" a11="Locals" a12="CallStack" a13="EvaluateModify" a14="Registers" a15="Assembler" a16="DbgOutput" a17="Inspect" a18="DbgEvents" a19="Threads" a20="DbgHistory" a21="UnitDependencies" a22="CodeExplorerView" a23="FPDocEditor" a24="ClipBrdHistory" a25="PkgGraphExplorer" a26="EditorFileManager" a27="AnchorEditor" a28="TabOrderEditor" a29="CodeBrowser" a30="IssueBrowser" a31="JumpHistory" a32="ProcedureList"/>
+      </Desktop>
+      <MainIDE>
+        <Caption Value="MainIDE"/>
+        <WindowState Value="Maximized"/>
+        <Visible Value="True"/>
+      </MainIDE>
+      <SourceNotebook>
+        <Caption Value="SourceNotebook"/>
+        <CustomPosition Left="412" Top="57" Width="1034" Height="850"/>
+        <Visible Value="True"/>
+      </SourceNotebook>
+      <ObjectInspectorDlg>
+        <Caption Value="ObjectInspectorDlg"/>
+        <CustomPosition Left="49" Top="57" Width="359" Height="1023"/>
+        <Visible Value="True"/>
+      </ObjectInspectorDlg>
+      <MessagesView>
+        <Caption Value="MessagesView"/>
+        <CustomPosition Left="414" Top="939" Width="1030" Height="139"/>
+      </MessagesView>
+      <SearchResults>
+        <Caption Value="SearchResults"/>
+        <CustomPosition Left="414" Top="939" Width="962" Height="67"/>
+      </SearchResults>
+      <ComponentList>
+        <Caption Value="ComponentList"/>
+        <CustomPosition Left="1452" Top="85" Width="466" Height="993"/>
+      </ComponentList>
+      <ProjectInspector>
+        <Caption Value="ProjectInspector"/>
+        <CustomPosition Left="1452" Top="85" Width="296" Height="688"/>
+      </ProjectInspector>
+      <PseudoTerminal>
+        <Caption Value="PseudoTerminal"/>
+      </PseudoTerminal>
+      <Watches>
+        <Caption Value="Watches"/>
+      </Watches>
+      <BreakPoints>
+        <Caption Value="BreakPoints"/>
+      </BreakPoints>
+      <Locals>
+        <Caption Value="Locals"/>
+      </Locals>
+      <CallStack>
+        <Caption Value="CallStack"/>
+      </CallStack>
+      <EvaluateModify>
+        <Caption Value="EvaluateModify"/>
+      </EvaluateModify>
+      <Registers>
+        <Caption Value="Registers"/>
+      </Registers>
+      <Assembler>
+        <Caption Value="Assembler"/>
+      </Assembler>
+      <DbgOutput>
+        <Caption Value="DbgOutput"/>
+      </DbgOutput>
+      <Inspect>
+        <Caption Value="Inspect"/>
+      </Inspect>
+      <DbgEvents>
+        <Caption Value="DbgEvents"/>
+      </DbgEvents>
+      <Threads>
+        <Caption Value="Threads"/>
+      </Threads>
+      <DbgHistory>
+        <Caption Value="DbgHistory"/>
+      </DbgHistory>
+      <UnitDependencies>
+        <Caption Value="UnitDependencies"/>
+      </UnitDependencies>
+      <CodeExplorerView>
+        <Caption Value="CodeExplorerView"/>
+      </CodeExplorerView>
+      <FPDocEditor>
+        <Caption Value="FPDocEditor"/>
+      </FPDocEditor>
+      <ClipBrdHistory>
+        <Caption Value="ClipBrdHistory"/>
+      </ClipBrdHistory>
+      <PkgGraphExplorer>
+        <Caption Value="PkgGraphExplorer"/>
+      </PkgGraphExplorer>
+      <EditorFileManager>
+        <Caption Value="EditorFileManager"/>
+      </EditorFileManager>
+      <AnchorEditor>
+        <Caption Value="AnchorEditor"/>
+      </AnchorEditor>
+      <TabOrderEditor>
+        <Caption Value="TabOrderEditor"/>
+      </TabOrderEditor>
+      <CodeBrowser>
+        <Caption Value="CodeBrowser"/>
+      </CodeBrowser>
+      <IssueBrowser>
+        <Caption Value="IssueBrowser"/>
+      </IssueBrowser>
+      <JumpHistory>
+        <Caption Value="JumpHistory"/>
+      </JumpHistory>
+      <ProcedureList>
+        <Caption Value="ProcedureList"/>
+      </ProcedureList>
+      <Dialogs Count="3">
+        <Dialog1>
+          <Name Value="TLazFindInFilesDialog"/>
+          <Size Width="0" Height="0"/>
+        </Dialog1>
+        <Dialog2>
+          <Name Value="TLazFindReplaceDialog"/>
+          <Size Width="0" Height="0"/>
+        </Dialog2>
+        <Dialog3>
+          <Name Value="TIDEOptionsDialog"/>
+          <Size Width="800" Height="500"/>
+        </Dialog3>
+      </Dialogs>
+      <IDECoolBarOptions Count="3">
+        <Width Value="230"/>
+        <GrabStyle Value="4"/>
+        <BorderStyle Value="0"/>
+        <ToolBar1 Version="1" Count="10">
+          <Button1 Name="NewForm"/>
+          <Button2 Name="NewUnit"/>
+          <Button3 Name="---------------"/>
+          <Button4 Name="Open"/>
+          <Button5 Name="Save"/>
+          <Button6 Name="SaveAll"/>
+          <Button7 Name="---------------"/>
+          <Button8 Name="Toggle between Unit and Form"/>
+          <Button9 Name="---------------"/>
+          <Button10 Name="Manage desktops"/>
+        </ToolBar1>
+        <ToolBar2 Version="1" Count="10">
+          <Button1 Name="View Units"/>
+          <Button2 Name="View Forms"/>
+          <Button3 Name="---------------"/>
+          <Button4 Name="Change build mode"/>
+          <Button5 Name="Run program"/>
+          <Button6 Name="Pause program"/>
+          <Button7 Name="Stop program"/>
+          <Button8 Name="Step over"/>
+          <Button9 Name="Step into"/>
+          <Button10 Name="Step out"/>
+        </ToolBar2>
+        <ToolBar3 Version="1" Count="9">
+          <Button1 Name="Undo"/>
+          <Button2 Name="Redo"/>
+          <Button3 Name="---------------"/>
+          <Button4 Name="Find text"/>
+          <Button5 Name="Find in files"/>
+          <Button6 Name="Replace text"/>
+          <Button7 Name="---------------"/>
+          <Button8 Name="Jump back"/>
+          <Button9 Name="Jump forward"/>
+        </ToolBar3>
+      </IDECoolBarOptions>
+      <EditorToolBarOptions Visible="False" Position="" Version="1"/>
+      <ComponentPaletteOptions>
+        <Visible Value="False"/>
+      </ComponentPaletteOptions>
+      <AnchorDocking>
+        <Version Value="1"/>
+        <MainConfig>
+          <Nodes ChildCount="1">
+            <Item1 Name="MainIDE" Type="CustomSite" WindowState="Maximized" ChildCount="1">
+              <Bounds Left="49" Top="24" Width="1871" Height="1056">
+                <WorkArea>
+                  <Rect Left="49" Top="24" Right="1920" Bottom="1080"/>
+                </WorkArea>
+              </Bounds>
+              <Item1 Name="AnchorDockSite7" Type="Layout" ChildCount="7">
+                <Bounds Top="33" Width="1871" Height="1023" SplitterPos="28"/>
+                <Anchors Align="Bottom"/>
+                <Item1 Name="SourceNotebook" Type="Control">
+                  <Bounds Left="363" Width="1034" Height="850"/>
+                  <Anchors Left="AnchorDockSplitter2" Right="AnchorDockSplitter4" Bottom="AnchorDockSplitter3"/>
+                  <Header Position="left"/>
+                </Item1>
+                <Item2 Name="AnchorDockSplitter2" Type="SplitterVertical">
+                  <Bounds Left="359" Width="4" Height="1023"/>
+                </Item2>
+                <Item3 Name="ObjectInspectorDlg" Type="Control">
+                  <Bounds Width="359" Height="1023"/>
+                  <Anchors Right="AnchorDockSplitter2"/>
+                </Item3>
+                <Item4 Name="AnchorDockSite8" Type="Pages" ChildCount="2">
+                  <Bounds Left="363" Top="854" Width="1034" Height="169"/>
+                  <Anchors Left="AnchorDockSplitter2" Top="AnchorDockSplitter3" Right="AnchorDockSplitter4"/>
+                  <Item1 Name="MessagesView" Type="Control">
+                    <Bounds Width="1030" Height="136"/>
+                    <Anchors Align="Client"/>
+                  </Item1>
+                  <Item2 Name="SearchResults" Type="Control">
+                    <Bounds Width="962" Height="67"/>
+                    <Anchors Align="Client"/>
+                  </Item2>
+                </Item4>
+                <Item5 Name="AnchorDockSplitter3" Type="SplitterHorizontal">
+                  <Bounds Left="363" Top="850" Width="1034" Height="4"/>
+                  <Anchors Left="AnchorDockSplitter2" Right="AnchorDockSplitter4"/>
+                </Item5>
+                <Item6 Name="AnchorDockSplitter4" Type="SplitterVertical">
+                  <Bounds Left="1397" Width="4" Height="1023"/>
+                </Item6>
+                <Item7 Name="AnchorDockSite9" Type="Pages" ChildCount="2">
+                  <Bounds Left="1401" Width="470" Height="1023"/>
+                  <Anchors Left="AnchorDockSplitter4"/>
+                  <Item1 Name="ComponentList" Type="Control">
+                    <Bounds Width="466" Height="990"/>
+                    <Anchors Align="Client"/>
+                  </Item1>
+                  <Item2 Name="ProjectInspector" Type="Control">
+                    <Bounds Width="296" Height="688"/>
+                    <Anchors Align="Client"/>
+                  </Item2>
+                </Item7>
+              </Item1>
+            </Item1>
+          </Nodes>
+        </MainConfig>
+        <Settings ShowHeader="False"/>
+      </AnchorDocking>
+    </Desktop2>
+  </Desktops>
+</CONFIG>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <InputHistory>
+    <Version Value="1"/>
+    <FileDialog InitialDir="/home/zeljko/Android/DemoPrint/">
+      <HistoryList Count="2">
+        <Item1 Value="/home/zeljko/Android/DemoPrint/"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/"/>
+      </HistoryList>
+    </FileDialog>
+  </InputHistory>
+</CONFIG>

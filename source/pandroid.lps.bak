@@ -7,6 +7,7 @@
       <Unit0>
         <Filename Value="pandroid.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="84" Y="32"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -26,7 +27,6 @@
       <Unit2>
         <Filename Value="FNewProject.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <TopLine Value="65"/>
         <CursorPos X="83" Y="76"/>

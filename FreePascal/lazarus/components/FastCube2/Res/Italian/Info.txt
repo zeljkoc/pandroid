@@ -1,4 +1,0 @@
-Language Resources for FastCube 2
-Language: Italian
-Translator: Augusto Pellis
-E-mail: 

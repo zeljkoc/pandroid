@@ -2,18 +2,12 @@
 <CONFIG>
   <InputHistory>
     <Version Value="1"/>
-    <FileDialog InitialDir="/usr/local/pandroid/example/TestBarCode/">
-      <HistoryList Count="6">
-        <Item1 Value="/usr/local/pandroid/example/TestBarCode/"/>
-        <Item2 Value="/usr/local/pandroid/example/Vibrator/"/>
-        <Item3 Value="/home/android/Proba/"/>
-        <Item4 Value="/usr/local/pandroid/source/"/>
-        <Item5 Value="/home/zeljko/Android/DemoPrint/"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/"/>
+    <FileDialog InitialDir="/usr/local/pandroid/source/">
+      <HistoryList Count="3">
+        <Item1 Value="/usr/local/pandroid/source/"/>
+        <Item2 Value="/home/zeljko/Android/DemoPrint/"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/"/>
       </HistoryList>
     </FileDialog>
-    <FileEncodings Count="1">
-      <Item0 Name="/usr/local/pandroid/example/TestBarCode/TestBarCode.pas"/>
-    </FileEncodings>
   </InputHistory>
 </CONFIG>

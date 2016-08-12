@@ -21,6 +21,7 @@
           <Directive Foreground="clTeal"/>
           <Reserved_word Foreground="clPurple"/>
         </SchemeDefault>
+        <ColorScheme Value="Delphi"/>
       </LangObjectPascal>
     </Color>
     <FoldConfig>

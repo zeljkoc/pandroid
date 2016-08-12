@@ -1,4 +1,0 @@
-Language Resources for FastCube
-Language: Czech
-Translator: Karel Janeček
-E-mail: 

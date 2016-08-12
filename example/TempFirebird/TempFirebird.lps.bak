@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="TempFirebird.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="184"/>
+        <CursorPos X="59" Y="208"/>
+        <UsageCount Value="99"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="8"/>
+        <CursorPos X="71" Y="45"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="zcfbclient.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19" Y="34"/>
+        <UsageCount Value="33"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="zcfbclient.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="27"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../units/AZCEditFile.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="3" Y="20"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="25" HistoryIndex="24">
+      <Position1>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="18" Column="56"/>
+      </Position1>
+      <Position2>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="43" Column="6" TopLine="23"/>
+      </Position2>
+      <Position3>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="18" Column="61" TopLine="14"/>
+      </Position3>
+      <Position4>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="100" Column="82" TopLine="80"/>
+      </Position4>
+      <Position5>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="103" Column="89" TopLine="80"/>
+      </Position5>
+      <Position6>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="16" Column="45"/>
+      </Position6>
+      <Position7>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="43" Column="33" TopLine="23"/>
+      </Position7>
+      <Position8>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="18" Column="65"/>
+      </Position8>
+      <Position9>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="96" Column="8"/>
+      </Position9>
+      <Position10>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="97" Column="39" TopLine="77"/>
+      </Position10>
+      <Position11>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="18" Column="63"/>
+      </Position11>
+      <Position12>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="99" Column="86" TopLine="79"/>
+      </Position12>
+      <Position13>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="100" Column="86" TopLine="79"/>
+      </Position13>
+      <Position14>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="102" Column="31" TopLine="82"/>
+      </Position14>
+      <Position15>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="100" Column="44" TopLine="82"/>
+      </Position15>
+      <Position16>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="18" Column="61" TopLine="16"/>
+      </Position16>
+      <Position17>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="112" Column="35" TopLine="85"/>
+      </Position17>
+      <Position18>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="106" Column="50" TopLine="85"/>
+      </Position18>
+      <Position19>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="108" Column="46" TopLine="79"/>
+      </Position19>
+      <Position20>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="18" Column="50" TopLine="4"/>
+      </Position20>
+      <Position21>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="174" Column="15" TopLine="160"/>
+      </Position21>
+      <Position22>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="133" Column="10" TopLine="100"/>
+      </Position22>
+      <Position23>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="149" Column="50" TopLine="116"/>
+      </Position23>
+      <Position24>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="119" Column="25" TopLine="99"/>
+      </Position24>
+      <Position25>
+        <Filename Value="TempFirebird.lpr"/>
+        <Caret Line="146" Column="27" TopLine="127"/>
+      </Position25>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

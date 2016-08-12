@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:37
+-keep class org.achartengine.GraphicalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class zeljus.com.tempfirebird.MainActivity { <init>(...); }
+

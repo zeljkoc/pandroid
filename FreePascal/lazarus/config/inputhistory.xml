@@ -2,17 +2,17 @@
 <CONFIG>
   <InputHistory>
     <Version Value="1"/>
-    <FileDialog InitialDir="/usr/local/pandroid/example/Demo2DDraw/">
+    <FileDialog InitialDir="/usr/local/pandroid/example/DemoSQLite/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
-        <Item2 Value="/usr/local/pandroid/example/Demo3DCube/"/>
-        <Item3 Value="/usr/local/pandroid/example/Demo3DCube2/"/>
-        <Item4 Value="/usr/local/pandroid/example/DemoChart/"/>
-        <Item5 Value="/usr/local/pandroid/example/DemoMenu/"/>
-        <Item6 Value="/usr/local/pandroid/example/DemoOpenGL/"/>
-        <Item7 Value="/usr/local/pandroid/example/DemoPrint/"/>
-        <Item8 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
-        <Item9 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item1 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item2 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
+        <Item3 Value="/usr/local/pandroid/example/Demo3DCube/"/>
+        <Item4 Value="/usr/local/pandroid/example/Demo3DCube2/"/>
+        <Item5 Value="/usr/local/pandroid/example/DemoChart/"/>
+        <Item6 Value="/usr/local/pandroid/example/DemoMenu/"/>
+        <Item7 Value="/usr/local/pandroid/example/DemoOpenGL/"/>
+        <Item8 Value="/usr/local/pandroid/example/DemoPrint/"/>
+        <Item9 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
         <Item10 Value="/usr/local/pandroid/example/DemoToolBar/"/>
         <Item11 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
         <Item12 Value="/usr/local/pandroid/example/DemoWebView/"/>

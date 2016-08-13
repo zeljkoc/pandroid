@@ -8,7 +8,8 @@
         <Filename Value="DemoSQLite.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="34" Y="14"/>
+        <TopLine Value="46"/>
+        <CursorPos X="85" Y="10"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>

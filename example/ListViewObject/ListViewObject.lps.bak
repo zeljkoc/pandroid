@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="ListViewObject.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="50"/>
+        <CursorPos X="56" Y="30"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="53" Y="9"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="ListViewObject.lpr"/>
+        <Caret Line="56" Column="110" TopLine="34"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ListViewObject.lpr"/>
+        <Caret Line="124" Column="4" TopLine="90"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ListViewObject.lpr"/>
+        <Caret Line="117" Column="75" TopLine="92"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ListViewObject.lpr"/>
+        <Caret Line="73" Column="48" TopLine="62"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ListViewObject.lpr"/>
+        <Caret Line="68" Column="32" TopLine="48"/>
+      </Position5>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

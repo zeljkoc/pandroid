@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="GridView.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="55" Y="6"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="45" Y="4"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="GridView.lpr"/>
+        <Caret Line="28" Column="85"/>
+      </Position1>
+      <Position2>
+        <Filename Value="GridView.lpr"/>
+        <Caret Line="77" Column="41" TopLine="38"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

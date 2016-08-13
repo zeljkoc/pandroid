@@ -2,18 +2,24 @@
 <CONFIG>
   <InputHistory>
     <Version Value="1"/>
-    <FileDialog InitialDir="/usr/local/pandroid/example/ProgressBar/">
-      <HistoryList Count="10">
-        <Item1 Value="/usr/local/pandroid/example/ProgressBar/"/>
-        <Item2 Value="/usr/local/pandroid/example/ReadGPS/"/>
-        <Item3 Value="/usr/local/pandroid/example/ScrollView/"/>
-        <Item4 Value="/usr/local/pandroid/example/SendEmail/"/>
-        <Item5 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item6 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Reciklaza/"/>
-        <Item7 Value="/usr/local/pandroid/source/"/>
-        <Item8 Value="/home/android/Proba/"/>
-        <Item9 Value="/home/zeljko/Android/DemoPrint/"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/"/>
+    <FileDialog InitialDir="/usr/local/pandroid/example/DemoWebView/">
+      <HistoryList Count="16">
+        <Item1 Value="/usr/local/pandroid/example/DemoWebView/"/>
+        <Item2 Value="/usr/local/pandroid/example/DemoXML/"/>
+        <Item3 Value="/usr/local/pandroid/example/Glas/"/>
+        <Item4 Value="/usr/local/pandroid/example/GridView/"/>
+        <Item5 Value="/usr/local/pandroid/example/ListViewObject/"/>
+        <Item6 Value="/usr/local/pandroid/example/MultiLanguage/"/>
+        <Item7 Value="/usr/local/pandroid/example/ProgressBar/"/>
+        <Item8 Value="/usr/local/pandroid/example/ReadGPS/"/>
+        <Item9 Value="/usr/local/pandroid/example/ScrollView/"/>
+        <Item10 Value="/usr/local/pandroid/example/SendEmail/"/>
+        <Item11 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item12 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Reciklaza/"/>
+        <Item13 Value="/usr/local/pandroid/source/"/>
+        <Item14 Value="/home/android/Proba/"/>
+        <Item15 Value="/home/zeljko/Android/DemoPrint/"/>
+        <Item16 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="2"/>

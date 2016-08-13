@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/ProgressBar/ProgressBar.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/DemoToolBar2/DemoToolBar2.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -69,11 +69,11 @@
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/example/ProgressBar/ProgressBar.lpi"/>
-        <Item2 Value="/usr/local/pandroid/example/ReadGPS/ReadGPS.lpi"/>
-        <Item3 Value="/usr/local/pandroid/example/ScrollView/ScrollView.lpi"/>
-        <Item4 Value="/usr/local/pandroid/example/SendEmail/SendEmail.lpi"/>
-        <Item5 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
+        <Item1 Value="/usr/local/pandroid/example/DemoWebView/DemoWebView.lpi"/>
+        <Item2 Value="/usr/local/pandroid/example/DemoToolBar2/DemoToolBar2.lpi"/>
+        <Item3 Value="/usr/local/pandroid/example/DemoXML/DemoXML.lpi"/>
+        <Item4 Value="/usr/local/pandroid/example/Glas/Glas.lpi"/>
+        <Item5 Value="/usr/local/pandroid/example/GridView/GridView.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="1">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>

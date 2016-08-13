@@ -8,22 +8,21 @@
         <Filename Value="DemoSQLite.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="10"/>
-        <CursorPos X="85" Y="10"/>
+        <CursorPos X="33" Y="15"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="Data.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="2" Y="23"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="android/build_debug_apk.sh"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="1"/>
         <CursorPos X="47" Y="4"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
@@ -31,10 +30,10 @@
       </Unit2>
       <Unit3>
         <Filename Value="../../units/AZCListView.pas"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
         <CursorPos X="13" Y="47"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit3>
     </Units>
     <JumpHistory Count="2" HistoryIndex="1">

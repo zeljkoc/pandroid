@@ -12,11 +12,9 @@ public final class R {
     }
     public static final class color {
         /**  01 COLOR Aplikacija
- 01 COLOR Aplikacija
          */
         public static final int BackgroudnColor01=0x7f040000;
         /**  03 COLOR AlertDialog
- 03 COLOR AlertDialog
          */
         public static final int BackgroudnColor03=0x7f040007;
         public static final int BackgroundColor02=0x7f040004;
@@ -29,12 +27,10 @@ public final class R {
         public static final int LinePressColor02=0x7f040005;
         public static final int TextColor01=0x7f040001;
         /**  02 COLOR Button
- 02 COLOR Button
          */
         public static final int TextColor02=0x7f040002;
         public static final int TextColor03=0x7f040008;
         /**  04 COLOR EditText
- 04 COLOR EditText
          */
         public static final int TextColor04=0x7f04000a;
         public static final int messageTextColor03=0x7f040009;
@@ -70,36 +66,9 @@ public final class R {
         <item name="android:bottomBright">@color/...</item>
         <item name="android:bottomMedium">@color/...</item>
         <item name="android:centerMedium">@color/...</item> 
- AlertDialog style 
-  
-	    <item name="android:fullDark">@color/...</item>
-        <item name="android:topDark">@color/...</item>
-        <item name="android:centerDark">@color/...</item>
-        <item name="android:bottomDark">@color/...</item>
-        <item name="android:fullBright">@color/...</item>
-        <item name="android:topBright">@color/...</item>
-        <item name="android:centerBright">@color/...</item>
-        <item name="android:bottomBright">@color/...</item>
-        <item name="android:bottomMedium">@color/...</item>
-        <item name="android:centerMedium">@color/...</item> 
          */
         public static final int AlertDialog=0x7f050002;
         /**  ============================================================= 
- Button style 
- 
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#979797</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_margin">3dp</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:shadowColor">#f9f9f9</item>
-        <item name="android:shadowDx">1</item>
-        <item name="android:shadowDy">1</item>
-        <item name="android:shadowRadius">1</item>
-      
- ============================================================= 
  Button style 
  
         <item name="android:layout_width">fill_parent</item>
@@ -118,7 +87,6 @@ public final class R {
         public static final int CustomButton=0x7f050001;
         public static final int DefaultTheme=0x7f050000;
         /**  EditText style 
- EditText style 
          */
         public static final int EditText=0x7f050003;
     }

@@ -65,8 +65,9 @@
       <ShowStopMessage Value="False"/>
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
-      <OpenFiles Count="1">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
+      <OpenFiles Count="2">
+        <Item1 Value="/usr/local/pandroid/units/AZCListView.pas"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/usr/local/pandroid/example/DemoSQLite/DemoSQLite.lpi"/>

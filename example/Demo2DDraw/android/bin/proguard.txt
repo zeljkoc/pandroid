@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:36
+-keep class org.achartengine.GraphicalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class zeljus.com.demo2ddraw.MainActivity { <init>(...); }
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="DemoSQLite.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="34" Y="14"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Data.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="2" Y="23"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="47" Y="4"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="13" Y="47"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="DemoSQLite.lpr"/>
+        <Caret Line="33" Column="21" TopLine="14"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DemoSQLite.lpr"/>
+        <Caret Line="18" Column="43" TopLine="16"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

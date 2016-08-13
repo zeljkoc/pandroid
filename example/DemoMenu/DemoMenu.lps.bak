@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="DemoMenu.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="34"/>
+        <CursorPos X="80" Y="38"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="DemoMenu.lpr"/>
+        <Caret Line="85" Column="12" TopLine="50"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DemoMenu.lpr"/>
+        <Caret Line="18" Column="34"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -7,8 +7,9 @@
       <Unit0>
         <Filename Value="DemoSQLite.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="16"/>
-        <CursorPos X="43" Y="18"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="46"/>
+        <CursorPos X="85" Y="10"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -30,9 +31,7 @@
       </Unit2>
       <Unit3>
         <Filename Value="../../units/AZCListView.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="23"/>
         <CursorPos X="13" Y="47"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>

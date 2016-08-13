@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:16
+-keep class zeljus.com.demoopengl.MainActivity { <init>(...); }
+

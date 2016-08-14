@@ -21,6 +21,7 @@ type
     buttonGenerateHeaders1: TButton;
     buttonGenerateHeaders2: TButton;
     buttonNewProject: TButton;
+    eSendApk: TComboBox;
     eBuildTools: TComboBox;
     eTarget: TComboBox;
     eAppName: TEdit;
@@ -32,12 +33,14 @@ type
     Label1: TLabel;
     Label11: TLabel;
     Label2: TLabel;
+    Label3: TLabel;
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
     procedure buttonGenerateHeaders1Click(Sender: TObject);
     procedure buttonGenerateHeaders2Click(Sender: TObject);
     procedure buttonNewProjectClick(Sender: TObject);
+    procedure eBuildToolsChange(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
     { private declarations }
@@ -70,6 +73,11 @@ begin
   CreateNewAndroidProject;
 end;
 
+procedure TForm1.eBuildToolsChange(Sender: TObject);
+begin
+
+end;
+
 procedure TForm1.FormCreate(Sender: TObject);
 begin
    LoadIniFile;
@@ -93,6 +101,7 @@ begin
      eAndroidSDKDir.Text     := IniFile.ReadString('pandroid', 'AndroidSDKDir', '/usr/local/pandroid/sdk');
      eTarget.Text            := IniFile.ReadString('pandroid', 'Target', 'android-15');
      eBuildTools.Text        := IniFile.ReadString('pandroid', 'BuildTools', '23.0.3');
+     eSendApk.Text           := IniFile.ReadString('pandroid', 'SendApk', '1');
 
      AProject.gActivityName  := 'MainActivity';
 
@@ -114,6 +123,7 @@ begin
      IniFile.WriteString('pandroid', 'AndroidSDKDir',   eAndroidSDKDir.Text);
      IniFile.WriteString('pandroid', 'Target',          eTarget.Text);
      IniFile.WriteString('pandroid', 'BuildTools',      eBuildTools.Text);
+     IniFile.WriteString('pandroid', 'SendApk',         eSendApk.Text);
   finally
     IniFile.Free;
   end;
@@ -128,6 +138,7 @@ begin
     gAndroidSDKDir      := eAndroidSDKDir.Text;
     gTarget             := eTarget.Text;
     gBuildTools         := eBuildTools.Text;
+    gSendApk            := eSendApk.Text;
   end;
 end;
 

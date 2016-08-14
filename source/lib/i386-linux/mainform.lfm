@@ -1,10 +1,10 @@
 object Form1: TForm1
   Left = 343
-  Height = 369
+  Height = 404
   Top = 206
   Width = 783
   Caption = 'Pandroid'
-  ClientHeight = 369
+  ClientHeight = 404
   ClientWidth = 783
   OnCreate = FormCreate
   Visible = False
@@ -74,11 +74,11 @@ object Form1: TForm1
   end
   object GroupBox2: TGroupBox
     Left = 16
-    Height = 128
+    Height = 168
     Top = 160
     Width = 752
     Caption = 'Options'
-    ClientHeight = 111
+    ClientHeight = 151
     ClientWidth = 748
     TabOrder = 1
     object Label11: TLabel
@@ -136,6 +136,7 @@ object Form1: TForm1
       Items.Strings = (
         '23.0.3'
       )
+      OnChange = eBuildToolsChange
       TabOrder = 2
       Text = '23.0.3'
     end
@@ -147,20 +148,42 @@ object Form1: TForm1
       Caption = 'Build tools:'
       ParentColor = False
     end
+    object Label3: TLabel
+      Left = 104
+      Height = 15
+      Top = 118
+      Width = 64
+      Caption = 'Send apk:'
+      ParentColor = False
+    end
+    object eSendApk: TComboBox
+      Left = 176
+      Height = 27
+      Top = 106
+      Width = 120
+      ItemHeight = 0
+      ItemIndex = 0
+      Items.Strings = (
+        '0'
+        '1'
+      )
+      TabOrder = 3
+      Text = '0'
+    end
   end
   object buttonGenerateHeaders2: TButton
     Left = 616
     Height = 25
-    Top = 320
+    Top = 352
     Width = 152
     Caption = 'E&xit'
     OnClick = buttonGenerateHeaders2Click
     TabOrder = 2
   end
   object buttonGenerateHeaders1: TButton
-    Left = 448
+    Left = 440
     Height = 25
-    Top = 320
+    Top = 352
     Width = 152
     Caption = '&Save ini file'
     OnClick = buttonGenerateHeaders1Click

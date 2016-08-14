@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/usr/local/pandroid/project/Popis/Popis.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/Demo3DCube/Demo3DCube.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -70,11 +70,11 @@
         <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/project/Popis/Popis.lpi"/>
-        <Item2 Value="/usr/local/pandroid/example/DemoSQLite/DemoSQLite.lpi"/>
-        <Item3 Value="/usr/local/pandroid/example/Demo2DDraw/Demo2DDraw.lpi"/>
-        <Item4 Value="/usr/local/pandroid/example/Demo3DCube/Demo3DCube.lpi"/>
-        <Item5 Value="/usr/local/pandroid/example/Demo3DCube2/Demo3DCube2.lpi"/>
+        <Item1 Value="/usr/local/pandroid/example/Demo3DCube/Demo3DCube.lpi"/>
+        <Item2 Value="/usr/local/pandroid/source/pandroid.lpi"/>
+        <Item3 Value="/usr/local/pandroid/project/Popis/Popis.lpi"/>
+        <Item4 Value="/usr/local/pandroid/example/DemoSQLite/DemoSQLite.lpi"/>
+        <Item5 Value="/usr/local/pandroid/example/Demo2DDraw/Demo2DDraw.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="1">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>

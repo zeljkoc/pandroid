@@ -184,6 +184,20 @@ begin
   Writeln('****************************************************************'+#10);
   Writeln('Create android application: '+AProject.gProjectDir+'/'+AProject.gAppName+'.apk'+#10);
   Writeln('****************************************************************'+#10);
+
+  if AProject.gSendApk = '1' then begin  //send to usb port (PDA)   adb
+        RunCommandInDir(AProject.gProjectDir+'/', ' adb unistall '+ AProject.gJavaPackageName, Message);// then
+                          //     Writeln('========================OK.... adb unistall '+ AProject.gJavaPackageName + Message+#10)
+   												//		else begin Writeln('Error **** (adb unistall '+ AProject.gJavaPackageName+ ') *****: '+ Message+#10); Abort; end;
+
+       if RunCommandInDir(AProject.gProjectDir+'/', ' adb install '+ AProject.gProjectDir+'/'+AProject.gAppName+'.apk', Message) then
+                               Writeln('========================OK.... adb install '+ AProject.gProjectDir+'/'+AProject.gAppName+'.apk' +Message+#10)
+   														else begin Writeln('Error **** (adb install '+ AProject.gProjectDir+'/'+AProject.gAppName+'.apk'+ ') *****: '+ Message+#10); Abort; end;
+
+       if RunCommandInDir(AProject.gProjectDir+'/', ' adb shell am start -n '+AProject.gJavaPackageName +PathDelim+ AProject.gJavaPackageName+'.MainActivity', Message) then
+                               Writeln('========================OK....  '+ 'adb shell am start -n '+AProject.gJavaPackageName +PathDelim+ AProject.gJavaPackageName+'.MainActivity' +Message+#10)
+   														else begin Writeln('Error **** (''adb shell am start -n '+ AProject.gJavaPackageName +PathDelim+ AProject.gJavaPackageName+'.MainActivity'+ ') *****: '+ Message+#10); Abort; end;
+  end;
   {$ELSE}
 
 

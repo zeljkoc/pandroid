@@ -2,29 +2,26 @@
 
 # Create Android application from FreePascal JVM 
 
-Edit and build CodeTyphon http://www.pilotlogic.com
-
-[![Everything Is AWESOME](https://i.ytimg.com/vi/ZHlzS15Jy9k/hqdefault.jpg)](https://www.youtube.com/watch?v=ZHlzS15Jy9k "Everything Is AWESOME")
-
-install pandroid to debian 8 64 
-
-$: cd /usr/local
-
-$: git clone https://github.com/zeljkoc/pandroid.git
 
 
-Install CodeTyphon and Cross element for jvm_android
+[![Everything Is AWESOME](https://i.ytimg.com/vi/cEve3C8pXUM/1.jpg?time=1471193917989)](https://youtu.be/cEve3C8pXUM "Everything Is AWESOME")
 
-example
 
-/usr/local/pandroid/example
+#install:
 
-=======================================
+#Debian 8.5 32 LXDE #: apt-get install openjdk-7-jdk
+#Mint 18 32 MATE    #: apt-get install openjdk-8-jdk
 
-Build APK : 
+ #: apt-get install gdb
 
-Run -> Build file
+ #: apt-get install android-tools-adb ant mtp-tools
 
-or 
+ 
+ #: cd /usr/local
 
-$: sh build_debug_apk.sh 
+ #: git clone https://github.com/zeljkoc/pandroid.git
+
+ #: chmod 0777 -R pandroid
+
+
+

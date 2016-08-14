@@ -43,8 +43,8 @@
       </History>
     </TestBuildDirectory>
     <CompilerMessagesFilename>
-      <History Count="1">
-        <Item1 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
+      <History Count="2">
+        <Item2 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
       </History>
     </CompilerMessagesFilename>
     <LastCalledByLazarusFullPath Value="/usr/local/pandroid/FreePascal/lazarus/lazarus"/>

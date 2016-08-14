@@ -122,7 +122,7 @@
 39:inc/compproc.inc
 39:linux/system.pp;0
 39:inc/currh.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/dynarrh.inc
 39:linux/system.pp;0
 39:inc/dynlibh.inc
@@ -132,11 +132,11 @@
 39:inc/filerec.inc
 39:linux/system.pp;0
 39:inc/heaph.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/innr.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/mathh.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/objpash.inc
 39:linux/system.pp;0
 39:inc/resh.inc
@@ -152,7 +152,7 @@
 39:inc/typshrdh.inc
 39:objpas/types.pp;0
 39:inc/ustringh.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/varianth.inc
 39:linux/system.pp;0
 39:java/jastringh.inc
@@ -262,7 +262,7 @@
 43:include/checkbox.inc
 43:stdctrls.pp;0
 43:include/controlconsts.inc
-43:lmessages.pp;0
+43:controls.pp;0
 43:include/customcheckbox.inc
 43:stdctrls.pp;0
 43:include/customcombobox.inc
@@ -280,7 +280,7 @@
 43:include/customstatictext.inc
 43:stdctrls.pp;0
 43:include/lcl_defines.inc
-43:widgetset/wscontrols.pp;0
+43:widgetset/wslclclasses.pp;0
 43:include/lclintfh.inc
 45:terfacebase.pp;0
 45:clude/memoscrollbar.inc

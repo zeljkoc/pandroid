@@ -25,3 +25,19 @@
 
 
 
+echo "Prerequisites for Free Pascal and Lazarus on Linux"
+echo "--------------------------------------------------"
+echo "This installer requires the following packages which"
+echo "can be installed on Debian distributions by using:"
+echo
+echo "sudo apt-get install build-essential p7zip-full"
+echo
+echo "Lazarus requires the following Gtk+ dev packages which"
+echo "can be installed on Debian distributions by using:"
+echo
+echo "sudo apt-get install libgtk2.0-dev libcairo2-dev \\" 
+echo "  libpango1.0-dev libgdk-pixbuf2.0-dev libatk1.0-dev \\"
+echo "  libghc-x11-dev"
+
+
+

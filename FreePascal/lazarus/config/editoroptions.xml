@@ -8,7 +8,7 @@
         <ExternalToolCount Value="1"/>
       </default>
     </KeyMapping>
-    <CodeTools CodeTemplateFileName="/usr/local/pandroid/FreePascal/lazarus/config/lazarus.dci" CompletionLongLineHintTypeCompletionLongLineHintType="sclpExtendRightOnly"/>
+    <CodeTools CodeTemplateFileName="/usr/local/pandroid/FreePascal/lazarus/config/lazarus.dci" CompletionLongLineHintTypeCompletionLongLineHintType="sclpExtendRightOnly" AutoRemoveEmptyMethods="True"/>
     <Mouse>
       <Default Version="1"/>
     </Mouse>

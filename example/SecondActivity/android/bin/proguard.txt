@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:36
+-keep class zeljus.com.secondactivity.FormActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class zeljus.com.secondactivity.MainActivity { <init>(...); }
+

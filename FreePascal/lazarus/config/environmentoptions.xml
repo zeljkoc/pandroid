@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/SecondActivity/SecondActivity.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -15,12 +15,13 @@
       </History>
     </LazarusDirectory>
     <CompilerFilename Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc">
-      <History Count="5">
-        <Item1 Value="/usr/local/bin/fpc"/>
-        <Item2 Value="/usr/bin/fpc"/>
-        <Item3 Value="/opt/fpc/fpc"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc"/>
-        <Item5 Value="$(CompPath)"/>
+      <History Count="6">
+        <Item1 Value="$(CompPath) "/>
+        <Item2 Value="/usr/local/bin/fpc"/>
+        <Item3 Value="/usr/bin/fpc"/>
+        <Item4 Value="/opt/fpc/fpc"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc"/>
+        <Item6 Value="$(CompPath)"/>
       </History>
     </CompilerFilename>
     <FPCSourceDirectory Value="/usr/local/pandroid/FreePascal/fpc">
@@ -43,8 +44,8 @@
       </History>
     </TestBuildDirectory>
     <CompilerMessagesFilename>
-      <History Count="2">
-        <Item2 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
+      <History Count="1">
+        <Item1 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
       </History>
     </CompilerMessagesFilename>
     <LastCalledByLazarusFullPath Value="/usr/local/pandroid/FreePascal/lazarus/lazarus"/>
@@ -65,16 +66,19 @@
       <ShowStopMessage Value="False"/>
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
-      <OpenFiles Count="2">
-        <Item1 Value="/usr/local/pandroid/units/AZCListView.pas"/>
-        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
+      <OpenFiles Count="5">
+        <Item1 Value="/home/android/SecondActivity/Activity2.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item3 Value="/usr/local/pandroid/example/SecondActivity/Activity2.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/AZCListView.pas"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/android/Test/Test.lpi"/>
-        <Item2 Value="/home/android/Reciklaza/Reciklaza.lpi"/>
-        <Item3 Value="/usr/local/pandroid/example/Demo3DCube/Demo3DCube.lpi"/>
-        <Item4 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Reciklaza/Reciklaza.lpi"/>
-        <Item5 Value="/usr/local/pandroid/source/pandroid.lpi"/>
+        <Item1 Value="/usr/local/pandroid/example/SecondActivity/SecondActivity.lpi"/>
+        <Item2 Value="/home/android/SecondActivity/SecondActivity.lpi"/>
+        <Item3 Value="/home/android/Test/Test.lpi"/>
+        <Item4 Value="/home/android/Reciklaza/Reciklaza.lpi"/>
+        <Item5 Value="/usr/local/pandroid/example/Demo3DCube/Demo3DCube.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="1">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>

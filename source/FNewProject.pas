@@ -112,6 +112,8 @@ begin
                            AProject.gAndroidSDKDir+'/platforms/'+AProject.gTarget+'/android.jar -S '+
                            AProject.gProjectDir+'/android/res -m -J '+
                            AProject.gProjectDir+'/android/gen ';
+
+
    AProcess.Options := AProcess.Options + [poWaitOnExit, poUsePipes];
    AProcess.Execute;
    Writeln('CREATE R.java ..................... ');
@@ -186,9 +188,9 @@ begin
   Writeln('****************************************************************'+#10);
 
   if AProject.gSendApk = '1' then begin  //send to usb port (PDA)   adb
-        RunCommandInDir(AProject.gProjectDir+'/', ' adb unistall '+ AProject.gJavaPackageName, Message);// then
-                          //     Writeln('========================OK.... adb unistall '+ AProject.gJavaPackageName + Message+#10)
-   												//		else begin Writeln('Error **** (adb unistall '+ AProject.gJavaPackageName+ ') *****: '+ Message+#10); Abort; end;
+       if RunCommandInDir(AProject.gProjectDir+'/', ' adb shell pm uninstall -k '+ AProject.gJavaPackageName, Message) then
+                               Writeln('========================OK.... adb shell pm uninstall -k '+ AProject.gJavaPackageName + Message+#10)
+   														else begin Writeln('Error **** (adb shell pm uninstall -k '+ AProject.gJavaPackageName+ ') *****: '+ Message+#10); Abort; end;
 
        if RunCommandInDir(AProject.gProjectDir+'/', ' adb install '+ AProject.gProjectDir+'/'+AProject.gAppName+'.apk', Message) then
                                Writeln('========================OK.... adb install '+ AProject.gProjectDir+'/'+AProject.gAppName+'.apk' +Message+#10)

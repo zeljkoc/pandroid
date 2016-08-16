@@ -53,7 +53,7 @@
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="#PANDROID#/units"/>
-      <UnitOutputDirectory Value="#ProjectDir#/android/bin/classes"/>    
+      <UnitOutputDirectory Value="android/bin/classes"/>    
     </SearchPaths>
     <CodeGeneration>
       <TargetCPU Value="jvm"/>

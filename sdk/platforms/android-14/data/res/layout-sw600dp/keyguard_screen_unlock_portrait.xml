@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- top: status and emergency/forgot pattern buttons -->
+    <LinearLayout
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/keyguard_screen_status_port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="134dip"
+            android:layout_marginLeft="266dip"/>
+
+        <!-- Emergency and forgot pattern buttons. -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button android:id="@+id/forgotPatternButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="@style/Widget.Button.Transparent"
+                android:drawableLeft="@drawable/ic_emergency"
+                android:drawablePadding="8dip"
+                android:text="@string/lockscreen_forgot_pattern_button_text"
+                android:visibility="gone"
+            />
+
+            <Button android:id="@+id/emergencyCallButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="@style/Widget.Button.Transparent"
+                android:drawableLeft="@drawable/ic_emergency"
+                android:drawablePadding="8dip"
+                android:text="@string/lockscreen_emergency_call"
+                android:visibility="gone"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- right side: lock pattern -->
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center"
+        >
+        <com.android.internal.widget.LockPatternView android:id="@+id/lockPattern"
+            android:layout_width="354dip"
+            android:layout_height="354dip"
+            android:layout_marginTop="50dip"
+          />
+    </LinearLayout>
+
+</com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+

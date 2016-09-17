@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">OBD-II Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clear_codes">Clear Codes</string>
+    <string name="notification_action">Tap to open OBD-Reader</string>
+    <string name="command_list">Choose a command</string>
+    <string name="service_starting">Starting OBD connection..</string>
+    <string name="service_started">OBD connection has started.</string>
+    <string name="service_stopped">OBD connection has stopped.</string>
+    <string name="notification_label">Tap to open OBD-Reader.</string>
+    <string name="title_activity_trouble_codes">Trouble Codes</string>
+    <string name="pref_upload_category_title">Data Upload</string>
+    <string name="pref_upload_category" translatable="false">upload_category</string>
+    <string name="title_activity_trips_list">TripsList</string>
+    <string name="menu_trip_list">Trips</string>
+    <string name="menu_item_trip_delete">Delete</string>
+    <string name="pref_gps_category" translatable="false">gps_category</string>
+    <string name="dialog_loading_title">Loading…</string>
+    <string name="dialog_loading_body">Loading application View, please wait…</string>
+    <string name="menu_start_live_data">Start Live Data</string>
+    <string name="menu_stop_live_data">Stop Live Data</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_get_dtc">Get DTC</string>
+    <string name="text_gps" translatable="false">GPS</string>
+    <string name="text_obd" translatable="false">OBD</string>
+    <string name="text_bluetooth" translatable="false">Bluetooth</string>
+    <string name="text_orientation_default" translatable="false">N</string>
+    <string name="text_zero" translatable="false">0</string>
+    <string name="text_consumption_default" translatable="false">0l/100km</string>
+    <string name="text_runtime_default" translatable="false">00:00:00</string>
+    <string name="title_pref_obd">OBD Preferences</string>
+    <string name="title_pref_commands">OBD Commands</string>
+    <string name="title_pref_bluetooth" translatable="false">Bluetooth</string>
+    <string name="title_pref_gps" translatable="false">GPS</string>
+    <string name="text_no_bluetooth_id">Sorry, your device doesn\'t support Bluetooth</string>
+    <string name="text_bluetooth_disabled">You have Bluetooth disabled. Please enable it (using Mock service)</string>
+    <string name="text_bluetooth_nodevice">No Bluetooth device selected</string>
+    <string name="text_bluetooth_error_connecting">Cannot connect to bluetooth device!</string>
+    <string name="text_no_orientation_sensor">Orientation sensor missing?</string>
+    <string name="text_no_gps_support">Sorry, your device doesn\'t support or has disabled GPS.</string>
+    <string name="text_save_trip_not_available">Sorry, trip will not be saved.</string>
+    <string name="text_obd_command_failure">OBD command failure!</string>
+    <string name="text_dtc_no_data">No DTC stored</string>
+    <string name="status_no_bluetooth_id">unavailable</string>
+    <string name="status_bluetooth_disabled">disabled</string>
+    <string name="status_bluetooth_ok">ready</string>
+    <string name="status_bluetooth_connecting">connecting&#8230;</string>
+    <string name="status_bluetooth_connected">connected</string>
+    <string name="status_bluetooth_error_connecting">connection failed</string>
+    <string name="status_gps_fix">fix acquired</string>
+    <string name="status_gps_no_fix">fix not acquired</string>
+    <string name="status_gps_started">started</string>
+    <string name="status_gps_stopped">stopped</string>
+    <string name="status_gps_ready">ready</string>
+    <string name="status_gps_no_support">not available</string>
+    <string name="status_gps_not_used">not used</string>
+    <string name="status_obd_ready">OK</string>
+    <string name="status_obd_data">receiving data&#8230;</string>
+    <string name="status_obd_disconnected">disconnected</string>
+    <string name="status_obd_no_support">NA</string>
+    <string name="pref_upload_title">Enable Data Upload</string>
+    <string name="pref_upload_summaryOff">Enable http data upload</string>
+    <string name="pref_upload_summaryOn">Disable http data upload</string>
+    <string name="pref_upload_url_title">Upload URL</string>
+    <string name="pref_upload_url_summary">POST URL that will accept real-time data</string>
+    <string name="pref_vehicle_id_title">Vehicle ID</string>
+    <string name="pref_vehicle_id_summary">Optional unique id of this vehicle, used with uploaded data</string>
+    <string name="pref_bluetooth_title">Enable Bluetooth</string>
+    <string name="pref_bluetooth_summaryOff">Turn on Bluetooth</string>
+    <string name="pref_bluetooth_summaryOn">Turn off Bluetooth</string>
+    <string name="pref_bluetooth_list_devices_summary">List of paired bluetooth devices.</string>
+    <string name="pref_bluetooth_list_devices_title">Bluetooth Devices</string>
+    <string name="pref_gps_category_title">Enable GPS</string>
+    <string name="pref_gps_category_summaryOff">Turn on GPS</string>
+    <string name="pref_gps_category_summaryOn">Turn off GPS</string>
+    <string name="pref_gps_update_period_title">Update Period in Seconds</string>
+    <string name="pref_gps_update_period_summary">The length of time between querying new position in seconds</string>
+    <string name="pref_gps_distance_period_title">Update Period in Meters</string>
+    <string name="pref_gps_distance_period_summary">Min Distance between location updates, in meters</string>
+    <string name="pref_obd_protocols_title">OBD Protocol</string>
+    <string name="pref_obd_protocols_summary">Select OBD Protocol to use</string>
+    <string name="pref_imperial_units_title">Imperial Units</string>
+    <string name="pref_imperial_units_summaryOff">Enable imperial units</string>
+    <string name="pref_imperial_units_summaryOn">Go back to metric units</string>
+    <string name="pref_obd_update_period_title">Update Period in Seconds</string>
+    <string name="pref_obd_update_period_summary">The length of time between querying vehicle data in seconds</string>
+    <string name="pref_max_fuel_econ_title">Maximum Fuel Economy Value</string>
+    <string name="pref_max_fuel_econ_summary">Any fuel economy values larger than this will be thrown out</string>
+    <string name="pref_volumetric_efficiency_dialog_title">Volumetric Efficiency (eg 0.85)</string>
+    <string name="pref_volumetric_efficiency_summary">Used for fuel economy on vehicles without MAF sensor</string>
+    <string name="pref_volumetric_efficiency_title">Volumetric Efficiency</string>
+    <string name="pref_engine_displacement_title">Engine Displacement (liters)</string>
+    <string name="pref_engine_displacement_summary">Used for fuel economy on vehicles without MAF sensor</string>
+    <string name="pref_reader_config_title">Reader Config Commands</string>
+    <string name="pref_reader_config_summary">Commands to configure bluetooth reader, separate with new line</string>
+    <string name="title_pref_commands_summary">Select the commands you would like to see in real-time.</string>
+    <string name="title_pref_commands_title">OBD Commands</string>
+    <string name="title_pref_full_logging"> Full logging configuration </string>
+    <string name="pref_enable_full_logging_summary"> Enables full offline logging with upload</string>
+    <string name="pref_enable_full_logging_title"> Enable full logging </string>
+    <string name="default_dirname_full_logging">OBDReaderLogs</string>
+    <string name="pref_dirname_dialogTitle">Choose the name of the directory to save the logs</string>
+    <string name="pref_dirname_title">Directory name</string>
+    <string name="pref_dirname_summary">Name of the directory where to save the files</string>
+    <string name="pref_dev_email_title">Developer Email</string>
+    <string name="pref_dev_email_summary">Logs will be emailed to this address</string>
+    <string name="text_noerrors">There were no errors found.!</string>
+</resources>

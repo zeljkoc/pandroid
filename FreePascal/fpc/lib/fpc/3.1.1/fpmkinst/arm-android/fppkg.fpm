@@ -1,0 +1,10 @@
+Name=fppkg
+Version=3.1.1
+Checksum=1474752819
+CPU=arm
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fppkg/
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,fcl-base|1474752788,fcl-xml|1474752791,fcl-process|1474752812,paszlib|1474752805,fpmkunit|1474752818
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,10 @@
+Name=hash
+Version=3.1.1
+Checksum=1474752804
+CPU=arm
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/hash/
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,rtl-objpas|1474752786
+NeedLibC=N
+FPMakeAddIn=N

@@ -8,6 +8,7 @@
         <Filename Value="GridView.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
+        <TopLine Value="25"/>
         <CursorPos X="55" Y="6"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>

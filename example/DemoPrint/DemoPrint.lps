@@ -3,17 +3,33 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="1">
+    <Units Count="3">
       <Unit0>
         <Filename Value="DemoPrint.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="91" Y="82"/>
+        <TopLine Value="64"/>
+        <CursorPos X="20" Y="49"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="../../units/AZCBlueTooth.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="15" Y="40"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29803"/>
+        <CursorPos X="15" Y="29891"/>
+        <UsageCount Value="10"/>
+      </Unit2>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="DemoPrint.lpr"/>
         <Caret Line="66" Column="44" TopLine="58"/>
@@ -22,6 +38,14 @@
         <Filename Value="DemoPrint.lpr"/>
         <Caret Line="96" Column="99" TopLine="70"/>
       </Position2>
+      <Position3>
+        <Filename Value="DemoPrint.lpr"/>
+        <Caret Line="49" Column="20" TopLine="25"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../units/AZCBlueTooth.pas"/>
+        <Caret Line="297" Column="14" TopLine="264"/>
+      </Position4>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":187346034,"name":"registry.sinvalidregtype","sourcebytes":[73,110,118,97,108,105,100,32,114,101,103,105,115,116,114,121,32,100,97,116,97,32,116,121,112,101,58,32,34,37,115,34],"value":"Invalid registry data type: \"%s\""},
+{"hash":124897170,"name":"registry.sregcreatefailed","sourcebytes":[70,97,105,108,101,100,32,116,111,32,99,114,101,97,116,101,32,107,101,121,58,32,34,37,115,34],"value":"Failed to create key: \"%s\""},
+{"hash":116216258,"name":"registry.sregsetdatafailed","sourcebytes":[70,97,105,108,101,100,32,116,111,32,115,101,116,32,100,97,116,97,32,102,111,114,32,118,97,108,117,101,32,34,37,115,34],"value":"Failed to set data for value \"%s\""},
+{"hash":117002690,"name":"registry.sreggetdatafailed","sourcebytes":[70,97,105,108,101,100,32,116,111,32,103,101,116,32,100,97,116,97,32,102,111,114,32,118,97,108,117,101,32,34,37,115,34],"value":"Failed to get data for value \"%s\""}
+]}

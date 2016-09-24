@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":114073502,"name":"fptemplate.serrparsedepthexceeded","sourcebytes":[77,97,120,105,109,117,109,32,112,97,114,115,101,32,108,101,118,101,108,32,40,37,100,41,32,101,120,99,101,101,100,101,100,46],"value":"Maximum parse level (%d) exceeded."},
+{"hash":43584697,"name":"fptemplate.serrnoemptydelimiters","sourcebytes":[68,101,108,105,109,105,116,101,114,115,32,99,97,110,110,111,116,32,98,101,32,101,109,112,116,121],"value":"Delimiters cannot be empty"}
+]}

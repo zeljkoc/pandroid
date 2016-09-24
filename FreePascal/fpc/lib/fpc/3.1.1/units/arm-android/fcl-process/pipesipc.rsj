@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":149462355,"name":"pipesipc.serrfailedtocreatepipe","sourcebytes":[70,97,105,108,101,100,32,116,111,32,99,114,101,97,116,101,32,110,97,109,101,100,32,112,105,112,101,58,32,37,115],"value":"Failed to create named pipe: %s"},
+{"hash":252609363,"name":"pipesipc.serrfailedtoremovepipe","sourcebytes":[70,97,105,108,101,100,32,116,111,32,114,101,109,111,118,101,32,110,97,109,101,100,32,112,105,112,101,58,32,37,115],"value":"Failed to remove named pipe: %s"}
+]}

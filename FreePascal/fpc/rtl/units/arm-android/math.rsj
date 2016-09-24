@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":216488147,"name":"math.smatherror","sourcebytes":[77,97,116,104,32,69,114,114,111,114,32,58,32,37,115],"value":"Math Error : %s"},
+{"hash":12736788,"name":"math.sinvalidargument","sourcebytes":[73,110,118,97,108,105,100,32,97,114,103,117,109,101,110,116],"value":"Invalid argument"}
+]}

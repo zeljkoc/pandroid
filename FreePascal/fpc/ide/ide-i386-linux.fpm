@@ -1,9 +1,0 @@
-Name=ide
-Version=3.1.1
-Checksum=1470866856
-CPU=i386
-OS=linux
-FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -dRELEASE
-Depends=rtl,rtl-extra|1470866807,fv|1470866823,chm|1470866812,regexpr|1470866829,gdbint|1470866823
-NeedLibC=N
-FPMakeAddIn=N

@@ -1,9 +1,0 @@
-Name=fftw
-Version=3.1.1
-Checksum=1470866820
-CPU=i386
-OS=linux
-FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
-Depends=rtl
-NeedLibC=Y
-FPMakeAddIn=N

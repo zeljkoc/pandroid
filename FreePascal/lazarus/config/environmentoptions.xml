@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/android/Test/Test.lpi"/>
+    <AutoSave LastSavedProjectFile="/home/android/DemoOBDII/DemoOBDII.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -66,21 +66,24 @@
       <ShowStopMessage Value="False"/>
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
-      <OpenFiles Count="7">
-        <Item1 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item2 Value="/usr/local/codetyphon/fpcsrc/rtl/android/jvm/java_sys_android.inc"/>
-        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item4 Value="/home/android/SecondActivity/Activity2.pas"/>
-        <Item5 Value="/usr/local/pandroid/example/SecondActivity/Activity2.pas"/>
-        <Item6 Value="/usr/local/pandroid/units/AZCListView.pas"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/fpcadds.pas"/>
+      <OpenFiles Count="10">
+        <Item1 Value="/home/android/DemoOBDII/OBDUnits.pas"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/packager/registration/lazaruspackageintf.pas"/>
+        <Item3 Value="/home/android/BlueTootAuto/obd2fpc.pas"/>
+        <Item4 Value="/home/android/BlueTootAuto/Komande.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item6 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item7 Value="/usr/local/codetyphon/fpcsrc/rtl/android/jvm/java_sys_android.inc"/>
+        <Item8 Value="/home/android/SecondActivity/Activity2.pas"/>
+        <Item9 Value="/usr/local/pandroid/example/SecondActivity/Activity2.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/AZCListView.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/android/Test/Test.lpi"/>
-        <Item2 Value="/usr/local/pandroid/example/SecondActivity/SecondActivity.lpi"/>
-        <Item3 Value="/home/android/SecondActivity/SecondActivity.lpi"/>
-        <Item4 Value="/home/android/Reciklaza/Reciklaza.lpi"/>
-        <Item5 Value="/usr/local/pandroid/example/Demo3DCube/Demo3DCube.lpi"/>
+        <Item1 Value="/home/android/DemoOBDII/DemoOBDII.lpi"/>
+        <Item2 Value="/home/android/BlueTootAuto/Test.lpi"/>
+        <Item3 Value="/home/android/Test/Test.lpi"/>
+        <Item4 Value="/usr/local/pandroid/example/SecondActivity/SecondActivity.lpi"/>
+        <Item5 Value="/home/android/SecondActivity/SecondActivity.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="1">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>

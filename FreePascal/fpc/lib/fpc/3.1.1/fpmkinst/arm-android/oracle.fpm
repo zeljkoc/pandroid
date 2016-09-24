@@ -1,0 +1,10 @@
+Name=oracle
+Version=3.1.1
+Checksum=1474752794
+CPU=arm
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/oracle/
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl
+NeedLibC=N
+FPMakeAddIn=N

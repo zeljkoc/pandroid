@@ -45,6 +45,7 @@
     </TestBuildDirectory>
     <CompilerMessagesFilename>
       <History Count="1">
+        <Item2 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
         <Item1 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
       </History>
     </CompilerMessagesFilename>
@@ -100,34 +101,46 @@
   <ObjectInspectorOptions ShowHints="False" ShowStatusBar="False" ShowInfoBox="False" InfoBoxHeight="50">
     <Version Value="3"/>
   </ObjectInspectorOptions>
-  <Desktops Count="2" ActiveDesktop="default docked">
-    <Desktop1 Name="default">
-      <Desktop Version="2" FormIdCount="33">
-        <FormIdList a1="MessagesView" a2="MainIDE" a3="ObjectInspectorDlg" a4="PackageEditor_appexplore" a5="SourceNotebook" a6="PseudoTerminal" a7="Watches" a8="BreakPoints" a9="Locals" a10="CallStack" a11="EvaluateModify" a12="Registers" a13="Assembler" a14="DbgOutput" a15="Inspect" a16="DbgEvents" a17="Threads" a18="DbgHistory" a19="UnitDependencies" a20="CodeExplorerView" a21="FPDocEditor" a22="ClipBrdHistory" a23="PkgGraphExplorer" a24="ProjectInspector" a25="EditorFileManager" a26="SearchResults" a27="AnchorEditor" a28="TabOrderEditor" a29="CodeBrowser" a30="IssueBrowser" a31="JumpHistory" a32="ComponentList" a33="ProcedureList"/>
+  <Desktops Count="2" ActiveDesktop="default">
+    <Desktop1 Name="default" DockMaster="TIDEAnchorDockMaster">
+      <Desktop Version="2" FormIdCount="32">
+        <FormIdList a1="MainIDE" a2="SourceNotebook" a3="ObjectInspectorDlg" a4="MessagesView" a5="CodeExplorerView" a6="SearchResults" a7="ComponentList" a8="ProjectInspector" a9="PseudoTerminal" a10="Watches" a11="BreakPoints" a12="Locals" a13="CallStack" a14="EvaluateModify" a15="Registers" a16="Assembler" a17="DbgOutput" a18="Inspect" a19="DbgEvents" a20="Threads" a21="DbgHistory" a22="UnitDependencies" a23="FPDocEditor" a24="ClipBrdHistory" a25="PkgGraphExplorer" a26="EditorFileManager" a27="AnchorEditor" a28="TabOrderEditor" a29="CodeBrowser" a30="IssueBrowser" a31="JumpHistory" a32="ProcedureList"/>
       </Desktop>
-      <MessagesView>
-        <Caption Value="MessagesView"/>
-        <CustomPosition Left="250" Top="725" Width="750" Height="100"/>
-        <Visible Value="True"/>
-      </MessagesView>
       <MainIDE>
         <Caption Value="MainIDE"/>
-        <CustomPosition Left="49" Top="24" Width="1200" Height="100"/>
+        <CustomPosition Top="118" Width="1731" Height="774"/>
+        <WindowState Value="Maximized"/>
         <Visible Value="True"/>
       </MainIDE>
-      <ObjectInspectorDlg>
-        <Caption Value="ObjectInspectorDlg"/>
-        <CustomPosition Left="49" Top="149" Width="230" Height="601"/>
-        <Visible Value="True"/>
-      </ObjectInspectorDlg>
-      <PackageEditor_appexplore>
-        <Caption Value="PackageEditor_appexplore"/>
-        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
-      </PackageEditor_appexplore>
       <SourceNotebook>
         <Caption Value="SourceNotebook"/>
-        <CustomPosition Left="250" Top="149" Width="750" Height="551"/>
+        <CustomPosition Left="279" Top="135" Width="1194" Height="919"/>
+        <Visible Value="True"/>
       </SourceNotebook>
+      <ObjectInspectorDlg>
+        <Caption Value="ObjectInspectorDlg"/>
+        <CustomPosition Top="222" Width="230" Height="539"/>
+      </ObjectInspectorDlg>
+      <MessagesView>
+        <Caption Value="MessagesView"/>
+        <CustomPosition Left="1334" Top="254" Width="399" Height="661"/>
+      </MessagesView>
+      <CodeExplorerView>
+        <Caption Value="CodeExplorerView"/>
+        <CustomPosition Left="2" Top="254" Width="248" Height="661"/>
+      </CodeExplorerView>
+      <SearchResults>
+        <Caption Value="SearchResults"/>
+        <CustomPosition Left="414" Top="939" Width="962" Height="67"/>
+      </SearchResults>
+      <ComponentList>
+        <Caption Value="ComponentList"/>
+        <CustomPosition Left="1452" Top="85" Width="466" Height="993"/>
+      </ComponentList>
+      <ProjectInspector>
+        <Caption Value="ProjectInspector"/>
+        <CustomPosition Left="1452" Top="85" Width="296" Height="688"/>
+      </ProjectInspector>
       <PseudoTerminal>
         <Caption Value="PseudoTerminal"/>
       </PseudoTerminal>
@@ -170,9 +183,6 @@
       <UnitDependencies>
         <Caption Value="UnitDependencies"/>
       </UnitDependencies>
-      <CodeExplorerView>
-        <Caption Value="CodeExplorerView"/>
-      </CodeExplorerView>
       <FPDocEditor>
         <Caption Value="FPDocEditor"/>
       </FPDocEditor>
@@ -182,15 +192,9 @@
       <PkgGraphExplorer>
         <Caption Value="PkgGraphExplorer"/>
       </PkgGraphExplorer>
-      <ProjectInspector>
-        <Caption Value="ProjectInspector"/>
-      </ProjectInspector>
       <EditorFileManager>
         <Caption Value="EditorFileManager"/>
       </EditorFileManager>
-      <SearchResults>
-        <Caption Value="SearchResults"/>
-      </SearchResults>
       <AnchorEditor>
         <Caption Value="AnchorEditor"/>
       </AnchorEditor>
@@ -206,9 +210,6 @@
       <JumpHistory>
         <Caption Value="JumpHistory"/>
       </JumpHistory>
-      <ComponentList>
-        <Caption Value="ComponentList"/>
-      </ComponentList>
       <ProcedureList>
         <Caption Value="ProcedureList"/>
       </ProcedureList>
@@ -222,19 +223,90 @@
           <Size Width="0" Height="0"/>
         </Dialog2>
         <Dialog3>
-          <Name Value="TInstallPkgSetDialog"/>
-          <Size Width="607" Height="578"/>
+          <Name Value="TIDEOptionsDialog"/>
+          <Size Width="800" Height="500"/>
         </Dialog3>
       </Dialogs>
-      <IDECoolBarOptions>
-        <Width Value="230"/>
+      <HideIDEOnRun Value="True"/>
+      <IDECoolBarOptions Count="3">
+        <Width Value="235"/>
+        <GrabStyle Value="4"/>
+        <BorderStyle Value="0"/>
+        <ToolBar1 Version="1" Count="10">
+          <Button1 Name="NewForm"/>
+          <Button2 Name="NewUnit"/>
+          <Button3 Name="---------------"/>
+          <Button4 Name="Open"/>
+          <Button5 Name="Save"/>
+          <Button6 Name="SaveAll"/>
+          <Button7 Name="---------------"/>
+          <Button8 Name="Toggle between Unit and Form"/>
+          <Button9 Name="---------------"/>
+          <Button10 Name="Manage desktops"/>
+        </ToolBar1>
+        <ToolBar2 Version="1" Count="10">
+          <Button1 Name="View Units"/>
+          <Button2 Name="View Forms"/>
+          <Button3 Name="---------------"/>
+          <Button4 Name="Change build mode"/>
+          <Button5 Name="Run program"/>
+          <Button6 Name="Pause program"/>
+          <Button7 Name="Stop program"/>
+          <Button8 Name="Step over"/>
+          <Button9 Name="Step into"/>
+          <Button10 Name="Step out"/>
+        </ToolBar2>
+        <ToolBar3 Version="1" Count="9">
+          <Button1 Name="Undo"/>
+          <Button2 Name="Redo"/>
+          <Button3 Name="---------------"/>
+          <Button4 Name="Find text"/>
+          <Button5 Name="Find in files"/>
+          <Button6 Name="Replace text"/>
+          <Button7 Name="---------------"/>
+          <Button8 Name="Jump back"/>
+          <Button9 Name="Jump forward"/>
+        </ToolBar3>
       </IDECoolBarOptions>
-      <EditorToolBarOptions Version="1" Count="4">
-        <Button1 Name="Jump to Implementation"/>
-        <Button2 Name="Jump back"/>
-        <Button3 Name="Jump forward"/>
-        <Button4 Name="---------------"/>
-      </EditorToolBarOptions>
+      <EditorToolBarOptions Visible="False" Position="" Version="1"/>
+      <AnchorDocking>
+        <Version Value="1"/>
+        <MainConfig>
+          <Nodes ChildCount="1">
+            <Item1 Name="MainIDE" Type="CustomSite" WindowState="Maximized" ChildCount="1">
+              <Bounds Width="1920" Height="1032">
+                <WorkArea>
+                  <Rect Right="1920" Bottom="1054"/>
+                </WorkArea>
+              </Bounds>
+              <Item1 Name="AnchorDockSite4" Type="Layout" ChildCount="5">
+                <Bounds Top="90" Width="1920" Height="919" SplitterPos="88"/>
+                <Anchors Align="Bottom"/>
+                <Item1 Name="SourceNotebook" Type="Control">
+                  <Bounds Left="279" Width="1194" Height="919"/>
+                  <Anchors Left="AnchorDockSplitter2" Right="AnchorDockSplitter3"/>
+                  <Header Position="left"/>
+                </Item1>
+                <Item2 Name="MessagesView" Type="Control">
+                  <Bounds Left="1477" Width="443" Height="919"/>
+                  <Anchors Left="AnchorDockSplitter3"/>
+                </Item2>
+                <Item3 Name="CodeExplorerView" Type="Control">
+                  <Bounds Width="275" Height="919"/>
+                  <Anchors Right="AnchorDockSplitter2"/>
+                </Item3>
+                <Item4 Name="AnchorDockSplitter2" Type="SplitterVertical">
+                  <Bounds Left="275" Width="4" Height="919"/>
+                </Item4>
+                <Item5 Name="AnchorDockSplitter3" Type="SplitterVertical">
+                  <Bounds Left="1473" Width="4" Height="919"/>
+                </Item5>
+              </Item1>
+            </Item1>
+          </Nodes>
+        </MainConfig>
+        <Settings ShowHeader="False"/>
+      </AnchorDocking>
     </Desktop1>
     <Desktop2 Name="default docked" DockMaster="TIDEAnchorDockMaster">
       <Desktop Version="2" FormIdCount="32">

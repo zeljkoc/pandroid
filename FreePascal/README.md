@@ -7,7 +7,7 @@ Pandroid   v. 1.0
 
 GetLazarus v. 1.7      
 
-FrePasscal v. 3.1.1 (i386-linux)
+FreePascal v. 3.1.1 (i386-linux)
 
 cross 
 

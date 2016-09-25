@@ -3,13 +3,18 @@
 OS: Debina 8.5 32 bit LXDE
 
 
-Pandroid   v. 1.0 (i386-linux)
+Pandroid   v. 1.0 
+
 GetLazarus v. 1.7      
-FrePasscal v. 3.1.1
+
+FrePasscal v. 3.1.1 (i386-linux)
 
 cross 
+
  arm-android
+
  jvm-android (pandroid)
+
  x86_64-win64
 
 

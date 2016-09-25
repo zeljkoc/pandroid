@@ -14,9 +14,9 @@ Change source Pandroid: 15.08.2016.
 #Debian 8.5 32 LXDE #: apt-get install openjdk-7-jdk
 #Mint 18 32 MATE    #: apt-get install openjdk-8-jdk
 
- #: apt-get install gdb
+ #: apt-get update
 
- #: apt-get install android-tools-adb ant mtp-tools
+ #: apt-get install libgtk2.0-dev gdb openjdk-7-jdk android-tools-adb ant mtp-tools zip
 
  
  #: cd /usr/local
@@ -26,29 +26,7 @@ Change source Pandroid: 15.08.2016.
  #: chmod 0777 -R pandroid
 
 
-
-echo "Prerequisites for Free Pascal and Lazarus on Linux"
-
-echo "--------------------------------------------------"
-
-echo "This installer requires the following packages which"
-
-echo "can be installed on Debian distributions by using:"
-
-
-echo "sudo apt-get install build-essential p7zip-full"
-
-echo "Lazarus requires the following Gtk+ dev packages which"
-
-echo "can be installed on Debian distributions by using:"
-
-echo
-
-echo "sudo apt-get install libgtk2.0-dev libcairo2-dev \\" 
-
-echo "  libpango1.0-dev libgdk-pixbuf2.0-dev libatk1.0-dev \\"
-
-echo "  libghc-x11-dev"
+ 
 
 
 

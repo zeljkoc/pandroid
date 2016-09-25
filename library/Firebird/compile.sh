@@ -1,5 +1,5 @@
 SDK=/usr/local/pandroid/sdk
-CODETYPHON=/usr/local/codetyphon
+PANDROID=/usr/local/pandroid
 
 rm -rf bin
 mkdir -p bin
@@ -15,7 +15,7 @@ rm -rf bin
 
 
 echo ============================ pascal
-java -jar $CODETYPHON/fpc/fpc64/bin/x86_64-linux/javapp.jar -bootclasspath $SDK/platforms/android-15/android.jar -classpath dist/zcfbclient.jar -extdirs . -protected zeljus.com.firebird. -o zcfbclient
+java -jar $PANDROID/FreePascal/fpc/bin/javapp.jar -bootclasspath $SDK/platforms/android-15/android.jar -classpath dist/zcfbclient.jar -extdirs . -protected zeljus.com.firebird. -o zcfbclient
 
 echo -------------------------- compile
 #sleep 50

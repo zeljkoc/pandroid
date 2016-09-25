@@ -7,6 +7,7 @@
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="66" Y="21"/>
         <UsageCount Value="388"/>
         <Loaded Value="True"/>
@@ -14,7 +15,6 @@
       <Unit1>
         <Filename Value="zcFirebird.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="34" Y="13"/>
         <UsageCount Value="165"/>

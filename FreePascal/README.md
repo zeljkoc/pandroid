@@ -3,9 +3,14 @@
 OS: Debina 8.5 32 bit LXDE
 
 
-Pandroid   v. 1.0 
+Pandroid   v. 1.0 (i386-linux)
 GetLazarus v. 1.7      
 FrePasscal v. 3.1.1
+
+cross 
+ arm-android
+ jvm-android (pandroid)
+ x86_64-win64
 
 
 # Create Android application from FreePascal JVM 
@@ -16,14 +21,8 @@ FrePasscal v. 3.1.1
 
 Install:
  #: apt-get update
- 
- #: apt-get install build-essential p7zip-full libgtk2.0-dev libcairo2-dev
- 
- #: apt-get install libpango1.0-dev libgdk-pixbuf2.0-dev libatk1.0-dev libghc-x11-dev
 
- #: apt-get install mtp-tools ant android-tools-adb
- 
- #: apt-get install gdb openjdk-7-jdk
+ #: apt-get install libgtk2.0-dev gdb openjdk-7-jdk android-tools-adb ant mtp-tools zip
 
 
  #: cd /usr/local
@@ -36,7 +35,6 @@ shortcut:
 
 /usr/local/pandroid/FreePascal\Lazarus
 
-/usr/local/pandroid/pandroid
 
 
 

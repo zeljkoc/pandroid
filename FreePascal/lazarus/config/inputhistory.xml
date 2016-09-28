@@ -2,28 +2,35 @@
 <CONFIG>
   <InputHistory>
     <Version Value="1"/>
-    <FileDialog InitialDir="/usr/local/pandroid/library/Firebird/jni/">
+    <Find>
+      <History>
+        <Find Count="1">
+          <Item1 Value="TestUslovNext"/>
+        </Find>
+      </History>
+    </Find>
+    <FileDialog InitialDir="/home/android/zeljus/Reciklaza/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item2 Value="/home/android/zeljus/Reciklaza/"/>
-        <Item3 Value="/usr/local/pandroid/example/SecondActivity/"/>
-        <Item4 Value="/home/android/SecondActivity/"/>
-        <Item5 Value="/home/android/Test/"/>
-        <Item6 Value="/home/android/Reciklaza/"/>
-        <Item7 Value="/usr/local/pandroid/example/Demo3DCube/"/>
-        <Item8 Value="/usr/local/pandroid/source/"/>
-        <Item9 Value="/usr/local/pandroid/project/Popis/"/>
-        <Item10 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item11 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
-        <Item12 Value="/usr/local/pandroid/example/Demo3DCube2/"/>
-        <Item13 Value="/usr/local/pandroid/example/DemoChart/"/>
-        <Item14 Value="/usr/local/pandroid/example/DemoMenu/"/>
-        <Item15 Value="/usr/local/pandroid/example/DemoOpenGL/"/>
-        <Item16 Value="/usr/local/pandroid/example/DemoPrint/"/>
-        <Item17 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
-        <Item18 Value="/usr/local/pandroid/example/DemoToolBar/"/>
-        <Item19 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
-        <Item20 Value="/usr/local/pandroid/example/DemoWebView/"/>
+        <Item1 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item2 Value="/home/android/DemoOBDII/"/>
+        <Item3 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item4 Value="/usr/local/pandroid/example/SecondActivity/"/>
+        <Item5 Value="/home/android/SecondActivity/"/>
+        <Item6 Value="/home/android/Test/"/>
+        <Item7 Value="/home/android/Reciklaza/"/>
+        <Item8 Value="/usr/local/pandroid/example/Demo3DCube/"/>
+        <Item9 Value="/usr/local/pandroid/source/"/>
+        <Item10 Value="/usr/local/pandroid/project/Popis/"/>
+        <Item11 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item12 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
+        <Item13 Value="/usr/local/pandroid/example/Demo3DCube2/"/>
+        <Item14 Value="/usr/local/pandroid/example/DemoChart/"/>
+        <Item15 Value="/usr/local/pandroid/example/DemoMenu/"/>
+        <Item16 Value="/usr/local/pandroid/example/DemoOpenGL/"/>
+        <Item17 Value="/usr/local/pandroid/example/DemoPrint/"/>
+        <Item18 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
+        <Item19 Value="/usr/local/pandroid/example/DemoToolBar/"/>
+        <Item20 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
       </HistoryList>
     </FileDialog>
   </InputHistory>

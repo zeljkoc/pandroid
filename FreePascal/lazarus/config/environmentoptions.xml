@@ -80,9 +80,9 @@
         <Item10 Value="/usr/local/pandroid/units/AZCListView.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
-        <Item2 Value="/home/android/zeljus/Reciklaza/Reciklaza.lpi"/>
-        <Item3 Value="/home/android/DemoOBDII/DemoOBDII.lpi"/>
+        <Item1 Value="/home/android/zeljus/Reciklaza/Reciklaza.lpi"/>
+        <Item2 Value="/home/android/DemoOBDII/DemoOBDII.lpi"/>
+        <Item3 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
         <Item4 Value="/home/android/BlueTootAuto/Test.lpi"/>
         <Item5 Value="/home/android/Test/Test.lpi"/>
       </ProjectFiles>
@@ -100,6 +100,12 @@
   </EnvironmentOptions>
   <ObjectInspectorOptions ShowHints="False" ShowStatusBar="False" ShowInfoBox="False" InfoBoxHeight="50">
     <Version Value="3"/>
+    <Bounds>
+      <EventPage SplitterX="140"/>
+    </Bounds>
+    <ComponentTree>
+      <Height Value="183"/>
+    </ComponentTree>
   </ObjectInspectorOptions>
   <Desktops Count="2" ActiveDesktop="default">
     <Desktop1 Name="default" DockMaster="TIDEAnchorDockMaster">
@@ -108,7 +114,6 @@
       </Desktop>
       <MainIDE>
         <Caption Value="MainIDE"/>
-        <CustomPosition Top="118" Width="1731" Height="774"/>
         <WindowState Value="Maximized"/>
         <Visible Value="True"/>
       </MainIDE>
@@ -119,7 +124,8 @@
       </SourceNotebook>
       <ObjectInspectorDlg>
         <Caption Value="ObjectInspectorDlg"/>
-        <CustomPosition Top="222" Width="230" Height="539"/>
+        <CustomPosition Top="464" Width="275" Height="590"/>
+        <Visible Value="True"/>
       </ObjectInspectorDlg>
       <MessagesView>
         <Caption Value="MessagesView"/>
@@ -279,7 +285,7 @@
                   <Rect Right="1920" Bottom="1054"/>
                 </WorkArea>
               </Bounds>
-              <Item1 Name="AnchorDockSite4" Type="Layout" ChildCount="5">
+              <Item1 Name="AnchorDockSite4" Type="Layout" ChildCount="7">
                 <Bounds Top="90" Width="1920" Height="919" SplitterPos="88"/>
                 <Anchors Align="Bottom"/>
                 <Item1 Name="SourceNotebook" Type="Control">
@@ -292,8 +298,8 @@
                   <Anchors Left="AnchorDockSplitter3"/>
                 </Item2>
                 <Item3 Name="CodeExplorerView" Type="Control">
-                  <Bounds Width="275" Height="919"/>
-                  <Anchors Right="AnchorDockSplitter2"/>
+                  <Bounds Width="275" Height="325"/>
+                  <Anchors Right="AnchorDockSplitter2" Bottom="AnchorDockSplitter4"/>
                 </Item3>
                 <Item4 Name="AnchorDockSplitter2" Type="SplitterVertical">
                   <Bounds Left="275" Width="4" Height="919"/>
@@ -301,6 +307,14 @@
                 <Item5 Name="AnchorDockSplitter3" Type="SplitterVertical">
                   <Bounds Left="1473" Width="4" Height="919"/>
                 </Item5>
+                <Item6 Name="AnchorDockSplitter4" Type="SplitterHorizontal">
+                  <Bounds Top="325" Width="275" Height="4"/>
+                  <Anchors Right="AnchorDockSplitter2"/>
+                </Item6>
+                <Item7 Name="ObjectInspectorDlg" Type="Control">
+                  <Bounds Top="329" Width="275" Height="590"/>
+                  <Anchors Top="AnchorDockSplitter4" Right="AnchorDockSplitter2"/>
+                </Item7>
               </Item1>
             </Item1>
           </Nodes>

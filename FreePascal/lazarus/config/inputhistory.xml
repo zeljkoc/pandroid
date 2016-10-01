@@ -9,14 +9,14 @@
         </Find>
       </History>
     </Find>
-    <FileDialog InitialDir="/home/android/zeljus/Reciklaza/">
+    <FileDialog InitialDir="/home/android/Test/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/zeljus/Reciklaza/"/>
-        <Item2 Value="/home/android/DemoOBDII/"/>
-        <Item3 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item4 Value="/usr/local/pandroid/example/SecondActivity/"/>
-        <Item5 Value="/home/android/SecondActivity/"/>
-        <Item6 Value="/home/android/Test/"/>
+        <Item1 Value="/home/android/Test/"/>
+        <Item2 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item3 Value="/home/android/DemoOBDII/"/>
+        <Item4 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item5 Value="/usr/local/pandroid/example/SecondActivity/"/>
+        <Item6 Value="/home/android/SecondActivity/"/>
         <Item7 Value="/home/android/Reciklaza/"/>
         <Item8 Value="/usr/local/pandroid/example/Demo3DCube/"/>
         <Item9 Value="/usr/local/pandroid/source/"/>
@@ -33,5 +33,6 @@
         <Item20 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
       </HistoryList>
     </FileDialog>
+    <HistoryLists Count="2"/>
   </InputHistory>
 </CONFIG>

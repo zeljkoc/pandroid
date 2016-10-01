@@ -7,7 +7,7 @@ main=rtl
 
 [target]
 loaders=
-units=$(SYSTEMUNIT) uuchar objpas androidr14
+units=$(SYSTEMUNIT) uuchar objpas androidr15
 
 [require]
 nortl=y
@@ -91,8 +91,8 @@ strings$(PPUEXT) : $(INC)/strings.pp $(INC)/stringsi.inc \
         $(SYSTEMUNIT)$(PPUEXT)
 	$(COMPILER) $(INC)/strings.pp
 
-androidr14$(PPUEXT): $(SYSTEMUNIT)$(PPUEXT) objpas$(PPUEXT) androidr14.pas androidr14.inc
-	$(COMPILER) androidr14.pas
+androidr15$(PPUEXT): $(SYSTEMUNIT)$(PPUEXT) objpas$(PPUEXT) androidr15.pas androidr15.inc
+	$(COMPILER) androidr15.pas
 
 #
 # System Dependent Units

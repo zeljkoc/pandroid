@@ -96,7 +96,7 @@
           MOUNT_FORMAT_FILESYSTEMS = 'android.permission.MOUNT_FORMAT_FILESYSTEMS';
           MOUNT_UNMOUNT_FILESYSTEMS = 'android.permission.MOUNT_UNMOUNT_FILESYSTEMS';
           NFC = 'android.permission.NFC';
-          PERSISTENT_ACTIVITY = 'android.permission.PERSISTENT_ACTIVITY';
+          PERSISTENT_ACTIVITY = 'android.permission.PERSISTENT_ACTIVITY' deprecated;
           PROCESS_OUTGOING_CALLS = 'android.permission.PROCESS_OUTGOING_CALLS';
           READ_CALENDAR = 'android.permission.READ_CALENDAR';
           READ_CONTACTS = 'android.permission.READ_CONTACTS';
@@ -107,6 +107,7 @@
           READ_PHONE_STATE = 'android.permission.READ_PHONE_STATE';
           READ_PROFILE = 'android.permission.READ_PROFILE';
           READ_SMS = 'android.permission.READ_SMS';
+          READ_SOCIAL_STREAM = 'android.permission.READ_SOCIAL_STREAM';
           READ_SYNC_SETTINGS = 'android.permission.READ_SYNC_SETTINGS';
           READ_SYNC_STATS = 'android.permission.READ_SYNC_STATS';
           REBOOT = 'android.permission.REBOOT';
@@ -116,7 +117,7 @@
           RECEIVE_WAP_PUSH = 'android.permission.RECEIVE_WAP_PUSH';
           RECORD_AUDIO = 'android.permission.RECORD_AUDIO';
           REORDER_TASKS = 'android.permission.REORDER_TASKS';
-          RESTART_PACKAGES = 'android.permission.RESTART_PACKAGES';
+          RESTART_PACKAGES = 'android.permission.RESTART_PACKAGES' deprecated;
           SEND_SMS = 'android.permission.SEND_SMS';
           SET_ACTIVITY_WATCHER = 'android.permission.SET_ACTIVITY_WATCHER';
           SET_ALARM = 'com.android.alarm.permission.SET_ALARM';
@@ -125,7 +126,7 @@
           SET_DEBUG_APP = 'android.permission.SET_DEBUG_APP';
           SET_ORIENTATION = 'android.permission.SET_ORIENTATION';
           SET_POINTER_SPEED = 'android.permission.SET_POINTER_SPEED';
-          SET_PREFERRED_APPLICATIONS = 'android.permission.SET_PREFERRED_APPLICATIONS';
+          SET_PREFERRED_APPLICATIONS = 'android.permission.SET_PREFERRED_APPLICATIONS' deprecated;
           SET_PROCESS_LIMIT = 'android.permission.SET_PROCESS_LIMIT';
           SET_TIME = 'android.permission.SET_TIME';
           SET_TIME_ZONE = 'android.permission.SET_TIME_ZONE';
@@ -151,6 +152,7 @@
           WRITE_SECURE_SETTINGS = 'android.permission.WRITE_SECURE_SETTINGS';
           WRITE_SETTINGS = 'android.permission.WRITE_SETTINGS';
           WRITE_SMS = 'android.permission.WRITE_SMS';
+          WRITE_SOCIAL_STREAM = 'android.permission.WRITE_SOCIAL_STREAM';
           WRITE_SYNC_SETTINGS = 'android.permission.WRITE_SYNC_SETTINGS';
       public
         constructor create(); overload;
@@ -1049,14 +1051,14 @@
           stat_sys_download = 17301633;
           stat_sys_download_done = 17301634;
           stat_sys_headset = 17301635;
-          stat_sys_phone_call = 17301636;
-          stat_sys_phone_call_forward = 17301637;
-          stat_sys_phone_call_on_hold = 17301638;
+          stat_sys_phone_call = 17301636 deprecated;
+          stat_sys_phone_call_forward = 17301637 deprecated;
+          stat_sys_phone_call_on_hold = 17301638 deprecated;
           stat_sys_speakerphone = 17301639;
           stat_sys_upload = 17301640;
           stat_sys_upload_done = 17301641;
-          stat_sys_vp_phone_call = 17301671;
-          stat_sys_vp_phone_call_on_hold = 17301672;
+          stat_sys_vp_phone_call = 17301671 deprecated;
+          stat_sys_vp_phone_call_on_hold = 17301672 deprecated;
           stat_sys_warning = 17301642;
           status_bar_item_app_background = 17301643;
           status_bar_item_background = 17301644;
@@ -1205,7 +1207,7 @@
           autoCompleteTextViewStyle = 16842859;
           autoLink = 16842928;
           autoStart = 16843445;
-          autoText = 16843114;
+          autoText = 16843114 deprecated;
           autoUrlDetect = 16843404;
           background = 16842964;
           backgroundDimAmount = 16842802;
@@ -1240,7 +1242,7 @@
           calendarViewStyle = 16843613;
           canRetrieveWindowContent = 16843653;
           candidatesTextStyleSpans = 16843312;
-          capitalize = 16843113;
+          capitalize = 16843113 deprecated;
           centerBright = 16842956;
           centerColor = 16843275;
           centerDark = 16842952;
@@ -1356,11 +1358,11 @@
           editTextColor = 16843601;
           editTextPreferenceStyle = 16842898;
           editTextStyle = 16842862;
-          editable = 16843115;
+          editable = 16843115 deprecated;
           editorExtras = 16843300;
           ellipsize = 16842923;
           ems = 16843096;
-          enabled = 16842766;
+          enabled = 16842766 deprecated;
           endColor = 16843166;
           endYear = 16843133;
           enterFadeDuration = 16843532;
@@ -1384,7 +1386,7 @@
           fadeEnabled = 16843390;
           fadeOffset = 16843383;
           fadeScrollbars = 16843434;
-          fadingEdge = 16842975;
+          fadingEdge = 16842975 deprecated;
           fadingEdgeLength = 16842976;
           fastScrollAlwaysVisible = 16843573;
           fastScrollEnabled = 16843302;
@@ -1494,7 +1496,7 @@
           initialLayout = 16843345;
           innerRadius = 16843359;
           innerRadiusRatio = 16843163;
-          inputMethod = 16843112;
+          inputMethod = 16843112 deprecated;
           inputType = 16843296;
           insetBottom = 16843194;
           insetLeft = 16843191;
@@ -1640,7 +1642,7 @@
           notificationTimeout = 16843651;
           numColumns = 16843032;
           numStars = 16843076;
-          numeric = 16843109;
+          numeric = 16843109 deprecated;
           numericShortcut = 16843236;
           onClick = 16843375;
           oneshot = 16843159;
@@ -1666,7 +1668,7 @@
           panelColorForeground = 16842848;
           panelFullBackground = 16842847;
           panelTextAppearance = 16842850;
-          password = 16843100;
+          password = 16843100 deprecated;
           path = 16842794;
           pathPattern = 16842796;
           pathPrefix = 16842795;
@@ -1674,7 +1676,7 @@
           permissionGroup = 16842762;
           persistent = 16842765;
           persistentDrawingCache = 16842990;
-          phoneNumber = 16843111;
+          phoneNumber = 16843111 deprecated;
           pivotX = 16843189;
           pivotY = 16843190;
           popupAnimationStyle = 16843465;
@@ -1740,7 +1742,7 @@
           resizeable = 16843405;
           resource = 16842789;
           restoreAnyVersion = 16843450;
-          restoreNeedsApplication = 16843421;
+          restoreNeedsApplication = 16843421 deprecated;
           right = 16843183;
           ringtonePreferenceStyle = 16842899;
           ringtoneType = 16843257;
@@ -1779,7 +1781,7 @@
           scrollbarTrackVertical = 16842855;
           scrollbars = 16842974;
           scrollingCache = 16843006;
-          searchButtonText = 16843269;
+          searchButtonText = 16843269 deprecated;
           searchMode = 16843221;
           searchSettingsDescription = 16843402;
           searchSuggestAuthority = 16843222;
@@ -1813,7 +1815,7 @@
           showWeekNumber = 16843582;
           shownWeekCount = 16843585;
           shrinkColumns = 16843082;
-          singleLine = 16843101;
+          singleLine = 16843101 deprecated;
           smallIcon = 16843422;
           smallScreens = 16843396;
           smoothScrollbar = 16843313;
@@ -2951,7 +2953,7 @@
   ACAbstractThreadedSyncAdapter = class abstract external 'android.content' name 'AbstractThreadedSyncAdapter' (JLObject)
   public
     const
-      LOG_SYNC_DETAILS = 2743;
+      LOG_SYNC_DETAILS = 2743 deprecated;
   public
     constructor create(para1: ACContext; para2: jboolean); overload;
     constructor create(para1: ACContext; para2: jboolean; para3: jboolean); overload;
@@ -3035,9 +3037,9 @@
   ACContentResolver = class abstract external 'android.content' name 'ContentResolver' (JLObject)
   public
     const
-      SYNC_EXTRAS_ACCOUNT = 'account';
+      SYNC_EXTRAS_ACCOUNT = 'account' deprecated;
       SYNC_EXTRAS_EXPEDITED = 'expedited';
-      SYNC_EXTRAS_FORCE = 'force';
+      SYNC_EXTRAS_FORCE = 'force' deprecated;
       SYNC_EXTRAS_IGNORE_SETTINGS = 'ignore_settings';
       SYNC_EXTRAS_IGNORE_BACKOFF = 'ignore_backoff';
       SYNC_EXTRAS_DO_NOT_RETRY = 'do_not_retry';
@@ -3158,9 +3160,9 @@
       BUTTON_POSITIVE = -1;
       BUTTON_NEGATIVE = -2;
       BUTTON_NEUTRAL = -3;
-      BUTTON1 = -1;
-      BUTTON2 = -2;
-      BUTTON3 = -3;
+      BUTTON1 = -1 deprecated;
+      BUTTON2 = -2 deprecated;
+      BUTTON3 = -3 deprecated;
     procedure cancel(); overload;
     procedure dismiss(); overload;
   end;
@@ -3252,14 +3254,18 @@
 
   ACSharedPreferences = interface external 'android.content' name 'SharedPreferences' 
     type
-      InnerEditor = interface;
-      Arr1InnerEditor = array of InnerEditor;
-      Arr2InnerEditor = array of Arr1InnerEditor;
-      Arr3InnerEditor = array of Arr2InnerEditor;
       InnerOnSharedPreferenceChangeListener = interface;
       Arr1InnerOnSharedPreferenceChangeListener = array of InnerOnSharedPreferenceChangeListener;
       Arr2InnerOnSharedPreferenceChangeListener = array of Arr1InnerOnSharedPreferenceChangeListener;
       Arr3InnerOnSharedPreferenceChangeListener = array of Arr2InnerOnSharedPreferenceChangeListener;
+      InnerEditor = interface;
+      Arr1InnerEditor = array of InnerEditor;
+      Arr2InnerEditor = array of Arr1InnerEditor;
+      Arr3InnerEditor = array of Arr2InnerEditor;
+      InnerOnSharedPreferenceChangeListener = interface external 'android.content' name 'OnSharedPreferenceChangeListener' 
+        procedure onSharedPreferenceChanged(para1: ACSharedPreferences; para2: JLString); overload;
+      end;
+
       InnerEditor = interface external 'android.content' name 'Editor' 
         function putString(para1: JLString; para2: JLString): ACSharedPreferences.InnerEditor; overload;
         function putStringSet(para1: JLString; para2: JUSet): ACSharedPreferences.InnerEditor; overload;
@@ -3271,10 +3277,6 @@
         function clear(): ACSharedPreferences.InnerEditor; overload;
         function commit(): jboolean; overload;
         procedure apply(); overload;
-      end;
-
-      InnerOnSharedPreferenceChangeListener = interface external 'android.content' name 'OnSharedPreferenceChangeListener' 
-        procedure onSharedPreferenceChanged(para1: ACSharedPreferences; para2: JLString); overload;
       end;
 
     function getAll(): JUMap; overload;
@@ -4190,10 +4192,10 @@
       L_8 = 9;
       LA_88 = 10;
       RGB_332 = 11;
-      YCbCr_422_SP = 16;
-      YCbCr_420_SP = 17;
-      YCbCr_422_I = 20;
-      JPEG = 256;
+      YCbCr_422_SP = 16 deprecated;
+      YCbCr_420_SP = 17 deprecated;
+      YCbCr_422_I = 20 deprecated;
+      JPEG = 256 deprecated;
   public
     var
       fbytesPerPixel: jint; external name 'bytesPerPixel';
@@ -4456,11 +4458,11 @@
     const
       TYPE_ACCELEROMETER = 1;
       TYPE_MAGNETIC_FIELD = 2;
-      TYPE_ORIENTATION = 3;
+      TYPE_ORIENTATION = 3 deprecated;
       TYPE_GYROSCOPE = 4;
       TYPE_LIGHT = 5;
       TYPE_PRESSURE = 6;
-      TYPE_TEMPERATURE = 7;
+      TYPE_TEMPERATURE = 7 deprecated;
       TYPE_PROXIMITY = 8;
       TYPE_GRAVITY = 9;
       TYPE_LINEAR_ACCELERATION = 10;
@@ -4504,24 +4506,24 @@
   AHSensorManager = class external 'android.hardware' name 'SensorManager' (JLObject)
   public
     const
-      SENSOR_ORIENTATION = 1;
-      SENSOR_ACCELEROMETER = 2;
-      SENSOR_TEMPERATURE = 4;
-      SENSOR_MAGNETIC_FIELD = 8;
-      SENSOR_LIGHT = 16;
-      SENSOR_PROXIMITY = 32;
-      SENSOR_TRICORDER = 64;
-      SENSOR_ORIENTATION_RAW = 128;
-      SENSOR_ALL = 127;
-      SENSOR_MIN = 1;
-      SENSOR_MAX = 64;
-      DATA_X = 0;
-      DATA_Y = 1;
-      DATA_Z = 2;
-      RAW_DATA_INDEX = 3;
-      RAW_DATA_X = 3;
-      RAW_DATA_Y = 4;
-      RAW_DATA_Z = 5;
+      SENSOR_ORIENTATION = 1 deprecated;
+      SENSOR_ACCELEROMETER = 2 deprecated;
+      SENSOR_TEMPERATURE = 4 deprecated;
+      SENSOR_MAGNETIC_FIELD = 8 deprecated;
+      SENSOR_LIGHT = 16 deprecated;
+      SENSOR_PROXIMITY = 32 deprecated;
+      SENSOR_TRICORDER = 64 deprecated;
+      SENSOR_ORIENTATION_RAW = 128 deprecated;
+      SENSOR_ALL = 127 deprecated;
+      SENSOR_MIN = 1 deprecated;
+      SENSOR_MAX = 64 deprecated;
+      DATA_X = 0 deprecated;
+      DATA_Y = 1 deprecated;
+      DATA_Z = 2 deprecated;
+      RAW_DATA_INDEX = 3 deprecated;
+      RAW_DATA_X = 3 deprecated;
+      RAW_DATA_Y = 4 deprecated;
+      RAW_DATA_Z = 5 deprecated;
       STANDARD_GRAVITY = jfloat(9.80665);
       GRAVITY_SUN = jfloat(275.0);
       GRAVITY_MERCURY = jfloat(3.7);
@@ -4546,7 +4548,7 @@
       LIGHT_SUNRISE = jfloat(400.0);
       LIGHT_CLOUDY = jfloat(100.0);
       LIGHT_FULLMOON = jfloat(0.25);
-      LIGHT_NO_MOON = jfloat(0.0010);
+      LIGHT_NO_MOON = jfloat(0.001);
       SENSOR_DELAY_FASTEST = 0;
       SENSOR_DELAY_GAME = 1;
       SENSOR_DELAY_UI = 2;
@@ -4870,10 +4872,10 @@
       ENCODING_DEFAULT = 1;
       ENCODING_PCM_16BIT = 2;
       ENCODING_PCM_8BIT = 3;
-      CHANNEL_CONFIGURATION_INVALID = 0;
-      CHANNEL_CONFIGURATION_DEFAULT = 1;
-      CHANNEL_CONFIGURATION_MONO = 2;
-      CHANNEL_CONFIGURATION_STEREO = 3;
+      CHANNEL_CONFIGURATION_INVALID = 0 deprecated;
+      CHANNEL_CONFIGURATION_DEFAULT = 1 deprecated;
+      CHANNEL_CONFIGURATION_MONO = 2 deprecated;
+      CHANNEL_CONFIGURATION_STEREO = 3 deprecated;
       CHANNEL_INVALID = 0;
       CHANNEL_OUT_DEFAULT = 1;
       CHANNEL_OUT_FRONT_LEFT = 4;
@@ -4938,7 +4940,7 @@
       STREAM_ALARM = 4;
       STREAM_NOTIFICATION = 5;
       STREAM_DTMF = 8;
-      NUM_STREAMS = 5;
+      NUM_STREAMS = 5 deprecated;
       ADJUST_RAISE = 1;
       ADJUST_LOWER = -1;
       ADJUST_SAME = 0;
@@ -4956,7 +4958,7 @@
       VIBRATE_SETTING_ON = 1;
       VIBRATE_SETTING_ONLY_SILENT = 2;
       USE_DEFAULT_STREAM_TYPE = -2147483648;
-      ACTION_SCO_AUDIO_STATE_CHANGED = 'android.media.SCO_AUDIO_STATE_CHANGED';
+      ACTION_SCO_AUDIO_STATE_CHANGED = 'android.media.SCO_AUDIO_STATE_CHANGED' deprecated;
       ACTION_SCO_AUDIO_STATE_UPDATED = 'android.media.ACTION_SCO_AUDIO_STATE_UPDATED';
       EXTRA_SCO_AUDIO_STATE = 'android.media.extra.SCO_AUDIO_STATE';
       EXTRA_SCO_AUDIO_PREVIOUS_STATE = 'android.media.extra.SCO_AUDIO_PREVIOUS_STATE';
@@ -4970,13 +4972,13 @@
       MODE_RINGTONE = 1;
       MODE_IN_CALL = 2;
       MODE_IN_COMMUNICATION = 3;
-      ROUTE_EARPIECE = 1;
-      ROUTE_SPEAKER = 2;
-      ROUTE_BLUETOOTH = 4;
-      ROUTE_BLUETOOTH_SCO = 4;
-      ROUTE_HEADSET = 8;
-      ROUTE_BLUETOOTH_A2DP = 16;
-      ROUTE_ALL = -1;
+      ROUTE_EARPIECE = 1 deprecated;
+      ROUTE_SPEAKER = 2 deprecated;
+      ROUTE_BLUETOOTH = 4 deprecated;
+      ROUTE_BLUETOOTH_SCO = 4 deprecated;
+      ROUTE_HEADSET = 8 deprecated;
+      ROUTE_BLUETOOTH_A2DP = 16 deprecated;
+      ROUTE_ALL = -1 deprecated;
       FX_KEY_CLICK = 0;
       FX_FOCUS_NAVIGATION_UP = 1;
       FX_FOCUS_NAVIGATION_DOWN = 2;
@@ -5177,6 +5179,7 @@
       QUALITY_480P = 4;
       QUALITY_720P = 5;
       QUALITY_1080P = 6;
+      QUALITY_QVGA = 7;
       QUALITY_TIME_LAPSE_LOW = 1000;
       QUALITY_TIME_LAPSE_HIGH = 1001;
       QUALITY_TIME_LAPSE_QCIF = 1002;
@@ -5184,6 +5187,7 @@
       QUALITY_TIME_LAPSE_480P = 1004;
       QUALITY_TIME_LAPSE_720P = 1005;
       QUALITY_TIME_LAPSE_1080P = 1006;
+      QUALITY_TIME_LAPSE_QVGA = 1007;
   public
     var
       fduration: jint; external name 'duration';
@@ -5352,6 +5356,7 @@
       METADATA_KEY_VIDEO_WIDTH = 18;
       METADATA_KEY_VIDEO_HEIGHT = 19;
       METADATA_KEY_BITRATE = 20;
+      METADATA_KEY_LOCATION = 23;
   public
     constructor create(); overload;
     procedure setDataSource(para1: JLString); overload; virtual;  // throws java.lang.IllegalArgumentException
@@ -6147,7 +6152,7 @@
   public
     const
       CONNECTIVITY_ACTION = 'android.net.conn.CONNECTIVITY_CHANGE';
-      EXTRA_NETWORK_INFO = 'networkInfo';
+      EXTRA_NETWORK_INFO = 'networkInfo' deprecated;
       EXTRA_IS_FAILOVER = 'isFailover';
       EXTRA_OTHER_NETWORK_INFO = 'otherNetwork';
       EXTRA_NO_CONNECTIVITY = 'noConnectivity';
@@ -6422,7 +6427,7 @@
       SSL_UNTRUSTED = 3;
       SSL_DATE_INVALID = 4;
       SSL_INVALID = 5;
-      SSL_MAX_ERROR = 6;
+      SSL_MAX_ERROR = 6 deprecated;
   public
     constructor create(para1: jint; para2: ANHSslCertificate); overload;
     constructor create(para1: jint; para2: JSCX509Certificate); overload;
@@ -7386,6 +7391,10 @@
       GL_TEXTURE_MAX_ANISOTROPY_EXT = 34046;
       GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT = 34047;
       GL_BGRA = 32993;
+      GL_TEXTURE_EXTERNAL_OES = 36197;
+      GL_SAMPLER_EXTERNAL_OES = 36198;
+      GL_TEXTURE_BINDING_EXTERNAL_OES = 36199;
+      GL_REQUIRED_TEXTURE_IMAGE_UNITS_OES = 36200;
   public
     constructor create(); overload;
     class procedure glBlendEquationSeparateOES(para1: jint; para2: jint); static; overload;
@@ -8222,6 +8231,7 @@
           HONEYCOMB_MR1 = 12;
           HONEYCOMB_MR2 = 13;
           ICE_CREAM_SANDWICH = 14;
+          ICE_CREAM_SANDWICH_MR1 = 15;
       public
         constructor create(); overload;
       end;
@@ -8231,7 +8241,7 @@
         final class var
           fINCREMENTAL: JLString; external name 'INCREMENTAL';
           fRELEASE: JLString; external name 'RELEASE';
-          fSDK: JLString; external name 'SDK';
+          fSDK: JLString deprecated; external name 'SDK';
           fSDK_INT: jint; external name 'SDK_INT';
           fCODENAME: JLString; external name 'CODENAME';
       public
@@ -8254,7 +8264,7 @@
       fBRAND: JLString; external name 'BRAND';
       fMODEL: JLString; external name 'MODEL';
       fBOOTLOADER: JLString; external name 'BOOTLOADER';
-      fRADIO: JLString; external name 'RADIO';
+      fRADIO: JLString deprecated; external name 'RADIO';
       fHARDWARE: JLString; external name 'HARDWARE';
       fSERIAL: JLString; external name 'SERIAL';
       fTYPE: JLString; external name 'TYPE';
@@ -8414,6 +8424,7 @@
       DUMP_TRANSACTION = 1598311760;
       INTERFACE_TRANSACTION = 1598968902;
       TWEET_TRANSACTION = 1599362900;
+      LIKE_TRANSACTION = 1598835019;
       FLAG_ONEWAY = 1;
     function getInterfaceDescriptor(): JLString; overload;  // throws android.os.RemoteException
     function pingBinder(): jboolean; overload;
@@ -8523,7 +8534,7 @@
     const
       PARTIAL_WAKE_LOCK = 1;
       FULL_WAKE_LOCK = 26;
-      SCREEN_BRIGHT_WAKE_LOCK = 10;
+      SCREEN_BRIGHT_WAKE_LOCK = 10 deprecated;
       SCREEN_DIM_WAKE_LOCK = 6;
       ACQUIRE_CAUSES_WAKEUP = 268435456;
       ON_AFTER_RELEASE = 536870912;
@@ -9401,6 +9412,7 @@
     function speak(para1: JLString; para2: jint; para3: JUHashMap): jint; overload; virtual;
     function playEarcon(para1: JLString; para2: jint; para3: JUHashMap): jint; overload; virtual;
     function playSilence(para1: jlong; para2: jint; para3: JUHashMap): jint; overload; virtual;
+    function getFeatures(para1: JULocale): JUSet; overload; virtual;
     function isSpeaking(): jboolean; overload; virtual;
     function stop(): jint; overload; virtual;
     function setSpeechRate(para1: jfloat): jint; overload; virtual;
@@ -9410,10 +9422,19 @@
     function isLanguageAvailable(para1: JULocale): jint; overload; virtual;
     function synthesizeToFile(para1: JLString; para2: JUHashMap; para3: JLString): jint; overload; virtual;
     function setOnUtteranceCompletedListener(para1: ASTTextToSpeech.InnerOnUtteranceCompletedListener): jint; overload; virtual;
+    function setOnUtteranceProgressListener(para1: ASTUtteranceProgressListener): jint; overload; virtual;
     function setEngineByPackageName(para1: JLString): jint; overload; virtual;
     function getDefaultEngine(): JLString; overload; virtual;
     function areDefaultsEnforced(): jboolean; overload; virtual;
     function getEngines(): JUList; overload; virtual;
+  end;
+
+  ASTUtteranceProgressListener = class abstract external 'android.speech.tts' name 'UtteranceProgressListener' (JLObject)
+  public
+    constructor create(); overload;
+    procedure onStart(para1: JLString); overload; virtual; abstract;
+    procedure onDone(para1: JLString); overload; virtual; abstract;
+    procedure onError(para1: JLString); overload; virtual; abstract;
   end;
 
   ATCellLocation = class abstract external 'android.telephony' name 'CellLocation' (JLObject)
@@ -9475,7 +9496,7 @@
     const
       LISTEN_NONE = 0;
       LISTEN_SERVICE_STATE = 1;
-      LISTEN_SIGNAL_STRENGTH = 2;
+      LISTEN_SIGNAL_STRENGTH = 2 deprecated;
       LISTEN_MESSAGE_WAITING_INDICATOR = 4;
       LISTEN_CALL_FORWARDING_INDICATOR = 8;
       LISTEN_CELL_LOCATION = 16;
@@ -9599,15 +9620,15 @@
   ATGSmsManager = class sealed external 'android.telephony.gsm' name 'SmsManager' (JLObject)
   public
     const
-      STATUS_ON_SIM_FREE = 0;
-      STATUS_ON_SIM_READ = 1;
-      STATUS_ON_SIM_UNREAD = 3;
-      STATUS_ON_SIM_SENT = 5;
-      STATUS_ON_SIM_UNSENT = 7;
-      RESULT_ERROR_GENERIC_FAILURE = 1;
-      RESULT_ERROR_RADIO_OFF = 2;
-      RESULT_ERROR_NULL_PDU = 3;
-      RESULT_ERROR_NO_SERVICE = 4;
+      STATUS_ON_SIM_FREE = 0 deprecated;
+      STATUS_ON_SIM_READ = 1 deprecated;
+      STATUS_ON_SIM_UNREAD = 3 deprecated;
+      STATUS_ON_SIM_SENT = 5 deprecated;
+      STATUS_ON_SIM_UNSENT = 7 deprecated;
+      RESULT_ERROR_GENERIC_FAILURE = 1 deprecated;
+      RESULT_ERROR_RADIO_OFF = 2 deprecated;
+      RESULT_ERROR_NULL_PDU = 3 deprecated;
+      RESULT_ERROR_NO_SERVICE = 4 deprecated;
   public
     class function getDefault(): ATGSmsManager; static; overload; final;
     procedure sendTextMessage(para1: JLString; para2: JLString; para3: JLString; para4: AAPendingIntent; para5: AAPendingIntent); overload; virtual; final;
@@ -9995,7 +10016,7 @@
       FORMAT_CAP_NOON = 1024;
       FORMAT_NO_MIDNIGHT = 2048;
       FORMAT_CAP_MIDNIGHT = 4096;
-      FORMAT_UTC = 8192;
+      FORMAT_UTC = 8192 deprecated;
       FORMAT_ABBREV_TIME = 16384;
       FORMAT_ABBREV_WEEKDAY = 32768;
       FORMAT_ABBREV_MONTH = 65536;
@@ -10316,11 +10337,11 @@
   AUConfig = class sealed external 'android.util' name 'Config' (JLObject)
   public
     const
-      DEBUG = 0;
-      RELEASE = 1;
-      PROFILE = 0;
-      LOGV = 0;
-      LOGD = 1;
+      DEBUG = 0 deprecated;
+      RELEASE = 1 deprecated;
+      PROFILE = 0 deprecated;
+      LOGV = 0 deprecated;
+      LOGD = 1 deprecated;
   end;
 
   AUDebugUtils = class external 'android.util' name 'DebugUtils' (JLObject)
@@ -11174,6 +11195,10 @@
     procedure setScrollX(para1: jint); overload; virtual;
     function getScrollY(): jint; overload; virtual;
     procedure setScrollY(para1: jint); overload; virtual;
+    function getMaxScrollX(): jint; overload; virtual;
+    procedure setMaxScrollX(para1: jint); overload; virtual;
+    function getMaxScrollY(): jint; overload; virtual;
+    procedure setMaxScrollY(para1: jint); overload; virtual;
     function getAddedCount(): jint; overload; virtual;
     procedure setAddedCount(para1: jint); overload; virtual;
     function getRemovedCount(): jint; overload; virtual;
@@ -11427,6 +11452,7 @@
   public
     function isSessionDisconnected(): jboolean; overload; virtual;
     function getSpellChecker(): AVTSpellCheckerInfo; overload; virtual;
+    procedure cancel(); overload; virtual;
     procedure close(); overload; virtual;
     procedure getSuggestions(para1: AVTTextInfo; para2: jint); overload; virtual;
     procedure getSuggestions(para1: Arr1AVTTextInfo; para2: jint; para3: jboolean); overload; virtual;
@@ -12145,7 +12171,7 @@
   JLSecurityManager = class external 'java.lang' name 'SecurityManager' (JLObject)
   strict protected
     var
-      finCheck: jboolean; external name 'inCheck';
+      finCheck: jboolean deprecated; external name 'inCheck';
   public
     constructor create(); overload;
     procedure checkAccept(para1: JLString; para2: jint); overload; virtual;
@@ -14137,7 +14163,7 @@
       GLOBAL_LOGGER_NAME = 'global';
   public
     final class var
-      fglobal: JULLogger; external name 'global';
+      fglobal: JULLogger deprecated; external name 'global';
   strict protected
     constructor create(para1: JLString; para2: JLString); overload;
   public
@@ -17324,6 +17350,7 @@
   public
     constructor create(para1: jint); overload;
     procedure setOnFrameAvailableListener(para1: AGSurfaceTexture.InnerOnFrameAvailableListener); overload; virtual;
+    procedure setDefaultBufferSize(para1: jint; para2: jint); overload; virtual;
     procedure updateTexImage(); overload; virtual;
     procedure getTransformMatrix(para1: Arr1jfloat); overload; virtual;
     procedure getTransformMatrix(var para1: array of jfloat); overload; virtual;
@@ -18227,6 +18254,7 @@
     function getDimensionPixelSize(para1: jint): jint; overload; virtual;  // throws android.content.res.Resources$NotFoundException
     function getFraction(para1: jint; para2: jint; para3: jint): jfloat; overload; virtual;
     function getDrawable(para1: jint): AGDDrawable; overload; virtual;  // throws android.content.res.Resources$NotFoundException
+    function getDrawableForDensity(para1: jint; para2: jint): AGDDrawable; overload; virtual;  // throws android.content.res.Resources$NotFoundException
     function getMovie(para1: jint): AGMovie; overload; virtual;  // throws android.content.res.Resources$NotFoundException
     function getColor(para1: jint): jint; overload; virtual;  // throws android.content.res.Resources$NotFoundException
     function getColorStateList(para1: jint): ACRColorStateList; overload; virtual;  // throws android.content.res.Resources$NotFoundException
@@ -18239,6 +18267,7 @@
     function openRawResource(para1: jint; para2: AUTypedValue): JIInputStream; overload; virtual;  // throws android.content.res.Resources$NotFoundException
     function openRawResourceFd(para1: jint): ACRAssetFileDescriptor; overload; virtual;  // throws android.content.res.Resources$NotFoundException
     procedure getValue(para1: jint; para2: AUTypedValue; para3: jboolean); overload; virtual;  // throws android.content.res.Resources$NotFoundException
+    procedure getValueForDensity(para1: jint; para2: jint; para3: AUTypedValue; para4: jboolean); overload; virtual;  // throws android.content.res.Resources$NotFoundException
     procedure getValue(para1: JLString; para2: AUTypedValue; para3: jboolean); overload; virtual;  // throws android.content.res.Resources$NotFoundException
     function newTheme(): ACRResources.InnerTheme; overload; virtual; final;
     function obtainAttributes(para1: AUAttributeSet; para2: Arr1jint): ACRTypedArray; overload; virtual;
@@ -18353,10 +18382,10 @@
       end;
 
     const
-      SURFACE_TYPE_NORMAL = 0;
-      SURFACE_TYPE_HARDWARE = 1;
-      SURFACE_TYPE_GPU = 2;
-      SURFACE_TYPE_PUSH_BUFFERS = 3;
+      SURFACE_TYPE_NORMAL = 0 deprecated;
+      SURFACE_TYPE_HARDWARE = 1 deprecated;
+      SURFACE_TYPE_GPU = 2 deprecated;
+      SURFACE_TYPE_PUSH_BUFFERS = 3 deprecated;
     procedure addCallback(para1: AVSurfaceHolder.InnerCallback); overload;
     procedure removeCallback(para1: AVSurfaceHolder.InnerCallback); overload;
     function isCreating(): jboolean; overload;
@@ -19439,8 +19468,8 @@
       InnerSubmitPdu = class external 'android.telephony.gsm' name 'SubmitPdu' (JLObject)
       public
         var
-          fencodedScAddress: Arr1jbyte; external name 'encodedScAddress';
-          fencodedMessage: Arr1jbyte; external name 'encodedMessage';
+          fencodedScAddress: Arr1jbyte deprecated; external name 'encodedScAddress';
+          fencodedMessage: Arr1jbyte deprecated; external name 'encodedMessage';
       public
         constructor create(); overload;
         function toString(): JLString; overload; virtual;
@@ -19461,13 +19490,13 @@
 
   public
     const
-      ENCODING_UNKNOWN = 0;
-      ENCODING_7BIT = 1;
-      ENCODING_8BIT = 2;
-      ENCODING_16BIT = 3;
-      MAX_USER_DATA_BYTES = 140;
-      MAX_USER_DATA_SEPTETS = 160;
-      MAX_USER_DATA_SEPTETS_WITH_HEADER = 153;
+      ENCODING_UNKNOWN = 0 deprecated;
+      ENCODING_7BIT = 1 deprecated;
+      ENCODING_8BIT = 2 deprecated;
+      ENCODING_16BIT = 3 deprecated;
+      MAX_USER_DATA_BYTES = 140 deprecated;
+      MAX_USER_DATA_SEPTETS = 160 deprecated;
+      MAX_USER_DATA_SEPTETS_WITH_HEADER = 153 deprecated;
   public
     constructor create(); overload;
     class function createFromPdu(para1: Arr1jbyte): ATGSmsMessage; static; overload;
@@ -21296,6 +21325,18 @@
     constructor create(para1: JLThrowable); overload;
   end;
 
+  JLAssertionError = class external 'java.lang' name 'AssertionError' (JLError)
+  public
+    constructor create(); overload;
+    constructor create(para1: JLObject); overload;
+    constructor create(para1: jboolean); overload;
+    constructor create(para1: jchar); overload;
+    constructor create(para1: jint); overload;
+    constructor create(para1: jlong); overload;
+    constructor create(para1: jfloat); overload;
+    constructor create(para1: jdouble); overload;
+  end;
+
   JLThreadDeath = class external 'java.lang' name 'ThreadDeath' (JLError)
   public
     constructor create(); overload;
@@ -22082,6 +22123,26 @@
     function size(): jint; overload; virtual;
   end;
 
+  JUWeakHashMap = class external 'java.util' name 'WeakHashMap' (JUAbstractMap, JUMap)
+  public
+    constructor create(); overload;
+    constructor create(para1: jint); overload;
+    constructor create(para1: jint; para2: jfloat); overload;
+    constructor create(para1: JUMap); overload;
+    procedure clear(); overload; virtual;
+    function containsKey(para1: JLObject): jboolean; overload; virtual;
+    function entrySet(): JUSet; overload; virtual;
+    function keySet(): JUSet; overload; virtual;
+    function values(): JUCollection; overload; virtual;
+    function get(para1: JLObject): JLObject; overload; virtual;
+    function containsValue(para1: JLObject): jboolean; overload; virtual;
+    function isEmpty(): jboolean; overload; virtual;
+    function put(para1: JLObject; para2: JLObject): JLObject; overload; virtual;
+    procedure putAll(para1: JUMap); overload; virtual;
+    function remove(para1: JLObject): JLObject; overload; virtual;
+    function size(): jint; overload; virtual;
+  end;
+
   JUGregorianCalendar = class external 'java.util' name 'GregorianCalendar' (JUCalendar)
   public
     const
@@ -22783,9 +22844,9 @@
   ADSSQLiteProgram = class abstract external 'android.database.sqlite' name 'SQLiteProgram' (ADSSQLiteClosable)
   strict protected
     var
-      fmDatabase: ADSSQLiteDatabase; external name 'mDatabase';
-      fnHandle: jint; external name 'nHandle';
-      fnStatement: jint; external name 'nStatement';
+      fmDatabase: ADSSQLiteDatabase deprecated; external name 'mDatabase';
+      fnHandle: jint deprecated; external name 'nHandle';
+      fnStatement: jint deprecated; external name 'nStatement';
   strict protected
     procedure onAllReferencesReleased(); overload; virtual;
     procedure onAllReferencesReleasedFromContainer(); overload; virtual;
@@ -24203,6 +24264,8 @@
       BOND_NONE = 10;
       BOND_BONDING = 11;
       BOND_BONDED = 12;
+      ACTION_UUID = 'android.bluetooth.device.action.UUID';
+      EXTRA_UUID = 'android.bluetooth.device.extra.UUID';
   public
     final class var
       fCREATOR: AOParcelable.InnerCreator; external name 'CREATOR';
@@ -24216,6 +24279,8 @@
     function getName(): JLString; overload; virtual;
     function getBondState(): jint; overload; virtual;
     function getBluetoothClass(): ABBluetoothClass; overload; virtual;
+    function getUuids(): Arr1AOParcelUuid; overload; virtual;
+    function fetchUuidsWithSdp(): jboolean; overload; virtual;
     function createRfcommSocketToServiceRecord(para1: JUUUID): ABBluetoothSocket; overload; virtual;  // throws java.io.IOException
     function createInsecureRfcommSocketToServiceRecord(para1: JUUUID): ABBluetoothSocket; overload; virtual;  // throws java.io.IOException
   end;
@@ -24523,7 +24588,7 @@
       ACTION_TIMEZONE_CHANGED = 'android.intent.action.TIMEZONE_CHANGED';
       ACTION_BOOT_COMPLETED = 'android.intent.action.BOOT_COMPLETED';
       ACTION_CLOSE_SYSTEM_DIALOGS = 'android.intent.action.CLOSE_SYSTEM_DIALOGS';
-      ACTION_PACKAGE_INSTALL = 'android.intent.action.PACKAGE_INSTALL';
+      ACTION_PACKAGE_INSTALL = 'android.intent.action.PACKAGE_INSTALL' deprecated;
       ACTION_PACKAGE_ADDED = 'android.intent.action.PACKAGE_ADDED';
       ACTION_PACKAGE_REPLACED = 'android.intent.action.PACKAGE_REPLACED';
       ACTION_MY_PACKAGE_REPLACED = 'android.intent.action.MY_PACKAGE_REPLACED';
@@ -24549,8 +24614,8 @@
       ACTION_DEVICE_STORAGE_LOW = 'android.intent.action.DEVICE_STORAGE_LOW';
       ACTION_DEVICE_STORAGE_OK = 'android.intent.action.DEVICE_STORAGE_OK';
       ACTION_MANAGE_PACKAGE_STORAGE = 'android.intent.action.MANAGE_PACKAGE_STORAGE';
-      ACTION_UMS_CONNECTED = 'android.intent.action.UMS_CONNECTED';
-      ACTION_UMS_DISCONNECTED = 'android.intent.action.UMS_DISCONNECTED';
+      ACTION_UMS_CONNECTED = 'android.intent.action.UMS_CONNECTED' deprecated;
+      ACTION_UMS_DISCONNECTED = 'android.intent.action.UMS_DISCONNECTED' deprecated;
       ACTION_MEDIA_REMOVED = 'android.intent.action.MEDIA_REMOVED';
       ACTION_MEDIA_UNMOUNTED = 'android.intent.action.MEDIA_UNMOUNTED';
       ACTION_MEDIA_CHECKING = 'android.intent.action.MEDIA_CHECKING';
@@ -24597,6 +24662,15 @@
       CATEGORY_LE_DESK_DOCK = 'android.intent.category.LE_DESK_DOCK';
       CATEGORY_HE_DESK_DOCK = 'android.intent.category.HE_DESK_DOCK';
       CATEGORY_CAR_MODE = 'android.intent.category.CAR_MODE';
+      CATEGORY_APP_BROWSER = 'android.intent.category.APP_BROWSER';
+      CATEGORY_APP_CALCULATOR = 'android.intent.category.APP_CALCULATOR';
+      CATEGORY_APP_CALENDAR = 'android.intent.category.APP_CALENDAR';
+      CATEGORY_APP_CONTACTS = 'android.intent.category.APP_CONTACTS';
+      CATEGORY_APP_EMAIL = 'android.intent.category.APP_EMAIL';
+      CATEGORY_APP_GALLERY = 'android.intent.category.APP_GALLERY';
+      CATEGORY_APP_MAPS = 'android.intent.category.APP_MAPS';
+      CATEGORY_APP_MESSAGING = 'android.intent.category.APP_MESSAGING';
+      CATEGORY_APP_MUSIC = 'android.intent.category.APP_MUSIC';
       EXTRA_TEMPLATE = 'android.intent.extra.TEMPLATE';
       EXTRA_TEXT = 'android.intent.extra.TEXT';
       EXTRA_STREAM = 'android.intent.extra.STREAM';
@@ -24623,7 +24697,7 @@
       METADATA_DOCK_HOME = 'android.dock_home';
       EXTRA_BUG_REPORT = 'android.intent.extra.BUG_REPORT';
       EXTRA_REMOTE_INTENT_TOKEN = 'android.intent.extra.remote_intent_token';
-      EXTRA_CHANGED_COMPONENT_NAME = 'android.intent.extra.changed_component_name';
+      EXTRA_CHANGED_COMPONENT_NAME = 'android.intent.extra.changed_component_name' deprecated;
       EXTRA_CHANGED_COMPONENT_NAME_LIST = 'android.intent.extra.changed_component_name_list';
       EXTRA_CHANGED_PACKAGE_LIST = 'android.intent.extra.changed_package_list';
       EXTRA_CHANGED_UID_LIST = 'android.intent.extra.changed_uid_list';
@@ -24660,6 +24734,7 @@
       FILL_IN_COMPONENT = 8;
       FILL_IN_PACKAGE = 16;
       FILL_IN_SOURCE_BOUNDS = 32;
+      FILL_IN_SELECTOR = 64;
   public
     final class var
       fCREATOR: AOParcelable.InnerCreator; external name 'CREATOR';
@@ -24674,6 +24749,7 @@
     function clone(): JLObject; overload; virtual;
     function cloneFilter(): ACIntent; overload; virtual;
     class function makeMainActivity(para1: ACComponentName): ACIntent; static; overload;
+    class function makeMainSelectorActivity(para1: JLString; para2: JLString): ACIntent; static; overload;
     class function makeRestartActivityTask(para1: ACComponentName): ACIntent; static; overload;
     class function getIntent(para1: JLString): ACIntent; static; overload;  // throws java.net.URISyntaxException
     class function parseUri(para1: JLString; para2: jint): ACIntent; static; overload;  // throws java.net.URISyntaxException
@@ -24688,6 +24764,7 @@
     function resolveTypeIfNeeded(para1: ACContentResolver): JLString; overload; virtual;
     function hasCategory(para1: JLString): jboolean; overload; virtual;
     function getCategories(): JUSet; overload; virtual;
+    function getSelector(): ACIntent; overload; virtual;
     procedure setExtrasClassLoader(para1: JLClassLoader); overload; virtual;
     function hasExtra(para1: JLString): jboolean; overload; virtual;
     function hasFileDescriptors(): jboolean; overload; virtual;
@@ -24732,6 +24809,7 @@
     function setDataAndType(para1: ANUri; para2: JLString): ACIntent; overload; virtual;
     function addCategory(para1: JLString): ACIntent; overload; virtual;
     procedure removeCategory(para1: JLString); overload; virtual;
+    procedure setSelector(para1: ACIntent); overload; virtual;
     function putExtra(para1: JLString; para2: jboolean): ACIntent; overload; virtual;
     function putExtra(para1: JLString; para2: jbyte): ACIntent; overload; virtual;
     function putExtra(para1: JLString; para2: jchar): ACIntent; overload; virtual;
@@ -25264,6 +25342,7 @@
     final class var
       fCREATOR: AOParcelable.InnerCreator; external name 'CREATOR';
   public
+    constructor create(para1: JLString); overload;
     constructor create(para1: jboolean); overload;
   strict protected
     procedure finalize(); overload; virtual;  // throws java.lang.Throwable
@@ -25301,6 +25380,8 @@
     procedure writeToParcel(para1: AOParcel; para2: jint); overload; virtual;
   strict protected
     procedure onAllReferencesReleased(); overload; virtual;
+  public
+    function toString(): JLString; overload; virtual;
   end;
 
   AGGesture = class external 'android.gesture' name 'Gesture' (JLObject, AOParcelable)
@@ -27130,15 +27211,15 @@
       SOURCE_TOUCHPAD = 1048584;
       SOURCE_JOYSTICK = 16777232;
       SOURCE_ANY = -256;
-      MOTION_RANGE_X = 0;
-      MOTION_RANGE_Y = 1;
-      MOTION_RANGE_PRESSURE = 2;
-      MOTION_RANGE_SIZE = 3;
-      MOTION_RANGE_TOUCH_MAJOR = 4;
-      MOTION_RANGE_TOUCH_MINOR = 5;
-      MOTION_RANGE_TOOL_MAJOR = 6;
-      MOTION_RANGE_TOOL_MINOR = 7;
-      MOTION_RANGE_ORIENTATION = 8;
+      MOTION_RANGE_X = 0 deprecated;
+      MOTION_RANGE_Y = 1 deprecated;
+      MOTION_RANGE_PRESSURE = 2 deprecated;
+      MOTION_RANGE_SIZE = 3 deprecated;
+      MOTION_RANGE_TOUCH_MAJOR = 4 deprecated;
+      MOTION_RANGE_TOUCH_MINOR = 5 deprecated;
+      MOTION_RANGE_TOOL_MAJOR = 6 deprecated;
+      MOTION_RANGE_TOOL_MINOR = 7 deprecated;
+      MOTION_RANGE_ORIENTATION = 8 deprecated;
       KEYBOARD_TYPE_NONE = 0;
       KEYBOARD_TYPE_NON_ALPHABETIC = 1;
       KEYBOARD_TYPE_ALPHABETIC = 2;
@@ -27448,6 +27529,7 @@
     const
       RESULT_ATTR_IN_THE_DICTIONARY = 1;
       RESULT_ATTR_LOOKS_LIKE_TYPO = 2;
+      RESULT_ATTR_HAS_RECOMMENDED_SUGGESTIONS = 4;
   public
     final class var
       fCREATOR: AOParcelable.InnerCreator; external name 'CREATOR';
@@ -27946,14 +28028,22 @@
   ARFileA3D = class external 'android.renderscript' name 'FileA3D' (ARBaseObj)
   public
     type
-      InnerEntryType = class;
-      Arr1InnerEntryType = array of InnerEntryType;
-      Arr2InnerEntryType = array of Arr1InnerEntryType;
-      Arr3InnerEntryType = array of Arr2InnerEntryType;
       InnerIndexEntry = class;
       Arr1InnerIndexEntry = array of InnerIndexEntry;
       Arr2InnerIndexEntry = array of Arr1InnerIndexEntry;
       Arr3InnerIndexEntry = array of Arr2InnerIndexEntry;
+      InnerEntryType = class;
+      Arr1InnerEntryType = array of InnerEntryType;
+      Arr2InnerEntryType = array of Arr1InnerEntryType;
+      Arr3InnerEntryType = array of Arr2InnerEntryType;
+      InnerIndexEntry = class external 'android.renderscript' name 'IndexEntry' (JLObject)
+      public
+        function getName(): JLString; overload; virtual;
+        function getEntryType(): ARFileA3D.InnerEntryType; overload; virtual;
+        function getObject(): ARBaseObj; overload; virtual;
+        function getMesh(): ARMesh; overload; virtual;
+      end;
+
       InnerEntryType = class sealed external 'android.renderscript' name 'EntryType' (JLEnum)
       public
         final class var
@@ -27962,14 +28052,6 @@
       public
         class function values(): ARFileA3D.Arr1InnerEntryType; static; overload;
         class function valueOf(para1: JLString): ARFileA3D.InnerEntryType; static; overload;
-      end;
-
-      InnerIndexEntry = class external 'android.renderscript' name 'IndexEntry' (JLObject)
-      public
-        function getName(): JLString; overload; virtual;
-        function getEntryType(): ARFileA3D.InnerEntryType; overload; virtual;
-        function getObject(): ARBaseObj; overload; virtual;
-        function getMesh(): ARMesh; overload; virtual;
       end;
 
   public
@@ -28015,10 +28097,6 @@
       Arr1InnerTriangleMeshBuilder = array of InnerTriangleMeshBuilder;
       Arr2InnerTriangleMeshBuilder = array of Arr1InnerTriangleMeshBuilder;
       Arr3InnerTriangleMeshBuilder = array of Arr2InnerTriangleMeshBuilder;
-      InnerPrimitive = class;
-      Arr1InnerPrimitive = array of InnerPrimitive;
-      Arr2InnerPrimitive = array of Arr1InnerPrimitive;
-      Arr3InnerPrimitive = array of Arr2InnerPrimitive;
       InnerAllocationBuilder = class;
       Arr1InnerAllocationBuilder = array of InnerAllocationBuilder;
       Arr2InnerAllocationBuilder = array of Arr1InnerAllocationBuilder;
@@ -28027,6 +28105,10 @@
       Arr1InnerBuilder = array of InnerBuilder;
       Arr2InnerBuilder = array of Arr1InnerBuilder;
       Arr3InnerBuilder = array of Arr2InnerBuilder;
+      InnerPrimitive = class;
+      Arr1InnerPrimitive = array of InnerPrimitive;
+      Arr2InnerPrimitive = array of Arr1InnerPrimitive;
+      Arr3InnerPrimitive = array of Arr2InnerPrimitive;
       InnerTriangleMeshBuilder = class external 'android.renderscript' name 'TriangleMeshBuilder' (JLObject)
       public
         const
@@ -28042,20 +28124,6 @@
         function setColor(para1: jfloat; para2: jfloat; para3: jfloat; para4: jfloat): ARMesh.InnerTriangleMeshBuilder; overload; virtual;
         function addTriangle(para1: jint; para2: jint; para3: jint): ARMesh.InnerTriangleMeshBuilder; overload; virtual;
         function create_(para1: jboolean): ARMesh; external name 'create'; overload; virtual;
-      end;
-
-      InnerPrimitive = class sealed external 'android.renderscript' name 'Primitive' (JLEnum)
-      public
-        final class var
-          fLINE: ARMesh.InnerPrimitive; external name 'LINE';
-          fLINE_STRIP: ARMesh.InnerPrimitive; external name 'LINE_STRIP';
-          fPOINT: ARMesh.InnerPrimitive; external name 'POINT';
-          fTRIANGLE: ARMesh.InnerPrimitive; external name 'TRIANGLE';
-          fTRIANGLE_FAN: ARMesh.InnerPrimitive; external name 'TRIANGLE_FAN';
-          fTRIANGLE_STRIP: ARMesh.InnerPrimitive; external name 'TRIANGLE_STRIP';
-      public
-        class function values(): ARMesh.Arr1InnerPrimitive; static; overload;
-        class function valueOf(para1: JLString): ARMesh.InnerPrimitive; static; overload;
       end;
 
       InnerAllocationBuilder = class external 'android.renderscript' name 'AllocationBuilder' (JLObject)
@@ -28082,6 +28150,20 @@
         function create_(): ARMesh; external name 'create'; overload; virtual;
       end;
 
+      InnerPrimitive = class sealed external 'android.renderscript' name 'Primitive' (JLEnum)
+      public
+        final class var
+          fLINE: ARMesh.InnerPrimitive; external name 'LINE';
+          fLINE_STRIP: ARMesh.InnerPrimitive; external name 'LINE_STRIP';
+          fPOINT: ARMesh.InnerPrimitive; external name 'POINT';
+          fTRIANGLE: ARMesh.InnerPrimitive; external name 'TRIANGLE';
+          fTRIANGLE_FAN: ARMesh.InnerPrimitive; external name 'TRIANGLE_FAN';
+          fTRIANGLE_STRIP: ARMesh.InnerPrimitive; external name 'TRIANGLE_STRIP';
+      public
+        class function values(): ARMesh.Arr1InnerPrimitive; static; overload;
+        class function valueOf(para1: JLString): ARMesh.InnerPrimitive; static; overload;
+      end;
+
   public
     function getVertexAllocationCount(): jint; overload; virtual;
     function getVertexAllocation(para1: jint): ARAllocation; overload; virtual;
@@ -28093,24 +28175,14 @@
   ARProgram = class external 'android.renderscript' name 'Program' (ARBaseObj)
   public
     type
-      InnerTextureType = class;
-      Arr1InnerTextureType = array of InnerTextureType;
-      Arr2InnerTextureType = array of Arr1InnerTextureType;
-      Arr3InnerTextureType = array of Arr2InnerTextureType;
       InnerBaseProgramBuilder = class;
       Arr1InnerBaseProgramBuilder = array of InnerBaseProgramBuilder;
       Arr2InnerBaseProgramBuilder = array of Arr1InnerBaseProgramBuilder;
       Arr3InnerBaseProgramBuilder = array of Arr2InnerBaseProgramBuilder;
-      InnerTextureType = class sealed external 'android.renderscript' name 'TextureType' (JLEnum)
-      public
-        final class var
-          fTEXTURE_2D: ARProgram.InnerTextureType; external name 'TEXTURE_2D';
-          fTEXTURE_CUBE: ARProgram.InnerTextureType; external name 'TEXTURE_CUBE';
-      public
-        class function values(): ARProgram.Arr1InnerTextureType; static; overload;
-        class function valueOf(para1: JLString): ARProgram.InnerTextureType; static; overload;
-      end;
-
+      InnerTextureType = class;
+      Arr1InnerTextureType = array of InnerTextureType;
+      Arr2InnerTextureType = array of Arr1InnerTextureType;
+      Arr3InnerTextureType = array of Arr2InnerTextureType;
       InnerBaseProgramBuilder = class external 'android.renderscript' name 'BaseProgramBuilder' (JLObject)
       strict protected
         constructor create(para1: ARRenderScript); overload;
@@ -28125,6 +28197,16 @@
         procedure initProgram(para1: ARProgram); overload; virtual;
       end;
 
+      InnerTextureType = class sealed external 'android.renderscript' name 'TextureType' (JLEnum)
+      public
+        final class var
+          fTEXTURE_2D: ARProgram.InnerTextureType; external name 'TEXTURE_2D';
+          fTEXTURE_CUBE: ARProgram.InnerTextureType; external name 'TEXTURE_CUBE';
+      public
+        class function values(): ARProgram.Arr1InnerTextureType; static; overload;
+        class function valueOf(para1: JLString): ARProgram.InnerTextureType; static; overload;
+      end;
+
   public
     procedure bindConstants(para1: ARAllocation; para2: jint); overload; virtual;
     procedure bindTexture(para1: ARAllocation; para2: jint); overload; virtual;  // throws java.lang.IllegalArgumentException
@@ -28134,14 +28216,22 @@
   ARProgramRaster = class external 'android.renderscript' name 'ProgramRaster' (ARBaseObj)
   public
     type
-      InnerCullMode = class;
-      Arr1InnerCullMode = array of InnerCullMode;
-      Arr2InnerCullMode = array of Arr1InnerCullMode;
-      Arr3InnerCullMode = array of Arr2InnerCullMode;
       InnerBuilder = class;
       Arr1InnerBuilder = array of InnerBuilder;
       Arr2InnerBuilder = array of Arr1InnerBuilder;
       Arr3InnerBuilder = array of Arr2InnerBuilder;
+      InnerCullMode = class;
+      Arr1InnerCullMode = array of InnerCullMode;
+      Arr2InnerCullMode = array of Arr1InnerCullMode;
+      Arr3InnerCullMode = array of Arr2InnerCullMode;
+      InnerBuilder = class external 'android.renderscript' name 'Builder' (JLObject)
+      public
+        constructor create(para1: ARRenderScript); overload;
+        function setPointSpriteEnabled(para1: jboolean): ARProgramRaster.InnerBuilder; overload; virtual;
+        function setCullMode(para1: ARProgramRaster.InnerCullMode): ARProgramRaster.InnerBuilder; overload; virtual;
+        function create_(): ARProgramRaster; external name 'create'; overload; virtual;
+      end;
+
       InnerCullMode = class sealed external 'android.renderscript' name 'CullMode' (JLEnum)
       public
         final class var
@@ -28153,14 +28243,6 @@
         class function valueOf(para1: JLString): ARProgramRaster.InnerCullMode; static; overload;
       end;
 
-      InnerBuilder = class external 'android.renderscript' name 'Builder' (JLObject)
-      public
-        constructor create(para1: ARRenderScript); overload;
-        function setPointSpriteEnabled(para1: jboolean): ARProgramRaster.InnerBuilder; overload; virtual;
-        function setCullMode(para1: ARProgramRaster.InnerCullMode): ARProgramRaster.InnerBuilder; overload; virtual;
-        function create_(): ARProgramRaster; external name 'create'; overload; virtual;
-      end;
-
   public
     class function CULL_BACK(para1: ARRenderScript): ARProgramRaster; static; overload;
     class function CULL_FRONT(para1: ARRenderScript): ARProgramRaster; static; overload;
@@ -28170,6 +28252,10 @@
   ARProgramStore = class external 'android.renderscript' name 'ProgramStore' (ARBaseObj)
   public
     type
+      InnerBuilder = class;
+      Arr1InnerBuilder = array of InnerBuilder;
+      Arr2InnerBuilder = array of Arr1InnerBuilder;
+      Arr3InnerBuilder = array of Arr2InnerBuilder;
       InnerBlendDstFunc = class;
       Arr1InnerBlendDstFunc = array of InnerBlendDstFunc;
       Arr2InnerBlendDstFunc = array of Arr1InnerBlendDstFunc;
@@ -28182,10 +28268,17 @@
       Arr1InnerDepthFunc = array of InnerDepthFunc;
       Arr2InnerDepthFunc = array of Arr1InnerDepthFunc;
       Arr3InnerDepthFunc = array of Arr2InnerDepthFunc;
-      InnerBuilder = class;
-      Arr1InnerBuilder = array of InnerBuilder;
-      Arr2InnerBuilder = array of Arr1InnerBuilder;
-      Arr3InnerBuilder = array of Arr2InnerBuilder;
+      InnerBuilder = class external 'android.renderscript' name 'Builder' (JLObject)
+      public
+        constructor create(para1: ARRenderScript); overload;
+        function setDepthFunc(para1: ARProgramStore.InnerDepthFunc): ARProgramStore.InnerBuilder; overload; virtual;
+        function setDepthMaskEnabled(para1: jboolean): ARProgramStore.InnerBuilder; overload; virtual;
+        function setColorMaskEnabled(para1: jboolean; para2: jboolean; para3: jboolean; para4: jboolean): ARProgramStore.InnerBuilder; overload; virtual;
+        function setBlendFunc(para1: ARProgramStore.InnerBlendSrcFunc; para2: ARProgramStore.InnerBlendDstFunc): ARProgramStore.InnerBuilder; overload; virtual;
+        function setDitherEnabled(para1: jboolean): ARProgramStore.InnerBuilder; overload; virtual;
+        function create_(): ARProgramStore; external name 'create'; overload; virtual;
+      end;
+
       InnerBlendDstFunc = class sealed external 'android.renderscript' name 'BlendDstFunc' (JLEnum)
       public
         final class var
@@ -28234,17 +28327,6 @@
         class function valueOf(para1: JLString): ARProgramStore.InnerDepthFunc; static; overload;
       end;
 
-      InnerBuilder = class external 'android.renderscript' name 'Builder' (JLObject)
-      public
-        constructor create(para1: ARRenderScript); overload;
-        function setDepthFunc(para1: ARProgramStore.InnerDepthFunc): ARProgramStore.InnerBuilder; overload; virtual;
-        function setDepthMaskEnabled(para1: jboolean): ARProgramStore.InnerBuilder; overload; virtual;
-        function setColorMaskEnabled(para1: jboolean; para2: jboolean; para3: jboolean; para4: jboolean): ARProgramStore.InnerBuilder; overload; virtual;
-        function setBlendFunc(para1: ARProgramStore.InnerBlendSrcFunc; para2: ARProgramStore.InnerBlendDstFunc): ARProgramStore.InnerBuilder; overload; virtual;
-        function setDitherEnabled(para1: jboolean): ARProgramStore.InnerBuilder; overload; virtual;
-        function create_(): ARProgramStore; external name 'create'; overload; virtual;
-      end;
-
   public
     class function BLEND_NONE_DEPTH_TEST(para1: ARRenderScript): ARProgramStore; static; overload;
     class function BLEND_NONE_DEPTH_NONE(para1: ARRenderScript): ARProgramStore; static; overload;
@@ -28255,14 +28337,25 @@
   ARSampler = class external 'android.renderscript' name 'Sampler' (ARBaseObj)
   public
     type
-      InnerValue = class;
-      Arr1InnerValue = array of InnerValue;
-      Arr2InnerValue = array of Arr1InnerValue;
-      Arr3InnerValue = array of Arr2InnerValue;
       InnerBuilder = class;
       Arr1InnerBuilder = array of InnerBuilder;
       Arr2InnerBuilder = array of Arr1InnerBuilder;
       Arr3InnerBuilder = array of Arr2InnerBuilder;
+      InnerValue = class;
+      Arr1InnerValue = array of InnerValue;
+      Arr2InnerValue = array of Arr1InnerValue;
+      Arr3InnerValue = array of Arr2InnerValue;
+      InnerBuilder = class external 'android.renderscript' name 'Builder' (JLObject)
+      public
+        constructor create(para1: ARRenderScript); overload;
+        procedure setMinification(para1: ARSampler.InnerValue); overload; virtual;
+        procedure setMagnification(para1: ARSampler.InnerValue); overload; virtual;
+        procedure setWrapS(para1: ARSampler.InnerValue); overload; virtual;
+        procedure setWrapT(para1: ARSampler.InnerValue); overload; virtual;
+        procedure setAnisotropy(para1: jfloat); overload; virtual;
+        function create_(): ARSampler; external name 'create'; overload; virtual;
+      end;
+
       InnerValue = class sealed external 'android.renderscript' name 'Value' (JLEnum)
       public
         final class var
@@ -28275,17 +28368,6 @@
       public
         class function values(): ARSampler.Arr1InnerValue; static; overload;
         class function valueOf(para1: JLString): ARSampler.InnerValue; static; overload;
-      end;
-
-      InnerBuilder = class external 'android.renderscript' name 'Builder' (JLObject)
-      public
-        constructor create(para1: ARRenderScript); overload;
-        procedure setMinification(para1: ARSampler.InnerValue); overload; virtual;
-        procedure setMagnification(para1: ARSampler.InnerValue); overload; virtual;
-        procedure setWrapS(para1: ARSampler.InnerValue); overload; virtual;
-        procedure setWrapT(para1: ARSampler.InnerValue); overload; virtual;
-        procedure setAnisotropy(para1: jfloat); overload; virtual;
-        function create_(): ARSampler; external name 'create'; overload; virtual;
       end;
 
   public
@@ -28803,7 +28885,7 @@
   strict protected
     procedure setBaseAttributes(para1: ACRTypedArray; para2: jint; para3: jint); overload; virtual;
   end;
-  
+
   AVWindowManager = interface external 'android.view' name 'WindowManager' (AVViewManager)
     type
       InnerLayoutParams = class;
@@ -28852,18 +28934,18 @@
           TYPE_WALLPAPER = 2013;
           TYPE_STATUS_BAR_PANEL = 2014;
           LAST_SYSTEM_WINDOW = 2999;
-          MEMORY_TYPE_NORMAL = 0;
-          MEMORY_TYPE_HARDWARE = 1;
-          MEMORY_TYPE_GPU = 2;
-          MEMORY_TYPE_PUSH_BUFFERS = 3;
+          MEMORY_TYPE_NORMAL = 0 deprecated;
+          MEMORY_TYPE_HARDWARE = 1 deprecated;
+          MEMORY_TYPE_GPU = 2 deprecated;
+          MEMORY_TYPE_PUSH_BUFFERS = 3 deprecated;
       public
         var
-          fmemoryType: jint; external name 'memoryType';
+          fmemoryType: jint deprecated; external name 'memoryType';
       public
         const
           FLAG_ALLOW_LOCK_WHILE_SCREEN_ON = 1;
           FLAG_DIM_BEHIND = 2;
-          FLAG_BLUR_BEHIND = 4;
+          FLAG_BLUR_BEHIND = 4 deprecated;
           FLAG_NOT_FOCUSABLE = 8;
           FLAG_NOT_TOUCHABLE = 16;
           FLAG_NOT_TOUCH_MODAL = 32;
@@ -28976,7 +29058,7 @@
   public
     const
       INVALID_POSITION = -1;
-      MAX_TEXT_LENGTH = 500;
+      MAX_TEXT_LENGTH = 500 deprecated;
       TYPE_VIEW_CLICKED = 1;
       TYPE_VIEW_LONG_CLICKED = 2;
       TYPE_VIEW_SELECTED = 4;
@@ -29144,7 +29226,7 @@
       InnerSearchColumns = class external 'android.provider' name 'SearchColumns' (JLObject, APBaseColumns)
       public
         const
-          URL = 'url';
+          URL = 'url' deprecated;
           SEARCH = 'search';
           DATE = 'date';
       public
@@ -30024,6 +30106,7 @@
     procedure setBitmap(para1: jint; para2: JLString; para3: AGBitmap); overload; virtual;
     procedure setBundle(para1: jint; para2: JLString; para3: AOBundle); overload; virtual;
     procedure setIntent(para1: jint; para2: JLString; para3: ACIntent); overload; virtual;
+    procedure setContentDescription(para1: jint; para2: JLCharSequence); overload; virtual;
     function apply(para1: ACContext; para2: AVViewGroup): AVView; overload; virtual;
     procedure reapply(para1: ACContext; para2: AVView); overload; virtual;
     function onLoadClass(para1: JLClass): jboolean; overload; virtual;
@@ -30296,7 +30379,7 @@
       HTTP_REQ_TOO_LONG = 414;
       HTTP_RESET = 205;
       HTTP_SEE_OTHER = 303;
-      HTTP_SERVER_ERROR = 500;
+      HTTP_SERVER_ERROR = 500 deprecated;
       HTTP_USE_PROXY = 305;
       HTTP_UNAUTHORIZED = 401;
       HTTP_UNSUPPORTED_TYPE = 415;
@@ -32675,22 +32758,22 @@
       Arr1InnerEntry = array of InnerEntry;
       Arr2InnerEntry = array of Arr1InnerEntry;
       Arr3InnerEntry = array of Arr2InnerEntry;
-      InnerPasswordProtection = class;
-      Arr1InnerPasswordProtection = array of InnerPasswordProtection;
-      Arr2InnerPasswordProtection = array of Arr1InnerPasswordProtection;
-      Arr3InnerPasswordProtection = array of Arr2InnerPasswordProtection;
       InnerLoadStoreParameter = interface;
       Arr1InnerLoadStoreParameter = array of InnerLoadStoreParameter;
       Arr2InnerLoadStoreParameter = array of Arr1InnerLoadStoreParameter;
       Arr3InnerLoadStoreParameter = array of Arr2InnerLoadStoreParameter;
-      InnerCallbackHandlerProtection = class;
-      Arr1InnerCallbackHandlerProtection = array of InnerCallbackHandlerProtection;
-      Arr2InnerCallbackHandlerProtection = array of Arr1InnerCallbackHandlerProtection;
-      Arr3InnerCallbackHandlerProtection = array of Arr2InnerCallbackHandlerProtection;
       InnerBuilder = class;
       Arr1InnerBuilder = array of InnerBuilder;
       Arr2InnerBuilder = array of Arr1InnerBuilder;
       Arr3InnerBuilder = array of Arr2InnerBuilder;
+      InnerPasswordProtection = class;
+      Arr1InnerPasswordProtection = array of InnerPasswordProtection;
+      Arr2InnerPasswordProtection = array of Arr1InnerPasswordProtection;
+      Arr3InnerPasswordProtection = array of Arr2InnerPasswordProtection;
+      InnerCallbackHandlerProtection = class;
+      Arr1InnerCallbackHandlerProtection = array of InnerCallbackHandlerProtection;
+      Arr2InnerCallbackHandlerProtection = array of Arr1InnerCallbackHandlerProtection;
+      Arr3InnerCallbackHandlerProtection = array of Arr2InnerCallbackHandlerProtection;
       InnerTrustedCertificateEntry = class;
       Arr1InnerTrustedCertificateEntry = array of InnerTrustedCertificateEntry;
       Arr2InnerTrustedCertificateEntry = array of Arr1InnerTrustedCertificateEntry;
@@ -32709,23 +32792,8 @@
       InnerEntry = interface external 'java.security' name 'Entry' 
       end;
 
-      InnerPasswordProtection = class external 'java.security' name 'PasswordProtection' (JLObject, JSKeyStore.InnerProtectionParameter, JSADestroyable)
-      public
-        constructor create(para1: Arr1jchar); overload;
-        constructor create(const para1: array of jchar); overload;
-        function getPassword(): Arr1jchar; overload; virtual;
-        procedure destroy(); overload; virtual;  // throws javax.security.auth.DestroyFailedException
-        function isDestroyed(): jboolean; overload; virtual;
-      end;
-
       InnerLoadStoreParameter = interface external 'java.security' name 'LoadStoreParameter' 
         function getProtectionParameter(): JSKeyStore.InnerProtectionParameter; overload;
-      end;
-
-      InnerCallbackHandlerProtection = class external 'java.security' name 'CallbackHandlerProtection' (JLObject, JSKeyStore.InnerProtectionParameter)
-      public
-        constructor create(para1: JSACCallbackHandler); overload;
-        function getCallbackHandler(): JSACCallbackHandler; overload; virtual;
       end;
 
       InnerBuilder = class abstract external 'java.security' name 'Builder' (JLObject)
@@ -32737,6 +32805,21 @@
         class function newInstance(para1: JSKeyStore; para2: JSKeyStore.InnerProtectionParameter): JSKeyStore.InnerBuilder; static; overload;
         class function newInstance(para1: JLString; para2: JSProvider; para3: JIFile; para4: JSKeyStore.InnerProtectionParameter): JSKeyStore.InnerBuilder; static; overload;
         class function newInstance(para1: JLString; para2: JSProvider; para3: JSKeyStore.InnerProtectionParameter): JSKeyStore.InnerBuilder; static; overload;
+      end;
+
+      InnerPasswordProtection = class external 'java.security' name 'PasswordProtection' (JLObject, JSKeyStore.InnerProtectionParameter, JSADestroyable)
+      public
+        constructor create(para1: Arr1jchar); overload;
+        constructor create(const para1: array of jchar); overload;
+        function getPassword(): Arr1jchar; overload; virtual;
+        procedure destroy(); overload; virtual;  // throws javax.security.auth.DestroyFailedException
+        function isDestroyed(): jboolean; overload; virtual;
+      end;
+
+      InnerCallbackHandlerProtection = class external 'java.security' name 'CallbackHandlerProtection' (JLObject, JSKeyStore.InnerProtectionParameter)
+      public
+        constructor create(para1: JSACCallbackHandler); overload;
+        function getCallbackHandler(): JSACCallbackHandler; overload; virtual;
       end;
 
       InnerTrustedCertificateEntry = class sealed external 'java.security' name 'TrustedCertificateEntry' (JLObject, JSKeyStore.InnerEntry)
@@ -33673,18 +33756,18 @@
   OAHICSingleClientConnManager = class external 'org.apache.http.impl.conn' name 'SingleClientConnManager' (JLObject, OAHCClientConnectionManager)
   public
     type
-      InnerPoolEntry = class;
-      Arr1InnerPoolEntry = array of InnerPoolEntry;
-      Arr2InnerPoolEntry = array of Arr1InnerPoolEntry;
-      Arr3InnerPoolEntry = array of Arr2InnerPoolEntry;
       InnerConnAdapter = class;
       Arr1InnerConnAdapter = array of InnerConnAdapter;
       Arr2InnerConnAdapter = array of Arr1InnerConnAdapter;
       Arr3InnerConnAdapter = array of Arr2InnerConnAdapter;
-      InnerPoolEntry = class external 'org.apache.http.impl.conn' name 'PoolEntry' 
+      InnerPoolEntry = class;
+      Arr1InnerPoolEntry = array of InnerPoolEntry;
+      Arr2InnerPoolEntry = array of Arr1InnerPoolEntry;
+      Arr3InnerPoolEntry = array of Arr2InnerPoolEntry;
+      InnerConnAdapter = class external 'org.apache.http.impl.conn' name 'ConnAdapter' 
       end;
 
-      InnerConnAdapter = class external 'org.apache.http.impl.conn' name 'ConnAdapter' 
+      InnerPoolEntry = class external 'org.apache.http.impl.conn' name 'PoolEntry' 
       end;
 
   public
@@ -35219,6 +35302,7 @@
   AORemoteException = class external 'android.os' name 'RemoteException' (AUAndroidException)
   public
     constructor create(); overload;
+    constructor create(para1: JLString); overload;
   end;
 
   APSettings = class sealed external 'android.provider' name 'Settings' (JLObject)
@@ -35283,7 +35367,7 @@
           LOCK_PATTERN_ENABLED = 'lock_pattern_autolock';
           LOCK_PATTERN_VISIBLE = 'lock_pattern_visible_pattern';
           LOCK_PATTERN_TACTILE_FEEDBACK_ENABLED = 'lock_pattern_tactile_feedback_enabled';
-          LOGGING_ID = 'logging_id';
+          LOGGING_ID = 'logging_id' deprecated;
           NETWORK_PREFERENCE = 'network_preference';
           PARENTAL_CONTROL_ENABLED = 'parental_control_enabled';
           PARENTAL_CONTROL_LAST_UPDATE = 'parental_control_last_update';
@@ -35294,33 +35378,34 @@
           ACCESSIBILITY_ENABLED = 'accessibility_enabled';
           TOUCH_EXPLORATION_ENABLED = 'touch_exploration_enabled';
           ENABLED_ACCESSIBILITY_SERVICES = 'enabled_accessibility_services';
-          TTS_USE_DEFAULTS = 'tts_use_defaults';
+          ACCESSIBILITY_SPEAK_PASSWORD = 'speak_password';
+          TTS_USE_DEFAULTS = 'tts_use_defaults' deprecated;
           TTS_DEFAULT_RATE = 'tts_default_rate';
           TTS_DEFAULT_PITCH = 'tts_default_pitch';
           TTS_DEFAULT_SYNTH = 'tts_default_synth';
-          TTS_DEFAULT_LANG = 'tts_default_lang';
-          TTS_DEFAULT_COUNTRY = 'tts_default_country';
-          TTS_DEFAULT_VARIANT = 'tts_default_variant';
+          TTS_DEFAULT_LANG = 'tts_default_lang' deprecated;
+          TTS_DEFAULT_COUNTRY = 'tts_default_country' deprecated;
+          TTS_DEFAULT_VARIANT = 'tts_default_variant' deprecated;
           TTS_ENABLED_PLUGINS = 'tts_enabled_plugins';
           WIFI_NETWORKS_AVAILABLE_NOTIFICATION_ON = 'wifi_networks_available_notification_on';
           WIFI_NETWORKS_AVAILABLE_REPEAT_DELAY = 'wifi_networks_available_repeat_delay';
           WIFI_NUM_OPEN_NETWORKS_KEPT = 'wifi_num_open_networks_kept';
           WIFI_ON = 'wifi_on';
-          WIFI_WATCHDOG_ACCEPTABLE_PACKET_LOSS_PERCENTAGE = 'wifi_watchdog_acceptable_packet_loss_percentage';
-          WIFI_WATCHDOG_AP_COUNT = 'wifi_watchdog_ap_count';
-          WIFI_WATCHDOG_BACKGROUND_CHECK_DELAY_MS = 'wifi_watchdog_background_check_delay_ms';
-          WIFI_WATCHDOG_BACKGROUND_CHECK_ENABLED = 'wifi_watchdog_background_check_enabled';
-          WIFI_WATCHDOG_BACKGROUND_CHECK_TIMEOUT_MS = 'wifi_watchdog_background_check_timeout_ms';
-          WIFI_WATCHDOG_INITIAL_IGNORED_PING_COUNT = 'wifi_watchdog_initial_ignored_ping_count';
-          WIFI_WATCHDOG_MAX_AP_CHECKS = 'wifi_watchdog_max_ap_checks';
+          WIFI_WATCHDOG_ACCEPTABLE_PACKET_LOSS_PERCENTAGE = 'wifi_watchdog_acceptable_packet_loss_percentage' deprecated;
+          WIFI_WATCHDOG_AP_COUNT = 'wifi_watchdog_ap_count' deprecated;
+          WIFI_WATCHDOG_BACKGROUND_CHECK_DELAY_MS = 'wifi_watchdog_background_check_delay_ms' deprecated;
+          WIFI_WATCHDOG_BACKGROUND_CHECK_ENABLED = 'wifi_watchdog_background_check_enabled' deprecated;
+          WIFI_WATCHDOG_BACKGROUND_CHECK_TIMEOUT_MS = 'wifi_watchdog_background_check_timeout_ms' deprecated;
+          WIFI_WATCHDOG_INITIAL_IGNORED_PING_COUNT = 'wifi_watchdog_initial_ignored_ping_count' deprecated;
+          WIFI_WATCHDOG_MAX_AP_CHECKS = 'wifi_watchdog_max_ap_checks' deprecated;
           WIFI_WATCHDOG_ON = 'wifi_watchdog_on';
-          WIFI_WATCHDOG_WATCH_LIST = 'wifi_watchdog_watch_list';
-          WIFI_WATCHDOG_PING_COUNT = 'wifi_watchdog_ping_count';
-          WIFI_WATCHDOG_PING_DELAY_MS = 'wifi_watchdog_ping_delay_ms';
-          WIFI_WATCHDOG_PING_TIMEOUT_MS = 'wifi_watchdog_ping_timeout_ms';
+          WIFI_WATCHDOG_WATCH_LIST = 'wifi_watchdog_watch_list' deprecated;
+          WIFI_WATCHDOG_PING_COUNT = 'wifi_watchdog_ping_count' deprecated;
+          WIFI_WATCHDOG_PING_DELAY_MS = 'wifi_watchdog_ping_delay_ms' deprecated;
+          WIFI_WATCHDOG_PING_TIMEOUT_MS = 'wifi_watchdog_ping_timeout_ms' deprecated;
           WIFI_MAX_DHCP_RETRY_COUNT = 'wifi_max_dhcp_retry_count';
           WIFI_MOBILE_DATA_TRANSITION_WAKELOCK_TIMEOUT_MS = 'wifi_mobile_data_transition_wakelock_timeout_ms';
-          BACKGROUND_DATA = 'background_data';
+          BACKGROUND_DATA = 'background_data' deprecated;
           ALLOWED_GEOLOCATION_ORIGINS = 'allowed_geolocation_origins';
       public
         constructor create(); overload;
@@ -35369,9 +35454,9 @@
           WIFI_STATIC_DNS2 = 'wifi_static_dns2';
           BLUETOOTH_DISCOVERABILITY = 'bluetooth_discoverability';
           BLUETOOTH_DISCOVERABILITY_TIMEOUT = 'bluetooth_discoverability_timeout';
-          LOCK_PATTERN_ENABLED = 'lock_pattern_autolock';
-          LOCK_PATTERN_VISIBLE = 'lock_pattern_visible_pattern';
-          LOCK_PATTERN_TACTILE_FEEDBACK_ENABLED = 'lock_pattern_tactile_feedback_enabled';
+          LOCK_PATTERN_ENABLED = 'lock_pattern_autolock' deprecated;
+          LOCK_PATTERN_VISIBLE = 'lock_pattern_visible_pattern' deprecated;
+          LOCK_PATTERN_TACTILE_FEEDBACK_ENABLED = 'lock_pattern_tactile_feedback_enabled' deprecated;
           NEXT_ALARM_FORMATTED = 'next_alarm_formatted';
           FONT_SCALE = 'font_scale';
           DEBUG_APP = 'debug_app';
@@ -35437,40 +35522,40 @@
           DTMF_TONE_WHEN_DIALING = 'dtmf_tone';
           SOUND_EFFECTS_ENABLED = 'sound_effects_enabled';
           HAPTIC_FEEDBACK_ENABLED = 'haptic_feedback_enabled';
-          SHOW_WEB_SUGGESTIONS = 'show_web_suggestions';
-          ADB_ENABLED = 'adb_enabled';
-          ANDROID_ID = 'android_id';
-          BLUETOOTH_ON = 'bluetooth_on';
-          DATA_ROAMING = 'data_roaming';
-          DEVICE_PROVISIONED = 'device_provisioned';
-          HTTP_PROXY = 'http_proxy';
-          INSTALL_NON_MARKET_APPS = 'install_non_market_apps';
-          LOCATION_PROVIDERS_ALLOWED = 'location_providers_allowed';
-          LOGGING_ID = 'logging_id';
-          NETWORK_PREFERENCE = 'network_preference';
-          PARENTAL_CONTROL_ENABLED = 'parental_control_enabled';
-          PARENTAL_CONTROL_LAST_UPDATE = 'parental_control_last_update';
-          PARENTAL_CONTROL_REDIRECT_URL = 'parental_control_redirect_url';
-          SETTINGS_CLASSNAME = 'settings_classname';
-          USB_MASS_STORAGE_ENABLED = 'usb_mass_storage_enabled';
-          USE_GOOGLE_MAIL = 'use_google_mail';
-          WIFI_MAX_DHCP_RETRY_COUNT = 'wifi_max_dhcp_retry_count';
-          WIFI_MOBILE_DATA_TRANSITION_WAKELOCK_TIMEOUT_MS = 'wifi_mobile_data_transition_wakelock_timeout_ms';
-          WIFI_NETWORKS_AVAILABLE_NOTIFICATION_ON = 'wifi_networks_available_notification_on';
-          WIFI_NETWORKS_AVAILABLE_REPEAT_DELAY = 'wifi_networks_available_repeat_delay';
-          WIFI_NUM_OPEN_NETWORKS_KEPT = 'wifi_num_open_networks_kept';
-          WIFI_ON = 'wifi_on';
-          WIFI_WATCHDOG_ACCEPTABLE_PACKET_LOSS_PERCENTAGE = 'wifi_watchdog_acceptable_packet_loss_percentage';
-          WIFI_WATCHDOG_AP_COUNT = 'wifi_watchdog_ap_count';
-          WIFI_WATCHDOG_BACKGROUND_CHECK_DELAY_MS = 'wifi_watchdog_background_check_delay_ms';
-          WIFI_WATCHDOG_BACKGROUND_CHECK_ENABLED = 'wifi_watchdog_background_check_enabled';
-          WIFI_WATCHDOG_BACKGROUND_CHECK_TIMEOUT_MS = 'wifi_watchdog_background_check_timeout_ms';
-          WIFI_WATCHDOG_INITIAL_IGNORED_PING_COUNT = 'wifi_watchdog_initial_ignored_ping_count';
-          WIFI_WATCHDOG_MAX_AP_CHECKS = 'wifi_watchdog_max_ap_checks';
-          WIFI_WATCHDOG_ON = 'wifi_watchdog_on';
-          WIFI_WATCHDOG_PING_COUNT = 'wifi_watchdog_ping_count';
-          WIFI_WATCHDOG_PING_DELAY_MS = 'wifi_watchdog_ping_delay_ms';
-          WIFI_WATCHDOG_PING_TIMEOUT_MS = 'wifi_watchdog_ping_timeout_ms';
+          SHOW_WEB_SUGGESTIONS = 'show_web_suggestions' deprecated;
+          ADB_ENABLED = 'adb_enabled' deprecated;
+          ANDROID_ID = 'android_id' deprecated;
+          BLUETOOTH_ON = 'bluetooth_on' deprecated;
+          DATA_ROAMING = 'data_roaming' deprecated;
+          DEVICE_PROVISIONED = 'device_provisioned' deprecated;
+          HTTP_PROXY = 'http_proxy' deprecated;
+          INSTALL_NON_MARKET_APPS = 'install_non_market_apps' deprecated;
+          LOCATION_PROVIDERS_ALLOWED = 'location_providers_allowed' deprecated;
+          LOGGING_ID = 'logging_id' deprecated;
+          NETWORK_PREFERENCE = 'network_preference' deprecated;
+          PARENTAL_CONTROL_ENABLED = 'parental_control_enabled' deprecated;
+          PARENTAL_CONTROL_LAST_UPDATE = 'parental_control_last_update' deprecated;
+          PARENTAL_CONTROL_REDIRECT_URL = 'parental_control_redirect_url' deprecated;
+          SETTINGS_CLASSNAME = 'settings_classname' deprecated;
+          USB_MASS_STORAGE_ENABLED = 'usb_mass_storage_enabled' deprecated;
+          USE_GOOGLE_MAIL = 'use_google_mail' deprecated;
+          WIFI_MAX_DHCP_RETRY_COUNT = 'wifi_max_dhcp_retry_count' deprecated;
+          WIFI_MOBILE_DATA_TRANSITION_WAKELOCK_TIMEOUT_MS = 'wifi_mobile_data_transition_wakelock_timeout_ms' deprecated;
+          WIFI_NETWORKS_AVAILABLE_NOTIFICATION_ON = 'wifi_networks_available_notification_on' deprecated;
+          WIFI_NETWORKS_AVAILABLE_REPEAT_DELAY = 'wifi_networks_available_repeat_delay' deprecated;
+          WIFI_NUM_OPEN_NETWORKS_KEPT = 'wifi_num_open_networks_kept' deprecated;
+          WIFI_ON = 'wifi_on' deprecated;
+          WIFI_WATCHDOG_ACCEPTABLE_PACKET_LOSS_PERCENTAGE = 'wifi_watchdog_acceptable_packet_loss_percentage' deprecated;
+          WIFI_WATCHDOG_AP_COUNT = 'wifi_watchdog_ap_count' deprecated;
+          WIFI_WATCHDOG_BACKGROUND_CHECK_DELAY_MS = 'wifi_watchdog_background_check_delay_ms' deprecated;
+          WIFI_WATCHDOG_BACKGROUND_CHECK_ENABLED = 'wifi_watchdog_background_check_enabled' deprecated;
+          WIFI_WATCHDOG_BACKGROUND_CHECK_TIMEOUT_MS = 'wifi_watchdog_background_check_timeout_ms' deprecated;
+          WIFI_WATCHDOG_INITIAL_IGNORED_PING_COUNT = 'wifi_watchdog_initial_ignored_ping_count' deprecated;
+          WIFI_WATCHDOG_MAX_AP_CHECKS = 'wifi_watchdog_max_ap_checks' deprecated;
+          WIFI_WATCHDOG_ON = 'wifi_watchdog_on' deprecated;
+          WIFI_WATCHDOG_PING_COUNT = 'wifi_watchdog_ping_count' deprecated;
+          WIFI_WATCHDOG_PING_DELAY_MS = 'wifi_watchdog_ping_delay_ms' deprecated;
+          WIFI_WATCHDOG_PING_TIMEOUT_MS = 'wifi_watchdog_ping_timeout_ms' deprecated;
       public
         constructor create(); overload;
         class function getString(para1: ACContentResolver; para2: JLString): JLString; static; overload;
@@ -36352,7 +36437,7 @@
 
   public
     const
-      BUILT_IN_KEYBOARD = 0;
+      BUILT_IN_KEYBOARD = 0 deprecated;
       VIRTUAL_KEYBOARD = -1;
       NUMERIC = 1;
       PREDICTIVE = 2;
@@ -37962,7 +38047,7 @@
 
   strict protected
     var
-      fmUpdatedRows: JUHashMap; external name 'mUpdatedRows';
+      fmUpdatedRows: JUHashMap deprecated; external name 'mUpdatedRows';
       fmRowIdColumnIndex: jint; external name 'mRowIdColumnIndex';
       fmPos: jint; external name 'mPos';
       fmCurrentRowID: JLLong; external name 'mCurrentRowID';
@@ -38023,6 +38108,14 @@
     procedure finalize(); overload; virtual;
   end;
 
+  ADCrossProcessCursorWrapper = class external 'android.database' name 'CrossProcessCursorWrapper' (ADCursorWrapper, ADCrossProcessCursor)
+  public
+    constructor create(para1: ADCursor); overload;
+    procedure fillWindow(para1: jint; para2: ADCursorWindow); overload; virtual;
+    function getWindow(): ADCursorWindow; overload; virtual;
+    function onMove(para1: jint; para2: jint): jboolean; overload; virtual;
+  end;
+
   ACContext = class abstract external 'android.content' name 'Context' (JLObject)
   public
     const
@@ -38038,7 +38131,7 @@
       BIND_ALLOW_OOM_MANAGEMENT = 16;
       BIND_WAIVE_PRIORITY = 32;
       BIND_IMPORTANT = 64;
-      BIND_ADJUST_WITH_ACTIVITY = 64;
+      BIND_ADJUST_WITH_ACTIVITY = 128;
       POWER_SERVICE = 'power';
       WINDOW_SERVICE = 'window';
       LAYOUT_INFLATER_SERVICE = 'layout_inflater';
@@ -38772,6 +38865,7 @@
     const
       FLAG_EASY_CORRECT = 1;
       FLAG_MISSPELLED = 2;
+      FLAG_AUTO_CORRECTION = 4;
       ACTION_SUGGESTION_PICKED = 'android.text.style.SUGGESTION_PICKED';
       SUGGESTION_SPAN_PICKED_AFTER = 'after';
       SUGGESTION_SPAN_PICKED_BEFORE = 'before';
@@ -39095,14 +39189,14 @@
       ACTION_HOVER_EXIT = 10;
       ACTION_POINTER_INDEX_MASK = 65280;
       ACTION_POINTER_INDEX_SHIFT = 8;
-      ACTION_POINTER_1_DOWN = 5;
-      ACTION_POINTER_2_DOWN = 261;
-      ACTION_POINTER_3_DOWN = 517;
-      ACTION_POINTER_1_UP = 6;
-      ACTION_POINTER_2_UP = 262;
-      ACTION_POINTER_3_UP = 518;
-      ACTION_POINTER_ID_MASK = 65280;
-      ACTION_POINTER_ID_SHIFT = 8;
+      ACTION_POINTER_1_DOWN = 5 deprecated;
+      ACTION_POINTER_2_DOWN = 261 deprecated;
+      ACTION_POINTER_3_DOWN = 517 deprecated;
+      ACTION_POINTER_1_UP = 6 deprecated;
+      ACTION_POINTER_2_UP = 262 deprecated;
+      ACTION_POINTER_3_UP = 518 deprecated;
+      ACTION_POINTER_ID_MASK = 65280 deprecated;
+      ACTION_POINTER_ID_SHIFT = 8 deprecated;
       FLAG_WINDOW_IS_OBSCURED = 1;
       EDGE_TOP = 1;
       EDGE_BOTTOM = 2;
@@ -39298,6 +39392,10 @@
       Arr1InnerSyncState = array of InnerSyncState;
       Arr2InnerSyncState = array of Arr1InnerSyncState;
       Arr3InnerSyncState = array of Arr2InnerSyncState;
+      InnerColorsColumns = interface;
+      Arr1InnerColorsColumns = array of InnerColorsColumns;
+      Arr2InnerColorsColumns = array of Arr1InnerColorsColumns;
+      Arr3InnerColorsColumns = array of Arr2InnerColorsColumns;
       InnerEventDays = class;
       Arr1InnerEventDays = array of InnerEventDays;
       Arr2InnerEventDays = array of Arr1InnerEventDays;
@@ -39330,6 +39428,10 @@
       Arr1InnerSyncColumns = array of InnerSyncColumns;
       Arr2InnerSyncColumns = array of Arr1InnerSyncColumns;
       Arr3InnerSyncColumns = array of Arr2InnerSyncColumns;
+      InnerColors = class;
+      Arr1InnerColors = array of InnerColors;
+      Arr2InnerColors = array of Arr1InnerColors;
+      Arr3InnerColors = array of Arr2InnerColors;
       InnerEvents = class;
       Arr1InnerEvents = array of InnerEvents;
       Arr2InnerEvents = array of Arr1InnerEvents;
@@ -39401,6 +39503,7 @@
           DESCRIPTION = 'description';
           EVENT_LOCATION = 'eventLocation';
           EVENT_COLOR = 'eventColor';
+          EVENT_COLOR_KEY = 'eventColor_index';
           STATUS = 'eventStatus';
           STATUS_TENTATIVE = 0;
           STATUS_CONFIRMED = 1;
@@ -39431,6 +39534,7 @@
           AVAILABILITY = 'availability';
           AVAILABILITY_BUSY = 0;
           AVAILABILITY_FREE = 1;
+          AVAILABILITY_TENTATIVE = 2;
           HAS_ALARM = 'hasAlarm';
           HAS_EXTENDED_PROPERTIES = 'hasExtendedProperties';
           RRULE = 'rrule';
@@ -39465,6 +39569,7 @@
           TYPE_NONE = 0;
           TYPE_REQUIRED = 1;
           TYPE_OPTIONAL = 2;
+          TYPE_RESOURCE = 3;
           ATTENDEE_STATUS = 'attendeeStatus';
           ATTENDEE_STATUS_NONE = 0;
           ATTENDEE_STATUS_ACCEPTED = 1;
@@ -39476,6 +39581,7 @@
       InnerCalendarColumns = interface external 'android.provider' name 'CalendarColumns' 
         const
           CALENDAR_COLOR = 'calendar_color';
+          CALENDAR_COLOR_KEY = 'calendar_color_index';
           CALENDAR_DISPLAY_NAME = 'calendar_displayName';
           CALENDAR_ACCESS_LEVEL = 'calendar_access_level';
           CAL_ACCESS_NONE = 0;
@@ -39495,6 +39601,8 @@
           CAN_MODIFY_TIME_ZONE = 'canModifyTimeZone';
           MAX_REMINDERS = 'maxReminders';
           ALLOWED_REMINDERS = 'allowedReminders';
+          ALLOWED_AVAILABILITY = 'allowedAvailability';
+          ALLOWED_ATTENDEE_TYPES = 'allowedAttendeeTypes';
       end;
 
       InnerCalendarSyncColumns = interface external 'android.provider' name 'CalendarSyncColumns' 
@@ -39515,6 +39623,15 @@
       public
         final class var
           fCONTENT_URI: ANUri; external name 'CONTENT_URI';
+      end;
+
+      InnerColorsColumns = interface external 'android.provider' name 'ColorsColumns' (APSyncStateContract.InnerColumns)
+        const
+          COLOR_TYPE = 'color_type';
+          TYPE_CALENDAR = 0;
+          TYPE_EVENT = 1;
+          COLOR_KEY = 'color_index';
+          COLOR = 'color';
       end;
 
       InnerEventDays = class sealed external 'android.provider' name 'EventDays' (JLObject, APCalendarContract.InnerEventDaysColumns)
@@ -39601,6 +39718,12 @@
           DIRTY = 'dirty';
           DELETED = 'deleted';
           CAN_PARTIALLY_UPDATE = 'canPartiallyUpdate';
+      end;
+
+      InnerColors = class sealed external 'android.provider' name 'Colors' (JLObject, APCalendarContract.InnerColorsColumns)
+      public
+        final class var
+          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
       end;
 
       InnerEvents = class sealed external 'android.provider' name 'Events' (JLObject, APBaseColumns, APCalendarContract.InnerSyncColumns, APCalendarContract.InnerEventsColumns, APCalendarContract.InnerCalendarColumns)
@@ -39693,6 +39816,14 @@
       Arr1InnerDataColumns = array of InnerDataColumns;
       Arr2InnerDataColumns = array of Arr1InnerDataColumns;
       Arr3InnerDataColumns = array of Arr2InnerDataColumns;
+      InnerStreamItemPhotosColumns = interface;
+      Arr1InnerStreamItemPhotosColumns = array of InnerStreamItemPhotosColumns;
+      Arr2InnerStreamItemPhotosColumns = array of Arr1InnerStreamItemPhotosColumns;
+      Arr3InnerStreamItemPhotosColumns = array of Arr2InnerStreamItemPhotosColumns;
+      InnerStreamItemsColumns = interface;
+      Arr1InnerStreamItemsColumns = array of InnerStreamItemsColumns;
+      Arr2InnerStreamItemsColumns = array of Arr1InnerStreamItemsColumns;
+      Arr3InnerStreamItemsColumns = array of Arr2InnerStreamItemsColumns;
       InnerStatusColumns = interface;
       Arr1InnerStatusColumns = array of InnerStatusColumns;
       Arr2InnerStatusColumns = array of Arr1InnerStatusColumns;
@@ -39753,6 +39884,14 @@
       Arr1InnerSettings = array of InnerSettings;
       Arr2InnerSettings = array of Arr1InnerSettings;
       Arr3InnerSettings = array of Arr2InnerSettings;
+      InnerStreamItemPhotos = class;
+      Arr1InnerStreamItemPhotos = array of InnerStreamItemPhotos;
+      Arr2InnerStreamItemPhotos = array of Arr1InnerStreamItemPhotos;
+      Arr3InnerStreamItemPhotos = array of Arr2InnerStreamItemPhotos;
+      InnerStreamItems = class;
+      Arr1InnerStreamItems = array of InnerStreamItems;
+      Arr2InnerStreamItems = array of Arr1InnerStreamItems;
+      Arr3InnerStreamItems = array of Arr2InnerStreamItems;
       InnerStatusUpdates = class;
       Arr1InnerStatusUpdates = array of InnerStatusUpdates;
       Arr2InnerStatusUpdates = array of Arr1InnerStatusUpdates;
@@ -39969,10 +40108,43 @@
           SYNC4 = 'data_sync4';
       end;
 
+      InnerStreamItemPhotosColumns = interface external 'android.provider' name 'StreamItemPhotosColumns' 
+        const
+          STREAM_ITEM_ID = 'stream_item_id';
+          SORT_INDEX = 'sort_index';
+          PHOTO_FILE_ID = 'photo_file_id';
+          PHOTO_URI = 'photo_uri';
+          SYNC1 = 'stream_item_photo_sync1';
+          SYNC2 = 'stream_item_photo_sync2';
+          SYNC3 = 'stream_item_photo_sync3';
+          SYNC4 = 'stream_item_photo_sync4';
+      end;
+
+      InnerStreamItemsColumns = interface external 'android.provider' name 'StreamItemsColumns' 
+        const
+          CONTACT_ID = 'contact_id';
+          CONTACT_LOOKUP_KEY = 'contact_lookup';
+          RAW_CONTACT_ID = 'raw_contact_id';
+          RES_PACKAGE = 'res_package';
+          ACCOUNT_TYPE = 'account_type';
+          ACCOUNT_NAME = 'account_name';
+          DATA_SET = 'data_set';
+          RAW_CONTACT_SOURCE_ID = 'raw_contact_source_id';
+          RES_ICON = 'icon';
+          RES_LABEL = 'label';
+          TEXT = 'text';
+          TIMESTAMP = 'timestamp';
+          COMMENTS = 'comments';
+          SYNC1 = 'stream_item_sync1';
+          SYNC2 = 'stream_item_sync2';
+          SYNC3 = 'stream_item_sync3';
+          SYNC4 = 'stream_item_sync4';
+      end;
+
       InnerStatusColumns = interface external 'android.provider' name 'StatusColumns' 
         const
           PRESENCE = 'mode';
-          PRESENCE_STATUS = 'mode';
+          PRESENCE_STATUS = 'mode' deprecated;
           OFFLINE = 0;
           INVISIBLE = 1;
           AWAY = 2;
@@ -39980,7 +40152,7 @@
           DO_NOT_DISTURB = 4;
           AVAILABLE = 5;
           STATUS = 'status';
-          PRESENCE_CUSTOM_STATUS = 'status';
+          PRESENCE_CUSTOM_STATUS = 'status' deprecated;
           STATUS_TIMESTAMP = 'status_ts';
           STATUS_RES_PACKAGE = 'status_res_package';
           STATUS_LABEL = 'status_label';
@@ -40170,6 +40342,39 @@
         const
           CONTENT_TYPE = 'vnd.android.cursor.dir/setting';
           CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/setting';
+      end;
+
+      InnerStreamItemPhotos = class sealed external 'android.provider' name 'StreamItemPhotos' (JLObject, APBaseColumns, APContactsContract.InnerStreamItemPhotosColumns)
+      public
+        const
+          PHOTO = 'photo';
+      end;
+
+      InnerStreamItems = class sealed external 'android.provider' name 'StreamItems' (JLObject, APBaseColumns, APContactsContract.InnerStreamItemsColumns)
+      public
+        type
+          InnerStreamItemPhotos = class;
+          Arr1InnerStreamItemPhotos = array of InnerStreamItemPhotos;
+          Arr2InnerStreamItemPhotos = array of Arr1InnerStreamItemPhotos;
+          Arr3InnerStreamItemPhotos = array of Arr2InnerStreamItemPhotos;
+          InnerStreamItemPhotos = class sealed external 'android.provider' name 'StreamItemPhotos' (JLObject, APBaseColumns, APContactsContract.InnerStreamItemPhotosColumns)
+          public
+            const
+              CONTENT_DIRECTORY = 'photo';
+              CONTENT_TYPE = 'vnd.android.cursor.dir/stream_item_photo';
+              CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/stream_item_photo';
+          end;
+
+      public
+        final class var
+          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
+          fCONTENT_PHOTO_URI: ANUri; external name 'CONTENT_PHOTO_URI';
+          fCONTENT_LIMIT_URI: ANUri; external name 'CONTENT_LIMIT_URI';
+      public
+        const
+          CONTENT_TYPE = 'vnd.android.cursor.dir/stream_item';
+          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/stream_item';
+          MAX_ITEMS = 'max_items';
       end;
 
       InnerStatusUpdates = class external 'android.provider' name 'StatusUpdates' (JLObject, APContactsContract.InnerStatusColumns, APContactsContract.InnerPresenceColumns)
@@ -40560,7 +40765,7 @@
               TYPE_DEFAULT = 1;
               TYPE_OTHER_NAME = 2;
               TYPE_MAIDEN_NAME = 3;
-              TYPE_MAINDEN_NAME = 3;
+              TYPE_MAINDEN_NAME = 3 deprecated;
               TYPE_SHORT_NAME = 4;
               TYPE_INITIALS = 5;
               NAME = 'data1';
@@ -40599,6 +40804,10 @@
           Arr1InnerDisplayPhoto = array of InnerDisplayPhoto;
           Arr2InnerDisplayPhoto = array of Arr1InnerDisplayPhoto;
           Arr3InnerDisplayPhoto = array of Arr2InnerDisplayPhoto;
+          InnerStreamItems = class;
+          Arr1InnerStreamItems = array of InnerStreamItems;
+          Arr2InnerStreamItems = array of Arr1InnerStreamItems;
+          Arr3InnerStreamItems = array of Arr2InnerStreamItems;
           InnerEntity = class;
           Arr1InnerEntity = array of InnerEntity;
           Arr2InnerEntity = array of Arr1InnerEntity;
@@ -40611,6 +40820,12 @@
           public
             const
               CONTENT_DIRECTORY = 'display_photo';
+          end;
+
+          InnerStreamItems = class sealed external 'android.provider' name 'StreamItems' (JLObject, APBaseColumns, APContactsContract.InnerStreamItemsColumns)
+          public
+            const
+              CONTENT_DIRECTORY = 'stream_items';
           end;
 
           InnerEntity = class sealed external 'android.provider' name 'Entity' (JLObject, APBaseColumns, APContactsContract.InnerDataColumns)
@@ -40634,7 +40849,7 @@
           CONTENT_TYPE = 'vnd.android.cursor.dir/raw_contact';
           CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/raw_contact';
           AGGREGATION_MODE_DEFAULT = 0;
-          AGGREGATION_MODE_IMMEDIATE = 1;
+          AGGREGATION_MODE_IMMEDIATE = 1 deprecated;
           AGGREGATION_MODE_SUSPENDED = 2;
           AGGREGATION_MODE_DISABLED = 3;
       public
@@ -40649,14 +40864,18 @@
           Arr1InnerPhoto = array of InnerPhoto;
           Arr2InnerPhoto = array of Arr1InnerPhoto;
           Arr3InnerPhoto = array of Arr2InnerPhoto;
-          InnerAggregationSuggestions = class;
-          Arr1InnerAggregationSuggestions = array of InnerAggregationSuggestions;
-          Arr2InnerAggregationSuggestions = array of Arr1InnerAggregationSuggestions;
-          Arr3InnerAggregationSuggestions = array of Arr2InnerAggregationSuggestions;
+          InnerStreamItems = class;
+          Arr1InnerStreamItems = array of InnerStreamItems;
+          Arr2InnerStreamItems = array of Arr1InnerStreamItems;
+          Arr3InnerStreamItems = array of Arr2InnerStreamItems;
           InnerData = class;
           Arr1InnerData = array of InnerData;
           Arr2InnerData = array of Arr1InnerData;
           Arr3InnerData = array of Arr2InnerData;
+          InnerAggregationSuggestions = class;
+          Arr1InnerAggregationSuggestions = array of InnerAggregationSuggestions;
+          Arr2InnerAggregationSuggestions = array of Arr1InnerAggregationSuggestions;
+          Arr3InnerAggregationSuggestions = array of Arr2InnerAggregationSuggestions;
           InnerEntity = class;
           Arr1InnerEntity = array of InnerEntity;
           Arr2InnerEntity = array of Arr1InnerEntity;
@@ -40670,16 +40889,22 @@
               PHOTO = 'data15';
           end;
 
-          InnerAggregationSuggestions = class sealed external 'android.provider' name 'AggregationSuggestions' (JLObject, APBaseColumns, APContactsContract.InnerContactsColumns, APContactsContract.InnerContactOptionsColumns, APContactsContract.InnerContactStatusColumns)
+          InnerStreamItems = class sealed external 'android.provider' name 'StreamItems' (JLObject, APContactsContract.InnerStreamItemsColumns)
           public
             const
-              CONTENT_DIRECTORY = 'suggestions';
+              CONTENT_DIRECTORY = 'stream_items';
           end;
 
           InnerData = class sealed external 'android.provider' name 'Data' (JLObject, APBaseColumns, APContactsContract.InnerDataColumns)
           public
             const
               CONTENT_DIRECTORY = 'data';
+          end;
+
+          InnerAggregationSuggestions = class sealed external 'android.provider' name 'AggregationSuggestions' (JLObject, APBaseColumns, APContactsContract.InnerContactsColumns, APContactsContract.InnerContactOptionsColumns, APContactsContract.InnerContactStatusColumns)
+          public
+            const
+              CONTENT_DIRECTORY = 'suggestions';
           end;
 
           InnerEntity = class sealed external 'android.provider' name 'Entity' (JLObject, APBaseColumns, APContactsContract.InnerContactsColumns, APContactsContract.InnerContactNameColumns, APContactsContract.InnerRawContactsColumns, APContactsContract.InnerBaseSyncColumns, APContactsContract.InnerSyncColumns, APContactsContract.InnerDataColumns, APContactsContract.InnerStatusColumns, APContactsContract.InnerContactOptionsColumns, APContactsContract.InnerContactStatusColumns)
@@ -43774,6 +43999,11 @@
     constructor create(); overload;
   end;
 
+  AOTransactionTooLargeException = class external 'android.os' name 'TransactionTooLargeException' (AORemoteException)
+  public
+    constructor create(); overload;
+  end;
+
   JSInvalidKeyException = class external 'java.security' name 'InvalidKeyException' (JSKeyException)
   public
     constructor create(para1: JLString); overload;
@@ -44328,7 +44558,11 @@
       KEYCODE_LANGUAGE_SWITCH = 204;
       KEYCODE_MANNER_MODE = 205;
       KEYCODE_3D_MODE = 206;
-      MAX_KEYCODE = 84;
+      KEYCODE_CONTACTS = 207;
+      KEYCODE_CALENDAR = 208;
+      KEYCODE_MUSIC = 209;
+      KEYCODE_CALCULATOR = 210;
+      MAX_KEYCODE = 84 deprecated;
       ACTION_DOWN = 0;
       ACTION_UP = 1;
       ACTION_MULTIPLE = 2;
@@ -44536,7 +44770,7 @@
       fpathPermissions: Arr1ACPPathPermission; external name 'pathPermissions';
       fmultiprocess: jboolean; external name 'multiprocess';
       finitOrder: jint; external name 'initOrder';
-      fisSyncable: jboolean; external name 'isSyncable';
+      fisSyncable: jboolean deprecated; external name 'isSyncable';
   public
     final class var
       fCREATOR: AOParcelable.InnerCreator; external name 'CREATOR';
@@ -45798,33 +46032,33 @@
           InnerInsert = class sealed external 'android.provider' name 'Insert' (JLObject)
           public
             const
-              ACTION = 'android.intent.action.INSERT';
-              FULL_MODE = 'full_mode';
-              NAME = 'name';
-              PHONETIC_NAME = 'phonetic_name';
-              COMPANY = 'company';
-              JOB_TITLE = 'job_title';
-              NOTES = 'notes';
-              PHONE = 'phone';
-              PHONE_TYPE = 'phone_type';
-              PHONE_ISPRIMARY = 'phone_isprimary';
-              SECONDARY_PHONE = 'secondary_phone';
-              SECONDARY_PHONE_TYPE = 'secondary_phone_type';
-              TERTIARY_PHONE = 'tertiary_phone';
-              TERTIARY_PHONE_TYPE = 'tertiary_phone_type';
-              EMAIL = 'email';
-              EMAIL_TYPE = 'email_type';
-              EMAIL_ISPRIMARY = 'email_isprimary';
-              SECONDARY_EMAIL = 'secondary_email';
-              SECONDARY_EMAIL_TYPE = 'secondary_email_type';
-              TERTIARY_EMAIL = 'tertiary_email';
-              TERTIARY_EMAIL_TYPE = 'tertiary_email_type';
-              POSTAL = 'postal';
-              POSTAL_TYPE = 'postal_type';
-              POSTAL_ISPRIMARY = 'postal_isprimary';
-              IM_HANDLE = 'im_handle';
-              IM_PROTOCOL = 'im_protocol';
-              IM_ISPRIMARY = 'im_isprimary';
+              ACTION = 'android.intent.action.INSERT' deprecated;
+              FULL_MODE = 'full_mode' deprecated;
+              NAME = 'name' deprecated;
+              PHONETIC_NAME = 'phonetic_name' deprecated;
+              COMPANY = 'company' deprecated;
+              JOB_TITLE = 'job_title' deprecated;
+              NOTES = 'notes' deprecated;
+              PHONE = 'phone' deprecated;
+              PHONE_TYPE = 'phone_type' deprecated;
+              PHONE_ISPRIMARY = 'phone_isprimary' deprecated;
+              SECONDARY_PHONE = 'secondary_phone' deprecated;
+              SECONDARY_PHONE_TYPE = 'secondary_phone_type' deprecated;
+              TERTIARY_PHONE = 'tertiary_phone' deprecated;
+              TERTIARY_PHONE_TYPE = 'tertiary_phone_type' deprecated;
+              EMAIL = 'email' deprecated;
+              EMAIL_TYPE = 'email_type' deprecated;
+              EMAIL_ISPRIMARY = 'email_isprimary' deprecated;
+              SECONDARY_EMAIL = 'secondary_email' deprecated;
+              SECONDARY_EMAIL_TYPE = 'secondary_email_type' deprecated;
+              TERTIARY_EMAIL = 'tertiary_email' deprecated;
+              TERTIARY_EMAIL_TYPE = 'tertiary_email_type' deprecated;
+              POSTAL = 'postal' deprecated;
+              POSTAL_TYPE = 'postal_type' deprecated;
+              POSTAL_ISPRIMARY = 'postal_isprimary' deprecated;
+              IM_HANDLE = 'im_handle' deprecated;
+              IM_PROTOCOL = 'im_protocol' deprecated;
+              IM_ISPRIMARY = 'im_isprimary' deprecated;
           public
             constructor create(); overload;
           end;
@@ -45832,61 +46066,61 @@
           InnerUI = class sealed external 'android.provider' name 'UI' (JLObject)
           public
             const
-              LIST_DEFAULT = 'com.android.contacts.action.LIST_DEFAULT';
-              LIST_GROUP_ACTION = 'com.android.contacts.action.LIST_GROUP';
-              GROUP_NAME_EXTRA_KEY = 'com.android.contacts.extra.GROUP';
-              LIST_ALL_CONTACTS_ACTION = 'com.android.contacts.action.LIST_ALL_CONTACTS';
-              LIST_CONTACTS_WITH_PHONES_ACTION = 'com.android.contacts.action.LIST_CONTACTS_WITH_PHONES';
-              LIST_STARRED_ACTION = 'com.android.contacts.action.LIST_STARRED';
-              LIST_FREQUENT_ACTION = 'com.android.contacts.action.LIST_FREQUENT';
-              LIST_STREQUENT_ACTION = 'com.android.contacts.action.LIST_STREQUENT';
-              TITLE_EXTRA_KEY = 'com.android.contacts.extra.TITLE_EXTRA';
-              FILTER_CONTACTS_ACTION = 'com.android.contacts.action.FILTER_CONTACTS';
-              FILTER_TEXT_EXTRA_KEY = 'com.android.contacts.extra.FILTER_TEXT';
+              LIST_DEFAULT = 'com.android.contacts.action.LIST_DEFAULT' deprecated;
+              LIST_GROUP_ACTION = 'com.android.contacts.action.LIST_GROUP' deprecated;
+              GROUP_NAME_EXTRA_KEY = 'com.android.contacts.extra.GROUP' deprecated;
+              LIST_ALL_CONTACTS_ACTION = 'com.android.contacts.action.LIST_ALL_CONTACTS' deprecated;
+              LIST_CONTACTS_WITH_PHONES_ACTION = 'com.android.contacts.action.LIST_CONTACTS_WITH_PHONES' deprecated;
+              LIST_STARRED_ACTION = 'com.android.contacts.action.LIST_STARRED' deprecated;
+              LIST_FREQUENT_ACTION = 'com.android.contacts.action.LIST_FREQUENT' deprecated;
+              LIST_STREQUENT_ACTION = 'com.android.contacts.action.LIST_STREQUENT' deprecated;
+              TITLE_EXTRA_KEY = 'com.android.contacts.extra.TITLE_EXTRA' deprecated;
+              FILTER_CONTACTS_ACTION = 'com.android.contacts.action.FILTER_CONTACTS' deprecated;
+              FILTER_TEXT_EXTRA_KEY = 'com.android.contacts.extra.FILTER_TEXT' deprecated;
           public
             constructor create(); overload;
           end;
 
       public
         const
-          SEARCH_SUGGESTION_CLICKED = 'android.provider.Contacts.SEARCH_SUGGESTION_CLICKED';
-          SEARCH_SUGGESTION_DIAL_NUMBER_CLICKED = 'android.provider.Contacts.SEARCH_SUGGESTION_DIAL_NUMBER_CLICKED';
-          SEARCH_SUGGESTION_CREATE_CONTACT_CLICKED = 'android.provider.Contacts.SEARCH_SUGGESTION_CREATE_CONTACT_CLICKED';
-          ATTACH_IMAGE = 'com.android.contacts.action.ATTACH_IMAGE';
-          SHOW_OR_CREATE_CONTACT = 'com.android.contacts.action.SHOW_OR_CREATE_CONTACT';
-          EXTRA_FORCE_CREATE = 'com.android.contacts.action.FORCE_CREATE';
-          EXTRA_CREATE_DESCRIPTION = 'com.android.contacts.action.CREATE_DESCRIPTION';
+          SEARCH_SUGGESTION_CLICKED = 'android.provider.Contacts.SEARCH_SUGGESTION_CLICKED' deprecated;
+          SEARCH_SUGGESTION_DIAL_NUMBER_CLICKED = 'android.provider.Contacts.SEARCH_SUGGESTION_DIAL_NUMBER_CLICKED' deprecated;
+          SEARCH_SUGGESTION_CREATE_CONTACT_CLICKED = 'android.provider.Contacts.SEARCH_SUGGESTION_CREATE_CONTACT_CLICKED' deprecated;
+          ATTACH_IMAGE = 'com.android.contacts.action.ATTACH_IMAGE' deprecated;
+          SHOW_OR_CREATE_CONTACT = 'com.android.contacts.action.SHOW_OR_CREATE_CONTACT' deprecated;
+          EXTRA_FORCE_CREATE = 'com.android.contacts.action.FORCE_CREATE' deprecated;
+          EXTRA_CREATE_DESCRIPTION = 'com.android.contacts.action.CREATE_DESCRIPTION' deprecated;
       public
         constructor create(); overload;
       end;
 
       InnerExtensionsColumns = interface external 'android.provider' name 'ExtensionsColumns' 
         const
-          NAME = 'name';
-          VALUE = 'value';
+          NAME = 'name' deprecated;
+          VALUE = 'value' deprecated;
       end;
 
       InnerPhotosColumns = interface external 'android.provider' name 'PhotosColumns' 
         const
-          LOCAL_VERSION = 'local_version';
-          PERSON_ID = 'person';
-          DOWNLOAD_REQUIRED = 'download_required';
-          EXISTS_ON_SERVER = 'exists_on_server';
-          SYNC_ERROR = 'sync_error';
-          DATA = 'data';
+          LOCAL_VERSION = 'local_version' deprecated;
+          PERSON_ID = 'person' deprecated;
+          DOWNLOAD_REQUIRED = 'download_required' deprecated;
+          EXISTS_ON_SERVER = 'exists_on_server' deprecated;
+          SYNC_ERROR = 'sync_error' deprecated;
+          DATA = 'data' deprecated;
       end;
 
       InnerOrganizationColumns = interface external 'android.provider' name 'OrganizationColumns' 
         const
-          &TYPE = 'type';
-          TYPE_CUSTOM = 0;
-          TYPE_WORK = 1;
-          TYPE_OTHER = 2;
-          &LABEL = 'label';
-          COMPANY = 'company';
-          TITLE = 'title';
-          PERSON_ID = 'person';
-          ISPRIMARY = 'isprimary';
+          &TYPE = 'type' deprecated;
+          TYPE_CUSTOM = 0 deprecated;
+          TYPE_WORK = 1 deprecated;
+          TYPE_OTHER = 2 deprecated;
+          &LABEL = 'label' deprecated;
+          COMPANY = 'company' deprecated;
+          TITLE = 'title' deprecated;
+          PERSON_ID = 'person' deprecated;
+          ISPRIMARY = 'isprimary' deprecated;
       end;
 
       InnerPresenceColumns = interface external 'android.provider' name 'PresenceColumns' 
@@ -45900,102 +46134,102 @@
           DO_NOT_DISTURB = 4;
           AVAILABLE = 5;
           PRESENCE_CUSTOM_STATUS = 'status';
-          IM_PROTOCOL = 'im_protocol';
-          IM_HANDLE = 'im_handle';
-          IM_ACCOUNT = 'im_account';
+          IM_PROTOCOL = 'im_protocol' deprecated;
+          IM_HANDLE = 'im_handle' deprecated;
+          IM_ACCOUNT = 'im_account' deprecated;
       end;
 
       InnerContactMethodsColumns = interface external 'android.provider' name 'ContactMethodsColumns' 
         const
-          KIND = 'kind';
-          &TYPE = 'type';
-          TYPE_CUSTOM = 0;
-          TYPE_HOME = 1;
-          TYPE_WORK = 2;
-          TYPE_OTHER = 3;
-          &LABEL = 'label';
-          DATA = 'data';
-          AUX_DATA = 'aux_data';
-          ISPRIMARY = 'isprimary';
+          KIND = 'kind' deprecated;
+          &TYPE = 'type' deprecated;
+          TYPE_CUSTOM = 0 deprecated;
+          TYPE_HOME = 1 deprecated;
+          TYPE_WORK = 2 deprecated;
+          TYPE_OTHER = 3 deprecated;
+          &LABEL = 'label' deprecated;
+          DATA = 'data' deprecated;
+          AUX_DATA = 'aux_data' deprecated;
+          ISPRIMARY = 'isprimary' deprecated;
       end;
 
       InnerPhonesColumns = interface external 'android.provider' name 'PhonesColumns' 
         const
-          &TYPE = 'type';
-          TYPE_CUSTOM = 0;
-          TYPE_HOME = 1;
-          TYPE_MOBILE = 2;
-          TYPE_WORK = 3;
-          TYPE_FAX_WORK = 4;
-          TYPE_FAX_HOME = 5;
-          TYPE_PAGER = 6;
-          TYPE_OTHER = 7;
-          &LABEL = 'label';
-          NUMBER = 'number';
-          NUMBER_KEY = 'number_key';
-          ISPRIMARY = 'isprimary';
+          &TYPE = 'type' deprecated;
+          TYPE_CUSTOM = 0 deprecated;
+          TYPE_HOME = 1 deprecated;
+          TYPE_MOBILE = 2 deprecated;
+          TYPE_WORK = 3 deprecated;
+          TYPE_FAX_WORK = 4 deprecated;
+          TYPE_FAX_HOME = 5 deprecated;
+          TYPE_PAGER = 6 deprecated;
+          TYPE_OTHER = 7 deprecated;
+          &LABEL = 'label' deprecated;
+          NUMBER = 'number' deprecated;
+          NUMBER_KEY = 'number_key' deprecated;
+          ISPRIMARY = 'isprimary' deprecated;
       end;
 
       InnerGroupsColumns = interface external 'android.provider' name 'GroupsColumns' 
         const
-          NAME = 'name';
-          NOTES = 'notes';
-          SHOULD_SYNC = 'should_sync';
-          SYSTEM_ID = 'system_id';
+          NAME = 'name' deprecated;
+          NOTES = 'notes' deprecated;
+          SHOULD_SYNC = 'should_sync' deprecated;
+          SYSTEM_ID = 'system_id' deprecated;
       end;
 
       InnerPeopleColumns = interface external 'android.provider' name 'PeopleColumns' 
         const
-          NAME = 'name';
-          PHONETIC_NAME = 'phonetic_name';
-          DISPLAY_NAME = 'display_name';
-          NOTES = 'notes';
-          TIMES_CONTACTED = 'times_contacted';
-          LAST_TIME_CONTACTED = 'last_time_contacted';
-          CUSTOM_RINGTONE = 'custom_ringtone';
-          SEND_TO_VOICEMAIL = 'send_to_voicemail';
-          STARRED = 'starred';
-          PHOTO_VERSION = 'photo_version';
+          NAME = 'name' deprecated;
+          PHONETIC_NAME = 'phonetic_name' deprecated;
+          DISPLAY_NAME = 'display_name' deprecated;
+          NOTES = 'notes' deprecated;
+          TIMES_CONTACTED = 'times_contacted' deprecated;
+          LAST_TIME_CONTACTED = 'last_time_contacted' deprecated;
+          CUSTOM_RINGTONE = 'custom_ringtone' deprecated;
+          SEND_TO_VOICEMAIL = 'send_to_voicemail' deprecated;
+          STARRED = 'starred' deprecated;
+          PHOTO_VERSION = 'photo_version' deprecated;
       end;
 
       InnerSettingsColumns = interface external 'android.provider' name 'SettingsColumns' 
         const
-          _SYNC_ACCOUNT = '_sync_account';
-          _SYNC_ACCOUNT_TYPE = '_sync_account_type';
-          KEY = 'key';
-          VALUE = 'value';
+          _SYNC_ACCOUNT = '_sync_account' deprecated;
+          _SYNC_ACCOUNT_TYPE = '_sync_account_type' deprecated;
+          KEY = 'key' deprecated;
+          VALUE = 'value' deprecated;
       end;
 
       InnerExtensions = class sealed external 'android.provider' name 'Extensions' (JLObject, APBaseColumns, APContacts.InnerExtensionsColumns)
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
       public
         const
-          CONTENT_TYPE = 'vnd.android.cursor.dir/contact_extensions';
-          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/contact_extensions';
-          DEFAULT_SORT_ORDER = 'person, name ASC';
-          PERSON_ID = 'person';
+          CONTENT_TYPE = 'vnd.android.cursor.dir/contact_extensions' deprecated;
+          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/contact_extensions' deprecated;
+          DEFAULT_SORT_ORDER = 'person, name ASC' deprecated;
+          PERSON_ID = 'person' deprecated;
       end;
 
       InnerPhotos = class sealed external 'android.provider' name 'Photos' (JLObject, APBaseColumns, APContacts.InnerPhotosColumns)
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
       public
         const
-          CONTENT_DIRECTORY = 'photo';
-          DEFAULT_SORT_ORDER = 'person ASC';
+          CONTENT_DIRECTORY = 'photo' deprecated;
+          DEFAULT_SORT_ORDER = 'person ASC' deprecated;
       end;
 
       InnerOrganizations = class sealed external 'android.provider' name 'Organizations' (JLObject, APBaseColumns, APContacts.InnerOrganizationColumns)
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
       public
         const
-          CONTENT_DIRECTORY = 'organizations';
-          DEFAULT_SORT_ORDER = 'company, title, isprimary ASC';
+          CONTENT_DIRECTORY = 'organizations' deprecated;
+          DEFAULT_SORT_ORDER = 'company, title, isprimary ASC' deprecated;
       public
         class function getDisplayLabel(para1: ACContext; para2: jint; para3: JLCharSequence): JLCharSequence; static; overload; final;
       end;
@@ -46003,62 +46237,62 @@
       InnerGroupMembership = class sealed external 'android.provider' name 'GroupMembership' (JLObject, APBaseColumns, APContacts.InnerGroupsColumns)
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
-          fRAW_CONTENT_URI: ANUri; external name 'RAW_CONTENT_URI';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
+          fRAW_CONTENT_URI: ANUri deprecated; external name 'RAW_CONTENT_URI';
       public
         const
-          CONTENT_DIRECTORY = 'groupmembership';
-          CONTENT_TYPE = 'vnd.android.cursor.dir/contactsgroupmembership';
-          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/contactsgroupmembership';
-          DEFAULT_SORT_ORDER = 'group_id ASC';
-          GROUP_ID = 'group_id';
-          GROUP_SYNC_ID = 'group_sync_id';
-          GROUP_SYNC_ACCOUNT = 'group_sync_account';
-          GROUP_SYNC_ACCOUNT_TYPE = 'group_sync_account_type';
-          PERSON_ID = 'person';
+          CONTENT_DIRECTORY = 'groupmembership' deprecated;
+          CONTENT_TYPE = 'vnd.android.cursor.dir/contactsgroupmembership' deprecated;
+          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/contactsgroupmembership' deprecated;
+          DEFAULT_SORT_ORDER = 'group_id ASC' deprecated;
+          GROUP_ID = 'group_id' deprecated;
+          GROUP_SYNC_ID = 'group_sync_id' deprecated;
+          GROUP_SYNC_ACCOUNT = 'group_sync_account' deprecated;
+          GROUP_SYNC_ACCOUNT_TYPE = 'group_sync_account_type' deprecated;
+          PERSON_ID = 'person' deprecated;
       end;
 
       InnerGroups = class sealed external 'android.provider' name 'Groups' (JLObject, APBaseColumns, APContacts.InnerGroupsColumns)
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
-          fDELETED_CONTENT_URI: ANUri; external name 'DELETED_CONTENT_URI';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
+          fDELETED_CONTENT_URI: ANUri deprecated; external name 'DELETED_CONTENT_URI';
       public
         const
-          CONTENT_TYPE = 'vnd.android.cursor.dir/contactsgroup';
-          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/contactsgroup';
-          DEFAULT_SORT_ORDER = 'name ASC';
-          GROUP_ANDROID_STARRED = 'Starred in Android';
-          GROUP_MY_CONTACTS = 'Contacts';
+          CONTENT_TYPE = 'vnd.android.cursor.dir/contactsgroup' deprecated;
+          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/contactsgroup' deprecated;
+          DEFAULT_SORT_ORDER = 'name ASC' deprecated;
+          GROUP_ANDROID_STARRED = 'Starred in Android' deprecated;
+          GROUP_MY_CONTACTS = 'Contacts' deprecated;
       end;
 
       InnerContactMethods = class sealed external 'android.provider' name 'ContactMethods' (JLObject, APBaseColumns, APContacts.InnerContactMethodsColumns, APContacts.InnerPeopleColumns)
       public
         const
-          POSTAL_LOCATION_LATITUDE = 'data';
-          POSTAL_LOCATION_LONGITUDE = 'aux_data';
-          PROTOCOL_AIM = 0;
-          PROTOCOL_MSN = 1;
-          PROTOCOL_YAHOO = 2;
-          PROTOCOL_SKYPE = 3;
-          PROTOCOL_QQ = 4;
-          PROTOCOL_GOOGLE_TALK = 5;
-          PROTOCOL_ICQ = 6;
-          PROTOCOL_JABBER = 7;
+          POSTAL_LOCATION_LATITUDE = 'data' deprecated;
+          POSTAL_LOCATION_LONGITUDE = 'aux_data' deprecated;
+          PROTOCOL_AIM = 0 deprecated;
+          PROTOCOL_MSN = 1 deprecated;
+          PROTOCOL_YAHOO = 2 deprecated;
+          PROTOCOL_SKYPE = 3 deprecated;
+          PROTOCOL_QQ = 4 deprecated;
+          PROTOCOL_GOOGLE_TALK = 5 deprecated;
+          PROTOCOL_ICQ = 6 deprecated;
+          PROTOCOL_JABBER = 7 deprecated;
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
-          fCONTENT_EMAIL_URI: ANUri; external name 'CONTENT_EMAIL_URI';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
+          fCONTENT_EMAIL_URI: ANUri deprecated; external name 'CONTENT_EMAIL_URI';
       public
         const
-          CONTENT_TYPE = 'vnd.android.cursor.dir/contact-methods';
-          CONTENT_EMAIL_TYPE = 'vnd.android.cursor.dir/email';
-          CONTENT_POSTAL_TYPE = 'vnd.android.cursor.dir/postal-address';
-          CONTENT_EMAIL_ITEM_TYPE = 'vnd.android.cursor.item/email';
-          CONTENT_POSTAL_ITEM_TYPE = 'vnd.android.cursor.item/postal-address';
-          CONTENT_IM_ITEM_TYPE = 'vnd.android.cursor.item/jabber-im';
-          DEFAULT_SORT_ORDER = 'name ASC';
-          PERSON_ID = 'person';
+          CONTENT_TYPE = 'vnd.android.cursor.dir/contact-methods' deprecated;
+          CONTENT_EMAIL_TYPE = 'vnd.android.cursor.dir/email' deprecated;
+          CONTENT_POSTAL_TYPE = 'vnd.android.cursor.dir/postal-address' deprecated;
+          CONTENT_EMAIL_ITEM_TYPE = 'vnd.android.cursor.item/email' deprecated;
+          CONTENT_POSTAL_ITEM_TYPE = 'vnd.android.cursor.item/postal-address' deprecated;
+          CONTENT_IM_ITEM_TYPE = 'vnd.android.cursor.item/jabber-im' deprecated;
+          DEFAULT_SORT_ORDER = 'name ASC' deprecated;
+          PERSON_ID = 'person' deprecated;
       public
         class function encodePredefinedImProtocol(para1: jint): JLString; static; overload;
         class function encodeCustomImProtocol(para1: JLString): JLString; static; overload;
@@ -46070,14 +46304,14 @@
       InnerPhones = class sealed external 'android.provider' name 'Phones' (JLObject, APBaseColumns, APContacts.InnerPhonesColumns, APContacts.InnerPeopleColumns)
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
-          fCONTENT_FILTER_URL: ANUri; external name 'CONTENT_FILTER_URL';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
+          fCONTENT_FILTER_URL: ANUri deprecated; external name 'CONTENT_FILTER_URL';
       public
         const
-          CONTENT_TYPE = 'vnd.android.cursor.dir/phone';
-          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/phone';
-          DEFAULT_SORT_ORDER = 'name ASC';
-          PERSON_ID = 'person';
+          CONTENT_TYPE = 'vnd.android.cursor.dir/phone' deprecated;
+          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/phone' deprecated;
+          DEFAULT_SORT_ORDER = 'name ASC' deprecated;
+          PERSON_ID = 'person' deprecated;
       public
         class function getDisplayLabel(para1: ACContext; para2: jint; para3: JLCharSequence; para4: Arr1JLCharSequence): JLCharSequence; static; overload; final;
         class function getDisplayLabel(para1: ACContext; para2: jint; para3: JLCharSequence; var para4: array of JLCharSequence): JLCharSequence; static; overload; final;
@@ -46102,38 +46336,38 @@
           InnerExtensions = class external 'android.provider' name 'Extensions' (JLObject, APBaseColumns, APContacts.InnerExtensionsColumns)
           public
             const
-              CONTENT_DIRECTORY = 'extensions';
-              DEFAULT_SORT_ORDER = 'name ASC';
-              PERSON_ID = 'person';
+              CONTENT_DIRECTORY = 'extensions' deprecated;
+              DEFAULT_SORT_ORDER = 'name ASC' deprecated;
+              PERSON_ID = 'person' deprecated;
           end;
 
           InnerContactMethods = class sealed external 'android.provider' name 'ContactMethods' (JLObject, APBaseColumns, APContacts.InnerContactMethodsColumns, APContacts.InnerPeopleColumns)
           public
             const
-              CONTENT_DIRECTORY = 'contact_methods';
-              DEFAULT_SORT_ORDER = 'data ASC';
+              CONTENT_DIRECTORY = 'contact_methods' deprecated;
+              DEFAULT_SORT_ORDER = 'data ASC' deprecated;
           end;
 
           InnerPhones = class sealed external 'android.provider' name 'Phones' (JLObject, APBaseColumns, APContacts.InnerPhonesColumns, APContacts.InnerPeopleColumns)
           public
             const
-              CONTENT_DIRECTORY = 'phones';
-              DEFAULT_SORT_ORDER = 'number ASC';
+              CONTENT_DIRECTORY = 'phones' deprecated;
+              DEFAULT_SORT_ORDER = 'number ASC' deprecated;
           end;
 
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
-          fCONTENT_FILTER_URI: ANUri; external name 'CONTENT_FILTER_URI';
-          fDELETED_CONTENT_URI: ANUri; external name 'DELETED_CONTENT_URI';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
+          fCONTENT_FILTER_URI: ANUri deprecated; external name 'CONTENT_FILTER_URI';
+          fDELETED_CONTENT_URI: ANUri deprecated; external name 'DELETED_CONTENT_URI';
       public
         const
-          CONTENT_TYPE = 'vnd.android.cursor.dir/person';
-          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/person';
-          DEFAULT_SORT_ORDER = 'name ASC';
-          PRIMARY_PHONE_ID = 'primary_phone';
-          PRIMARY_EMAIL_ID = 'primary_email';
-          PRIMARY_ORGANIZATION_ID = 'primary_organization';
+          CONTENT_TYPE = 'vnd.android.cursor.dir/person' deprecated;
+          CONTENT_ITEM_TYPE = 'vnd.android.cursor.item/person' deprecated;
+          DEFAULT_SORT_ORDER = 'name ASC' deprecated;
+          PRIMARY_PHONE_ID = 'primary_phone' deprecated;
+          PRIMARY_EMAIL_ID = 'primary_email' deprecated;
+          PRIMARY_ORGANIZATION_ID = 'primary_organization' deprecated;
       public
         class procedure markAsContacted(para1: ACContentResolver; para2: jlong); static; overload;
         class function addToMyContactsGroup(para1: ACContentResolver; para2: jlong): ANUri; static; overload;
@@ -46150,12 +46384,12 @@
       InnerSettings = class sealed external 'android.provider' name 'Settings' (JLObject, APBaseColumns, APContacts.InnerSettingsColumns)
       public
         final class var
-          fCONTENT_URI: ANUri; external name 'CONTENT_URI';
+          fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
       public
         const
-          CONTENT_DIRECTORY = 'settings';
-          DEFAULT_SORT_ORDER = 'key ASC';
-          SYNC_EVERYTHING = 'syncEverything';
+          CONTENT_DIRECTORY = 'settings' deprecated;
+          DEFAULT_SORT_ORDER = 'key ASC' deprecated;
+          SYNC_EVERYTHING = 'syncEverything' deprecated;
       public
         class function getSetting(para1: ACContentResolver; para2: JLString; para3: JLString): JLString; static; overload;
         class procedure setSetting(para1: ACContentResolver; para2: JLString; para3: JLString; para4: JLString); static; overload;
@@ -46163,17 +46397,17 @@
 
   public
     const
-      AUTHORITY = 'contacts';
+      AUTHORITY = 'contacts' deprecated;
   public
     final class var
-      fCONTENT_URI: ANUri; external name 'CONTENT_URI';
+      fCONTENT_URI: ANUri deprecated; external name 'CONTENT_URI';
   public
     const
-      KIND_EMAIL = 1;
-      KIND_POSTAL = 2;
-      KIND_IM = 3;
-      KIND_ORGANIZATION = 4;
-      KIND_PHONE = 5;
+      KIND_EMAIL = 1 deprecated;
+      KIND_POSTAL = 2 deprecated;
+      KIND_IM = 3 deprecated;
+      KIND_ORGANIZATION = 4 deprecated;
+      KIND_PHONE = 5 deprecated;
   end;
 
   APMediaStore = class sealed external 'android.provider' name 'MediaStore' (JLObject)
@@ -46642,7 +46876,7 @@
   public
     const
       AUTHORITY = 'media';
-      INTENT_ACTION_MUSIC_PLAYER = 'android.intent.action.MUSIC_PLAYER';
+      INTENT_ACTION_MUSIC_PLAYER = 'android.intent.action.MUSIC_PLAYER' deprecated;
       INTENT_ACTION_MEDIA_SEARCH = 'android.intent.action.MEDIA_SEARCH';
       INTENT_ACTION_MEDIA_PLAY_FROM_SEARCH = 'android.media.action.MEDIA_PLAY_FROM_SEARCH';
       EXTRA_MEDIA_ARTIST = 'android.intent.extra.artist';
@@ -47122,9 +47356,9 @@
     constructor create(para1: ACContext; para2: jint); overload;
     constructor create(para1: ACContext; para2: jint; para3: jint); overload;
     constructor create(para1: ACContext; para2: jint; para3: Arr1JLObject); overload;
-    constructor create(para1: ACContext; para2: jint; const para3: array of JLObject); overload;
-    constructor create(para1: ACContext; para2: jint; para3: jint; para4: Arr1JLObject); overload;
-    constructor create(para1: ACContext; para2: jint; para3: jint; const para4: array of JLObject); overload;
+   //zc constructor create(para1: ACContext; para2: jint; const para3: array of JLObject); overload;
+   //zc constructor create(para1: ACContext; para2: jint; para3: jint; para4: Arr1JLObject); overload;
+   //zc constructor create(para1: ACContext; para2: jint; para3: jint; const para4: array of JLObject); overload;
     constructor create(para1: ACContext; para2: jint; para3: JUList); overload;
     constructor create(para1: ACContext; para2: jint; para3: jint; para4: JUList); overload;
     procedure add(para1: JLObject); overload; virtual;
@@ -47152,7 +47386,7 @@
   AWCursorAdapter = class abstract external 'android.widget' name 'CursorAdapter' (AWBaseAdapter, AWFilterable)
   public
     const
-      FLAG_AUTO_REQUERY = 1;
+      FLAG_AUTO_REQUERY = 1 deprecated;
       FLAG_REGISTER_CONTENT_OBSERVER = 2;
   public
     constructor create(para1: ACContext; para2: ADCursor); overload;
@@ -49868,8 +50102,8 @@
       SYSTEM_UI_FLAG_VISIBLE = 0;
       SYSTEM_UI_FLAG_LOW_PROFILE = 1;
       SYSTEM_UI_FLAG_HIDE_NAVIGATION = 2;
-      STATUS_BAR_HIDDEN = 1;
-      STATUS_BAR_VISIBLE = 0;
+      STATUS_BAR_HIDDEN = 1 deprecated;
+      STATUS_BAR_VISIBLE = 0 deprecated;
       FIND_VIEWS_WITH_TEXT = 1;
       FIND_VIEWS_WITH_CONTENT_DESCRIPTION = 2;
       SCROLLBAR_POSITION_DEFAULT = 0;
@@ -49914,9 +50148,11 @@
     procedure removeOnAttachStateChangeListener(para1: AVView.InnerOnAttachStateChangeListener); overload; virtual;
     function getOnFocusChangeListener(): AVView.InnerOnFocusChangeListener; overload; virtual;
     procedure setOnClickListener(para1: AVView.InnerOnClickListener); overload; virtual;
+    function hasOnClickListeners(): jboolean; overload; virtual;
     procedure setOnLongClickListener(para1: AVView.InnerOnLongClickListener); overload; virtual;
     procedure setOnCreateContextMenuListener(para1: AVView.InnerOnCreateContextMenuListener); overload; virtual;
     function performClick(): jboolean; overload; virtual;
+    function callOnClick(): jboolean; overload; virtual;
     function performLongClick(): jboolean; overload; virtual;
     function showContextMenu(): jboolean; overload; virtual;
     function startActionMode(para1: AVActionMode.InnerCallback): AVActionMode; overload; virtual;
@@ -51021,6 +51257,7 @@
         function onGetSuggestionsMultiple(para1: Arr1AVTTextInfo; para2: jint; para3: jboolean): Arr1AVTSuggestionsInfo; overload; virtual;
         function onGetSuggestionsMultiple(var para1: array of AVTTextInfo; para2: jint; para3: jboolean): Arr1AVTSuggestionsInfo; overload; virtual;
         procedure onCancel(); overload; virtual;
+        procedure onClose(); overload; virtual;
         function getLocale(): JLString; overload; virtual;
         function getBundle(): AOBundle; overload; virtual;
       end;
@@ -51095,6 +51332,7 @@
     function onLoadLanguage(para1: JLString; para2: JLString; para3: JLString): jint; overload; virtual; abstract;
     procedure onStop(); overload; virtual; abstract;
     procedure onSynthesizeText(para1: ASTSynthesisRequest; para2: ASTSynthesisCallback); overload; virtual; abstract;
+    function onGetFeaturesForLanguage(para1: JLString; para2: JLString; para3: JLString): JUSet; overload; virtual;
   public
     function onBind(para1: ACIntent): AOIBinder; overload; virtual;
   end;
@@ -51548,6 +51786,8 @@
     function getRetainInstance(): jboolean; overload; virtual; final;
     procedure setHasOptionsMenu(para1: jboolean); overload; virtual;
     procedure setMenuVisibility(para1: jboolean); overload; virtual;
+    procedure setUserVisibleHint(para1: jboolean); overload; virtual;
+    function getUserVisibleHint(): jboolean; overload; virtual;
     function getLoaderManager(): AALoaderManager; overload; virtual;
     procedure startActivity(para1: ACIntent); overload; virtual;
     procedure startActivityForResult(para1: ACIntent; para2: jint); overload; virtual;
@@ -51738,7 +51978,7 @@
       InnerLayoutParams = class external 'android.view' name 'LayoutParams' (JLObject)
       public
         const
-          FILL_PARENT = -1;
+          FILL_PARENT = -1 deprecated;
           MATCH_PARENT = -1;
           WRAP_CONTENT = -2;
       public
@@ -52075,6 +52315,10 @@
     procedure clearColorFilter(); overload; virtual; final;
     procedure setColorFilter(para1: AGColorFilter); overload; virtual;
     procedure setAlpha(para1: jint); overload; virtual;
+    procedure setVisibility(para1: jint); overload; virtual;
+  strict protected
+    procedure onAttachedToWindow(); overload; virtual;
+    procedure onDetachedFromWindow(); overload; virtual;
   end;
 
   AWPopupWindow = class external 'android.widget' name 'PopupWindow' (JLObject)
@@ -52472,9 +52716,6 @@
     procedure onInitializeAccessibilityEvent(para1: AVAAccessibilityEvent); overload; virtual;
     procedure onInitializeAccessibilityNodeInfo(para1: AVAAccessibilityNodeInfo); overload; virtual;
     procedure sendAccessibilityEvent(para1: jint); overload; virtual;
-  strict protected
-    procedure onCreateContextMenu(para1: AVContextMenu); overload; virtual;
-  public
     function isInputMethodTarget(): jboolean; overload; virtual;
     function onTextContextMenuItem(para1: jint): jboolean; overload; virtual;
     function performLongClick(): jboolean; overload; virtual;
@@ -53122,6 +53363,14 @@
       Arr1InnerLayoutParams = array of InnerLayoutParams;
       Arr2InnerLayoutParams = array of Arr1InnerLayoutParams;
       Arr3InnerLayoutParams = array of Arr2InnerLayoutParams;
+      InnerTabListener = interface;
+      Arr1InnerTabListener = array of InnerTabListener;
+      Arr2InnerTabListener = array of Arr1InnerTabListener;
+      Arr3InnerTabListener = array of Arr2InnerTabListener;
+      InnerTab = class;
+      Arr1InnerTab = array of InnerTab;
+      Arr2InnerTab = array of Arr1InnerTab;
+      Arr3InnerTab = array of Arr2InnerTab;
       InnerOnMenuVisibilityListener = interface;
       Arr1InnerOnMenuVisibilityListener = array of InnerOnMenuVisibilityListener;
       Arr2InnerOnMenuVisibilityListener = array of Arr1InnerOnMenuVisibilityListener;
@@ -53143,15 +53392,43 @@
         constructor create(para1: AVViewGroup_LayoutParams); overload;
       end;
 
+      InnerTabListener = interface external 'android.app' name 'TabListener' 
+        procedure onTabSelected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction); overload;
+        procedure onTabUnselected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction); overload;
+        procedure onTabReselected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction); overload;
+      end;
+
+      InnerTab = class abstract external 'android.app' name 'Tab' (JLObject)
+      public
+        const
+          INVALID_POSITION = -1;
+      public
+        constructor create(); overload;
+        function getPosition(): jint; overload; virtual; abstract;
+        function getIcon(): AGDDrawable; overload; virtual; abstract;
+        function getText(): JLCharSequence; overload; virtual; abstract;
+        function setIcon(para1: AGDDrawable): AAActionBar.InnerTab; overload; virtual; abstract;
+        function setIcon(para1: jint): AAActionBar.InnerTab; overload; virtual; abstract;
+        function setText(para1: JLCharSequence): AAActionBar.InnerTab; overload; virtual; abstract;
+        function setText(para1: jint): AAActionBar.InnerTab; overload; virtual; abstract;
+        function setCustomView(para1: AVView): AAActionBar.InnerTab; overload; virtual; abstract;
+        function setCustomView(para1: jint): AAActionBar.InnerTab; overload; virtual; abstract;
+        function getCustomView(): AVView; overload; virtual; abstract;
+        function setTag(para1: JLObject): AAActionBar.InnerTab; overload; virtual; abstract;
+        function getTag(): JLObject; overload; virtual; abstract;
+        function setTabListener(para1: AAActionBar.InnerTabListener): AAActionBar.InnerTab; overload; virtual; abstract;
+        procedure select(); overload; virtual; abstract;
+        function setContentDescription(para1: jint): AAActionBar.InnerTab; overload; virtual; abstract;
+        function setContentDescription(para1: JLCharSequence): AAActionBar.InnerTab; overload; virtual; abstract;
+        function getContentDescription(): JLCharSequence; overload; virtual; abstract;
+      end;
+
       InnerOnMenuVisibilityListener = interface external 'android.app' name 'OnMenuVisibilityListener' 
         procedure onMenuVisibilityChanged(para1: jboolean); overload;
       end;
 
       InnerOnNavigationListener = interface external 'android.app' name 'OnNavigationListener' 
         function onNavigationItemSelected(para1: jint; para2: jlong): jboolean; overload;
-      end;
-      
-      InnerTab = class abstract external 'android.app' name 'Tab'
       end;
 
   public
@@ -54225,6 +54502,9 @@
     procedure pauseTimers(); overload; virtual;
     procedure resumeTimers(); overload; virtual;
     procedure onPause(); overload; virtual;
+  strict protected
+    procedure onWindowVisibilityChanged(para1: jint); overload; virtual;
+  public
     procedure onResume(); overload; virtual;
     procedure freeMemory(); overload; virtual;
     procedure clearCache(para1: jboolean); overload; virtual;
@@ -54749,6 +55029,7 @@
     constructor create(para1: ACContext); overload;
     constructor create(para1: ACContext; para2: jint; para3: jint); overload;
     procedure setAppWidget(para1: jint; para2: AAAppWidgetProviderInfo); overload; virtual;
+    class function getDefaultPaddingForWidget(para1: ACContext; para2: ACComponentName; para3: AGRect): AGRect; static; overload;
     function getAppWidgetId(): jint; overload; virtual;
     function getAppWidgetInfo(): AAAppWidgetProviderInfo; overload; virtual;
   strict protected
@@ -54960,6 +55241,7 @@
     function onInterceptTouchEvent(para1: AVMotionEvent): jboolean; overload; virtual;
     function onTouchEvent(para1: AVMotionEvent): jboolean; overload; virtual;
     function onGenericMotionEvent(para1: AVMotionEvent): jboolean; overload; virtual;
+    function shouldDelayChildPressedState(): jboolean; overload; virtual;
   strict protected
     procedure onOverScrolled(para1: jint; para2: jint; para3: jboolean; para4: jboolean); overload; virtual;
   public
@@ -55249,6 +55531,7 @@
     constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
   strict protected
     procedure onLayout(para1: jboolean; para2: jint; para3: jint; para4: jint; para5: jint); overload; virtual;
+    procedure onMeasure(para1: jint; para2: jint); overload; virtual;
   public
     function onInterceptTouchEvent(para1: AVMotionEvent): jboolean; overload; virtual;
     function onTouchEvent(para1: AVMotionEvent): jboolean; overload; virtual;
@@ -56061,6 +56344,7 @@
     constructor create(para1: ACContext; para2: AUAttributeSet); overload;
     constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
     constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint; para4: jint); overload;
+    procedure setEnabled(para1: jboolean); overload; virtual;
     procedure setGravity(para1: jint); overload; virtual;
     procedure setAdapter(para1: AWSpinnerAdapter); overload; virtual;
     function getBaseline(): jint; overload; virtual;

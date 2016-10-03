@@ -150,8 +150,8 @@ install:
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <Libraries Value="/usr/local/codetyphon/binLibraries/android-4.0-api14-arm/"/>
-      <OtherUnitFiles Value="/usr/local/codetyphon/fpcsrc/packages/jni/src/;/usr/local/codetyphon/typhon/components/pl_UIB/source/;../../Lazarus/jni"/>
+      <Libraries Value="../../../FreePascal/crossLibrary/android-15/arch-arm/lib"/>
+      <OtherUnitFiles Value="../../../FreePascal/fpc/packages/jni/src;../../Lazarus/jni;../../../FreePascal/lazarus/components/uib25/source"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>

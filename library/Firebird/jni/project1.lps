@@ -14,20 +14,18 @@
       <Unit1>
         <Filename Value="zcFirebird.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="34" Y="13"/>
+        <CursorPos X="43" Y="9"/>
         <UsageCount Value="165"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="53"/>
         <CursorPos X="26" Y="75"/>
         <UsageCount Value="22"/>
-        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="insertRecord.pas"/>
@@ -100,7 +98,8 @@
       </Unit12>
       <Unit13>
         <Filename Value="../src/UIBDataBase.java"/>
-        <EditorIndex Value="3"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="43" Y="9"/>
         <UsageCount Value="46"/>
         <Loaded Value="True"/>
@@ -108,7 +107,7 @@
       </Unit13>
       <Unit14>
         <Filename Value="../compile.sh"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="4"/>
         <CursorPos X="27" Y="18"/>
         <UsageCount Value="45"/>
         <Loaded Value="True"/>
@@ -116,7 +115,7 @@
       </Unit14>
       <Unit15>
         <Filename Value="../src/UIBDataSet.java"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="42" Y="32"/>
         <UsageCount Value="45"/>
         <Loaded Value="True"/>
@@ -195,91 +194,15 @@
         <UsageCount Value="10"/>
       </Unit25>
     </Units>
-    <JumpHistory Count="21" HistoryIndex="20">
+    <JumpHistory Count="2" HistoryIndex="1">
       <Position1>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="13" Column="75" TopLine="7"/>
-      </Position1>
-      <Position2>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="58" Column="17" TopLine="34"/>
-      </Position2>
-      <Position3>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="48" Column="42" TopLine="34"/>
-      </Position3>
-      <Position4>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="57" Column="14" TopLine="34"/>
-      </Position4>
-      <Position5>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="56" Column="16" TopLine="34"/>
-      </Position5>
-      <Position6>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="59" Column="51" TopLine="31"/>
-      </Position6>
-      <Position7>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="60" Column="47" TopLine="30"/>
-      </Position7>
-      <Position8>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="50" Column="4" TopLine="36"/>
-      </Position8>
-      <Position9>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="60" Column="17" TopLine="36"/>
-      </Position9>
-      <Position10>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="59" Column="17" TopLine="36"/>
-      </Position10>
-      <Position11>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="65" Column="10" TopLine="36"/>
-      </Position11>
-      <Position12>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="17" Column="84"/>
-      </Position12>
-      <Position13>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="30" Column="58" TopLine="8"/>
-      </Position13>
-      <Position14>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="151" Column="59" TopLine="143"/>
-      </Position14>
-      <Position15>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="168" Column="74" TopLine="143"/>
-      </Position15>
-      <Position16>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="121" Column="76" TopLine="107"/>
-      </Position16>
-      <Position17>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="90" Column="74" TopLine="80"/>
-      </Position17>
-      <Position18>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="128" Column="20" TopLine="120"/>
-      </Position18>
-      <Position19>
-        <Filename Value="../../Lazarus/jni/JNIUtils.pas"/>
-        <Caret Line="73" Column="22" TopLine="53"/>
-      </Position19>
-      <Position20>
         <Filename Value="zcFirebird.pas"/>
         <Caret Line="253" TopLine="212"/>
-      </Position20>
-      <Position21>
+      </Position1>
+      <Position2>
         <Filename Value="../compile.sh"/>
         <Caret Line="18" Column="198"/>
-      </Position21>
+      </Position2>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

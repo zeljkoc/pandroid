@@ -4,35 +4,46 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="1">
-          <Item1 Value="TestUslovNext"/>
+        <Find Count="2">
+          <Item1 Value="TLibHandle"/>
+          <Item2 Value="TestUslovNext"/>
         </Find>
       </History>
     </Find>
-    <FileDialog InitialDir="/home/android/Test/">
+    <FindInFiles>
+      <History>
+        <Paths Count="1">
+          <Item1 Value="/usr/local/pandroid/FreePascal/fpc/"/>
+        </Paths>
+        <Masks Count="1">
+          <Item1 Value="*.pas;*.pp;*.inc"/>
+        </Masks>
+      </History>
+      <Options SearchOpen="False" SearchDirectories="True"/>
+    </FindInFiles>
+    <FileDialog InitialDir="/usr/local/pandroid/library/Firebird/jni/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Test/"/>
-        <Item2 Value="/home/android/zeljus/Reciklaza/"/>
-        <Item3 Value="/home/android/DemoOBDII/"/>
-        <Item4 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item5 Value="/usr/local/pandroid/example/SecondActivity/"/>
-        <Item6 Value="/home/android/SecondActivity/"/>
-        <Item7 Value="/home/android/Reciklaza/"/>
-        <Item8 Value="/usr/local/pandroid/example/Demo3DCube/"/>
-        <Item9 Value="/usr/local/pandroid/source/"/>
-        <Item10 Value="/usr/local/pandroid/project/Popis/"/>
-        <Item11 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item12 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
-        <Item13 Value="/usr/local/pandroid/example/Demo3DCube2/"/>
-        <Item14 Value="/usr/local/pandroid/example/DemoChart/"/>
-        <Item15 Value="/usr/local/pandroid/example/DemoMenu/"/>
-        <Item16 Value="/usr/local/pandroid/example/DemoOpenGL/"/>
-        <Item17 Value="/usr/local/pandroid/example/DemoPrint/"/>
-        <Item18 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
-        <Item19 Value="/usr/local/pandroid/example/DemoToolBar/"/>
-        <Item20 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
+        <Item1 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item2 Value="/home/android/Test2/"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item5 Value="/home/android/Test/"/>
+        <Item6 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item7 Value="/home/android/DemoOBDII/"/>
+        <Item8 Value="/usr/local/pandroid/example/SecondActivity/"/>
+        <Item9 Value="/home/android/SecondActivity/"/>
+        <Item10 Value="/home/android/Reciklaza/"/>
+        <Item11 Value="/usr/local/pandroid/example/Demo3DCube/"/>
+        <Item12 Value="/usr/local/pandroid/source/"/>
+        <Item13 Value="/usr/local/pandroid/project/Popis/"/>
+        <Item14 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item15 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
+        <Item16 Value="/usr/local/pandroid/example/Demo3DCube2/"/>
+        <Item17 Value="/usr/local/pandroid/example/DemoChart/"/>
+        <Item18 Value="/usr/local/pandroid/example/DemoMenu/"/>
+        <Item19 Value="/usr/local/pandroid/example/DemoOpenGL/"/>
+        <Item20 Value="/usr/local/pandroid/example/DemoPrint/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="2"/>
   </InputHistory>
 </CONFIG>

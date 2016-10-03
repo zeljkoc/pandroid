@@ -7,8 +7,8 @@ rm -rf dist
 mkdir -p bin
 mkdir -p bin/classes
 
-# rm lib.jar
-# zip -rv lib.jar lib  
+rm lib.jar
+jar -cvf lib.jar lib
 
 ant main
 

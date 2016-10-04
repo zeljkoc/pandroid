@@ -21,10 +21,10 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="/usr/local/pandroid/library/Firebird/jni/">
+    <FileDialog InitialDir="/home/android/Test2/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item2 Value="/home/android/Test2/"/>
+        <Item1 Value="/home/android/Test2/"/>
+        <Item2 Value="/usr/local/pandroid/library/Firebird/jni/"/>
         <Item3 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
         <Item4 Value="/usr/local/pandroid/FreePascal/"/>
         <Item5 Value="/home/android/Test/"/>

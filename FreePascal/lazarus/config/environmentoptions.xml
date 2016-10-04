@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/android/Test2/Test2.lpi"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -80,8 +80,8 @@
         <Item10 Value="/home/android/BlueTootAuto/obd2fpc.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/android/Test2/Test2.lpi"/>
-        <Item2 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
+        <Item1 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
+        <Item2 Value="/home/android/Test2/Test2.lpi"/>
         <Item3 Value="/home/android/Test/Test.lpi"/>
         <Item4 Value="/home/android/zeljus/Reciklaza/Reciklaza.lpi"/>
         <Item5 Value="/home/android/DemoOBDII/DemoOBDII.lpi"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1474791984"/>
-  <Params Value=" -Tandroid -Parm -MObjFPC -Scghi -O1 -l -vewnhibq -Fi/usr/local/pandroid/library/Firebird/jni/lib/arm-android -Fl/usr/local/pandroid/FreePascal/crossLibrary/android-15/arch-arm/lib -Fu/usr/local/pandroid/FreePascal/fpc/packages/jni/src -Fu/usr/local/pandroid/FreePascal/lazarus/components/uib25/source -Fu/usr/local/pandroid/library/Firebird/jni/ -FU/usr/local/pandroid/library/Firebird/jni/lib/arm-android/ -FE/usr/local/pandroid/library/Firebird/lib/armeabi/ -olibzcfbclient.so project1.lpr"/>
+  <Params Value=" -Tandroid -Parm -MObjFPC -Scghi -O1 -l -vewnhibq -Fi/usr/local/pandroid/library/Firebird/jni/lib/arm-android -Fl/usr/local/pandroid/FreePascal/crossLibrary/android-15/arch-arm/lib -Fu/usr/local/pandroid/FreePascal/fpc/packages/jni/src -Fu/usr/local/pandroid/FreePascal/lazarus/components/uib25/source -Fu/usr/local/pandroid/Lazarus/jni -Fu/usr/local/pandroid/library/Firebird/jni/ -FU/usr/local/pandroid/library/Firebird/jni/lib/arm-android/ -FE/usr/local/pandroid/library/Firebird/lib/armeabi/ -olibzcfbclient.so project1.lpr"/>
 </CONFIG>

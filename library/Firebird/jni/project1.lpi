@@ -151,7 +151,7 @@ install:
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <Libraries Value="../../../FreePascal/crossLibrary/android-15/arch-arm/lib"/>
-      <OtherUnitFiles Value="../../../FreePascal/fpc/packages/jni/src;../../../FreePascal/lazarus/components/uib25/source"/>
+      <OtherUnitFiles Value="../../../FreePascal/fpc/packages/jni/src;../../../FreePascal/lazarus/components/uib25/source;../../../Lazarus/jni"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>

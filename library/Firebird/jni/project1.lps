@@ -14,8 +14,9 @@
       <Unit1>
         <Filename Value="zcFirebird.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="43" Y="9"/>
+        <CursorPos X="6" Y="15"/>
         <UsageCount Value="165"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -98,7 +99,6 @@
       </Unit12>
       <Unit13>
         <Filename Value="../src/UIBDataBase.java"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <CursorPos X="43" Y="9"/>
         <UsageCount Value="46"/>
@@ -194,7 +194,7 @@
         <UsageCount Value="10"/>
       </Unit25>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
         <Filename Value="zcFirebird.pas"/>
         <Caret Line="253" TopLine="212"/>
@@ -203,6 +203,10 @@
         <Filename Value="../compile.sh"/>
         <Caret Line="18" Column="198"/>
       </Position2>
+      <Position3>
+        <Filename Value="zcFirebird.pas"/>
+        <Caret Line="15" Column="10"/>
+      </Position3>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

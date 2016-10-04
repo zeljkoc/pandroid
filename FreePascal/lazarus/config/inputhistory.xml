@@ -4,9 +4,11 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="2">
-          <Item1 Value="TLibHandle"/>
-          <Item2 Value="TestUslovNext"/>
+        <Find Count="4">
+          <Item1 Value="UsbAccessory"/>
+          <Item2 Value="UsbManager"/>
+          <Item3 Value="TLibHandle"/>
+          <Item4 Value="TestUslovNext"/>
         </Find>
       </History>
     </Find>
@@ -21,10 +23,10 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="/home/android/Test2/">
+    <FileDialog InitialDir="/usr/local/pandroid/library/Firebird/jni/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Test2/"/>
-        <Item2 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item1 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item2 Value="/home/android/Test2/"/>
         <Item3 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
         <Item4 Value="/usr/local/pandroid/FreePascal/"/>
         <Item5 Value="/home/android/Test/"/>
@@ -45,5 +47,11 @@
         <Item20 Value="/usr/local/pandroid/example/DemoPrint/"/>
       </HistoryList>
     </FileDialog>
+    <HistoryLists Count="3">
+      <List0 Name="CleanBuildFileMask" Type="File" Count="2">
+        <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
+        <Item2 Value="*"/>
+      </List0>
+    </HistoryLists>
   </InputHistory>
 </CONFIG>

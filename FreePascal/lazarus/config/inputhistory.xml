@@ -4,11 +4,17 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="4">
-          <Item1 Value="UsbAccessory"/>
-          <Item2 Value="UsbManager"/>
-          <Item3 Value="TLibHandle"/>
-          <Item4 Value="TestUslovNext"/>
+        <Find Count="10">
+          <Item1 Value="AATimePickerDialog"/>
+          <Item2 Value="Calendar ="/>
+          <Item3 Value="DateSetList"/>
+          <Item4 Value="DateSetListner"/>
+          <Item5 Value="OnDateSetListner"/>
+          <Item6 Value="DatePickerDialog ="/>
+          <Item7 Value="UsbAccessory"/>
+          <Item8 Value="UsbManager"/>
+          <Item9 Value="TLibHandle"/>
+          <Item10 Value="TestUslovNext"/>
         </Find>
       </History>
     </Find>
@@ -23,31 +29,31 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="/usr/local/pandroid/library/Firebird/jni/">
+    <FileDialog InitialDir="/usr/local/pandroid/example/DateTime/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item2 Value="/home/android/Test2/"/>
-        <Item3 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item5 Value="/home/android/Test/"/>
-        <Item6 Value="/home/android/zeljus/Reciklaza/"/>
-        <Item7 Value="/home/android/DemoOBDII/"/>
-        <Item8 Value="/usr/local/pandroid/example/SecondActivity/"/>
-        <Item9 Value="/home/android/SecondActivity/"/>
-        <Item10 Value="/home/android/Reciklaza/"/>
-        <Item11 Value="/usr/local/pandroid/example/Demo3DCube/"/>
-        <Item12 Value="/usr/local/pandroid/source/"/>
-        <Item13 Value="/usr/local/pandroid/project/Popis/"/>
-        <Item14 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item15 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
-        <Item16 Value="/usr/local/pandroid/example/Demo3DCube2/"/>
-        <Item17 Value="/usr/local/pandroid/example/DemoChart/"/>
-        <Item18 Value="/usr/local/pandroid/example/DemoMenu/"/>
-        <Item19 Value="/usr/local/pandroid/example/DemoOpenGL/"/>
-        <Item20 Value="/usr/local/pandroid/example/DemoPrint/"/>
+        <Item1 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item2 Value="/home/android/DateTime/"/>
+        <Item3 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item4 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item5 Value="/home/android/Test2/"/>
+        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item8 Value="/home/android/Test/"/>
+        <Item9 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item10 Value="/home/android/DemoOBDII/"/>
+        <Item11 Value="/usr/local/pandroid/example/SecondActivity/"/>
+        <Item12 Value="/home/android/SecondActivity/"/>
+        <Item13 Value="/home/android/Reciklaza/"/>
+        <Item14 Value="/usr/local/pandroid/example/Demo3DCube/"/>
+        <Item15 Value="/usr/local/pandroid/source/"/>
+        <Item16 Value="/usr/local/pandroid/project/Popis/"/>
+        <Item17 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item18 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
+        <Item19 Value="/usr/local/pandroid/example/Demo3DCube2/"/>
+        <Item20 Value="/usr/local/pandroid/example/DemoChart/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="3">
+    <HistoryLists Count="1">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>

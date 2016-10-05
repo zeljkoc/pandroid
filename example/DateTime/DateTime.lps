@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="DateTime.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="51" Y="64"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../units/androidr15.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11901"/>
+        <CursorPos X="13" Y="11928"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56449"/>
+        <CursorPos X="21" Y="56464"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../units/AZCDialogs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="183"/>
+        <CursorPos X="3" Y="185"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="16" Column="11" TopLine="8"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="27" Column="48" TopLine="14"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="30" Column="16"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="26" Column="54" TopLine="9"/>
+      </Position4>
+      <Position5>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="16" Column="41"/>
+      </Position5>
+      <Position6>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="24" Column="31"/>
+      </Position6>
+      <Position7>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="32" Column="82" TopLine="8"/>
+      </Position7>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

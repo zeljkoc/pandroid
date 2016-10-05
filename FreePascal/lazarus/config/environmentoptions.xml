@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/DateTime/DateTime.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -45,7 +45,6 @@
     </TestBuildDirectory>
     <CompilerMessagesFilename>
       <History Count="1">
-        <Item2 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
         <Item1 Value="$(FPCSrcDir)/compiler/msg/errordu.msg"/>
       </History>
     </CompilerMessagesFilename>
@@ -68,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/home/android/Test2/cordova.inc"/>
-        <Item2 Value="/home/android/Test2/cordova.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item4 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/rtl/android/jvm/java_sys_android.inc"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/sysdlh.inc"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/fpc/rtl/linux/ostypes.inc"/>
-        <Item8 Value="/home/android/DemoOBDII/OBDUnits.pas"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/packager/registration/lazaruspackageintf.pas"/>
-        <Item10 Value="/home/android/BlueTootAuto/obd2fpc.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item2 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item4 Value="/home/android/Test2/cordova.inc"/>
+        <Item5 Value="/home/android/Test2/cordova.pas"/>
+        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/rtl/android/jvm/java_sys_android.inc"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/sysdlh.inc"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/linux/ostypes.inc"/>
+        <Item9 Value="/home/android/DemoOBDII/OBDUnits.pas"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/packager/registration/lazaruspackageintf.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
-        <Item2 Value="/home/android/Test2/Test2.lpi"/>
-        <Item3 Value="/home/android/Test/Test.lpi"/>
-        <Item4 Value="/home/android/zeljus/Reciklaza/Reciklaza.lpi"/>
-        <Item5 Value="/home/android/DemoOBDII/DemoOBDII.lpi"/>
+        <Item1 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
+        <Item2 Value="/home/android/DateTime/DateTime.lpi"/>
+        <Item3 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
+        <Item4 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
+        <Item5 Value="/home/android/Test2/Test2.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="1">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>

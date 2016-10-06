@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/DateTime/DateTime.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/project1.lpi"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -79,11 +79,11 @@
         <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/packager/registration/lazaruspackageintf.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
-        <Item2 Value="/home/android/DateTime/DateTime.lpi"/>
-        <Item3 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
-        <Item4 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
-        <Item5 Value="/home/android/Test2/Test2.lpi"/>
+        <Item1 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/project1.lpi"/>
+        <Item2 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
+        <Item3 Value="/home/android/DateTime/DateTime.lpi"/>
+        <Item4 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
+        <Item5 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="1">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>

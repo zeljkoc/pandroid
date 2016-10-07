@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/project1.lpi"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -85,8 +85,9 @@
         <Item4 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
         <Item5 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
       </ProjectFiles>
-      <PackageFiles Count="1">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
+      <PackageFiles Count="2">
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uiblaz.lpk"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
       </PackageFiles>
     </Recent>
     <ExternalTools Version="3" Count="1">

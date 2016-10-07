@@ -29,28 +29,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="/home/zeljko/">
+    <FileDialog InitialDir="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/">
       <HistoryList Count="20">
-        <Item1 Value="/home/zeljko/"/>
-        <Item2 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
-        <Item3 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item4 Value="/home/android/DateTime/"/>
-        <Item5 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item6 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item7 Value="/home/android/Test2/"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item10 Value="/home/android/Test/"/>
-        <Item11 Value="/home/android/zeljus/Reciklaza/"/>
-        <Item12 Value="/home/android/DemoOBDII/"/>
-        <Item13 Value="/usr/local/pandroid/example/SecondActivity/"/>
-        <Item14 Value="/home/android/SecondActivity/"/>
-        <Item15 Value="/home/android/Reciklaza/"/>
-        <Item16 Value="/usr/local/pandroid/example/Demo3DCube/"/>
-        <Item17 Value="/usr/local/pandroid/source/"/>
-        <Item18 Value="/usr/local/pandroid/project/Popis/"/>
-        <Item19 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item20 Value="/usr/local/pandroid/example/Demo2DDraw/"/>
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
+        <Item2 Value="/home/zeljko/"/>
+        <Item3 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
+        <Item4 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item5 Value="/home/android/DateTime/"/>
+        <Item6 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item7 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item8 Value="/home/android/Test2/"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item11 Value="/home/android/Test/"/>
+        <Item12 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item13 Value="/home/android/DemoOBDII/"/>
+        <Item14 Value="/usr/local/pandroid/example/SecondActivity/"/>
+        <Item15 Value="/home/android/SecondActivity/"/>
+        <Item16 Value="/home/android/Reciklaza/"/>
+        <Item17 Value="/usr/local/pandroid/example/Demo3DCube/"/>
+        <Item18 Value="/usr/local/pandroid/source/"/>
+        <Item19 Value="/usr/local/pandroid/project/Popis/"/>
+        <Item20 Value="/usr/local/pandroid/example/DemoSQLite/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

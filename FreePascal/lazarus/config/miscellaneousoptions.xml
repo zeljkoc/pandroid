@@ -27,11 +27,16 @@
           <IdeBuildMode Value="Clean + Build"/>
         </Profile3>
       </Profiles>
-      <StaticAutoInstallPackages Count="4">
-        <Item1 Value="appexplore"/>
-        <Item2 Value="SynEditDsgn"/>
-        <Item3 Value="sparta_dockedformeditor"/>
-        <Item4 Value="anchordockingdsgn"/>
+      <ProfileIndex Value="2"/>
+      <SelectedProfiles Count="1">
+        <Item1 Value="Optimized IDE"/>
+      </SelectedProfiles>
+      <StaticAutoInstallPackages Count="5">
+        <Item1 Value="UIBLaz"/>
+        <Item2 Value="appexplore"/>
+        <Item3 Value="SynEditDsgn"/>
+        <Item4 Value="sparta_dockedformeditor"/>
+        <Item5 Value="anchordockingdsgn"/>
       </StaticAutoInstallPackages>
     </BuildLazarusOptions>
   </MiscellaneousOptions>

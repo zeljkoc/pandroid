@@ -3,28 +3,30 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="14">
+    <Units Count="15">
       <Unit0>
         <Filename Value="Popis.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="64" Y="79"/>
+        <CursorPos Y="26"/>
         <UsageCount Value="220"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="fPopis.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
-        <CursorPos X="6" Y="126"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="44"/>
+        <CursorPos X="13" Y="79"/>
         <UsageCount Value="220"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="fMjestoPopisa.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
-        <CursorPos Y="44"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="16"/>
+        <CursorPos X="50" Y="23"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>
@@ -38,9 +40,9 @@
       <Unit3>
         <Filename Value="Data.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="17"/>
-        <CursorPos X="47" Y="25"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="12"/>
         <UsageCount Value="220"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -93,7 +95,7 @@
         <UsageCount Value="39"/>
       </Unit10>
       <Unit11>
-        <Filename Value="../../../../Install/Uputstvo.txt"/>
+        <Filename Value="/Install/Uputstvo.txt"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="None"/>
@@ -107,133 +109,137 @@
       </Unit12>
       <Unit13>
         <Filename Value="android/build_debug_apk.sh"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="17" Y="32"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit13>
+      <Unit14>
+        <Filename Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit14>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="124" Column="60" TopLine="94"/>
+        <Caret Line="126" Column="26" TopLine="94"/>
       </Position1>
       <Position2>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="126" Column="26" TopLine="94"/>
+        <Caret Line="127" Column="26" TopLine="94"/>
       </Position2>
       <Position3>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="127" Column="26" TopLine="94"/>
+        <Caret Line="128" Column="26" TopLine="94"/>
       </Position3>
       <Position4>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="128" Column="26" TopLine="94"/>
+        <Caret Line="130" Column="26" TopLine="94"/>
       </Position4>
       <Position5>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="130" Column="26" TopLine="94"/>
+        <Caret Line="132" Column="27" TopLine="94"/>
       </Position5>
       <Position6>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="132" Column="27" TopLine="94"/>
+        <Caret Line="134" Column="26" TopLine="94"/>
       </Position6>
       <Position7>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="134" Column="26" TopLine="94"/>
+        <Caret Line="136" Column="30" TopLine="96"/>
       </Position7>
       <Position8>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="136" Column="30" TopLine="96"/>
+        <Caret Line="218" Column="15" TopLine="183"/>
       </Position8>
       <Position9>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="218" Column="15" TopLine="183"/>
+        <Caret Line="235" Column="24" TopLine="194"/>
       </Position9>
       <Position10>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="235" Column="24" TopLine="194"/>
+        <Caret Line="238" Column="24" TopLine="197"/>
       </Position10>
       <Position11>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="238" Column="24" TopLine="197"/>
+        <Caret Line="302" Column="15" TopLine="261"/>
       </Position11>
       <Position12>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="302" Column="15" TopLine="261"/>
+        <Caret Line="47" Column="32" TopLine="23"/>
       </Position12>
       <Position13>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="47" Column="32" TopLine="23"/>
+        <Caret Line="116" Column="35" TopLine="76"/>
       </Position13>
       <Position14>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="116" Column="35" TopLine="76"/>
+        <Caret Line="121" Column="18" TopLine="81"/>
       </Position14>
       <Position15>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="121" Column="18" TopLine="81"/>
+        <Caret Line="122" Column="26" TopLine="82"/>
       </Position15>
       <Position16>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="122" Column="26" TopLine="82"/>
+        <Caret Line="124" Column="60" TopLine="84"/>
       </Position16>
       <Position17>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="124" Column="60" TopLine="84"/>
+        <Caret Line="126" Column="26" TopLine="86"/>
       </Position17>
       <Position18>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="126" Column="26" TopLine="86"/>
+        <Caret Line="127" Column="26" TopLine="87"/>
       </Position18>
       <Position19>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="127" Column="26" TopLine="87"/>
+        <Caret Line="128" Column="26" TopLine="88"/>
       </Position19>
       <Position20>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="128" Column="26" TopLine="88"/>
+        <Caret Line="130" Column="26" TopLine="90"/>
       </Position20>
       <Position21>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="130" Column="26" TopLine="90"/>
+        <Caret Line="132" Column="27" TopLine="92"/>
       </Position21>
       <Position22>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="132" Column="27" TopLine="92"/>
+        <Caret Line="134" Column="26" TopLine="94"/>
       </Position22>
       <Position23>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="134" Column="26" TopLine="94"/>
+        <Caret Line="136" Column="30" TopLine="96"/>
       </Position23>
       <Position24>
-        <Filename Value="fPopis.pas"/>
-        <Caret Line="136" Column="30" TopLine="96"/>
-      </Position24>
-      <Position25>
         <Filename Value="fMjestoPopisa.pas"/>
         <Caret Line="64" Column="27" TopLine="26"/>
+      </Position24>
+      <Position25>
+        <Filename Value="fPopis.pas"/>
+        <Caret Line="47" Column="32" TopLine="39"/>
       </Position25>
       <Position26>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="47" Column="32" TopLine="39"/>
+        <Caret Line="116" Column="35" TopLine="76"/>
       </Position26>
       <Position27>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="116" Column="35" TopLine="76"/>
+        <Caret Line="121" Column="18" TopLine="81"/>
       </Position27>
       <Position28>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="121" Column="18" TopLine="81"/>
+        <Caret Line="122" Column="26" TopLine="82"/>
       </Position28>
       <Position29>
         <Filename Value="fPopis.pas"/>
-        <Caret Line="122" Column="26" TopLine="82"/>
+        <Caret Line="116" Column="28" TopLine="102"/>
       </Position29>
       <Position30>
-        <Filename Value="fPopis.pas"/>
-        <Caret Line="116" Column="28" TopLine="102"/>
+        <Filename Value="Data.pas"/>
+        <Caret Line="9" Column="24"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

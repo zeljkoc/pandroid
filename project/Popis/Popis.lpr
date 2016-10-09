@@ -23,12 +23,6 @@ var
    IniFileName : JLString;
    ini: ZCTIniFile;
 
-   Server : JLString; //= '192.168.10.200';
-   Port : JLString; //= '8060';
-
-   DataBase: JLString; // = '192.168.10.200:01jedan';
-   UserName: JLString;  //  = 'SYSDBA';
-
    IDRadnoMjesto: Integer; //= '10';
    IDPDA: Integer;
 
@@ -45,13 +39,10 @@ type
     //popup menu
     function onCreateOptionsMenu(menu: AVMenu): JBoolean; override;
     function onOptionsItemSelected(Item: AVMenuItem): JBoolean; override;
-    //JLRunable
-    procedure Run; override;
     //open file
       procedure onActivityResult(requestCode: LongInt; resultCode: LongInt; data: ACIntent);
   public
     db :  ASQLDatabase;
-    IdDBThread: JLThread;
 
      tv: AWTextView;
   public
@@ -78,10 +69,7 @@ begin
   SetingsIniFile;
 
   db := initDataBase(self, db);
-  InitKonstante(Self, db);
 
-  IdDBThread:= JLThread.create(self);
-  //IdDBThread.start;
   //---------------------------------------
 
 
@@ -139,11 +127,6 @@ var
 begin
   inherited onCreateOptionsMenu(menu);
   sm := menu.addSubMenu(0, 0, 0, JLString(string('Meni')));
-  sm.add(0, 1, 0, JLString('Import:SifMATERIJALA ')).setIcon(R.drawable.ic_next);
-  mi := sm.getItem;
-
-  sm.add(0, 2, 0, JLString('Send:POPISNE LISTE ')).setIcon(R.drawable.ic_next);
-  mi := sm.getItem;
 
   sm.add(0, 3, 0, JLString('Import: SifMaterijal File')).setIcon(R.drawable.ic_next);
   mi := sm.getItem;
@@ -167,11 +150,6 @@ begin
    case item.getItemID of
       0: begin end;
 
-      1:  ReadTables(db);   //Import sifrarnik
-
-
-      2: ShowMessage(Self, SendChangeTables(db));  //Send popis materijal
-
       3: ImportFile; //Import file
 
 
@@ -192,25 +170,6 @@ begin
    end;
 end;
 
-procedure MainActivity.Run;
-begin
- // inherited Run;
-    while (0 <> 1) do begin
-      {  if  WorkThread  then begin
-          try
-            WorkThread:= False;
-            IdDBThread.sleep(10000);
-            ReadTables(db);
-            IdDBThread.sleep(10000);
-            SendChangeTables(db);
-          except
-          end;
-        end;}
-         IdDBThread.sleep(10000);
-        // SendChangeTables(db);
-       tv.setText(SendChangeTables(db)); // JLString('Ok'));
-   end;
-end;
 
 procedure MainActivity.onActivityResult(requestCode: LongInt;
   resultCode: LongInt; data: ACIntent);
@@ -224,16 +183,6 @@ end;
 
 procedure MainActivity.SetingsIniFile;
 begin
-    ini.setString(JLString('PDAsetings'), JLString('Server'),
-       ini.getString(JLString('PDAsetings'), JLString('Server'), JLString('192.168.10.200')) );
-    ini.setString(JLString('PDAsetings'), JLString('Port'),
-       ini.getString(JLString('PDAsetings'), JLString('Port'), JLString('4061')) );
-
-    ini.setString(JLString('PDAsetings'), JLString('DataBase'),
-       ini.getString(JLString('PDAsetings'), JLString('DataBase'), JLString('192.168.10.200:01jedan')) );
-    ini.setString(JLString('PDAsetings'), JLString('UserName'),
-       ini.getString(JLString('PDAsetings'), JLString('UserName'), JLString('SYSDBA')) );
-
 
     ini.setInt(JLString('PDAsetings'), JLString('IDRadnoMjesto'),
        ini.getInt(JLString('PDAsetings'), JLString('IDRadnoMjesto'), 1) );
@@ -251,11 +200,6 @@ end;
 
 procedure MainActivity.ReadIniFile;
 begin
-  Server := ini.getString(JLString('PDAsetings'), JLString('Server'), JLString('192.168.10.200'));
-  Port := ini.getString(JLString('PDAsetings'), JLString('Port'), JLString('8061'));
-
-  DataBase := ini.getString(JLString('PDAsetings'), JLString('DataBase'), JLString('192.168.10.200:01jedan'));
-  UserName  := ini.getString(JLString('PDAsetings'), JLString('UserName'), JLString('RAD'));
 
   IDRadnoMjesto := ini.getInt(JLString('PDAsetings'), JLString('IDRadnoMjesto'), 1);
   IDPDA :=  ini.getInt(JLString('PDAsetings'), JLString('IDPDA'), 1);

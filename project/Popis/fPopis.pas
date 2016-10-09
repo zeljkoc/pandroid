@@ -108,11 +108,6 @@ begin
 
 
 
-//   MjestoPopisa(db);
-    //Mjesto popisa
-
-
-
      EditListView := AEditListView.create(Self, db, JLString('select pl.PopisnaListaID, m.IDMaterijal, m.Materijal, pl.Kolicina  from PopisnaLista pl,  sMaterijal m ').concat(
                                 'where (pl.IDMaterijal = m.MaterijalID) and (pl.IDMjestoPopisa = ').concat(JLInteger.toString(IDMjestoPopisa).toString.trim).concat
                                 (') order by PopisnaListaID desc ')

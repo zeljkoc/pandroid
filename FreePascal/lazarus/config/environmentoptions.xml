@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/android/Popis/Popis.lpi"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,27 +67,28 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item2 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item4 Value="/home/android/Test2/cordova.inc"/>
-        <Item5 Value="/home/android/Test2/cordova.pas"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/rtl/android/jvm/java_sys_android.inc"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/sysdlh.inc"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/linux/ostypes.inc"/>
-        <Item9 Value="/home/android/DemoOBDII/OBDUnits.pas"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/packager/registration/lazaruspackageintf.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item2 Value="/home/android/Popis/android/build_debug_apk.sh"/>
+        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item4 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item6 Value="/home/android/Test2/cordova.inc"/>
+        <Item7 Value="/home/android/Test2/cordova.pas"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/android/jvm/java_sys_android.inc"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/sysdlh.inc"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/rtl/linux/ostypes.inc"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/project1.lpi"/>
-        <Item2 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
-        <Item3 Value="/home/android/DateTime/DateTime.lpi"/>
-        <Item4 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
-        <Item5 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
+        <Item1 Value="/home/android/Popis/Popis.lpi"/>
+        <Item2 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/project1.lpi"/>
+        <Item3 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
+        <Item4 Value="/home/android/DateTime/DateTime.lpi"/>
+        <Item5 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
       </ProjectFiles>
-      <PackageFiles Count="2">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uiblaz.lpk"/>
-        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
+      <PackageFiles Count="3">
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uiblaz.lpk"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
       </PackageFiles>
     </Recent>
     <ExternalTools Version="3" Count="1">

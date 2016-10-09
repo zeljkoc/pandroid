@@ -9,10 +9,7 @@ interface
 uses androidr15, ADBDataBase;
 
 function initDataBase(aContext: ACContext; aDatabase: ASQLDatabase): ASQLDatabase;
-procedure InitKonstante(aContext: ACContext; db: ASQLDatabase);
 
-procedure ReadTables(db: ASQLDatabase);
-function SendChangeTables(db:  ASQLDatabase): JLString;
 
 function FindMaterijal(IDMaterijal: string;  aDataBase: ASQLDatabase): JLong;
 
@@ -23,11 +20,11 @@ procedure FillMaterijal(aContext: ACContext; aFileName: String;  aDataBase: ASQL
 
 implementation
 
-uses fbsqlite, Popis, AZCDialogs;
+uses  Popis, AZCDialogs;
 
 const
   DataBaseName  = 'popis001.ldb';
-  Password = 'masterkey';
+
 
 
 function initDataBase(aContext: ACContext; aDatabase: ASQLDatabase): ASQLDatabase;
@@ -58,62 +55,7 @@ begin
   Result := aDatabase;
 end;
 
-procedure InitKonstante(aContext: ACContext; db: ASQLDatabase);
-begin
-    if db.isOpen then begin
-      ZCJjnireplicate.SetDataBaseParams(DataBase, UserName, Password,
-         JLString('/data/data/').concat(aContext.getApplicationContext.getPackageName).concat('/databases/').concat(DataBaseName));
-    end;
-end;
 
-procedure ReadTables(db: ASQLDatabase);
-begin
-     if db.isOpen then begin
-            ZCJjnireplicate.IndyConnect(server, port);
-
-           if ZCJjnireplicate.IndyConnected then begin
-
-                 ZCJjnireplicate.SelectFBTable(
-                     JLString('select distinct "MaterijalID", "Materijal" from "sMaterijal" '),
-                     JLString('INSERT INTO "sMaterijal" ("IDMaterijal", "Materijal") VALUES (').
-                                             concat(':MaterijalID, :Materijal) '),
-                     JLString('UPDATE "sMaterijal" SET "Materijal" = :Materijal where "IDMaterijal" = :MaterijalID ')
-                    );
-
-                if ZCJjnireplicate.IndyConnected then ZCJjnireplicate.IndyDisconnect;
-            end;
-      end;
-end;
-
-function SendChangeTables(db: ASQLDatabase): JLString;
-
-begin
-  Result := JLString('Ok');
-  if db.isOpen then begin
-     ZCJjnireplicate.IndyConnect(server, port);
-     if ZCJjnireplicate.IndyConnected then begin
-
-      try
-        Result := ZCJjnireplicate.InsertFBTable(
-           JLString('select ').concat(JLInteger.toString(IDRadnoMjesto)).concat(' as IDRadnoMjesto, ')
-              .concat(JLInteger.toString(IDPDA)).concat(' as IDPda,  ')
-              .concat('p.PopisnaListaID, p.IDMjestoPopisa, m.IDMaterijal, p.Kolicina from PopisnaLista p, sMaterijal m ')
-              .concat('where (p.IDMaterijal = m.MaterijalID) ') ,
-
-           JLString('Insert into "PDAPopisMaterijal" ("IDPartner", "IDPda", "PopisnaListaID", "NoMjestoPopisa", "IDMaterijal", "Kolicina") ')
-              .concat('values (:IDRadnoMjesto, :IDPda, :PopisnaListaID, :IDMjestoPopisa, :IDMaterijal, :Kolicina) '),
-
-           JLString('Update "PDAPopisMaterijal" set "Kolicina" = :Kolicina where ("IDPartner" = :IDRadnoMjesto) and ("IDPda" = :IDPda ) and ("PopisnaListaID" = :PopisnaListaID) ') //Update
-           );
-        except
-          Result := JLstring('Greska PopisnaList');
-        end;
-
-       ZCJjnireplicate.IndyDisconnect;
-     end;
-
-  end;  //------  db.isOpen
-end;
 
 
 function FindMaterijal(IDMaterijal: string; aDataBase: ASQLDatabase): JLong;

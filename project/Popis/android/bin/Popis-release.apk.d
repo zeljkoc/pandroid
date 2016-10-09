@@ -1,9 +1,7 @@
-/usr/local/pandroid/project/Popis/android/bin/Popis-release.apk : \
-/usr/local/pandroid/project/Popis/android/bin/Popis.ap_ \
-/usr/local/pandroid/project/Popis/android/bin/classes.dex \
-/usr/local/pandroid/project/Popis/android/src/zc \
-/usr/local/pandroid/project/Popis/android/libs/TIniFile.jar \
-/usr/local/pandroid/project/Popis/android/libs/achartengine-1.1.0.jar \
+/home/android/Popis/android/bin/Popis-release.apk : \
+/home/android/Popis/android/bin/Popis.ap_ \
+/home/android/Popis/android/bin/classes.dex \
+/home/android/Popis/android/src/zc \
+/home/android/Popis/android/libs/TIniFile.jar \
 /usr/local/pandroid/sdk/tools/support/annotations.jar \
-/usr/local/pandroid/project/Popis/android/libs/fbsqlite.jar \
-/usr/local/pandroid/project/Popis/android/libs/dataset.jar \
+/home/android/Popis/android/libs/dataset.jar \

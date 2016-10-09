@@ -67,16 +67,16 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
-        <Item2 Value="/home/android/Popis/android/build_debug_apk.sh"/>
-        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item4 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item6 Value="/home/android/Test2/cordova.inc"/>
-        <Item7 Value="/home/android/Test2/cordova.pas"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/android/jvm/java_sys_android.inc"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/sysdlh.inc"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/rtl/linux/ostypes.inc"/>
+        <Item1 Value="/home/android/Popis/fPopis.pas"/>
+        <Item2 Value="/home/android/Popis/Popis.lpr"/>
+        <Item3 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item4 Value="/home/android/Popis/android/build_debug_apk.sh"/>
+        <Item5 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item6 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item7 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item8 Value="/home/android/Test2/cordova.inc"/>
+        <Item9 Value="/home/android/Test2/cordova.pas"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/rtl/android/jvm/java_sys_android.inc"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/home/android/Popis/Popis.lpi"/>

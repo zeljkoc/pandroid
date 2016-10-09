@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<properties version="1">
-    <projectProperties>
-        <package value="zeljus.com.popis"/>
-        <name value="App"/>
-        <versionName value="1.0.0"/>
-        <versionCode value="1"/>
-    </projectProperties>
-</properties>

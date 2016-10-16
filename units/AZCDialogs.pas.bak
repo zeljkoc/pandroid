@@ -8,7 +8,7 @@ unit AZCDialogs;
 
 {$mode objfpc}{$H+}
 {$modeswitch unicodestrings}
-{$namespace zeljus.com.dialogs}
+{$namespace zeljus.com.units}
 
 interface
 

@@ -7,7 +7,7 @@ unit AZCScrollButons;
 
 {$mode objfpc}{$H+}
 {$modeswitch unicodestrings}
-{$namespace zeljus.com.scrollbuttons}
+{$namespace zeljus.com.units}
 
 interface
 

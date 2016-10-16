@@ -86,7 +86,6 @@ begin
   fFileName := aFileName;
   inherited create(fContext);
  // setIcon(R.drawable.ic_launcher);
-//  setIcon(AAActivity(para1).getPackageManager.getApplicationIcon(AAActivity(para1).getApplicationInfo));
   setTitle(JLString('EDIT INI FILE '));
 
      fHorizontalScropllView := AWHorizontalScrollView.create(fContext);

@@ -7,7 +7,7 @@ unit AZCListView;
 
 {$mode objfpc}{$H+}
 {$modeswitch unicodestrings}
-{$namespace zeljus.com.listview}
+{$namespace zeljus.com.units}
 
 interface
 

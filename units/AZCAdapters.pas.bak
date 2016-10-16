@@ -8,7 +8,7 @@ unit AZCAdapters;
 
 {$mode objfpc}{$H+}
 {$modeswitch unicodestrings}
-{$namespace zeljus.com.adapters}
+{$namespace zeljus.com.units}
 
 interface
 

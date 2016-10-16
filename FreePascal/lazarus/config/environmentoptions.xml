@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/android/Popis/Popis.lpi"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/home/android/Popis/fPopis.pas"/>
-        <Item2 Value="/home/android/Popis/Popis.lpr"/>
-        <Item3 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
-        <Item4 Value="/home/android/Popis/android/build_debug_apk.sh"/>
-        <Item5 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item6 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item7 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item8 Value="/home/android/Test2/cordova.inc"/>
-        <Item9 Value="/home/android/Test2/cordova.pas"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/rtl/android/jvm/java_sys_android.inc"/>
+        <Item1 Value="/usr/local/pandroid/example/PasswordDialog/AZCUserPasswordDialogs.pas"/>
+        <Item2 Value="/home/android/PasswordDialog/AZCUserPasswordDialogs.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item4 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/AActivity.pas"/>
+        <Item6 Value="/home/zeljko/RAZVOJ/Android/pandroid/units/AZCDialogs.pas"/>
+        <Item7 Value="/home/zeljko/RAZVOJ/Android/pandroid/units/fbsqlite.pas"/>
+        <Item8 Value="/home/zeljko/RAZVOJ/Android/pandroid/units/fbsqlite.inc"/>
+        <Item9 Value="/home/android/Popis/fPopis.pas"/>
+        <Item10 Value="/home/android/Popis/Popis.lpr"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/android/Popis/Popis.lpi"/>
-        <Item2 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/project1.lpi"/>
-        <Item3 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
-        <Item4 Value="/home/android/DateTime/DateTime.lpi"/>
-        <Item5 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
+        <Item1 Value="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi"/>
+        <Item2 Value="/home/android/PasswordDialog/PasswordDialog.lpi"/>
+        <Item3 Value="/home/android/Cordova01/Cordova01.lpi"/>
+        <Item4 Value="/home/android/PDAProdaja/PDAProdaja.lpi"/>
+        <Item5 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="3">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>

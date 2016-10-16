@@ -4,18 +4,25 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="11">
-          <Item1 Value="Project"/>
-          <Item2 Value="AATimePickerDialog"/>
-          <Item3 Value="Calendar ="/>
-          <Item4 Value="DateSetList"/>
-          <Item5 Value="DateSetListner"/>
-          <Item6 Value="OnDateSetListner"/>
-          <Item7 Value="DatePickerDialog ="/>
-          <Item8 Value="UsbAccessory"/>
-          <Item9 Value="UsbManager"/>
-          <Item10 Value="TLibHandle"/>
-          <Item11 Value="TestUslovNext"/>
+        <Find Count="18">
+          <Item1 Value="PasswordTransformationMethod ="/>
+          <Item2 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
+          <Item3 Value="textPassword"/>
+          <Item4 Value="activityResultCallback"/>
+          <Item5 Value="Config ="/>
+          <Item6 Value="CordovaWebView ="/>
+          <Item7 Value="CordovaPlugin"/>
+          <Item8 Value="Project"/>
+          <Item9 Value="AATimePickerDialog"/>
+          <Item10 Value="Calendar ="/>
+          <Item11 Value="DateSetList"/>
+          <Item12 Value="DateSetListner"/>
+          <Item13 Value="OnDateSetListner"/>
+          <Item14 Value="DatePickerDialog ="/>
+          <Item15 Value="UsbAccessory"/>
+          <Item16 Value="UsbManager"/>
+          <Item17 Value="TLibHandle"/>
+          <Item18 Value="TestUslovNext"/>
         </Find>
       </History>
     </Find>
@@ -31,28 +38,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="/home/android/Popis/">
+    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/example/PasswordDialog/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Popis/"/>
-        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
-        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
-        <Item5 Value="/home/zeljko/"/>
-        <Item6 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
-        <Item7 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item8 Value="/home/android/DateTime/"/>
-        <Item9 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item10 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item11 Value="/home/android/Test2/"/>
-        <Item12 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
-        <Item13 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item14 Value="/home/android/Test/"/>
-        <Item15 Value="/home/android/zeljus/Reciklaza/"/>
-        <Item16 Value="/home/android/DemoOBDII/"/>
-        <Item17 Value="/usr/local/pandroid/example/SecondActivity/"/>
-        <Item18 Value="/home/android/SecondActivity/"/>
-        <Item19 Value="/home/android/Reciklaza/"/>
-        <Item20 Value="/usr/local/pandroid/example/Demo3DCube/"/>
+        <Item1 Value="/usr/local/pandroid/example/PasswordDialog/"/>
+        <Item2 Value="/home/android/PasswordDialog/"/>
+        <Item3 Value="/home/android/Cordova01/"/>
+        <Item4 Value="/home/android/PDAProdaja/"/>
+        <Item5 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item6 Value="/home/android/Popis/"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
+        <Item10 Value="/home/zeljko/"/>
+        <Item11 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
+        <Item12 Value="/home/android/DateTime/"/>
+        <Item13 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item14 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item15 Value="/home/android/Test2/"/>
+        <Item16 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
+        <Item17 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item18 Value="/home/android/Test/"/>
+        <Item19 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item20 Value="/home/android/DemoOBDII/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">
@@ -62,8 +69,8 @@
       </List0>
     </HistoryLists>
     <New>
-      <Project Type="Inherited Component"/>
-      <File Type="Inherited Component"/>
+      <Project Type="Unit"/>
+      <File Type="Unit"/>
     </New>
   </InputHistory>
 </CONFIG>

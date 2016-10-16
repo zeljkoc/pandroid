@@ -8,9 +8,9 @@
         <Filename Value="ProgressBar.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="4"/>
-        <CursorPos X="58" Y="6"/>
-        <UsageCount Value="22"/>
+        <TopLine Value="57"/>
+        <CursorPos X="25" Y="32"/>
+        <UsageCount Value="29"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -18,25 +18,26 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="12035"/>
         <CursorPos X="17" Y="12073"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit1>
       <Unit2>
         <Filename Value="../../units/androidr15.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="17384"/>
-        <CursorPos X="27" Y="17419"/>
-        <UsageCount Value="11"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="54566"/>
+        <CursorPos X="3" Y="54579"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="android/build_debug_apk.sh"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="48" Y="4"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="13"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="12" HistoryIndex="11">
+    <JumpHistory Count="22" HistoryIndex="21">
       <Position1>
         <Filename Value="ProgressBar.lpr"/>
         <Caret Line="18" Column="14" TopLine="10"/>
@@ -85,6 +86,46 @@
         <Filename Value="ProgressBar.lpr"/>
         <Caret Line="80" Column="9" TopLine="49"/>
       </Position12>
+      <Position13>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="32" Column="25" TopLine="13"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../units/androidr15.inc"/>
+        <Caret Line="2" Column="20"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../units/androidr15.inc"/>
+        <Caret Line="258" Column="27" TopLine="216"/>
+      </Position15>
+      <Position16>
+        <Filename Value="../../units/androidr15.inc"/>
+        <Caret Line="263" Column="48" TopLine="221"/>
+      </Position16>
+      <Position17>
+        <Filename Value="../../units/androidr15.inc"/>
+        <Caret Line="265" Column="54" TopLine="223"/>
+      </Position17>
+      <Position18>
+        <Filename Value="../../units/androidr15.inc"/>
+        <Caret Line="269" Column="39" TopLine="227"/>
+      </Position18>
+      <Position19>
+        <Filename Value="../../units/androidr15.inc"/>
+        <Caret Line="271" Column="45" TopLine="229"/>
+      </Position19>
+      <Position20>
+        <Filename Value="../../units/androidr15.inc"/>
+        <Caret Line="1671" Column="19" TopLine="1629"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ProgressBar.lpr"/>
+        <Caret Line="32" Column="25" TopLine="25"/>
+      </Position21>
+      <Position22>
+        <Filename Value="../../units/androidr15.inc"/>
+        <Caret Line="56084" Column="80" TopLine="56059"/>
+      </Position22>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

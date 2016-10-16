@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/home/android/Popis/Popis.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/AZCFields.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item4 Value="/usr/local/pandroid/units/AZCListView.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item6 Value="/usr/local/pandroid/units/AZCEditFile.pas"/>
-        <Item7 Value="/home/android/Popis/fPopis.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
-        <Item9 Value="/usr/local/pandroid/example/PasswordDialog/AZCUserPasswordDialogs.pas"/>
-        <Item10 Value="/home/android/PasswordDialog/AZCUserPasswordDialogs.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/AZCToolBar.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/AZCFields.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/AZCListView.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item7 Value="/usr/local/pandroid/units/AZCEditFile.pas"/>
+        <Item8 Value="/home/android/Popis/fPopis.pas"/>
+        <Item9 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
+        <Item10 Value="/usr/local/pandroid/example/PasswordDialog/AZCUserPasswordDialogs.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/android/Popis/Popis.lpi"/>
-        <Item2 Value="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi"/>
-        <Item3 Value="/home/android/PasswordDialog/PasswordDialog.lpi"/>
-        <Item4 Value="/home/android/Cordova01/Cordova01.lpi"/>
-        <Item5 Value="/home/android/PDAProdaja/PDAProdaja.lpi"/>
+        <Item1 Value="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi"/>
+        <Item2 Value="/usr/local/pandroid/example/Glas/Glas.lpi"/>
+        <Item3 Value="/home/android/Popis/Popis.lpi"/>
+        <Item4 Value="/home/android/PasswordDialog/PasswordDialog.lpi"/>
+        <Item5 Value="/home/android/Cordova01/Cordova01.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="3">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>

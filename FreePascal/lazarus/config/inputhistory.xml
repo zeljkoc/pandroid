@@ -40,28 +40,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/">
+    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/example/PasswordDialog/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/"/>
-        <Item2 Value="/home/android/Popis/"/>
-        <Item3 Value="/usr/local/pandroid/example/PasswordDialog/"/>
-        <Item4 Value="/home/android/PasswordDialog/"/>
-        <Item5 Value="/home/android/Cordova01/"/>
-        <Item6 Value="/home/android/PDAProdaja/"/>
-        <Item7 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
-        <Item11 Value="/home/zeljko/"/>
-        <Item12 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
-        <Item13 Value="/home/android/DateTime/"/>
-        <Item14 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item15 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item16 Value="/home/android/Test2/"/>
-        <Item17 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
-        <Item18 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item19 Value="/home/android/Test/"/>
-        <Item20 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item1 Value="/usr/local/pandroid/example/PasswordDialog/"/>
+        <Item2 Value="/usr/local/pandroid/example/Glas/"/>
+        <Item3 Value="/usr/local/pandroid/"/>
+        <Item4 Value="/home/android/Popis/"/>
+        <Item5 Value="/home/android/PasswordDialog/"/>
+        <Item6 Value="/home/android/Cordova01/"/>
+        <Item7 Value="/home/android/PDAProdaja/"/>
+        <Item8 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
+        <Item11 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
+        <Item12 Value="/home/zeljko/"/>
+        <Item13 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
+        <Item14 Value="/home/android/DateTime/"/>
+        <Item15 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item16 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item17 Value="/home/android/Test2/"/>
+        <Item18 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
+        <Item19 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item20 Value="/home/android/Test/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

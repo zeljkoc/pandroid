@@ -88,6 +88,7 @@ begin
   layout.addView(PasswordCaption);
 
       FPasswordEdit:= AWEditText.create(Self.getContext);
+      FPasswordEdit.requestFocus;
       FPasswordEdit.setInputType(ATInputType.TYPE_TEXT_VARIATION_PASSWORD);
       FPasswordEdit.setTransformationMethod(ATMPasswordTransformationMethod.create);
     layout.addView(FPasswordEdit);
@@ -96,6 +97,8 @@ begin
 
   setButton(JLString('Cancel'), ACDialogInterface.InnerOnClickListener(para1));   //-1
   setButton2(JLString('Ok'), ACDialogInterface.InnerOnClickListener(para1));      //-2
+
+   getWindow.setSoftInputMode(AVWindowManager.InnerLayoutParams.SOFT_INPUT_STATE_VISIBLE);
 end;
 
 end.

@@ -4,26 +4,27 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="19">
-          <Item1 Value="R.drawable.ic_launcher"/>
-          <Item2 Value="PasswordTransformationMethod ="/>
-          <Item3 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
-          <Item4 Value="textPassword"/>
-          <Item5 Value="activityResultCallback"/>
-          <Item6 Value="Config ="/>
-          <Item7 Value="CordovaWebView ="/>
-          <Item8 Value="CordovaPlugin"/>
-          <Item9 Value="Project"/>
-          <Item10 Value="AATimePickerDialog"/>
-          <Item11 Value="Calendar ="/>
-          <Item12 Value="DateSetList"/>
-          <Item13 Value="DateSetListner"/>
-          <Item14 Value="OnDateSetListner"/>
-          <Item15 Value="DatePickerDialog ="/>
-          <Item16 Value="UsbAccessory"/>
-          <Item17 Value="UsbManager"/>
-          <Item18 Value="TLibHandle"/>
-          <Item19 Value="TestUslovNext"/>
+        <Find Count="20">
+          <Item1 Value="StringList"/>
+          <Item2 Value="TStringList"/>
+          <Item3 Value="R.drawable.ic_launcher"/>
+          <Item4 Value="PasswordTransformationMethod ="/>
+          <Item5 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
+          <Item6 Value="textPassword"/>
+          <Item7 Value="activityResultCallback"/>
+          <Item8 Value="Config ="/>
+          <Item9 Value="CordovaWebView ="/>
+          <Item10 Value="CordovaPlugin"/>
+          <Item11 Value="Project"/>
+          <Item12 Value="AATimePickerDialog"/>
+          <Item13 Value="Calendar ="/>
+          <Item14 Value="DateSetList"/>
+          <Item15 Value="DateSetListner"/>
+          <Item16 Value="OnDateSetListner"/>
+          <Item17 Value="DatePickerDialog ="/>
+          <Item18 Value="UsbAccessory"/>
+          <Item19 Value="UsbManager"/>
+          <Item20 Value="TLibHandle"/>
         </Find>
       </History>
     </Find>
@@ -40,31 +41,31 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/example/PasswordDialog/">
+    <FileDialog Width="792" Height="585" InitialDir="/home/android/PDAProdaja/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/example/PasswordDialog/"/>
-        <Item2 Value="/usr/local/pandroid/example/Glas/"/>
-        <Item3 Value="/usr/local/pandroid/"/>
-        <Item4 Value="/home/android/Popis/"/>
-        <Item5 Value="/home/android/PasswordDialog/"/>
-        <Item6 Value="/home/android/Cordova01/"/>
-        <Item7 Value="/home/android/PDAProdaja/"/>
-        <Item8 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
-        <Item11 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
-        <Item12 Value="/home/zeljko/"/>
-        <Item13 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
-        <Item14 Value="/home/android/DateTime/"/>
-        <Item15 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item16 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item17 Value="/home/android/Test2/"/>
-        <Item18 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/"/>
-        <Item19 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item20 Value="/home/android/Test/"/>
+        <Item1 Value="/home/android/PDAProdaja/"/>
+        <Item2 Value="/home/android/Library/Firebird/jni/"/>
+        <Item3 Value="/home/android/Library/SringList/jni/"/>
+        <Item4 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item5 Value="/home/zeljko/Desktop/jni/sample/native/"/>
+        <Item6 Value="/home/zeljko/Desktop/jni/javadpr/"/>
+        <Item7 Value="/usr/local/pandroid/example/PasswordDialog/"/>
+        <Item8 Value="/usr/local/pandroid/example/Glas/"/>
+        <Item9 Value="/usr/local/pandroid/"/>
+        <Item10 Value="/home/android/Popis/"/>
+        <Item11 Value="/home/android/PasswordDialog/"/>
+        <Item12 Value="/home/android/Cordova01/"/>
+        <Item13 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item14 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
+        <Item15 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
+        <Item16 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
+        <Item17 Value="/home/zeljko/"/>
+        <Item18 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
+        <Item19 Value="/home/android/DateTime/"/>
+        <Item20 Value="/usr/local/pandroid/example/TempFirebird/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="1">
+    <HistoryLists Count="3">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>
@@ -74,5 +75,8 @@
       <Project Type="Unit"/>
       <File Type="Unit"/>
     </New>
+    <Conversion>
+      <Delphi Project="/home/zeljko/Desktop/jni/sample/native/SimpleDemo.dpr" Unit="/home/zeljko/Desktop/jni/sample/native/uSimpleDemo.pas"/>
+    </Conversion>
   </InputHistory>
 </CONFIG>

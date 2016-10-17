@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG SupportDelphi="True" CoordOffsMode="0">
+  <FuncReplacements Count="34">
+    <Item0 Category="FileHandle" DelphiFunction="CloseHandle" Replacement="FileClose($1)" UnitName="SysUtils"/>
+    <Item1 Category="UTF8Names" DelphiFunction="CreateDir" Replacement="CreateDirUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item2 Category="UTF8Names" DelphiFunction="DeleteFile" Replacement="DeleteFileUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item3 Category="UTF8Names" DelphiFunction="DirectoryExists" Replacement="DirectoryExistsUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item4 Category="UTF8Names" DelphiFunction="ExpandFileName" Replacement="ExpandFileNameUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item5 Category="UTF8Names" DelphiFunction="ExpandUNCFileName" Replacement="ExpandUNCFileNameUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item6 Category="UTF8Names" DelphiFunction="ExtractShortPathName" Replacement="ExtractShortPathNameUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item7 Category="UTF8Names" DelphiFunction="FileAge" Replacement="FileAgeUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item8 Category="UTF8Names" DelphiFunction="FileExists" Replacement="FileExistsUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item9 Category="UTF8Names" DelphiFunction="FileGetAttr" Replacement="FileGetAttrUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item10 Category="UTF8Names" DelphiFunction="FileIsReadOnly" Replacement="FileIsReadOnlyUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item11 Category="UTF8Names" DelphiFunction="FileSearch" Replacement="FileSearchUTF8($1,$2)" Package="LCL" UnitName="FileUtil"/>
+    <Item12 Category="UTF8Names" DelphiFunction="FileSetAttr" Replacement="FileSetAttrUTF8($1,$2)" Package="LCL" UnitName="FileUtil"/>
+    <Item13 Category="UTF8Names" DelphiFunction="FileSetDate" Replacement="FileSetDateUTF8($1,$2)" Package="LCL" UnitName="FileUtil"/>
+    <Item14 Category="UTF8Names" DelphiFunction="FindClose" Replacement="FindCloseUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item15 Category="UTF8Names" DelphiFunction="FindFirst" Replacement="FindFirstUTF8($1,$2,$3)" Package="LCL" UnitName="FileUtil"/>
+    <Item16 Category="UTF8Names" DelphiFunction="FindNext" Replacement="FindNextUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item17 Category="UTF8Names" DelphiFunction="ForceDirectories" Replacement="ForceDirectoriesUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item18 Category="UTF8Names" DelphiFunction="GetCurrentDir" Replacement="GetCurrentDirUTF8" Package="LCL" UnitName="FileUtil"/>
+    <Item19 Category="FileHandle" DelphiFunction="GetFileSize" Replacement="FileSize($1)" UnitName="SysUtils"/>
+    <Item20 Category="OpenGL" DelphiFunction="glColorMask" Replacement="glColorMask(GLboolean($1),GLboolean($2),GLboolean($3),GLboolean($4))" UnitName="GL"/>
+    <Item21 Category="OpenGL" DelphiFunction="glDepthMask" Replacement="glDepthMask(GLboolean($1))" UnitName="GL"/>
+    <Item22 Category="OpenGL" DelphiFunction="glIsEnabled" Replacement="Boolean(glIsEnabled($1))" UnitName="GL"/>
+    <Item23 Category="OpenGL" DelphiFunction="glIsList" Replacement="Boolean(glIsList($1))" UnitName="GL"/>
+    <Item24 Category="OpenGL" DelphiFunction="glIsTexture" Replacement="Boolean(glIsTexture($1))" UnitName="GL"/>
+    <Item25 Category="OpenGL" DelphiFunction="gluQuadricTexture" Replacement="gluQuadricTexture($1,GLboolean($2))" UnitName="GLu"/>
+    <Item26 Category="Other" DelphiFunction="Ptr" Replacement="Pointer($1)"/>
+    <Item27 Category="Other" DelphiFunction="RecreateWnd" Replacement="RecreateWnd(Self)" Package="LCL" UnitName="Controls"/>
+    <Item28 Category="UTF8Names" DelphiFunction="RemoveDir" Replacement="RemoveDirUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item29 Category="UTF8Names" DelphiFunction="RenameFile" Replacement="RenameFileUTF8($1,$2)" Package="LCL" UnitName="FileUtil"/>
+    <Item30 Category="Other" DelphiFunction="SameStr" Replacement="(CompareStr($1,$2) = 0)" UnitName="SysUtils"/>
+    <Item31 Category="UTF8Names" DelphiFunction="SetCurrentDir" Replacement="SetCurrentDirUTF8($1)" Package="LCL" UnitName="FileUtil"/>
+    <Item32 Category="WindowsAPI" DelphiFunction="ShellExecute" Replacement="if $3 match &quot;:/&quot; then OpenURL($3); OpenDocument($3)" Package="LCL" UnitName="LCLIntf"/>
+    <Item33 Category="WindowsAPI" DelphiFunction="TimeGetTime" Replacement="GetTickCount" Package="LCL" UnitName="LCLIntf"/>
+  </FuncReplacements>
+  <Categories Count="5">
+    <Item0 Name="FileHandle"/>
+    <Item1 Name="OpenGL"/>
+    <Item2 Name="Other"/>
+    <Item3 Name="UTF8Names"/>
+    <Item4 Name="WindowsAPI"/>
+  </Categories>
+  <VisualOffsets Count="4">
+    <Item0 ParentType="TGroupBox" Top="14" Left="2"/>
+    <Item1 ParentType="TPanel" Top="2" Left="2"/>
+    <Item2 ParentType="RadioGroup" Top="14" Left="2"/>
+    <Item3 ParentType="CheckGroup" Top="14" Left="2"/>
+  </VisualOffsets>
+  <UnitReplacements Count="34">
+    <Item0 Name=".*dll.*"/>
+    <Item1 Name="ADODB" Value="sqldb"/>
+    <Item2 Name="DBLocalB" Value="sqldb"/>
+    <Item3 Name="DBLocalI" Value="IBConnection"/>
+    <Item4 Name="DBLocalS" Value="sqldb"/>
+    <Item5 Name="DBTables" Value="sqldb"/>
+    <Item6 Name="gifimage"/>
+    <Item7 Name="IBCustomDataSet" Value="sqldb"/>
+    <Item8 Name="IBDatabase" Value="sqldb"/>
+    <Item9 Name="IBQuery" Value="sqldb"/>
+    <Item10 Name="IBSQL" Value="sqldb"/>
+    <Item11 Name="IBStoredProc" Value="sqldb"/>
+    <Item12 Name="IBTable" Value="sqldb"/>
+    <Item13 Name="IBUpdateSQL" Value="sqldb"/>
+    <Item14 Name="Jpeg"/>
+    <Item15 Name="Mask" Value="MaskEdit"/>
+    <Item16 Name="MMSystem"/>
+    <Item17 Name="OpenGL" Value="dglOpenGL"/>
+    <Item18 Name="pngImage"/>
+    <Item19 Name="ShellApi"/>
+    <Item20 Name="SqlExpr" Value="sqldb"/>
+    <Item21 Name="TabNotBk" Value="ComCtrls"/>
+    <Item22 Name="TntLXCombos"/>
+    <Item23 Name="TntLXDataSet"/>
+    <Item24 Name="TntLXLookupCtrls"/>
+    <Item25 Name="TntLXStringGrids" Value="Grids"/>
+    <Item26 Name="TntLXVarArrayDataSet"/>
+    <Item27 Name="Windows" Value="LCLIntf, LCLType, LMessages"/>
+    <Item28 Name="WinProcs" Value="LCLIntf, LCLType, LMessages"/>
+    <Item29 Name="WinTypes" Value="LCLIntf, LCLType, LMessages"/>
+    <Item30 Name="^FastMM.*"/>
+    <Item31 Name="^Q(.+)" Value="$1"/>
+    <Item32 Name="^Tnt(([^L]|L[^X]).*)" Value="$1"/>
+    <Item33 Name="^TntLX(.+)" Value="$1"/>
+  </UnitReplacements>
+  <TypeReplacements Count="40">
+    <Item0 Name="TADOCommand" Value="TSQLQuery"/>
+    <Item1 Name="TADOConnection" Value="TSQLConnector"/>
+    <Item2 Name="TADODataSet" Value="TSQLQuery"/>
+    <Item3 Name="TADOQuery" Value="TSQLQuery"/>
+    <Item4 Name="TADOStoredProc" Value="TSQLQuery"/>
+    <Item5 Name="TADOTable" Value="TSQLQuery"/>
+    <Item6 Name="TApplicationEvents" Value="TApplicationProperties"/>
+    <Item7 Name="TBDEClientDataSet" Value="TSQLConnector"/>
+    <Item8 Name="TCxEdit" Value="TEdit"/>
+    <Item9 Name="TDatabase" Value="TSQLConnector"/>
+    <Item10 Name="TDBRichEdit" Value="TDBMemo"/>
+    <Item11 Name="TFlowPanel" Value="TPanel"/>
+    <Item12 Name="TGridPanel" Value="TPanel"/>
+    <Item13 Name="THeader" Value="THeaderControl"/>
+    <Item14 Name="TIBClientDataSet" Value="TIBConnection"/>
+    <Item15 Name="TIBDatabase" Value="TIBConnection"/>
+    <Item16 Name="TIBDataSet" Value="TSQLQuery"/>
+    <Item17 Name="TIBQuery" Value="TSQLQuery"/>
+    <Item18 Name="TIBSQL" Value="TSQLQuery"/>
+    <Item19 Name="TIBStoredProc" Value="TSQLQuery"/>
+    <Item20 Name="TIBTable" Value="TSQLQuery"/>
+    <Item21 Name="TIBTransaction" Value="TSQLTransaction"/>
+    <Item22 Name="TIBUpdateSQL" Value="TSQLQuery"/>
+    <Item23 Name="TMonthCalendar" Value="TCalendar"/>
+    <Item24 Name="TOleContainer" Value="TActiveXContainer"/>
+    <Item25 Name="TPNGObject" Value="TPortableNetworkGraphic"/>
+    <Item26 Name="TQuery" Value="TSQLQuery"/>
+    <Item27 Name="TRichEdit" Value="TMemo"/>
+    <Item28 Name="TSQLClientDataSet" Value="TSQLConnector"/>
+    <Item29 Name="TSQLConnection" Value="TSQLConnector"/>
+    <Item30 Name="TSQLDataset" Value="TSQLQuery"/>
+    <Item31 Name="TSQLStoredProc" Value="TSQLQuery"/>
+    <Item32 Name="TSQLTable" Value="TSQLQuery"/>
+    <Item33 Name="TStoredProc" Value="TSQLQuery"/>
+    <Item34 Name="TTabbedNotebook" Value="TPageControl"/>
+    <Item35 Name="TTable" Value="TSQLQuery"/>
+    <Item36 Name="TTabPage" Value="ts$autoinc: TTabSheet"/>
+    <Item37 Name="TUpdateSQL" Value="TSQLQuery"/>
+    <Item38 Name="^TTnt(.+)LX$" Value="T$1"/>
+    <Item39 Name="^TTnt(.+[^L][^X])$" Value="T$1"/>
+  </TypeReplacements>
+</CONFIG>

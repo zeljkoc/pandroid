@@ -41,28 +41,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/PDAProdaja/">
+    <FileDialog Width="792" Height="585" InitialDir="/home/android/Library/SringList/jni/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/PDAProdaja/"/>
-        <Item2 Value="/home/android/Library/Firebird/jni/"/>
-        <Item3 Value="/home/android/Library/SringList/jni/"/>
-        <Item4 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item5 Value="/home/zeljko/Desktop/jni/sample/native/"/>
-        <Item6 Value="/home/zeljko/Desktop/jni/javadpr/"/>
-        <Item7 Value="/usr/local/pandroid/example/PasswordDialog/"/>
-        <Item8 Value="/usr/local/pandroid/example/Glas/"/>
-        <Item9 Value="/usr/local/pandroid/"/>
-        <Item10 Value="/home/android/Popis/"/>
-        <Item11 Value="/home/android/PasswordDialog/"/>
-        <Item12 Value="/home/android/Cordova01/"/>
-        <Item13 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item14 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
-        <Item15 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
-        <Item16 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
-        <Item17 Value="/home/zeljko/"/>
-        <Item18 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
-        <Item19 Value="/home/android/DateTime/"/>
-        <Item20 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item1 Value="/home/android/Library/SringList/jni/"/>
+        <Item2 Value="/home/android/Library/SringList/src/"/>
+        <Item3 Value="/home/android/PDAProdaja/"/>
+        <Item4 Value="/home/android/Library/Firebird/jni/"/>
+        <Item5 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item6 Value="/home/zeljko/Desktop/jni/sample/native/"/>
+        <Item7 Value="/home/zeljko/Desktop/jni/javadpr/"/>
+        <Item8 Value="/usr/local/pandroid/example/PasswordDialog/"/>
+        <Item9 Value="/usr/local/pandroid/example/Glas/"/>
+        <Item10 Value="/usr/local/pandroid/"/>
+        <Item11 Value="/home/android/Popis/"/>
+        <Item12 Value="/home/android/PasswordDialog/"/>
+        <Item13 Value="/home/android/Cordova01/"/>
+        <Item14 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item15 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
+        <Item16 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
+        <Item17 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/"/>
+        <Item18 Value="/home/zeljko/"/>
+        <Item19 Value="/home/zeljko/RAZVOJ/Android/VerzijeAndroida_R15_i_viese/Tools/"/>
+        <Item20 Value="/home/android/DateTime/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="3">

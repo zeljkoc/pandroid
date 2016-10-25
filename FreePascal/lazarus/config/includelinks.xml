@@ -170,7 +170,7 @@
 39:inc/compproc.inc
 39:linux/system.pp;0
 39:inc/currh.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/dynarr.inc
 39:linux/system.pp;0
 39:inc/dynarrh.inc
@@ -204,13 +204,13 @@
 39:inc/heap.inc
 39:linux/system.pp;0
 39:inc/heaph.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/innr.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/int64.inc
 39:linux/system.pp;0
 39:inc/mathh.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/objpas.inc
 39:linux/system.pp;0
 39:inc/objpash.inc
@@ -246,7 +246,7 @@
 39:inc/typshrdh.inc
 39:objpas/types.pp;0
 39:inc/ustringh.inc
-39:java/system.pp;0
+39:linux/system.pp;0
 39:inc/ustrings.inc
 39:linux/system.pp;0
 39:inc/variant.inc
@@ -508,7 +508,7 @@
 20:example/TempFirebird/zcfbclient.inc
 52:pas;12
 20:units/IniFile.inc
-34:pas;0
+34:pas;9
 26:androidr15.inc
 37:pas;0
 26:dataset.inc

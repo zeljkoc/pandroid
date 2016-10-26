@@ -83,8 +83,10 @@ begin
    Form1.EditToAProject;
 
    AProject.gProjectDir := copy(AProjPath, 1, Length(AProjPath)-1);
-   AProject.gJavaPackageName := AJavaPackageName;
    AProject.gAppName :=  ExtractFileNameOnly(AProjFile);
+   ReadLpiFile; //Read .lpi init files
+
+   AProject.gJavaPackageName := AJavaPackageName;
 
  AProcess:= TProcess.Create(nil);
  AStringList:= TStringList.Create;
@@ -165,7 +167,7 @@ begin
                                '-Fi'+Str+'/rtl/jvm '+
                                '-Fi'+Str+'/rtl/java -FE. '+
                                '-Fi'+Str+'/rtl/android/jvm '+
-                               '-Fu'+ExtractFileDir(Application.ExeName)+'/units '+
+                               '-Fu'+AProject.gUnitFiles +  //ExtractFileDir(Application.ExeName)+'/units '+
                                '-FU'+AProject.gProjectDir+'/android/bin/classes -djvm -dRELEASE '+
                                AProject.gProjectDir+'/'+AProject.gAppName+'.lpr', Message) then
                                Writeln(Message) else begin Writeln('Error *********: '+ Message); Abort; end;

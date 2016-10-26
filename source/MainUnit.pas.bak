@@ -23,6 +23,7 @@ type
        gBuildTools: string;
        gAppName: string;
        gActivityName: String;
+       gSendApk: string;     // (0 - not send, 1 - send to usb port)
     end;
 
 var

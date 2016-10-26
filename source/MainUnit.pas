@@ -24,6 +24,8 @@ type
        gAppName: string;
        gActivityName: String;
        gSendApk: string;     // (0 - not send, 1 - send to usb port)
+
+       gUnitFiles: string;
     end;
 
 var
@@ -32,7 +34,11 @@ var
   function Replace(S, Old, New: String): String;
   function StringNameReplace(S: String): String;
 
+  procedure ReadLpiFile;
+
 implementation
+
+uses XMLCfg;
 
 function Replace(S, Old, New: String): String;
 var i: integer;
@@ -56,6 +62,20 @@ begin
  S :=  StringReplace(S, '#PANDROID#',        ExtractFileDir(Application.ExeName),    [rfReplaceAll]);
  S :=  StringReplace(S, '#DatumVreme#',      DateTimeToStr(now),        [rfReplaceAll]);
  Result := S;
+end;
+
+procedure ReadLpiFile;
+var
+  XMLConfig: TXMLConfig;
+begin
+  XMLConfig := TXMLConfig.Create(nil);
+  XMLConfig.Filename := AProject.gProjectDir + PathDelim + AProject.gAppName+'.lpi';
+  try
+    AProject.gUnitFiles := XMLConfig.GetValue('CompilerOptions/SearchPaths/OtherUnitFiles/Value', '')+' ';
+  finally
+    XMLConfig.Free;
+  end;
+
 end;
 
 end.

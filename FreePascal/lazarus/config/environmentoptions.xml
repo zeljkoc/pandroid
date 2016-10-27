@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/usr/local/pandroid/source/pandroid.lpi"/>
+    <AutoSave LastSavedProjectFile="/home/android/Firebird/Firebird.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/home/android/Library/SringList/jni/StringList.pas"/>
-        <Item2 Value="/home/android/Library/SringList/src/StringList.java"/>
-        <Item3 Value="/home/android/Library/SringList/jni/zcFirebird.pas"/>
-        <Item4 Value="/home/zeljko/Desktop/jni/sample/native/uSimpleDemo.pas"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/rtl/inc/objpash.inc"/>
-        <Item6 Value="/home/zeljko/Desktop/jni/javadpr/JNI.pas"/>
-        <Item7 Value="/home/zeljko/RAZVOJ/Android/pandroid/units/AZCDialogs.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/AZCToolBar.pas"/>
-        <Item9 Value="/usr/local/pandroid/units/AZCFields.pas"/>
-        <Item10 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/AZCUserPasswordDialogs.pas"/>
+        <Item2 Value="/usr/local/pandroid/library/Firebird/zcfbclient.pas"/>
+        <Item3 Value="/usr/local/pandroid/library/Firebird/zcfbclient.inc"/>
+        <Item4 Value="/home/android/Library/SringList/jni/StringList.pas"/>
+        <Item5 Value="/home/android/Library/SringList/src/StringList.java"/>
+        <Item6 Value="/home/android/Library/SringList/jni/zcFirebird.pas"/>
+        <Item7 Value="/home/zeljko/Desktop/jni/sample/native/uSimpleDemo.pas"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/inc/objpash.inc"/>
+        <Item9 Value="/home/zeljko/Desktop/jni/javadpr/JNI.pas"/>
+        <Item10 Value="/home/zeljko/RAZVOJ/Android/pandroid/units/AZCDialogs.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/source/pandroid.lpi"/>
-        <Item2 Value="/home/android/Popis/Popis.lpi"/>
-        <Item3 Value="/usr/local/pandroid/example/TestBarCode/TestBarCode.lpi"/>
-        <Item4 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
-        <Item5 Value="/home/android/Library/SringList/jni/project1.lpi"/>
+        <Item1 Value="/home/android/Firebird/Firebird.lpi"/>
+        <Item2 Value="/usr/local/pandroid/source/pandroid.lpi"/>
+        <Item3 Value="/home/android/Popis/Popis.lpi"/>
+        <Item4 Value="/usr/local/pandroid/example/TestBarCode/TestBarCode.lpi"/>
+        <Item5 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="3">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>

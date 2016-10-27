@@ -29,7 +29,7 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="42"/>
+        <TopLine Value="388"/>
         <CursorPos Y="66"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -40,7 +40,7 @@
         <EditorIndex Value="2"/>
         <TopLine Value="37"/>
         <CursorPos X="20" Y="37"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>

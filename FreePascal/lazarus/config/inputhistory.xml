@@ -41,10 +41,10 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/Popis/">
+    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/source/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Popis/"/>
-        <Item2 Value="/usr/local/pandroid/source/"/>
+        <Item1 Value="/usr/local/pandroid/source/"/>
+        <Item2 Value="/home/android/Popis/"/>
         <Item3 Value="/usr/local/pandroid/example/TestBarCode/"/>
         <Item4 Value="/usr/local/pandroid/example/DateTime/"/>
         <Item5 Value="/home/zeljko/"/>

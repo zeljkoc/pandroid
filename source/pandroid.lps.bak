@@ -18,7 +18,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="96"/>
+        <TopLine Value="91"/>
         <CursorPos X="41" Y="141"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -29,8 +29,8 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="169"/>
-        <CursorPos X="88" Y="193"/>
+        <TopLine Value="6"/>
+        <CursorPos Y="31"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -38,7 +38,8 @@
         <Filename Value="MainUnit.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="24" Y="26"/>
+        <TopLine Value="37"/>
+        <CursorPos X="20" Y="37"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -74,123 +75,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="96" Column="65" TopLine="74"/>
+        <Caret Line="104" Column="65" TopLine="74"/>
       </Position1>
       <Position2>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="102" Column="65" TopLine="74"/>
+        <Caret Line="110" Column="48" TopLine="78"/>
       </Position2>
       <Position3>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="103" Column="54" TopLine="74"/>
+        <Caret Line="111" Column="48" TopLine="79"/>
       </Position3>
       <Position4>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="104" Column="65" TopLine="74"/>
+        <Caret Line="112" Column="48" TopLine="80"/>
       </Position4>
       <Position5>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="110" Column="48" TopLine="78"/>
+        <Caret Line="114" Column="48" TopLine="82"/>
       </Position5>
       <Position6>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="111" Column="48" TopLine="79"/>
+        <Caret Line="115" Column="48" TopLine="83"/>
       </Position6>
       <Position7>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="112" Column="48" TopLine="80"/>
+        <Caret Line="121" Column="41" TopLine="89"/>
       </Position7>
       <Position8>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="114" Column="48" TopLine="82"/>
+        <Caret Line="124" Column="40" TopLine="92"/>
       </Position8>
       <Position9>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="115" Column="48" TopLine="83"/>
+        <Caret Line="125" Column="40" TopLine="93"/>
       </Position9>
       <Position10>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="121" Column="41" TopLine="89"/>
+        <Caret Line="139" Column="58" TopLine="107"/>
       </Position10>
       <Position11>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="124" Column="40" TopLine="92"/>
+        <Caret Line="149" Column="58" TopLine="117"/>
       </Position11>
       <Position12>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="125" Column="40" TopLine="93"/>
+        <Caret Line="158" Column="58" TopLine="126"/>
       </Position12>
       <Position13>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="139" Column="58" TopLine="107"/>
+        <Caret Line="168" Column="58" TopLine="136"/>
       </Position13>
       <Position14>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="149" Column="58" TopLine="117"/>
+        <Caret Line="169" Column="52" TopLine="137"/>
       </Position14>
       <Position15>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="158" Column="58" TopLine="126"/>
+        <Caret Line="176" Column="45" TopLine="144"/>
       </Position15>
       <Position16>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="168" Column="58" TopLine="136"/>
+        <Caret Line="180" Column="113" TopLine="148"/>
       </Position16>
       <Position17>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="169" Column="52" TopLine="137"/>
+        <Caret Line="186" Column="62" TopLine="154"/>
       </Position17>
       <Position18>
-        <Filename Value="FNewProject.pas"/>
-        <Caret Line="176" Column="45" TopLine="144"/>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="84" Column="5" TopLine="82"/>
       </Position18>
       <Position19>
-        <Filename Value="FNewProject.pas"/>
-        <Caret Line="180" Column="113" TopLine="148"/>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="83" Column="5" TopLine="81"/>
       </Position19>
       <Position20>
-        <Filename Value="FNewProject.pas"/>
-        <Caret Line="186" Column="62" TopLine="154"/>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="82" Column="5" TopLine="80"/>
       </Position20>
       <Position21>
         <Filename Value="mainform.pas"/>
-        <Caret Line="84" Column="5" TopLine="82"/>
+        <Caret Line="81" Column="5" TopLine="79"/>
       </Position21>
       <Position22>
         <Filename Value="mainform.pas"/>
-        <Caret Line="83" Column="5" TopLine="81"/>
+        <Caret Line="80" Column="5" TopLine="78"/>
       </Position22>
       <Position23>
-        <Filename Value="mainform.pas"/>
-        <Caret Line="82" Column="5" TopLine="80"/>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="17" Column="45" TopLine="13"/>
       </Position23>
       <Position24>
         <Filename Value="mainform.pas"/>
-        <Caret Line="81" Column="5" TopLine="79"/>
+        <Caret Line="29" Column="52" TopLine="17"/>
       </Position24>
       <Position25>
         <Filename Value="mainform.pas"/>
-        <Caret Line="80" Column="5" TopLine="78"/>
+        <Caret Line="30" Column="52" TopLine="17"/>
       </Position25>
       <Position26>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="17" Column="45" TopLine="13"/>
+        <Caret Line="195" Column="114" TopLine="160"/>
       </Position26>
       <Position27>
-        <Filename Value="mainform.pas"/>
-        <Caret Line="29" Column="52" TopLine="17"/>
+        <Filename Value="FNewProject.pas"/>
+        <Caret Line="193" Column="63" TopLine="175"/>
       </Position27>
       <Position28>
-        <Filename Value="mainform.pas"/>
-        <Caret Line="30" Column="52" TopLine="17"/>
+        <Filename Value="MainUnit.pas"/>
+        <Caret Line="37" Column="25" TopLine="13"/>
       </Position28>
       <Position29>
-        <Filename Value="FNewProject.pas"/>
-        <Caret Line="195" Column="114" TopLine="160"/>
+        <Filename Value="MainUnit.pas"/>
+        <Caret Line="67" Column="18" TopLine="45"/>
       </Position29>
       <Position30>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="193" Column="63" TopLine="175"/>
+        <Caret Line="357" TopLine="336"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

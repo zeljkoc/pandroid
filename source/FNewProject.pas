@@ -28,7 +28,7 @@ procedure AddJavaBuildXml(); forward;
 procedure AddJavaBuildFiles(); forward;
 procedure AddPasBuildFiles(); forward;
 procedure AddResFiles(); forward;
-procedure AddBatchFile(); forward;
+
 
 
 procedure CreateNewAndroidProject;
@@ -63,8 +63,6 @@ begin
    //BuildRJavaFiles;
 
    AddResFiles;
-
-   AddBatchFile;
 
    ShowMessage('Create project!');
 
@@ -354,147 +352,7 @@ begin
 end;
 
 
-procedure AddBatchFile;
-var
-  lFile: TStringList;
-  Str: String;
-begin
-  lFile := TStringList.Create;
-  try
-    {$ifdef linux}
-   {  lFile.Add('keytool -genkey -v -keystore android.keystore -alias myalias -storepass 111111 -keypass 111111 -keyalg RSA -validity 10000');
-     lFile.SaveToFile(AProject.gProjectDir + PathDelim + 'android' + PathDelim + 'keygen.sh');  }
 
-     lFile.Clear;
-     lFile.Add('clear');
-     lFile.Add('echo BUILD --------------------------------------------------------------');
-     lFile.Add('PANDROID='+ExtractFileDir(Application.ExeName));
-     lFile.Add('PROJECT='+AProject.gProjectDir);
-     lFile.Add('SDK='+AProject.gAndroidSDKDir);
-     lFile.Add('TYPHON=/usr/local/codetyphon');
-     lFile.Add('');
-    // lFile.Add('export JAVA_HOME='+AProject.gJava_Home);
-     lFile.Add('');
-     lFile.Add('cd $PROJECT' + PathDelim + 'android');
-     lFile.Add('');
-     lFile.Add('rm -rf bin');
-     lFile.Add('rm -rf gen');
-     lFile.Add('rm -rf Rjava.pas');
-     lFile.Add('');
-    // lFile.Add('sleep 5');
-     lFile.Add('echo Deleted -----------------------------------');
-     lFile.Add('mkdir -p bin');
-     lFile.Add('mkdir -p gen');
-     lFile.Add('mkdir -p bin/classes');
-     lFile.Add('');
-
-     lFile.Add('echo compile R.java -------------------------------------');
-    { lFile.Add('$SDK' + PathDelim +'build-tools'+ PathDelim+ '19.1.0' +PathDelim +'aapt p -f -M AndroidManifest.xml -F bin'+PathDelim +AProject.gAppName+'.ap_ -I '+
-               '$SDK' + PathDelim +'platforms'+ PathDelim +AProject.gTarget +PathDelim+'android.jar -S res -m -J gen');}
-
-     lFile.Add('$SDK' + PathDelim +'build-tools'+ PathDelim+AProject.gBuildTools+PathDelim +'aapt package -m -J gen -M AndroidManifest.xml -S res -I '+
-               '$SDK' + PathDelim +'platforms'+ PathDelim +AProject.gTarget +PathDelim+'android.jar -S res -m -J gen');
-
-     lFile.Add('');
-     lFile.Add('echo compile Rjava.pas ----------------------------------');
-     Str := StringReplace(AProject.gJavaPackageName, '.', PathDelim, [rfReplaceAll]);
-     ForceDirectories(AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'gen' + PathDelim + Str);
-     lFile.Add('$PANDROID'+ PathDelim+ ExtractFileName(Application.ExeName) +' R '+AProject.gAppName+ ' '+ AProject.gJavaPackageName+
-                                         ' $PROJECT'+ PathDelim +'android' + PathDelim + 'gen' + PathDelim + Str+PathDelim+'R.java $PROJECT'+ PathDelim +'Rjava.pas');
-
-     lFile.Add('');
-     lFile.Add('echo ppcjvm ---------------------------------------------');
-
-     {$ifdef linux}
-
-       {$IFDEF CPU64}
-           lFile.Add('$TYPHON/fpc/fpc64/bin/x86_64-linux/ppcjvm @$TYPHON/fpcsrc/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n -Fi$TYPHON/fpcsrc/rtl/inc'+
-                     ' -Fi$TYPHON/fpcsrc/rtl/jvm -Fi$TYPHON/fpcsrc/rtl/java -FE. -Fi$TYPHON/fpcsrc/rtl/android/jvm -FUbin/classes -djvm -dRELEASE -Us -Sg $TYPHON/fpcsrc/rtl/java/system.pp');
-           lFile.Add('$TYPHON/fpc/fpc64/bin/x86_64-linux/ppcjvm @$TYPHON/fpcsrc/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n -Fi$TYPHON/fpcsrc/rtl/inc'+
-                     ' -Fi$TYPHON/fpcsrc/rtl/jvm -Fi$TYPHON/fpcsrc/rtl/java -FE. -Fi$TYPHON/fpcsrc/rtl/android/jvm -FUbin/classes -djvm -dRELEASE $TYPHON/fpcsrc/rtl/inc/uuchar.pp');
-           lFile.Add('$TYPHON/fpc/fpc64/bin/x86_64-linux/ppcjvm @$TYPHON/fpcsrc/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n -Fi$TYPHON/fpcsrc/rtl/inc'+
-                     ' -Fi$TYPHON/fpcsrc/rtl/jvm -Fi$TYPHON/fpcsrc/rtl/java -FE. -Fi$TYPHON/fpcsrc/rtl/android/jvm -FUbin/classes -djvm -dRELEASE $TYPHON/fpcsrc/rtl/java/objpas.pp');
-           lFile.Add('$TYPHON/fpc/fpc64/bin/x86_64-linux/ppcjvm @$TYPHON/fpcsrc/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n -Fi$TYPHON/fpcsrc/rtl/inc'+
-                     ' -Fi$TYPHON/fpcsrc/rtl/jvm -Fi$TYPHON/fpcsrc/rtl/java -FE. -Fi$TYPHON/fpcsrc/rtl/android/jvm -Fu$PANDROID/units -FUbin/classes -djvm -dRELEASE $PROJECT'+PathDelim+''+ AProject.gAppName + '.lpr');
-       {$ELSE IFDEF CPU32}
-           lFile.Add('$TYPHON/fpc/fpc32/bin/i386-linux/ppcjvm @$TYPHON/fpcsrc/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n -Fi$TYPHON/fpcsrc/rtl/inc'+
-                     ' -Fi$TYPHON/fpcsrc/rtl/jvm -Fi$TYPHON/fpcsrc/rtl/java -FE. -Fi$TYPHON/fpcsrc/rtl/android/jvm -FUbin/classes -djvm -dRELEASE -Us -Sg $TYPHON/fpcsrc/rtl/java/system.pp');
-           lFile.Add('$TYPHON/fpc/fpc32/bin/i386-linux/ppcjvm @$TYPHON/fpcsrc/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n -Fi$TYPHON/fpcsrc/rtl/inc'+
-                     ' -Fi$TYPHON/fpcsrc/rtl/jvm -Fi$TYPHON/fpcsrc/rtl/java -FE. -Fi$TYPHON/fpcsrc/rtl/android/jvm -FUbin/classes -djvm -dRELEASE $TYPHON/fpcsrc/rtl/inc/uuchar.pp');
-           lFile.Add('$TYPHON/fpc/fpc32/bin/i386-linux/ppcjvm @$TYPHON/fpcsrc/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n -Fi$TYPHON/fpcsrc/rtl/inc'+
-                     ' -Fi$TYPHON/fpcsrc/rtl/jvm -Fi$TYPHON/fpcsrc/rtl/java -FE. -Fi$TYPHON/fpcsrc/rtl/android/jvm -FUbin/classes -djvm -dRELEASE $TYPHON/fpcsrc/rtl/java/objpas.pp');
-           lFile.Add('$TYPHON/fpc/fpc32/bin/i386-linux/ppcjvm @$TYPHON/fpcsrc/rtl/android/jvm/rtl.cfg -Ur -Tandroid -Pjvm -Ur -Xs -O2 -n -Fi$TYPHON/fpcsrc/rtl/inc'+
-                     ' -Fi$TYPHON/fpcsrc/rtl/jvm -Fi$TYPHON/fpcsrc/rtl/java -FE. -Fi$TYPHON/fpcsrc/rtl/android/jvm -Fu$PANDROID/units -FUbin/classes -djvm -dRELEASE $PROJECT'+PathDelim+''+ AProject.gAppName + '.lpr');
-        {$ENDIF}
-
-     {$Elses}
-
-     {$ENDIF}
-     lFile.Add('');
-     lFile.Add('#$PANDROID'+PathDelim+'compiler'+PathDelim+'ppcjvm -n -Tandroid '+
-        '-Fu$PANDROID'+PathDelim+'units'+PathDelim+'typhon '+'-Fu$PANDROID'+PathDelim+'units -FEbin'+PathDelim+'classes $PROJECT'+PathDelim+''+ AProject.gAppName + '.lpr');
-
-   {  {$IFDEF CPU64}
-      lFile.Add('$PANDROID'+PathDelim+'compiler'+PathDelim+'ppcjvm -n -Tandroid '+
-        '-Fu$PANDROID'+PathDelim+'units'+PathDelim+'typhon '+'-Fu$PANDROID'+PathDelim+'units -FEbin'+PathDelim+'classes $PROJECT'+PathDelim+''+ AProject.gAppName + '.lpr');
-
-     {$ELSE IFDEF CPU32}
-
-
-     {$ENDIF} }
-
-     lFile.Add('');
-     lFile.Add('echo ANT DEBUG ==========================================');
-     lFile.Add('ant -verbose release');
-     lFile.Add('');
-
-     lFile.Add('jarsigner -verify -verbose -certs $PROJECT'+PathDelim+ AProject.gAppName+'.apk');
-
-     lFile.Add('');
-    // lFile.Add('sleep 1');
-     lFile.Add('');
-     lFile.Add('adb shell pm uninstall -k '+AProject.gJavaPackageName);
-     lFile.Add('adb install -r $PROJECT'+ PathDelim +AProject.gAppName+'.apk');
-     lFile.Add('');
-     lFile.Add('adb shell am start -n '+AProject.gJavaPackageName +PathDelim+ AProject.gJavaPackageName+'.MainActivity');
-     lFile.Add('');
-  //   lFile.Add('sleep 100');
-     lFile.Add('Delete android/bin and android/gen ===========================');
-     lFile.Add('rm -rf bin');
-     lFile.Add('rm -rf gen');
-     lFile.SaveToFile(AProject.gProjectDir+ PathDelim+'android' + PathDelim + 'build_debug_apk.sh');
-    {$else}
-     lFile.Add('SET PATH='+gPATHJava+';'+AProject.gApacheAnt);
-     lFile.Add('SET APK_SDK_PLATFORM='+AProject.gSDKPlatform);
-     lFile.Add('');
-     lFile.Add('rmdir bin /s /q');
-     lFile.Add('rmdir gen /s /q');
-     lFile.Add('');
-     lFile.Add('ant debug');
-     lFile.SaveToFile(AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'build_debug_apk.bat');
-    {$endif}
-
-    lFile.Clear;
-    {$ifdef linux}
-
-
-    {$else}
-    lFile.Add('SET PATH='+gAndroidSDKDir+'tools;'+gAndroidSDKDir+ 'platform-tools'+ PathDelim +';'+gPATHJava);
-    lFile.Add('');
-    //lFile.Add('keytool -genkeypair -dname "cn=Zeljko Cvijanovic, ou=ZELJUSszd, o=Sun, c=RS" -alias business -keypass 111111 -keystore LCLDebugKey.keystore -storepass 111111 -validity 180');
-    //lFile.Add('move LCLDebugKey.keystore bin\LCLDebugKey.keystore');
-    //lFile.Add('');
-    //lFile.Add('');
-    lFile.Add('adb uninstall '+gJavaPackageName);
-    lFile.Add('adb -s emulator-5554 install bin'+ PathDelim +gJavaProjectName+'-debug.apk');
-    lFile.SaveToFile(gProjectDir + PathDelim+ 'android' + PathDelim + 'send_emulator.bat');
-    {$endif}
-
-  finally
-    lFile.Free;
-  end;
-
-end;
 
 procedure BuildRJavaFiles(tAppName, tJavaPackageName, tRJava, tRJavaPAs: string);
 

@@ -7,8 +7,9 @@
       <Unit0>
         <Filename Value="TempFirebird.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="7"/>
-        <CursorPos X="12" Y="18"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="64"/>
+        <CursorPos X="3" Y="102"/>
         <UsageCount Value="99"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -30,7 +31,6 @@
       </Unit2>
       <Unit3>
         <Filename Value="zcfbclient.inc"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
@@ -45,7 +45,7 @@
       <Unit5>
         <Filename Value="../../units/androidr15.pas"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="12028"/>
+        <TopLine Value="12025"/>
         <CursorPos X="16" Y="12073"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
@@ -53,6 +53,7 @@
       <Unit6>
         <Filename Value="../../units/androidr15.inc"/>
         <EditorIndex Value="2"/>
+        <TopLine Value="2120"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit6>

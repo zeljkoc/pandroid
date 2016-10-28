@@ -44,25 +44,25 @@
     <FileDialog Width="792" Height="585" InitialDir="/home/android/Firebird/">
       <HistoryList Count="20">
         <Item1 Value="/home/android/Firebird/"/>
-        <Item2 Value="/usr/local/pandroid/source/"/>
-        <Item3 Value="/home/android/Popis/"/>
-        <Item4 Value="/usr/local/pandroid/example/TestBarCode/"/>
-        <Item5 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item6 Value="/home/zeljko/"/>
-        <Item7 Value="/home/android/Library/SringList/jni/"/>
-        <Item8 Value="/home/android/Library/SringList/src/"/>
-        <Item9 Value="/home/android/PDAProdaja/"/>
-        <Item10 Value="/home/android/Library/Firebird/jni/"/>
-        <Item11 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item12 Value="/home/zeljko/Desktop/jni/sample/native/"/>
-        <Item13 Value="/home/zeljko/Desktop/jni/javadpr/"/>
-        <Item14 Value="/usr/local/pandroid/example/PasswordDialog/"/>
-        <Item15 Value="/usr/local/pandroid/example/Glas/"/>
-        <Item16 Value="/usr/local/pandroid/"/>
-        <Item17 Value="/home/android/PasswordDialog/"/>
-        <Item18 Value="/home/android/Cordova01/"/>
-        <Item19 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
-        <Item20 Value="/usr/local/pandroid/FreePascal/lazarus/components/"/>
+        <Item2 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item3 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item4 Value="/usr/local/pandroid/source/"/>
+        <Item5 Value="/home/android/Popis/"/>
+        <Item6 Value="/usr/local/pandroid/example/TestBarCode/"/>
+        <Item7 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item8 Value="/home/zeljko/"/>
+        <Item9 Value="/home/android/Library/SringList/jni/"/>
+        <Item10 Value="/home/android/Library/SringList/src/"/>
+        <Item11 Value="/home/android/PDAProdaja/"/>
+        <Item12 Value="/home/android/Library/Firebird/jni/"/>
+        <Item13 Value="/home/zeljko/Desktop/jni/sample/native/"/>
+        <Item14 Value="/home/zeljko/Desktop/jni/javadpr/"/>
+        <Item15 Value="/usr/local/pandroid/example/PasswordDialog/"/>
+        <Item16 Value="/usr/local/pandroid/example/Glas/"/>
+        <Item17 Value="/usr/local/pandroid/"/>
+        <Item18 Value="/home/android/PasswordDialog/"/>
+        <Item19 Value="/home/android/Cordova01/"/>
+        <Item20 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

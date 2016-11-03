@@ -95,14 +95,13 @@ begin
 end;
 
 function #ActivityName#.onOptionsItemSelected(Item: AVMenuItem): JBoolean;
-var
-  edit: AEditFile;
 begin
    Result := true;
    case item.getItemID of
       1: begin
-         edit := AEditFile.create(Self , IniFileName) ;
-         edit.show;
+         With AEditFile.create(Self , IniFileName) do
+          show;
+
       end else Result := false;
    end;
 end;

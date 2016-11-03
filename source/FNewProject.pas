@@ -219,7 +219,7 @@ var
 begin
   lFile := TStringList.Create;
   try
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+'android'+PathDelim+ 'AndroidManifest.xml');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+'android'+PathDelim+ 'AndroidManifest.xml');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
@@ -227,7 +227,7 @@ begin
 
 
     lFile.Clear;
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+'android'+PathDelim+ 'build.xml');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+'android'+PathDelim+ 'build.xml');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
@@ -258,7 +258,7 @@ begin
     lFile.SaveToFile(AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'project.properties');
 
    lFile.Clear;
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+'android'+PathDelim+ 'ant.properties');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+'android'+PathDelim+ 'ant.properties');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
@@ -278,7 +278,7 @@ begin
   lFile := TStringList.Create;
   try
     lFile.Clear;
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+ 'MainActivity.lpr');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'MainActivity.lpr');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
@@ -286,21 +286,21 @@ begin
 
 
     lFile.Clear;
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+ 'MainActivity.lpi');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'MainActivity.lpi');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
     lFile.SaveToFile(AProject.gProjectDir + PathDelim+ AProject.gAppName + '.lpi');
 
     lFile.Clear;
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+ 'MainActivity.lps');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'MainActivity.lps');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
     lFile.SaveToFile(AProject.gProjectDir + PathDelim+ AProject.gAppName + '.lps');
 
     lFile.Clear;
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+ 'Rjava.pas');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'Rjava.pas');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
@@ -318,14 +318,14 @@ begin
   lFile := TStringList.Create;
   try
     lFile.Clear;
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'values' + PathDelim + 'strings.xml');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'values' + PathDelim + 'strings.xml');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
     lFile.SaveToFile(AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'values' + PathDelim + 'strings.xml');
 
     lFile.Clear;
-    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'values' + PathDelim + 'styles.xml');
+    lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'values' + PathDelim + 'styles.xml');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
     end;
@@ -338,16 +338,16 @@ begin
 {  FileUtil.CopyFile(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'drawable-ldpi' + PathDelim + 'ic_launcher.png',
   AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'drawable-ldpi' + PathDelim + 'ic_launcher.png');
  }
-  FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'drawable',
+  FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'drawable',
   AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'drawable' , [cffCreateDestDirectory]);
 
-  FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'drawable-ldpi',
+  FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'drawable-ldpi',
   AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'res' + PathDelim + 'drawable-ldpi' , [cffCreateDestDirectory]);
 
-  FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+ 'android' + PathDelim + 'libs',
+  FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'android' + PathDelim + 'libs',
   AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'libs' , [cffCreateDestDirectory]);
 
-  FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+ 'android' + PathDelim + 'assets',
+  FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'android' + PathDelim + 'assets',
   AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'assets' , [cffCreateDestDirectory]);
 end;
 

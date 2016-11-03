@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="StringList"/>
-          <Item2 Value="TStringList"/>
-          <Item3 Value="R.drawable.ic_launcher"/>
-          <Item4 Value="PasswordTransformationMethod ="/>
-          <Item5 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
-          <Item6 Value="textPassword"/>
-          <Item7 Value="activityResultCallback"/>
-          <Item8 Value="Config ="/>
-          <Item9 Value="CordovaWebView ="/>
-          <Item10 Value="CordovaPlugin"/>
-          <Item11 Value="Project"/>
-          <Item12 Value="AATimePickerDialog"/>
-          <Item13 Value="Calendar ="/>
-          <Item14 Value="DateSetList"/>
-          <Item15 Value="DateSetListner"/>
-          <Item16 Value="OnDateSetListner"/>
-          <Item17 Value="DatePickerDialog ="/>
-          <Item18 Value="UsbAccessory"/>
-          <Item19 Value="UsbManager"/>
-          <Item20 Value="TLibHandle"/>
+          <Item1 Value="template"/>
+          <Item2 Value="CilicoUHF"/>
+          <Item3 Value="ACilicoUHF"/>
+          <Item4 Value="StringList"/>
+          <Item5 Value="TStringList"/>
+          <Item6 Value="R.drawable.ic_launcher"/>
+          <Item7 Value="PasswordTransformationMethod ="/>
+          <Item8 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
+          <Item9 Value="textPassword"/>
+          <Item10 Value="activityResultCallback"/>
+          <Item11 Value="Config ="/>
+          <Item12 Value="CordovaWebView ="/>
+          <Item13 Value="CordovaPlugin"/>
+          <Item14 Value="Project"/>
+          <Item15 Value="AATimePickerDialog"/>
+          <Item16 Value="Calendar ="/>
+          <Item17 Value="DateSetList"/>
+          <Item18 Value="DateSetListner"/>
+          <Item19 Value="OnDateSetListner"/>
+          <Item20 Value="DatePickerDialog ="/>
         </Find>
       </History>
     </Find>
@@ -41,28 +41,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/Firebird/">
+    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/source/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Firebird/"/>
-        <Item2 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item3 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item4 Value="/usr/local/pandroid/source/"/>
-        <Item5 Value="/home/android/Popis/"/>
+        <Item1 Value="/usr/local/pandroid/source/"/>
+        <Item2 Value="/home/android/Firebird/"/>
+        <Item3 Value="/home/android/Popis/"/>
+        <Item4 Value="/home/android/PDAProdaja/"/>
+        <Item5 Value="/home/android/zeljus/Reciklaza/"/>
         <Item6 Value="/usr/local/pandroid/example/TestBarCode/"/>
-        <Item7 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item8 Value="/home/zeljko/"/>
-        <Item9 Value="/home/android/Library/SringList/jni/"/>
-        <Item10 Value="/home/android/Library/SringList/src/"/>
-        <Item11 Value="/home/android/PDAProdaja/"/>
-        <Item12 Value="/home/android/Library/Firebird/jni/"/>
-        <Item13 Value="/home/zeljko/Desktop/jni/sample/native/"/>
-        <Item14 Value="/home/zeljko/Desktop/jni/javadpr/"/>
-        <Item15 Value="/usr/local/pandroid/example/PasswordDialog/"/>
-        <Item16 Value="/usr/local/pandroid/example/Glas/"/>
-        <Item17 Value="/usr/local/pandroid/"/>
-        <Item18 Value="/home/android/PasswordDialog/"/>
-        <Item19 Value="/home/android/Cordova01/"/>
-        <Item20 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/"/>
+        <Item7 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item8 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item9 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item10 Value="/home/zeljko/"/>
+        <Item11 Value="/home/android/Library/SringList/jni/"/>
+        <Item12 Value="/home/android/Library/SringList/src/"/>
+        <Item13 Value="/home/android/Library/Firebird/jni/"/>
+        <Item14 Value="/home/zeljko/Desktop/jni/sample/native/"/>
+        <Item15 Value="/home/zeljko/Desktop/jni/javadpr/"/>
+        <Item16 Value="/usr/local/pandroid/example/PasswordDialog/"/>
+        <Item17 Value="/usr/local/pandroid/example/Glas/"/>
+        <Item18 Value="/usr/local/pandroid/"/>
+        <Item19 Value="/home/android/PasswordDialog/"/>
+        <Item20 Value="/home/android/Cordova01/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

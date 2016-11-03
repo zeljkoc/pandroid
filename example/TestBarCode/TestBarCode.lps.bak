@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="TestBarCode.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="157"/>
+        <CursorPos X="43" Y="191"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../units/AZCForms.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="219"/>
+        <CursorPos X="24" Y="264"/>
+        <UsageCount Value="11"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../units/typhon/androidr14.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41509"/>
+        <CursorPos X="3" Y="41550"/>
+        <UsageCount Value="11"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="TestBarCode.lpr"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="16" Y="18"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="android/build_debug_apk.sh"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="58" Y="15"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit4>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+</CONFIG>

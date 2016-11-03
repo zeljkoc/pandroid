@@ -3,26 +3,26 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="DemoSQLite.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="33" Y="15"/>
+        <TopLine Value="22"/>
+        <CursorPos X="31" Y="52"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="Data.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="4"/>
         <CursorPos X="2" Y="23"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="android/build_debug_apk.sh"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="47" Y="4"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
@@ -30,13 +30,23 @@
       </Unit2>
       <Unit3>
         <Filename Value="../../units/AZCListView.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2"/>
-        <CursorPos X="13" Y="47"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="16" Y="29"/>
         <UsageCount Value="11"/>
+        <Loaded Value="True"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="45187"/>
+        <CursorPos X="3" Y="45206"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="15" HistoryIndex="14">
       <Position1>
         <Filename Value="DemoSQLite.lpr"/>
         <Caret Line="33" Column="21" TopLine="14"/>
@@ -45,6 +55,58 @@
         <Filename Value="DemoSQLite.lpr"/>
         <Caret Line="18" Column="43" TopLine="16"/>
       </Position2>
+      <Position3>
+        <Filename Value="DemoSQLite.lpr"/>
+        <Caret Line="52" Column="31" TopLine="22"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="29" Column="10" TopLine="16"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="57" Column="53" TopLine="16"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="78" Column="17" TopLine="36"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="79" Column="14" TopLine="37"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="91" Column="36" TopLine="55"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="155" Column="36" TopLine="116"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="29" Column="16" TopLine="4"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="57" Column="53" TopLine="15"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="78" Column="17" TopLine="36"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="79" Column="14" TopLine="37"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="91" Column="36" TopLine="49"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../units/AZCListView.pas"/>
+        <Caret Line="155" Column="36" TopLine="113"/>
+      </Position15>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

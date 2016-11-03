@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/home/android/Firebird/Firebird.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/source/pandroid.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/AZCUserPasswordDialogs.pas"/>
-        <Item2 Value="/usr/local/pandroid/library/Firebird/zcfbclient.pas"/>
-        <Item3 Value="/usr/local/pandroid/library/Firebird/zcfbclient.inc"/>
-        <Item4 Value="/home/android/Library/SringList/jni/StringList.pas"/>
-        <Item5 Value="/home/android/Library/SringList/src/StringList.java"/>
-        <Item6 Value="/home/android/Library/SringList/jni/zcFirebird.pas"/>
-        <Item7 Value="/home/zeljko/Desktop/jni/sample/native/uSimpleDemo.pas"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/inc/objpash.inc"/>
-        <Item9 Value="/home/zeljko/Desktop/jni/javadpr/JNI.pas"/>
-        <Item10 Value="/home/zeljko/RAZVOJ/Android/pandroid/units/AZCDialogs.pas"/>
+        <Item1 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/base/bufdataset.pas"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/classes/classesh.inc"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/base/db.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/dataset.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/dataset.inc"/>
+        <Item6 Value="/usr/local/pandroid/units/AZCUserPasswordDialogs.pas"/>
+        <Item7 Value="/usr/local/pandroid/library/Firebird/zcfbclient.pas"/>
+        <Item8 Value="/usr/local/pandroid/library/Firebird/zcfbclient.inc"/>
+        <Item9 Value="/home/android/Library/SringList/jni/StringList.pas"/>
+        <Item10 Value="/home/android/Library/SringList/src/StringList.java"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/android/Firebird/Firebird.lpi"/>
-        <Item2 Value="/usr/local/pandroid/example/TempFirebird/TempFirebird.lpi"/>
-        <Item3 Value="/usr/local/pandroid/library/Firebird/jni/project1.lpi"/>
-        <Item4 Value="/usr/local/pandroid/source/pandroid.lpi"/>
-        <Item5 Value="/home/android/Popis/Popis.lpi"/>
+        <Item1 Value="/usr/local/pandroid/source/pandroid.lpi"/>
+        <Item2 Value="/home/android/Firebird/Firebird.lpi"/>
+        <Item3 Value="/home/android/Popis/Popis.lpi"/>
+        <Item4 Value="/home/android/PDAProdaja/PDAProdaja.lpi"/>
+        <Item5 Value="/home/android/zeljus/Reciklaza/Reciklaza.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="3">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>
@@ -102,10 +102,11 @@
   <ObjectInspectorOptions ShowHints="False" ShowStatusBar="False" ShowInfoBox="False" InfoBoxHeight="50">
     <Version Value="3"/>
     <Bounds>
+      <PropertyPage SplitterX="165"/>
       <EventPage SplitterX="140"/>
     </Bounds>
     <ComponentTree>
-      <Height Value="183"/>
+      <Height Value="120"/>
     </ComponentTree>
   </ObjectInspectorOptions>
   <Desktops Count="2" ActiveDesktop="default">

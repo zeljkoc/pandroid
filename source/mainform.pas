@@ -21,6 +21,7 @@ type
     buttonGenerateHeaders1: TButton;
     buttonGenerateHeaders2: TButton;
     buttonNewProject: TButton;
+    cbProject: TComboBox;
     eSendApk: TComboBox;
     eBuildTools: TComboBox;
     eTarget: TComboBox;
@@ -34,18 +35,19 @@ type
     Label11: TLabel;
     Label2: TLabel;
     Label3: TLabel;
+    Label4: TLabel;
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
     procedure buttonGenerateHeaders1Click(Sender: TObject);
     procedure buttonGenerateHeaders2Click(Sender: TObject);
     procedure buttonNewProjectClick(Sender: TObject);
-    procedure eBuildToolsChange(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
     { private declarations }
 
     procedure SaveIniFile;
+    procedure ProjectTemplateDirectory(ListDir: String);
   public
     { public declarations }
      procedure LoadIniFile;
@@ -73,14 +75,10 @@ begin
   CreateNewAndroidProject;
 end;
 
-procedure TForm1.eBuildToolsChange(Sender: TObject);
-begin
-
-end;
-
 procedure TForm1.FormCreate(Sender: TObject);
 begin
    LoadIniFile;
+   ProjectTemplateDirectory(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim);
 end;
 
 procedure TForm1.buttonGenerateHeaders1Click(Sender: TObject);
@@ -127,6 +125,23 @@ begin
   finally
     IniFile.Free;
   end;
+end;
+
+procedure TForm1.ProjectTemplateDirectory(ListDir: String);
+var
+   Info: TSearchRec;
+begin
+  cbProject.Clear;
+  if FindFirst(ListDir+'*', faAnyFile and faDirectory, Info) = 0 then begin
+    repeat
+      with Info do begin
+        if ((Attr and faDirectory) <> 0) and (Name <> '.') and (Name <> '..') then
+          cbProject.Items.Add(Name);
+      end;
+    until FindNext(info)<>0;
+  end;
+  FindClose(Info);
+  cbProject.Text := cbProject.Items[0];
 end;
 
 procedure TForm1.EditToAProject;

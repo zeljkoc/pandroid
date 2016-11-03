@@ -110,8 +110,6 @@
 /usr/local/pandroid/example/TestBarCode/android/bin/classes/ADBDataBase.ppu \
 /usr/local/pandroid/example/TestBarCode/android/bin/classes/Rjava.ppu \
 /usr/local/pandroid/example/TestBarCode/android/bin/dexedLibs/TIniFile-2fe9cc1c6f3fd7704e09fc9533e892a7.jar \
-/usr/local/pandroid/example/TestBarCode/android/bin/dexedLibs/achartengine-1.1.0-b05cfeef44e4da5283bd0d08e5357a1b.jar \
 /usr/local/pandroid/example/TestBarCode/android/bin/dexedLibs/annotations-38dccae6cfa2c367d3697c775dac2f21.jar \
 /usr/local/pandroid/example/TestBarCode/android/bin/dexedLibs/fbsqlite-86d24004475cd1d3687db7d52d7e9858.jar \
-/usr/local/pandroid/example/TestBarCode/android/bin/dexedLibs/CilicoUHF-fbe6f1a7d3a1e8317dcec46e39eaa8e8.jar \
 /usr/local/pandroid/example/TestBarCode/android/bin/dexedLibs/dataset-d05257182101eb558a9185acc36dea86.jar \

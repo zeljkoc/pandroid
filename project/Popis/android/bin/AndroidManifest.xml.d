@@ -1,2 +1,2 @@
-/home/android/Popis/android/bin/AndroidManifest.xml : \
-/home/android/Popis/android/AndroidManifest.xml \
+/usr/local/pandroid/project/Popis/android/bin/AndroidManifest.xml : \
+/usr/local/pandroid/project/Popis/android/AndroidManifest.xml \

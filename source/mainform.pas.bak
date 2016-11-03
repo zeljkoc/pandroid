@@ -21,6 +21,8 @@ type
     buttonGenerateHeaders1: TButton;
     buttonGenerateHeaders2: TButton;
     buttonNewProject: TButton;
+    cbProject: TComboBox;
+    eSendApk: TComboBox;
     eBuildTools: TComboBox;
     eTarget: TComboBox;
     eAppName: TEdit;
@@ -32,6 +34,8 @@ type
     Label1: TLabel;
     Label11: TLabel;
     Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
@@ -43,6 +47,7 @@ type
     { private declarations }
 
     procedure SaveIniFile;
+    procedure ProjectTemplateDirectory(ListDir: String);
   public
     { public declarations }
      procedure LoadIniFile;
@@ -73,6 +78,7 @@ end;
 procedure TForm1.FormCreate(Sender: TObject);
 begin
    LoadIniFile;
+   ProjectTemplateDirectory(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim);
 end;
 
 procedure TForm1.buttonGenerateHeaders1Click(Sender: TObject);
@@ -93,6 +99,7 @@ begin
      eAndroidSDKDir.Text     := IniFile.ReadString('pandroid', 'AndroidSDKDir', '/usr/local/pandroid/sdk');
      eTarget.Text            := IniFile.ReadString('pandroid', 'Target', 'android-15');
      eBuildTools.Text        := IniFile.ReadString('pandroid', 'BuildTools', '23.0.3');
+     eSendApk.Text           := IniFile.ReadString('pandroid', 'SendApk', '1');
 
      AProject.gActivityName  := 'MainActivity';
 
@@ -114,9 +121,27 @@ begin
      IniFile.WriteString('pandroid', 'AndroidSDKDir',   eAndroidSDKDir.Text);
      IniFile.WriteString('pandroid', 'Target',          eTarget.Text);
      IniFile.WriteString('pandroid', 'BuildTools',      eBuildTools.Text);
+     IniFile.WriteString('pandroid', 'SendApk',         eSendApk.Text);
   finally
     IniFile.Free;
   end;
+end;
+
+procedure TForm1.ProjectTemplateDirectory(ListDir: String);
+var
+   Info: TSearchRec;
+begin
+  cbProject.Clear;
+  if FindFirst(ListDir+'*', faAnyFile and faDirectory, Info) = 0 then begin
+    repeat
+      with Info do begin
+        if ((Attr and faDirectory) <> 0) and (Name <> '.') and (Name <> '..') then
+          cbProject.Items.Add(Name);
+      end;
+    until FindNext(info)<>0;
+  end;
+  FindClose(Info);
+  cbProject.Text := cbProject.Items[0];
 end;
 
 procedure TForm1.EditToAProject;
@@ -128,6 +153,7 @@ begin
     gAndroidSDKDir      := eAndroidSDKDir.Text;
     gTarget             := eTarget.Text;
     gBuildTools         := eBuildTools.Text;
+    gSendApk            := eSendApk.Text;
   end;
 end;
 

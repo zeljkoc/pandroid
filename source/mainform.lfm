@@ -136,7 +136,6 @@ object Form1: TForm1
       Items.Strings = (
         '23.0.3'
       )
-      OnChange = eBuildToolsChange
       TabOrder = 2
       Text = '23.0.3'
     end
@@ -190,12 +189,29 @@ object Form1: TForm1
     TabOrder = 3
   end
   object buttonNewProject: TButton
-    Left = 616
-    Height = 25
-    Top = 123
+    Left = 600
+    Height = 26
+    Top = 128
     Width = 152
     Caption = '&Create new Project'
     OnClick = buttonNewProjectClick
     TabOrder = 4
+  end
+  object cbProject: TComboBox
+    Left = 193
+    Height = 27
+    Top = 128
+    Width = 399
+    ItemHeight = 0
+    TabOrder = 5
+    Text = 'cbProject'
+  end
+  object Label4: TLabel
+    Left = 64
+    Height = 15
+    Top = 136
+    Width = 116
+    Caption = 'Project template: '
+    ParentColor = False
   end
 end

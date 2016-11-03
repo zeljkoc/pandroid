@@ -14,9 +14,9 @@
       <Unit1>
         <Filename Value="insertRecord.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="18"/>
-        <CursorPos X="20" Y="41"/>
+        <CursorPos X="46" Y="11"/>
         <UsageCount Value="382"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -93,9 +93,8 @@
       </Unit11>
       <Unit12>
         <Filename Value="../../../../codetyphon/typhon/components/pl_Synapse/source/httpsend.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="16"/>
+        <CursorPos X="47" Y="5"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit12>

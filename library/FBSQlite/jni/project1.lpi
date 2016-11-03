@@ -130,10 +130,10 @@ install:
     </RunParams>
     <RequiredPackages Count="2">
       <Item1>
-        <PackageName Value="FCL"/>
+        <PackageName Value="LazUtils"/>
       </Item1>
       <Item2>
-        <PackageName Value="bs_Utils"/>
+        <PackageName Value="FCL"/>
       </Item2>
     </RequiredPackages>
     <Units Count="2">
@@ -155,7 +155,7 @@ install:
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <Libraries Value="/usr/local/codetyphon/binLibraries/android-4.0-api14-arm/"/>
-      <OtherUnitFiles Value="/usr/local/codetyphon/fpcsrc/packages/fcl-db/src/sqldb/sqlite/;/usr/local/codetyphon/fpcsrc/packages/jni/src/;/usr/local/codetyphon/fpcsrc/packages/fcl-net/src/;../../Lazarus/indy-10.2.0.3/fpc;/usr/local/codetyphon/typhon/components/pl_Synapse/source/"/>
+      <OtherUnitFiles Value="/usr/local/codetyphon/fpcsrc/packages/fcl-db/src/sqldb/sqlite/;/usr/local/codetyphon/fpcsrc/packages/jni/src/;/usr/local/codetyphon/fpcsrc/packages/fcl-net/src/;/usr/local/codetyphon/typhon/components/pl_Synapse/source/;../../../FreePascal/lazarus/components/indy/fpc"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>

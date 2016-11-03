@@ -8,7 +8,9 @@
         <Filename Value="TestBarCode.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <UsageCount Value="23"/>
+        <TopLine Value="157"/>
+        <CursorPos X="76" Y="185"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>

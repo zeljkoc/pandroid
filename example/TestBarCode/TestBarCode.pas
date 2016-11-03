@@ -182,7 +182,7 @@ begin
 
 
     try
-      Result := ParseXML(ZCJjnireplicate.HTTPSOAPPost('http://199.47.90.212/v31/router.asmx', 'http://www.gepir.org/GetPartyByGTIN', xml));
+      Result := ParseXML(ZCJjnireplicate.HTTPSOAPPost('http://52.70.203.173/v31/router.asmx', 'http://www.gepir.org/GetPartyByGTIN', xml));
     except
       Result := JLstring('Error!');
     end;

@@ -64,8 +64,6 @@ begin
 
    AddResFiles;
 
-   AddBatchFile;
-
    ShowMessage('Create project!');
 
  Except

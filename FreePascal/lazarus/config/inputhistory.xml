@@ -41,24 +41,24 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/source/">
+    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/example/PasswordDialog/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/source/"/>
+        <Item1 Value="/usr/local/pandroid/example/PasswordDialog/"/>
         <Item2 Value="/home/android/Firebird/"/>
-        <Item3 Value="/home/android/Popis/"/>
-        <Item4 Value="/home/android/PDAProdaja/"/>
-        <Item5 Value="/home/android/zeljus/Reciklaza/"/>
-        <Item6 Value="/usr/local/pandroid/example/TestBarCode/"/>
-        <Item7 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item8 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item9 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item10 Value="/home/zeljko/"/>
-        <Item11 Value="/home/android/Library/SringList/jni/"/>
-        <Item12 Value="/home/android/Library/SringList/src/"/>
-        <Item13 Value="/home/android/Library/Firebird/jni/"/>
-        <Item14 Value="/home/zeljko/Desktop/jni/sample/native/"/>
-        <Item15 Value="/home/zeljko/Desktop/jni/javadpr/"/>
-        <Item16 Value="/usr/local/pandroid/example/PasswordDialog/"/>
+        <Item3 Value="/usr/local/pandroid/source/"/>
+        <Item4 Value="/home/android/Popis/"/>
+        <Item5 Value="/home/android/PDAProdaja/"/>
+        <Item6 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item7 Value="/usr/local/pandroid/example/TestBarCode/"/>
+        <Item8 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item9 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item10 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item11 Value="/home/zeljko/"/>
+        <Item12 Value="/home/android/Library/SringList/jni/"/>
+        <Item13 Value="/home/android/Library/SringList/src/"/>
+        <Item14 Value="/home/android/Library/Firebird/jni/"/>
+        <Item15 Value="/home/zeljko/Desktop/jni/sample/native/"/>
+        <Item16 Value="/home/zeljko/Desktop/jni/javadpr/"/>
         <Item17 Value="/usr/local/pandroid/example/Glas/"/>
         <Item18 Value="/usr/local/pandroid/"/>
         <Item19 Value="/home/android/PasswordDialog/"/>

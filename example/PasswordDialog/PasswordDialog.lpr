@@ -74,7 +74,7 @@ end;
 procedure MainActivity.onClick(dInterface: ACDialogInterface; p1: LongInt);
 begin
   case p1 of
-   -2: result.setText(JLString('User name: ').concat(PasswordDialog.UserName.toString).concat(JLString(' Password: ')).concat(PasswordDialog.Password.toString))
+   -1: result.setText(JLString('User name: ').concat(PasswordDialog.UserName.toString).concat(JLString(' Password: ')).concat(PasswordDialog.Password.toString))
      else result.setText(JLString('Cancel'));
    end;
 end;

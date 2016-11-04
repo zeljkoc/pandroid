@@ -96,8 +96,8 @@ begin
 
   setView(layout);
 
-  setButton(JLString('Cancel'), ACDialogInterface.InnerOnClickListener(para1));   //-1
-  setButton2(JLString('Ok'), ACDialogInterface.InnerOnClickListener(para1));      //-2
+  setButton(JLString('Ok'), ACDialogInterface.InnerOnClickListener(para1));   //-1
+  setButton2(JLString('Cancel'), ACDialogInterface.InnerOnClickListener(para1));      //-2
 
    getWindow.setSoftInputMode(AVWindowManager.InnerLayoutParams.SOFT_INPUT_STATE_VISIBLE);
 

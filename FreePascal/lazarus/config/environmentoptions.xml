@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/PascalScript/PascalScript.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -79,11 +79,11 @@
         <Item10 Value="/home/android/Library/SringList/jni/StringList.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi"/>
-        <Item2 Value="/home/android/Firebird/Firebird.lpi"/>
-        <Item3 Value="/usr/local/pandroid/source/pandroid.lpi"/>
-        <Item4 Value="/home/android/Popis/Popis.lpi"/>
-        <Item5 Value="/home/android/PDAProdaja/PDAProdaja.lpi"/>
+        <Item1 Value="/usr/local/pandroid/example/PascalScript/PascalScript.lpi"/>
+        <Item2 Value="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi"/>
+        <Item3 Value="/home/android/Firebird/Firebird.lpi"/>
+        <Item4 Value="/usr/local/pandroid/source/pandroid.lpi"/>
+        <Item5 Value="/home/android/Popis/Popis.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="3">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>

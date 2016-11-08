@@ -10,21 +10,21 @@
         <IsVisibleTab Value="True"/>
         <TopLine Value="23"/>
         <CursorPos X="9" Y="44"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="APascalScript.pas"/>
         <EditorIndex Value="1"/>
         <CursorPos X="19" Y="24"/>
-        <UsageCount Value="12"/>
+        <UsageCount Value="13"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="APascalScript.inc"/>
         <EditorIndex Value="2"/>
         <CursorPos X="24" Y="7"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit2>
     </Units>

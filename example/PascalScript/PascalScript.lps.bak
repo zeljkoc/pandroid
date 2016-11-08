@@ -8,8 +8,8 @@
         <Filename Value="PascalScript.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="26"/>
-        <CursorPos X="13" Y="47"/>
+        <TopLine Value="23"/>
+        <CursorPos X="9" Y="44"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -17,7 +17,7 @@
         <Filename Value="APascalScript.pas"/>
         <EditorIndex Value="1"/>
         <CursorPos X="19" Y="24"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>

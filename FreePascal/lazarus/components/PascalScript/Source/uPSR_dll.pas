@@ -18,7 +18,7 @@ uses
   {$IFDEF UNIX}
   Unix, baseunix, dynlibs, termio, sockets;
   {$ELSE}
-  Windows;
+  {$IFDEF KYLIX}SysUtils;{$ELSE}Windows;{$ENDIF}
   {$ENDIF}
 
 {
@@ -79,8 +79,8 @@ var
   h, i: Longint;
   ph: PLoadedDll;
   dllhandle: THandle;
-  {$IFnDEF UNIX}
   loadwithalteredsearchpath: Boolean;
+  {$IFNDEF UNIX}
   Filename: String;
   {$ENDIF}
 begin
@@ -91,9 +91,7 @@ begin
   h := makehash(s2);
   s3 := copy(s, 1, pos(tbtchar(#0), s)-1);
   delete(s, 1, length(s3)+1);
-  {$IFnDEF UNIX}
   loadwithalteredsearchpath := bytebool(s[3]);
-  {$ENDIF}
   i := 2147483647; // maxint
   dllhandle := 0;
   repeat
@@ -107,7 +105,15 @@ begin
         Result := False;
         exit;
       end;
+
       {$IFDEF UNIX}
+      {$DEFINE UNIX_OR_KYLIX}
+      {$ENDIF}
+      {$IFDEF KYLIX}
+      {$DEFINE UNIX_OR_KYLIX}
+      {$ENDIF}
+
+      {$IFDEF UNIX_OR_KYLIX}
       dllhandle := LoadLibrary(PChar(s2));
       {$ELSE}
       {$IFDEF UNICODE}
@@ -295,8 +301,8 @@ begin
   if AddDllProcImport then
     Caller.AddSpecialProcImport('dll', @ProcessDllImport, nil);
   if RegisterUnloadDLL then
-    Caller.RegisterFunctionName('UNLOADDLL', UnloadProc, nil, nil);
-  Caller.RegisterFunctionName('DLLGETLASTERROR', GetLastErrorProc, nil, nil);
+    Caller.RegisterFunctionName('UnloadDll', UnloadProc, nil, nil);
+  Caller.RegisterFunctionName('DllGetLastError', GetLastErrorProc, nil, nil);
 end;
 
 end.

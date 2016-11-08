@@ -80,7 +80,8 @@ procedure MainActivity.onClick(aView: AVView);
 begin
   case aView.getId of
      1: begin
-          tv.setText(Script.Execute(et.getText.toString).toString);
+          Script.Execute(et.getText.toString);
+          tv.setText(Script.Result.toString);
           mess.setText(Script.Message.toString);
      end;
   end;

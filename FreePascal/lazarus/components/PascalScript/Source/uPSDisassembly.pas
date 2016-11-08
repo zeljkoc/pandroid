@@ -69,7 +69,7 @@ var
       btWideChar: Result := 'WideChar';
       btWideString: Result := 'WideString';
       {$ENDIF}
-      btSet: Result := 'Set'; 
+      btSet: Result := 'Set';
       btSingle: Result := 'Single';
       btDouble: Result := 'Double';
       btExtended: Result := 'Extended';

@@ -3,18 +3,14 @@ unit CompilerTestBase;
 
 interface
 
-uses Classes, uPSComponent, uPSCompiler, uPSRuntime, fpcunit, uPSC_std, uPSC_classes,
-  uPSR_std, uPSR_classes;
-     //TestFramework,
+uses Classes,
+     TestFramework,
      { Project Units }
-     //ifps3,
-     //ifpscomp,
-     //IFPS3CompExec;
+     ifps3,
+     ifpscomp,
+     IFPS3CompExec;
 
 type
-
-    { TCompilerTestBase }
-
     TCompilerTestBase = class(TTestCase)
     protected
         procedure SetUp; override;
@@ -27,8 +23,8 @@ type
         procedure Compile(script: string);
         procedure CompileRun(Script: string);
 
-        procedure OnCompile(Sender: TPSScript); virtual;
-        procedure OnExecute(Sender: TPSScript); virtual;
+        procedure OnCompile(Sender: TIFPS3CompExec); virtual;
+        procedure OnExecute(Sender: TIFPS3CompExec); virtual;
         procedure OnCompImport(Sender: TObject; x: TIFPSPascalCompiler); virtual;
         procedure OnExecImport(Sender: TObject; se: TIFPSExec; x: TIFPSRuntimeClassImporter); virtual;
     end;
@@ -36,20 +32,20 @@ type
 implementation
 
 uses StrUtils, SysUtils, Math,
-  Dialogs;//,
+  Dialogs,
     { Project Units }
-    //ifpiir_std,
-    //ifpii_std,
-    //ifpiir_stdctrls,
-    //ifpii_stdctrls,
-    //ifpiir_forms,
-    //ifpii_forms,
-    //ifpii_graphics,
-    //ifpii_controls,
-    //ifpii_classes,
-    //ifpiir_graphics,
-    //ifpiir_controls,
-    //ifpiir_classes;
+    ifpiir_std,
+    ifpii_std,
+    ifpiir_stdctrls,
+    ifpii_stdctrls,
+    ifpiir_forms,
+    ifpii_forms,
+    ifpii_graphics,
+    ifpii_controls,
+    ifpii_classes,
+    ifpiir_graphics,
+    ifpiir_controls,
+    ifpiir_classes;
 
 function MyFormat(const Format: string;
   const Args: array of const): string;
@@ -64,10 +60,10 @@ procedure TCompilerTestBase.SetUp;
 begin
     inherited;
     CompExec := TIFPS3CompExec.Create(nil);
-    CompExec.OnCompile := {$IFDEF FPC}@{$ENDIF}OnCompile;
-    CompExec.OnExecute := {$IFDEF FPC}@{$ENDIF}OnExecute;
-    CompExec.OnCompImport := {$IFDEF FPC}@{$ENDIF}OnCompImport;
-    CompExec.OnExecImport := {$IFDEF FPC}@{$ENDIF}OnExecImport;
+    CompExec.OnCompile := OnCompile;
+    CompExec.OnExecute := OnExecute;
+    CompExec.OnCompImport := OnCompImport;
+    CompExec.OnExecImport := OnExecImport;
 end;
 
 procedure TCompilerTestBase.TearDown;
@@ -94,7 +90,7 @@ begin
             Inttostr(CompExec.ExecErrorByteCodePosition));
 end;
 
-procedure TCompilerTestBase.OnCompile(Sender: TPSScript);
+procedure TCompilerTestBase.OnCompile(Sender: TIFPS3CompExec);
 begin
   Sender.AddFunction(@MyFormat, 'function Format(const Format: string; const Args: array of const): string;');
 end;
@@ -111,7 +107,7 @@ begin
     RIRegister_Classes(x, True);
 end;
 
-procedure TCompilerTestBase.OnExecute(Sender: TPSScript);
+procedure TCompilerTestBase.OnExecute(Sender: TIFPS3CompExec);
 begin
     //Sender.SetVarToInstance('SELF', Self);
 end;

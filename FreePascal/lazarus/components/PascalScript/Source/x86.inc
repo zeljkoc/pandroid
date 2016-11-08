@@ -1,5 +1,7 @@
 { implementation of x86         abi }
-
+{$ifdef FPC}
+{$define PS_ARRAY_ON_STACK}
+{$endif}
 function RealFloatCall_Register(p: Pointer;
   _EAX, _EDX, _ECX: Cardinal;
   StackData: Pointer;
@@ -388,16 +390,9 @@ var
             {$IFDEF PS_DYNARRAY}
               TempStr := StringOfChar(AnsiChar(#0),4);
               Pointer((@TempStr[1])^) := Pointer(fvar.Dta^);
-            {$IFDEF FPC}
-            {$IF FPC_FULLVERSION < 30101}
-              // pass dyn. array on stack
-              UseReg := false;
-            {$ELSE}
-              // pass dyn. arrays in registers when i386 register calling conventions are used
-              // more details -> FPC r30870
-              UseReg := CallingConv = cdRegister;
+            {$IFDEF PS_ARRAY_ON_STACK}
+            UseReg := false;
             {$ENDIF}
-            {$ENDIF ~FPC}
             {$ELSE}
               Exit;
             {$ENDIF}
@@ -475,7 +470,7 @@ var
             TempStr := StringOfChar(AnsiChar(#0),4);
             Pointer((@TempStr[1])^) := @MethodData;
 {$ELSE}
-            tempstr := StringOfChar(AnsiChar(#0),8);
+            TempStr := StringOfChar(AnsiChar(#0),8);
             TMethod((@TempStr[1])^) := MKMethod(Self, Longint(FVar.Dta^));
             UseReg := false;
 {$ENDIF}
@@ -594,12 +589,12 @@ begin
               {$IFNDEF PS_NOWIDESTRING}btWideChar, {$ENDIF}btu16, bts16:  tbtu16(res.dta^) := RealCall_Register(Address, EAX, EDX, ECX, @Stack[Length(Stack)-3], Length(Stack) div 4, 2, nil);
               btClass :
               begin
-              {$IFDEF FPC}
+              {$IF DEFINED (fpc) and (fpc_version < 3)}
                 if IsConstructor or IsVirtualCons then
                   tbtu32(res.dta^) := RealCall_Register(Address, EDX, EAX, ECX,
                   @Stack[Length(Stack) - 3], Length(Stack) div 4, 4, nil)
                 else
-             {$ENDIF}
+             {$IFEND}
                   tbtu32(res.dta^) := RealCall_Register(Address, EAX, EDX, ECX,
                   @Stack[Length(Stack) - 3], Length(Stack) div 4, 4, nil);
               end;
@@ -786,5 +781,4 @@ begin
     CallData.Free;
   end;
 end;
-
 

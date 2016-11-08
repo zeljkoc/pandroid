@@ -2,17 +2,15 @@
   Copyright (c) 2007 by Henry Vermaak (henry.vermaak@gmail.com) }
 
 {$ifndef darwin}
-  {$WARNING This code is Darwin specific at the moment!}
+  {$fatal This code is Darwin specific at the moment!}
 {$endif}
 
 {$ifndef cpu32}
-  {$WARNING This code is 32bit specific at the moment!}
+  {$fatal This code is 32bit specific at the moment!}
 {$endif}
-
 // FPC does not always push a copy of r3 - r10 to the stack (24(r1) - 52(r1)
 // The API states that the space must be reserved, if the regiser contents are not placed there.
 {$define NeedRegCopyOnStack}
-
 const
   rtINT = 0;
   rtINT64 = 1;
@@ -266,15 +264,6 @@ var
   end;
 
 begin
-
-{$ifndef darwin}
-  raise exception.create('This code is Darwin specific at the moment!');
-{$endif}
-
-{$ifndef cpu32}
-  raise exception.create('This code is 32bit specific at the moment!');
-{$endif}
-
   if (Integer(CallingConv) and 64) <> 0 then begin
     IsConstructor := true;
     CAllingConv := TPSCallingConvention(Integer(CallingConv) and not 64);

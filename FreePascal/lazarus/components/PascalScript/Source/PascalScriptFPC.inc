@@ -2,7 +2,7 @@
   {$DEFINE PS_HAVEVARIANT}
   {$DEFINE PS_DYNARRAY}
   {$ifndef mswindows}
-  {$DEFINE PS_NOIDISPATCH}
+    {$DEFINE PS_NOIDISPATCH}
   {$endif}  
   {$if (fpc_version>2) or ((fpc_version=2) and ((fpc_release=2) and (fpc_patch>=4)) or (fpc_release>2))}
     {$UNDEF FPC_OLD_FIX}

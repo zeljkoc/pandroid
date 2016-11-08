@@ -16,29 +16,29 @@ var
 
 
 //Opste
-function JNI_JStringToString(env: PJNIEnv; JStr: JString): string;
-function JNI_StringToJString(env: PJNIEnv; Str: string): jstring;
+function JNI_JStringToString(env: PJNIEnv; JStr: JString): string; cdecl;
+function JNI_StringToJString(env: PJNIEnv; Str: string): jstring;  cdecl;
 
-function JNI_JStringToWideString(Env: PJNIEnv; JStr: JString): WideString;
-function JNI_WideStringToJString(Env: PJNIEnv; const WStr: WideString): JString;
+function JNI_JStringToWideString(Env: PJNIEnv; JStr: JString): WideString; cdecl;
+function JNI_WideStringToJString(Env: PJNIEnv; const WStr: WideString): JString; cdecl;
 
-function JNI_JStringArrayToStrings(Env: PJNIEnv; jStrings: jarray): TStringDynArray;  { Convert jarray to AnsiString array }
-function JNI_StringsToJStringArray(Env: PJNIEnv; strings: TStringDynArray): jarray;   { Convert AnsiString array to jarray }
+function JNI_JStringArrayToStrings(Env: PJNIEnv; jStrings: jarray): TStringDynArray;cdecl;  { Convert jarray to AnsiString array }
+function JNI_StringsToJStringArray(Env: PJNIEnv; strings: TStringDynArray): jarray; cdecl;  { Convert AnsiString array to jarray }
 
-function JNI_JIntArrayToIntegers(Env: PJNIEnv; jarr: jintArray): TIntegerDynArray;    { Convert JIntArray to integer array }
-function JNI_IntegersToJIntArray(Env: PJNIEnv; arr: TIntegerDynArray): JIntArray;     { Convert integer array to JIntArray }
+function JNI_JIntArrayToIntegers(Env: PJNIEnv; jarr: jintArray): TIntegerDynArray;cdecl;    { Convert JIntArray to integer array }
+function JNI_IntegersToJIntArray(Env: PJNIEnv; arr: TIntegerDynArray): JIntArray; cdecl;    { Convert integer array to JIntArray }
 
-function JNI_BytesToJByteArray(Env: PJNIEnv; Bytes: TByteDynArray): JByteArray;      { Convert byte array to JByteArray }
-function JNI_JByteArrayToBytes(Env: PJNIEnv; JBytes: jbyteArray): TByteDynArray;      { Convert JByteArray to byte array }
+function JNI_BytesToJByteArray(Env: PJNIEnv; Bytes: TByteDynArray): JByteArray; cdecl;      { Convert byte array to JByteArray }
+function JNI_JByteArrayToBytes(Env: PJNIEnv; JBytes: jbyteArray): TByteDynArray;cdecl;      { Convert JByteArray to byte array }
 
-procedure JNI_ThrowException(Env: PJNIEnv; E: Exception);
+procedure JNI_ThrowException(Env: PJNIEnv; E: Exception); cdecl;
 
-procedure SetAndroidPackageName(Env: pJNIEnv; this: JObject; PackageName: JString);
+procedure SetAndroidPackageName(Env: pJNIEnv; this: JObject; PackageName: JString); cdecl;
 
 implementation
 
 //Opste
-function JNI_JStringToString(env: PJNIEnv; JStr: JString): string;
+function JNI_JStringToString(env: PJNIEnv; JStr: JString): string; cdecl;
 var
   pAnsiCharTMP: pAnsiChar;
   pIsCopy: Byte;
@@ -61,14 +61,14 @@ begin
     end;
 end;
 
-function JNI_StringToJString(env: PJNIEnv; Str: string): jstring;
+function JNI_StringToJString(env: PJNIEnv; Str: string): jstring; cdecl;
 begin
     Result := env^^.NewStringUTF(env, @Str[1]);
 end;
 
 ////
 
-function JNI_JStringToWideString(Env: PJNIEnv; JStr: JString): WideString;
+function JNI_JStringToWideString(Env: PJNIEnv; JStr: JString): WideString; cdecl;
 var
   IsCopy: Pjboolean;
   Chars: PChar;
@@ -87,7 +87,7 @@ begin
     end;
 end;
 
-function JNI_WideStringToJString(Env: PJNIEnv; const WStr: WideString): JString;
+function JNI_WideStringToJString(Env: PJNIEnv; const WStr: WideString): JString;  cdecl;
 begin
   Result := Env^^.NewString(Env, Pointer(WStr), Length(WStr));
 end;
@@ -95,7 +95,7 @@ end;
 
 ////
 
-function JNI_JStringArrayToStrings(Env: PJNIEnv; jStrings: jarray): TStringDynArray;   //array of AnsiString;
+function JNI_JStringArrayToStrings(Env: PJNIEnv; jStrings: jarray): TStringDynArray; cdecl;  //array of AnsiString;
 var
   len, i: jsize;
   w_ret: TStringDynArray;
@@ -112,7 +112,7 @@ begin
 end;
 
 
-function JNI_StringsToJStringArray(Env: PJNIEnv; strings: TStringDynArray): jarray;
+function JNI_StringsToJStringArray(Env: PJNIEnv; strings: TStringDynArray): jarray; cdecl;
 var
   i, len: cardinal;
   w_ret: jarray;
@@ -128,7 +128,7 @@ end;
 
 
 ///
-function JNI_JIntArrayToIntegers(Env: PJNIEnv; jarr: jintArray): TIntegerDynArray;  // array of Integer
+function JNI_JIntArrayToIntegers(Env: PJNIEnv; jarr: jintArray): TIntegerDynArray; cdecl; // array of Integer
 var
   w_ret: TIntegerDynArray;
   len: jint;
@@ -139,7 +139,7 @@ begin
   Result := w_ret;
 end;
 
-function JNI_IntegersToJIntArray(Env: PJNIEnv; arr: TIntegerDynArray): JIntArray;
+function JNI_IntegersToJIntArray(Env: PJNIEnv; arr: TIntegerDynArray): JIntArray; cdecl;
 var
   len: cardinal;
   intArray: JIntArray;
@@ -158,7 +158,7 @@ end;
 
 //
 { Convert byte array to JByteArray }
-function JNI_BytesToJByteArray(Env: PJNIEnv; Bytes: TByteDynArray): JByteArray;
+function JNI_BytesToJByteArray(Env: PJNIEnv; Bytes: TByteDynArray): JByteArray; cdecl;
 var
   len: cardinal;
   byteArray: JByteArray;
@@ -175,7 +175,7 @@ begin
   Result := byteArray;
 end;
 
-function JNI_JByteArrayToBytes(Env: PJNIEnv; JBytes: jbyteArray): TByteDynArray;   //  array of Byte
+function JNI_JByteArrayToBytes(Env: PJNIEnv; JBytes: jbyteArray): TByteDynArray; cdecl;  //  array of Byte
 var
   len: jsize;
   w_ret: TByteDynArray;
@@ -186,7 +186,7 @@ begin
   Result := w_ret;
 end;
 
-procedure JNI_ThrowException(Env: PJNIEnv; E: Exception);
+procedure JNI_ThrowException(Env: PJNIEnv; E: Exception); cdecl;
 var
   jc: JObject;
 begin
@@ -194,7 +194,7 @@ begin
   Env^^.ThrowNew(Env, jc, PChar(E.Message));
 end;
 
-procedure SetAndroidPackageName(Env: pJNIEnv; this: JObject; PackageName: JString);
+procedure SetAndroidPackageName(Env: pJNIEnv; this: JObject; PackageName: JString); cdecl;
 begin
     LibPath := '/data/data/' + JNI_JStringToString(Env, PackageName) + '/lib/';
 end;

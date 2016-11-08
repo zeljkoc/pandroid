@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/usr/local/pandroid/example/PascalScript/PascalScript.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/home/android/Library/PascalScript/jni/PascalScript.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/home/android/Demo/PascalScript/APascalScript.inc"/>
-        <Item2 Value="/home/android/Demo/PascalScript/APascalScript.pas"/>
-        <Item3 Value="/home/android/Firebird/Data.pas"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/base/bufdataset.pas"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/classes/classesh.inc"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/base/db.pas"/>
-        <Item7 Value="/usr/local/pandroid/units/dataset.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/dataset.inc"/>
-        <Item9 Value="/usr/local/pandroid/units/AZCUserPasswordDialogs.pas"/>
-        <Item10 Value="/usr/local/pandroid/library/Firebird/zcfbclient.pas"/>
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSC_DB.pas"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent.pas"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/types.pp"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSR_std.pas"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSR_forms.pas"/>
+        <Item6 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/gtk2/gtk2cellrenderer.pas"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_Forms.pas"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSC_forms.pas"/>
+        <Item9 Value="/home/android/Firebird/Data.pas"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/base/bufdataset.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/example/PascalScript/PascalScript.lpi"/>
-        <Item2 Value="/home/android/Demo/PascalScript/PascalScript.lpi"/>
-        <Item3 Value="/home/android/Library/PascalScript/jni/PascalScript.lpi"/>
-        <Item4 Value="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi"/>
-        <Item5 Value="/home/android/Firebird/Firebird.lpi"/>
+        <Item1 Value="/home/android/Library/PascalScript/jni/PascalScript.lpi"/>
+        <Item2 Value="/usr/local/pandroid/example/PascalScript/PascalScript.lpi"/>
+        <Item3 Value="/usr/local/pandroid/example/PasswordDialog/PasswordDialog.lpi"/>
+        <Item4 Value="/home/android/Firebird/Firebird.lpi"/>
+        <Item5 Value="/usr/local/pandroid/source/pandroid.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="3">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>

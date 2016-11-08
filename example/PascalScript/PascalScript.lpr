@@ -35,11 +35,11 @@ type
 implementation
 
 const
-  sc = 'program test; '+#10+
+ sc = 'program test; '+#10+
        'Var '+#10+
        '    i: integer; '+#10+
        'begin '+#10+
-       '  i:= 3 '+ #10 +
+       ' for  i:=0 to 3 do '+ #10 +
        '  Writeln(IntToStr(i)); '+#10+
        ' '+#10+
        'end. ';

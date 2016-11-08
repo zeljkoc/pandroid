@@ -37,14 +37,11 @@ implementation
 const
   sc = 'program test; '+#10+
        'Var '+#10+
-     //  '    S : TStringList; '+#10+
        '    i: integer; '+#10+
        'begin '+#10+
-     //  '  S := TStringList.Create; '+#10+
-       ' for i:= 0 to 3 do begin '+ #10 +
-     //  '   S.Add(''aaaa''); '+#10+
+       ' for i:= 0 to 3 do  '+ #10 +
        '  Writeln(IntToStr(i)); '+#10+
-       ' end; '+#10+
+       ' '+#10+
        'end. ';
 
 

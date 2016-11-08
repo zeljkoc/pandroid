@@ -65,7 +65,7 @@
         <Item20 Value="/home/android/PasswordDialog/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="1">
+    <HistoryLists Count="3">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>

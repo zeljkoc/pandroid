@@ -39,7 +39,7 @@ const
        'Var '+#10+
        '    i: integer; '+#10+
        'begin '+#10+
-       ' for i:= 0 to 3 do  '+ #10 +
+       '  i:= 3 '+ #10 +
        '  Writeln(IntToStr(i)); '+#10+
        ' '+#10+
        'end. ';

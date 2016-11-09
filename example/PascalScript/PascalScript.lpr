@@ -35,11 +35,11 @@ type
 implementation
 
 const
- sc = 'program test; '+#10+
+  sc = 'program test; '+#10+
        'Var '+#10+
        '    i: integer; '+#10+
        'begin '+#10+
-       ' for  i:=0 to 3 do '+ #10 +
+       ' for i:= 0 to 30 do  '+ #10 +
        '  Writeln(IntToStr(i)); '+#10+
        ' '+#10+
        'end. ';
@@ -71,7 +71,7 @@ begin
   layout.addView(mess);
 
    Script:= ZCPPascalScript.create();
-   Script.Init;
+
 
   setContentView(layout);    
 end;
@@ -80,8 +80,7 @@ procedure MainActivity.onClick(aView: AVView);
 begin
   case aView.getId of
      1: begin
-          Script.Execute(et.getText.toString);
-          tv.setText(Script.Result.toString);
+          tv.setText(Script.Execute(et.getText.toString).toString);
           mess.setText(Script.Message.toString);
      end;
   end;

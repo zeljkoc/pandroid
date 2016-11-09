@@ -52,7 +52,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="/usr/local/pandroid/units/;../../units/android-16"/>
+      <OtherUnitFiles Value="/usr/local/pandroid/units/"/>
       <UnitOutputDirectory Value="android/bin/classes"/>
     </SearchPaths>
     <CodeGeneration>

@@ -248,7 +248,7 @@
 39:inc/typshrd.inc
 39:objpas/types.pp;1
 39:inc/typshrdh.inc
-39:objpas/types.pp;1
+39:objpas/types.pp;0
 39:inc/ustringh.inc
 39:linux/system.pp;0
 39:inc/ustrings.inc
@@ -410,7 +410,7 @@
 39:objpas/classes/writer.inc
 39:unix/classes.pp;24
 39:objpas/rtlconst.inc
-54:s.pp;1
+54:s.pp;0
 46:sysutils/datih.inc
 39:unix/sysutils.pp;0
 39:objpas/sysutils/diskh.inc

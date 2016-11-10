@@ -7,26 +7,28 @@
       <Unit0>
         <Filename Value="PascalScript.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="61"/>
-        <CursorPos Y="85"/>
+        <TopLine Value="20"/>
+        <CursorPos X="14" Y="82"/>
         <UsageCount Value="41"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="APascalScript.pas"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="19" Y="24"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="16" Y="24"/>
         <UsageCount Value="22"/>
+        <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="APascalScript.inc"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="30" Y="9"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="36" Y="3"/>
         <UsageCount Value="21"/>
+        <Loaded Value="True"/>
       </Unit2>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="PascalScript.lpr"/>
         <Caret Line="16" Column="44" TopLine="9"/>
@@ -35,6 +37,14 @@
         <Filename Value="PascalScript.lpr"/>
         <Caret Line="27" Column="48" TopLine="13"/>
       </Position2>
+      <Position3>
+        <Filename Value="PascalScript.lpr"/>
+        <Caret Line="16" Column="42" TopLine="5"/>
+      </Position3>
+      <Position4>
+        <Filename Value="APascalScript.pas"/>
+        <Caret Line="24" Column="16"/>
+      </Position4>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

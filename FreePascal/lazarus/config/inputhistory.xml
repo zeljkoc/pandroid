@@ -44,8 +44,8 @@
     <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/example/PascalScript/">
       <HistoryList Count="20">
         <Item1 Value="/usr/local/pandroid/example/PascalScript/"/>
-        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/"/>
-        <Item3 Value="/home/android/Library/PascalScript/jni/"/>
+        <Item2 Value="/home/android/Library/PascalScript/jni/"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/"/>
         <Item4 Value="/home/android/Projekti/PDAProdaja/"/>
         <Item5 Value="/usr/local/pandroid/FreePascal/"/>
         <Item6 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/ThirdParty/"/>

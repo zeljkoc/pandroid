@@ -5,7 +5,7 @@
     <KeyMapping>
       <default>
         <Version Value="6"/>
-        <ExternalToolCount Value="1"/>
+        <ExternalToolCount Value="2"/>
       </default>
     </KeyMapping>
     <CodeTools CodeTemplateFileName="/usr/local/pandroid/FreePascal/lazarus/config/lazarus.dci" CompletionLongLineHintTypeCompletionLongLineHintType="sclpExtendRightOnly" AutoRemoveEmptyMethods="True"/>

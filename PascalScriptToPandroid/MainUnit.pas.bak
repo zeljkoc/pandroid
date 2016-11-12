@@ -80,9 +80,9 @@ begin
   Memo1.Lines.Clear;
   Memo1.Lines.Add('s  = ');
   for i:=0 to SynEdit1.lines.Count - 2 do begin
-    Memo1.Lines.Add(''''+SynEdit1.Lines.Strings[i]+' ''+#10+' );
+    Memo1.Lines.Add('   '''+SynEdit1.Lines.Strings[i]+' ''+#10+' );
   end;
-  Memo1.Lines.Add(''''+SynEdit1.Lines.Strings[i+1]+' ''' );
+  Memo1.Lines.Add('   '''+SynEdit1.Lines.Strings[i+1]+' ''' );
 end;
 
 procedure TForm1.FormClose(Sender: TObject; var CloseAction: TCloseAction);

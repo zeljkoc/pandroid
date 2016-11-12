@@ -8,6 +8,7 @@ object Form1: TForm1
   ClientWidth = 998
   OnClose = FormClose
   OnCreate = FormCreate
+  LCLVersion = '1.7'
   Visible = False
   object Panel1: TPanel
     Left = 0

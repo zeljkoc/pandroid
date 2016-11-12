@@ -516,7 +516,7 @@
 43:include/winapih.inc
 43:lclintf.pas;9
 20:example/PascalScript/APascalScript.inc
-55:pas;4
+55:pas;0
 28:TempFirebird/zcfbclient.inc
 52:pas;38
 20:library/Firebird/zcfbclient.inc
@@ -528,7 +528,7 @@
 26:androidr15.inc
 37:pas;3
 26:dataset.inc
-34:pas;3
+34:pas;0
 26:fbsqlite.inc
 35:pas;35
 "/>

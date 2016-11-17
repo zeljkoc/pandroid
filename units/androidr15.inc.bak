@@ -54317,6 +54317,7 @@
       procedure setEllipsize(para1: ATTextUtils.InnerTruncateAt); overload; virtual;
       function getText(): JLCharSequence; overload; virtual;
     public //add ZC
+      property Text: ATEditable read getText;
       property Selection: jint  write setSelection;
       property Ellipsize: ATTextUtils.InnerTruncateAt  write setEllipsize;
       property Text: JLCharSequence read getText;

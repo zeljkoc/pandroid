@@ -13,7 +13,7 @@ unit #AppName#;
 
 interface
 
-uses androidr15, Rjava, AActivity;
+uses androidr15, Rjava, AActivity, StdCtrls;
 
  
 

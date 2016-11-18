@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/home/android/Demo/Test/Test.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/android/Demo/Test/Test.lpi"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,16 +67,16 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/pascal/Forms.pas"/>
-        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSC_strutils.pas"/>
-        <Item3 Value="/home/android/Library/PascalScript/jni/uPSC_strutils.pas"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_Default.pas"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_DB.pas"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_StdCtrls.pas"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponentExt.pas"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_Controls.pas"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSC_graphics.pas"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSC_std.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/AActivity.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/pascal/Forms.pas"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSC_strutils.pas"/>
+        <Item4 Value="/home/android/Library/PascalScript/jni/uPSC_strutils.pas"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_Default.pas"/>
+        <Item6 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_DB.pas"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_StdCtrls.pas"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponentExt.pas"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_Controls.pas"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSC_graphics.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/home/android/Demo/Test/Test.lpi"/>

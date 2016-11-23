@@ -1,3 +1,8 @@
+{**********************************************************
+Copyright (C) 2012-2016
+Zeljko Cvijanovic www.zeljus.com (cvzeljko@gmail.com) &
+Miran Horjak usbdoo@gmail.com
+***********************************************************}
 unit StdCtrls;
 
 {$mode objfpc}{$H+}
@@ -20,15 +25,25 @@ type
   TonSystemUiVisibilityChangeEvent = procedure (para1: jint) of object;
   TonTouchEvent             = function (para1: AVView; para2: AVMotionEvent): jboolean of object;
 
+  TOnChangeTextEvent        = procedure(para1: JLObject) of object;
 
   TTextView = class(AWTextView)
   public
 
   end;
 
-  TEditText = class(AWEditText)
-  public
+  { TEditText }
 
+  TEditText = class(AWEditText, ATTextWatcher)
+    FOnChangeText: TOnChangeTextEvent;
+    procedure beforeTextChanged(charSequence: JLCharSequence; start: LongInt; lengthBefore: LongInt; lengthAfter: LongInt); overload;
+    procedure onTextChanged(charSequence: JLCharSequence; start: LongInt; before: LongInt; count: LongInt); override;
+    procedure afterTextChanged(editable: ATEditable); overload;
+  public
+    constructor create(para1: ACContext); overload;
+  public
+    property onChangeText: TOnChangeTextEvent read FOnChangeText write FOnChangeText;
+    property Text;
   end;
 
   { TButton }
@@ -50,6 +65,33 @@ type
 
 
 implementation
+
+{ TEditText }
+
+procedure TEditText.beforeTextChanged(charSequence: JLCharSequence;
+  start: LongInt; lengthBefore: LongInt; lengthAfter: LongInt);
+begin
+
+end;
+
+procedure TEditText.onTextChanged(charSequence: JLCharSequence; start: LongInt;
+  before: LongInt; count: LongInt);
+begin
+  inherited onTextChanged(charSequence, start, before, count);
+end;
+
+procedure TEditText.afterTextChanged(editable: ATEditable);
+begin
+  if Assigned(FOnChangeText) then FOnChangeText(self);
+end;
+
+
+constructor TEditText.create(para1: ACContext);
+begin
+  inherited Create(para1);
+  self.addTextChangedListener(Self);
+end;
+
 
 { TButton }
 

@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="unit PCAdds"/>
-          <Item2 Value="MaskEdit ="/>
-          <Item3 Value="template"/>
-          <Item4 Value="CilicoUHF"/>
-          <Item5 Value="ACilicoUHF"/>
-          <Item6 Value="StringList"/>
-          <Item7 Value="TStringList"/>
-          <Item8 Value="R.drawable.ic_launcher"/>
-          <Item9 Value="PasswordTransformationMethod ="/>
-          <Item10 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
-          <Item11 Value="textPassword"/>
-          <Item12 Value="activityResultCallback"/>
-          <Item13 Value="Config ="/>
-          <Item14 Value="CordovaWebView ="/>
-          <Item15 Value="CordovaPlugin"/>
-          <Item16 Value="Project"/>
-          <Item17 Value="AATimePickerDialog"/>
-          <Item18 Value="Calendar ="/>
-          <Item19 Value="DateSetList"/>
-          <Item20 Value="DateSetListner"/>
+          <Item1 Value="text"/>
+          <Item2 Value="Text "/>
+          <Item3 Value="getText"/>
+          <Item4 Value="unit PCAdds"/>
+          <Item5 Value="MaskEdit ="/>
+          <Item6 Value="template"/>
+          <Item7 Value="CilicoUHF"/>
+          <Item8 Value="ACilicoUHF"/>
+          <Item9 Value="StringList"/>
+          <Item10 Value="TStringList"/>
+          <Item11 Value="R.drawable.ic_launcher"/>
+          <Item12 Value="PasswordTransformationMethod ="/>
+          <Item13 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
+          <Item14 Value="textPassword"/>
+          <Item15 Value="activityResultCallback"/>
+          <Item16 Value="Config ="/>
+          <Item17 Value="CordovaWebView ="/>
+          <Item18 Value="CordovaPlugin"/>
+          <Item19 Value="Project"/>
+          <Item20 Value="AATimePickerDialog"/>
         </Find>
       </History>
     </Find>
@@ -41,31 +41,31 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Test/">
+    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/example/StdCtrls/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Demo/Test/"/>
-        <Item2 Value="/usr/local/pandroid/units/pascal/"/>
-        <Item3 Value="/home/android/"/>
-        <Item4 Value="/usr/local/pandroid/example/PascalScript/"/>
-        <Item5 Value="/home/android/Projekti/Popis/"/>
-        <Item6 Value="/home/android/Library/PascalScript/jni/"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/"/>
-        <Item8 Value="/home/android/Projekti/PDAProdaja/"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/ThirdParty/"/>
-        <Item11 Value="/usr/local/pandroid/source/"/>
-        <Item12 Value="/home/android/Demo/PascalScript/"/>
-        <Item13 Value="/usr/local/pandroid/example/PasswordDialog/"/>
-        <Item14 Value="/home/android/Firebird/"/>
-        <Item15 Value="/home/android/Popis/"/>
-        <Item16 Value="/home/android/PDAProdaja/"/>
-        <Item17 Value="/home/android/zeljus/Reciklaza/"/>
-        <Item18 Value="/usr/local/pandroid/example/TestBarCode/"/>
-        <Item19 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item20 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item1 Value="/usr/local/pandroid/example/StdCtrls/"/>
+        <Item2 Value="/home/android/Demo/Test/"/>
+        <Item3 Value="/home/android/Demo/StdCtrls/"/>
+        <Item4 Value="/usr/local/pandroid/units/pascal/"/>
+        <Item5 Value="/home/android/"/>
+        <Item6 Value="/usr/local/pandroid/example/PascalScript/"/>
+        <Item7 Value="/home/android/Projekti/Popis/"/>
+        <Item8 Value="/home/android/Library/PascalScript/jni/"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/"/>
+        <Item10 Value="/home/android/Projekti/PDAProdaja/"/>
+        <Item11 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item12 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/ThirdParty/"/>
+        <Item13 Value="/usr/local/pandroid/source/"/>
+        <Item14 Value="/home/android/Demo/PascalScript/"/>
+        <Item15 Value="/usr/local/pandroid/example/PasswordDialog/"/>
+        <Item16 Value="/home/android/Firebird/"/>
+        <Item17 Value="/home/android/Popis/"/>
+        <Item18 Value="/home/android/PDAProdaja/"/>
+        <Item19 Value="/home/android/zeljus/Reciklaza/"/>
+        <Item20 Value="/usr/local/pandroid/example/TestBarCode/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="3">
+    <HistoryLists Count="1">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>

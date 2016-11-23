@@ -54319,7 +54319,7 @@
     public //add ZC
       property Selection: jint  write setSelection;
       property Ellipsize: ATTextUtils.InnerTruncateAt  write setEllipsize;
-      property Text: JLCharSequence read getText;
+      property Text;
     end;
 
   JNCDatagramChannel = class abstract external 'java.nio.channels' name 'DatagramChannel' (JNCSAbstractSelectableChannel, JNCByteChannel, JNCScatteringByteChannel, JNCGatheringByteChannel)

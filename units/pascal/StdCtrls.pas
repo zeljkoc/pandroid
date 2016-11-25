@@ -41,6 +41,8 @@ type
     procedure afterTextChanged(editable: ATEditable); overload;
   public
     constructor create(para1: ACContext); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
   public
     property onChangeText: TOnChangeTextEvent read FOnChangeText write FOnChangeText;
     property Text;
@@ -57,6 +59,8 @@ type
     function onLongClick(para1: AVView): jboolean; overload;
   public
     constructor create(para1: ACContext); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
   public
     property onClickListener: TOnclickEvent read FOnClick write FOnClick;
     property OnLongClickListener: TonLongClickEvent read FonLongClick write FonLongClick;
@@ -92,6 +96,18 @@ begin
   self.addTextChangedListener(Self);
 end;
 
+constructor TEditText.create(para1: ACContext; para2: AUAttributeSet);
+begin
+  inherited Create(para1, para2);
+  self.addTextChangedListener(Self);
+end;
+
+constructor TEditText.create(para1: ACContext; para2: AUAttributeSet; para3: jint);
+begin
+    inherited Create(para1, para2, para3);
+    self.addTextChangedListener(Self);
+end;
+
 
 { TButton }
 
@@ -111,6 +127,20 @@ begin
   inherited create(para1);
   self.setOnClickListener(Self);
   self.setOnLongClickListener(Self);
+end;
+
+constructor TButton.create(para1: ACContext; para2: AUAttributeSet);
+begin
+    inherited create(para1, para2);
+    self.setOnClickListener(Self);
+    self.setOnLongClickListener(Self);
+end;
+
+constructor TButton.create(para1: ACContext; para2: AUAttributeSet; para3: jint );
+begin
+    inherited create(para1, para2, para3);
+    self.setOnClickListener(Self);
+    self.setOnLongClickListener(Self);
 end;
 
 end.

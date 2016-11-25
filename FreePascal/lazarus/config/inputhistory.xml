@@ -41,10 +41,10 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/example/StdCtrls/">
+    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Test/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/example/StdCtrls/"/>
-        <Item2 Value="/home/android/Demo/Test/"/>
+        <Item1 Value="/home/android/Demo/Test/"/>
+        <Item2 Value="/usr/local/pandroid/example/StdCtrls/"/>
         <Item3 Value="/home/android/Demo/StdCtrls/"/>
         <Item4 Value="/usr/local/pandroid/units/pascal/"/>
         <Item5 Value="/home/android/"/>

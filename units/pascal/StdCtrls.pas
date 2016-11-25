@@ -26,6 +26,7 @@ type
   TonTouchEvent             = function (para1: AVView; para2: AVMotionEvent): jboolean of object;
 
   TOnChangeTextEvent        = procedure(para1: JLObject) of object;
+  TonCheckedChangedEvent    = procedure (para1: AWCompoundButton; para2: jboolean) of object;
 
   TTextView = class(AWTextView)
   public
@@ -66,9 +67,51 @@ type
     property OnLongClickListener: TonLongClickEvent read FonLongClick write FonLongClick;
   end;
 
+  { TCheckBox }
+
+  TCheckBox = class(AWCheckBox, AWCompoundButton.InnerOnCheckedChangeListener)
+    FonCheckedChanged : TonCheckedChangedEvent;
+  public
+    procedure onCheckedChanged(para1: AWCompoundButton; para2: jboolean); overload;
+  public
+    constructor create(para1: ACContext); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
+  public
+    property onCheckedChangedListener: TonCheckedChangedEvent read FonCheckedChanged write FonCheckedChanged;
+  end;
+
 
 
 implementation
+
+
+
+{ TCheckBox }
+
+procedure TCheckBox.onCheckedChanged(para1: AWCompoundButton; para2: jboolean);
+begin
+  if Assigned(FonCheckedChanged) then FonCheckedChanged(para1, para2);
+end;
+
+constructor TCheckBox.create(para1: ACContext);
+begin
+  inherited Create(para1);
+  self.setOnCheckedChangeListener(self);
+end;
+
+constructor TCheckBox.create(para1: ACContext; para2: AUAttributeSet);
+begin
+  inherited Create(para1, para2);
+  self.setOnCheckedChangeListener(self);
+end;
+
+constructor TCheckBox.create(para1: ACContext; para2: AUAttributeSet;
+  para3: jint);
+begin
+  inherited Create(para1, para2, para3);
+  self.setOnCheckedChangeListener(self);
+end;
 
 { TEditText }
 

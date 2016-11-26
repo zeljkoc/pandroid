@@ -81,9 +81,53 @@ type
     property onCheckedChangedListener: TonCheckedChangedEvent read FonCheckedChanged write FonCheckedChanged;
   end;
 
+  { TRadioGroup }
 
+  TRadioGroup = class(AWRadioGroup)
+   property Orientation: jint read getOrientation write setOrientation; //0 horizontal;  1 vertical
+  end;
+
+  { TRadioButton }
+
+  TRadioButton = class(AWRadioButton, AWCompoundButton.InnerOnCheckedChangeListener)
+    FonCheckedChanged : TonCheckedChangedEvent;
+  public
+    procedure onCheckedChanged(para1: AWCompoundButton; para2: jboolean); overload;
+  public
+    constructor create(para1: ACContext); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
+  public
+    property onCheckedChangedListener: TonCheckedChangedEvent read FonCheckedChanged write FonCheckedChanged;
+  end;
 
 implementation
+
+
+{ TRadioButton }
+
+procedure TRadioButton.onCheckedChanged(para1: AWCompoundButton; para2: jboolean);
+begin
+    if Assigned(FonCheckedChanged) then FonCheckedChanged(para1, para2);
+end;
+
+constructor TRadioButton.create(para1: ACContext);
+begin
+  inherited Create(para1);
+  self.setOnCheckedChangeListener(self);
+end;
+
+constructor TRadioButton.create(para1: ACContext; para2: AUAttributeSet);
+begin
+  inherited Create(para1, para2);
+  self.setOnCheckedChangeListener(self);
+end;
+
+constructor TRadioButton.create(para1: ACContext; para2: AUAttributeSet; para3: jint);
+begin
+  inherited Create(para1, para2, para3);
+  self.setOnCheckedChangeListener(self);
+end;
 
 
 

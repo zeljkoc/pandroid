@@ -85,6 +85,7 @@ type
 
   TRadioGroup = class(AWRadioGroup)
    property Orientation: jint read getOrientation write setOrientation; //0 horizontal;  1 vertical
+   property ItemChecked: jint read getCheckedRadioButtonId;
   end;
 
   { TRadioButton }
@@ -99,6 +100,7 @@ type
     constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
   public
     property onCheckedChangedListener: TonCheckedChangedEvent read FonCheckedChanged write FonCheckedChanged;
+    property Checked: jboolean read isChecked write setChecked;
   end;
 
 implementation

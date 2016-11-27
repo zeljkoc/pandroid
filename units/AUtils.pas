@@ -20,12 +20,18 @@ type
 //ok
 function FormatFloat(aFormat: String; aValue: Real): Real;
 function Format(aFormat: String; aValue: Real): String;
+function IntToStr(aValue: jint): String;
+function StrToInt(aValue: String): jint;
+function LongToStr(aValue: jlong): String;
+function StrToLong(aValue: String): jlong;
+function FloatToStr(aValue: jfloat): String;
+function StrToFloat(aValue: String): jfloat;
+
 function LeftStr(Str: JLString; ch: jChar; Size: Integer): JLString;
 function RightStr(Str: JLString; ch: jChar; Size: Integer): JLString;
 function CharReplace(Str: JLString; ch: Char; ToCh: Char): String;
 function StrToFloat(aStr: JLString): Real;
 function FBDateTimeToString: JLString;  //Firebird Date time
-
 
 function CopyFile(currentDBPath: JLString; backupDBFile: JLString): JLString;
 //?????
@@ -130,6 +136,36 @@ function FBDateTimeToString: JLString;
 begin
    //'2015-12-07 16:46:40'; - Firebird format
   Result := JTSimpleDateFormat.create(JLString('yyyy-MM-dd HH:mm:ss')).format(JUDate.Create);
+end;
+
+function IntToStr(aValue: jint): String;
+begin
+   Result := JLInteger.toString(aValue);
+end;
+
+function StrToInt(aValue: String): jint;
+begin
+  Result := JLInteger.parseInt(aValue);
+end;
+
+function LongToStr(aValue: jlong): String;
+begin
+  Result := JLLong.toString(aValue);
+end;
+
+function StrToLong(aValue: String): jlong;
+begin
+  Result :=  JLLong.parseLong(aValue);
+end;
+
+function FloatToStr(aValue: jfloat): String;
+begin
+  Result := JLFloat.toString(aValue);
+end;
+
+function StrToFloat(aValue: String): jfloat;
+begin
+  Result := JLFloat.parseFloat(aValue);
 end;
 
 function CopyFile(currentDBPath: JLString; backupDBFile: JLString): JLString;

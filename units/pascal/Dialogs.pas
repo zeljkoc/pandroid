@@ -1,3 +1,8 @@
+{**********************************************************
+Copyright (C) 2012-2016
+Zeljko Cvijanovic www.zeljus.com (cvzeljko@gmail.com) &
+Miran Horjak usbdoo@gmail.com
+***********************************************************}
 unit Dialogs;
 
 {$mode objfpc}{$H+}
@@ -10,75 +15,95 @@ uses
   androidr15;
 
 type
-  TOnDateSetEvent = procedure (para1: AWDatePicker; para2: jint; para3: jint; para4: jint) of object;
-  TOnTimeSetEvent = procedure (para1: AWTimePicker; para2: jint; para3: jint) of object;
-  { TDatePickerDialog }
+  TOnClickEvent   = procedure (para1: ACDialogInterface; para2: jint) of object;
 
-  TDatePickerDialog = class( AADatePickerDialog.InnerOnDateSetListener)
-    FDatePickerDialog: AADatePickerDialog;
-    FOnDateSet: TOnDateSetEvent;
-    procedure onDateSet(para1: AWDatePicker; para2: jint; para3: jint; para4: jint); overload;
+  TTypeButton = (btNegative, btPositive, btNeutral);
+
+  { TDialog }
+
+  TDialog = class(AAAlertDialog, ACDialogInterface.InnerOnClickListener)
+  private
+   fID: integer;
+   FOnClick: TOnClickEvent;
   public
-     constructor Create(para1: ACContext; Year, Month, Day: jint); virtual;
-     procedure show; //overload; override;
+    procedure onClick(para1: ACDialogInterface; para2: jint); overload;
   public
-    property  OnDateSetListener: TOnDateSetEvent read FOnDateSet write FOnDateSet;
+   constructor create(para1: ACContext); overload; virtual;
+   procedure AddButton(aTypeButton: TTypeButton; aName: JLCharSequence);
+  public
+   property ID: integer read fID write fID;
+   property OnClickListener: TOnClickEvent read FOnClick write FOnClick;
   end;
 
   { TTimePickerDialog }
 
-  TTimePickerDialog = Class(AATimePickerDialog.InnerOnTimeSetListener)
-    FTimePickerDialog: AATimePickerDialog;
-    FOnTimeSet: TOnTimeSetEvent;
-    procedure onTimeSet(para1: AWTimePicker; para2: jint; para3: jint); overload;
+  TTimePickerDialog = class(TDialog)
+  private
+    FTimePicker: AWTimePicker;
   public
-    constructor Create(para1: ACContext; Hour, Minute: jint); virtual;
-    procedure Show;
+    constructor create(para1: ACContext); override;
   public
-    property onTimeSetListener: TOnTimeSetEvent read FOnTimeSet write FOnTimeSet;
+    property TimePicker: AWTimePicker read FTimePicker;
   end;
 
+  { TDatePickerDialog }
+
+  TDatePickerDialog = class(TDialog)
+  private
+    FDatePicker: AWDatePicker;
+  public
+    constructor create(para1: ACContext); override;
+  public
+    property DatePicker: AWDatePicker read FDatePicker;
+  end;
 
 implementation
 
-{ TTimePickerDialog }
+{ TDialog }
 
-procedure TTimePickerDialog.onTimeSet(para1: AWTimePicker; para2: jint; para3: jint);
+procedure TDialog.onClick(para1: ACDialogInterface; para2: jint);
 begin
-    if Assigned(FOnTimeSet) then FOnTimeSet(para1, para2, para3);
+  if Assigned(FOnClick) then FOnClick(para1, para2);
 end;
 
-constructor TTimePickerDialog.Create(para1: ACContext; Hour, Minute: jint);
+constructor TDialog.create(para1: ACContext);
 begin
-  inherited Create;
-  FTimePickerDialog := AATimePickerDialog.create(para1, self, Hour, Minute, ATFDateFormat.is24HourFormat(para1));
+  inherited Create(para1);
+  setTitle(AAActivity(para1).getPackageManager.getApplicationLabel(AAActivity(para1).getApplicationInfo));
+  setIcon(AAActivity(para1).getPackageManager.getApplicationIcon(AAActivity(para1).getApplicationInfo));
 end;
 
-procedure TTimePickerDialog.Show;
+procedure TDialog.AddButton(aTypeButton: TTypeButton; aName: JLCharSequence);
 begin
-  FTimePickerDialog.show;
+  case aTypeButton of
+   btNegative : setButton(ACDialogInterface.BUTTON_NEGATIVE, aName, Self);
+   btPositive : setButton(ACDialogInterface.BUTTON_POSITIVE, aName, Self);
+   btNeutral  : setButton(ACDialogInterface.BUTTON_NEUTRAL, aName, Self);
+  end;
 end;
-
 
 { TDatePickerDialog }
 
-procedure TDatePickerDialog.onDateSet(para1: AWDatePicker; para2: jint; para3: jint; para4: jint);
+
+constructor TDatePickerDialog.create(para1: ACContext);
+
 begin
-  if Assigned(FOnDateSet) then FOnDateSet(para1, para2, para3, para4);
+  inherited Create(para1);
+  FDatePicker := AWDatePicker.create(getContext);
+  Self.setView(FDatePicker);
 end;
 
-constructor TDatePickerDialog.create(para1: ACContext; Year, Month, Day: jint);
-var
-  c: JUCalendar;
+{ TTimePickerDialog }
+
+constructor TTimePickerDialog.create(para1: ACContext);
 begin
-  inherited Create;
-  FDatePickerDialog:= AADatePickerDialog.create(para1, self, Year, Month, Day);
+  inherited Create(para1);
+  FTimePicker:= AWTimePicker.create(getContext);
+  Self.setView(FTimePicker);
+
 end;
 
-procedure TDatePickerDialog.show;
-begin
-  FDatePickerDialog.show;
-end;
+
 
 end.
 

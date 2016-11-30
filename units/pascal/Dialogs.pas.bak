@@ -17,7 +17,7 @@ uses
 type
   TOnClickEvent   = procedure (para1: ACDialogInterface; para2: jint) of object;
 
-  TTypeButton = (btNegative, btPositive, btNeutral);
+  TTypeButton = (btNeutral, btNegative, btPositive);
 
   { TDialog }
 
@@ -75,11 +75,7 @@ end;
 
 procedure TDialog.AddButton(aTypeButton: TTypeButton; aName: JLCharSequence);
 begin
-  case aTypeButton of
-   btNegative : setButton(ACDialogInterface.BUTTON_NEGATIVE, aName, Self);
-   btPositive : setButton(ACDialogInterface.BUTTON_POSITIVE, aName, Self);
-   btNeutral  : setButton(ACDialogInterface.BUTTON_NEUTRAL, aName, Self);
-  end;
+   setButton(ord(aTypeButton) - 3, aName, Self);
 end;
 
 { TDatePickerDialog }

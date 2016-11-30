@@ -75,7 +75,7 @@ end;
 
 procedure TDialog.AddButton(aTypeButton: TTypeButton; aName: JLCharSequence);
 begin
-   setButton(ord(aTypeButton) - 3, aName, Self);
+   setButton(ord(aTypeButton) - (Ord(High(TTypeButton)) + 1), aName, Self);
 end;
 
 { TDatePickerDialog }

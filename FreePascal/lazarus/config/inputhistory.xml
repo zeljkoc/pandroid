@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="text"/>
-          <Item2 Value="Text "/>
-          <Item3 Value="getText"/>
-          <Item4 Value="unit PCAdds"/>
-          <Item5 Value="MaskEdit ="/>
-          <Item6 Value="template"/>
-          <Item7 Value="CilicoUHF"/>
-          <Item8 Value="ACilicoUHF"/>
-          <Item9 Value="StringList"/>
-          <Item10 Value="TStringList"/>
-          <Item11 Value="R.drawable.ic_launcher"/>
-          <Item12 Value="PasswordTransformationMethod ="/>
-          <Item13 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
-          <Item14 Value="textPassword"/>
-          <Item15 Value="activityResultCallback"/>
-          <Item16 Value="Config ="/>
-          <Item17 Value="CordovaWebView ="/>
-          <Item18 Value="CordovaPlugin"/>
-          <Item19 Value="Project"/>
-          <Item20 Value="AATimePickerDialog"/>
+          <Item1 Value="AOHandler"/>
+          <Item2 Value="text"/>
+          <Item3 Value="Text "/>
+          <Item4 Value="getText"/>
+          <Item5 Value="unit PCAdds"/>
+          <Item6 Value="MaskEdit ="/>
+          <Item7 Value="template"/>
+          <Item8 Value="CilicoUHF"/>
+          <Item9 Value="ACilicoUHF"/>
+          <Item10 Value="StringList"/>
+          <Item11 Value="TStringList"/>
+          <Item12 Value="R.drawable.ic_launcher"/>
+          <Item13 Value="PasswordTransformationMethod ="/>
+          <Item14 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
+          <Item15 Value="textPassword"/>
+          <Item16 Value="activityResultCallback"/>
+          <Item17 Value="Config ="/>
+          <Item18 Value="CordovaWebView ="/>
+          <Item19 Value="CordovaPlugin"/>
+          <Item20 Value="Project"/>
         </Find>
       </History>
     </Find>

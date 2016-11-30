@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/android/Demo/Test/Test.lpi"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>

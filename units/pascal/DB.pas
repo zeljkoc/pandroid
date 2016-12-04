@@ -8,7 +8,7 @@ unit DB;
 
 {$mode objfpc}{$H+}
 {$modeswitch unicodestrings}
-{$namespace zeljus.com.units.pascal}
+{$namespace zeljus.com.units}
 
 interface
 
@@ -34,10 +34,11 @@ type
     procedure SetInt(Value: jint);
   public
    constructor Create; overload; virtual;
+  public
    property AsString: JLString read GetAsString write SetAsString;
-   property AsInteger: jint read GetInt write SetInt;
    property AsFloat: jfloat read GetFloat write SetFloat;
    property AsHex: JLString read GetHex write SetHex;
+   property AsInteger: jint read GetInt write SetInt;
   end;
 
   { TField }
@@ -69,11 +70,12 @@ type
       property CharCase: TEditCharCase read FCharCase write FCharCase;
   end;
 
-  { TFieldDefs }
+  { TFieldDef }
 
-  TFieldDefs = class(JUArrayList)
+  TFieldDef = class(JUArrayList)
   private
-    function GetChange(Index: jint): jboolean;
+   function GetChange(Index: jint): jboolean;
+   function GetCharCase(Index: jint): TEditCharCase;
    function GetDataType(Index: jint): TDataType;
    function GetDisplayName(Index: jint): JLString;
    function GetName(Index: jint): JLString;
@@ -81,7 +83,6 @@ type
    function GetReadOnly(Index: jint): jboolean;
    function GetValue(Index: jint): TValue;
    function GetVisible(Index: jint): jboolean;
-   function SetCharCase(Index: jint): TEditCharCase;
    procedure SetCharCase(Index: jint; Value: TEditCharCase);
    procedure SetDataType(Index: jint; Value: TDataType);
    procedure SetDisplayName(Index: jint; Value: JLString);
@@ -95,15 +96,16 @@ type
     procedure AddField(aName: JLString; aDataType: TDataType);
   public
     property FieldCount: jint read size;
-    property DataType[Index: jint]: TDataType read GetDataType write SetDataType;
-    property ReadOnly[Index: jint]: jboolean read GetReadOnly write SetReadOnly;
-    property Visible[Index: jint]: jboolean read GetVisible write SetVisible;
-    property Value[Index: jint]: TValue read GetValue write SetValue;
-    property OldValue[Index: jint]: TValue read GetOldValue write SetOldValue;
-    property Name[Index: jint]: JLString read GetName write SetName;
-    property DisplayName[Index: jint]: JLString read GetDisplayName write SetDisplayName;
     property Change[Index: jint]: jboolean read GetChange;
-    property CharCase[Index: jint]: TEditCharCase read SetCharCase write SetCharCase;
+    property CharCase[Index: jint]: TEditCharCase read GetCharCase write SetCharCase;
+    property DataType[Index: jint]: TDataType read GetDataType write SetDataType;
+    property DisplayName[Index: jint]: JLString read GetDisplayName write SetDisplayName;
+    property Name[Index: jint]: JLString read GetName write SetName;
+    property OldValue[Index: jint]: TValue read GetOldValue write SetOldValue;
+    property ReadOnly[Index: jint]: jboolean read GetReadOnly write SetReadOnly;
+    property Value[Index: jint]: TValue read GetValue write SetValue;
+    property Visible[Index: jint]: jboolean read GetVisible write SetVisible;
+
   end;
 
 
@@ -166,99 +168,99 @@ begin
 end;
 
 
-{ TFieldDefs }
+{ TFieldDef }
 
-function TFieldDefs.GetChange(Index: jint): jboolean;
+function TFieldDef.GetChange(Index: jint): jboolean;
 begin
   Result := TField(get(Index)).Change;
 end;
 
-function TFieldDefs.GetDataType(Index: jint): TDataType;
+function TFieldDef.GetDataType(Index: jint): TDataType;
 begin
   Result := TField(get(Index)).DataType;
 end;
 
-function TFieldDefs.GetDisplayName(Index: jint): JLString;
+function TFieldDef.GetDisplayName(Index: jint): JLString;
 begin
   Result := TField(get(Index)).DisplayName;
 end;
 
-function TFieldDefs.GetName(Index: jint): JLString;
+function TFieldDef.GetName(Index: jint): JLString;
 begin
   Result := TField(get(Index)).Name;
 end;
 
-function TFieldDefs.GetOldValue(Index: jint): TValue;
+function TFieldDef.GetOldValue(Index: jint): TValue;
 begin
   Result := TField(get(Index)).OldValue;
 end;
 
-function TFieldDefs.GetReadOnly(Index: jint): jboolean;
+function TFieldDef.GetReadOnly(Index: jint): jboolean;
 begin
   Result := TField(get(Index)).ReadOnly;
 end;
 
-function TFieldDefs.GetValue(Index: jint): TValue;
+function TFieldDef.GetValue(Index: jint): TValue;
 begin
    Result := TField(get(Index)).Value;
 end;
 
-function TFieldDefs.GetVisible(Index: jint): jboolean;
+function TFieldDef.GetVisible(Index: jint): jboolean;
 begin
     Result := TField(get(Index)).Visible;
 end;
 
-function TFieldDefs.SetCharCase(Index: jint): TEditCharCase;
+function TFieldDef.GetCharCase(Index: jint): TEditCharCase;
 begin
    Result := TField(get(Index)).CharCase;
 end;
 
-procedure TFieldDefs.SetCharCase(Index: jint; Value: TEditCharCase);
+procedure TFieldDef.SetCharCase(Index: jint; Value: TEditCharCase);
 begin
   TField(get(Index)).CharCase := Value;
 end;
 
-procedure TFieldDefs.SetDataType(Index: jint; Value: TDataType);
+procedure TFieldDef.SetDataType(Index: jint; Value: TDataType);
 begin
    TField(get(Index)).DataType := Value;
 end;
 
-procedure TFieldDefs.SetDisplayName(Index: jint; Value: JLString);
+procedure TFieldDef.SetDisplayName(Index: jint; Value: JLString);
 begin
   TField(get(Index)).DisplayName := Value;
 end;
 
-procedure TFieldDefs.SetName(Index: jint; Value: JLString);
+procedure TFieldDef.SetName(Index: jint; Value: JLString);
 begin
    TField(get(Index)).Name := Value;
 end;
 
-procedure TFieldDefs.SetOldValue(Index: jint; Value: TValue);
+procedure TFieldDef.SetOldValue(Index: jint; Value: TValue);
 begin
   TField(get(Index)).OldValue := Value;
 end;
 
-procedure TFieldDefs.SetReadOnly(Index: jint; Value: jboolean);
+procedure TFieldDef.SetReadOnly(Index: jint; Value: jboolean);
 begin
    TField(get(Index)).ReadOnly := Value;
 end;
 
-procedure TFieldDefs.SetValue(Index: jint; Value: TValue);
+procedure TFieldDef.SetValue(Index: jint; Value: TValue);
 begin
   TField(get(Index)).Value := Value;
 end;
 
-procedure TFieldDefs.SetVisible(Index: jint; Value: jboolean);
+procedure TFieldDef.SetVisible(Index: jint; Value: jboolean);
 begin
    TField(get(Index)).Visible := Value;
 end;
 
-constructor TFieldDefs.create;
+constructor TFieldDef.create;
 begin
   inherited Create;
 end;
 
-procedure TFieldDefs.AddField(aName: JLString; aDataType: TDataType);
+procedure TFieldDef.AddField(aName: JLString; aDataType: TDataType);
 begin
   add(TField.create);
   TField(get(size - 1)).Name := aName;
@@ -267,6 +269,7 @@ begin
   TField(get(size - 1)).ReadOnly := False;
   TField(get(size - 1)).CharCase := eccNormal;
   TField(get(size - 1)).Visible := true;
+  TField(get(size - 1)).FieldNo := size;
 end;
 
 

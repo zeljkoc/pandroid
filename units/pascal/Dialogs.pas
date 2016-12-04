@@ -7,7 +7,7 @@ unit Dialogs;
 
 {$mode objfpc}{$H+}
 {$modeswitch unicodestrings}
-{$namespace zeljus.com.units.dialogs}
+{$namespace zeljus.com.units.pascal}
 
 interface
 

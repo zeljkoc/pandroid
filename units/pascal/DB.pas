@@ -78,6 +78,7 @@ type
    function GetCharCase(Index: jint): TEditCharCase;
    function GetDataType(Index: jint): TDataType;
    function GetDisplayName(Index: jint): JLString;
+   function GetFieldNo(Index: jint): jint;
    function GetName(Index: jint): JLString;
    function GetOldValue(Index: jint): TValue;
    function GetReadOnly(Index: jint): jboolean;
@@ -96,6 +97,7 @@ type
     procedure AddField(aName: JLString; aDataType: TDataType);
   public
     property FieldCount: jint read size;
+    property FieldNo[Index: jint]: jint read GetFieldNo;
     property Change[Index: jint]: jboolean read GetChange;
     property CharCase[Index: jint]: TEditCharCase read GetCharCase write SetCharCase;
     property DataType[Index: jint]: TDataType read GetDataType write SetDataType;
@@ -183,6 +185,11 @@ end;
 function TFieldDef.GetDisplayName(Index: jint): JLString;
 begin
   Result := TField(get(Index)).DisplayName;
+end;
+
+function TFieldDef.GetFieldNo(Index: jint): jint;
+begin
+  Result := TField(get(Index)).FieldNo;
 end;
 
 function TFieldDef.GetName(Index: jint): JLString;

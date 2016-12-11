@@ -1,0 +1,22 @@
+object DataM: TDataM
+  OldCreateOrder = False
+  Height = 326
+  HorizontalOffset = 183
+  VerticalOffset = 374
+  Width = 701
+  object UIBDataBase: TUIBDataBase
+    Params.Strings = (
+      'sql_dialect=3'
+      'lc_ctype=WIN1250'
+    )
+    CharacterSet = csWIN1250
+    LibraryName = 'libfbclient.so'
+    left = 88
+    top = 61
+  end
+  object UIBTransaction: TUIBTransaction
+    DataBase = UIBDataBase
+    left = 208
+    top = 61
+  end
+end

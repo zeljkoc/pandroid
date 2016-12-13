@@ -1,5 +1,6 @@
 uiblaz,
 appexplore,
+customdrawn,
 sparta_dockedformeditor,
 allsyneditdsgn,
 anchordockingdsgn,

@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/usr/local/pandroid/library/FBSQlite/jni/project1.lpi"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -79,11 +79,11 @@
         <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_DB.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/library/FBSQlite/jni/project1.lpi"/>
-        <Item2 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/project1.lpi"/>
-        <Item3 Value="/home/android/Demo/Firebird/Firebird.lpi"/>
-        <Item4 Value="/home/android/Projekti/Popis/Popis.lpi"/>
-        <Item5 Value="/home/zeljko/RAZVOJ/Banka/Kupovina/project1.lpi"/>
+        <Item1 Value="/home/android/Projekti/zeljus/Reciklaza/Reciklaza.lpi"/>
+        <Item2 Value="/usr/local/pandroid/library/FBSQlite/jni/project1.lpi"/>
+        <Item3 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/project1.lpi"/>
+        <Item4 Value="/home/android/Demo/Firebird/Firebird.lpi"/>
+        <Item5 Value="/home/android/Projekti/Popis/Popis.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="3">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>

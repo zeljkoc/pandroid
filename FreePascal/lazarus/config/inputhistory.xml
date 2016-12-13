@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="AOHandler"/>
-          <Item2 Value="text"/>
-          <Item3 Value="Text "/>
-          <Item4 Value="getText"/>
-          <Item5 Value="unit PCAdds"/>
-          <Item6 Value="MaskEdit ="/>
-          <Item7 Value="template"/>
-          <Item8 Value="CilicoUHF"/>
-          <Item9 Value="ACilicoUHF"/>
-          <Item10 Value="StringList"/>
-          <Item11 Value="TStringList"/>
-          <Item12 Value="R.drawable.ic_launcher"/>
-          <Item13 Value="PasswordTransformationMethod ="/>
-          <Item14 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
-          <Item15 Value="textPassword"/>
-          <Item16 Value="activityResultCallback"/>
-          <Item17 Value="Config ="/>
-          <Item18 Value="CordovaWebView ="/>
-          <Item19 Value="CordovaPlugin"/>
-          <Item20 Value="Project"/>
+          <Item1 Value="unit oldlinux"/>
+          <Item2 Value="AOHandler"/>
+          <Item3 Value="text"/>
+          <Item4 Value="Text "/>
+          <Item5 Value="getText"/>
+          <Item6 Value="unit PCAdds"/>
+          <Item7 Value="MaskEdit ="/>
+          <Item8 Value="template"/>
+          <Item9 Value="CilicoUHF"/>
+          <Item10 Value="ACilicoUHF"/>
+          <Item11 Value="StringList"/>
+          <Item12 Value="TStringList"/>
+          <Item13 Value="R.drawable.ic_launcher"/>
+          <Item14 Value="PasswordTransformationMethod ="/>
+          <Item15 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
+          <Item16 Value="textPassword"/>
+          <Item17 Value="activityResultCallback"/>
+          <Item18 Value="Config ="/>
+          <Item19 Value="CordovaWebView ="/>
+          <Item20 Value="CordovaPlugin"/>
         </Find>
       </History>
     </Find>
@@ -41,28 +41,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/library/FBSQlite/jni/">
+    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/example/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
-        <Item2 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/"/>
-        <Item3 Value="/home/zeljko/RAZVOJ/"/>
-        <Item4 Value="/home/zeljko/"/>
-        <Item5 Value="/home/android/Demo/Firebird/"/>
-        <Item6 Value="/home/android/Projekti/Popis/"/>
-        <Item7 Value="/home/zeljko/RAZVOJ/Banka/Kupovina/"/>
-        <Item8 Value="/home/android/Projekti/PDAProdaja/"/>
-        <Item9 Value="/home/android/Demo/Test/"/>
-        <Item10 Value="/usr/local/pandroid/example/StdCtrls/"/>
-        <Item11 Value="/home/android/Demo/StdCtrls/"/>
-        <Item12 Value="/usr/local/pandroid/units/pascal/"/>
-        <Item13 Value="/home/android/"/>
-        <Item14 Value="/usr/local/pandroid/example/PascalScript/"/>
-        <Item15 Value="/home/android/Library/PascalScript/jni/"/>
-        <Item16 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/"/>
-        <Item17 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item18 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/ThirdParty/"/>
-        <Item19 Value="/usr/local/pandroid/source/"/>
-        <Item20 Value="/home/android/Demo/PascalScript/"/>
+        <Item1 Value="/usr/local/pandroid/example/"/>
+        <Item2 Value="/home/android/Projekti/zeljus/Reciklaza/"/>
+        <Item3 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
+        <Item4 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/"/>
+        <Item5 Value="/home/zeljko/RAZVOJ/"/>
+        <Item6 Value="/home/zeljko/"/>
+        <Item7 Value="/home/android/Demo/Firebird/"/>
+        <Item8 Value="/home/android/Projekti/Popis/"/>
+        <Item9 Value="/home/zeljko/RAZVOJ/Banka/Kupovina/"/>
+        <Item10 Value="/home/android/Projekti/PDAProdaja/"/>
+        <Item11 Value="/home/android/Demo/Test/"/>
+        <Item12 Value="/usr/local/pandroid/example/StdCtrls/"/>
+        <Item13 Value="/home/android/Demo/StdCtrls/"/>
+        <Item14 Value="/usr/local/pandroid/units/pascal/"/>
+        <Item15 Value="/home/android/"/>
+        <Item16 Value="/usr/local/pandroid/example/PascalScript/"/>
+        <Item17 Value="/home/android/Library/PascalScript/jni/"/>
+        <Item18 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/"/>
+        <Item19 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item20 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/ThirdParty/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

@@ -31,13 +31,14 @@
       <SelectedProfiles Count="1">
         <Item1 Value="Optimized IDE"/>
       </SelectedProfiles>
-      <StaticAutoInstallPackages Count="6">
+      <StaticAutoInstallPackages Count="7">
         <Item1 Value="UIBLaz"/>
-        <Item2 Value="customdrawn"/>
-        <Item3 Value="sparta_dockedformeditor"/>
+        <Item2 Value="SQLDBLaz"/>
+        <Item3 Value="appexplore"/>
         <Item4 Value="SynEditDsgn"/>
-        <Item5 Value="appexplore"/>
-        <Item6 Value="anchordockingdsgn"/>
+        <Item5 Value="sparta_dockedformeditor"/>
+        <Item6 Value="customdrawn"/>
+        <Item7 Value="anchordockingdsgn"/>
       </StaticAutoInstallPackages>
     </BuildLazarusOptions>
   </MiscellaneousOptions>

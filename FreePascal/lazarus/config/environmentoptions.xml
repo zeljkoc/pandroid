@@ -85,11 +85,12 @@
         <Item4 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/project1.lpi"/>
         <Item5 Value="/home/android/Demo/Firebird/Firebird.lpi"/>
       </ProjectFiles>
-      <PackageFiles Count="4">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/customdrawn/customdrawn.lpk"/>
-        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>
-        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uiblaz.lpk"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
+      <PackageFiles Count="5">
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/sqldb/sqldblaz.lpk"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/customdrawn/customdrawn.lpk"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uiblaz.lpk"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
       </PackageFiles>
     </Recent>
     <ExternalTools Version="3" Count="2">

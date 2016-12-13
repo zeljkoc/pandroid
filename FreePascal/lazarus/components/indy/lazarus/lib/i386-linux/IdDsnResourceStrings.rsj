@@ -1,0 +1,16 @@
+{"version":1,"strings":[
+{"hash":74216848,"name":"iddsnresourcestrings.rsadlgslmoveup","sourcebytes":[77,111,118,101,32,85,112],"value":"Move Up"},
+{"hash":208995006,"name":"iddsnresourcestrings.rsadlgslmovedown","sourcebytes":[77,111,118,101,32,68,111,119,110],"value":"Move Down"},
+{"hash":18340,"name":"iddsnresourcestrings.rsadlgsladd","sourcebytes":[65,100,100],"value":"Add"},
+{"hash":93079237,"name":"iddsnresourcestrings.rsadlgslremove","sourcebytes":[82,101,109,111,118,101],"value":"Remove"},
+{"hash":147535315,"name":"iddsnresourcestrings.rsadlgslcaption","sourcebytes":[69,100,105,116,105,110,103,32,83,65,83,76,32,76,105,115,116,32,102,111,114,32,37,115],"value":"Editing SASL List for %s"},
+{"hash":134271461,"name":"iddsnresourcestrings.rsadlgslavailable","sourcebytes":[38,65,118,97,105,108,97,98,108,101],"value":"&Available"},
+{"hash":72838937,"name":"iddsnresourcestrings.rsadlgslassigned","sourcebytes":[65,38,115,115,105,103,110,101,100,32,40,116,114,105,101,100,32,105,110,32,111,114,100,101,114,32,108,105,115,116,101,100,41],"value":"A&ssigned (tried in order listed)"},
+{"hash":103787428,"name":"iddsnresourcestrings.rsadlgsleditlist","sourcebytes":[69,100,105,116,32,38,76,105,115,116],"value":"Edit &List"},
+{"hash":112710563,"name":"iddsnresourcestrings.rsprot","sourcebytes":[32,80,114,111,116,111,99,111,108,115],"value":" Protocols"},
+{"hash":171547337,"name":"iddsnresourcestrings.rsprotam","sourcebytes":[32,80,114,111,116,111,99,111,108,115,32,40,97,109,41],"value":" Protocols (am)"},
+{"hash":171550969,"name":"iddsnresourcestrings.rsprotnz","sourcebytes":[32,80,114,111,116,111,99,111,108,115,32,40,110,122,41],"value":" Protocols (nz)"},
+{"hash":154595828,"name":"iddsnresourcestrings.rsmappedport","sourcebytes":[32,77,97,112,112,101,100,32,80,111,114,116],"value":" Mapped Port"},
+{"hash":206198914,"name":"iddsnresourcestrings.rsencoder","sourcebytes":[32,69,110,99,111,100,101,114],"value":" Encoder"},
+{"hash":179984514,"name":"iddsnresourcestrings.rsdecoder","sourcebytes":[32,68,101,99,111,100,101,114],"value":" Decoder"}
+]}

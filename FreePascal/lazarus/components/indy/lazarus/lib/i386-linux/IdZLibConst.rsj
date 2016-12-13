@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":51697020,"name":"idzlibconst.stargetbuffertoosmall","sourcebytes":[90,76,105,98,32,101,114,114,111,114,58,32,116,97,114,103,101,116,32,98,117,102,102,101,114,32,109,97,121,32,98,101,32,116,111,111,32,115,109,97,108,108],"value":"ZLib error: target buffer may be too small"},
+{"hash":227916702,"name":"idzlibconst.sinvalidstreamop","sourcebytes":[73,110,118,97,108,105,100,32,115,116,114,101,97,109,32,111,112,101,114,97,116,105,111,110],"value":"Invalid stream operation"},
+{"hash":151403993,"name":"idzlibconst.szliberror","sourcebytes":[90,76,105,98,32,69,114,114,111,114,32,40,37,100,41],"value":"ZLib Error (%d)"},
+{"hash":24656995,"name":"idzlibconst.rszlibcallerror","sourcebytes":[69,114,114,111,114,32,111,110,32,99,97,108,108,32,116,111,32,90,76,105,98,32,108,105,98,114,97,114,121,32,102,117,110,99,116,105,111,110,32,37,115],"value":"Error on call to ZLib library function %s"}
+]}

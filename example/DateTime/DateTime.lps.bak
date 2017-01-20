@@ -8,131 +8,61 @@
         <Filename Value="DateTime.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="60"/>
-        <CursorPos X="32" Y="106"/>
+        <CursorPos X="51" Y="64"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <EditorIndex Value="2"/>
+        <Filename Value="../../units/androidr15.pas"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="11901"/>
         <CursorPos X="13" Y="11928"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <EditorIndex Value="3"/>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="56449"/>
         <CursorPos X="21" Y="56464"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
-        <Filename Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <EditorIndex Value="1"/>
+        <Filename Value="../../units/AZCDialogs.pas"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="183"/>
         <CursorPos X="3" Y="185"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="24" HistoryIndex="23">
+    <JumpHistory Count="7" HistoryIndex="6">
       <Position1>
         <Filename Value="DateTime.lpr"/>
         <Caret Line="16" Column="11" TopLine="8"/>
       </Position1>
       <Position2>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="27" Column="48" TopLine="14"/>
       </Position2>
       <Position3>
         <Filename Value="DateTime.lpr"/>
-        <Caret Line="27" Column="48" TopLine="14"/>
+        <Caret Line="30" Column="16"/>
       </Position3>
       <Position4>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="12073" Column="17" TopLine="12045"/>
-      </Position4>
-      <Position5>
-        <Filename Value="/usr/local/pandroid/units/androidr15.inc"/>
-      </Position5>
-      <Position6>
-        <Filename Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Caret Line="56412" Column="25" TopLine="56385"/>
-      </Position6>
-      <Position7>
-        <Filename Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Caret Line="56413" Column="63" TopLine="56386"/>
-      </Position7>
-      <Position8>
-        <Filename Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Caret Line="56414" Column="67" TopLine="56387"/>
-      </Position8>
-      <Position9>
-        <Filename Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Caret Line="56415" Column="29" TopLine="56388"/>
-      </Position9>
-      <Position10>
-        <Filename Value="DateTime.lpr"/>
-        <Caret Line="30" Column="16"/>
-      </Position10>
-      <Position11>
         <Filename Value="DateTime.lpr"/>
         <Caret Line="26" Column="54" TopLine="9"/>
-      </Position11>
-      <Position12>
+      </Position4>
+      <Position5>
         <Filename Value="DateTime.lpr"/>
         <Caret Line="16" Column="41"/>
-      </Position12>
-      <Position13>
+      </Position5>
+      <Position6>
         <Filename Value="DateTime.lpr"/>
         <Caret Line="24" Column="31"/>
-      </Position13>
-      <Position14>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="12073" Column="17" TopLine="12042"/>
-      </Position14>
-      <Position15>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="1068" Column="28" TopLine="1052"/>
-      </Position15>
-      <Position16>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="1069" Column="32" TopLine="1052"/>
-      </Position16>
-      <Position17>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="1070" Column="32" TopLine="1052"/>
-      </Position17>
-      <Position18>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="1071" Column="32" TopLine="1052"/>
-      </Position18>
-      <Position19>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="2678" Column="24" TopLine="2651"/>
-      </Position19>
-      <Position20>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="2679" Column="28" TopLine="2652"/>
-      </Position20>
-      <Position21>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="2680" Column="28" TopLine="2653"/>
-      </Position21>
-      <Position22>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Caret Line="2681" Column="28" TopLine="2654"/>
-      </Position22>
-      <Position23>
+      </Position6>
+      <Position7>
         <Filename Value="DateTime.lpr"/>
         <Caret Line="32" Column="82" TopLine="8"/>
-      </Position23>
-      <Position24>
-        <Filename Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Caret Line="56409" Column="3" TopLine="56387"/>
-      </Position24>
+      </Position7>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

@@ -8,7 +8,8 @@
         <Filename Value="DateTime.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="51" Y="64"/>
+        <TopLine Value="4"/>
+        <CursorPos X="48" Y="13"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -22,8 +23,8 @@
       <Unit2>
         <Filename Value="../../units/androidr15.inc"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="56449"/>
-        <CursorPos X="21" Y="56464"/>
+        <TopLine Value="56582"/>
+        <CursorPos X="3" Y="56607"/>
         <UsageCount Value="10"/>
       </Unit2>
       <Unit3>
@@ -34,7 +35,7 @@
         <UsageCount Value="10"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="8" HistoryIndex="7">
       <Position1>
         <Filename Value="DateTime.lpr"/>
         <Caret Line="16" Column="11" TopLine="8"/>
@@ -63,6 +64,10 @@
         <Filename Value="DateTime.lpr"/>
         <Caret Line="32" Column="82" TopLine="8"/>
       </Position7>
+      <Position8>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="37" Column="26" TopLine="23"/>
+      </Position8>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

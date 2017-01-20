@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/home/android/Demo/Dialog2/Dialog2.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/unit1.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/AZCUserPasswordDialogs.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/dataset.inc"/>
-        <Item4 Value="/usr/local/pandroid/units/pascal/Forms.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item6 Value="/usr/local/pandroid/units/AActivity.pas"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSC_strutils.pas"/>
-        <Item8 Value="/home/android/Library/PascalScript/jni/uPSC_strutils.pas"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_Default.pas"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/uPSComponent_DB.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/AZCListView.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item4 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item5 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpi"/>
+        <Item6 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpr"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/classes/classesh.inc"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uib.pas"/>
+        <Item9 Value="/home/android/Projekti/PDAKasa/pascalsrc/jni/PUIB.pas"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/typinfo.pp"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/ReciklCount/ReciklCount.lpi"/>
-        <Item2 Value="/home/android/Projekti/zeljus/Reciklaza/Reciklaza.lpi"/>
-        <Item3 Value="/usr/local/pandroid/library/FBSQlite/jni/project1.lpi"/>
-        <Item4 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/project1.lpi"/>
-        <Item5 Value="/home/android/Demo/Firebird/Firebird.lpi"/>
+        <Item1 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
+        <Item2 Value="/usr/local/pandroid/example/DemoSQLite/DemoSQLite.lpi"/>
+        <Item3 Value="/home/android/Projekti/PDAKasa/PDAKasa.lpi"/>
+        <Item4 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
+        <Item5 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

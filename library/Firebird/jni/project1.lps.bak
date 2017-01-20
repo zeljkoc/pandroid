@@ -7,8 +7,7 @@
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="66" Y="21"/>
+        <CursorPos X="37" Y="11"/>
         <UsageCount Value="388"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -16,7 +15,7 @@
         <Filename Value="zcFirebird.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="6" Y="15"/>
+        <TopLine Value="109"/>
         <UsageCount Value="165"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -107,6 +106,7 @@
       </Unit13>
       <Unit14>
         <Filename Value="../compile.sh"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <CursorPos X="27" Y="18"/>
         <UsageCount Value="45"/>
@@ -194,7 +194,7 @@
         <UsageCount Value="10"/>
       </Unit25>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="zcFirebird.pas"/>
         <Caret Line="253" TopLine="212"/>
@@ -207,6 +207,10 @@
         <Filename Value="zcFirebird.pas"/>
         <Caret Line="15" Column="10"/>
       </Position3>
+      <Position4>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="14" Column="16"/>
+      </Position4>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

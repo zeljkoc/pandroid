@@ -7,13 +7,13 @@
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="33" Y="4"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="39" Y="16"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="../compile.sh"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos Y="21"/>
         <UsageCount Value="10"/>

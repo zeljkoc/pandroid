@@ -27,8 +27,7 @@ type
     procedure onCreate(savedInstanceState: AOBundle); override;
     procedure onClick(aView: AVView); override;
 
-    procedure onDateSet(para1: AWDatePicker; para2: jint; para3: jint; para4: jint);
-      overload;
+    procedure onDateSet(para1: AWDatePicker; para2: jint; para3: jint; para4: jint);  overload;
     procedure onTimeSet(para1: AWTimePicker; para2: jint; para3: jint); overload;
   public
     bDatePicker, bTimePicker: AWButton;

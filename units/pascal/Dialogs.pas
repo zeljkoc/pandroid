@@ -15,7 +15,7 @@ uses
   androidr15;
 
 type
-  TOnClickEvent   = procedure (para1: ACDialogInterface; para2: jint) of object;
+  TOnClickEventDialog   = procedure (para1: ACDialogInterface; para2: jint) of object;
 
   TTypeButton = (btNeutral, btNegative, btPositive);
 
@@ -24,7 +24,7 @@ type
   TDialog = class(AAAlertDialog, ACDialogInterface.InnerOnClickListener)
   private
    fID: integer;
-   FOnClick: TOnClickEvent;
+   FOnClick: TOnClickEventDialog;
   public
     procedure onClick(para1: ACDialogInterface; para2: jint); overload;
   public
@@ -32,7 +32,7 @@ type
    procedure AddButton(aTypeButton: TTypeButton; aName: JLCharSequence);
   public
    property ID: integer read fID write fID;
-   property OnClickListener: TOnClickEvent read FOnClick write FOnClick;
+   property OnClickListener: TOnClickEventDialog read FOnClick write FOnClick;
   end;
 
   { TTimePickerDialog }
@@ -96,7 +96,6 @@ begin
   inherited Create(para1);
   FTimePicker:= AWTimePicker.create(getContext);
   Self.setView(FTimePicker);
-
 end;
 
 

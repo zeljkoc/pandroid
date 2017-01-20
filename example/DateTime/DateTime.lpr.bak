@@ -97,13 +97,13 @@ end;
 
 procedure MainActivity.onDateSet(para1: AWDatePicker; para2: jint; para3: jint; para4: jint);
 begin
-  tDate.setText(JLString(JLInteger.toString(para2)).concat(' : ').concat(JLInteger.toString(para3))
+  tDate.setText(JLString('Date: ').concat(JLInteger.toString(para2)).concat(' : ').concat(JLInteger.toString(para3))
       .concat(' : ').concat(JLInteger.toString(para4)));
 end;
 
 procedure MainActivity.onTimeSet(para1: AWTimePicker; para2: jint; para3: jint);
 begin
- tTime.setText(JLString(JLInteger.toString(para2)).concat(' : ').concat(JLInteger.toString(para3)));
+ tTime.setText(JLString('Time: ').concat(JLInteger.toString(para2)).concat(' : ').concat(JLInteger.toString(para3)));
 end;
 
 end.

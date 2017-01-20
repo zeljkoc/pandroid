@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <TopLine Value="19"/>
         <CursorPos X="40" Y="52"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -17,7 +17,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="4"/>
         <CursorPos X="2" Y="23"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -30,10 +30,9 @@
       </Unit2>
       <Unit3>
         <Filename Value="../../units/AZCListView.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="7"/>
-        <CursorPos X="16" Y="53"/>
+        <TopLine Value="124"/>
+        <CursorPos X="49" Y="34"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -52,13 +51,15 @@
       </Unit5>
       <Unit6>
         <Filename Value="../../units/AZCDialogs.pas"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="45" Y="56"/>
+        <TopLine Value="269"/>
+        <CursorPos X="28" Y="318"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit6>
     </Units>
-    <JumpHistory Count="19" HistoryIndex="18">
+    <JumpHistory Count="20" HistoryIndex="19">
       <Position1>
         <Filename Value="DemoSQLite.lpr"/>
         <Caret Line="33" Column="21" TopLine="14"/>
@@ -135,6 +136,10 @@
         <Filename Value="DemoSQLite.lpr"/>
         <Caret Line="52" Column="40" TopLine="19"/>
       </Position19>
+      <Position20>
+        <Filename Value="../../units/AZCDialogs.pas"/>
+        <Caret Line="199" Column="9" TopLine="190"/>
+      </Position20>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

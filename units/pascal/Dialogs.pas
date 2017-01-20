@@ -12,7 +12,7 @@ unit Dialogs;
 interface
 
 uses
-  androidr15;
+  androidr15,  DialogsView;
 
 type
   TOnClickEventDialog   = procedure (para1: ACDialogInterface; para2: jint) of object;
@@ -57,7 +57,19 @@ type
     property DatePicker: AWDatePicker read FDatePicker;
   end;
 
+  { TUserNamePasswordDialog }
+
+  TUserNamePasswordDialog = class(TDialog)
+  private
+    FUserPasswordView: TUserPasswordView;
+  public
+    constructor create(para1: ACContext); override;
+  public
+    property UserNamePassword: TUserPasswordView read FUserPasswordView;
+  end;
+
 implementation
+
 
 { TDialog }
 
@@ -78,16 +90,6 @@ begin
    setButton(ord(aTypeButton) - (Ord(High(TTypeButton)) + 1), aName, Self);
 end;
 
-{ TDatePickerDialog }
-
-
-constructor TDatePickerDialog.create(para1: ACContext);
-
-begin
-  inherited Create(para1);
-  FDatePicker := AWDatePicker.create(getContext);
-  Self.setView(FDatePicker);
-end;
 
 { TTimePickerDialog }
 
@@ -97,6 +99,34 @@ begin
   FTimePicker:= AWTimePicker.create(getContext);
   Self.setView(FTimePicker);
 end;
+
+
+{ TDatePickerDialog }
+
+constructor TDatePickerDialog.create(para1: ACContext);
+
+begin
+  inherited Create(para1);
+  FDatePicker := AWDatePicker.create(getContext);
+  Self.setView(FDatePicker);
+end;
+
+
+{ TUserNamePasswordDialog }
+
+constructor TUserNamePasswordDialog.create(para1: ACContext);
+begin
+  inherited Create(para1);
+  FUserPasswordView := TUserPasswordView.create(getContext);
+  FUserPasswordView.UserNameCaption := 'User name: ';
+  FUserPasswordView.PasswordCaption := 'Password:  ';
+  Self.setView(FUserPasswordView);
+end;
+
+
+
+
+
 
 
 

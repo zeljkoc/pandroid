@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="TPropertyEditor"/>
-          <Item2 Value="unit oldlinux"/>
-          <Item3 Value="AOHandler"/>
-          <Item4 Value="text"/>
-          <Item5 Value="Text "/>
-          <Item6 Value="getText"/>
-          <Item7 Value="unit PCAdds"/>
-          <Item8 Value="MaskEdit ="/>
-          <Item9 Value="template"/>
-          <Item10 Value="CilicoUHF"/>
-          <Item11 Value="ACilicoUHF"/>
-          <Item12 Value="StringList"/>
-          <Item13 Value="TStringList"/>
-          <Item14 Value="R.drawable.ic_launcher"/>
-          <Item15 Value="PasswordTransformationMethod ="/>
-          <Item16 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
-          <Item17 Value="textPassword"/>
-          <Item18 Value="activityResultCallback"/>
-          <Item19 Value="Config ="/>
-          <Item20 Value="CordovaWebView ="/>
+          <Item1 Value="AWEditText ="/>
+          <Item2 Value="BaseAdapter ="/>
+          <Item3 Value="TPropertyEditor"/>
+          <Item4 Value="unit oldlinux"/>
+          <Item5 Value="AOHandler"/>
+          <Item6 Value="text"/>
+          <Item7 Value="Text "/>
+          <Item8 Value="getText"/>
+          <Item9 Value="unit PCAdds"/>
+          <Item10 Value="MaskEdit ="/>
+          <Item11 Value="template"/>
+          <Item12 Value="CilicoUHF"/>
+          <Item13 Value="ACilicoUHF"/>
+          <Item14 Value="StringList"/>
+          <Item15 Value="TStringList"/>
+          <Item16 Value="R.drawable.ic_launcher"/>
+          <Item17 Value="PasswordTransformationMethod ="/>
+          <Item18 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
+          <Item19 Value="textPassword"/>
+          <Item20 Value="activityResultCallback"/>
         </Find>
       </History>
     </Find>
@@ -41,28 +41,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Dialog2/">
+    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/units/pascal/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Demo/Dialog2/"/>
-        <Item2 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item3 Value="/home/android/Projekti/PDAKasa/"/>
-        <Item4 Value="/usr/local/pandroid/example/"/>
-        <Item5 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item6 Value="/usr/local/pandroid/library/DataSet/jni/"/>
-        <Item7 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item8 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
-        <Item9 Value="/home/android/Projekti/PDAKasa/pascalsrc/jni/"/>
-        <Item10 Value="/usr/local/pandroid/source/"/>
-        <Item11 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/"/>
-        <Item12 Value="/usr/local/pandroid/FreePascal/lazarus/components/sqldb/"/>
-        <Item13 Value="/usr/local/pandroid/FreePascal/lazarus/components/customdrawn/"/>
-        <Item14 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/ReciklCount/"/>
-        <Item15 Value="/home/android/Projekti/zeljus/Reciklaza/"/>
-        <Item16 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/"/>
-        <Item17 Value="/home/zeljko/RAZVOJ/"/>
-        <Item18 Value="/home/zeljko/"/>
-        <Item19 Value="/home/android/Demo/Firebird/"/>
-        <Item20 Value="/home/android/Projekti/Popis/"/>
+        <Item1 Value="/usr/local/pandroid/units/pascal/"/>
+        <Item2 Value="/home/android/Demo/Dialog2/"/>
+        <Item3 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item4 Value="/home/android/Projekti/PDAKasa/"/>
+        <Item5 Value="/usr/local/pandroid/example/"/>
+        <Item6 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item7 Value="/usr/local/pandroid/library/DataSet/jni/"/>
+        <Item8 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item9 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
+        <Item10 Value="/home/android/Projekti/PDAKasa/pascalsrc/jni/"/>
+        <Item11 Value="/usr/local/pandroid/source/"/>
+        <Item12 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/"/>
+        <Item13 Value="/usr/local/pandroid/FreePascal/lazarus/components/sqldb/"/>
+        <Item14 Value="/usr/local/pandroid/FreePascal/lazarus/components/customdrawn/"/>
+        <Item15 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/ReciklCount/"/>
+        <Item16 Value="/home/android/Projekti/zeljus/Reciklaza/"/>
+        <Item17 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/"/>
+        <Item18 Value="/home/zeljko/RAZVOJ/"/>
+        <Item19 Value="/home/zeljko/"/>
+        <Item20 Value="/home/android/Demo/Firebird/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="3">

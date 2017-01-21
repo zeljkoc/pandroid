@@ -93,21 +93,20 @@ type
    procedure SetValue(Index: jint; Value: TValue);
    procedure SetVisible(Index: jint; Value: jboolean);
   public
-    constructor create; overload; virtual;
-    procedure AddField(aName: JLString; aDataType: TDataType);
+   constructor create; overload; virtual;
+   procedure AddField(aName: JLString; aDataType: TDataType);
   public
-    property FieldCount: jint read size;
-    property FieldNo[Index: jint]: jint read GetFieldNo;
-    property Change[Index: jint]: jboolean read GetChange;
-    property CharCase[Index: jint]: TEditCharCase read GetCharCase write SetCharCase;
-    property DataType[Index: jint]: TDataType read GetDataType write SetDataType;
-    property DisplayName[Index: jint]: JLString read GetDisplayName write SetDisplayName;
-    property Name[Index: jint]: JLString read GetName write SetName;
-    property OldValue[Index: jint]: TValue read GetOldValue write SetOldValue;
-    property ReadOnly[Index: jint]: jboolean read GetReadOnly write SetReadOnly;
-    property Value[Index: jint]: TValue read GetValue write SetValue;
-    property Visible[Index: jint]: jboolean read GetVisible write SetVisible;
-
+   property FieldCount: jint read size;
+   property FieldNo[Index: jint]: jint read GetFieldNo;
+   property Change[Index: jint]: jboolean read GetChange;
+   property CharCase[Index: jint]: TEditCharCase read GetCharCase write SetCharCase;
+   property DataType[Index: jint]: TDataType read GetDataType write SetDataType;
+   property DisplayName[Index: jint]: JLString read GetDisplayName write SetDisplayName;
+   property Name[Index: jint]: JLString read GetName write SetName;
+   property OldValue[Index: jint]: TValue read GetOldValue write SetOldValue;
+   property ReadOnly[Index: jint]: jboolean read GetReadOnly write SetReadOnly;
+   property Value[Index: jint]: TValue read GetValue write SetValue;
+   property Visible[Index: jint]: jboolean read GetVisible write SetVisible;
   end;
 
 

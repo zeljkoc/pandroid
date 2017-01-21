@@ -8,20 +8,21 @@
         <Filename Value="DemoToolBar2.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="5" Y="53"/>
+        <TopLine Value="53"/>
+        <CursorPos X="49" Y="63"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="../../units/AZCToolBar.pas"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="90"/>
-        <CursorPos X="13" Y="128"/>
+        <TopLine Value="11"/>
+        <CursorPos X="46" Y="22"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="8" HistoryIndex="7">
       <Position1>
         <Filename Value="DemoToolBar2.lpr"/>
         <Caret Line="31" Column="33" TopLine="17"/>
@@ -50,6 +51,10 @@
         <Filename Value="DemoToolBar2.lpr"/>
         <Caret Line="70" Column="102" TopLine="44"/>
       </Position7>
+      <Position8>
+        <Filename Value="DemoToolBar2.lpr"/>
+        <Caret Line="18" Column="42"/>
+      </Position8>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

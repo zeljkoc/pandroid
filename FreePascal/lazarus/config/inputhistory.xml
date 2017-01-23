@@ -41,10 +41,10 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/usr/local/pandroid/units/pascal/">
+    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Dialog2/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/units/pascal/"/>
-        <Item2 Value="/home/android/Demo/Dialog2/"/>
+        <Item1 Value="/home/android/Demo/Dialog2/"/>
+        <Item2 Value="/usr/local/pandroid/units/pascal/"/>
         <Item3 Value="/usr/local/pandroid/example/DemoSQLite/"/>
         <Item4 Value="/home/android/Projekti/PDAKasa/"/>
         <Item5 Value="/usr/local/pandroid/example/"/>
@@ -65,7 +65,7 @@
         <Item20 Value="/home/android/Demo/Firebird/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="3">
+    <HistoryLists Count="1">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>

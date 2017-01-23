@@ -67,16 +67,16 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/AZCFields.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item4 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
-        <Item6 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
-        <Item7 Value="/usr/local/pandroid/units/AZCListView.pas"/>
-        <Item8 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpi"/>
-        <Item9 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpr"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/classes/classesh.inc"/>
+        <Item1 Value="/home/android/Demo/Dialog2/Data.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item3 Value="/usr/local/pandroid/units/AZCFields.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
+        <Item7 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
+        <Item8 Value="/usr/local/pandroid/units/AZCListView.pas"/>
+        <Item9 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpi"/>
+        <Item10 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpr"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>

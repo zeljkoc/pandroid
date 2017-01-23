@@ -114,46 +114,60 @@ type
   TCursorDataSet = class
      FCursor: ADCursor;
      FFieldDef: TFieldDef;
+     procedure ReadFieldDef;
   private
+    function GetFieldDef: TFieldDef;
     procedure SetCursor(Value: ADCursor);
    public
     constructor create; virtual;
    public
     property Cursor: ADCursor read FCursor write SetCursor;
-    property FieldDef: TFieldDef read FFieldDef;
+    property FieldDef: TFieldDef read GetFieldDef;
   end;
 
 implementation
 
 { TCursorDataSet }
 
-procedure TCursorDataSet.SetCursor(Value: ADCursor);
+procedure TCursorDataSet.ReadFieldDef;
 var
   i: integer;
 begin
+  if (fCursor.getCount <> 0) then begin
+      FFieldDef.clear;
+      for i:=0 to fCursor.getColumnCount - 1 do begin
+        if fCursor.getType(i) = ADCursor.FIELD_TYPE_NULL then begin
+    		    FFieldDef.AddField(fCursor.getColumnName(i), ftNull);
+            FFieldDef.Value[i].AsString := fCursor.getString(i);
+        end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_INTEGER then begin
+    		    FFieldDef.AddField(fCursor.getColumnName(i), ftInteger);
+            FFieldDef.Value[i].AsInteger := fCursor.getInt(i);
+        end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_FLOAT then begin
+    		    FFieldDef.AddField(fCursor.getColumnName(i), ftFloat);
+            FFieldDef.Value[i].AsFloat := fCursor.getFloat(i);
+        end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_STRING then begin
+    		    FFieldDef.AddField(fCursor.getColumnName(i), ftString);
+            FFieldDef.Value[i].AsString := fCursor.getString(i);
+        end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_BLOB then begin
+    		    FFieldDef.AddField(fCursor.getColumnName(i), ftBlob);
+            FFieldDef.Value[i].AsString := fCursor.getString(i);    //blob ?
+        end;
+      end;
+  end;
+end;
+
+function TCursorDataSet.GetFieldDef: TFieldDef;
+begin
+  ReadFieldDef;
+  Result := FFieldDef;
+end;
+
+procedure TCursorDataSet.SetCursor(Value: ADCursor);
+
+begin
   if FCursor = Value then Exit;
   FCursor := Value;
-  fCursor.moveToFirst;
-
-  FFieldDef.clear;
-  for i:=0 to fCursor.getColumnCount - 1 do begin
-    if fCursor.getType(i) = ADCursor.FIELD_TYPE_NULL then begin
-    		FFieldDef.AddField(fCursor.getColumnName(i), ftNull);
-        FFieldDef.Value[i].AsString := fCursor.getString(i);
-    end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_INTEGER then begin
-    		FFieldDef.AddField(fCursor.getColumnName(i), ftInteger);
-        FFieldDef.Value[i].AsInteger := fCursor.getInt(i);
-    end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_FLOAT then begin
-    		FFieldDef.AddField(fCursor.getColumnName(i), ftFloat);
-        FFieldDef.Value[i].AsFloat := fCursor.getFloat(i);
-    end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_STRING then begin
-    		FFieldDef.AddField(fCursor.getColumnName(i), ftString);
-        FFieldDef.Value[i].AsString := fCursor.getString(i);
-    end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_BLOB then begin
-    		FFieldDef.AddField(fCursor.getColumnName(i), ftBlob);
-        FFieldDef.Value[i].AsString := fCursor.getString(i);    //blob ?
-    end;
-  end;
+  FCursor.moveToFirst;
 end;
 
 constructor TCursorDataSet.create;

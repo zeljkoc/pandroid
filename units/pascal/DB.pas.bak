@@ -194,7 +194,7 @@ end;
 
 procedure TCursorDataSet.Next;
 begin
-  if FIndex < FCount then Inc(FIndex);
+  if FIndex < FCount -1  then Inc(FIndex);
 end;
 
 procedure TCursorDataSet.Prev;

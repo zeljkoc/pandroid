@@ -211,7 +211,8 @@ end;
 
 procedure TCursorDataSet.Last;
 begin
-  FIndex := FCount;
+  if FCount > 0 then
+   FIndex := FCount -1;
 end;
 
 procedure TCursorDataSet.First;

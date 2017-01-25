@@ -195,6 +195,8 @@ constructor TCursorDataSet.create;
 begin
   inherited Create;
   FFields:= JUArrayList.create;
+  FIndex := 0;
+  FCount := 0;
 end;
 
 procedure TCursorDataSet.Next;
@@ -209,7 +211,7 @@ end;
 
 procedure TCursorDataSet.Last;
 begin
-  FIndex := FCount;
+  FIndex := FCount -1;
 end;
 
 procedure TCursorDataSet.First;

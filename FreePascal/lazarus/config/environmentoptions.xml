@@ -67,16 +67,16 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item2 Value="/Zeljus/Component/zc_ibx/runtime/IBIntf.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item4 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/AZCListView.pas"/>
-        <Item6 Value="/usr/local/pandroid/units/AZCFields.pas"/>
-        <Item7 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item9 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
-        <Item10 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/pascal/DB.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/pascal/DataBase.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item5 Value="/Zeljus/Component/zc_ibx/runtime/IBIntf.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item7 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
+        <Item8 Value="/usr/local/pandroid/units/AZCListView.pas"/>
+        <Item9 Value="/usr/local/pandroid/units/AZCFields.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/androidr15.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>

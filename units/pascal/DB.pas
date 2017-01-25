@@ -13,7 +13,7 @@ unit DB;
 interface
 
 uses
-  androidr15;
+  androidr15, DataBase;
 
 type
   TDataType = (ftNull, ftInteger, ftFloat, ftString, ftBlob);
@@ -114,12 +114,15 @@ type
   TCursorDataSet = class(JUArrayList)
      FIndex: jint;
      FCount: jint;
-     FCursor: ADCursor;
+     FDatabase: TDataBase;
+     FSelect: JLString;
      FFields: JUArrayList;
-     function ReadFieldDef: TFieldDef;
+     function ReadFieldDef(FCursor: ADCursor): TFieldDef;
+     procedure DefineCursor(Value: ADCursor);
   private
     function GetFieldDef: TFieldDef;
-    procedure SetCursor(Value: ADCursor);
+
+    procedure SetSelect(Value: JLString);
    public
     constructor create;  overload; virtual;
     procedure Next;
@@ -127,7 +130,8 @@ type
     procedure Last;
     procedure First;
    public
-    property Cursor: ADCursor read FCursor write SetCursor;
+    property DataBase: TDataBase read FDataBase write FDataBase;
+    property Select: JLString write SetSelect;
     property Fields: TFieldDef read GetFieldDef;
     property Count: jint read FCount;
     property Index: jint read FIndex;
@@ -137,7 +141,7 @@ implementation
 
 { TCursorDataSet }
 
-function TCursorDataSet.ReadFieldDef: TFieldDef;
+function TCursorDataSet.ReadFieldDef(FCursor: ADCursor): TFieldDef;
 var
   i: integer;
 begin
@@ -172,23 +176,28 @@ begin
   Result := TFieldDef(FFields.get(FIndex));
 end;
 
-procedure TCursorDataSet.SetCursor(Value: ADCursor);
+procedure TCursorDataSet.DefineCursor(Value: ADCursor);
 var
   i: integer;
 begin
-  if (FCursor = Value) and (Value.getCount = 0) then Exit;
-  FCursor := Value;
-  FCursor.moveToFirst;
+  if (Value.getCount = 0) then Exit;
+  Value.moveToFirst;
   FFields.clear;
 
-  for i :=0 to FCursor.getCount - 1 do begin
-    FCursor.move(i);
-    FFields.add(ReadFieldDef);
+  for i :=0 to Value.getCount - 1 do begin
+    Value.move(i);
+    FFields.add(ReadFieldDef(Value));
   end;
 
   FIndex := i;
   FCount := FIndex + 1;
 
+end;
+
+procedure TCursorDataSet.SetSelect(Value: JLString);
+begin
+  FSelect := Value;
+  DefineCursor(FDatabase.rawQuery(FSelect, nil));
 end;
 
 constructor TCursorDataSet.create;

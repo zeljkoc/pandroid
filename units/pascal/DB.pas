@@ -117,7 +117,7 @@ type
      FDatabase: TDataBase;
      FSelect: JLString;
      FFields: JUArrayList;
-     function ReadFieldDef(FCursor: ADCursor): TFieldDef;
+     function ReadFieldDef(aCursor: ADCursor): TFieldDef;
      procedure DefineCursor(Value: ADCursor);
   private
     function GetFieldDef: TFieldDef;
@@ -129,6 +129,7 @@ type
     procedure Prev;
     procedure Last;
     procedure First;
+    procedure Refresh;
    public
     property DataBase: TDataBase read FDataBase write FDataBase;
     property Select: JLString write SetSelect;
@@ -141,32 +142,35 @@ implementation
 
 { TCursorDataSet }
 
-function TCursorDataSet.ReadFieldDef(FCursor: ADCursor): TFieldDef;
+function TCursorDataSet.ReadFieldDef(aCursor: ADCursor): TFieldDef;
 var
   i: integer;
+  isValue: boolean;
 begin
+    isValue := aCursor.getCount <> 0;
+
      Result := TFieldDef.create;
-      for i:=0 to fCursor.getColumnCount - 1 do begin
-        if fCursor.getType(i) = ADCursor.FIELD_TYPE_NULL then begin
-    		    Result.AddField(fCursor.getColumnName(i), ftNull);
-            Result.Value[i].AsString := fCursor.getString(i);
-            Result.OldValue[i].AsString := Result.Value[i].AsString;
-        end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_INTEGER then begin
-    		    Result.AddField(fCursor.getColumnName(i), ftInteger);
-            Result.Value[i].AsInteger := fCursor.getInt(i);
-            Result.OldValue[i].AsInteger := Result.Value[i].AsInteger;
-        end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_FLOAT then begin
-    		    Result.AddField(fCursor.getColumnName(i), ftFloat);
-            Result.Value[i].AsFloat := fCursor.getFloat(i);
-            Result.OldValue[i].AsFloat := Result.Value[i].AsFloat;
-        end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_STRING then begin
-    		    Result.AddField(fCursor.getColumnName(i), ftString);
-            Result.Value[i].AsString := fCursor.getString(i);
-            Result.OldValue[i].AsString := Result.Value[i].AsString;
-        end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_BLOB then begin
-    		    Result.AddField(fCursor.getColumnName(i), ftBlob);
-            Result.Value[i].AsString := fCursor.getString(i);    //blob ?
-            Result.OldValue[i].AsString := Result.Value[i].AsString;
+      for i:=0 to aCursor.getColumnCount - 1 do begin
+        if aCursor.getType(i) = ADCursor.FIELD_TYPE_NULL then begin
+    		    Result.AddField(aCursor.getColumnName(i), ftNull);
+         if isValue then Result.Value[i].AsString := aCursor.getString(i);
+         if isValue then   Result.OldValue[i].AsString := Result.Value[i].AsString;
+        end else if aCursor.getType(i) = ADCursor.FIELD_TYPE_INTEGER then begin
+    		    Result.AddField(aCursor.getColumnName(i), ftInteger);
+         if isValue then Result.Value[i].AsInteger := aCursor.getInt(i);
+         if isValue then Result.OldValue[i].AsInteger := Result.Value[i].AsInteger;
+        end else if aCursor.getType(i) = ADCursor.FIELD_TYPE_FLOAT then begin
+    		    Result.AddField(aCursor.getColumnName(i), ftFloat);
+         if isValue then Result.Value[i].AsFloat := aCursor.getFloat(i);
+         if isValue then Result.OldValue[i].AsFloat := Result.Value[i].AsFloat;
+        end else if aCursor.getType(i) = ADCursor.FIELD_TYPE_STRING then begin
+    		    Result.AddField(aCursor.getColumnName(i), ftString);
+         if isValue then Result.Value[i].AsString := aCursor.getString(i);
+         if isValue then Result.OldValue[i].AsString := Result.Value[i].AsString;
+        end else if aCursor.getType(i) = ADCursor.FIELD_TYPE_BLOB then begin
+    		    Result.AddField(aCursor.getColumnName(i), ftBlob);
+         if isValue then Result.Value[i].AsString := aCursor.getString(i);    //blob ?
+         if isValue then Result.OldValue[i].AsString := Result.Value[i].AsString;
         end;
       end;
 end;
@@ -227,6 +231,11 @@ end;
 procedure TCursorDataSet.First;
 begin
   FIndex := 0;
+end;
+
+procedure TCursorDataSet.Refresh;
+begin
+  SetSelect(FSelect);
 end;
 
 { TValue }

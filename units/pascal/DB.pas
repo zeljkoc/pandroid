@@ -195,6 +195,8 @@ constructor TCursorDataSet.create;
 begin
   inherited Create;
   FFields:= JUArrayList.create;
+  FIndex := 0;
+  FCount := 0;
 end;
 
 procedure TCursorDataSet.Next;

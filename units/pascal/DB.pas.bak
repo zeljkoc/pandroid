@@ -146,18 +146,23 @@ begin
         if fCursor.getType(i) = ADCursor.FIELD_TYPE_NULL then begin
     		    Result.AddField(fCursor.getColumnName(i), ftNull);
             Result.Value[i].AsString := fCursor.getString(i);
+            Result.OldValue[i].AsString := Result.Value[i].AsString;
         end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_INTEGER then begin
     		    Result.AddField(fCursor.getColumnName(i), ftInteger);
             Result.Value[i].AsInteger := fCursor.getInt(i);
+            Result.OldValue[i].AsInteger := Result.Value[i].AsInteger;
         end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_FLOAT then begin
     		    Result.AddField(fCursor.getColumnName(i), ftFloat);
             Result.Value[i].AsFloat := fCursor.getFloat(i);
+            Result.OldValue[i].AsFloat := Result.Value[i].AsFloat;
         end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_STRING then begin
     		    Result.AddField(fCursor.getColumnName(i), ftString);
             Result.Value[i].AsString := fCursor.getString(i);
+            Result.OldValue[i].AsString := Result.Value[i].AsString;
         end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_BLOB then begin
     		    Result.AddField(fCursor.getColumnName(i), ftBlob);
             Result.Value[i].AsString := fCursor.getString(i);    //blob ?
+            Result.OldValue[i].AsString := Result.Value[i].AsString;
         end;
       end;
 end;

@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/home/android/Demo/Dialog2/Data.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item3 Value="/usr/local/pandroid/units/AZCFields.pas"/>
-        <Item4 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item6 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
-        <Item7 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/AZCListView.pas"/>
-        <Item9 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpi"/>
-        <Item10 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpr"/>
+        <Item1 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item2 Value="/Zeljus/Component/zc_ibx/runtime/IBIntf.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/AZCListView.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/AZCFields.pas"/>
+        <Item7 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item8 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item9 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
         <Item2 Value="/usr/local/pandroid/example/DemoSQLite/DemoSQLite.lpi"/>
-        <Item3 Value="/home/android/Projekti/PDAKasa/PDAKasa.lpi"/>
-        <Item4 Value="/usr/local/pandroid/example/DateTime/DateTime.lpi"/>
-        <Item5 Value="/usr/local/pandroid/library/DataSet/jni/project1.lpi"/>
+        <Item3 Value="/usr/local/pandroid/example/DemoToolBar2/DemoToolBar2.lpi"/>
+        <Item4 Value="/home/android/Projekti/PDAKasa/pascalsrc/jni/project1.lpi"/>
+        <Item5 Value="/home/android/Projekti/PDAKasa/PDAKasa.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

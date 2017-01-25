@@ -48,8 +48,8 @@ begin
   //----------------------------
    ToolBar:= TZCToolBar.Create(Self);
    with ToolBar do begin
-     setVerticalSpacingGridView(30);
-     setHorizontalSpacingGridView(30);
+     setVerticalSpacingGridView(10);
+     setHorizontalSpacingGridView(10);
   //   setNumColumnsGridView(1); // AWGridView.AUTO_FIT);
    end;
 

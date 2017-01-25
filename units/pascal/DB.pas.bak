@@ -111,69 +111,105 @@ type
 
   { TCursorDataSet }
 
-  TCursorDataSet = class
+  TCursorDataSet = class(JUArrayList)
+     FIndex: jint;
+     FCount: jint;
      FCursor: ADCursor;
-     FFieldDef: TFieldDef;
-     procedure ReadFieldDef;
+     FFields: JUArrayList;
+     function ReadFieldDef: TFieldDef;
   private
     function GetFieldDef: TFieldDef;
     procedure SetCursor(Value: ADCursor);
    public
-    constructor create; virtual;
+    constructor create;  overload; virtual;
+    procedure Next;
+    procedure Prev;
+    procedure Last;
+    procedure First;
    public
     property Cursor: ADCursor read FCursor write SetCursor;
-    property FieldDef: TFieldDef read GetFieldDef;
+    property Fields: TFieldDef read GetFieldDef;
+    property Count: jint read FCount;
+    property Index: jint read FIndex;
   end;
 
 implementation
 
 { TCursorDataSet }
 
-procedure TCursorDataSet.ReadFieldDef;
+function TCursorDataSet.ReadFieldDef: TFieldDef;
 var
   i: integer;
 begin
-  if (fCursor.getCount <> 0) then begin
-      FFieldDef.clear;
+     Result := TFieldDef.create;
       for i:=0 to fCursor.getColumnCount - 1 do begin
         if fCursor.getType(i) = ADCursor.FIELD_TYPE_NULL then begin
-    		    FFieldDef.AddField(fCursor.getColumnName(i), ftNull);
-            FFieldDef.Value[i].AsString := fCursor.getString(i);
+    		    Result.AddField(fCursor.getColumnName(i), ftNull);
+            Result.Value[i].AsString := fCursor.getString(i);
         end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_INTEGER then begin
-    		    FFieldDef.AddField(fCursor.getColumnName(i), ftInteger);
-            FFieldDef.Value[i].AsInteger := fCursor.getInt(i);
+    		    Result.AddField(fCursor.getColumnName(i), ftInteger);
+            Result.Value[i].AsInteger := fCursor.getInt(i);
         end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_FLOAT then begin
-    		    FFieldDef.AddField(fCursor.getColumnName(i), ftFloat);
-            FFieldDef.Value[i].AsFloat := fCursor.getFloat(i);
+    		    Result.AddField(fCursor.getColumnName(i), ftFloat);
+            Result.Value[i].AsFloat := fCursor.getFloat(i);
         end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_STRING then begin
-    		    FFieldDef.AddField(fCursor.getColumnName(i), ftString);
-            FFieldDef.Value[i].AsString := fCursor.getString(i);
+    		    Result.AddField(fCursor.getColumnName(i), ftString);
+            Result.Value[i].AsString := fCursor.getString(i);
         end else if fCursor.getType(i) = ADCursor.FIELD_TYPE_BLOB then begin
-    		    FFieldDef.AddField(fCursor.getColumnName(i), ftBlob);
-            FFieldDef.Value[i].AsString := fCursor.getString(i);    //blob ?
+    		    Result.AddField(fCursor.getColumnName(i), ftBlob);
+            Result.Value[i].AsString := fCursor.getString(i);    //blob ?
         end;
       end;
-  end;
 end;
 
 function TCursorDataSet.GetFieldDef: TFieldDef;
 begin
-  SetFieldDef;
-  Result := FFieldDef;
+  Result := TFieldDef(FFields.get(FIndex));
 end;
 
 procedure TCursorDataSet.SetCursor(Value: ADCursor);
-
+var
+  i: integer;
 begin
-  if FCursor = Value then Exit;
+  if (FCursor = Value) and (Value.getCount = 0) then Exit;
   FCursor := Value;
   FCursor.moveToFirst;
+  FFields.clear;
+
+  for i :=0 to FCursor.getCount - 1 do begin
+    FCursor.move(i);
+    FFields.add(ReadFieldDef);
+  end;
+
+  FIndex := i;
+  FCount := FIndex + 1;
+
 end;
 
 constructor TCursorDataSet.create;
 begin
   inherited Create;
-  FFieldDef:= TFieldDef.create;
+  FFields:= JUArrayList.create;
+end;
+
+procedure TCursorDataSet.Next;
+begin
+  if FIndex < FCount then Inc(FIndex);
+end;
+
+procedure TCursorDataSet.Prev;
+begin
+  if FIndex < 0 then Dec(FIndex);
+end;
+
+procedure TCursorDataSet.Last;
+begin
+  FIndex := FCount;
+end;
+
+procedure TCursorDataSet.First;
+begin
+  FIndex := 0;
 end;
 
 { TValue }

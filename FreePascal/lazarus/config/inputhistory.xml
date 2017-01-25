@@ -44,25 +44,25 @@
     <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Dialog2/">
       <HistoryList Count="20">
         <Item1 Value="/home/android/Demo/Dialog2/"/>
-        <Item2 Value="/usr/local/pandroid/units/pascal/"/>
-        <Item3 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item4 Value="/home/android/Projekti/PDAKasa/"/>
-        <Item5 Value="/usr/local/pandroid/example/"/>
-        <Item6 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item7 Value="/usr/local/pandroid/library/DataSet/jni/"/>
-        <Item8 Value="/usr/local/pandroid/library/Firebird/jni/"/>
-        <Item9 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
-        <Item10 Value="/home/android/Projekti/PDAKasa/pascalsrc/jni/"/>
-        <Item11 Value="/usr/local/pandroid/source/"/>
-        <Item12 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/"/>
-        <Item13 Value="/usr/local/pandroid/FreePascal/lazarus/components/sqldb/"/>
-        <Item14 Value="/usr/local/pandroid/FreePascal/lazarus/components/customdrawn/"/>
-        <Item15 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/ReciklCount/"/>
-        <Item16 Value="/home/android/Projekti/zeljus/Reciklaza/"/>
-        <Item17 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/"/>
-        <Item18 Value="/home/zeljko/RAZVOJ/"/>
-        <Item19 Value="/home/zeljko/"/>
-        <Item20 Value="/home/android/Demo/Firebird/"/>
+        <Item2 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
+        <Item3 Value="/home/android/Projekti/PDAKasa/pascalsrc/jni/"/>
+        <Item4 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item5 Value="/usr/local/pandroid/units/pascal/"/>
+        <Item6 Value="/home/android/Projekti/PDAKasa/"/>
+        <Item7 Value="/usr/local/pandroid/example/"/>
+        <Item8 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item9 Value="/usr/local/pandroid/library/DataSet/jni/"/>
+        <Item10 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item11 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
+        <Item12 Value="/usr/local/pandroid/source/"/>
+        <Item13 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/"/>
+        <Item14 Value="/usr/local/pandroid/FreePascal/lazarus/components/sqldb/"/>
+        <Item15 Value="/usr/local/pandroid/FreePascal/lazarus/components/customdrawn/"/>
+        <Item16 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/ReciklCount/"/>
+        <Item17 Value="/home/android/Projekti/zeljus/Reciklaza/"/>
+        <Item18 Value="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/"/>
+        <Item19 Value="/home/zeljko/RAZVOJ/"/>
+        <Item20 Value="/home/zeljko/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

@@ -167,7 +167,7 @@ begin
   FObjctView.setOrientation(AWLinearLayout.HORIZONTAL);
 
     bt:= AWButton.create(getContext);
-    bt.Text := FCursorDataSet.Field.Value[1].AsString;
+    bt.Text := FCursorDataSet.Field.DisplayName[1];
  FObjctView.addView(bt);
 
   Result:=  AVView(FObjctView);
@@ -219,7 +219,6 @@ var
   i: integer;
 begin
   if (Value.getCount = 0) then Exit;
-  //Value.moveToFirst;
   FFields.clear;
 
   for i :=0 to Value.getCount - 1 do begin
@@ -229,7 +228,6 @@ begin
 
   FIndex := i;
   FCount := FIndex + 1;
-
 end;
 
 procedure TCursorDataSet.SetSelect(Value: JLString);

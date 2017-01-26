@@ -46,29 +46,29 @@ type
 
    TField = class
    private
-      FFieldNo: jint;
-      FDataType: TDataType;
-      FReadOnly: jboolean;
-      FVisible: jboolean;
-      FOldValue: TValue;
-      FName: JLString;
-      FDisplayName: JLString;
-      FValue: TValue;
-      FChange: jboolean;
-      FCharCase: TEditCharCase;
+    FFieldNo: jint;
+    FDataType: TDataType;
+    FReadOnly: jboolean;
+    FVisible: jboolean;
+    FOldValue: TValue;
+    FName: JLString;
+    FDisplayName: JLString;
+    FValue: TValue;
+    FChange: jboolean;
+    FCharCase: TEditCharCase;
    public
-      constructor create; overload; virtual;
+    constructor create; overload; virtual;
    public
-      property FieldNo: jint read FFieldNo write FFieldNo;
-      property DataType: TDataType read FDataType write FDataType;
-      property ReadOnly: jboolean read FReadOnly write FReadOnly;
-      property Visible: jboolean read FVisible write FVisible;
-      property Value: TValue read FValue write FValue;
-      property OldValue: TValue read FOldValue write FOldValue;
-      property Name: JLString read FName write FName;
-      property DisplayName: JLString read FDisplayName write FDisplayName;
-      property Change: jboolean read FChange write FChange;
-      property CharCase: TEditCharCase read FCharCase write FCharCase;
+    property FieldNo: jint read FFieldNo write FFieldNo;
+    property DataType: TDataType read FDataType write FDataType;
+    property ReadOnly: jboolean read FReadOnly write FReadOnly;
+    property Visible: jboolean read FVisible write FVisible;
+    property Value: TValue read FValue write FValue;
+    property OldValue: TValue read FOldValue write FOldValue;
+    property Name: JLString read FName write FName;
+    property DisplayName: JLString read FDisplayName write FDisplayName;
+    property Change: jboolean read FChange write FChange;
+    property CharCase: TEditCharCase read FCharCase write FCharCase;
   end;
 
   { TFieldDef }
@@ -219,7 +219,6 @@ var
   i: integer;
 begin
   if (Value.getCount = 0) then Exit;
-  //Value.moveToFirst;
   FFields.clear;
 
   for i :=0 to Value.getCount - 1 do begin
@@ -229,7 +228,6 @@ begin
 
   FIndex := i;
   FCount := FIndex + 1;
-
 end;
 
 procedure TCursorDataSet.SetSelect(Value: JLString);

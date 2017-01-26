@@ -18,6 +18,7 @@ uses
 type
   TDataType = (ftNull, ftInteger, ftFloat, ftString, ftBlob);
   TEditCharCase = (eccNormal, eccLowerCase, eccUpperCase);
+  TFieldView = (fvTextView, fvEditText);
 
   { TValue }
 
@@ -111,7 +112,7 @@ type
 
   { TCursorDataSet }
 
-  TCursorDataSet = class(JUArrayList)
+  TCursorDataSet = class
      FIndex: jint;
      FCount: jint;
      FDatabase: TDataBase;
@@ -121,7 +122,6 @@ type
      procedure DefineCursor(Value: ADCursor);
   private
     function GetFieldDef: TFieldDef;
-
     procedure SetSelect(Value: JLString);
    public
     constructor create;  overload; virtual;
@@ -133,12 +133,46 @@ type
    public
     property DataBase: TDataBase read FDataBase write FDataBase;
     property Select: JLString write SetSelect;
-    property Fields: TFieldDef read GetFieldDef;
+    property Field: TFieldDef read GetFieldDef;
+    property Fields: JUArrayList read FFields;
     property Count: jint read FCount;
     property Index: jint read FIndex;
   end;
 
+  { TDataSetAddapter }
+
+  TDataSetAddapter = class(AWArrayAdapter)
+    FCursorDataSet: TCursorDataSet;
+    FObjctView: AWLinearLayout;
+  public
+    constructor create(aContext: ACContext; para2: jint; aCursorDataSet: TCursorDataSet); overload;
+    function getView(para1: jint; aView: AVView; aViewGroup: AVViewGroup): AVView;  override;
+  end;
+
 implementation
+
+{ TDataSetAddapter }
+
+constructor TDataSetAddapter.create(aContext: ACContext; para2: jint; aCursorDataSet: TCursorDataSet);
+begin
+  FCursorDataSet := aCursorDataSet;
+  inherited create(aContext,  para2, FCursorDataSet.Fields);
+end;
+
+function TDataSetAddapter.getView(para1: jint; aView: AVView; aViewGroup: AVViewGroup): AVView;
+var
+  bt: AWButton;
+begin
+  FObjctView:= AWLinearLayout.Create(getContext);
+  FObjctView.setOrientation(AWLinearLayout.HORIZONTAL);
+
+    bt:= AWButton.create(getContext);
+    bt.Text := FCursorDataSet.Field.DisplayName[1];
+ FObjctView.addView(bt);
+
+  Result:=  AVView(FObjctView);
+end;
+
 
 { TCursorDataSet }
 
@@ -185,11 +219,11 @@ var
   i: integer;
 begin
   if (Value.getCount = 0) then Exit;
-  Value.moveToFirst;
+  //Value.moveToFirst;
   FFields.clear;
 
   for i :=0 to Value.getCount - 1 do begin
-    Value.move(i);
+    Value.moveToPosition(i);
     FFields.add(ReadFieldDef(Value));
   end;
 

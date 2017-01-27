@@ -67,10 +67,10 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/AZCListView.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item4 Value="/usr/local/pandroid/units/pascal/DB.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/pascal/DB.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/AZCListView.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/androidr15.inc"/>
         <Item5 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
         <Item6 Value="/usr/local/pandroid/units/pascal/DataBase.pas"/>
         <Item7 Value="/Zeljus/Component/zc_ibx/runtime/IBIntf.pas"/>

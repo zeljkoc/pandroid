@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="Calendar ="/>
-          <Item2 Value="JUCalendar ="/>
-          <Item3 Value="AWEditText ="/>
-          <Item4 Value="BaseAdapter ="/>
-          <Item5 Value="TPropertyEditor"/>
-          <Item6 Value="unit oldlinux"/>
-          <Item7 Value="AOHandler"/>
-          <Item8 Value="text"/>
-          <Item9 Value="Text "/>
-          <Item10 Value="getText"/>
-          <Item11 Value="unit PCAdds"/>
-          <Item12 Value="MaskEdit ="/>
-          <Item13 Value="template"/>
-          <Item14 Value="CilicoUHF"/>
-          <Item15 Value="ACilicoUHF"/>
-          <Item16 Value="StringList"/>
-          <Item17 Value="TStringList"/>
-          <Item18 Value="R.drawable.ic_launcher"/>
-          <Item19 Value="PasswordTransformationMethod ="/>
-          <Item20 Value="TYPE_TEXT_VARIATION_PASSWORD"/>
+          <Item1 Value="FContext"/>
+          <Item2 Value="Calendar ="/>
+          <Item3 Value="JUCalendar ="/>
+          <Item4 Value="AWEditText ="/>
+          <Item5 Value="BaseAdapter ="/>
+          <Item6 Value="TPropertyEditor"/>
+          <Item7 Value="unit oldlinux"/>
+          <Item8 Value="AOHandler"/>
+          <Item9 Value="text"/>
+          <Item10 Value="Text "/>
+          <Item11 Value="getText"/>
+          <Item12 Value="unit PCAdds"/>
+          <Item13 Value="MaskEdit ="/>
+          <Item14 Value="template"/>
+          <Item15 Value="CilicoUHF"/>
+          <Item16 Value="ACilicoUHF"/>
+          <Item17 Value="StringList"/>
+          <Item18 Value="TStringList"/>
+          <Item19 Value="R.drawable.ic_launcher"/>
+          <Item20 Value="PasswordTransformationMethod ="/>
         </Find>
       </History>
     </Find>

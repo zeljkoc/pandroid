@@ -13,7 +13,6 @@ type
 
   TDataBase = class(ADSSQLiteOpenHelper)
    private
-    fContext: ACContext;
     fSQL: JUList;
    public
     procedure onCreate(aDatabase: ADSSQLiteDatabase); override;
@@ -77,7 +76,6 @@ constructor TDataBase.Create(context: ACContext; DatabaseName: String;
   factory: ADSSQLiteDatabase.InnerCursorFactory; version: integer);
 begin
   inherited Create(context, DatabaseName, factory, version);
-  FContext := context;
   FSQL:= JUArrayList.Create;
 end;
 

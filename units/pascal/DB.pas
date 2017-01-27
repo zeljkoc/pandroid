@@ -16,6 +16,10 @@ uses
   androidr15, DataBase;
 
 type
+  TFieldDef = class;
+
+  TCreateViewMethod = function (aContext: ACContext; aField: TFieldDef): AVView ;
+
   TDataType = (ftNull, ftInteger, ftFloat, ftString, ftBlob);
   TEditCharCase = (eccNormal, eccLowerCase, eccUpperCase);
   TFieldView = (fvTextView, fvEditText);
@@ -122,6 +126,7 @@ type
      procedure DefineCursor(Value: ADCursor);
   private
     function GetFieldDef: TFieldDef;
+    procedure SetIndex(Value: jint);
     procedure SetSelect(Value: JLString);
    public
     constructor create;  overload; virtual;
@@ -136,22 +141,33 @@ type
     property Field: TFieldDef read GetFieldDef;
     property Fields: JUArrayList read FFields;
     property Count: jint read FCount;
-    property Index: jint read FIndex;
+    property Index: jint read FIndex write SetIndex;
   end;
 
   { TDataSetAddapter }
 
   TDataSetAddapter = class(AWArrayAdapter)
     FCursorDataSet: TCursorDataSet;
-    FObjctView: AWLinearLayout;
+    FObjctView: AVView;
+    FCreateView: TCreateViewMethod;
+    function CreateViewMethod(aContext: ACContext; aField: TFieldDef): AVView; //overload;
   public
     constructor create(aContext: ACContext; para2: jint; aCursorDataSet: TCursorDataSet); overload;
     function getView(para1: jint; aView: AVView; aViewGroup: AVViewGroup): AVView;  override;
+    property CreateView: TCreateViewMethod read FCreateView write FCreateView;
   end;
 
 implementation
 
+uses StdCtrls;
+
 { TDataSetAddapter }
+
+function TDataSetAddapter.CreateViewMethod(aContext: ACContext; aField: TFieldDef): AVView;
+begin
+  if Assigned(FCreateView) then Result := FCreateView(aContext, aField)
+  else Result:= AVView.create(getContext);
+end;
 
 constructor TDataSetAddapter.create(aContext: ACContext; para2: jint; aCursorDataSet: TCursorDataSet);
 begin
@@ -160,17 +176,9 @@ begin
 end;
 
 function TDataSetAddapter.getView(para1: jint; aView: AVView; aViewGroup: AVViewGroup): AVView;
-var
-  bt: AWButton;
 begin
-  FObjctView:= AWLinearLayout.Create(getContext);
-  FObjctView.setOrientation(AWLinearLayout.HORIZONTAL);
-
-    bt:= AWButton.create(getContext);
-    bt.Text := FCursorDataSet.Field.DisplayName[1];
- FObjctView.addView(bt);
-
-  Result:=  AVView(FObjctView);
+  FCursorDataSet.Index := para1;
+  Result:=  AVView( CreateViewMethod(getContext, FCursorDataSet.Field));
 end;
 
 
@@ -212,6 +220,12 @@ end;
 function TCursorDataSet.GetFieldDef: TFieldDef;
 begin
   Result := TFieldDef(FFields.get(FIndex));
+end;
+
+procedure TCursorDataSet.SetIndex(Value: jint);
+begin
+  if (FIndex = Value) and (Value < 0) and (Value > FCount - 1) then Exit;
+  FIndex := Value;
 end;
 
 procedure TCursorDataSet.DefineCursor(Value: ADCursor);

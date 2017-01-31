@@ -63,13 +63,13 @@ type
   private
     FUserPasswordView: TUserPasswordView;
   public
-    constructor create(para1: ACContext); override;
+    constructor create(para1: ACContext); overload; override;
   public
     property UserNamePassword: TUserPasswordView read FUserPasswordView;
   end;
 
-implementation
 
+implementation
 
 { TDialog }
 

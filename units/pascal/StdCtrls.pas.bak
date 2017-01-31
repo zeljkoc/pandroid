@@ -43,7 +43,7 @@ type
     procedure onTextChanged(charSequence: JLCharSequence; start: LongInt; before: LongInt; count: LongInt); override;
     procedure afterTextChanged(editable: ATEditable); overload;
   public
-    constructor create(para1: ACContext); virtual; overload;
+    constructor create(para1: ACContext); overload;
     constructor create(para1: ACContext; para2: AUAttributeSet); overload;
     constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
   public

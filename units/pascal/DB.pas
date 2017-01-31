@@ -13,7 +13,7 @@ unit DB;
 interface
 
 uses
-  androidr15, DataBase;
+  androidr15, DataBase, StdCtrls;
 
 type
   TFieldDef = class;
@@ -89,6 +89,7 @@ type
    function GetReadOnly(Index: jint): jboolean;
    function GetValue(Index: jint): TValue;
    function GetVisible(Index: jint): jboolean;
+   procedure SetChange(Index: jint; Value: jboolean);
    procedure SetCharCase(Index: jint; Value: TEditCharCase);
    procedure SetDataType(Index: jint; Value: TDataType);
    procedure SetDisplayName(Index: jint; Value: JLString);
@@ -103,7 +104,7 @@ type
   public
    property FieldCount: jint read size;
    property FieldNo[Index: jint]: jint read GetFieldNo;
-   property Change[Index: jint]: jboolean read GetChange;
+   property Change[Index: jint]: jboolean read GetChange write SetChange;
    property CharCase[Index: jint]: TEditCharCase read GetCharCase write SetCharCase;
    property DataType[Index: jint]: TDataType read GetDataType write SetDataType;
    property DisplayName[Index: jint]: JLString read GetDisplayName write SetDisplayName;
@@ -157,9 +158,42 @@ type
     property CreateView: TCreateViewMethod read FCreateView write FCreateView;
   end;
 
+  { TDBEditText }
+
+  TDBEditText = class(TEditText)
+    FField: TField;
+    FCursorDataSet: TCursorDataSet;
+    FIndexField: jint;
+  private
+    FonChangeTextE: TOnChangeTextEvent;
+    procedure GetChangeText(para1: JLObject); overload;
+  public
+    constructor create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint); overload;
+  public
+    property onChangeText: TOnChangeTextEvent read FOnChangeTextE write FOnChangeTextE;
+  end;
+
 implementation
 
-uses StdCtrls;
+{ TDBEditText }
+
+procedure TDBEditText.GetChangeText(para1: JLObject);
+begin
+  FCursorDataSet.Field.Value[FIndexField].AsString := Text.toString;
+  FCursorDataSet.Field.Change[FIndexField] :=
+     FCursorDataSet.Field.Value[FIndexField].AsString <> FCursorDataSet.Field.OldValue[FIndexField].AsString;
+  if Assigned(FOnChangeTextE) then FOnChangeTextE(self);
+end;
+
+constructor TDBEditText.create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint);
+begin
+  FCursorDataSet := aCursorDataSet;
+  FIndexField := aIndexField;
+  inherited Create(para1);
+  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  inherited onChangeText := @GetChangeText;
+end;
+
 
 { TDataSetAddapter }
 
@@ -386,6 +420,11 @@ end;
 function TFieldDef.GetVisible(Index: jint): jboolean;
 begin
     Result := TField(get(Index)).Visible;
+end;
+
+procedure TFieldDef.SetChange(Index: jint; Value: jboolean);
+begin
+  TField(get(Index)).Change := Value;
 end;
 
 function TFieldDef.GetCharCase(Index: jint): TEditCharCase;

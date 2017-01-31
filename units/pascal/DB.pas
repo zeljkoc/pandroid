@@ -169,6 +169,7 @@ type
     procedure GetChangeText(para1: JLObject); overload;
   public
     constructor create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint); overload;
+    procedure Refresh;
   public
     property onChangeText: TOnChangeTextEvent read FOnChangeTextE write FOnChangeTextE;
   end;
@@ -176,8 +177,11 @@ type
   { TDBTextView }
 
   TDBTextView = class(TTextView)
+    FCursorDataSet: TCursorDataSet;
+    FIndexField: jint;
   public
     constructor create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint); overload;
+    procedure Refresh;
   end;
 
 implementation
@@ -186,8 +190,15 @@ implementation
 
 constructor TDBTextView.create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint);
 begin
+  FCursorDataSet := aCursorDataSet;
+  FIndexField := aIndexField;
   inherited Create(para1);
-  Text := aCursorDataSet.Field.DisplayName[aIndexField];
+  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+end;
+
+procedure TDBTextView.Refresh;
+begin
+  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 { TDBEditText }
@@ -207,6 +218,11 @@ begin
   inherited Create(para1);
   Text := FCursorDataSet.Field.Value[FIndexField].AsString;
   inherited onChangeText := @GetChangeText;
+end;
+
+procedure TDBEditText.Refresh;
+begin
+  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 

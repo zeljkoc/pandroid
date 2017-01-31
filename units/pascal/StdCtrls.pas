@@ -30,9 +30,15 @@ type
   TOnChangeTextEvent        = procedure(para1: JLObject) of object;
   TonCheckedChangedEvent    = procedure (para1: AWCompoundButton; para2: jboolean) of object;
 
+  { TTextView }
+
   TTextView = class(AWTextView)
   public
-
+    constructor create(para1: ACContext); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
+  public
+    property Text;
   end;
 
   { TEditText }
@@ -106,6 +112,23 @@ type
   end;
 
 implementation
+
+{ TTextView }
+
+constructor TTextView.create(para1: ACContext);
+begin
+  inherited Create(para1);
+end;
+
+constructor TTextView.create(para1: ACContext; para2: AUAttributeSet);
+begin
+  inherited Create(para1, para2);
+end;
+
+constructor TTextView.create(para1: ACContext; para2: AUAttributeSet; para3: jint);
+begin
+  inherited Create(para1, para2, para3);
+end;
 
 
 { TRadioButton }

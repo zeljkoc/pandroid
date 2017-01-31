@@ -194,7 +194,6 @@ begin
   inherited onChangeText := @GetChangeText;
 end;
 
-//uses StdCtrls;
 
 { TDataSetAddapter }
 

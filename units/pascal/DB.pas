@@ -173,7 +173,22 @@ type
     property onChangeText: TOnChangeTextEvent read FOnChangeTextE write FOnChangeTextE;
   end;
 
+  { TDBTextView }
+
+  TDBTextView = class(TTextView)
+  public
+    constructor create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint); overload;
+  end;
+
 implementation
+
+{ TDBTextView }
+
+constructor TDBTextView.create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint);
+begin
+  inherited Create(para1);
+  Text := aCursorDataSet.Field.DisplayName[aIndexField];
+end;
 
 { TDBEditText }
 

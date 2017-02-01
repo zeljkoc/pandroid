@@ -181,6 +181,7 @@ type
     FIndexField: jint;
   public
     constructor create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint); overload;
+    procedure Refresh;
   end;
 
 implementation
@@ -192,7 +193,14 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FIndexField <> 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+end;
+
+procedure TDBTextView.Refresh;
+begin
+  if FIndexField <> 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 { TDBEditText }
@@ -210,13 +218,15 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FIndexField <> 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
   inherited onChangeText := @GetChangeText;
 end;
 
 procedure TDBEditText.Refresh;
 begin
-  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FIndexField <> 0 Then
+   Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 

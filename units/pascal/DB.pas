@@ -193,12 +193,14 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FCursorDataSet.Index <> 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 procedure TDBTextView.Refresh;
 begin
-  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FCursorDataSet.Index <> 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 { TDBEditText }
@@ -216,13 +218,15 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FCursorDataSet.Index <> 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
   inherited onChangeText := @GetChangeText;
 end;
 
 procedure TDBEditText.Refresh;
 begin
-  Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FCursorDataSet.Index <> 0 Then
+   Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 

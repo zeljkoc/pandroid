@@ -349,6 +349,10 @@ begin
 
   FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'android' + PathDelim + 'assets',
   AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'assets' , [cffCreateDestDirectory]);
+
+  if FileExists(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+'pascalsrc') then
+    FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'pascalsrc',
+      AProject.gProjectDir + PathDelim+ 'pascalsrc'  , [cffCreateDestDirectory]);
 end;
 
 

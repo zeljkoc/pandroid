@@ -41,13 +41,13 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Test04/pascalsrc/jni/">
+    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Dialog2/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Demo/Test04/pascalsrc/jni/"/>
-        <Item2 Value="/usr/local/pandroid/template/MinimalAndModule/pascalsrc/jni/"/>
-        <Item3 Value="/home/android/Demo/Test04/"/>
-        <Item4 Value="/usr/local/pandroid/source/"/>
-        <Item5 Value="/home/android/Demo/Dialog2/"/>
+        <Item1 Value="/home/android/Demo/Dialog2/"/>
+        <Item2 Value="/home/android/Demo/Test04/pascalsrc/jni/"/>
+        <Item3 Value="/usr/local/pandroid/template/MinimalAndModule/pascalsrc/jni/"/>
+        <Item4 Value="/home/android/Demo/Test04/"/>
+        <Item5 Value="/usr/local/pandroid/source/"/>
         <Item6 Value="/usr/local/pandroid/units/pascal/"/>
         <Item7 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
         <Item8 Value="/home/android/Projekti/PDAKasa/pascalsrc/jni/"/>

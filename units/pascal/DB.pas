@@ -60,6 +60,7 @@ type
     FValue: TValue;
     FChange: jboolean;
     FCharCase: TEditCharCase;
+    FPrimaryKey: jboolean;
    public
     constructor create; overload; virtual;
    public
@@ -73,6 +74,7 @@ type
     property DisplayName: JLString read FDisplayName write FDisplayName;
     property Change: jboolean read FChange write FChange;
     property CharCase: TEditCharCase read FCharCase write FCharCase;
+    property PrimaryKey: jboolean read FPrimaryKey write FPrimaryKey;
   end;
 
   { TFieldDef }
@@ -522,6 +524,7 @@ begin
   TField(get(size - 1)).CharCase := eccNormal;
   TField(get(size - 1)).Visible := true;
   TField(get(size - 1)).FieldNo := size;
+  TField(get(size - 1)).PrimaryKey := false;
 end;
 
 

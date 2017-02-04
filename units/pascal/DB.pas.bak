@@ -331,9 +331,9 @@ procedure TCursorDataSet.ExecuteSQLDataBase(SQLNew: JLString);
 var
   i: integer;
 begin
-  if ATTextUtils.isEmpty(SQLNew.toString) then Exit;
+  if ATTextUtils.isEmpty(SQLNew) then  Exit;
   for i:=0 to Field.FieldCount - 1 do
-     SQLNew.replaceAll(JLString(string(':')).Concat(Field.Name[i].toString), Field.Value[i].toString);    // Fields  value
+     SQLNew.replaceAll(JLString(string(':')).Concat(Field.Name[i].toString.trim), Field.Value[i].toString);    // Fields  value
 
   FDatabase.execSQL(SQLNew.toString);
   Refresh;
@@ -341,7 +341,7 @@ end;
 
 procedure TCursorDataSet.SetSelect(Value: JLString);
 begin
-  if ATTextUtils.isEmpty(Value.toString) then Exit;
+  if ATTextUtils.isEmpty(Value) then Exit;
   FSQLSelect := Value;
   DefineCursor(FDatabase.rawQuery(FSQLSelect, nil));
 end;
@@ -383,9 +383,8 @@ end;
 procedure TCursorDataSet.Insert;
 begin
   //insert find and replace FSQLInsert and
-  if ATTextUtils.isEmpty(FSQLInsert.toString) then Exit;
-
- // FDatabase.execSQL(FSQLInsert.toString);
+  if ATTextUtils.isEmpty(FSQLInsert) then Exit;
+  FDatabase.execSQL(FSQLInsert.toString);
   Refresh;
 end;
 

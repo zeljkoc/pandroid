@@ -41,6 +41,7 @@ type
 
 implementation
 
+
 { TDataBase }
 
 procedure TDataBase.onCreate(aDatabase: ADSSQLiteDatabase);
@@ -136,7 +137,13 @@ end;
 
 procedure TDataBase.execSQL(aSQL: JLString);
 begin
-  execSQL(aSQL);
+  getWritableDatabase.beginTransactionNonExclusive;
+  try
+    getWritableDatabase.execSQL(aSQL.toString);
+    getWritableDatabase.setTransactionSuccessful;
+  finally
+    getWritableDatabase.endTransaction;
+  end;
 end;
 
 end.

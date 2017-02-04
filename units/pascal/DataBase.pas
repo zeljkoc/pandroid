@@ -137,7 +137,14 @@ end;
 
 procedure TDataBase.execSQL(aSQL: JLString);
 begin
-  execSQL(aSQL);
+  getWritableDatabase.beginTransactionNonExclusive;
+  try
+    getWritableDatabase.execSQL(aSQL.toString);
+    getWritableDatabase.setTransactionSuccessful;
+    getWritableDatabase.endTransaction;
+  except
+    getWritableDatabase.endTransaction;
+  end;
 end;
 
 end.

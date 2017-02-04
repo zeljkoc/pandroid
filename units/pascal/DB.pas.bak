@@ -207,13 +207,13 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Index <> 0 Then
+  if FCursorDataSet.Index >= 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 procedure TDBTextView.Refresh;
 begin
-  if FCursorDataSet.Index <> 0 Then
+  if FCursorDataSet.Index >= 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
@@ -232,14 +232,14 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Index <> 0 Then
+  if FCursorDataSet.Index >= 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString;
   inherited onChangeText := @GetChangeText;
 end;
 
 procedure TDBEditText.Refresh;
 begin
-  if FCursorDataSet.Index <> 0 Then
+  if FCursorDataSet.Index >= 0 Then
    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
@@ -307,7 +307,7 @@ end;
 
 procedure TCursorDataSet.SetIndex(Value: jint);
 begin
- // if (FIndex = Value) or (Value < 0) or (Value > FCount - 1) then Exit;
+  if (FIndex = Value) or (Value < 0) or (Value > FCount - 1) then Exit;
   FIndex := Value;
 end;
 
@@ -385,7 +385,7 @@ begin
   //insert find and replace FSQLInsert and
   if ATTextUtils.isEmpty(FSQLInsert.toString) then Exit;
 
-  FDatabase.execSQL(FSQLInsert.toString);
+ // FDatabase.execSQL(FSQLInsert.toString);
   Refresh;
 end;
 

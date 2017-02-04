@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="FContext"/>
-          <Item2 Value="Calendar ="/>
-          <Item3 Value="JUCalendar ="/>
-          <Item4 Value="AWEditText ="/>
-          <Item5 Value="BaseAdapter ="/>
-          <Item6 Value="TPropertyEditor"/>
-          <Item7 Value="unit oldlinux"/>
-          <Item8 Value="AOHandler"/>
-          <Item9 Value="text"/>
-          <Item10 Value="Text "/>
-          <Item11 Value="getText"/>
-          <Item12 Value="unit PCAdds"/>
-          <Item13 Value="MaskEdit ="/>
-          <Item14 Value="template"/>
-          <Item15 Value="CilicoUHF"/>
-          <Item16 Value="ACilicoUHF"/>
-          <Item17 Value="StringList"/>
-          <Item18 Value="TStringList"/>
-          <Item19 Value="R.drawable.ic_launcher"/>
-          <Item20 Value="PasswordTransformationMethod ="/>
+          <Item1 Value="TextUtils ="/>
+          <Item2 Value="isnull"/>
+          <Item3 Value="compileStatement"/>
+          <Item4 Value="SQLiteStatement ="/>
+          <Item5 Value="Statement ="/>
+          <Item6 Value="String"/>
+          <Item7 Value="BStringBuilder"/>
+          <Item8 Value="ADCursor ="/>
+          <Item9 Value="fetchMessage"/>
+          <Item10 Value="ParseQuery ="/>
+          <Item11 Value="FContext"/>
+          <Item12 Value="Calendar ="/>
+          <Item13 Value="JUCalendar ="/>
+          <Item14 Value="AWEditText ="/>
+          <Item15 Value="BaseAdapter ="/>
+          <Item16 Value="TPropertyEditor"/>
+          <Item17 Value="unit oldlinux"/>
+          <Item18 Value="AOHandler"/>
+          <Item19 Value="text"/>
+          <Item20 Value="Text "/>
         </Find>
       </History>
     </Find>

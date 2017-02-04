@@ -123,10 +123,15 @@ type
      FIndex: jint;
      FCount: jint;
      FDatabase: TDataBase;
-     FSelect: JLString;
+     FSQLSelect: JLString;
+     FSQLInsert: JLString;
+     FSQLUpdate: JLString;
+     FSQLDelete: JLString;
      FFields: JUArrayList;
      function ReadFieldDef(aCursor: ADCursor): TFieldDef;
      procedure DefineCursor(Value: ADCursor);
+  protected
+     procedure ExecuteSQLDataBase(SQLNew: JLString);
   private
     function GetFieldDef: TFieldDef;
     procedure SetIndex(Value: jint);
@@ -138,9 +143,16 @@ type
     procedure Last;
     procedure First;
     procedure Refresh;
+
+    procedure Insert;
+    procedure Delete;
+    procedure Update;
    public
     property DataBase: TDataBase read FDataBase write FDataBase;
-    property Select: JLString write SetSelect;
+    property SQLSelect: JLString write SetSelect;
+    property SQLInsert: JLString write FSQLInsert;
+    property SQLDelete: JLString write FSQLDelete;
+    property SQLUpdate: JLString write FSQLUpdate;
     property Field: TFieldDef read GetFieldDef;
     property Fields: JUArrayList read FFields;
     property Count: jint read FCount;
@@ -315,10 +327,20 @@ begin
   FCount := FIndex + 1;
 end;
 
+procedure TCursorDataSet.ExecuteSQLDataBase(SQLNew: JLString);
+begin
+  if ATTextUtils.isEmpty(SQLNew.toString) then Exit;
+  SQLNew.replaceAll('  ', '   ');    // Fields  value
+
+  FDatabase.execSQL(SQLNew.toString);
+  Refresh;
+end;
+
 procedure TCursorDataSet.SetSelect(Value: JLString);
 begin
-  FSelect := Value;
-  DefineCursor(FDatabase.rawQuery(FSelect, nil));
+  if ATTextUtils.isEmpty(Value.toString) then Exit;
+  FSQLSelect := Value;
+  DefineCursor(FDatabase.rawQuery(FSQLSelect, nil));
 end;
 
 constructor TCursorDataSet.create;
@@ -352,7 +374,26 @@ end;
 
 procedure TCursorDataSet.Refresh;
 begin
-  SetSelect(FSelect);
+  if ATTextUtils.isEmpty(FSQLSelect.toString) then Exit;
+  SetSelect(FSQLSelect);
+end;
+
+procedure TCursorDataSet.Insert;
+begin
+  //insert find and replace FSQLInsert and
+  ExecuteSQLDataBase(FSQLInsert);
+end;
+
+procedure TCursorDataSet.Delete;
+begin
+  //Delete
+  ExecuteSQLDataBase(FSQLDelete);
+end;
+
+procedure TCursorDataSet.Update;
+begin
+  //Update
+  ExecuteSQLDataBase(FSQLDelete);
 end;
 
 { TValue }

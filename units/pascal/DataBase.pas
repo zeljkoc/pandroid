@@ -41,6 +41,7 @@ type
 
 implementation
 
+
 { TDataBase }
 
 procedure TDataBase.onCreate(aDatabase: ADSSQLiteDatabase);

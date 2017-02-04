@@ -22,7 +22,7 @@
               android:color="@color/BackgroundColor02" />
 
             <stroke
-                android:width="0.2dp"
+                android:width="1dp"
                 android:color="@color/LineColor02" />
             <corners
                 android:radius="10dp" />

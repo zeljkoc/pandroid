@@ -207,13 +207,13 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Index <> 0 Then
+  if FCursorDataSet.Index >= 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
 procedure TDBTextView.Refresh;
 begin
-  if FCursorDataSet.Index <> 0 Then
+  if FCursorDataSet.Index >= 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
@@ -232,14 +232,14 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Index <> 0 Then
+  if FCursorDataSet.Index >= 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString;
   inherited onChangeText := @GetChangeText;
 end;
 
 procedure TDBEditText.Refresh;
 begin
-  if FCursorDataSet.Index <> 0 Then
+  if FCursorDataSet.Index >= 0 Then
    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
 end;
 
@@ -307,7 +307,7 @@ end;
 
 procedure TCursorDataSet.SetIndex(Value: jint);
 begin
-  if (FIndex = Value) and (Value < 0) and (Value > FCount - 1) then Exit;
+  if (FIndex = Value) or (Value < 0) or (Value > FCount - 1) then Exit;
   FIndex := Value;
 end;
 
@@ -318,19 +318,22 @@ begin
   if (Value.getCount = 0) then Exit;
   FFields.clear;
 
-  for i :=0 to Value.getCount - 1 do begin
+  for i:= 0 to Value.getCount - 1 do begin
     Value.moveToPosition(i);
     FFields.add(ReadFieldDef(Value));
   end;
 
-  FIndex := i;
-  FCount := FIndex + 1;
+  FIndex :=  1;
+  FCount := FFields.size;
 end;
 
 procedure TCursorDataSet.ExecuteSQLDataBase(SQLNew: JLString);
+var
+  i: integer;
 begin
   if ATTextUtils.isEmpty(SQLNew.toString) then Exit;
-  SQLNew.replaceAll('  ', '   ');    // Fields  value
+  for i:=0 to Field.FieldCount - 1 do
+     SQLNew.replaceAll(JLString(string(':')).Concat(Field.Name[i].toString), Field.Value[i].toString);    // Fields  value
 
   FDatabase.execSQL(SQLNew.toString);
   Refresh;
@@ -363,8 +366,7 @@ end;
 
 procedure TCursorDataSet.Last;
 begin
-  if FCount > 0 then
-   FIndex := FCount -1;
+  if FCount > 0 then  FIndex := FCount -1;
 end;
 
 procedure TCursorDataSet.First;
@@ -381,7 +383,10 @@ end;
 procedure TCursorDataSet.Insert;
 begin
   //insert find and replace FSQLInsert and
-  ExecuteSQLDataBase(FSQLInsert);
+  if ATTextUtils.isEmpty(FSQLInsert.toString) then Exit;
+
+  FDatabase.execSQL(FSQLInsert.toString);
+  Refresh;
 end;
 
 procedure TCursorDataSet.Delete;

@@ -207,14 +207,14 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Fields.size > 0 Then
+  if FCursorDataSet.Count > 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString
   else Text := JLstring('');
 end;
 
 procedure TDBTextView.Refresh;
 begin
-  if FCursorDataSet.Fields.size > 0 Then
+  if FCursorDataSet.Count > 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString
   else Text := JLstring('');
 end;
@@ -235,7 +235,7 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Fields.size > 0 Then
+  if FCursorDataSet.Count > 0 Then
     Text := FCursorDataSet.Field.Value[FIndexField].AsString
   else Text := JLstring('');
   inherited onChangeText := @GetChangeText;
@@ -329,7 +329,7 @@ begin
     FFields.add(ReadFieldDef(Value));
   end;
 
-  FIndex :=  1;
+  FIndex :=  0;
   FCount := FFields.size;
 end;
 

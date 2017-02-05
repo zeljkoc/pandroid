@@ -207,20 +207,23 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Index >= 0 Then
-    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FCursorDataSet.Fields.size > 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString
+  else Text := JLstring('');
 end;
 
 procedure TDBTextView.Refresh;
 begin
-  if FCursorDataSet.Index >= 0 Then
-    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FCursorDataSet.Fields.size > 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString
+  else Text := JLstring('');
 end;
 
 { TDBEditText }
 
 procedure TDBEditText.GetChangeText(para1: JLObject);
 begin
+  if FCursorDataSet.Count = 0 then Exit;
   FCursorDataSet.Field.Value[FIndexField].AsString := Text.toString;
   FCursorDataSet.Field.Change[FIndexField] :=
      FCursorDataSet.Field.Value[FIndexField].AsString <> FCursorDataSet.Field.OldValue[FIndexField].AsString;
@@ -232,15 +235,18 @@ begin
   FCursorDataSet := aCursorDataSet;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Index >= 0 Then
-    Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FCursorDataSet.Fields.size > 0 Then
+    Text := FCursorDataSet.Field.Value[FIndexField].AsString
+  else Text := JLstring('');
   inherited onChangeText := @GetChangeText;
 end;
 
 procedure TDBEditText.Refresh;
 begin
-  if FCursorDataSet.Index >= 0 Then
-   Text := FCursorDataSet.Field.Value[FIndexField].AsString;
+  if FCursorDataSet.Fields.size > 0 Then
+   Text := FCursorDataSet.Field.Value[FIndexField].AsString
+  else
+    Text := JLString('');
 end;
 
 
@@ -315,8 +321,8 @@ procedure TCursorDataSet.DefineCursor(Value: ADCursor);
 var
   i: integer;
 begin
-  if (Value.getCount = 0) then Exit;
   FFields.clear;
+  if (Value.getCount = 0) then begin FIndex:= 0; FCount:= 0; Exit; end;
 
   for i:= 0 to Value.getCount - 1 do begin
     Value.moveToPosition(i);
@@ -330,12 +336,17 @@ end;
 procedure TCursorDataSet.ExecuteSQLDataBase(SQLNew: JLString);
 var
   i: integer;
+  TempSQL: JLString;
 begin
-  if ATTextUtils.isEmpty(SQLNew) then  Exit;
-  for i:=0 to Field.FieldCount - 1 do
-     SQLNew.replaceAll(JLString(string(':')).Concat(Field.Name[i].toString.trim), Field.Value[i].toString);    // Fields  value
+  if ATTextUtils.isEmpty(SQLNew) or (FFields.size < 1) then  Exit;
+  TempSQL := SQLNew.toString;
 
-  FDatabase.execSQL(SQLNew.toString);
+  for i:=0 to TFieldDef(FFields.get(FIndex)).FieldCount - 1 do
+    TempSQL :=
+      TempSQL.replaceAll(JLString(string(':')).concat(TFieldDef(FFields.get(FIndex)).Name[i]).toString,
+                JLString.format('''%s''' , [TFieldDef(FFields.get(FIndex)).Value[i].AsString ]).toString );
+
+  FDatabase.execSQL(TempSQL);
   Refresh;
 end;
 
@@ -375,16 +386,20 @@ begin
 end;
 
 procedure TCursorDataSet.Refresh;
+var
+  i: integer;
 begin
-  if ATTextUtils.isEmpty(FSQLSelect.toString) then Exit;
+  if ATTextUtils.isEmpty(FSQLSelect) then Exit;
+  i:= FIndex;
   SetSelect(FSQLSelect);
+  FIndex := i;
 end;
 
 procedure TCursorDataSet.Insert;
 begin
   //insert find and replace FSQLInsert and
   if ATTextUtils.isEmpty(FSQLInsert) then Exit;
-  FDatabase.execSQL(FSQLInsert.toString);
+  FDatabase.execSQL(FSQLInsert);
   Refresh;
 end;
 

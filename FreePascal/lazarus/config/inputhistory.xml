@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="ADSSQLiteDatabase ="/>
-          <Item2 Value="ADSSQLiteOpenHelper ="/>
-          <Item3 Value="TextUtils ="/>
-          <Item4 Value="isnull"/>
-          <Item5 Value="compileStatement"/>
-          <Item6 Value="SQLiteStatement ="/>
-          <Item7 Value="Statement ="/>
-          <Item8 Value="String"/>
-          <Item9 Value="BStringBuilder"/>
-          <Item10 Value="ADCursor ="/>
-          <Item11 Value="fetchMessage"/>
-          <Item12 Value="ParseQuery ="/>
-          <Item13 Value="FContext"/>
-          <Item14 Value="Calendar ="/>
-          <Item15 Value="JUCalendar ="/>
-          <Item16 Value="AWEditText ="/>
-          <Item17 Value="BaseAdapter ="/>
-          <Item18 Value="TPropertyEditor"/>
-          <Item19 Value="unit oldlinux"/>
-          <Item20 Value="AOHandler"/>
+          <Item1 Value="ATTextUtils"/>
+          <Item2 Value="ADSSQLiteDatabase ="/>
+          <Item3 Value="ADSSQLiteOpenHelper ="/>
+          <Item4 Value="TextUtils ="/>
+          <Item5 Value="isnull"/>
+          <Item6 Value="compileStatement"/>
+          <Item7 Value="SQLiteStatement ="/>
+          <Item8 Value="Statement ="/>
+          <Item9 Value="String"/>
+          <Item10 Value="BStringBuilder"/>
+          <Item11 Value="ADCursor ="/>
+          <Item12 Value="fetchMessage"/>
+          <Item13 Value="ParseQuery ="/>
+          <Item14 Value="FContext"/>
+          <Item15 Value="Calendar ="/>
+          <Item16 Value="JUCalendar ="/>
+          <Item17 Value="AWEditText ="/>
+          <Item18 Value="BaseAdapter ="/>
+          <Item19 Value="TPropertyEditor"/>
+          <Item20 Value="unit oldlinux"/>
         </Find>
       </History>
     </Find>

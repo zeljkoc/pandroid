@@ -12,7 +12,7 @@ unit Dialogs;
 interface
 
 uses
-  androidr15,  DialogsView, DB;
+  androidr15,  DialogsView;
 
 type
   TOnClickEventDialog   = procedure (para1: ACDialogInterface; para2: jint) of object;

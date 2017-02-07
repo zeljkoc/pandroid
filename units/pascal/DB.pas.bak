@@ -329,7 +329,7 @@ begin
     FFields.add(ReadFieldDef(Value));
   end;
 
-  FIndex :=  1;
+  FIndex :=  0;
   FCount := FFields.size;
 end;
 

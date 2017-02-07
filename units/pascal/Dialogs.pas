@@ -81,8 +81,8 @@ end;
 constructor TDialog.create(para1: ACContext);
 begin
   inherited Create(para1);
-  setTitle(AAActivity(para1).getPackageManager.getApplicationLabel(AAActivity(para1).getApplicationInfo));
-  setIcon(AAActivity(para1).getPackageManager.getApplicationIcon(AAActivity(para1).getApplicationInfo));
+ // setTitle(AAActivity(para1).getPackageManager.getApplicationLabel(AAActivity(para1).getApplicationInfo));
+ // setIcon(AAActivity(para1).getPackageManager.getApplicationIcon(AAActivity(para1).getApplicationInfo));
 end;
 
 procedure TDialog.AddButton(aTypeButton: TTypeButton; aName: JLCharSequence);

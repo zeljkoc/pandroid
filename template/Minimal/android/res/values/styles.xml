@@ -76,7 +76,7 @@
 
 
 <!-- AlertDialog style -->
-     <style name="AlertDialog" >
+     <style name="AlertDialog">
 	<item name="android:scrollHorizontally">true</item>
         <item name="android:buttonBarButtonStyle">@drawable/button</item>
         <item name="android:textColor">@color/TextColor03</item>

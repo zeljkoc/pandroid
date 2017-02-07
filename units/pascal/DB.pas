@@ -322,7 +322,11 @@ var
   i: integer;
 begin
   FFields.clear;
-  if (Value.getCount = 0) then begin FIndex:= 0; FCount:= 0; Exit; end;
+  if (Value.getCount = 0) then begin
+     FIndex:= 0;
+     FCount:= 0;
+     Exit;
+  end;
 
   for i:= 0 to Value.getCount - 1 do begin
     Value.moveToPosition(i);

@@ -44,7 +44,6 @@
       </Unit4>
       <Unit5>
         <Filename Value="../../units/ADBDataBase.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <TopLine Value="133"/>
         <CursorPos X="43" Y="156"/>
@@ -53,9 +52,10 @@
       </Unit5>
       <Unit6>
         <Filename Value="../../units/AZCDialogs.pas"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="76"/>
-        <CursorPos X="15" Y="58"/>
+        <TopLine Value="295"/>
+        <CursorPos X="172" Y="327"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit6>

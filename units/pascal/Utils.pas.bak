@@ -1,0 +1,22 @@
+unit Utils;
+
+{$mode objfpc}{$H+}
+{$modeswitch unicodestrings}
+{$namespace zeljus.com.units.pascal}
+
+interface
+
+uses
+  androidr15;
+
+function checkExistsFile(aFileName: JLString): jboolean;
+
+implementation
+
+function checkExistsFile(aFileName: JLString): jboolean;
+begin
+  result := JIFile.Create(aFileName).exists;
+end;
+
+end.
+

@@ -26,7 +26,7 @@ type
    fID: integer;
    FOnClick: TOnClickEventDialog;
   public
-    procedure onClick(para1: ACDialogInterface; para2: jint); overload;
+    procedure onClick(para1: ACDialogInterface; para2: jint); overload; virtual;
   public
    constructor create(para1: ACContext); overload; virtual;
    procedure AddButton(aTypeButton: TTypeButton; aName: JLCharSequence);
@@ -68,8 +68,92 @@ type
     property UserNamePassword: TUserPasswordView read FUserPasswordView;
   end;
 
+  { TEditFile }
+
+  { TEditFileDialog }
+
+  TEditFileDialog = class(TDialog)
+  private
+    FFileName: JLString;
+    FEditText: AWEditText;
+    FHorizontalScropllView : AWHorizontalScrollView;
+  strict protected
+    procedure LoadFile;
+    procedure WriteFile;
+  public
+    constructor create(para1: ACContext; aFileName: JLString); overload;
+    procedure show; overload; override;
+    procedure onClick(para1: ACDialogInterface; para2: jint); overload; override;
+  end;
+
 
 implementation
+
+uses Utils;
+
+{ TEditFile }
+
+procedure TEditFileDialog.LoadFile;
+var
+  reader: JIBufferedReader;
+  line: JLString;
+  Data: JLString;
+begin
+  line := string(''); Data := string('');
+
+  if checkExistsFile(FFileName) then begin
+       reader := JIBufferedReader.create((JIFileReader.create(FFileName)));
+       while not (line = nil) do begin
+         try
+           line := reader.readLine;
+           if line <> nil then
+             Data := JLString(Data).concat(line).concat(string(#10));
+         finally
+         end;
+       end;
+   end;
+   FEditText.setText(Data);
+end;
+
+procedure TEditFileDialog.WriteFile;
+begin
+    with JIFileWriter.create(fFileName) do begin
+      append(FEditText.getText.toString);
+      close;
+    end;
+end;
+
+constructor TEditFileDialog.create(para1: ACContext; aFileName: JLString);
+begin
+  fFileName := aFileName;
+  inherited create(para1);
+  setTitle(JLString('EDIT INI FILE '));
+
+  fHorizontalScropllView := AWHorizontalScrollView.create(para1);
+
+      fEditText:= AWEditText.create(para1);
+     fHorizontalScropllView.addView(FEditText);
+
+  setView(fHorizontalScropllView);
+
+  setButton(JLString('Save'), Self);
+  setButton2(JLString('Cancel'), Self);
+ inherited OnClickListener :=  @onClick;
+end;
+
+procedure TEditFileDialog.show;
+begin
+  LoadFile;
+  inherited show;
+end;
+
+procedure TEditFileDialog.onClick(para1: ACDialogInterface; para2: jint);
+begin
+  case para2 of
+    -1: WriteFile;
+  end;
+end;
+
 
 { TDialog }
 

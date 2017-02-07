@@ -1,0 +1,7 @@
+object DataM: TDataM
+  OldCreateOrder = False
+  Height = 326
+  HorizontalOffset = 183
+  VerticalOffset = 374
+  Width = 701
+end

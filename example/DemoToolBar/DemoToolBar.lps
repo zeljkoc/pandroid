@@ -8,7 +8,7 @@
         <Filename Value="DemoToolBar.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="14" Y="80"/>
+        <CursorPos X="20" Y="27"/>
         <UsageCount Value="39"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -47,17 +47,18 @@
       </Unit5>
       <Unit6>
         <Filename Value="../../units/AZCDialogs.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="318"/>
-        <CursorPos X="7" Y="325"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="37"/>
+        <CursorPos X="20" Y="34"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
       </Unit6>
       <Unit7>
         <Filename Value="../../units/AZCToolBar.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="7"/>
-        <CursorPos X="79" Y="15"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="3" Y="29"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="android/build_debug_apk.sh"/>
@@ -67,7 +68,7 @@
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit8>
     </Units>
-    <JumpHistory Count="14" HistoryIndex="13">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
         <Filename Value="DemoToolBar.lpr"/>
         <Caret Line="18" Column="50"/>
@@ -124,6 +125,14 @@
         <Filename Value="DemoToolBar.lpr"/>
         <Caret Line="6" Column="46"/>
       </Position14>
+      <Position15>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="32" Column="11" TopLine="14"/>
+      </Position15>
+      <Position16>
+        <Filename Value="DemoToolBar.lpr"/>
+        <Caret Line="27" Column="20" TopLine="14"/>
+      </Position16>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

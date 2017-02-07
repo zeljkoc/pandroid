@@ -1,4 +1,14 @@
 <resources>
+
+<!--  
+  <style name="DefaultTheme" parent="android:Theme.Holo">
+  <style name="DefaultTheme" parent="android:Theme">
+  <style name="DefaultTheme" parent="android:Theme.TransLucent">
+  <style name="DefaultTheme" parent="android:Theme.Holo.Light">
+-->
+
+
   <style name="DefaultTheme" parent="android:Theme.Holo.Light">
   </style> 
+
 </resources>

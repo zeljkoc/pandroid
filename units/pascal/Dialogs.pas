@@ -86,10 +86,27 @@ type
     procedure onClick(para1: ACDialogInterface; para2: jint); overload; override;
   end;
 
+procedure ShowMessage(aContext: ACContext; aMessage: JLString; aTitle: JLString = '');
 
 implementation
 
 uses Utils;
+
+procedure ShowMessage(aContext: ACContext; aMessage: JLString; aTitle: JLString = '');
+var
+  messageText: AWTextView;
+begin
+    with TDialog.create(aContext) do begin
+      setTitle(aTitle.toString);
+      messageText:= AWTextView.create(aContext);
+      messageText.setText(aMessage.toString);
+      messageText.setGravity(AVGravity.CENTER);
+      setView(messageText);
+     // setMessage(aMessage.toString);
+      AddButton(btPositive, JLString('OK'));
+      Show;
+    end;
+end;
 
 { TEditFile }
 

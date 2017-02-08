@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="ATTextUtils"/>
-          <Item2 Value="ADSSQLiteDatabase ="/>
-          <Item3 Value="ADSSQLiteOpenHelper ="/>
-          <Item4 Value="TextUtils ="/>
-          <Item5 Value="isnull"/>
-          <Item6 Value="compileStatement"/>
-          <Item7 Value="SQLiteStatement ="/>
-          <Item8 Value="Statement ="/>
-          <Item9 Value="String"/>
-          <Item10 Value="BStringBuilder"/>
-          <Item11 Value="ADCursor ="/>
-          <Item12 Value="fetchMessage"/>
-          <Item13 Value="ParseQuery ="/>
-          <Item14 Value="FContext"/>
-          <Item15 Value="Calendar ="/>
-          <Item16 Value="JUCalendar ="/>
-          <Item17 Value="AWEditText ="/>
-          <Item18 Value="BaseAdapter ="/>
-          <Item19 Value="TPropertyEditor"/>
-          <Item20 Value="unit oldlinux"/>
+          <Item1 Value="Gravity ="/>
+          <Item2 Value="ATTextUtils"/>
+          <Item3 Value="ADSSQLiteDatabase ="/>
+          <Item4 Value="ADSSQLiteOpenHelper ="/>
+          <Item5 Value="TextUtils ="/>
+          <Item6 Value="isnull"/>
+          <Item7 Value="compileStatement"/>
+          <Item8 Value="SQLiteStatement ="/>
+          <Item9 Value="Statement ="/>
+          <Item10 Value="String"/>
+          <Item11 Value="BStringBuilder"/>
+          <Item12 Value="ADCursor ="/>
+          <Item13 Value="fetchMessage"/>
+          <Item14 Value="ParseQuery ="/>
+          <Item15 Value="FContext"/>
+          <Item16 Value="Calendar ="/>
+          <Item17 Value="JUCalendar ="/>
+          <Item18 Value="AWEditText ="/>
+          <Item19 Value="BaseAdapter ="/>
+          <Item20 Value="TPropertyEditor"/>
         </Find>
       </History>
     </Find>
@@ -41,15 +41,15 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Test05/pascalsrc/jni/">
+    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Dialog2/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Demo/Test05/pascalsrc/jni/"/>
+        <Item1 Value="/home/android/Demo/Dialog2/"/>
         <Item2 Value="/home/android/Demo/Test05/"/>
-        <Item3 Value="/usr/local/pandroid/units/pascal/"/>
-        <Item4 Value="/home/android/Demo/Test4/"/>
-        <Item5 Value="/usr/local/pandroid/example/DemoToolBar/"/>
-        <Item6 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
-        <Item7 Value="/home/android/Demo/Dialog2/"/>
+        <Item3 Value="/home/android/Demo/Test05/pascalsrc/jni/"/>
+        <Item4 Value="/usr/local/pandroid/units/pascal/"/>
+        <Item5 Value="/home/android/Demo/Test4/"/>
+        <Item6 Value="/usr/local/pandroid/example/DemoToolBar/"/>
+        <Item7 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
         <Item8 Value="/home/android/Demo/Test03/"/>
         <Item9 Value="/home/android/Demo/Test04/pascalsrc/jni/"/>
         <Item10 Value="/usr/local/pandroid/template/MinimalAndModule/pascalsrc/jni/"/>
@@ -65,7 +65,7 @@
         <Item20 Value="/usr/local/pandroid/library/Firebird/jni/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="3">
+    <HistoryLists Count="1">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>

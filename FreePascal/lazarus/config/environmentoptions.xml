@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/home/android/Demo/Test05/pascalsrc/jni/project1.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/home/android/Demo/Dialog2/Dialog2.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/pascal/Utils.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item4 Value="/usr/local/pandroid/units/AZCEditFile.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/IniFile.inc"/>
-        <Item6 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
-        <Item7 Value="/usr/local/pandroid/units/AUtils.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item9 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item10 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
+        <Item1 Value="/usr/local/pandroid/units/AActivity.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/pascal/Utils.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/AZCEditFile.pas"/>
+        <Item7 Value="/usr/local/pandroid/units/IniFile.inc"/>
+        <Item8 Value="/usr/local/pandroid/units/AZCAdapters.pas"/>
+        <Item9 Value="/usr/local/pandroid/units/AUtils.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/androidr15.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/android/Demo/Test05/pascalsrc/jni/project1.lpi"/>
+        <Item1 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
         <Item2 Value="/home/android/Demo/Test05/Test.lpi"/>
-        <Item3 Value="/home/android/Demo/Test4/Test.lpi"/>
-        <Item4 Value="/usr/local/pandroid/example/DemoToolBar/DemoToolBar.lpi"/>
-        <Item5 Value="/usr/local/pandroid/example/DemoScrollButton/DemoScrollButton.lpi"/>
+        <Item3 Value="/home/android/Demo/Test05/pascalsrc/jni/project1.lpi"/>
+        <Item4 Value="/home/android/Demo/Test4/Test.lpi"/>
+        <Item5 Value="/usr/local/pandroid/example/DemoToolBar/DemoToolBar.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

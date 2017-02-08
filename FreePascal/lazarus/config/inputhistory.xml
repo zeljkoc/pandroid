@@ -41,10 +41,10 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Dialog2/">
+    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Test05/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Demo/Dialog2/"/>
-        <Item2 Value="/home/android/Demo/Test05/"/>
+        <Item1 Value="/home/android/Demo/Test05/"/>
+        <Item2 Value="/home/android/Demo/Dialog2/"/>
         <Item3 Value="/home/android/Demo/Test05/pascalsrc/jni/"/>
         <Item4 Value="/usr/local/pandroid/units/pascal/"/>
         <Item5 Value="/home/android/Demo/Test4/"/>

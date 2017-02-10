@@ -30,6 +30,9 @@ type
   TOnChangeTextEvent        = procedure(para1: JLObject) of object;
   TonCheckedChangedEvent    = procedure (para1: AWCompoundButton; para2: jboolean) of object;
 
+  TonItemLongClickEvent     = function (para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean of object;
+  TonItemClickEvent         = procedure (para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong) of object;
+
   { TTextView }
 
   TTextView = class(AWTextView)
@@ -111,7 +114,48 @@ type
     property Checked: jboolean read isChecked write setChecked;
   end;
 
+  { TGridViewLayout }
+
+  TGridViewLayout = class(AWLinearLayout,
+                      AWAdapterView.InnerOnItemLongClickListener,
+                      AWAdapterView.InnerOnItemClickListener)
+    FGridView: AWGridView;
+    FItemLongClick: TonItemLongClickEvent;
+    FItemClick: TonItemClickEvent;
+    function onItemLongClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean; overload;
+    procedure onItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong); overload;
+  public
+    constructor create(para1: ACContext); virtual; overload;
+  public
+    property GridView: AWGridView read FGridView;
+    property onItemLongClickListener: TonItemLongClickEvent read FItemLongClick write FItemLongClick;
+    property onItemClickListener: TonItemClickEvent read FItemClick write FItemClick;
+  end;
+
 implementation
+
+{ TGridViewLayout }
+
+function TGridViewLayout.onItemLongClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
+begin
+   if Assigned(FItemLongClick) then Result := FItemLongClick(para1, para2, para3, para4)
+   else Result := onItemLongClick(para1, para2, para3, para4);
+end;
+
+procedure TGridViewLayout.onItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
+begin
+    if Assigned(FItemClick) then FItemClick(para1, para2, para3, para4)
+   else onItemClick(para1, para2, para3, para4);
+end;
+
+constructor TGridViewLayout.create(para1: ACContext);
+begin
+  inherited Create(para1);
+  FGridView:= AWGridView.create(para1);
+  FGridView.setOnItemLongClickListener(self);
+  FGridView.setOnItemClickListener(Self);
+ addView(FGridView);
+end;
 
 { TTextView }
 

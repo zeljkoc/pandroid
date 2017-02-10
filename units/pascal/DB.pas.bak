@@ -170,6 +170,7 @@ type
     constructor create(aContext: ACContext; para2: jint; aCursorDataSet: TCursorDataSet); overload;
     function getView(para1: jint; aView: AVView; aViewGroup: AVViewGroup): AVView;  override;
     property CreateView: TCreateViewMethod read FCreateView write FCreateView;
+    property CursorDataSet: TCursorDataSet read FCursorDataSet;
   end;
 
   { TDBEditText }
@@ -265,9 +266,12 @@ begin
 end;
 
 function TDataSetAddapter.getView(para1: jint; aView: AVView; aViewGroup: AVViewGroup): AVView;
+var layout: AWLinearLayout;
 begin
   FCursorDataSet.Index := para1;
-  Result:=  AVView( CreateViewMethod(getContext, FCursorDataSet.Field));
+  layout:= AWLinearLayout.create(getContext);
+  layout.addView(CreateViewMethod(getContext, FCursorDataSet.Field));
+  Result:=  layout;
 end;
 
 
@@ -322,7 +326,11 @@ var
   i: integer;
 begin
   FFields.clear;
-  if (Value.getCount = 0) then begin FIndex:= 0; FCount:= 0; Exit; end;
+  if (Value.getCount = 0) then begin
+     FIndex:= 0;
+     FCount:= 0;
+     Exit;
+  end;
 
   for i:= 0 to Value.getCount - 1 do begin
     Value.moveToPosition(i);

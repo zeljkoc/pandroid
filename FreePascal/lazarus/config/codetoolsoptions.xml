@@ -2,6 +2,7 @@
 <CONFIG>
   <CodeToolsOptions>
     <Version Value="1"/>
+    <LineLengthXMLConfig Value="160"/>
     <DoInsertSpaceInFront>
       <Symbol Value="True"/>
     </DoInsertSpaceInFront>

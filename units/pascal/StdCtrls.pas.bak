@@ -127,9 +127,9 @@ type
   public
     constructor create(para1: ACContext); virtual; overload;
   public
+    property GridView: AWGridView read FGridView;
     property onItemLongClickListener: TonItemLongClickEvent read FItemLongClick write FItemLongClick;
     property onItemClickListener: TonItemClickEvent read FItemClick write FItemClick;
-    property GridView: AWGridView read FGridView;
   end;
 
 implementation

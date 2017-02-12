@@ -21,6 +21,9 @@
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="1">
+        <Item1 ID="699791923624" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="customdrawn"/>
+      </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>

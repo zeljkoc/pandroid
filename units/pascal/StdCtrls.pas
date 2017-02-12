@@ -144,7 +144,7 @@ end;
 
 procedure TGridViewLayout.onItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
 begin
-    if Assigned(FItemClick) then FItemClick(para1, para2, para3, para4)
+   if Assigned(FItemClick) then FItemClick(para1, para2, para3, para4)
    else onItemClick(para1, para2, para3, para4);
 end;
 

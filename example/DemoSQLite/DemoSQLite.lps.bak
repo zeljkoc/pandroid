@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <TopLine Value="35"/>
         <CursorPos X="39" Y="52"/>
-        <UsageCount Value="99"/>
+        <UsageCount Value="109"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -17,14 +17,14 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="5"/>
         <CursorPos X="42" Y="16"/>
-        <UsageCount Value="99"/>
+        <UsageCount Value="109"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="android/build_debug_apk.sh"/>
         <EditorIndex Value="4"/>
         <CursorPos X="47" Y="4"/>
-        <UsageCount Value="48"/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit2>
@@ -32,9 +32,9 @@
         <Filename Value="../../units/AZCListView.pas"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="229"/>
-        <CursorPos X="3" Y="234"/>
-        <UsageCount Value="48"/>
+        <TopLine Value="115"/>
+        <CursorPos X="4" Y="267"/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -42,22 +42,22 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="45187"/>
         <CursorPos X="3" Y="45206"/>
-        <UsageCount Value="2"/>
+        <UsageCount Value="1"/>
       </Unit4>
       <Unit5>
         <Filename Value="../../units/ADBDataBase.pas"/>
         <EditorIndex Value="3"/>
         <TopLine Value="133"/>
         <CursorPos X="43" Y="156"/>
-        <UsageCount Value="44"/>
+        <UsageCount Value="49"/>
         <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="../../units/AZCDialogs.pas"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="295"/>
+        <TopLine Value="205"/>
         <CursorPos X="172" Y="327"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="52"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>
@@ -65,7 +65,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="67"/>
         <CursorPos X="4" Y="89"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit7>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">

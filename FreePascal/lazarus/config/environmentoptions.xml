@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/home/android/Demo/Test00/pascalsrc/jni/project1.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/Zeljus/Temp/GetLazarus/Stringovi/project1.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/pascal/Dialogs.pas"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/Data.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/pascal/Views.pas"/>
-        <Item4 Value="/usr/local/pandroid/units/AActivity.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
-        <Item6 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
-        <Item7 Value="/usr/local/pandroid/units/pascal/Utils.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item9 Value="/usr/local/pandroid/units/AZCEditFile.pas"/>
-        <Item10 Value="/usr/local/pandroid/units/IniFile.inc"/>
+        <Item1 Value="/Zeljus/Temp/GetLazarus/Stringovi/unit1.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/pascal/Dialogs.pas"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Kasa/Data.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/pascal/Views.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/AActivity.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
+        <Item7 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item8 Value="/usr/local/pandroid/units/pascal/Utils.pas"/>
+        <Item9 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/AZCEditFile.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/home/android/Demo/Test00/pascalsrc/jni/project1.lpi"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Ordering/Ordering.lpi"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item5 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
+        <Item1 Value="/Zeljus/Temp/GetLazarus/Stringovi/project1.lpi"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
+        <Item4 Value="/home/android/Demo/Test00/pascalsrc/jni/project1.lpi"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Ordering/Ordering.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>
@@ -109,7 +109,7 @@
   <ObjectInspectorOptions ShowHints="False" ShowStatusBar="False" ShowInfoBox="False" InfoBoxHeight="50">
     <Version Value="3"/>
     <Bounds>
-      <PropertyPage SplitterX="165"/>
+      <PropertyPage SplitterX="191"/>
       <EventPage SplitterX="140"/>
     </Bounds>
     <ComponentTree>

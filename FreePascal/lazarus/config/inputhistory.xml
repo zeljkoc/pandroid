@@ -5,35 +5,36 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="Gravity ="/>
-          <Item2 Value="ATTextUtils"/>
-          <Item3 Value="ADSSQLiteDatabase ="/>
-          <Item4 Value="ADSSQLiteOpenHelper ="/>
-          <Item5 Value="TextUtils ="/>
-          <Item6 Value="isnull"/>
-          <Item7 Value="compileStatement"/>
-          <Item8 Value="SQLiteStatement ="/>
-          <Item9 Value="Statement ="/>
-          <Item10 Value="String"/>
-          <Item11 Value="BStringBuilder"/>
-          <Item12 Value="ADCursor ="/>
-          <Item13 Value="fetchMessage"/>
-          <Item14 Value="ParseQuery ="/>
-          <Item15 Value="FContext"/>
-          <Item16 Value="Calendar ="/>
-          <Item17 Value="JUCalendar ="/>
-          <Item18 Value="AWEditText ="/>
-          <Item19 Value="BaseAdapter ="/>
-          <Item20 Value="TPropertyEditor"/>
+          <Item1 Value="function Explode(const S"/>
+          <Item2 Value="explode"/>
+          <Item3 Value="Gravity ="/>
+          <Item4 Value="ATTextUtils"/>
+          <Item5 Value="ADSSQLiteDatabase ="/>
+          <Item6 Value="ADSSQLiteOpenHelper ="/>
+          <Item7 Value="TextUtils ="/>
+          <Item8 Value="isnull"/>
+          <Item9 Value="compileStatement"/>
+          <Item10 Value="SQLiteStatement ="/>
+          <Item11 Value="Statement ="/>
+          <Item12 Value="String"/>
+          <Item13 Value="BStringBuilder"/>
+          <Item14 Value="ADCursor ="/>
+          <Item15 Value="fetchMessage"/>
+          <Item16 Value="ParseQuery ="/>
+          <Item17 Value="FContext"/>
+          <Item18 Value="Calendar ="/>
+          <Item19 Value="JUCalendar ="/>
+          <Item20 Value="AWEditText ="/>
         </Find>
       </History>
     </Find>
     <FindInFiles>
       <History>
-        <Paths Count="3">
-          <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/"/>
-          <Item2 Value="/usr/local/pandroid/units/"/>
-          <Item3 Value="/usr/local/pandroid/FreePascal/fpc/"/>
+        <Paths Count="4">
+          <Item1 Value="/usr/local/pandroid/FreePascal/"/>
+          <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/"/>
+          <Item3 Value="/usr/local/pandroid/units/"/>
+          <Item4 Value="/usr/local/pandroid/FreePascal/fpc/"/>
         </Paths>
         <Masks Count="1">
           <Item1 Value="*.pas;*.pp;*.inc"/>
@@ -41,28 +42,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Test00/pascalsrc/jni/">
+    <FileDialog Width="792" Height="585" InitialDir="/Zeljus/Temp/GetLazarus/Stringovi/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Demo/Test00/pascalsrc/jni/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Ordering/"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item5 Value="/home/android/Demo/Dialog2/"/>
-        <Item6 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item7 Value="/usr/local/pandroid/units/pascal/"/>
-        <Item8 Value="/home/android/Demo/Test05/"/>
-        <Item9 Value="/home/android/Demo/Test05/pascalsrc/jni/"/>
-        <Item10 Value="/home/android/Demo/Test4/"/>
-        <Item11 Value="/usr/local/pandroid/example/DemoToolBar/"/>
-        <Item12 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
-        <Item13 Value="/home/android/Demo/Test03/"/>
-        <Item14 Value="/home/android/Demo/Test04/pascalsrc/jni/"/>
-        <Item15 Value="/usr/local/pandroid/template/MinimalAndModule/pascalsrc/jni/"/>
-        <Item16 Value="/home/android/Demo/Test04/"/>
-        <Item17 Value="/usr/local/pandroid/source/"/>
-        <Item18 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
-        <Item19 Value="/home/android/Projekti/PDAKasa/pascalsrc/jni/"/>
-        <Item20 Value="/home/android/Projekti/PDAKasa/"/>
+        <Item1 Value="/Zeljus/Temp/GetLazarus/Stringovi/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item3 Value="/home/android/Demo/Test00/pascalsrc/jni/"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Ordering/"/>
+        <Item6 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item7 Value="/home/android/Demo/Dialog2/"/>
+        <Item8 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item9 Value="/usr/local/pandroid/units/pascal/"/>
+        <Item10 Value="/home/android/Demo/Test05/"/>
+        <Item11 Value="/home/android/Demo/Test05/pascalsrc/jni/"/>
+        <Item12 Value="/home/android/Demo/Test4/"/>
+        <Item13 Value="/usr/local/pandroid/example/DemoToolBar/"/>
+        <Item14 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
+        <Item15 Value="/home/android/Demo/Test03/"/>
+        <Item16 Value="/home/android/Demo/Test04/pascalsrc/jni/"/>
+        <Item17 Value="/usr/local/pandroid/template/MinimalAndModule/pascalsrc/jni/"/>
+        <Item18 Value="/home/android/Demo/Test04/"/>
+        <Item19 Value="/usr/local/pandroid/source/"/>
+        <Item20 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">
@@ -78,8 +79,9 @@
     <Conversion>
       <Delphi Project="/home/zeljko/Desktop/jni/sample/native/SimpleDemo.dpr" Unit="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/ThirdParty/uPSI_Mask.pas"/>
     </Conversion>
-    <FileEncodings Count="1">
-      <Item0 Name="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/project1.lpr"/>
+    <FileEncodings Count="2">
+      <Item0 Name="/Zeljus/Temp/GetLazarus/Stringovi/project1.lpr"/>
+      <Item1 Name="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/project1.lpr"/>
     </FileEncodings>
   </InputHistory>
 </CONFIG>

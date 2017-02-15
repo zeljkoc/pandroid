@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1474791984"/>
-  <Params Value=" -Tandroid -Parm -MObjFPC -Scgi -O1 -g -gl -l -vewnibq -vh- -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/arm-android/customdrawn -Fu/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/ -FU/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/lib/ -dLCL -dLCLcustomdrawn uiblaz.pas"/>
+  <Params Value=" -Tandroid -Parm -MObjFPC -Scgi -O1 -g -gl -l -vewnibq -vh- -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/arm-android/nogui -Fu/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/ -FU/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/lib/ -dLCL -dLCLnogui uiblaz.pas"/>
 </CONFIG>

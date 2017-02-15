@@ -15,8 +15,8 @@ uses PandoidModule;
 
 exports
   Java_zeljus_com_PandroidModule_CreateObject,
-  Java_zeljus_com_PandroidModule_SetPropertyValue,
-  Java_zeljus_com_PandroidModule_GetPropertyValue,
+  Java_zeljus_com_PandroidModule_SetPropValue,
+  Java_zeljus_com_PandroidModule_GetPropValue,
   Java_zeljus_com_PandroidModule_SetObjectProp,
   Java_zeljus_com_PandroidModule_Free;
 

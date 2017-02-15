@@ -16,8 +16,8 @@ var
  Module : TStringList;
 
 function Java_zeljus_com_PandroidModule_CreateObject(env: PJNIEnv; this: jobject; AClassName: jString): jlong; cdecl;
-procedure Java_zeljus_com_PandroidModule_SetPropertyValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString; AValue: jString); cdecl;
-function Java_zeljus_com_PandroidModule_GetPropertyValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString): jString; cdecl;
+procedure Java_zeljus_com_PandroidModule_SetPropValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString; AValue: jString); cdecl;
+function Java_zeljus_com_PandroidModule_GetPropValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString): jString; cdecl;
 procedure Java_zeljus_com_PandroidModule_SetObjectProp(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString; AIDObject: jlong); cdecl;
 
 procedure Java_zeljus_com_PandroidModule_Free(env: PJNIEnv; this: jobject; AID: jlong); cdecl;
@@ -44,14 +44,14 @@ begin
   end;
 end;
 
-procedure Java_zeljus_com_PandroidModule_SetPropertyValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString; AValue: jString); cdecl;
+procedure Java_zeljus_com_PandroidModule_SetPropValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString; AValue: jString); cdecl;
 begin
   PropInfo := GetPropInfo(Module.Objects[AID].ClassInfo, JNI_JStringToString(env, AProperty));
   if Assigned(PropInfo) then
     SetPropValue(Module.Objects[AID], PropInfo, JNI_JStringToString(env, AValue));
 end;
 
-function Java_zeljus_com_PandroidModule_GetPropertyValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString): jString; cdecl;
+function Java_zeljus_com_PandroidModule_GetPropValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString): jString; cdecl;
 begin
  PropInfo := GetPropInfo(Module.Objects[AID].ClassInfo, JNI_JStringToString(env, AProperty));
  if Assigned(PropInfo) then

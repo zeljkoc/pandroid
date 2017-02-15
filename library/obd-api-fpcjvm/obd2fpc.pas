@@ -135,6 +135,11 @@ type
   Arr2CGPOCPBarometricPressureCommand = array of Arr1CGPOCPBarometricPressureCommand;
   Arr3CGPOCPBarometricPressureCommand = array of Arr2CGPOCPBarometricPressureCommand;
 
+  CGPOCPCloseCommand = class;
+  Arr1CGPOCPCloseCommand = array of CGPOCPCloseCommand;
+  Arr2CGPOCPCloseCommand = array of Arr1CGPOCPCloseCommand;
+  Arr3CGPOCPCloseCommand = array of Arr2CGPOCPCloseCommand;
+
   CGPOCObdMultiCommand = class;
   Arr1CGPOCObdMultiCommand = array of CGPOCObdMultiCommand;
   Arr2CGPOCObdMultiCommand = array of Arr1CGPOCObdMultiCommand;
@@ -364,6 +369,11 @@ type
   Arr1CAIUPredicate = array of CAIUPredicate;
   Arr2CAIUPredicate = array of Arr1CAIUPredicate;
   Arr3CAIUPredicate = array of Arr2CAIUPredicate;
+
+  JURPattern = class external 'java.util.regex' name 'Pattern';
+  Arr1JURPattern = array of JURPattern;
+  Arr2JURPattern = array of Arr1JURPattern;
+  Arr3JURPattern = array of Arr2JURPattern;
 
   JLObject = class external 'java.lang' name 'Object';
   Arr1JLObject = array of JLObject;

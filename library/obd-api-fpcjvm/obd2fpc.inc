@@ -19,6 +19,8 @@
     procedure resendCommand(para1: JIOutputStream); overload; virtual;  // throws java.io.IOException, java.lang.InterruptedException
     procedure readResult(para1: JIInputStream); overload; virtual;  // throws java.io.IOException
     procedure performCalculations(); overload; virtual; abstract;
+    function replaceAll(para1: JURPattern; para2: JLString; para3: JLString): JLString; overload; virtual;
+    function removeAll(para1: JURPattern; para2: JLString): JLString; overload; virtual;
     procedure fillBuffer(); overload; virtual;
     procedure readRawData(para1: JIInputStream); overload; virtual;  // throws java.io.IOException
   public
@@ -39,6 +41,7 @@
     function getEnd(): jlong; overload; virtual;
     procedure setEnd(para1: jlong); overload; virtual;
     function getCommandPID(): JLString; overload; virtual; final;
+    function getCommandMode(): JLString; overload; virtual; final;
     function equals(para1: JLObject): jboolean; overload; virtual;
     function hashCode(): jint; overload; virtual;
   end;
@@ -685,6 +688,14 @@
   public
     constructor create(para1: jint); overload;
     constructor create(para1: CGPOCPAdaptiveTimingCommand); overload;
+    function getFormattedResult(): JLString; overload; virtual;
+    function getName(): JLString; overload; virtual;
+  end;
+
+  CGPOCPCloseCommand = class external 'com.github.pires.obd.commands.protocol' name 'CloseCommand' (CGPOCPObdProtocolCommand)
+  public
+    constructor create(); overload;
+    constructor create(para1: CGPOCPCloseCommand); overload;
     function getFormattedResult(): JLString; overload; virtual;
     function getName(): JLString; overload; virtual;
   end;

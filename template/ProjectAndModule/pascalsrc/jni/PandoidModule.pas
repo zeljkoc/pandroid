@@ -53,9 +53,11 @@ end;
 
 function Java_zeljus_com_PandroidModule_GetPropValue(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString): jString; cdecl;
 begin
- PropInfo := GetPropInfo(Module.Objects[AID].ClassInfo, JNI_JStringToString(env, AProperty));
- if Assigned(PropInfo) then
-  Result := JNI_StringToJString(env, GetPropValue(Module.Objects[AID], JNI_JStringToString(env, AProperty)) );
+  try
+    Result := JNI_StringToJString(env, GetPropValue(Module.Objects[AID], JNI_JStringToString(env, AProperty)) );
+  except on E: Exception do
+    Result := JNI_StringToJString(env, E.Message);
+  end;
 end;
 
 procedure Java_zeljus_com_PandroidModule_SetObjectProp(env: PJNIEnv; this: jobject; AID: jlong; AProperty: jString; AIDObject: jlong); cdecl;

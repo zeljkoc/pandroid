@@ -68,15 +68,15 @@
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
         <Item1 Value="/Zeljus/Android/Projekti/Kasa/PandroidModule.inc"/>
-        <Item2 Value="/usr/local/pandroid/units/pascal/Utils.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/pascal/DataBase.pas"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Kasa/PandroidModule.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/pascal/Dialogs.pas"/>
-        <Item6 Value="/Zeljus/Android/Projekti/Kasa/Data.pas"/>
-        <Item7 Value="/usr/local/pandroid/units/pascal/Views.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/AActivity.pas"/>
-        <Item9 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
-        <Item10 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Kasa/PandroidModule.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/pascal/Utils.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/pascal/DataBase.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/pascal/Dialogs.pas"/>
+        <Item7 Value="/Zeljus/Android/Projekti/Kasa/Data.pas"/>
+        <Item8 Value="/usr/local/pandroid/units/pascal/Views.pas"/>
+        <Item9 Value="/usr/local/pandroid/units/AActivity.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/pascal/DialogsView.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>

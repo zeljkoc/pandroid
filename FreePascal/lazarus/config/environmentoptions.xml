@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/Zeljus/Android/Projekti/Popis/Popis.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/Zeljus/Android/Projekti/Kasa/Kasa.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,21 +67,21 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/TransferData.pas"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
-        <Item6 Value="/usr/local/pandroid/Lazarus/jni/JNIUtils.pas"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/gtk2/gtk2cellrenderer.pas"/>
-        <Item8 Value="/usr/local/codetyphon/typhon/components/pl_Synapse/source/ssfpc.inc"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqldb.pp"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/fpgui/fpguiwsdialogs.pp"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/TransferData.pas"/>
+        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
+        <Item7 Value="/usr/local/pandroid/Lazarus/jni/JNIUtils.pas"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/gtk2/gtk2cellrenderer.pas"/>
+        <Item9 Value="/usr/local/codetyphon/typhon/components/pl_Synapse/source/ssfpc.inc"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqldb.pp"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item2 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
+        <Item3 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
         <Item4 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
         <Item5 Value="/home/android/Demo/Test001/pascalsrc/jni/project1.lpi"/>
       </ProjectFiles>

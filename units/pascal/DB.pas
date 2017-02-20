@@ -199,7 +199,47 @@ type
     procedure Refresh;
   end;
 
+  { TDBGridViewLayout }
+
+  TDBGridViewLayout = class(TGridViewLayout)
+  private
+    FAdapter: TDataSetAddapter;
+    FCursorDataSet: TCursorDataSet;
+    function LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
+    procedure ItemClickListener (para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
+  public
+    constructor create(para1: ACContext; aDataBase: TDataBase); overload;
+  public
+    property Adapter: TDataSetAddapter read FAdapter;
+    property CursorDataSet: TCursorDataSet read FCursorDataSet;
+  end;
+
 implementation
+
+{ TDBGridViewLayout }
+
+function TDBGridViewLayout.LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
+begin
+  Result := true;
+end;
+
+procedure TDBGridViewLayout.ItemClickListener(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
+begin
+
+end;
+
+constructor TDBGridViewLayout.create(para1: ACContext; aDataBase: TDataBase);
+begin
+  inherited create(para1);
+  FCursorDataSet:= TCursorDataSet.create;
+  FCursorDataSet.DataBase := aDataBase;
+
+  FAdapter := TDataSetAddapter.create(getContext, AR.innerLayout.simple_list_item_1, FCursorDataSet);
+  GridView.setAdapter(FAdapter);
+
+  onItemLongClickListener := @LongItemClick;
+  onItemClickListener := @ItemClickListener;
+end;
 
 { TDBTextView }
 

@@ -6,6 +6,8 @@ Miran Horjak usbdoo@gmail.com
 unit DataBase;
 
 {$mode objfpc}{$H+}
+{$modeswitch unicodestrings}
+{$namespace zeljus.com.units.pascal}
 
 interface
 

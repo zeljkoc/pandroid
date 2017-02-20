@@ -41,11 +41,11 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/Zeljus/Android/Projekti/Kasa/">
+    <FileDialog Width="792" Height="585" InitialDir="/home/android/Demo/Dialog2/">
       <HistoryList Count="20">
-        <Item1 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item3 Value="/home/android/Demo/Dialog2/"/>
+        <Item1 Value="/home/android/Demo/Dialog2/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Popis/"/>
         <Item4 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
         <Item5 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/"/>
         <Item6 Value="/home/android/Demo/Test001/pascalsrc/jni/"/>

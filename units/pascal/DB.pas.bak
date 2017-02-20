@@ -254,9 +254,6 @@ begin
     ID := id_edit;
     setTitle(FEditTitle);
     setMessage(JLString(''));
-
-
-
     show;
   end;
 end;

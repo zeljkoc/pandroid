@@ -3,17 +3,28 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="1">
+    <Units Count="2">
       <Unit0>
         <Filename Value="SecondActivity.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="10"/>
-        <CursorPos X="25" Y="48"/>
+        <TopLine Value="3"/>
+        <CursorPos X="16" Y="31"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="Activity2.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="SecondActivity.lpr"/>
+        <Caret Line="27" Column="48" TopLine="10"/>
+      </Position1>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>

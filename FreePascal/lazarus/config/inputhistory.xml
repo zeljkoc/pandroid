@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="Exception ="/>
-          <Item2 Value="Exception"/>
-          <Item3 Value="Gravity ="/>
-          <Item4 Value="ATTextUtils"/>
-          <Item5 Value="ADSSQLiteDatabase ="/>
-          <Item6 Value="ADSSQLiteOpenHelper ="/>
-          <Item7 Value="TextUtils ="/>
-          <Item8 Value="isnull"/>
-          <Item9 Value="compileStatement"/>
-          <Item10 Value="SQLiteStatement ="/>
-          <Item11 Value="Statement ="/>
-          <Item12 Value="String"/>
-          <Item13 Value="BStringBuilder"/>
-          <Item14 Value="ADCursor ="/>
-          <Item15 Value="fetchMessage"/>
-          <Item16 Value="ParseQuery ="/>
-          <Item17 Value="FContext"/>
-          <Item18 Value="Calendar ="/>
-          <Item19 Value="JUCalendar ="/>
-          <Item20 Value="AWEditText ="/>
+          <Item1 Value="Gravity ="/>
+          <Item2 Value="ATTextUtils"/>
+          <Item3 Value="ADSSQLiteDatabase ="/>
+          <Item4 Value="ADSSQLiteOpenHelper ="/>
+          <Item5 Value="TextUtils ="/>
+          <Item6 Value="isnull"/>
+          <Item7 Value="compileStatement"/>
+          <Item8 Value="SQLiteStatement ="/>
+          <Item9 Value="Statement ="/>
+          <Item10 Value="String"/>
+          <Item11 Value="BStringBuilder"/>
+          <Item12 Value="ADCursor ="/>
+          <Item13 Value="fetchMessage"/>
+          <Item14 Value="ParseQuery ="/>
+          <Item15 Value="FContext"/>
+          <Item16 Value="Calendar ="/>
+          <Item17 Value="JUCalendar ="/>
+          <Item18 Value="AWEditText ="/>
+          <Item19 Value="BaseAdapter ="/>
+          <Item20 Value="TPropertyEditor"/>
         </Find>
       </History>
     </Find>
@@ -41,28 +41,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="585" InitialDir="/Zeljus/Android/Projekti/Kasa/">
+    <FileDialog Width="792" Height="585" InitialDir="/Zeljus/Android/Projekti/Popis/">
       <HistoryList Count="20">
-        <Item1 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item3 Value="/home/zeljko/Downloads/aaaaa/TestAndroid/"/>
-        <Item4 Value="/home/android/Demo/Test00/pascalsrc/jni/"/>
-        <Item5 Value="/Zeljus/Android/Projekti/Ordering/"/>
-        <Item6 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item7 Value="/home/android/Demo/Dialog2/"/>
-        <Item8 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item9 Value="/usr/local/pandroid/units/pascal/"/>
-        <Item10 Value="/home/android/Demo/Test05/"/>
-        <Item11 Value="/home/android/Demo/Test05/pascalsrc/jni/"/>
-        <Item12 Value="/home/android/Demo/Test4/"/>
-        <Item13 Value="/usr/local/pandroid/example/DemoToolBar/"/>
-        <Item14 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
-        <Item15 Value="/home/android/Demo/Test03/"/>
-        <Item16 Value="/home/android/Demo/Test04/pascalsrc/jni/"/>
-        <Item17 Value="/usr/local/pandroid/template/MinimalAndModule/pascalsrc/jni/"/>
-        <Item18 Value="/home/android/Demo/Test04/"/>
-        <Item19 Value="/usr/local/pandroid/source/"/>
-        <Item20 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item2 Value="/home/android/Demo/Dialog2/"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/"/>
+        <Item6 Value="/home/android/Demo/Test001/pascalsrc/jni/"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/"/>
+        <Item8 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
+        <Item9 Value="/home/zeljko/Downloads/aaaaa/TestAndroid/"/>
+        <Item10 Value="/home/android/Demo/Test00/pascalsrc/jni/"/>
+        <Item11 Value="/Zeljus/Android/Projekti/Ordering/"/>
+        <Item12 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item13 Value="/usr/local/pandroid/units/pascal/"/>
+        <Item14 Value="/home/android/Demo/Test05/"/>
+        <Item15 Value="/home/android/Demo/Test05/pascalsrc/jni/"/>
+        <Item16 Value="/home/android/Demo/Test4/"/>
+        <Item17 Value="/usr/local/pandroid/example/DemoToolBar/"/>
+        <Item18 Value="/usr/local/pandroid/example/DemoScrollButton/"/>
+        <Item19 Value="/home/android/Demo/Test03/"/>
+        <Item20 Value="/home/android/Demo/Test04/pascalsrc/jni/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

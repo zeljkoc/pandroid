@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item5 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/TransferData.pas"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
-        <Item7 Value="/usr/local/pandroid/Lazarus/jni/JNIUtils.pas"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/gtk2/gtk2cellrenderer.pas"/>
-        <Item9 Value="/usr/local/codetyphon/typhon/components/pl_Synapse/source/ssfpc.inc"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqldb.pp"/>
+        <Item1 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item2 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
+        <Item6 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
+        <Item7 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/TransferData.pas"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
+        <Item9 Value="/usr/local/pandroid/Lazarus/jni/JNIUtils.pas"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/gtk2/gtk2cellrenderer.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item3 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
-        <Item5 Value="/home/android/Demo/Test001/pascalsrc/jni/project1.lpi"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
+        <Item4 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

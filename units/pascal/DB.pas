@@ -128,7 +128,10 @@ type
      FSQLUpdate: JLString;
      FSQLDelete: JLString;
      FFields: JUArrayList;
+     FFieldAll: TFieldDef;
+     FTableName: JLString;
      function ReadFieldDef(aCursor: ADCursor): TFieldDef;
+     procedure ReadFieldDefType;
      procedure DefineCursor(Value: ADCursor);
   protected
      procedure ExecuteSQLDataBase(SQLNew: JLString);
@@ -136,6 +139,7 @@ type
     function GetFieldDef: TFieldDef;
     procedure SetIndex(Value: jint);
     procedure SetSelect(Value: JLString);
+    procedure SetTableName(Value: JLString);
    public
     constructor create;  overload; virtual;
     procedure Next;
@@ -157,6 +161,9 @@ type
     property Fields: JUArrayList read FFields;
     property Count: jint read FCount;
     property Index: jint read FIndex write SetIndex;
+
+    property TableName: JLString write SetTableName;
+    property FieldAll: TFieldDef read FFieldAll;
   end;
 
   { TDataSetAddapter }
@@ -203,7 +210,11 @@ type
   private
     FAdapter: TDataSetAddapter;
     FCursorDataSet: TCursorDataSet;
+
+
     FDialog: TDialog;
+    FReadOnly: jboolean;
+
     FDeleteTitle: JLString;
     FDeleteMessage: JLString;
 
@@ -211,7 +222,7 @@ type
     FIDRecord: jint;
     FDeletedFieldMessage: JLString;
 
-    FEditForms: AWLinearLayout;
+    FEditForms: AWScrollView;
     procedure InsertEditForms;
   protected
     function LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
@@ -229,6 +240,7 @@ type
     property DeleteTitle : JLString read FDeleteTitle write FDeleteTitle;
     property DeleteMessage: JLstring read FDeleteMessage write FDeleteMessage;
     property EditTitle: JLstring read FEditTitle write FEditTitle;
+    property ReadOnly: jboolean read FReadOnly write FReadOnly;
   end;
 
 implementation
@@ -238,25 +250,31 @@ implementation
 procedure TDBGridViewLayout.InsertEditForms;
 var
   i: integer;
+  Flayout: AWLinearLayout;
 begin
   FEditForms.removeAllViews;
+
+  Flayout := AWLinearLayout.create(getContext);
+  Flayout.setOrientation(AWLinearLayout.VERTICAL);
 
   for i:=0 to FAdapter.CursorDataSet.Field.FieldCount -1 do begin
     if FAdapter.CursorDataSet.Field.Visible[i] then begin
 
-         FEditForms.addView(TTextView.create(getContext) );
-         with TTextView(FEditForms.getChildAt(FEditForms.getChildCount - 1)) do begin
+         Flayout.addView(TTextView.create(getContext) );
+         with TTextView(Flayout.getChildAt(Flayout.getChildCount - 1)) do begin
             Text := FAdapter.CursorDataSet.Field.DisplayName[i];
             setTypeface(nil, AGTypeface.ITALIC);
             setGravity(AVGravity.LEFT);
          end;
 
         if FAdapter.CursorDataSet.Field.ReadOnly[i] then
-           FEditForms.addView(TDBTextView.create(getContext, FAdapter.CursorDataSet, i) )
+           Flayout.addView(TDBTextView.create(getContext, FAdapter.CursorDataSet, i) )
         else
-           FEditForms.addView(TDBEditText.create(getContext, FAdapter.CursorDataSet, i) );
+           Flayout.addView(TDBEditText.create(getContext, FAdapter.CursorDataSet, i) );
     end;
   end;
+
+  FEditForms.addView(Flayout);
 end;
 
 function TDBGridViewLayout.LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
@@ -300,40 +318,31 @@ var
 begin
   case TDialog(para1).ID of
     id_delete: if para2 = -1 then begin
-                   FAdapter.CursorDataSet.Delete;
-                   FAdapter.clear;
-                   FAdapter.CursorDataSet.Refresh;
-                   FIDRecord := FAdapter.CursorDataSet.Index;
-                   ShowMessage(getContext, JLString('Deleted: ').concat(#10#13).concat(FDeletedFieldMessage.toString), FDeleteTitle);
-    						end;
-    id_edit: if para2 = -1 then begin
-             {  FAdapter.CursorDataSet.Index := FIDRecord;
-               for i:=0 to FEditForms.getChildCount - 1 do begin
-                   if (FEditForms.getChildAt(i) is TDBEditText) then begin
-                    FAdapter.CursorDataSet.Field.Value[i].AsString := (FEditForms.getChildAt(i) as TDBEditText).CursorDataSet.Field.Value[i].AsString;
-
-                   end;
-              end; }
-                 FAdapter.CursorDataSet.Index := FIDRecord;
-                 for i:=0 to FEditForms.getChildCount - 1 do begin
-                   if (FEditForms.getChildAt(0) is TDBEditText) then
-                     FAdapter.CursorDataSet.Field.Value[(FEditForms.getChildAt(0) as TDBEditText).Field.FFieldNo].AsString :=
-                        (FEditForms.getChildAt(0) as TDBEditText).Field.Value.AsString;
-                 end;
-                 FAdapter.CursorDataSet.Update;
+                 FAdapter.CursorDataSet.Delete;
                  FAdapter.clear;
                  FAdapter.CursorDataSet.Refresh;
                  FIDRecord := FAdapter.CursorDataSet.Index;
-
-                //  ShowMessage(getContext, JLString('Edit: ').concat(JLInteger.toString(FIDRecord)));
-
-    						end;
+                 ShowMessage(getContext, JLString('Deleted: ').concat(#10#13).concat(FDeletedFieldMessage.toString), FDeleteTitle);
+    				   end;
+    id_edit: if para2 = -1 then begin
+               FAdapter.CursorDataSet.Index := FIDRecord;
+               for i:=0 to FEditForms.getChildCount - 1 do begin
+                 if (FEditForms.getChildAt(0) is TDBEditText) then
+                   FAdapter.CursorDataSet.Field.Value[(FEditForms.getChildAt(0) as TDBEditText).Field.FFieldNo].AsString :=
+                      (FEditForms.getChildAt(0) as TDBEditText).Field.Value.AsString;
+               end;
+               FAdapter.CursorDataSet.Update;
+               FAdapter.clear;
+               FAdapter.CursorDataSet.Refresh;
+               FIDRecord := FAdapter.CursorDataSet.Index;
+    					end;
   end;
 end;
 
 constructor TDBGridViewLayout.create(para1: ACContext; aDataBase: TDataBase);
 begin
   inherited create(para1);
+  FReadOnly:= False;
   FCursorDataSet:= TCursorDataSet.create;
   FCursorDataSet.DataBase := aDataBase;
 
@@ -352,9 +361,7 @@ begin
   FDialog.AddButton(btNegative, JLString('No'));
   FDialog.OnClickListener := @onClickDialog;
 
-  FEditForms:= AWLinearLayout.create(getContext);
-  FEditForms.setOrientation(AWLinearLayout.VERTICAL);
-
+  FEditForms:= AWScrollView.create(getContext);
 end;
 
 
@@ -445,11 +452,22 @@ begin
     isValue := aCursor.getCount <> 0;
 
      Result := TFieldDef.create;
-      for i:=0 to aCursor.getColumnCount - 1 do begin
+     if FFieldAll.FieldCount > 0 then begin
+        for i:=0 to aCursor.getColumnCount - 1 do begin
+           Result.AddField(aCursor.getColumnName(i), FFieldAll.DataType[i]);
+           if isValue then Result.Value[i].AsString := aCursor.getString(i);
+           if isValue then Result.OldValue[i].AsString := Result.Value[i].AsString;
+           Result.DisplayName[i] := FFieldAll.DisplayName[i];
+           Result.CharCase[i] := FFieldAll.CharCase[i];
+           Result.ReadOnly[i] := FFieldAll.ReadOnly[i];
+           Result.Visible[i] := FFieldAll.Visible[i];
+         end;
+     end else
+     for i:=0 to aCursor.getColumnCount - 1 do begin
         if aCursor.getType(i) = ADCursor.FIELD_TYPE_NULL then begin
     		    Result.AddField(aCursor.getColumnName(i), ftNull);
          if isValue then Result.Value[i].AsString := aCursor.getString(i);
-         if isValue then   Result.OldValue[i].AsString := Result.Value[i].AsString;
+         if isValue then Result.OldValue[i].AsString := Result.Value[i].AsString;
         end else if aCursor.getType(i) = ADCursor.FIELD_TYPE_INTEGER then begin
     		    Result.AddField(aCursor.getColumnName(i), ftInteger);
          if isValue then Result.Value[i].AsInteger := aCursor.getInt(i);
@@ -468,6 +486,29 @@ begin
          if isValue then Result.OldValue[i].AsString := Result.Value[i].AsString;
         end;
       end;
+
+end;
+
+procedure TCursorDataSet.ReadFieldDefType;
+var i: integer;
+   TempCursor: ADCursor;
+begin
+ FFieldAll.clear;
+ try
+   TempCursor := FDatabase.rawQuery(JLString('PRAGMA table_info( ').concat(FTableName).concat(' ) '), nil);
+
+   if TempCursor.getCount > 0 then begin
+       for i:=0 to  TempCursor.getCount - 1 do begin
+            TempCursor.moveToPosition(i);
+            if TempCursor.getType(2) = ADCursor.FIELD_TYPE_NULL    then FFieldAll.AddField(TempCursor.getString(1), ftNull)    else
+            if TempCursor.getType(2) = ADCursor.FIELD_TYPE_INTEGER then FFieldAll.AddField(TempCursor.getString(1), ftInteger) else
+            if TempCursor.getType(2) = ADCursor.FIELD_TYPE_FLOAT   then FFieldAll.AddField(TempCursor.getString(1), ftFloat)   else
+            if TempCursor.getType(2) = ADCursor.FIELD_TYPE_STRING  then FFieldAll.AddField(TempCursor.getString(1), ftString)  else
+            if TempCursor.getType(2) = ADCursor.FIELD_TYPE_BLOB    then FFieldAll.AddField(TempCursor.getString(1), ftBlob);
+       end;
+   end;
+ except
+ end;
 end;
 
 function TCursorDataSet.GetFieldDef: TFieldDef;
@@ -486,6 +527,7 @@ var
   i: integer;
 begin
   FFields.clear;
+
   if (Value.getCount = 0) then begin
      FIndex:= 0;
      FCount:= 0;
@@ -525,12 +567,20 @@ begin
   DefineCursor(FDatabase.rawQuery(FSQLSelect, nil));
 end;
 
+procedure TCursorDataSet.SetTableName(Value: JLString);
+begin
+  FTableName := Value;
+  ReadFieldDefType;
+end;
+
 constructor TCursorDataSet.create;
 begin
   inherited Create;
+  FFieldAll := TFieldDef.create;
   FFields:= JUArrayList.create;
   FIndex := 0;
   FCount := 0;
+  FTableName := '"-"';
 end;
 
 procedure TCursorDataSet.Next;

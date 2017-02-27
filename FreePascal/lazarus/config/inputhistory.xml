@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="ResultSet "/>
-          <Item2 Value="tablename"/>
-          <Item3 Value="ResultSetMetaData"/>
-          <Item4 Value="FEditForms"/>
-          <Item5 Value="Gravity ="/>
-          <Item6 Value="ATTextUtils"/>
-          <Item7 Value="ADSSQLiteDatabase ="/>
-          <Item8 Value="ADSSQLiteOpenHelper ="/>
-          <Item9 Value="TextUtils ="/>
-          <Item10 Value="isnull"/>
-          <Item11 Value="compileStatement"/>
-          <Item12 Value="SQLiteStatement ="/>
-          <Item13 Value="Statement ="/>
-          <Item14 Value="String"/>
-          <Item15 Value="BStringBuilder"/>
-          <Item16 Value="ADCursor ="/>
-          <Item17 Value="fetchMessage"/>
-          <Item18 Value="ParseQuery ="/>
-          <Item19 Value="FContext"/>
-          <Item20 Value="Calendar ="/>
+          <Item1 Value="DialogFragment"/>
+          <Item2 Value="showErrorDialog"/>
+          <Item3 Value="Toast ="/>
+          <Item4 Value="Child"/>
+          <Item5 Value="BUTTON_NEGATIVE"/>
+          <Item6 Value="AlertDialog.BUTTON_NEGATIVE"/>
+          <Item7 Value="FreeNotifies"/>
+          <Item8 Value="DisposeOf"/>
+          <Item9 Value="Component ="/>
+          <Item10 Value="ResultSet "/>
+          <Item11 Value="tablename"/>
+          <Item12 Value="ResultSetMetaData"/>
+          <Item13 Value="FEditForms"/>
+          <Item14 Value="Gravity ="/>
+          <Item15 Value="ATTextUtils"/>
+          <Item16 Value="ADSSQLiteDatabase ="/>
+          <Item17 Value="ADSSQLiteOpenHelper ="/>
+          <Item18 Value="TextUtils ="/>
+          <Item19 Value="isnull"/>
+          <Item20 Value="compileStatement"/>
         </Find>
       </History>
     </Find>

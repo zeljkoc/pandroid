@@ -211,14 +211,9 @@ type
     FAdapter: TDataSetAddapter;
     FCursorDataSet: TCursorDataSet;
 
+    FEditDialog: TDialog;
+    FDeleteDialog: TDialog;
 
-    FDialog: TDialog;
-    FReadOnly: jboolean;
-
-    FDeleteTitle: JLString;
-    FDeleteMessage: JLString;
-
-    FEditTitle: JLstring;
     FIDRecord: jint;
     FDeletedFieldMessage: JLString;
 
@@ -237,10 +232,6 @@ type
   public
     property Adapter: TDataSetAddapter read FAdapter;
 
-    property DeleteTitle : JLString read FDeleteTitle write FDeleteTitle;
-    property DeleteMessage: JLstring read FDeleteMessage write FDeleteMessage;
-    property EditTitle: JLstring read FEditTitle write FEditTitle;
-    property ReadOnly: jboolean read FReadOnly write FReadOnly;
   end;
 
 implementation
@@ -293,10 +284,8 @@ begin
   for i:= 0 to FAdapter.CursorDataSet.Field.FieldCount - 1 do
      FDeletedFieldMessage := FDeletedFieldMessage.concat(FAdapter.CursorDataSet.Field.Value[i].AsString).concat(#10#13);
 
-  with FDialog do begin
-    ID := id_delete;       //DELETE
-    setTitle(FDeleteTitle);
-    setMessage(FDeletedFieldMessage.concat(FDeleteMessage.toString));
+  with FDeleteDialog do begin //DELETE
+    setMessage(FDeletedFieldMessage.concat(#10#13).concat('Are you sure?') );
     show;
   end;
   Result := true;
@@ -306,13 +295,11 @@ procedure TDBGridViewLayout.ItemClickListener(para1: AWAdapterView; para2: AVVie
 begin
   FIDRecord := para3;
   FAdapter.CursorDataSet.Index := FIDRecord;
-  with FDialog do begin
+
+  with FEditDialog do begin
     ID := id_edit;       //EDIT
-    setTitle(FEditTitle);
-    setMessage(Nil);
     InsertEditForms;
     setView(FEditForms);
-
     show;
   end;
 end;
@@ -327,7 +314,9 @@ begin
                  FAdapter.clear;
                  FAdapter.CursorDataSet.Refresh;
                  FIDRecord := FAdapter.CursorDataSet.Index;
-                 ShowMessage(getContext, JLString('Deleted: ').concat(#10#13).concat(FDeletedFieldMessage.toString), FDeleteTitle);
+                 AWToast.makeText(getContext,
+                                  JLString('Deleted: ').concat(#10#13).concat(FDeletedFieldMessage.toString),
+                                  AWToast.LENGTH_LONG).show;
     				   end;
     id_edit: if para2 = -1 then begin
                FAdapter.CursorDataSet.Index := FIDRecord;
@@ -340,6 +329,8 @@ begin
                FAdapter.clear;
                FAdapter.CursorDataSet.Refresh;
                FIDRecord := FAdapter.CursorDataSet.Index;
+
+               AWToast.makeText(getContext, JLString('Save'), AWToast.LENGTH_SHORT).show;
     					end;
   end;
 end;
@@ -347,7 +338,6 @@ end;
 constructor TDBGridViewLayout.create(para1: ACContext; aDataBase: TDataBase);
 begin
   inherited create(para1);
-  FReadOnly:= False;
   FCursorDataSet:= TCursorDataSet.create;
   FCursorDataSet.DataBase := aDataBase;
 
@@ -357,14 +347,24 @@ begin
   onItemLongClickListener := @LongItemClick;
   onItemClickListener := @ItemClickListener;
 
-  FDeleteTitle := 'Delete!!!';
-  FDeleteMessage := 'Are you sure?';
-  FEditTitle := 'Edit field';
 
-  FDialog:= TDialog.create(getContext);
-  FDialog.AddButton(btPositive, JLString('Yes'));
-  FDialog.AddButton(btNegative, JLString('No'));
-  FDialog.OnClickListener := @onClickDialog;
+  FDeleteDialog:= TDialog.create(getContext);
+  with FDeleteDialog do begin
+     ID := id_delete;
+     setTitle(JLString('Delete!!!'));
+     AddButton(btPositive, JLString('Yes'));
+     AddButton(btNegative, JLString('No'));
+     OnClickListener := @onClickDialog;
+  end;
+
+  FEditDialog:= TDialog.create(getContext);
+  with FEditDialog do begin
+    ID := id_edit;
+    setTitle(JLString('Edit field!!!'));
+    AddButton(btPositive, JLString('Save'));
+    AddButton(btNegative, JLString('Cancel'));
+    OnClickListener := @onClickDialog;
+  end;
 
   FEditForms:= AWScrollView.create(getContext);
 end;

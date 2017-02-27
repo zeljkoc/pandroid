@@ -20,7 +20,7 @@ type
 
   TCreateViewMethod = function (aContext: ACContext; aField: TFieldDef): AVView ;
 
-  TDataType = (ftNull, ftInteger, ftFloat, ftString, ftBlob);
+  TDataType = (ftNull, ftInteger, ftFloat, ftString, ftBlob, ftDateTime);
   TEditCharCase = (eccNormal, eccLowerCase, eccUpperCase);
   TFieldView = (fvTextView, fvEditText);
 
@@ -184,6 +184,9 @@ type
 
   TDBEditText = class(TEditText)
     FField: TField;
+  protected
+    function TestInputType(aValue: JLString; aDataType: TDataType): jboolean;
+    function InputKeyboard(aDataType: TDataType; aEditCharCase: TEditCharCase): jint;
   private
     FonChangeTextE: TOnChangeTextEvent;
     procedure GetChangeText(para1: JLObject); overload;
@@ -329,8 +332,7 @@ begin
                FAdapter.clear;
                FAdapter.CursorDataSet.Refresh;
                FIDRecord := FAdapter.CursorDataSet.Index;
-
-               AWToast.makeText(getContext, JLString('Save'), AWToast.LENGTH_SHORT).show;
+               AWToast.makeText(getContext, JLString('Save: '), AWToast.LENGTH_SHORT).show;
     					end;
   end;
 end;
@@ -391,13 +393,40 @@ end;
 
 { TDBEditText }
 
+function TDBEditText.TestInputType(aValue: JLString; aDataType: TDataType): jboolean;
+begin
+  try  {ftNull, ftInteger, ftFloat, ftString, ftBlob}
+    case aDataType of
+      ftInteger: JLInteger.parseInt(aValue.toString);
+      ftFloat:   JLFloat.parseFloat(aValue.toString);
+    end;
+      Result := true;
+   except
+      Result := false;
+   end;
+end;
+
+function TDBEditText.InputKeyboard(aDataType: TDataType; aEditCharCase: TEditCharCase): jint;
+begin
+ Result := ATInputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS;
+ case aDataType of
+    ftInteger: Result := ATInputType.TYPE_CLASS_PHONE;
+    ftFloat  : Result := ATInputType.TYPE_CLASS_PHONE;
+    ftDateTime:  Result := ATInputType.TYPE_DATETIME_VARIATION_DATE;
+    ftString: case aEditCharCase of
+                 eccUpperCase: Result:= ATInputType.TYPE_TEXT_FLAG_CAP_CHARACTERS;
+              end;
+    else Result := ATInputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS;
+  end;
+end;
+
 procedure TDBEditText.GetChangeText(para1: JLObject);
 begin
-   FField.Value.AsString := Text.toString;
-   FField.Change :=
-    FField.Value.AsString <> FField.OldValue.AsString;
+  if not TestInputType(Text.toString, FField.DataType) then Text := FField.Value.AsString
+  else if not FField.ReadOnly then  FField.Value.AsString := Text.toString;
 
-   if Assigned(FOnChangeTextE) then FOnChangeTextE(self);
+  FField.Change := FField.Value.AsString <> FField.OldValue.AsString;
+  if Assigned(FOnChangeTextE) then FOnChangeTextE(self);
 end;
 
 constructor TDBEditText.create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint);
@@ -421,6 +450,7 @@ begin
      Text := FField.Value.AsString ;
   end else Text := JLstring('');
 
+  setInputType(InputKeyboard(FField.DataType, FField.CharCase));
   inherited onChangeText := @GetChangeText;
 end;
 

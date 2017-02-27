@@ -137,7 +137,6 @@ type
      procedure ExecuteSQLDataBase(SQLNew: JLString);
   private
     function GetFieldDef: TFieldDef;
-    procedure SetFieldAll(Value: TFieldDef);
     procedure SetIndex(Value: jint);
     procedure SetSelect(Value: JLString);
     procedure SetTableName(Value: JLString);
@@ -158,13 +157,13 @@ type
     property SQLInsert: JLString write FSQLInsert;
     property SQLDelete: JLString write FSQLDelete;
     property SQLUpdate: JLString write FSQLUpdate;
-    property Field: TFieldDef read GetFieldDef write SetFieldAll;
+    property Field: TFieldDef read GetFieldDef;
     property Fields: JUArrayList read FFields;
     property Count: jint read FCount;
     property Index: jint read FIndex write SetIndex;
 
     property TableName: JLString write SetTableName;
-   // property FieldAll: TFieldDef read FFieldAll;
+    property FieldAll: TFieldDef read FFieldAll;
   end;
 
   { TDataSetAddapter }
@@ -264,7 +263,11 @@ begin
          Flayout.addView(TTextView.create(getContext) );
          with TTextView(Flayout.getChildAt(Flayout.getChildCount - 1)) do begin
             Text := FAdapter.CursorDataSet.Field.DisplayName[i];
-            setTypeface(nil, AGTypeface.ITALIC);
+           // setTypeface(nil, AGTypeface.ITALIC);
+            case FAdapter.CursorDataSet.Field.CharCase[i] of
+              eccNormal : Text := FAdapter.CursorDataSet.Field.DisplayName[i];
+              eccLowerCase: Text := FAdapter.CursorDataSet.Field.DisplayName[i].toLowerCase;
+            end;
             setGravity(AVGravity.LEFT);
          end;
 
@@ -515,11 +518,6 @@ end;
 function TCursorDataSet.GetFieldDef: TFieldDef;
 begin
   Result := TFieldDef(FFields.get(FIndex));
-end;
-
-procedure TCursorDataSet.SetFieldAll(Value: TFieldDef);
-begin
-  FFieldAll := Value;
 end;
 
 procedure TCursorDataSet.SetIndex(Value: jint);

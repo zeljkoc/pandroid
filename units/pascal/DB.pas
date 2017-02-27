@@ -263,7 +263,12 @@ begin
          Flayout.addView(TTextView.create(getContext) );
          with TTextView(Flayout.getChildAt(Flayout.getChildCount - 1)) do begin
             Text := FAdapter.CursorDataSet.Field.DisplayName[i];
-            setTypeface(nil, AGTypeface.ITALIC);
+           // setTypeface(nil, AGTypeface.ITALIC);
+            case FAdapter.CursorDataSet.Field.CharCase[i] of
+              eccNormal : Text := FAdapter.CursorDataSet.Field.DisplayName[i];
+              eccLowerCase: Text := FAdapter.CursorDataSet.Field.DisplayName[i].toLowerCase;
+              eccUpperCase: Text := FAdapter.CursorDataSet.Field.DisplayName[i].toUpperCase;
+            end;
             setGravity(AVGravity.LEFT);
          end;
 

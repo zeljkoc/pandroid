@@ -234,7 +234,6 @@ type
 
     FIDRecord: jint;
     FDeletedFieldMessage: JLString;
-
   protected
     function LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
     procedure ItemClickListener (para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
@@ -328,10 +327,7 @@ begin
   FIDRecord := para3;
   FAdapter.CursorDataSet.Index := FIDRecord;
 
-  with FEditDialog do begin
-    ID := id_edit;       //EDIT
-  //  InsertEditForms;
-  //  setView(FEditForms);
+  with FEditDialog do begin //EDIT
     Field := FAdapter.CursorDataSet.Field;
     show;
   end;

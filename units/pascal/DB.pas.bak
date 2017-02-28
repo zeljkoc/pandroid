@@ -311,7 +311,6 @@ var
   i: integer;
 begin
   FAdapter.CursorDataSet.Index := para3;
-  FEditForms.removeAllViews;
 
   FDeletedFieldMessage:=''; // #10#13;
   for i:= 0 to FAdapter.CursorDataSet.Field.FieldCount - 1 do
@@ -354,7 +353,8 @@ begin
     				   end;
     id_edit: if para2 = -1 then begin
                FAdapter.CursorDataSet.Index := FIDRecord;
-               for i:=0 to FEditForms.getChildCount - 1 do
+
+               for i:=0 to FEditDialog.Field.FieldCount - 1 do
                  FAdapter.CursorDataSet.Field.Value[i].AsString :=
                       FEditDialog.Field.Value[i].AsString;
 

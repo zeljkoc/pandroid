@@ -191,7 +191,7 @@ type
     FonChangeTextE: TOnChangeTextEvent;
     procedure GetChangeText(para1: JLObject); overload;
   public
-    constructor create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint); overload;
+    constructor create(para1: ACContext; aFieldDef: TFieldDef; aIndexField: jint); overload;
   public
     property onChangeText: TOnChangeTextEvent read FOnChangeTextE write FOnChangeTextE;
     property Field: TField read FField;
@@ -200,11 +200,26 @@ type
   { TDBTextView }
 
   TDBTextView = class(TTextView)
-    FCursorDataSet: TCursorDataSet;
+    FField: TFieldDef;
     FIndexField: jint;
   public
-    constructor create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint); overload;
+    constructor create(para1: ACContext;  aField: TFieldDef; aIndexField: jint); overload;
     procedure Refresh;
+  end;
+
+  { TDBDialog }
+
+  TDBDialog = class(TDialog)
+    FField: TFieldDef;
+    FEditForms: AWScrollView;
+  protected
+    procedure InsertEditForms;
+  private
+    procedure SetField(Value: TFieldDef);
+  public
+    constructor create(para1: ACContext); overload; override;
+  public
+    property Field: TFieldDef read FField write SetField;
   end;
 
   { TDBGridViewLayout }
@@ -214,14 +229,12 @@ type
     FAdapter: TDataSetAddapter;
     FCursorDataSet: TCursorDataSet;
 
-    FEditDialog: TDialog;
+    FEditDialog: TDBDialog;
     FDeleteDialog: TDialog;
 
     FIDRecord: jint;
     FDeletedFieldMessage: JLString;
 
-    FEditForms: AWScrollView;
-    procedure InsertEditForms;
   protected
     function LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
     procedure ItemClickListener (para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
@@ -239,9 +252,9 @@ type
 
 implementation
 
-{ TDBGridViewLayout }
+{ TDBDialog }
 
-procedure TDBGridViewLayout.InsertEditForms;
+procedure TDBDialog.InsertEditForms;
 var
   i: integer;
   Flayout: AWLinearLayout;
@@ -251,30 +264,47 @@ begin
   Flayout := AWLinearLayout.create(getContext);
   Flayout.setOrientation(AWLinearLayout.VERTICAL);
 
-  for i:=0 to FAdapter.CursorDataSet.Field.FieldCount -1 do begin
-    if FAdapter.CursorDataSet.Field.Visible[i] then begin
+  for i:=0 to FField.FieldCount -1 do begin
+    if FField.Visible[i] then begin
 
          Flayout.addView(TTextView.create(getContext) );
          with TTextView(Flayout.getChildAt(Flayout.getChildCount - 1)) do begin
-            Text := FAdapter.CursorDataSet.Field.DisplayName[i];
+            Text := FField.DisplayName[i];
            // setTypeface(nil, AGTypeface.ITALIC);
-            case FAdapter.CursorDataSet.Field.CharCase[i] of
-              eccNormal : Text := FAdapter.CursorDataSet.Field.DisplayName[i];
-              eccLowerCase: Text := FAdapter.CursorDataSet.Field.DisplayName[i].toLowerCase;
-              eccUpperCase: Text := FAdapter.CursorDataSet.Field.DisplayName[i].toUpperCase;
+            case FField.CharCase[i] of
+              eccNormal : Text := FField.DisplayName[i];
+              eccLowerCase: Text := FField.DisplayName[i].toLowerCase;
+              eccUpperCase: Text := FField.DisplayName[i].toUpperCase;
             end;
             setGravity(AVGravity.LEFT);
          end;
 
-        if FAdapter.CursorDataSet.Field.ReadOnly[i] then
-           Flayout.addView(TDBTextView.create(getContext, FAdapter.CursorDataSet, i) )
+        if FField.ReadOnly[i] then
+           Flayout.addView(TDBTextView.create(getContext, FField, i) )
         else
-           Flayout.addView(TDBEditText.create(getContext, FAdapter.CursorDataSet, i) );
+           Flayout.addView(TDBEditText.create(getContext, FField, i) );
     end;
   end;
 
   FEditForms.addView(Flayout);
+
 end;
+
+procedure TDBDialog.SetField(Value: TFieldDef);
+begin
+  //if FField = Value then Exit;
+  FField := Value;
+  InsertEditForms;
+  setView(FEditForms);
+end;
+
+constructor TDBDialog.create(para1: ACContext);
+begin
+  inherited create(para1);
+  FEditForms:= AWScrollView.create(getContext);
+end;
+
+{ TDBGridViewLayout }
 
 function TDBGridViewLayout.LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
 var
@@ -301,8 +331,9 @@ begin
 
   with FEditDialog do begin
     ID := id_edit;       //EDIT
-    InsertEditForms;
-    setView(FEditForms);
+  //  InsertEditForms;
+  //  setView(FEditForms);
+    Field := FAdapter.CursorDataSet.Field;
     show;
   end;
 end;
@@ -323,11 +354,10 @@ begin
     				   end;
     id_edit: if para2 = -1 then begin
                FAdapter.CursorDataSet.Index := FIDRecord;
-               for i:=0 to FEditForms.getChildCount - 1 do begin
-                 if (FEditForms.getChildAt(0) is TDBEditText) then
-                   FAdapter.CursorDataSet.Field.Value[(FEditForms.getChildAt(0) as TDBEditText).Field.FFieldNo].AsString :=
-                      (FEditForms.getChildAt(0) as TDBEditText).Field.Value.AsString;
-               end;
+               for i:=0 to FEditForms.getChildCount - 1 do
+                 FAdapter.CursorDataSet.Field.Value[i].AsString :=
+                      FEditDialog.Field.Value[i].AsString;
+
                FAdapter.CursorDataSet.Update;
                FAdapter.clear;
                FAdapter.CursorDataSet.Refresh;
@@ -353,41 +383,40 @@ begin
   FDeleteDialog:= TDialog.create(getContext);
   with FDeleteDialog do begin
      ID := id_delete;
-     setTitle(JLString('Delete!!!'));
+     setTitle(JLString('Delete record!!!'));
      AddButton(btPositive, JLString('Yes'));
      AddButton(btNegative, JLString('No'));
      OnClickListener := @onClickDialog;
   end;
 
-  FEditDialog:= TDialog.create(getContext);
+  FEditDialog:= TDBDialog.create(getContext);
   with FEditDialog do begin
     ID := id_edit;
-    setTitle(JLString('Edit field!!!'));
+    setTitle(JLString('Edit data!!!'));
     AddButton(btPositive, JLString('Save'));
     AddButton(btNegative, JLString('Cancel'));
     OnClickListener := @onClickDialog;
   end;
 
-  FEditForms:= AWScrollView.create(getContext);
 end;
 
 
 { TDBTextView }
 
-constructor TDBTextView.create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint);
+constructor TDBTextView.create(para1: ACContext; aField: TFieldDef; aIndexField: jint);
 begin
-  FCursorDataSet := aCursorDataSet;
+  FField := aField;
   FIndexField := aIndexField;
   inherited Create(para1);
-  if FCursorDataSet.Count > 0 Then
-    Text := FCursorDataSet.Field.Value[FIndexField].AsString
+  if FField.size > 0 Then
+    Text := FField.Value[FIndexField].AsString
   else Text := JLstring('');
 end;
 
 procedure TDBTextView.Refresh;
 begin
-  if FCursorDataSet.Count > 0 Then
-    Text := FCursorDataSet.Field.Value[FIndexField].AsString
+  if FField.size > 0 Then
+    Text := FField.Value[FIndexField].AsString
   else Text := JLstring('');
 end;
 
@@ -422,43 +451,29 @@ end;
 
 procedure TDBEditText.GetChangeText(para1: JLObject);
 begin
-     if not TestInputType(Text.toString, FField.DataType) then Text := FField.Value.AsString
-
-     else FField.Value.AsString := Text.toString;
-{   if editable.length <> 0 then begin
-    try
-      if not isInputTest(editable.toString, fDataType) then editable.replace(0, editable.length(), fBeforeValue);
-      if not ZCfield(fFields.get(fCurrentField)).fReadOnly then begin
-        ZCfield(fFields.get(fCurrentField)).fValue := editable.toString;
-        if (ZCfield(fFields.get(fCurrentField)).fValue <> ZCfield(fFields.get(fCurrentField)).fOldValue) then  ZCfield(fFields.get(fCurrentField)).fChange:= True;
-      end;
-    except
-       editable.replace(0, editable.length(), JLString(''));
-    end;
-  end; }
-
-
+  if not TestInputType(Text.toString, FField.DataType) then Text := FField.Value.AsString
+  else if not FField.ReadOnly then  FField.Value.AsString := Text.toString;
 
   FField.Change := FField.Value.AsString <> FField.OldValue.AsString;
   if Assigned(FOnChangeTextE) then FOnChangeTextE(self);
 end;
 
-constructor TDBEditText.create(para1: ACContext; aCursorDataSet: TCursorDataSet; aIndexField: jint);
+constructor TDBEditText.create(para1: ACContext; aFieldDef: TFieldDef; aIndexField: jint);
 begin
   FField := TField.create;
   inherited Create(para1);
 
-  if aCursorDataSet.Field.size > 0 Then begin
-     FField.FieldNo := aCursorDataSet.Field.FieldNo[aIndexField];
-     FField.DataType := aCursorDataSet.Field.DataType[aIndexField];
-     FField.ReadOnly := aCursorDataSet.Field.ReadOnly[aIndexField];
-     FField.Visible := aCursorDataSet.Field.Visible[aIndexField];
-     FField.Value := aCursorDataSet.Field.Value[aIndexField];
-     FField.OldValue := aCursorDataSet.Field.OldValue[aIndexField];
-     FField.Name := aCursorDataSet.Field.Name[aIndexField];
-     FField.DisplayName := aCursorDataSet.Field.DisplayName[aIndexField];
-     FField.Change := aCursorDataSet.Field.Change[aIndexField];
-     FField.CharCase := aCursorDataSet.Field.CharCase[aIndexField];
+  if aFieldDef.size > 0 Then begin
+     FField.FieldNo := aFieldDef.FieldNo[aIndexField];
+     FField.DataType := aFieldDef.DataType[aIndexField];
+     FField.ReadOnly := aFieldDef.ReadOnly[aIndexField];
+     FField.Visible := aFieldDef.Visible[aIndexField];
+     FField.Value := aFieldDef.Value[aIndexField];
+     FField.OldValue := aFieldDef.OldValue[aIndexField];
+     FField.Name := aFieldDef.Name[aIndexField];
+     FField.DisplayName := aFieldDef.DisplayName[aIndexField];
+     FField.Change := aFieldDef.Change[aIndexField];
+     FField.CharCase := aFieldDef.CharCase[aIndexField];
      //  FField.PrimaryKey := aCursorDataSet.Field.PrimaryKey[aIndexField];
 
      Text := FField.Value.AsString ;

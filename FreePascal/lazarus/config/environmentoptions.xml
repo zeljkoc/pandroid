@@ -67,8 +67,8 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item1 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item2 Value="/usr/local/pandroid/units/androidr15.pas"/>
         <Item3 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
         <Item4 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
         <Item5 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>

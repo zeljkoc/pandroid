@@ -134,7 +134,7 @@ type
      procedure ReadFieldDefType;
      procedure DefineCursor(Value: ADCursor);
   protected
-     procedure ExecuteSQLDataBase(SQLNew: JLString);
+     procedure ExecuteSQLDataBase(SQLNew: JLString; aFieldDef: TFieldDef);
   private
     function GetFieldDef: TFieldDef;
     procedure SetIndex(Value: jint);
@@ -148,7 +148,7 @@ type
     procedure First;
     procedure Refresh;
 
-    procedure Insert;
+    procedure Insert(aFieldDef: TFieldDef);
     procedure Delete;
     procedure Update;
    public
@@ -242,11 +242,11 @@ type
     const
        id_delete = 1;
        id_edit = 2;
+       id_Insert = 3;
   public
     constructor create(para1: ACContext; aDataBase: TDataBase); overload;
   public
     property Adapter: TDataSetAddapter read FAdapter;
-
   end;
 
 implementation
@@ -328,6 +328,7 @@ begin
   FAdapter.CursorDataSet.Index := FIDRecord;
 
   with FEditDialog do begin //EDIT
+    ID := id_edit;
     Field := FAdapter.CursorDataSet.Field;
     show;
   end;
@@ -375,7 +376,6 @@ begin
   onItemLongClickListener := @LongItemClick;
   onItemClickListener := @ItemClickListener;
 
-
   FDeleteDialog:= TDialog.create(getContext);
   with FDeleteDialog do begin
      ID := id_delete;
@@ -387,7 +387,6 @@ begin
 
   FEditDialog:= TDBDialog.create(getContext);
   with FEditDialog do begin
-    ID := id_edit;
     setTitle(JLString('Edit data!!!'));
     AddButton(btPositive, JLString('Save'));
     AddButton(btNegative, JLString('Cancel'));
@@ -603,18 +602,17 @@ begin
   FCount := FFields.size;
 end;
 
-procedure TCursorDataSet.ExecuteSQLDataBase(SQLNew: JLString);
+procedure TCursorDataSet.ExecuteSQLDataBase(SQLNew: JLString; aFieldDef: TFieldDef);
 var
   i: integer;
   TempSQL: JLString;
 begin
-  if ATTextUtils.isEmpty(SQLNew) or (FFields.size < 1) then  Exit;
+  if ATTextUtils.isEmpty(SQLNew) or (aFieldDef.FieldCount < 1) then  Exit;
   TempSQL := SQLNew.toString;
 
-  for i:=0 to TFieldDef(FFields.get(FIndex)).FieldCount - 1 do
-    TempSQL :=
-      TempSQL.replaceAll(JLString(string(':')).concat(TFieldDef(FFields.get(FIndex)).Name[i]).toString,
-                JLString.format('''%s''' , [TFieldDef(FFields.get(FIndex)).Value[i].AsString ]).toString );
+  for i:=0 to  aFieldDef.FieldCount - 1 do
+     TempSQL := TempSQL.replaceAll(JLString(string(':')).concat(aFieldDef.Name[i]).toString,
+                JLString.format('''%s''' , [aFieldDef.Value[i].AsString ]).toString );
 
   FDatabase.execSQL(TempSQL);
   Refresh;
@@ -673,25 +671,24 @@ begin
   FIndex := i;
 end;
 
-procedure TCursorDataSet.Insert;
+procedure TCursorDataSet.Insert(aFieldDef: TFieldDef);
 begin
-  //insert find and replace FSQLInsert and
-  if ATTextUtils.isEmpty(FSQLInsert) then Exit;
-  FDatabase.execSQL(FSQLInsert);
-  Refresh;
+   //Insert
+  ExecuteSQLDataBase(FSQLInsert, aFieldDef);
 end;
 
 procedure TCursorDataSet.Delete;
 begin
   //Delete
-  ExecuteSQLDataBase(FSQLDelete);
+  ExecuteSQLDataBase(FSQLDelete, TFieldDef(FFields.get(FIndex)));
 end;
 
 procedure TCursorDataSet.Update;
 begin
   //Update
-  ExecuteSQLDataBase(FSQLUpdate);
+  ExecuteSQLDataBase(FSQLUpdate, TFieldDef(FFields.get(FIndex)));
 end;
+
 
 { TValue }
 

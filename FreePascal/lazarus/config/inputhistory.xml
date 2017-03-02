@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="DialogFragment"/>
-          <Item2 Value="showErrorDialog"/>
-          <Item3 Value="Toast ="/>
-          <Item4 Value="Child"/>
-          <Item5 Value="BUTTON_NEGATIVE"/>
-          <Item6 Value="AlertDialog.BUTTON_NEGATIVE"/>
-          <Item7 Value="FreeNotifies"/>
-          <Item8 Value="DisposeOf"/>
-          <Item9 Value="Component ="/>
-          <Item10 Value="ResultSet "/>
-          <Item11 Value="tablename"/>
-          <Item12 Value="ResultSetMetaData"/>
-          <Item13 Value="FEditForms"/>
-          <Item14 Value="Gravity ="/>
-          <Item15 Value="ATTextUtils"/>
-          <Item16 Value="ADSSQLiteDatabase ="/>
-          <Item17 Value="ADSSQLiteOpenHelper ="/>
-          <Item18 Value="TextUtils ="/>
-          <Item19 Value="isnull"/>
-          <Item20 Value="compileStatement"/>
+          <Item1 Value="CitanjeBaze"/>
+          <Item2 Value="DialogFragment"/>
+          <Item3 Value="showErrorDialog"/>
+          <Item4 Value="Toast ="/>
+          <Item5 Value="Child"/>
+          <Item6 Value="BUTTON_NEGATIVE"/>
+          <Item7 Value="AlertDialog.BUTTON_NEGATIVE"/>
+          <Item8 Value="FreeNotifies"/>
+          <Item9 Value="DisposeOf"/>
+          <Item10 Value="Component ="/>
+          <Item11 Value="ResultSet "/>
+          <Item12 Value="tablename"/>
+          <Item13 Value="ResultSetMetaData"/>
+          <Item14 Value="FEditForms"/>
+          <Item15 Value="Gravity ="/>
+          <Item16 Value="ATTextUtils"/>
+          <Item17 Value="ADSSQLiteDatabase ="/>
+          <Item18 Value="ADSSQLiteOpenHelper ="/>
+          <Item19 Value="TextUtils ="/>
+          <Item20 Value="isnull"/>
         </Find>
       </History>
     </Find>

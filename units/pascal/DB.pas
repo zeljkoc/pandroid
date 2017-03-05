@@ -418,6 +418,7 @@ begin
 
   with FEditDialog do begin //EDIT
     ID := id_edit;
+    setTitle(JLString('Edit data!!!'));
     Field := FAdapter.CursorDataSet.Field;
     show;
   end;
@@ -427,8 +428,9 @@ procedure TDBGridViewLayout.onClickDialog(para1: ACDialogInterface; para2: jint)
 var
   i: integer;
 begin
+  if para2 = -1 then
   case TDialog(para1).ID of
-    id_delete: if para2 = -1 then begin
+    id_delete: begin
                  FAdapter.CursorDataSet.Delete;
                  FAdapter.clear;
                  FAdapter.CursorDataSet.Refresh;
@@ -437,7 +439,7 @@ begin
                                   JLString('Deleted: ').concat(#10#13).concat(FDeletedFieldMessage.toString),
                                   AWToast.LENGTH_LONG).show;
     				   end;
-    id_edit: if para2 = -1 then begin
+    id_edit: begin
                FAdapter.CursorDataSet.Index := FIDRecord;
 
                FAdapter.CursorDataSet.Update(FEditDialog.Field);
@@ -446,7 +448,7 @@ begin
                FIDRecord := FAdapter.CursorDataSet.Index;
                AWToast.makeText(getContext, JLString('Save: '), AWToast.LENGTH_SHORT).show;
     					end;
-     id_insert: begin
+     id_insert:  begin
                  FAdapter.CursorDataSet.Insert(FEditDialog.Field);
                  FAdapter.clear;
                  FAdapter.CursorDataSet.Refresh;
@@ -479,7 +481,6 @@ begin
 
   FEditDialog:= TDBDialog.create(getContext);
   with FEditDialog do begin
-    setTitle(JLString('Edit data!!!'));
     AddButton(btPositive, JLString('Save'));
     AddButton(btNegative, JLString('Cancel'));
     OnClickListener := @onClickDialog;

@@ -277,7 +277,7 @@ implementation
 procedure TDBFindDialog.ItemClickListener(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
 begin
   FAdapter.CursorDataSet.Index := para3;
-  onClick(para1, para3);
+  onClick(Self, para3);
   dismiss;
 end;
 
@@ -418,6 +418,7 @@ begin
 
   with FEditDialog do begin //EDIT
     ID := id_edit;
+    setTitle(JLString('Edit data!!!'));
     Field := FAdapter.CursorDataSet.Field;
     show;
   end;
@@ -446,7 +447,7 @@ begin
                FIDRecord := FAdapter.CursorDataSet.Index;
                AWToast.makeText(getContext, JLString('Save: '), AWToast.LENGTH_SHORT).show;
     					end;
-     id_insert: begin
+     id_insert: if para2 = -1 then begin
                  FAdapter.CursorDataSet.Insert(FEditDialog.Field);
                  FAdapter.clear;
                  FAdapter.CursorDataSet.Refresh;
@@ -479,7 +480,6 @@ begin
 
   FEditDialog:= TDBDialog.create(getContext);
   with FEditDialog do begin
-    setTitle(JLString('Edit data!!!'));
     AddButton(btPositive, JLString('Save'));
     AddButton(btNegative, JLString('Cancel'));
     OnClickListener := @onClickDialog;

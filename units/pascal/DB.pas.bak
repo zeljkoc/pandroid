@@ -150,7 +150,7 @@ type
 
     procedure Insert(aFieldDef: TFieldDef);
     procedure Delete;
-    procedure Update;
+    procedure Update(aFieldDef: TFieldDef);
    public
     property DataBase: TDataBase read FDataBase write FDataBase;
     property SQLSelect: JLString write SetSelect;
@@ -242,8 +242,10 @@ type
     const
        id_delete = 1;
        id_edit = 2;
+       id_insert = 3;
   public
     constructor create(para1: ACContext; aDataBase: TDataBase); overload;
+    procedure InsertDialog(aField: TFieldDef);
   public
     property Adapter: TDataSetAddapter read FAdapter;
   end;
@@ -275,7 +277,8 @@ implementation
 procedure TDBFindDialog.ItemClickListener(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
 begin
   FAdapter.CursorDataSet.Index := para3;
-  onClick(self, para3);
+  onClick(para1, para3);
+  dismiss;
 end;
 
 procedure TDBFindDialog.onClickDialog(para1: ACDialogInterface; para2: jint);
@@ -437,16 +440,19 @@ begin
     id_edit: if para2 = -1 then begin
                FAdapter.CursorDataSet.Index := FIDRecord;
 
-               for i:=0 to FEditDialog.Field.FieldCount - 1 do
-                 FAdapter.CursorDataSet.Field.Value[i].AsString :=
-                      FEditDialog.Field.Value[i].AsString;
-
-               FAdapter.CursorDataSet.Update;
+               FAdapter.CursorDataSet.Update(FEditDialog.Field);
                FAdapter.clear;
                FAdapter.CursorDataSet.Refresh;
                FIDRecord := FAdapter.CursorDataSet.Index;
                AWToast.makeText(getContext, JLString('Save: '), AWToast.LENGTH_SHORT).show;
     					end;
+     id_insert: begin
+                 FAdapter.CursorDataSet.Insert(FEditDialog.Field);
+                 FAdapter.clear;
+                 FAdapter.CursorDataSet.Refresh;
+                 FIDRecord := FAdapter.CursorDataSet.Index;
+                 AWToast.makeText(getContext, JLString('Insert: '), AWToast.LENGTH_SHORT).show;
+              end;
   end;
 end;
 
@@ -477,6 +483,17 @@ begin
     AddButton(btPositive, JLString('Save'));
     AddButton(btNegative, JLString('Cancel'));
     OnClickListener := @onClickDialog;
+  end;
+
+end;
+
+procedure TDBGridViewLayout.InsertDialog(aField: TFieldDef);
+begin
+  with FEditDialog do begin
+    id := id_insert;
+    setTitle(JLString('Insert data!!!'));
+    Field := aField;
+    show;
   end;
 
 end;
@@ -769,10 +786,10 @@ begin
   ExecuteSQLDataBase(FSQLDelete, TFieldDef(FFields.get(FIndex)));
 end;
 
-procedure TCursorDataSet.Update;
+procedure TCursorDataSet.Update(aFieldDef: TFieldDef);
 begin
   //Update
-  ExecuteSQLDataBase(FSQLUpdate, TFieldDef(FFields.get(FIndex)));
+  ExecuteSQLDataBase(FSQLUpdate, aFieldDef); // TFieldDef(FFields.get(FIndex)));
 end;
 
 

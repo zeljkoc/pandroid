@@ -122,14 +122,12 @@ type
     FGridView: AWGridView;
     FItemLongClick: TonItemLongClickEvent;
     FItemClick: TonItemClickEvent;
-    FTopPanel: AWLinearLayout;
     function onItemLongClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean; overload;
     procedure onItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong); overload;
   public
     constructor create(para1: ACContext); virtual; overload;
   public
     property GridView: AWGridView read FGridView;
-    property TopPanel: AWLinearLayout read FTopPanel;
     property onItemLongClickListener: TonItemLongClickEvent read FItemLongClick write FItemLongClick;
     property onItemClickListener: TonItemClickEvent read FItemClick write FItemClick;
   end;
@@ -153,15 +151,10 @@ end;
 constructor TGridViewLayout.create(para1: ACContext);
 begin
   inherited Create(para1);
-   FTopPanel:= AWLinearLayout.create(getContext);
-   FTopPanel.setOrientation(AWLinearLayout.VERTICAL);
-
-
   FGridView:= AWGridView.create(para1);
   FGridView.setOnItemLongClickListener(self);
   FGridView.setOnItemClickListener(Self);
  addView(FGridView);
- addView(FTopPanel);
 end;
 
 { TTextView }

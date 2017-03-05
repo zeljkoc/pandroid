@@ -242,14 +242,101 @@ type
     const
        id_delete = 1;
        id_edit = 2;
-       id_Insert = 3;
   public
     constructor create(para1: ACContext; aDataBase: TDataBase); overload;
   public
     property Adapter: TDataSetAddapter read FAdapter;
   end;
 
+  { TDBFindDialog }
+
+  TDBFindDialog = class(TDialog)
+    FEditText: TEditText;
+    FSQLSelect: JLString;
+    FGridViewLayout: TGridViewLayout;
+    FAdapter: TDataSetAddapter;
+    FLookupResultField: JLString;
+    FWhere: JLString;
+  protected
+    procedure ItemClickListener (para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
+    procedure onClickDialog (para1: ACDialogInterface; para2: jint);
+    procedure ChangeText(para1: JLObject);
+  public
+    constructor create(para1: ACContext; aDataBase: TDataBase; aSQL: JLString; aLookupResultField: JLString; aTable: JLString; aWhere : JLstring = string('')); overload;
+    procedure show; overload; override;
+  public
+    property Adapter: TDataSetAddapter read FAdapter;
+  end;
+
 implementation
+
+{ TDBFindDialog }
+
+procedure TDBFindDialog.ItemClickListener(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
+begin
+  FAdapter.CursorDataSet.Index := para3;
+  inherited OnClick(Self, Self.ID);
+  dismiss;
+end;
+
+procedure TDBFindDialog.onClickDialog(para1: ACDialogInterface; para2: jint);
+begin
+
+end;
+
+procedure TDBFindDialog.ChangeText(para1: JLObject);
+begin
+   FAdapter.CursorDataSet.SQLSelect :=  JLString(FSQLSelect).concat(JLString(' where ').concat(FWhere).concat(' ( UPPER(').concat(FLookupResultField).concat(') like ''')).concat(FEditText.Text.toString.toUpperCase).concat(JLString('%'' ) ')).
+                                          concat(' order by ').concat(FLookupResultField).concat(' ASC LIMIT 50');
+
+  FAdapter.CursorDataSet.Refresh;
+  FGridViewLayout.GridView.setAdapter(FAdapter);
+end;
+
+
+constructor TDBFindDialog.create(para1: ACContext; aDataBase: TDataBase; aSQL: JLString; aLookupResultField: JLString; aTable: JLString; aWhere: JLstring);
+var
+  layout: AWLinearLayout;
+  cds: TCursorDataSet;
+begin
+  inherited create(para1);
+  FSQLSelect := aSQL;
+  FLookupResultField := aLookupResultField;
+  FWhere := aWhere;
+
+  layout:= AWLinearLayout.Create(getContext);
+  layout.setOrientation(AWLinearLayout.VERTICAL);
+
+     FEditText:= TEditText.create(getContext);
+     FEditText.setInputType(ATInputType.TYPE_TEXT_FLAG_CAP_CHARACTERS);
+     FEditText.setFocusableInTouchMode(true);
+     FEditText.onChangeText := @ChangeText;
+    layout.addView(FEditText);
+
+     cds:= TCursorDataSet.create;
+     cds.DataBase := aDataBase;
+     cds.SQLSelect := FSQLSelect.concat(' LIMIT 50 ');
+     cds.TableName := aTable;
+
+    FAdapter:= TDataSetAddapter.create(getContext, AR.innerLayout.simple_list_item_1, cds);
+
+     FGridViewLayout:= TGridViewLayout.create(getContext);
+     FGridViewLayout.GridView.setAdapter(FAdapter);
+     FGridViewLayout.onItemClickListener := @ItemClickListener;
+    layout.addView(FGridViewLayout);
+
+   setView(layout);
+   AddButton(btPositive, JLString('<<'));
+end;
+
+procedure TDBFindDialog.show;
+begin
+  FEditText.Text := JLString('');
+
+  FAdapter.CursorDataSet.Refresh;
+  inherited show;
+  getWindow.setSoftInputMode(AVWindowManager.InnerLayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
+end;
 
 { TDBDialog }
 

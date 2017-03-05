@@ -275,8 +275,7 @@ implementation
 procedure TDBFindDialog.ItemClickListener(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
 begin
   FAdapter.CursorDataSet.Index := para3;
-  inherited OnClick(Self, Self.ID);
-  dismiss;
+  onClick(self, para3);
 end;
 
 procedure TDBFindDialog.onClickDialog(para1: ACDialogInterface; para2: jint);

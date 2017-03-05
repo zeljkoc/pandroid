@@ -149,7 +149,7 @@ type
     procedure Refresh;
 
     procedure Insert(aFieldDef: TFieldDef);
-    procedure Delete;
+    procedure Delete(aFieldDef: TFieldDef);
     procedure Update(aFieldDef: TFieldDef);
    public
     property DataBase: TDataBase read FDataBase write FDataBase;
@@ -429,33 +429,33 @@ var
   i: integer;
 begin
   if para2 = -1 then
-  case TDialog(para1).ID of
-    id_delete: begin
-                 FAdapter.CursorDataSet.Delete;
-                 FAdapter.clear;
-                 FAdapter.CursorDataSet.Refresh;
-                 FIDRecord := FAdapter.CursorDataSet.Index;
-                 AWToast.makeText(getContext,
-                                  JLString('Deleted: ').concat(#10#13).concat(FDeletedFieldMessage.toString),
-                                  AWToast.LENGTH_LONG).show;
-    				   end;
-    id_edit: begin
-               FAdapter.CursorDataSet.Index := FIDRecord;
+      case TDialog(para1).ID of
+        id_delete: begin
+                     FAdapter.CursorDataSet.Delete(FAdapter.CursorDataSet.Field);
+                     FAdapter.clear;
+                     FAdapter.CursorDataSet.Refresh;
+                     FIDRecord := FAdapter.CursorDataSet.Index;
+                     AWToast.makeText(getContext,
+                                      JLString('Deleted: ').concat(#10#13).concat(FDeletedFieldMessage.toString),
+                                      AWToast.LENGTH_LONG).show;
+    				       end;
+        id_edit: begin
+                   FAdapter.CursorDataSet.Index := FIDRecord;
 
-               FAdapter.CursorDataSet.Update(FEditDialog.Field);
-               FAdapter.clear;
-               FAdapter.CursorDataSet.Refresh;
-               FIDRecord := FAdapter.CursorDataSet.Index;
-               AWToast.makeText(getContext, JLString('Save: '), AWToast.LENGTH_SHORT).show;
-    					end;
-     id_insert:  begin
-                 FAdapter.CursorDataSet.Insert(FEditDialog.Field);
-                 FAdapter.clear;
-                 FAdapter.CursorDataSet.Refresh;
-                 FIDRecord := FAdapter.CursorDataSet.Index;
-                 AWToast.makeText(getContext, JLString('Insert: '), AWToast.LENGTH_SHORT).show;
-              end;
-  end;
+                   FAdapter.CursorDataSet.Update(FEditDialog.Field);
+                   FAdapter.clear;
+                   FAdapter.CursorDataSet.Refresh;
+                   FIDRecord := FAdapter.CursorDataSet.Index;
+                   AWToast.makeText(getContext, JLString('Save: '), AWToast.LENGTH_SHORT).show;
+    					    end;
+         id_insert:  begin
+                     FAdapter.CursorDataSet.Insert(FEditDialog.Field);
+                     FAdapter.clear;
+                     FAdapter.CursorDataSet.Refresh;
+                     FIDRecord := FAdapter.CursorDataSet.Index;
+                     AWToast.makeText(getContext, JLString('Insert: '), AWToast.LENGTH_SHORT).show;
+                  end;
+      end;
 end;
 
 constructor TDBGridViewLayout.create(para1: ACContext; aDataBase: TDataBase);
@@ -781,10 +781,10 @@ begin
   ExecuteSQLDataBase(FSQLInsert, aFieldDef);
 end;
 
-procedure TCursorDataSet.Delete;
+procedure TCursorDataSet.Delete(aFieldDef: TFieldDef);
 begin
   //Delete
-  ExecuteSQLDataBase(FSQLDelete, TFieldDef(FFields.get(FIndex)));
+  ExecuteSQLDataBase(FSQLDelete, aFieldDef); // TFieldDef(FFields.get(FIndex)));
 end;
 
 procedure TCursorDataSet.Update(aFieldDef: TFieldDef);

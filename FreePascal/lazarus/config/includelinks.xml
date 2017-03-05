@@ -2,7 +2,7 @@
 <CONFIG>
   <IncludeLinks Version="2" ExpirationTimeInDays="365" Data="20170305
 0:/Zeljus/Android/Projekti/Kasa/PandroidModule.inc
-45:pas;17
+45:pas;0
 25:Reciklaza/zcfbclient.inc
 46:pas;19
 1:home/android/Cordova01/cordova.inc

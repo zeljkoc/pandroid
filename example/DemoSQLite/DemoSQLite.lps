@@ -3,13 +3,13 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="8">
+    <Units Count="7">
       <Unit0>
         <Filename Value="DemoSQLite.lpr"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="32"/>
         <CursorPos X="34" Y="49"/>
-        <UsageCount Value="111"/>
+        <UsageCount Value="130"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -17,14 +17,14 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="5"/>
         <CursorPos X="42" Y="16"/>
-        <UsageCount Value="111"/>
+        <UsageCount Value="130"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="android/build_debug_apk.sh"/>
         <EditorIndex Value="4"/>
         <CursorPos X="47" Y="4"/>
-        <UsageCount Value="54"/>
+        <UsageCount Value="63"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit2>
@@ -33,40 +33,33 @@
         <EditorIndex Value="1"/>
         <TopLine Value="216"/>
         <CursorPos X="4" Y="267"/>
-        <UsageCount Value="54"/>
+        <UsageCount Value="63"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
-        <Filename Value="../../units/androidr15.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="45187"/>
-        <CursorPos X="3" Y="45206"/>
-        <UsageCount Value="1"/>
-      </Unit4>
-      <Unit5>
         <Filename Value="../../units/ADBDataBase.pas"/>
         <EditorIndex Value="3"/>
         <TopLine Value="133"/>
         <CursorPos X="43" Y="156"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
-      </Unit5>
-      <Unit6>
+      </Unit4>
+      <Unit5>
         <Filename Value="../../units/AZCDialogs.pas"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="240"/>
-        <CursorPos X="17" Y="270"/>
-        <UsageCount Value="53"/>
+        <TopLine Value="400"/>
+        <CursorPos X="40" Y="430"/>
+        <UsageCount Value="62"/>
         <Loaded Value="True"/>
-      </Unit6>
-      <Unit7>
+      </Unit5>
+      <Unit6>
         <Filename Value="../../units/AZCAdapters.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="67"/>
         <CursorPos X="4" Y="89"/>
-        <UsageCount Value="5"/>
-      </Unit7>
+        <UsageCount Value="3"/>
+      </Unit6>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>

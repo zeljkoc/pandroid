@@ -280,7 +280,7 @@ end;
 
 procedure TDBFindDialog.onClickDialog(para1: ACDialogInterface; para2: jint);
 begin
-   // inherited OnClick(para1,  para2);
+
 end;
 
 procedure TDBFindDialog.ChangeText(para1: JLObject);

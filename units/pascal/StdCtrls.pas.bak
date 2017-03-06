@@ -149,11 +149,17 @@ begin
 end;
 
 constructor TGridViewLayout.create(para1: ACContext);
+var
+  sage: AGDColorDrawable;
 begin
   inherited Create(para1);
   FGridView:= AWGridView.create(para1);
   FGridView.setOnItemLongClickListener(self);
   FGridView.setOnItemClickListener(Self);
+
+  sage:= AGDColorDrawable.create(getContext);
+  setDivider(sage);
+  setDividerHeight(1);
  addView(FGridView);
 end;
 

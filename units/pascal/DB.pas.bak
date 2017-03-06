@@ -431,7 +431,7 @@ begin
   if para2 = -1 then
       case TDialog(para1).ID of
         id_delete: begin
-                     FAdapter.CursorDataSet.Delete;
+                     FAdapter.CursorDataSet.Delete(FAdapter.CursorDataSet.Field);
                      FAdapter.clear;
                      FAdapter.CursorDataSet.Refresh;
                      FIDRecord := FAdapter.CursorDataSet.Index;

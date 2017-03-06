@@ -234,6 +234,7 @@ type
 
     FIDRecord: jint;
     FDeletedFieldMessage: JLString;
+    FReadOnly: jBoolean;
   protected
     function LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
     procedure ItemClickListener (para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
@@ -248,6 +249,7 @@ type
     procedure InsertDialog(aField: TFieldDef);
   public
     property Adapter: TDataSetAddapter read FAdapter;
+    property ReadOnly: jboolean read FReadOnly write FReadOnly;
   end;
 
   { TDBFindDialog }
@@ -398,29 +400,33 @@ function TDBGridViewLayout.LongItemClick(para1: AWAdapterView; para2: AVView; pa
 var
   i: integer;
 begin
-  FAdapter.CursorDataSet.Index := para3;
+  if not FReadOnly then begin
+      FAdapter.CursorDataSet.Index := para3;
 
-  FDeletedFieldMessage:=''; // #10#13;
-  for i:= 0 to FAdapter.CursorDataSet.Field.FieldCount - 1 do
-     FDeletedFieldMessage := FDeletedFieldMessage.concat(FAdapter.CursorDataSet.Field.Value[i].AsString).concat(#10#13);
+      FDeletedFieldMessage:=''; // #10#13;
+      for i:= 0 to FAdapter.CursorDataSet.Field.FieldCount - 1 do
+         FDeletedFieldMessage := FDeletedFieldMessage.concat(FAdapter.CursorDataSet.Field.Value[i].AsString).concat(#10#13);
 
-  with FDeleteDialog do begin //DELETE
-    setMessage(FDeletedFieldMessage.concat(#10#13).concat('Are you sure?') );
-    show;
+      with FDeleteDialog do begin //DELETE
+        setMessage(FDeletedFieldMessage.concat(#10#13).concat('Are you sure?') );
+        show;
+      end;
   end;
   Result := true;
 end;
 
 procedure TDBGridViewLayout.ItemClickListener(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
 begin
-  FIDRecord := para3;
-  FAdapter.CursorDataSet.Index := FIDRecord;
+  if not FReadOnly then begin
+      FIDRecord := para3;
+      FAdapter.CursorDataSet.Index := FIDRecord;
 
-  with FEditDialog do begin //EDIT
-    ID := id_edit;
-    setTitle(JLString('Edit data!!!'));
-    Field := FAdapter.CursorDataSet.Field;
-    show;
+      with FEditDialog do begin //EDIT
+        ID := id_edit;
+        setTitle(JLString('Edit data!!!'));
+        Field := FAdapter.CursorDataSet.Field;
+        show;
+      end;
   end;
 end;
 
@@ -463,6 +469,7 @@ begin
   inherited create(para1);
   FCursorDataSet:= TCursorDataSet.create;
   FCursorDataSet.DataBase := aDataBase;
+  FReadOnly := false;
 
   FAdapter := TDataSetAddapter.create(getContext, AR.innerLayout.simple_list_item_1, FCursorDataSet);
   GridView.setAdapter(FAdapter);

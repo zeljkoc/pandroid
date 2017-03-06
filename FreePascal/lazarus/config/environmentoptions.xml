@@ -68,15 +68,15 @@
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
         <Item1 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
-        <Item4 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
-        <Item6 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item7 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/TransferData.pas"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
-        <Item9 Value="/usr/local/pandroid/Lazarus/jni/JNIUtils.pas"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/gtk2/gtk2cellrenderer.pas"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/fSifrarnici.pas"/>
+        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
+        <Item5 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
+        <Item7 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
+        <Item8 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/TransferData.pas"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
+        <Item10 Value="/usr/local/pandroid/Lazarus/jni/JNIUtils.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>

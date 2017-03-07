@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="Typeface ="/>
-          <Item2 Value="canvas ="/>
-          <Item3 Value="ColorDrawable ="/>
-          <Item4 Value="WindowManager ="/>
-          <Item5 Value="CitanjeBaze"/>
-          <Item6 Value="DialogFragment"/>
-          <Item7 Value="showErrorDialog"/>
-          <Item8 Value="Toast ="/>
-          <Item9 Value="Child"/>
-          <Item10 Value="BUTTON_NEGATIVE"/>
-          <Item11 Value="AlertDialog.BUTTON_NEGATIVE"/>
-          <Item12 Value="FreeNotifies"/>
-          <Item13 Value="DisposeOf"/>
-          <Item14 Value="Component ="/>
-          <Item15 Value="ResultSet "/>
-          <Item16 Value="tablename"/>
-          <Item17 Value="ResultSetMetaData"/>
-          <Item18 Value="FEditForms"/>
-          <Item19 Value="Gravity ="/>
-          <Item20 Value="ATTextUtils"/>
+          <Item1 Value="WindowManager ="/>
+          <Item2 Value="CitanjeBaze"/>
+          <Item3 Value="DialogFragment"/>
+          <Item4 Value="showErrorDialog"/>
+          <Item5 Value="Toast ="/>
+          <Item6 Value="Child"/>
+          <Item7 Value="BUTTON_NEGATIVE"/>
+          <Item8 Value="AlertDialog.BUTTON_NEGATIVE"/>
+          <Item9 Value="FreeNotifies"/>
+          <Item10 Value="DisposeOf"/>
+          <Item11 Value="Component ="/>
+          <Item12 Value="ResultSet "/>
+          <Item13 Value="tablename"/>
+          <Item14 Value="ResultSetMetaData"/>
+          <Item15 Value="FEditForms"/>
+          <Item16 Value="Gravity ="/>
+          <Item17 Value="ATTextUtils"/>
+          <Item18 Value="ADSSQLiteDatabase ="/>
+          <Item19 Value="ADSSQLiteOpenHelper ="/>
+          <Item20 Value="TextUtils ="/>
         </Find>
       </History>
     </Find>
@@ -44,11 +44,11 @@
     <FileDialog Width="1129" Height="725" InitialDir="/Zeljus/Android/Projekti/Kasa/">
       <HistoryList Count="20">
         <Item1 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item2 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item5 Value="/home/android/Demo/Dialog2/"/>
-        <Item6 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item3 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item6 Value="/home/android/Demo/Dialog2/"/>
         <Item7 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/"/>
         <Item8 Value="/home/android/Demo/Test001/pascalsrc/jni/"/>
         <Item9 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/"/>

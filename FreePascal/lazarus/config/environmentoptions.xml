@@ -67,8 +67,8 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/fSifrarnici.pas"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Kasa/fSifrarnici.pas"/>
+        <Item2 Value="/usr/local/pandroid/units/androidr15.pas"/>
         <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
         <Item4 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
         <Item5 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
@@ -80,10 +80,10 @@
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
-        <Item2 Value="/usr/local/pandroid/example/DemoSQLite/DemoSQLite.lpi"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item5 Value="/home/android/Demo/Dialog2/Dialog2.lpi"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
+        <Item3 Value="/usr/local/pandroid/example/DemoSQLite/DemoSQLite.lpi"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

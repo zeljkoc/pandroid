@@ -247,6 +247,7 @@ type
   public
     constructor create(para1: ACContext; aDataBase: TDataBase); overload;
     procedure InsertDialog(aField: TFieldDef);
+    procedure Refresh;
   public
     property Adapter: TDataSetAddapter read FAdapter;
     property ReadOnly: jboolean read FReadOnly write FReadOnly;
@@ -504,6 +505,12 @@ begin
     show;
   end;
 
+end;
+
+procedure TDBGridViewLayout.Refresh;
+begin
+  FAdapter.CursorDataSet.Refresh;
+  GridView.setAdapter(FAdapter);
 end;
 
 

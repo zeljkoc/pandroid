@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/Zeljus/Android/Projekti/Kasa/Kasa.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/Zeljus/Android/Projekti/Kasa/fSifrarnici.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item3 Value="/usr/local/pandroid/units/androidr15.inc"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
-        <Item5 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
-        <Item6 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
-        <Item7 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item8 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/TransferData.pas"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
-        <Item10 Value="/usr/local/pandroid/Lazarus/jni/JNIUtils.pas"/>
+        <Item1 Value="/usr/local/pandroid/Lazarus/jni/EncodeDecodeCodePage.pas"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lazutf8.pas"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lconvencoding.pas"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lazutils_defines.inc"/>
+        <Item5 Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Item6 Value="/Zeljus/Android/Projekti/Kasa/fSifrarnici.pas"/>
+        <Item7 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item8 Value="/Zeljus/Android/Projekti/Kasa/DB1.pas"/>
+        <Item9 Value="/usr/local/pandroid/units/AZCDialogs.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
-        <Item3 Value="/usr/local/pandroid/example/DemoSQLite/DemoSQLite.lpi"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
-        <Item5 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
+        <Item3 Value="/home/android/Demo/Fragment01/Fragment.lpi"/>
+        <Item4 Value="/usr/local/pandroid/example/DemoToolBar2/DemoToolBar2.lpi"/>
+        <Item5 Value="/usr/local/pandroid/example/DemoToolBar/DemoToolBar.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

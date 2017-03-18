@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="UTF8ToCP1250"/>
-          <Item2 Value="InternalUTF8ToCP"/>
-          <Item3 Value="Utf8ToCP1250"/>
-          <Item4 Value="CP1250Toutf8"/>
-          <Item5 Value="LConvEncoding"/>
-          <Item6 Value="CP1250To"/>
-          <Item7 Value="GradientDrawable ="/>
-          <Item8 Value="WindowManager ="/>
-          <Item9 Value="CitanjeBaze"/>
-          <Item10 Value="DialogFragment"/>
-          <Item11 Value="showErrorDialog"/>
-          <Item12 Value="Toast ="/>
-          <Item13 Value="Child"/>
-          <Item14 Value="BUTTON_NEGATIVE"/>
-          <Item15 Value="AlertDialog.BUTTON_NEGATIVE"/>
-          <Item16 Value="FreeNotifies"/>
-          <Item17 Value="DisposeOf"/>
-          <Item18 Value="Component ="/>
-          <Item19 Value="ResultSet "/>
-          <Item20 Value="tablename"/>
+          <Item1 Value="MultiAutoCompleteTextView ="/>
+          <Item2 Value="AutoCompleteTextView ="/>
+          <Item3 Value="Spinner ="/>
+          <Item4 Value="Snipper ="/>
+          <Item5 Value="Password"/>
+          <Item6 Value="UTF8ToCP1250"/>
+          <Item7 Value="InternalUTF8ToCP"/>
+          <Item8 Value="Utf8ToCP1250"/>
+          <Item9 Value="CP1250Toutf8"/>
+          <Item10 Value="LConvEncoding"/>
+          <Item11 Value="CP1250To"/>
+          <Item12 Value="GradientDrawable ="/>
+          <Item13 Value="WindowManager ="/>
+          <Item14 Value="CitanjeBaze"/>
+          <Item15 Value="DialogFragment"/>
+          <Item16 Value="showErrorDialog"/>
+          <Item17 Value="Toast ="/>
+          <Item18 Value="Child"/>
+          <Item19 Value="BUTTON_NEGATIVE"/>
+          <Item20 Value="AlertDialog.BUTTON_NEGATIVE"/>
         </Find>
       </History>
     </Find>
@@ -41,14 +41,14 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="1129" Height="725" InitialDir="/usr/local/pandroid/Lazarus/jni/">
+    <FileDialog Width="1129" Height="725" InitialDir="/Zeljus/Android/Projekti/Kasa/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/Lazarus/jni/"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Kasa/"/>
         <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
-        <Item3 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item4 Value="/usr/local/pandroid/example/DemoToolBar/"/>
-        <Item5 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
-        <Item6 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item3 Value="/usr/local/pandroid/Lazarus/jni/"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item5 Value="/usr/local/pandroid/example/DemoToolBar/"/>
+        <Item6 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
         <Item7 Value="/usr/local/pandroid/example/DemoSQLite/"/>
         <Item8 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
         <Item9 Value="/Zeljus/Android/Projekti/Popis/"/>
@@ -65,7 +65,7 @@
         <Item20 Value="/home/android/Demo/Test4/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="3">
+    <HistoryLists Count="1">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>

@@ -176,6 +176,7 @@ type
   public
     constructor create(aContext: ACContext; para2: jint; aCursorDataSet: TCursorDataSet); overload;
     function getView(para1: jint; aView: AVView; aViewGroup: AVViewGroup): AVView;  override;
+  public
     property CreateView: TCreateViewMethod read FCreateView write FCreateView;
     property CursorDataSet: TCursorDataSet read FCursorDataSet;
   end;
@@ -273,7 +274,71 @@ type
     property Adapter: TDataSetAddapter read FAdapter;
   end;
 
+  { TDBLookupComboBox }
+
+  TDBLookupComboBox = class(AWAutoCompleteTextView, ATTextWatcher)  //AWMultiAutoCompleteTextView , AWAdapterView.InnerOnItemClickListener)
+    FField: TField;
+
+    FArrayList: JUList;
+    FAdapter: AWArrayAdapter;
+    FCursorDataSet: TCursorDataSet;
+
+    FSQLSelect: JLString;
+    //ATTextWatcher
+    procedure beforeTextChanged(charSequence: JLCharSequence; start: LongInt; lengthBefore: LongInt; lengthAfter: LongInt); overload;
+    procedure onTextChanged(charSequence: JLCharSequence; start: LongInt; before: LongInt; count: LongInt); override;
+    procedure afterTextChanged(editable: ATEditable); overload;
+  public
+    constructor create(para1: ACContext; aDataBase: TDataBase; aSQL: JLString); overload;
+    procedure Refresh;
+  public
+    property  Field: TField read FField;
+  end;
+
 implementation
+
+{ TDBComboBox }
+
+procedure TDBLookupComboBox.beforeTextChanged(charSequence: JLCharSequence; start: LongInt; lengthBefore: LongInt; lengthAfter: LongInt);
+begin
+
+end;
+
+procedure TDBLookupComboBox.onTextChanged(charSequence: JLCharSequence; start: LongInt; before: LongInt; count: LongInt);
+begin
+  inherited onTextChanged(charSequence, start, before, count);
+end;
+
+procedure TDBLookupComboBox.afterTextChanged(editable: ATEditable);
+begin
+  if FArrayList.indexOf(editable.toString) = -1 then setError(JLString('Error')) else setError(nil);
+end;
+
+constructor TDBLookupComboBox.create(para1: ACContext; aDataBase: TDataBase; aSQL: JLString);
+begin
+  inherited Create(para1);
+  FSQLSelect := aSQL;
+
+  FCursorDataSet:= TCursorDataSet.create;
+  FCursorDataSet.DataBase := aDataBase;
+  FCursorDataSet.SQLSelect := FSQLSelect;
+
+  FArrayList:= JUArrayList.create;
+  fAdapter:= AWArrayAdapter.create(getContext, AR.innerLayout.simple_list_item_1, FArrayList);
+
+  addTextChangedListener(Self);
+end;
+
+procedure TDBLookupComboBox.Refresh;
+var
+  i: jint;
+begin
+   for i:= 0 to FCursorDataSet.Count - 1 do begin
+     FCursorDataSet.Index := i;
+     FArrayList.add(i, FCursorDataSet.Field.Value[0].AsString);
+   end;
+   setAdapter(fAdapter);
+end;
 
 { TDBFindDialog }
 
@@ -509,6 +574,7 @@ end;
 
 procedure TDBGridViewLayout.Refresh;
 begin
+  FAdapter.CursorDataSet.Refresh;
   GridView.setAdapter(FAdapter);
 end;
 

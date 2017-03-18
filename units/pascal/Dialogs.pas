@@ -86,6 +86,7 @@ type
     procedure onClick(para1: ACDialogInterface; para2: jint); overload; override;
   end;
 
+
 procedure ShowMessage(aContext: ACContext; aMessage: JLString; aTitle: JLString = '');
 
 implementation

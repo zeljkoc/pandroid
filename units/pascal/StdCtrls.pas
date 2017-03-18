@@ -132,6 +132,7 @@ type
     property onItemClickListener: TonItemClickEvent read FItemClick write FItemClick;
   end;
 
+
 implementation
 
 { TGridViewLayout }

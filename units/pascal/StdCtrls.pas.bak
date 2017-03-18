@@ -149,13 +149,9 @@ begin
 end;
 
 constructor TGridViewLayout.create(para1: ACContext);
-var
-  lP: AWGridView.InnerLayoutParams;
 begin
   inherited Create(para1);
   FGridView:= AWGridView.create(para1);
-  lP:= AWGridView.InnerLayoutParams.create(300, 300);
-  FGridView.setLayoutParams(lP);
   FGridView.setOnItemLongClickListener(self);
   FGridView.setOnItemClickListener(Self);
  addView(FGridView);

@@ -277,7 +277,7 @@ type
   { TDBLookupComboBox }
 
   TDBLookupComboBox = class(AWAutoCompleteTextView, ATTextWatcher)
-    FField: TField;
+    FOnChangeText: TOnChangeTextEvent;
 
     FArrayList: JUList;
     FAdapter: AWArrayAdapter;
@@ -292,7 +292,8 @@ type
     constructor create(para1: ACContext; aDataBase: TDataBase; aSQL: JLString); overload;
     procedure Refresh;
   public
-    property  Field: TField read FField;
+    property CursorDataSet: TCursorDataSet read FCursorDataSet;
+    property onChangeText: TOnChangeTextEvent read FOnChangeText write FOnChangeText;
   end;
 
 implementation
@@ -311,7 +312,11 @@ end;
 
 procedure TDBLookupComboBox.afterTextChanged(editable: ATEditable);
 begin
-  if FArrayList.indexOf(editable.toString) = -1 then setError(JLString('Error')) else setError(nil);
+  if FArrayList.indexOf(editable.toString) = -1 then setError(JLString('Error')) else begin
+      setError(nil);
+      FCursorDataSet.Index := FArrayList.indexOf(editable.toString);
+      if Assigned(FOnChangeText) then FOnChangeText(self);
+  end;
 end;
 
 constructor TDBLookupComboBox.create(para1: ACContext; aDataBase: TDataBase; aSQL: JLString);

@@ -2,7 +2,7 @@
 <CONFIG>
   <IncludeLinks Version="2" ExpirationTimeInDays="365" Data="20170320
 0:/Zeljus/Android/Projekti/Kasa/PandroidModule.inc
-45:pas;1
+45:pas;0
 25:Reciklaza/zcfbclient.inc
 46:pas;34
 1:home/android/Cordova01/cordova.inc
@@ -446,9 +446,9 @@
 20:units/CilicoUHF.inc
 36:pas;142
 26:IniFile.inc
-34:pas;10
+34:pas;0
 26:androidr15.inc
-37:pas;1
+37:pas;0
 26:dataset.inc
 34:pas;28
 26:fbsqlite.inc

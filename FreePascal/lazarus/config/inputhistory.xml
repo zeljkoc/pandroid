@@ -41,31 +41,31 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="1129" Height="725" InitialDir="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/">
+    <FileDialog Width="1129" Height="725" InitialDir="/Zeljus/Android/Projekti/Kasa/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
-        <Item3 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina/"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item5 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item6 Value="/usr/local/pandroid/Lazarus/jni/"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item8 Value="/usr/local/pandroid/example/DemoToolBar/"/>
-        <Item9 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
-        <Item10 Value="/usr/local/pandroid/example/DemoSQLite/"/>
-        <Item11 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item12 Value="/home/android/Demo/Dialog2/"/>
-        <Item13 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/"/>
-        <Item14 Value="/home/android/Demo/Test001/pascalsrc/jni/"/>
-        <Item15 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/"/>
-        <Item16 Value="/home/zeljko/Downloads/aaaaa/TestAndroid/"/>
-        <Item17 Value="/home/android/Demo/Test00/pascalsrc/jni/"/>
-        <Item18 Value="/Zeljus/Android/Projekti/Ordering/"/>
-        <Item19 Value="/usr/local/pandroid/units/pascal/"/>
-        <Item20 Value="/home/android/Demo/Test05/"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item2 Value="/home/android/Demo/Test/pascalsrc/jni/"/>
+        <Item3 Value="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item5 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina/"/>
+        <Item6 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
+        <Item7 Value="/usr/local/pandroid/Lazarus/jni/"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item9 Value="/usr/local/pandroid/example/DemoToolBar/"/>
+        <Item10 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
+        <Item11 Value="/usr/local/pandroid/example/DemoSQLite/"/>
+        <Item12 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item13 Value="/home/android/Demo/Dialog2/"/>
+        <Item14 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/"/>
+        <Item15 Value="/home/android/Demo/Test001/pascalsrc/jni/"/>
+        <Item16 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/"/>
+        <Item17 Value="/home/zeljko/Downloads/aaaaa/TestAndroid/"/>
+        <Item18 Value="/home/android/Demo/Test00/pascalsrc/jni/"/>
+        <Item19 Value="/Zeljus/Android/Projekti/Ordering/"/>
+        <Item20 Value="/usr/local/pandroid/units/pascal/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="3">
+    <HistoryLists Count="1">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>

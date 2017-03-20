@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/project1.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/Zeljus/Android/Projekti/Kasa/Kasa.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -79,11 +79,11 @@
         <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lconvencoding.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/project1.lpi"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
-        <Item3 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/project1.lpi"/>
-        <Item4 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina.lpi"/>
-        <Item5 Value="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
+        <Item2 Value="/home/android/Demo/Test/Test.lpi"/>
+        <Item3 Value="/home/android/Demo/Test/pascalsrc/jni/project1.lpi"/>
+        <Item4 Value="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/project1.lpi"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

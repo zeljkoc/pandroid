@@ -294,6 +294,7 @@ type
   public
     property CursorDataSet: TCursorDataSet read FCursorDataSet;
     property onChangeText: TOnChangeTextEvent read FOnChangeText write FOnChangeText;
+    property ID: jint read getId write setId;
   end;
 
 implementation

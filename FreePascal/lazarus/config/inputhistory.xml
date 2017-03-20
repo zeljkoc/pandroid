@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="MultiAutoCompleteTextView ="/>
-          <Item2 Value="AutoCompleteTextView ="/>
-          <Item3 Value="Spinner ="/>
-          <Item4 Value="Snipper ="/>
-          <Item5 Value="Password"/>
-          <Item6 Value="UTF8ToCP1250"/>
-          <Item7 Value="InternalUTF8ToCP"/>
-          <Item8 Value="Utf8ToCP1250"/>
-          <Item9 Value="CP1250Toutf8"/>
-          <Item10 Value="LConvEncoding"/>
-          <Item11 Value="CP1250To"/>
-          <Item12 Value="GradientDrawable ="/>
-          <Item13 Value="WindowManager ="/>
-          <Item14 Value="CitanjeBaze"/>
-          <Item15 Value="DialogFragment"/>
-          <Item16 Value="showErrorDialog"/>
-          <Item17 Value="Toast ="/>
-          <Item18 Value="Child"/>
-          <Item19 Value="BUTTON_NEGATIVE"/>
-          <Item20 Value="AlertDialog.BUTTON_NEGATIVE"/>
+          <Item1 Value="InputMethodManager ="/>
+          <Item2 Value="InputKeyboard"/>
+          <Item3 Value="MultiAutoCompleteTextView ="/>
+          <Item4 Value="AutoCompleteTextView ="/>
+          <Item5 Value="Spinner ="/>
+          <Item6 Value="Snipper ="/>
+          <Item7 Value="Password"/>
+          <Item8 Value="UTF8ToCP1250"/>
+          <Item9 Value="InternalUTF8ToCP"/>
+          <Item10 Value="Utf8ToCP1250"/>
+          <Item11 Value="CP1250Toutf8"/>
+          <Item12 Value="LConvEncoding"/>
+          <Item13 Value="CP1250To"/>
+          <Item14 Value="GradientDrawable ="/>
+          <Item15 Value="WindowManager ="/>
+          <Item16 Value="CitanjeBaze"/>
+          <Item17 Value="DialogFragment"/>
+          <Item18 Value="showErrorDialog"/>
+          <Item19 Value="Toast ="/>
+          <Item20 Value="Child"/>
         </Find>
       </History>
     </Find>

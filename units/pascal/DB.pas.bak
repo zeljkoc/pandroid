@@ -179,6 +179,7 @@ type
   public
     property CreateView: TCreateViewMethod read FCreateView write FCreateView;
     property CursorDataSet: TCursorDataSet read FCursorDataSet;
+    property id: jint read getId write Setid;
   end;
 
   { TDBEditText }
@@ -294,6 +295,7 @@ type
   public
     property CursorDataSet: TCursorDataSet read FCursorDataSet;
     property onChangeText: TOnChangeTextEvent read FOnChangeText write FOnChangeText;
+    property ID: jint read getId write setId;
   end;
 
 implementation
@@ -336,16 +338,11 @@ end;
 
 procedure TDBLookupComboBox.Refresh;
 var
-  i,j: jint;
-  tString : JLString;
+  i: jint;
 begin
    for i:= 0 to FCursorDataSet.Count - 1 do begin
      FCursorDataSet.Index := i;
-     tString := FCursorDataSet.Field.Value[0].AsString;
-     for j:=1 to FCursorDataSet.Field.FieldCount -1 do
-        tString := tString.concat(string(' ')).concat(FCursorDataSet.Field.Value[j].AsString);
-
-     FArrayList.add(i, tString ); //FCursorDataSet.Field.Value[0].AsString);
+     FArrayList.add(i, FCursorDataSet.Field.Value[0].AsString);
    end;
    setAdapter(fAdapter);
 end;

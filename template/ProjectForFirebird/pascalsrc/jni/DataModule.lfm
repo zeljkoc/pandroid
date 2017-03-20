@@ -1,0 +1,26 @@
+object DataM: TDataM
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 326
+  HorizontalOffset = 183
+  VerticalOffset = 374
+  Width = 701
+  object SQLite3Conn: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = SQLiteTransaction
+    HostName = 'localhost'
+    Options = []
+    left = 88
+    top = 40
+  end
+  object SQLiteTransaction: TSQLTransaction
+    Active = False
+    Database = SQLite3Conn
+    Options = []
+    left = 216
+    top = 48
+  end
+end

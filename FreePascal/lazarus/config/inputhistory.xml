@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value=" ASVAFragmentTransaction"/>
-          <Item2 Value="AppCompatActivity ="/>
-          <Item3 Value="ActionBar ="/>
-          <Item4 Value="Navigation"/>
-          <Item5 Value="NavigationV"/>
-          <Item6 Value="NavigationView ="/>
-          <Item7 Value="ActionBarActivity ="/>
-          <Item8 Value="Activity ="/>
-          <Item9 Value="CompatActivity"/>
-          <Item10 Value="AppCompatActivity "/>
-          <Item11 Value="Fragment ="/>
-          <Item12 Value="FragmentPagerAdapter ="/>
-          <Item13 Value="FragmentActivity ="/>
-          <Item14 Value="ThingsAdapter ="/>
-          <Item15 Value="Display ="/>
-          <Item16 Value="WindowManager ="/>
-          <Item17 Value="DetailFragment ="/>
-          <Item18 Value="FragmentStatePagerAdapter ="/>
-          <Item19 Value="tab_fragment_1 ="/>
-          <Item20 Value="tab"/>
+          <Item1 Value="AMRemoteControlClient"/>
+          <Item2 Value="InnerOnGetPlaybackPositionListener"/>
+          <Item3 Value="InnerOnGetPlaybackPositionListener ="/>
+          <Item4 Value=" ASVAFragmentTransaction"/>
+          <Item5 Value="AppCompatActivity ="/>
+          <Item6 Value="ActionBar ="/>
+          <Item7 Value="Navigation"/>
+          <Item8 Value="NavigationV"/>
+          <Item9 Value="NavigationView ="/>
+          <Item10 Value="ActionBarActivity ="/>
+          <Item11 Value="Activity ="/>
+          <Item12 Value="CompatActivity"/>
+          <Item13 Value="AppCompatActivity "/>
+          <Item14 Value="Fragment ="/>
+          <Item15 Value="FragmentPagerAdapter ="/>
+          <Item16 Value="FragmentActivity ="/>
+          <Item17 Value="ThingsAdapter ="/>
+          <Item18 Value="Display ="/>
+          <Item19 Value="WindowManager ="/>
+          <Item20 Value="DetailFragment ="/>
         </Find>
       </History>
     </Find>

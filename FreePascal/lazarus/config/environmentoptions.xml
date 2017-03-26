@@ -67,16 +67,16 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/home/android/Demo/Fragment01/androidv4.pas"/>
-        <Item2 Value="/home/android/Demo/Fragment01/androidv4.inc"/>
-        <Item3 Value="/home/android/Demo/Test66/dexmaker.inc"/>
-        <Item4 Value="/Zeljus/Android/Projekti/PDADrvoprerada/Data.pas"/>
-        <Item5 Value="/home/zeljko/Downloads/cheetah-ide/lpr/helloworld/project.lpr"/>
-        <Item6 Value="/Zeljus/CodeTyphon/TESTOVI/Info/unit1.pas"/>
-        <Item7 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/sysinth.inc"/>
-        <Item8 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item9 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
-        <Item10 Value="/usr/local/pandroid/units/pascal/Dialogs.pas"/>
+        <Item1 Value="/home/android/Demo/Fragment01/AndroidSupportV4.pas"/>
+        <Item2 Value="/home/android/Demo/Fragment01/AndroidSupportV4.inc"/>
+        <Item3 Value="/home/android/Demo/Fragment01/androidv4.pas"/>
+        <Item4 Value="/home/android/Demo/Fragment01/androidv4.inc"/>
+        <Item5 Value="/home/android/Demo/Test66/dexmaker.inc"/>
+        <Item6 Value="/Zeljus/Android/Projekti/PDADrvoprerada/Data.pas"/>
+        <Item7 Value="/home/zeljko/Downloads/cheetah-ide/lpr/helloworld/project.lpr"/>
+        <Item8 Value="/Zeljus/CodeTyphon/TESTOVI/Info/unit1.pas"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/sysinth.inc"/>
+        <Item10 Value="/usr/local/pandroid/units/androidr15.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/home/android/Demo/Fragment01/Fragment.lpi"/>

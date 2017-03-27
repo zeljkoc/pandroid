@@ -50,9 +50,11 @@ Type
                    ACDialogInterface.InnerOnDismissListener,
                    ACDialogInterface.InnerOnCancelListener,
 
-                    ALLocationListener,
+                   ALLocationListener,
 
-                    ASTTextToSpeech.InnerOnInitListener)
+                   ASTTextToSpeech.InnerOnInitListener,
+
+                   AAActionBar.InnerTabListener)
     public
       //AVView.InnerOnAttachStateChangeListener
       procedure onViewAttachedToWindow(aView: AVView); virtual;
@@ -109,6 +111,10 @@ Type
       procedure onProviderEnabled(para1: JLString); overload; virtual;
       //ASTTextToSpeech.InnerOnInitListener
       procedure onInit(status: jint); overload;virtual;
+      //AAActionBar.InnerTabListener
+      procedure onTabSelected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction); overload; virtual;
+      procedure onTabReselected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction); overload; virtual;
+      procedure onTabUnselected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction); overload; virtual;
    end;
 
 implementation
@@ -281,6 +287,21 @@ begin
 end;
 
 procedure Activity.onInit(status: jint);
+begin
+
+end;
+
+procedure Activity.onTabSelected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction);
+begin
+
+end;
+
+procedure Activity.onTabReselected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction);
+begin
+
+end;
+
+procedure Activity.onTabUnselected(para1: AAActionBar.InnerTab; para2: AAFragmentTransaction);
 begin
 
 end;

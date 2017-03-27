@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="FragmentActivity ="/>
-          <Item2 Value="AMRemoteControlClient"/>
-          <Item3 Value="InnerOnGetPlaybackPositionListener"/>
-          <Item4 Value="InnerOnGetPlaybackPositionListener ="/>
-          <Item5 Value=" ASVAFragmentTransaction"/>
-          <Item6 Value="AppCompatActivity ="/>
-          <Item7 Value="ActionBar ="/>
-          <Item8 Value="Navigation"/>
-          <Item9 Value="NavigationV"/>
-          <Item10 Value="NavigationView ="/>
-          <Item11 Value="ActionBarActivity ="/>
-          <Item12 Value="Activity ="/>
-          <Item13 Value="CompatActivity"/>
-          <Item14 Value="AppCompatActivity "/>
-          <Item15 Value="Fragment ="/>
-          <Item16 Value="FragmentPagerAdapter ="/>
-          <Item17 Value="ThingsAdapter ="/>
-          <Item18 Value="Display ="/>
-          <Item19 Value="WindowManager ="/>
-          <Item20 Value="DetailFragment ="/>
+          <Item1 Value="FragmentPagerAdapter ="/>
+          <Item2 Value="TabListener ="/>
+          <Item3 Value="FragmentTabListener"/>
+          <Item4 Value="AAActionBar ="/>
+          <Item5 Value="getSupportActionBar"/>
+          <Item6 Value="SherlockFragmentActivity"/>
+          <Item7 Value="Tab ="/>
+          <Item8 Value="FragmentPagerAdapter "/>
+          <Item9 Value="FragmentStatePagerAdapter ="/>
+          <Item10 Value="ViewPager ="/>
+          <Item11 Value="SectionsPagerAdapter ="/>
+          <Item12 Value="FragmentTabHost ="/>
+          <Item13 Value="ViewPager"/>
+          <Item14 Value="ViewPager  ="/>
+          <Item15 Value="Activity ="/>
+          <Item16 Value="AppCompatActivity"/>
+          <Item17 Value="GravityCompat ="/>
+          <Item18 Value="DrawerLayout ="/>
+          <Item19 Value="ActionBar"/>
+          <Item20 Value="ActionBar ="/>
         </Find>
       </History>
     </Find>
@@ -41,28 +41,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="1129" Height="725" InitialDir="/home/android/Demo/Fragment01/">
+    <FileDialog Width="1129" Height="725" InitialDir="/usr/local/pandroid/example/Fragment01/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Demo/Fragment01/"/>
-        <Item2 Value="/home/android/Demo/Test66/"/>
-        <Item3 Value="/usr/local/pandroid/example/GridView/"/>
-        <Item4 Value="/Zeljus/Android/Projekti/PDADrvoprerada/pascalsrc/jni/"/>
-        <Item5 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
-        <Item6 Value="/home/zeljko/Downloads/cheetah-ide/lpr/helloworld/"/>
-        <Item7 Value="/Zeljus/CodeTyphon/TESTOVI/Info/"/>
-        <Item8 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item9 Value="/home/zeljko/Downloads/javavcl-code-858/lpr/notepad/"/>
-        <Item10 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
-        <Item11 Value="/home/android/Projekti/PDAProdaja/"/>
-        <Item12 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
-        <Item13 Value="/home/android/Demo/Test/pascalsrc/jni/"/>
-        <Item14 Value="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/"/>
-        <Item15 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina/"/>
-        <Item16 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item17 Value="/usr/local/pandroid/Lazarus/jni/"/>
-        <Item18 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item19 Value="/usr/local/pandroid/example/DemoToolBar/"/>
-        <Item20 Value="/usr/local/pandroid/example/DemoToolBar2/"/>
+        <Item1 Value="/usr/local/pandroid/example/Fragment01/"/>
+        <Item2 Value="/home/android/Demo/Fragment01/"/>
+        <Item3 Value="/home/android/Demo/Test66/"/>
+        <Item4 Value="/usr/local/pandroid/example/GridView/"/>
+        <Item5 Value="/Zeljus/Android/Projekti/PDADrvoprerada/pascalsrc/jni/"/>
+        <Item6 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
+        <Item7 Value="/home/zeljko/Downloads/cheetah-ide/lpr/helloworld/"/>
+        <Item8 Value="/Zeljus/CodeTyphon/TESTOVI/Info/"/>
+        <Item9 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item10 Value="/home/zeljko/Downloads/javavcl-code-858/lpr/notepad/"/>
+        <Item11 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item12 Value="/home/android/Projekti/PDAProdaja/"/>
+        <Item13 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
+        <Item14 Value="/home/android/Demo/Test/pascalsrc/jni/"/>
+        <Item15 Value="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/"/>
+        <Item16 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina/"/>
+        <Item17 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
+        <Item18 Value="/usr/local/pandroid/Lazarus/jni/"/>
+        <Item19 Value="/usr/local/pandroid/FreePascal/"/>
+        <Item20 Value="/usr/local/pandroid/example/DemoToolBar/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

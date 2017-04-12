@@ -179,7 +179,6 @@ type
   public
     property CreateView: TCreateViewMethod read FCreateView write FCreateView;
     property CursorDataSet: TCursorDataSet read FCursorDataSet;
-    property id: jint read getId write Setid;
   end;
 
   { TDBEditText }
@@ -236,7 +235,8 @@ type
 
     FIDRecord: jint;
     FDeletedFieldMessage: JLString;
-    FReadOnly: jBoolean;
+    FReadOnlyEdit: jBoolean;
+    FReadOnlyDelete: jBoolean;
   protected
     function LongItemClick(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong): jboolean;
     procedure ItemClickListener (para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
@@ -252,7 +252,8 @@ type
     procedure Refresh;
   public
     property Adapter: TDataSetAddapter read FAdapter;
-    property ReadOnly: jboolean read FReadOnly write FReadOnly;
+    property ReadOnlyEdit: jboolean read FReadOnlyEdit write FReadOnlyEdit;
+    property ReadOnlyDelete: jboolean read FReadOnlyDelete write FReadOnlyDelete;
   end;
 
   { TDBFindDialog }
@@ -319,6 +320,7 @@ begin
       FCursorDataSet.Index := FArrayList.indexOf(editable.toString);
       if Assigned(FOnChangeText) then FOnChangeText(self);
   end;
+
 end;
 
 constructor TDBLookupComboBox.create(para1: ACContext; aDataBase: TDataBase; aSQL: JLString);
@@ -473,7 +475,7 @@ function TDBGridViewLayout.LongItemClick(para1: AWAdapterView; para2: AVView; pa
 var
   i: integer;
 begin
-  if not FReadOnly then begin
+  if not FReadOnlyDelete then begin
       FAdapter.CursorDataSet.Index := para3;
 
       FDeletedFieldMessage:=''; // #10#13;
@@ -490,7 +492,7 @@ end;
 
 procedure TDBGridViewLayout.ItemClickListener(para1: AWAdapterView; para2: AVView; para3: jint; para4: jlong);
 begin
-  if not FReadOnly then begin
+  if not FReadOnlyEdit then begin
       FIDRecord := para3;
       FAdapter.CursorDataSet.Index := FIDRecord;
 

@@ -7,8 +7,9 @@
       <Unit0>
         <Filename Value="DemoSQLite.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <TopLine Value="32"/>
-        <CursorPos X="34" Y="49"/>
+        <CursorPos X="2" Y="60"/>
         <UsageCount Value="130"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -31,7 +32,7 @@
       <Unit3>
         <Filename Value="../../units/AZCListView.pas"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="216"/>
+        <TopLine Value="235"/>
         <CursorPos X="4" Y="267"/>
         <UsageCount Value="63"/>
         <Loaded Value="True"/>
@@ -46,10 +47,9 @@
       </Unit4>
       <Unit5>
         <Filename Value="../../units/AZCDialogs.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="400"/>
-        <CursorPos X="40" Y="430"/>
+        <TopLine Value="21"/>
+        <CursorPos X="16" Y="70"/>
         <UsageCount Value="62"/>
         <Loaded Value="True"/>
       </Unit5>

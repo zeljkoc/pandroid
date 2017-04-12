@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="FragmentPagerAdapter ="/>
-          <Item2 Value="TabListener ="/>
-          <Item3 Value="FragmentTabListener"/>
-          <Item4 Value="AAActionBar ="/>
-          <Item5 Value="getSupportActionBar"/>
-          <Item6 Value="SherlockFragmentActivity"/>
-          <Item7 Value="Tab ="/>
-          <Item8 Value="FragmentPagerAdapter "/>
-          <Item9 Value="FragmentStatePagerAdapter ="/>
-          <Item10 Value="ViewPager ="/>
-          <Item11 Value="SectionsPagerAdapter ="/>
-          <Item12 Value="FragmentTabHost ="/>
-          <Item13 Value="ViewPager"/>
-          <Item14 Value="ViewPager  ="/>
-          <Item15 Value="Activity ="/>
-          <Item16 Value="AppCompatActivity"/>
-          <Item17 Value="GravityCompat ="/>
-          <Item18 Value="DrawerLayout ="/>
-          <Item19 Value="ActionBar"/>
-          <Item20 Value="ActionBar ="/>
+          <Item1 Value="onKeyDown"/>
+          <Item2 Value="key"/>
+          <Item3 Value="beep"/>
+          <Item4 Value="Tag ="/>
+          <Item5 Value="NfcV ="/>
+          <Item6 Value="IntentFilter ="/>
+          <Item7 Value="PendingIntent ="/>
+          <Item8 Value="PendingIntent  ="/>
+          <Item9 Value="HandleIntent"/>
+          <Item10 Value="InnerHandleIntent"/>
+          <Item11 Value="handleintent"/>
+          <Item12 Value="NfcAdapter ="/>
+          <Item13 Value="date"/>
+          <Item14 Value="date ="/>
+          <Item15 Value="SimpleDateFormat ="/>
+          <Item16 Value="Time ="/>
+          <Item17 Value="Date ="/>
+          <Item18 Value="RuntimeException ="/>
+          <Item19 Value="FragmentTransaction ="/>
+          <Item20 Value="DrawerLayout ="/>
         </Find>
       </History>
     </Find>
@@ -41,28 +41,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="1129" Height="725" InitialDir="/usr/local/pandroid/example/Fragment01/">
+    <FileDialog Width="1129" Height="725" InitialDir="/Zeljus/Android/Projekti/PDAPristup/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/example/Fragment01/"/>
-        <Item2 Value="/home/android/Demo/Fragment01/"/>
+        <Item1 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
         <Item3 Value="/home/android/Demo/Test66/"/>
-        <Item4 Value="/usr/local/pandroid/example/GridView/"/>
-        <Item5 Value="/Zeljus/Android/Projekti/PDADrvoprerada/pascalsrc/jni/"/>
-        <Item6 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
-        <Item7 Value="/home/zeljko/Downloads/cheetah-ide/lpr/helloworld/"/>
-        <Item8 Value="/Zeljus/CodeTyphon/TESTOVI/Info/"/>
-        <Item9 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item10 Value="/home/zeljko/Downloads/javavcl-code-858/lpr/notepad/"/>
-        <Item11 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
-        <Item12 Value="/home/android/Projekti/PDAProdaja/"/>
-        <Item13 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
-        <Item14 Value="/home/android/Demo/Test/pascalsrc/jni/"/>
-        <Item15 Value="/usr/local/pandroid/template/ProjectForFirebird/pascalsrc/jni/"/>
-        <Item16 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina/"/>
-        <Item17 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item18 Value="/usr/local/pandroid/Lazarus/jni/"/>
-        <Item19 Value="/usr/local/pandroid/FreePascal/"/>
-        <Item20 Value="/usr/local/pandroid/example/DemoToolBar/"/>
+        <Item4 Value="/home/android/Demo/Fragment01/"/>
+        <Item5 Value="/usr/local/pandroid/example/Fragment01/"/>
+        <Item6 Value="/home/android/Demo/Kasa/"/>
+        <Item7 Value="/home/android/Demo/Nfce/"/>
+        <Item8 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
+        <Item9 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item10 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item11 Value="/home/android/Demo/TestMenu/"/>
+        <Item12 Value="/usr/local/pandroid/example/GridView/"/>
+        <Item13 Value="/Zeljus/Android/Projekti/PDADrvoprerada/pascalsrc/jni/"/>
+        <Item14 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
+        <Item15 Value="/home/zeljko/Downloads/cheetah-ide/lpr/helloworld/"/>
+        <Item16 Value="/Zeljus/CodeTyphon/TESTOVI/Info/"/>
+        <Item17 Value="/home/zeljko/Downloads/javavcl-code-858/lpr/notepad/"/>
+        <Item18 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item19 Value="/home/android/Projekti/PDAProdaja/"/>
+        <Item20 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

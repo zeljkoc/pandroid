@@ -19,7 +19,7 @@ function checkExistsFile(aFileName: JLString): jboolean;
 //Date Utils
 function FBDateTimeToString: JLString;  //Firebird Date time
 function FBDateToString: JLString;  //Firebird Date
-function FBTimeToString: JLString;  //Firebird Time
+
 
 implementation
 
@@ -36,14 +36,8 @@ end;
 
 function FBDateToString: JLString;
 begin
-  //'2015-12-07 16:46:40'; - Firebird format
+     //'2015-12-07 16:46:40'; - Firebird format
   Result := JTSimpleDateFormat.create(JLString('yyyy-MM-dd')).format(JUDate.Create);
-end;
-
-function FBTimeToString: JLString;
-begin
-  //'2015-12-07 16:46:40'; - Firebird format
-  Result := JTSimpleDateFormat.create(JLString('HH:mm:ss')).format(JUDate.Create);
 end;
 
 end.

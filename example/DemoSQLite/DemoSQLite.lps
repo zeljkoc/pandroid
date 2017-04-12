@@ -7,7 +7,6 @@
       <Unit0>
         <Filename Value="DemoSQLite.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="32"/>
         <CursorPos X="2" Y="60"/>
         <UsageCount Value="130"/>
@@ -16,8 +15,9 @@
       <Unit1>
         <Filename Value="Data.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
-        <CursorPos X="42" Y="16"/>
+        <CursorPos X="50" Y="24"/>
         <UsageCount Value="130"/>
         <Loaded Value="True"/>
       </Unit1>

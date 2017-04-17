@@ -1,0 +1,5 @@
+adb root
+adb disable-verity
+adb reboot
+adb root
+adb remount

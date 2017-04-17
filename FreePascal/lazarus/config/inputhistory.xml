@@ -4,83 +4,22 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="20">
-          <Item1 Value="onKeyDown"/>
-          <Item2 Value="key"/>
-          <Item3 Value="beep"/>
-          <Item4 Value="Tag ="/>
-          <Item5 Value="NfcV ="/>
-          <Item6 Value="IntentFilter ="/>
-          <Item7 Value="PendingIntent ="/>
-          <Item8 Value="PendingIntent  ="/>
-          <Item9 Value="HandleIntent"/>
-          <Item10 Value="InnerHandleIntent"/>
-          <Item11 Value="handleintent"/>
-          <Item12 Value="NfcAdapter ="/>
-          <Item13 Value="date"/>
-          <Item14 Value="date ="/>
-          <Item15 Value="SimpleDateFormat ="/>
-          <Item16 Value="Time ="/>
-          <Item17 Value="Date ="/>
-          <Item18 Value="RuntimeException ="/>
-          <Item19 Value="FragmentTransaction ="/>
-          <Item20 Value="DrawerLayout ="/>
+        <Find Count="1">
+          <Item1 Value="UIB_NO_COMPONENT"/>
         </Find>
       </History>
     </Find>
-    <FindInFiles>
-      <History>
-        <Paths Count="3">
-          <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/"/>
-          <Item2 Value="/usr/local/pandroid/units/"/>
-          <Item3 Value="/usr/local/pandroid/FreePascal/fpc/"/>
-        </Paths>
-        <Masks Count="1">
-          <Item1 Value="*.pas;*.pp;*.inc"/>
-        </Masks>
-      </History>
-      <Options SearchOpen="False" SearchDirectories="True"/>
-    </FindInFiles>
-    <FileDialog Width="1129" Height="725" InitialDir="/Zeljus/Android/Projekti/PDAPristup/">
-      <HistoryList Count="20">
-        <Item1 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item3 Value="/home/android/Demo/Test66/"/>
-        <Item4 Value="/home/android/Demo/Fragment01/"/>
-        <Item5 Value="/usr/local/pandroid/example/Fragment01/"/>
-        <Item6 Value="/home/android/Demo/Kasa/"/>
-        <Item7 Value="/home/android/Demo/Nfce/"/>
-        <Item8 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
-        <Item9 Value="/usr/local/pandroid/example/TempFirebird/"/>
-        <Item10 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item11 Value="/home/android/Demo/TestMenu/"/>
-        <Item12 Value="/usr/local/pandroid/example/GridView/"/>
-        <Item13 Value="/Zeljus/Android/Projekti/PDADrvoprerada/pascalsrc/jni/"/>
-        <Item14 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
-        <Item15 Value="/home/zeljko/Downloads/cheetah-ide/lpr/helloworld/"/>
-        <Item16 Value="/Zeljus/CodeTyphon/TESTOVI/Info/"/>
-        <Item17 Value="/home/zeljko/Downloads/javavcl-code-858/lpr/notepad/"/>
-        <Item18 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
-        <Item19 Value="/home/android/Projekti/PDAProdaja/"/>
-        <Item20 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
+    <FileDialog InitialDir="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/">
+      <HistoryList Count="2">
+        <Item1 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="1">
+    <HistoryLists Count="3">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>
       </List0>
     </HistoryLists>
-    <New>
-      <Project Type="Unit"/>
-      <File Type="Unit"/>
-    </New>
-    <Conversion>
-      <Delphi Project="/home/zeljko/Desktop/jni/sample/native/SimpleDemo.dpr" Unit="/usr/local/pandroid/FreePascal/lazarus/components/PascalScript/Source/ThirdParty/uPSI_Mask.pas"/>
-    </Conversion>
-    <FileEncodings Count="2">
-      <Item0 Name="/Zeljus/CodeTyphon/TESTOVI/Info/project1.lpr"/>
-      <Item1 Name="/home/zeljko/RAZVOJ/GetLazarus/Primjeri/Komponente/project1.lpr"/>
-    </FileEncodings>
   </InputHistory>
 </CONFIG>

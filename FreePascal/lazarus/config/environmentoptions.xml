@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/project1.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/usr/local/pandroid/source/pandroid.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/DataModule.pas"/>
-        <Item2 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/PandoidModule.pas"/>
-        <Item3 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/project1.lpr"/>
-        <Item4 Value="/usr/local/pandroid/units/pascal/DB.pas"/>
-        <Item5 Value="/home/android/Demo/Nfce/CilicoRFID.pas"/>
-        <Item6 Value="/home/android/Demo/Nfce/CilicoRFID.inc"/>
-        <Item7 Value="/Zeljus/Android/Projekti/PDAPristup/fPristup.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
-        <Item9 Value="/Zeljus/Android/Projekti/Kasa/NarudzbaFragmenti.pas"/>
-        <Item10 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uib.pas"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uib.inc"/>
+        <Item3 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/DataModule.pas"/>
+        <Item4 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/PandoidModule.pas"/>
+        <Item5 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/project1.lpr"/>
+        <Item6 Value="/usr/local/pandroid/units/pascal/DB.pas"/>
+        <Item7 Value="/home/android/Demo/Nfce/CilicoRFID.pas"/>
+        <Item8 Value="/home/android/Demo/Nfce/CilicoRFID.inc"/>
+        <Item9 Value="/Zeljus/Android/Projekti/PDAPristup/fPristup.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/project1.lpi"/>
-        <Item2 Value="/Zeljus/Android/Projekti/PDAPristup/PDAPristup.lpi"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
-        <Item4 Value="/home/android/Demo/Test66/Test.lpi"/>
-        <Item5 Value="/home/android/Demo/Fragment01/Fragment.lpi"/>
+        <Item1 Value="/usr/local/pandroid/source/pandroid.lpi"/>
+        <Item2 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/project1.lpi"/>
+        <Item3 Value="/Zeljus/Android/Projekti/PDAPristup/PDAPristup.lpi"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
+        <Item5 Value="/home/android/Demo/Test66/Test.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

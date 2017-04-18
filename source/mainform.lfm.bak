@@ -116,12 +116,15 @@ object Form1: TForm1
       Top = 40
       Width = 348
       ItemHeight = 0
-      ItemIndex = 0
       Items.Strings = (
         'android-15'
         'android-16'
         'android-17'
         'android-18'
+        'android-19'
+        'android-20'
+        'android-21'
+        'android-22'
       )
       TabOrder = 1
       Text = 'android-15'
@@ -189,7 +192,7 @@ object Form1: TForm1
     TabOrder = 3
   end
   object buttonNewProject: TButton
-    Left = 616
+    Left = 600
     Height = 26
     Top = 128
     Width = 152

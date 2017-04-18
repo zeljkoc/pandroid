@@ -38,7 +38,7 @@
 {.$DEFINE FB15}
 {.$DEFINE FB20}
 {.$DEFINE FB21}
-{$DEFINE FB25}
+{.$DEFINE FB25}
 {.$DEFINE FBEMBED}
 
 //----------

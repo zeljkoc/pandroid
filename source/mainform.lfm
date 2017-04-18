@@ -116,12 +116,16 @@ object Form1: TForm1
       Top = 40
       Width = 348
       ItemHeight = 0
-      ItemIndex = 0
       Items.Strings = (
         'android-15'
         'android-16'
         'android-17'
         'android-18'
+        'android-19'
+        'android-20'
+        'android-21'
+        'android-22'
+        'android-23'
       )
       TabOrder = 1
       Text = 'android-15'

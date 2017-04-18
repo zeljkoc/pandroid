@@ -9,13 +9,14 @@
         </Find>
       </History>
     </Find>
-    <FileDialog InitialDir="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/">
-      <HistoryList Count="2">
-        <Item1 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
+    <FileDialog InitialDir="/usr/local/pandroid/source/">
+      <HistoryList Count="3">
+        <Item1 Value="/usr/local/pandroid/source/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
+        <Item3 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="3">
+    <HistoryLists Count="1">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>

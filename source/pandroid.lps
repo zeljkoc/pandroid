@@ -17,9 +17,10 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="6"/>
-        <CursorPos X="29" Y="128"/>
+        <TopLine Value="86"/>
+        <CursorPos X="55" Y="86"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -27,7 +28,6 @@
       <Unit2>
         <Filename Value="FNewProject.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <TopLine Value="315"/>
         <CursorPos X="51" Y="355"/>

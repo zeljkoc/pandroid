@@ -116,7 +116,6 @@ object Form1: TForm1
       Top = 40
       Width = 348
       ItemHeight = 0
-      ItemIndex = 0
       Items.Strings = (
         'android-15'
         'android-16'
@@ -127,6 +126,8 @@ object Form1: TForm1
         'android-21'
         'android-22'
         'android-23'
+        'android-24'
+        'android-25'
       )
       TabOrder = 1
       Text = 'android-15'
@@ -141,6 +142,7 @@ object Form1: TForm1
         '19.1.0'
         '23.0.3'
         '24.0.3'
+        '25.0.0'
       )
       TabOrder = 2
       Text = '23.0.3'

@@ -10,7 +10,7 @@
 39:arm/setjumph.inc
 39:linux/system.pp;0
 39:i386/setjumph.inc
-39:linux/system.pp;3
+39:linux/system.pp;0
 39:inc/compproc.inc
 39:linux/system.pp;0
 39:inc/currh.inc
@@ -152,9 +152,9 @@
 66:common.inc
 66:lib.pas;0
 39:lcl/include/controlconsts.inc
-43:controls.pp;3
+43:controls.pp;0
 43:include/lcl_defines.inc
-43:widgetset/wslclclasses.pp;3
+43:widgetset/wslclclasses.pp;0
 20:units/IniFile.inc
 34:pas;3
 26:androidr15.inc

@@ -96,6 +96,7 @@ begin
     AProcess.Options := AProcess.Options + [poWaitOnExit, poUsePipes];
     AProcess.Execute;
 
+
    Writeln('DELETE ..................... '); // Writeln(AProcess.Output.ReadAnsiString);
 
    AProcess.CommandLine := '/bin/mkdir -p '+AProject.gProjectDir+'/android/bin & ' +
@@ -126,6 +127,7 @@ begin
                    AProject.gProjectDir+PathDelim +'Rjava.pas');
 
    Writeln('------------------- Compile ppcjvm ----------------------');
+
 
    AddJavaBuildFiles;
    Str := AFPCSrcDir; //Copy(ExtractFileDir(ACompPath), 1, Length(ExtractFileDir(ACompPath))- 4);
@@ -173,6 +175,10 @@ begin
    Writeln('Build Classes ==============================='+#10);
    Writeln(''+#10);
 
+
+  if RunCommandInDir(AProject.gProjectDir+'/android/', ' ndk-build V=1 APP_ABI=all clean ', Message) then
+                               Writeln('========================OK....ndk-build APP_ABI=armeabi-v7a '+Message+#10)
+  														else begin Writeln('Error **** (ndk-build APP_ABI=armeabi-v7a) *****: '+ Message+#10); Abort; end;
 
   if RunCommandInDir(AProject.gProjectDir+'/android/', ' ant -verbose release ', Message) then
                                Writeln('========================OK....ant -verbose release '+Message+#10)
@@ -349,6 +355,10 @@ begin
 
   FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'android' + PathDelim + 'assets',
   AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'assets' , [cffCreateDestDirectory]);
+
+  if FileExists(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+'pascalsrc') then
+    FileUtil.CopyDirTree(ExtractFileDir(Application.ExeName) + PathDelim+ 'template'+PathDelim+Form1.cbProject.Text +PathDelim+ 'pascalsrc',
+      AProject.gProjectDir + PathDelim+ 'pascalsrc'  , [cffCreateDestDirectory]);
 end;
 
 

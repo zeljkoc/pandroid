@@ -96,6 +96,7 @@ begin
     AProcess.Options := AProcess.Options + [poWaitOnExit, poUsePipes];
     AProcess.Execute;
 
+
    Writeln('DELETE ..................... '); // Writeln(AProcess.Output.ReadAnsiString);
 
    AProcess.CommandLine := '/bin/mkdir -p '+AProject.gProjectDir+'/android/bin & ' +
@@ -126,6 +127,7 @@ begin
                    AProject.gProjectDir+PathDelim +'Rjava.pas');
 
    Writeln('------------------- Compile ppcjvm ----------------------');
+
 
    AddJavaBuildFiles;
    Str := AFPCSrcDir; //Copy(ExtractFileDir(ACompPath), 1, Length(ExtractFileDir(ACompPath))- 4);

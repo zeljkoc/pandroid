@@ -7,6 +7,7 @@
       <Unit0>
         <Filename Value="SecondActivity.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <TopLine Value="16"/>
         <CursorPos X="6" Y="64"/>
         <UsageCount Value="20"/>
@@ -14,9 +15,8 @@
       </Unit0>
       <Unit1>
         <Filename Value="Activity2.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos Y="25"/>
+        <CursorPos X="40" Y="19"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit1>

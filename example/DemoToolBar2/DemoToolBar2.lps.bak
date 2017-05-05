@@ -7,6 +7,7 @@
       <Unit0>
         <Filename Value="DemoToolBar2.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <TopLine Value="23"/>
         <CursorPos X="36" Y="52"/>
         <UsageCount Value="23"/>
@@ -14,9 +15,8 @@
       </Unit0>
       <Unit1>
         <Filename Value="../../units/AZCToolBar.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="83"/>
+        <TopLine Value="80"/>
         <CursorPos X="48" Y="101"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>

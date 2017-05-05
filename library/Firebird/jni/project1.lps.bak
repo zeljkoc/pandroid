@@ -14,8 +14,9 @@
       <Unit1>
         <Filename Value="zcFirebird.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="109"/>
+        <TopLine Value="59"/>
         <UsageCount Value="165"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -106,7 +107,6 @@
       </Unit13>
       <Unit14>
         <Filename Value="../compile.sh"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <CursorPos X="27" Y="18"/>
         <UsageCount Value="45"/>

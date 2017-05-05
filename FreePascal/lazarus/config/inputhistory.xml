@@ -4,26 +4,41 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="8">
-          <Item1 Value="toolchains"/>
-          <Item2 Value="StringBuffer ="/>
-          <Item3 Value="BufferedReader ="/>
-          <Item4 Value="FileOutputStream ="/>
-          <Item5 Value="File ="/>
-          <Item6 Value="InputStream ="/>
-          <Item7 Value="AssetManager ="/>
-          <Item8 Value="UIB_NO_COMPONENT"/>
+        <Find Count="9">
+          <Item1 Value="LayoutParams ="/>
+          <Item2 Value="toolchains"/>
+          <Item3 Value="StringBuffer ="/>
+          <Item4 Value="BufferedReader ="/>
+          <Item5 Value="FileOutputStream ="/>
+          <Item6 Value="File ="/>
+          <Item7 Value="InputStream ="/>
+          <Item8 Value="AssetManager ="/>
+          <Item9 Value="UIB_NO_COMPONENT"/>
         </Find>
       </History>
     </Find>
-    <FileDialog InitialDir="/usr/local/pandroid/source/">
-      <HistoryList Count="6">
-        <Item1 Value="/usr/local/pandroid/source/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
-        <Item3 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
-        <Item4 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item5 Value="/Zeljus/Android/Projekti/Firebird/"/>
-        <Item6 Value="/home/android/Demo/Firebird/"/>
+    <FileDialog InitialDir="/Zeljus/Android/Projekti/PDAPristup/">
+      <HistoryList Count="20">
+        <Item1 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
+        <Item3 Value="/usr/local/pandroid/example/TempFirebird/"/>
+        <Item4 Value="/usr/local/pandroid/library/Firebird/jni/"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/"/>
+        <Item6 Value="/usr/local/pandroid/source/"/>
+        <Item7 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
+        <Item8 Value="/home/android/Demo/SecondActivity/"/>
+        <Item9 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item10 Value="/home/android/Demo/TestMenu/"/>
+        <Item11 Value="/home/android/Demo/Firebird_1/"/>
+        <Item12 Value="/usr/local/pandroid/example/SecondActivity/"/>
+        <Item13 Value="/home/android/Demo/Layout2/"/>
+        <Item14 Value="/home/android/Demo/"/>
+        <Item15 Value="/home/android/Demo/Fragment01/"/>
+        <Item16 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
+        <Item17 Value="/Zeljus/Android/Projekti/Reciklaza_CCCC/"/>
+        <Item18 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
+        <Item19 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item20 Value="/Zeljus/Android/Projekti/Firebird/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

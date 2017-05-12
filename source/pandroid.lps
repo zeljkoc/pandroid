@@ -18,7 +18,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="37"/>
+        <TopLine Value="67"/>
         <CursorPos X="55" Y="86"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -27,10 +27,9 @@
       <Unit2>
         <Filename Value="FNewProject.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="68"/>
-        <CursorPos X="24" Y="76"/>
+        <TopLine Value="107"/>
+        <CursorPos X="11" Y="137"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -73,8 +72,9 @@
       </Unit7>
       <Unit8>
         <Filename Value="../FreePascal/fpc/packages/fcl-process/src/process.pp"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="148"/>
+        <TopLine Value="157"/>
         <CursorPos X="10" Y="182"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
@@ -199,7 +199,7 @@
       </Position29>
       <Position30>
         <Filename Value="FNewProject.pas"/>
-        <Caret Line="137" Column="14" TopLine="110"/>
+        <Caret Line="137" Column="11" TopLine="107"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

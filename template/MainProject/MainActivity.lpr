@@ -38,7 +38,7 @@ type
 
 implementation
 
-uses AZCForms, AZCDialogs, AZCEditFile;
+uses AZCForms, AZCDialogs, Dialogs;
 
 procedure #ActivityName#.onCreate(savedInstanceState: AOBundle);
 var
@@ -99,8 +99,8 @@ begin
    Result := true;
    case item.getItemID of
       1: begin
-         With AEditFile.create(Self , IniFileName) do
-          show;
+          With TEditFileDialog.create(Self , IniFileName) do
+           show;
 
       end else Result := false;
    end;

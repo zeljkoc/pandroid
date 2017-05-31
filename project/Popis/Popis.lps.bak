@@ -7,8 +7,6 @@
       <Unit0>
         <Filename Value="Popis.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="7"/>
         <CursorPos Y="26"/>
         <UsageCount Value="220"/>
         <Loaded Value="True"/>
@@ -25,8 +23,10 @@
       <Unit2>
         <Filename Value="fMjestoPopisa.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <CursorPos Y="44"/>
+        <TopLine Value="16"/>
+        <CursorPos X="50" Y="23"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>

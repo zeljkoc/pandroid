@@ -3,10 +3,11 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="15">
+    <Units Count="14">
       <Unit0>
         <Filename Value="Popis.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos Y="26"/>
         <UsageCount Value="220"/>
         <Loaded Value="True"/>
@@ -23,7 +24,6 @@
       <Unit2>
         <Filename Value="fMjestoPopisa.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <TopLine Value="16"/>
         <CursorPos X="50" Y="23"/>
@@ -63,8 +63,7 @@
       <Unit6>
         <Filename Value="../../units/ADBDataBase.pas"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="21" Y="39"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="10"/>
       </Unit6>
       <Unit7>
         <Filename Value="../../units/AZCDialogs.pas"/>
@@ -114,11 +113,6 @@
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit13>
-      <Unit14>
-        <Filename Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
-      </Unit14>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>

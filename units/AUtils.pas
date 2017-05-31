@@ -181,8 +181,8 @@ begin
   data := AOEnvironment.getDataDirectory;
 
   currentDB := JIFile.create(data, currentDBPath);
-  backupDB := JIFile.create(AOEnvironment.getExternalStoragePublicDirectory(
-                     AOEnvironment.fDIRECTORY_DOWNLOADS), backupDBFile);
+//  backupDB := JIFile.create(AOEnvironment.getExternalStoragePublicDirectory(
+ //                    AOEnvironment.fDIRECTORY_DOWNLOADS), backupDBFile);
   //odredi putanju za slanje
   Result := backupDB.toString;
 

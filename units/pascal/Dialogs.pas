@@ -183,6 +183,7 @@ end;
 constructor TDialog.create(para1: ACContext);
 begin
   inherited Create(para1);
+ // getWindow.setType(AVWindowManager.InnerLayoutParams.TYPE_SYSTEM_ALERT);
  // setTitle(AAActivity(para1).getPackageManager.getApplicationLabel(AAActivity(para1).getApplicationInfo));
  // setIcon(AAActivity(para1).getPackageManager.getApplicationIcon(AAActivity(para1).getApplicationInfo));
 end;

@@ -38,7 +38,7 @@ type
 
 implementation
 
-uses AZCForms, AZCDialogs, Dialogs;
+uses AZCForms, Dialogs;
 
 procedure #ActivityName#.onCreate(savedInstanceState: AOBundle);
 var

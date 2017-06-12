@@ -42,28 +42,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="/Zeljus/Android/Projekti/PDAPristup/">
+    <FileDialog InitialDir="/home/android/Demo/cz/">
       <HistoryList Count="20">
-        <Item1 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
-        <Item2 Value="/home/android/Demo/Zoitc01/"/>
-        <Item3 Value="/home/android/Demo/Zoitc/"/>
+        <Item1 Value="/home/android/Demo/cz/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item3 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
         <Item4 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
-        <Item5 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
-        <Item6 Value="/home/android/Projekti/Popis/"/>
-        <Item7 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
-        <Item8 Value="/Zeljus/Lazarus/RDPGui/"/>
-        <Item9 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item10 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
-        <Item11 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item12 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item13 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
-        <Item14 Value="/Zeljus/Android/Projekti/Popis/android/"/>
-        <Item15 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Popis/"/>
-        <Item16 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/TestBarCode/"/>
-        <Item17 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Reciklaza/"/>
-        <Item18 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
-        <Item19 Value="/usr/local/pandroid/library/DataSet/jni/"/>
-        <Item20 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus_ok/Reciklaza/"/>
+        <Item5 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
+        <Item6 Value="/home/android/Demo/Zoitc01/"/>
+        <Item7 Value="/home/android/Demo/Zoitc/"/>
+        <Item8 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
+        <Item9 Value="/home/android/Projekti/Popis/"/>
+        <Item10 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
+        <Item11 Value="/Zeljus/Lazarus/RDPGui/"/>
+        <Item12 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item13 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
+        <Item14 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
+        <Item15 Value="/Zeljus/Android/Projekti/Popis/android/"/>
+        <Item16 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Popis/"/>
+        <Item17 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/TestBarCode/"/>
+        <Item18 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Reciklaza/"/>
+        <Item19 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
+        <Item20 Value="/usr/local/pandroid/library/DataSet/jni/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">

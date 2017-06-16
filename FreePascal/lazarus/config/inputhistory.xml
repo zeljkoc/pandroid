@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="IdDBThread"/>
-          <Item2 Value="thread"/>
-          <Item3 Value="WindowManager ="/>
-          <Item4 Value="SwingUtilities ="/>
-          <Item5 Value="UIBTransaction"/>
-          <Item6 Value="UIBDataBase"/>
-          <Item7 Value="StringStream ="/>
-          <Item8 Value="ResultSet ="/>
-          <Item9 Value="Statement ="/>
-          <Item10 Value="Manager ="/>
-          <Item11 Value="DriverManager ="/>
-          <Item12 Value="StrictMode"/>
-          <Item13 Value="JLClass ="/>
-          <Item14 Value="FBDriver"/>
-          <Item15 Value="setAutoCommit"/>
-          <Item16 Value="drivers ="/>
-          <Item17 Value="FBDriver ="/>
-          <Item18 Value="LoadLibrary"/>
-          <Item19 Value="LayoutParams ="/>
-          <Item20 Value="toolchains"/>
+          <Item1 Value="Lock_Type"/>
+          <Item2 Value="EpcId"/>
+          <Item3 Value="TAGINFO"/>
+          <Item4 Value="RfidPower ="/>
+          <Item5 Value="AntPower"/>
+          <Item6 Value="File ="/>
+          <Item7 Value="FileWriter"/>
+          <Item8 Value="Power"/>
+          <Item9 Value="power ="/>
+          <Item10 Value="JUArrays"/>
+          <Item11 Value="JUArrayS"/>
+          <Item12 Value="Arrays"/>
+          <Item13 Value="InnerTAGINFO ="/>
+          <Item14 Value="epcId"/>
+          <Item15 Value="AntPowerConf ="/>
+          <Item16 Value="READER_ERR"/>
+          <Item17 Value="Power ="/>
+          <Item18 Value="MTR_PARAM_RF_ANTPOWER"/>
+          <Item19 Value="IdDBThread"/>
+          <Item20 Value="thread"/>
         </Find>
         <Replace Count="1">
           <Item1 Value="IBConn"/>
@@ -45,25 +45,25 @@
     <FileDialog InitialDir="/home/android/Demo/cz/">
       <HistoryList Count="20">
         <Item1 Value="/home/android/Demo/cz/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item3 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
-        <Item4 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
-        <Item5 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
-        <Item6 Value="/home/android/Demo/Zoitc01/"/>
-        <Item7 Value="/home/android/Demo/Zoitc/"/>
-        <Item8 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
-        <Item9 Value="/home/android/Projekti/Popis/"/>
-        <Item10 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
-        <Item11 Value="/Zeljus/Lazarus/RDPGui/"/>
-        <Item12 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item13 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item14 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
-        <Item15 Value="/Zeljus/Android/Projekti/Popis/android/"/>
-        <Item16 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Popis/"/>
-        <Item17 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/TestBarCode/"/>
-        <Item18 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Reciklaza/"/>
-        <Item19 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
-        <Item20 Value="/usr/local/pandroid/library/DataSet/jni/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item4 Value="/Zeljus/Lazarus/KorektJarToPas/"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item6 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
+        <Item7 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
+        <Item8 Value="/home/android/Demo/Zoitc01/"/>
+        <Item9 Value="/home/android/Demo/Zoitc/"/>
+        <Item10 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
+        <Item11 Value="/home/android/Projekti/Popis/"/>
+        <Item12 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
+        <Item13 Value="/Zeljus/Lazarus/RDPGui/"/>
+        <Item14 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
+        <Item15 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
+        <Item16 Value="/Zeljus/Android/Projekti/Popis/android/"/>
+        <Item17 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Popis/"/>
+        <Item18 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/TestBarCode/"/>
+        <Item19 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Reciklaza/"/>
+        <Item20 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="1">
@@ -72,9 +72,10 @@
         <Item2 Value="*"/>
       </List0>
     </HistoryLists>
-    <FileEncodings Count="2">
-      <Item0 Name="/Zeljus/Lazarus/RDPGui/RdpGui.lpr"/>
-      <Item1 Name="/Zeljus/Lazarus/TEMP/Indy/project1.lpr"/>
+    <FileEncodings Count="3">
+      <Item0 Name="/Zeljus/Lazarus/KorektJarToPas/KorektJarToPas.lpr"/>
+      <Item1 Name="/Zeljus/Lazarus/RDPGui/RdpGui.lpr"/>
+      <Item2 Name="/Zeljus/Lazarus/TEMP/Indy/project1.lpr"/>
     </FileEncodings>
   </InputHistory>
 </CONFIG>

@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/home/android/Demo/cz/Test.lpi"/>
+    <AutoSave LastSavedProjectFile="/home/android/Demo/cz/Test.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/Zeljus/Lazarus/TEMP/Indy/unit1.pas"/>
-        <Item2 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
-        <Item3 Value="/Zeljus/Lazarus/RDPGui/fOptions.pas"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/classes/classesh.inc"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/diskh.inc"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/disk.inc"/>
-        <Item7 Value="/Zeljus/Lazarus/RDPGui/fMain.pas"/>
-        <Item8 Value="/usr/local/pandroid/units/pascal/StdCtrls.pas"/>
-        <Item9 Value="/Zeljus/Android/Projekti/PDATrgovina/PandroidModule.inc"/>
-        <Item10 Value="/usr/local/pandroid/units/pascal/Dialogs.pas"/>
+        <Item1 Value="/Zeljus/Lazarus/KorektJarToPas/fMain.pas"/>
+        <Item2 Value="/home/android/Demo/cz/Module_CZ8800.inc"/>
+        <Item3 Value="/home/android/Demo/cz/Module_CZ8800.pas"/>
+        <Item4 Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Item5 Value="/Zeljus/Lazarus/TEMP/Indy/unit1.pas"/>
+        <Item6 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
+        <Item7 Value="/Zeljus/Lazarus/RDPGui/fOptions.pas"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/classes/classesh.inc"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/diskh.inc"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/disk.inc"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/home/android/Demo/cz/Test.lpi"/>
-        <Item2 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
-        <Item3 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/project1.lpi"/>
-        <Item4 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina.lpi"/>
-        <Item5 Value="/Zeljus/Android/Projekti/PDAPristup/PDAPristup.lpi"/>
+        <Item2 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina.lpi"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
+        <Item4 Value="/Zeljus/Lazarus/KorektJarToPas/KorektJarToPas.lpi"/>
+        <Item5 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

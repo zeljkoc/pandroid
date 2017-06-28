@@ -42,6 +42,7 @@ if 64bit then install :
 
 $: su
 #: dpkg --add-architecture i386
+
 #: apt-get install libgtk2.0-dev:i386 gdb:i386
 
 

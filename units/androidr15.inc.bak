@@ -756,6 +756,9 @@
 
       Innerraw = class sealed external 'android' name 'raw' (JLObject)
       public
+        var
+          fBeep : jint; external name 'beep';
+      public
         constructor create(); overload;
       end;
 
@@ -50369,7 +50372,7 @@
     procedure offsetTopAndBottom(para1: jint); overload; virtual;
     procedure offsetLeftAndRight(para1: jint); overload; virtual;
     function getLayoutParams(): AVViewGroup_LayoutParams; overload; virtual;
-    procedure setLayoutParams(para1: AWLinearLayout.InnerLayoutParams); overload; virtual;
+    procedure setLayoutParams(para1: AVViewGroup_LayoutParams); overload; virtual;
     procedure scrollTo(para1: jint; para2: jint); overload; virtual;
     procedure scrollBy(para1: jint; para2: jint); overload; virtual;
   strict protected

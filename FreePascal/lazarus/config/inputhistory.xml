@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="Lock_Type"/>
-          <Item2 Value="EpcId"/>
-          <Item3 Value="TAGINFO"/>
-          <Item4 Value="RfidPower ="/>
-          <Item5 Value="AntPower"/>
-          <Item6 Value="File ="/>
-          <Item7 Value="FileWriter"/>
-          <Item8 Value="Power"/>
-          <Item9 Value="power ="/>
-          <Item10 Value="JUArrays"/>
-          <Item11 Value="JUArrayS"/>
-          <Item12 Value="Arrays"/>
-          <Item13 Value="InnerTAGINFO ="/>
-          <Item14 Value="epcId"/>
-          <Item15 Value="AntPowerConf ="/>
-          <Item16 Value="READER_ERR"/>
-          <Item17 Value="Power ="/>
-          <Item18 Value="MTR_PARAM_RF_ANTPOWER"/>
-          <Item19 Value="IdDBThread"/>
-          <Item20 Value="thread"/>
+          <Item1 Value="InnerTAGINFO"/>
+          <Item2 Value="uants"/>
+          <Item3 Value="InnerREADER_ERR"/>
+          <Item4 Value="MTR_PARAM_POTL_GEN2_SESSION"/>
+          <Item5 Value="NXP_SetReadProtect"/>
+          <Item6 Value="MT_OK_ERR"/>
+          <Item7 Value="MODULE_TWO_ANTS"/>
+          <Item8 Value="KILL_PASSWORD_UNLOCK"/>
+          <Item9 Value="LOCK_OBJECT_KILL_PASSWORD"/>
+          <Item10 Value="RG_NONE"/>
+          <Item11 Value="SL_TAG_PROTOCOL_NONE"/>
+          <Item12 Value="MODOULE_NONE"/>
+          <Item13 Value="8800"/>
+          <Item14 Value="Runnable ="/>
+          <Item15 Value="READER_ERR"/>
+          <Item16 Value="PDATYPE"/>
+          <Item17 Value="tfs"/>
+          <Item18 Value="AudioManager ="/>
+          <Item19 Value="SoundPool ="/>
+          <Item20 Value="Clone"/>
         </Find>
         <Replace Count="1">
           <Item1 Value="IBConn"/>
@@ -45,37 +45,48 @@
     <FileDialog InitialDir="/home/android/Demo/cz/">
       <HistoryList Count="20">
         <Item1 Value="/home/android/Demo/cz/"/>
-        <Item2 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item4 Value="/Zeljus/Lazarus/KorektJarToPas/"/>
-        <Item5 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item6 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
-        <Item7 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
-        <Item8 Value="/home/android/Demo/Zoitc01/"/>
-        <Item9 Value="/home/android/Demo/Zoitc/"/>
-        <Item10 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
-        <Item11 Value="/home/android/Projekti/Popis/"/>
-        <Item12 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
-        <Item13 Value="/Zeljus/Lazarus/RDPGui/"/>
-        <Item14 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item15 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
-        <Item16 Value="/Zeljus/Android/Projekti/Popis/android/"/>
-        <Item17 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Popis/"/>
-        <Item18 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/TestBarCode/"/>
-        <Item19 Value="/home/zeljko/RAZVOJ/Android/Projekti/zeljus/Reciklaza/"/>
-        <Item20 Value="/usr/local/pandroid/library/FBSQlite/jni/"/>
+        <Item2 Value="/home/zeljko/RAZVOJ/TMP/test2/"/>
+        <Item3 Value="/home/android/Library/USB/phpjar/jni/"/>
+        <Item4 Value="/home/android/Demo/TestClone/pascalsrc/src/"/>
+        <Item5 Value="/home/android/Demo/TestClone/pascalsrc/jni/"/>
+        <Item6 Value="/home/android/Demo/TestClone/"/>
+        <Item7 Value="/home/android/Demo/cz/android/src/zeljus/com/test/"/>
+        <Item8 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/"/>
+        <Item9 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
+        <Item10 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
+        <Item11 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
+        <Item12 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item13 Value="/Zeljus/Lazarus/KorektJarToPas/"/>
+        <Item14 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item15 Value="/home/android/Demo/Zoitc01/"/>
+        <Item16 Value="/home/android/Demo/Zoitc/"/>
+        <Item17 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
+        <Item18 Value="/home/android/Projekti/Popis/"/>
+        <Item19 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
+        <Item20 Value="/Zeljus/Lazarus/RDPGui/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="1">
+    <HistoryLists Count="2">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>
       </List0>
+      <List1 Name="LaunchingApplication" Type="File" Count="1">
+        <Item1 Value="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </List1>
     </HistoryLists>
-    <FileEncodings Count="3">
+    <New>
+      <Project Type="Text"/>
+      <File Type="Text"/>
+    </New>
+    <Conversion>
+      <Delphi Package="/home/zeljko/RAZVOJ/PHP/php4delphi/php4DelphiR7.dpk" Unit="/home/zeljko/RAZVOJ/PHP/php4delphi/DelphiFunctions.pas"/>
+    </Conversion>
+    <FileEncodings Count="4">
       <Item0 Name="/Zeljus/Lazarus/KorektJarToPas/KorektJarToPas.lpr"/>
       <Item1 Name="/Zeljus/Lazarus/RDPGui/RdpGui.lpr"/>
       <Item2 Name="/Zeljus/Lazarus/TEMP/Indy/project1.lpr"/>
+      <Item3 Name="/home/zeljko/RAZVOJ/TMP/test2/project1.lpr"/>
     </FileEncodings>
   </InputHistory>
 </CONFIG>

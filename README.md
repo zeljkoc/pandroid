@@ -14,9 +14,11 @@ Change source Pandroid: 15.08.2016.
 #Debian 8.5 32 LXDE #: apt-get install openjdk-7-jdk
 #Mint 18 32 MATE    #: apt-get install openjdk-8-jdk
 
+ $: su
+
  #: apt-get update
 
- #: apt-get install libgtk2.0-dev gdb openjdk-7-jdk android-tools-adb ant mtp-tools zip
+ #: apt-get install libgtk2.0-dev gdb openjdk-7-jdk android-tools-adb ant mtp-tools zip git
 
  
  #: cd /usr/local
@@ -24,6 +26,10 @@ Change source Pandroid: 15.08.2016.
  #: git clone https://github.com/zeljkoc/pandroid.git
 
  #: chmod 0777 -R pandroid
+
+ #: exit
+
+ $: cp /usr/local/pandroid/FreePascal/lazarus.desktop $HOME/Desktop/lazarus.desktop
 
 
  

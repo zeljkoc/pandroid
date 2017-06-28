@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/home/android/Demo/cz/Test.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/Zeljus/Lazarus/KorektJarToPas/fMain.pas"/>
-        <Item2 Value="/home/android/Demo/cz/Module_CZ8800.inc"/>
-        <Item3 Value="/home/android/Demo/cz/Module_CZ8800.pas"/>
-        <Item4 Value="/usr/local/pandroid/units/androidr15.pas"/>
-        <Item5 Value="/Zeljus/Lazarus/TEMP/Indy/unit1.pas"/>
-        <Item6 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
-        <Item7 Value="/Zeljus/Lazarus/RDPGui/fOptions.pas"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/classes/classesh.inc"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/diskh.inc"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/disk.inc"/>
+        <Item1 Value="/home/android/Library/USB/phpjar/jni/DataModule.pas"/>
+        <Item2 Value="/home/android/Demo/TestClone/pascalsrc/src/JavaModule.java"/>
+        <Item3 Value="/home/android/Demo/TestClone/JavaModule.pas"/>
+        <Item4 Value="/home/android/Demo/cz/ModuleApiCZ8800.inc"/>
+        <Item5 Value="/home/android/Demo/cz/ModuleApiCZ8800.pas"/>
+        <Item6 Value="/home/android/Demo/cz/android/src/zeljus/com/test/ZCReader.java"/>
+        <Item7 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/PHPCommon.pas"/>
+        <Item8 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/phpClass.pas"/>
+        <Item9 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/PHPTypes.pas"/>
+        <Item10 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/PHPFunctions.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="/home/android/Demo/cz/Test.lpi"/>
-        <Item2 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina.lpi"/>
-        <Item3 Value="/Zeljus/Android/Projekti/Popis/Popis.lpi"/>
-        <Item4 Value="/Zeljus/Lazarus/KorektJarToPas/KorektJarToPas.lpi"/>
-        <Item5 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
+        <Item2 Value="/home/zeljko/RAZVOJ/TMP/test2/project1.lpi"/>
+        <Item3 Value="/home/android/Library/USB/phpjar/jni/project1.lpi"/>
+        <Item4 Value="/home/android/Demo/TestClone/pascalsrc/jni/project1.lpi"/>
+        <Item5 Value="/home/android/Demo/TestClone/Test.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="6">
         <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>

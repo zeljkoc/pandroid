@@ -20,6 +20,11 @@ Change source Pandroid: 15.08.2016.
 
  #: apt-get install libgtk2.0-dev gdb openjdk-7-jdk android-tools-adb ant mtp-tools zip git
 
+
+
+
+  
+
  
  #: cd /usr/local
 
@@ -32,7 +37,12 @@ Change source Pandroid: 15.08.2016.
  $: cp /usr/local/pandroid/FreePascal/lazarus.desktop $HOME/Desktop/lazarus.desktop
 
 
- 
+--------------------------------
+if 64bit then install :
+
+$: su
+#: dpkg --add-architecture i386
+#: apt-get install libgtk2.0-dev:i386 gdb:i386
 
 
 

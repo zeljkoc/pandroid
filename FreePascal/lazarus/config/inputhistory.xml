@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="InnerTAGINFO"/>
-          <Item2 Value="uants"/>
-          <Item3 Value="InnerREADER_ERR"/>
-          <Item4 Value="MTR_PARAM_POTL_GEN2_SESSION"/>
-          <Item5 Value="NXP_SetReadProtect"/>
-          <Item6 Value="MT_OK_ERR"/>
-          <Item7 Value="MODULE_TWO_ANTS"/>
-          <Item8 Value="KILL_PASSWORD_UNLOCK"/>
-          <Item9 Value="LOCK_OBJECT_KILL_PASSWORD"/>
-          <Item10 Value="RG_NONE"/>
-          <Item11 Value="SL_TAG_PROTOCOL_NONE"/>
-          <Item12 Value="MODOULE_NONE"/>
-          <Item13 Value="8800"/>
-          <Item14 Value="Runnable ="/>
-          <Item15 Value="READER_ERR"/>
-          <Item16 Value="PDATYPE"/>
-          <Item17 Value="tfs"/>
-          <Item18 Value="AudioManager ="/>
-          <Item19 Value="SoundPool ="/>
-          <Item20 Value="Clone"/>
+          <Item1 Value="TipRad"/>
+          <Item2 Value="InnerTAGINFO"/>
+          <Item3 Value="uants"/>
+          <Item4 Value="InnerREADER_ERR"/>
+          <Item5 Value="MTR_PARAM_POTL_GEN2_SESSION"/>
+          <Item6 Value="NXP_SetReadProtect"/>
+          <Item7 Value="MT_OK_ERR"/>
+          <Item8 Value="MODULE_TWO_ANTS"/>
+          <Item9 Value="KILL_PASSWORD_UNLOCK"/>
+          <Item10 Value="LOCK_OBJECT_KILL_PASSWORD"/>
+          <Item11 Value="RG_NONE"/>
+          <Item12 Value="SL_TAG_PROTOCOL_NONE"/>
+          <Item13 Value="MODOULE_NONE"/>
+          <Item14 Value="8800"/>
+          <Item15 Value="Runnable ="/>
+          <Item16 Value="READER_ERR"/>
+          <Item17 Value="PDATYPE"/>
+          <Item18 Value="tfs"/>
+          <Item19 Value="AudioManager ="/>
+          <Item20 Value="SoundPool ="/>
         </Find>
         <Replace Count="1">
           <Item1 Value="IBConn"/>
@@ -42,28 +42,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="/home/android/Demo/cz/">
+    <FileDialog InitialDir="/Zeljus/Android/Projekti/Reciklaza/">
       <HistoryList Count="20">
-        <Item1 Value="/home/android/Demo/cz/"/>
-        <Item2 Value="/home/zeljko/RAZVOJ/TMP/test2/"/>
-        <Item3 Value="/home/android/Library/USB/phpjar/jni/"/>
-        <Item4 Value="/home/android/Demo/TestClone/pascalsrc/src/"/>
-        <Item5 Value="/home/android/Demo/TestClone/pascalsrc/jni/"/>
-        <Item6 Value="/home/android/Demo/TestClone/"/>
-        <Item7 Value="/home/android/Demo/cz/android/src/zeljus/com/test/"/>
-        <Item8 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/"/>
-        <Item9 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
-        <Item10 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
-        <Item11 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
-        <Item12 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item13 Value="/Zeljus/Lazarus/KorektJarToPas/"/>
-        <Item14 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item15 Value="/home/android/Demo/Zoitc01/"/>
-        <Item16 Value="/home/android/Demo/Zoitc/"/>
-        <Item17 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
-        <Item18 Value="/home/android/Projekti/Popis/"/>
-        <Item19 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
-        <Item20 Value="/Zeljus/Lazarus/RDPGui/"/>
+        <Item1 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
+        <Item2 Value="/home/android/Demo/cz/"/>
+        <Item3 Value="/home/zeljko/RAZVOJ/TMP/test2/"/>
+        <Item4 Value="/home/android/Library/USB/phpjar/jni/"/>
+        <Item5 Value="/home/android/Demo/TestClone/pascalsrc/src/"/>
+        <Item6 Value="/home/android/Demo/TestClone/pascalsrc/jni/"/>
+        <Item7 Value="/home/android/Demo/TestClone/"/>
+        <Item8 Value="/home/android/Demo/cz/android/src/zeljus/com/test/"/>
+        <Item9 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/"/>
+        <Item10 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
+        <Item11 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
+        <Item12 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
+        <Item13 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item14 Value="/Zeljus/Lazarus/KorektJarToPas/"/>
+        <Item15 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item16 Value="/home/android/Demo/Zoitc01/"/>
+        <Item17 Value="/home/android/Demo/Zoitc/"/>
+        <Item18 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
+        <Item19 Value="/home/android/Projekti/Popis/"/>
+        <Item20 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="2">

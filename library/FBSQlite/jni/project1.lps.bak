@@ -3,7 +3,7 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="13">
+    <Units Count="10">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -16,88 +16,67 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="278"/>
-        <CursorPos X="60" Y="300"/>
+        <TopLine Value="305"/>
+        <CursorPos X="71" Y="313"/>
         <UsageCount Value="382"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="../../../indy/indy-10.2.0.3/fpc/IdIOHandlerSocket.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="191"/>
-        <CursorPos X="32" Y="215"/>
-        <UsageCount Value="1"/>
-      </Unit2>
-      <Unit3>
-        <Filename Value="../../../indy/indy-10.2.0.3/fpc/IdGlobal.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="780"/>
-        <CursorPos X="19" Y="804"/>
-        <UsageCount Value="1"/>
-      </Unit3>
-      <Unit4>
         <Filename Value="../../../indy/indy-10.2.0.3/fpc/IdHTTP.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="380"/>
         <CursorPos X="3" Y="416"/>
-        <UsageCount Value="11"/>
-      </Unit4>
-      <Unit5>
+        <UsageCount Value="9"/>
+      </Unit2>
+      <Unit3>
         <Filename Value="../../../indy/indy-10.2.0.3/fpc/IdHTTPHeaderInfo.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="45"/>
         <CursorPos X="22" Y="59"/>
-        <UsageCount Value="11"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="../../../../../lib/codetyphon/typhon/components/pl_Synapse/source/ssfpc.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="50"/>
-        <CursorPos X="81" Y="60"/>
-        <UsageCount Value="2"/>
-      </Unit6>
-      <Unit7>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
         <Filename Value="../src/jnireplicate.java"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="32" Y="21"/>
-        <UsageCount Value="47"/>
+        <CursorPos X="59" Y="21"/>
+        <UsageCount Value="58"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Java"/>
-      </Unit7>
-      <Unit8>
+      </Unit4>
+      <Unit5>
         <Filename Value="../../../../codetyphon/fpcsrc/packages/jni/src/jni.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="18" Y="114"/>
-        <UsageCount Value="3"/>
-      </Unit8>
-      <Unit9>
+        <UsageCount Value="1"/>
+      </Unit5>
+      <Unit6>
         <Filename Value="../../../../codetyphon/fpcsrc/rtl/objpas/sysutils/sysutilh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="87"/>
         <CursorPos X="4" Y="107"/>
-        <UsageCount Value="33"/>
-      </Unit9>
-      <Unit10>
+        <UsageCount Value="31"/>
+      </Unit6>
+      <Unit7>
         <Filename Value="../../../../codetyphon/fpcsrc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="95"/>
         <CursorPos X="20" Y="115"/>
-        <UsageCount Value="10"/>
-      </Unit10>
-      <Unit11>
+        <UsageCount Value="8"/>
+      </Unit7>
+      <Unit8>
         <Filename Value="../compile.sh"/>
         <EditorIndex Value="3"/>
         <CursorPos Y="21"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
-      </Unit11>
-      <Unit12>
+      </Unit8>
+      <Unit9>
         <Filename Value="../../../../codetyphon/typhon/components/pl_Synapse/source/httpsend.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="47" Y="5"/>
-        <UsageCount Value="10"/>
-      </Unit12>
+        <UsageCount Value="8"/>
+      </Unit9>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
@@ -190,35 +169,35 @@
       </Position22>
       <Position23>
         <Filename Value="insertRecord.pas"/>
-        <Caret Line="11" Column="46" TopLine="22"/>
+        <Caret Line="13" Column="22"/>
       </Position23>
       <Position24>
         <Filename Value="insertRecord.pas"/>
-        <Caret Line="13" Column="22"/>
+        <Caret Line="206" Column="16" TopLine="172"/>
       </Position24>
       <Position25>
         <Filename Value="insertRecord.pas"/>
-        <Caret Line="206" Column="16" TopLine="172"/>
+        <Caret Line="202" Column="18" TopLine="172"/>
       </Position25>
       <Position26>
         <Filename Value="insertRecord.pas"/>
-        <Caret Line="202" Column="18" TopLine="172"/>
+        <Caret Line="228" Column="32" TopLine="198"/>
       </Position26>
       <Position27>
         <Filename Value="insertRecord.pas"/>
-        <Caret Line="228" Column="32" TopLine="198"/>
+        <Caret Line="271" Column="37" TopLine="229"/>
       </Position27>
       <Position28>
         <Filename Value="insertRecord.pas"/>
-        <Caret Line="271" Column="37" TopLine="229"/>
+        <Caret Line="367" Column="65" TopLine="329"/>
       </Position28>
       <Position29>
         <Filename Value="insertRecord.pas"/>
-        <Caret Line="367" Column="65" TopLine="329"/>
+        <Caret Line="311" Column="46" TopLine="281"/>
       </Position29>
       <Position30>
         <Filename Value="insertRecord.pas"/>
-        <Caret Line="311" Column="46" TopLine="281"/>
+        <Caret Line="367" Column="62" TopLine="334"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

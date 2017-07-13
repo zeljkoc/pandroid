@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,31 +67,32 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/home/android/Library/USB/phpjar/jni/DataModule.pas"/>
-        <Item2 Value="/home/android/Demo/TestClone/pascalsrc/src/JavaModule.java"/>
-        <Item3 Value="/home/android/Demo/TestClone/JavaModule.pas"/>
-        <Item4 Value="/home/android/Demo/cz/ModuleApiCZ8800.inc"/>
-        <Item5 Value="/home/android/Demo/cz/ModuleApiCZ8800.pas"/>
-        <Item6 Value="/home/android/Demo/cz/android/src/zeljus/com/test/ZCReader.java"/>
-        <Item7 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/PHPCommon.pas"/>
-        <Item8 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/phpClass.pas"/>
-        <Item9 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/PHPTypes.pas"/>
-        <Item10 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/PHPFunctions.pas"/>
+        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/lresources.pp"/>
+        <Item2 Value="/Zeljus/Temp/GetLazarus/ComponentStream/MainUnit.pas"/>
+        <Item3 Value="/Zeljus/Component/Lazarus/RemoteComponent/IdZCComponent.pas"/>
+        <Item4 Value="/Zeljus/Component/Lazarus/RemoteComponent/Demo/unit1.pas"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
+        <Item6 Value="/Zeljus/Component/Lazarus/fblib/FBLDatabase.pas"/>
+        <Item7 Value="/Zeljus/Temp/GetLazarus/Property/GpProperty.pas"/>
+        <Item8 Value="/Zeljus/Temp/GetLazarus/Property/DSiWin32.pas"/>
+        <Item9 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/typinfo.pp"/>
+        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uib.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/Zeljus/Android/Projekti/Reciklaza/Reciklaza.lpi"/>
-        <Item2 Value="/home/android/Demo/cz/Test.lpi"/>
-        <Item3 Value="/home/zeljko/RAZVOJ/TMP/test2/project1.lpi"/>
-        <Item4 Value="/home/android/Library/USB/phpjar/jni/project1.lpi"/>
-        <Item5 Value="/home/android/Demo/TestClone/pascalsrc/jni/project1.lpi"/>
+        <Item1 Value="/Zeljus/Temp/GetLazarus/ComponentStream/ComponentStream.lpi"/>
+        <Item2 Value="/Zeljus/Component/Lazarus/RemoteComponent/Demo/project1.lpi"/>
+        <Item3 Value="/Zeljus/Temp/GetLazarus/StringStream/project1.lpi"/>
+        <Item4 Value="/home/android/Demo/Indy/pascalsrc/jni/project1.lpi"/>
+        <Item5 Value="/home/android/Demo/Kasa/pascalsrc/jni/project1.lpi"/>
       </ProjectFiles>
-      <PackageFiles Count="6">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>
-        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/sqldb/sqldblaz.lpk"/>
-        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/customdrawn/customdrawn.lpk"/>
-        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uiblaz.lpk"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
+      <PackageFiles Count="7">
+        <Item1 Value="/Zeljus/Component/Lazarus/RemoteComponent/pRemoteComponent.lpk"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/lazarus/indylaz.lpk"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/sqldb/sqldblaz.lpk"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/lazarus/components/customdrawn/customdrawn.lpk"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ideintf.lpk"/>
+        <Item6 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/uiblaz.lpk"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/lazarus/components/appexplore/appexplore.lpk"/>
       </PackageFiles>
     </Recent>
     <ExternalTools Version="3" Count="2">

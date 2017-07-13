@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="TipRad"/>
-          <Item2 Value="InnerTAGINFO"/>
-          <Item3 Value="uants"/>
-          <Item4 Value="InnerREADER_ERR"/>
-          <Item5 Value="MTR_PARAM_POTL_GEN2_SESSION"/>
-          <Item6 Value="NXP_SetReadProtect"/>
-          <Item7 Value="MT_OK_ERR"/>
-          <Item8 Value="MODULE_TWO_ANTS"/>
-          <Item9 Value="KILL_PASSWORD_UNLOCK"/>
-          <Item10 Value="LOCK_OBJECT_KILL_PASSWORD"/>
-          <Item11 Value="RG_NONE"/>
-          <Item12 Value="SL_TAG_PROTOCOL_NONE"/>
-          <Item13 Value="MODOULE_NONE"/>
-          <Item14 Value="8800"/>
-          <Item15 Value="Runnable ="/>
-          <Item16 Value="READER_ERR"/>
-          <Item17 Value="PDATYPE"/>
-          <Item18 Value="tfs"/>
-          <Item19 Value="AudioManager ="/>
-          <Item20 Value="SoundPool ="/>
+          <Item1 Value="FindProp"/>
+          <Item2 Value="TCPClient"/>
+          <Item3 Value="libfbclient"/>
+          <Item4 Value="lib"/>
+          <Item5 Value="Environment ="/>
+          <Item6 Value="Runtime ="/>
+          <Item7 Value="StringBuffer = "/>
+          <Item8 Value="connection ="/>
+          <Item9 Value="JTXXid"/>
+          <Item10 Value="Connection ="/>
+          <Item11 Value="DriverManager ="/>
+          <Item12 Value="rdata"/>
+          <Item13 Value="WriteTagEpcEx"/>
+          <Item14 Value="InnerSL_TagProtocol"/>
+          <Item15 Value="src"/>
+          <Item16 Value="filisinver"/>
+          <Item17 Value="filadr"/>
+          <Item18 Value="fildata"/>
+          <Item19 Value="filbank"/>
+          <Item20 Value="RG_PRC"/>
         </Find>
         <Replace Count="1">
           <Item1 Value="IBConn"/>
@@ -42,28 +42,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="/Zeljus/Android/Projekti/Reciklaza/">
+    <FileDialog Width="792" Height="804" InitialDir="/Zeljus/Temp/GetLazarus/ComponentStream/">
       <HistoryList Count="20">
-        <Item1 Value="/Zeljus/Android/Projekti/Reciklaza/"/>
-        <Item2 Value="/home/android/Demo/cz/"/>
-        <Item3 Value="/home/zeljko/RAZVOJ/TMP/test2/"/>
-        <Item4 Value="/home/android/Library/USB/phpjar/jni/"/>
-        <Item5 Value="/home/android/Demo/TestClone/pascalsrc/src/"/>
-        <Item6 Value="/home/android/Demo/TestClone/pascalsrc/jni/"/>
-        <Item7 Value="/home/android/Demo/TestClone/"/>
-        <Item8 Value="/home/android/Demo/cz/android/src/zeljus/com/test/"/>
-        <Item9 Value="/home/zeljko/RAZVOJ/PHP/php4delphi/"/>
-        <Item10 Value="/Zeljus/Android/Projekti/PDAPristup/"/>
-        <Item11 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
-        <Item12 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
-        <Item13 Value="/Zeljus/Android/Projekti/Popis/"/>
-        <Item14 Value="/Zeljus/Lazarus/KorektJarToPas/"/>
-        <Item15 Value="/Zeljus/Android/Projekti/Kasa/"/>
-        <Item16 Value="/home/android/Demo/Zoitc01/"/>
-        <Item17 Value="/home/android/Demo/Zoitc/"/>
-        <Item18 Value="/Zeljus/Lazarus/TEMP/Indy/"/>
-        <Item19 Value="/home/android/Projekti/Popis/"/>
-        <Item20 Value="/Zeljus/Android/Projekti/PDAPristup/pascalsrc/jni/"/>
+        <Item1 Value="/Zeljus/Temp/GetLazarus/ComponentStream/"/>
+        <Item2 Value="/Zeljus/Component/Lazarus/RemoteComponent/"/>
+        <Item3 Value="/Zeljus/Component/Lazarus/RemoteComponent/Demo/"/>
+        <Item4 Value="/Zeljus/Temp/GetLazarus/StringStream/"/>
+        <Item5 Value="/Zeljus/Temp/GetLazarus/"/>
+        <Item6 Value="/home/android/Demo/Indy/pascalsrc/jni/"/>
+        <Item7 Value="/home/android/Demo/TestBaza/pascalsrc/jni/"/>
+        <Item8 Value="/home/android/Demo/Kasa/pascalsrc/jni/"/>
+        <Item9 Value="/Zeljus/Android/INDY/Test/idPdaServerStream/"/>
+        <Item10 Value="/Zeljus/Android/Projekti/PDADrvoprerada/pascalsrc/jni/"/>
+        <Item11 Value="/home/android/Demo/TestClone/pascalsrc/jni/"/>
+        <Item12 Value="/home/android/Demo/ExecuteStream/"/>
+        <Item13 Value="/Zeljus/Temp/GetLazarus/Property/"/>
+        <Item14 Value="/home/zeljko/RAZVOJ/zeljus/Ostalo/CT/idserver_daemon/"/>
+        <Item15 Value="/home/zeljko/RAZVOJ/TMP/test2/"/>
+        <Item16 Value="/home/android/Demo/Indy/"/>
+        <Item17 Value="/Zeljus/Android/Projekti/PDADrvoprerada/"/>
+        <Item18 Value="/home/zeljko/Desktop/Zeljus/zzz/"/>
+        <Item19 Value="/Zeljus/Temp/GetLazarus/UIB/"/>
+        <Item20 Value="/Zeljus/Android/INDY/idPdaServerStream/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="2">
@@ -76,17 +76,24 @@
       </List1>
     </HistoryLists>
     <New>
-      <Project Type="Text"/>
-      <File Type="Text"/>
+      <Project Type="Unit"/>
+      <File Type="Unit"/>
     </New>
     <Conversion>
-      <Delphi Package="/home/zeljko/RAZVOJ/PHP/php4delphi/php4DelphiR7.dpk" Unit="/home/zeljko/RAZVOJ/PHP/php4delphi/DelphiFunctions.pas"/>
+      <Delphi Project="/Zeljus/Download/IdTcpClientAndServerExample-master/ClientProj.dpr" Package="/home/zeljko/RAZVOJ/PHP/php4delphi/php4DelphiR7.dpk" Unit="/Zeljus/Download/fpc-socket-class-master/clienttest.pas"/>
     </Conversion>
-    <FileEncodings Count="4">
-      <Item0 Name="/Zeljus/Lazarus/KorektJarToPas/KorektJarToPas.lpr"/>
-      <Item1 Name="/Zeljus/Lazarus/RDPGui/RdpGui.lpr"/>
-      <Item2 Name="/Zeljus/Lazarus/TEMP/Indy/project1.lpr"/>
-      <Item3 Name="/home/zeljko/RAZVOJ/TMP/test2/project1.lpr"/>
+    <FileEncodings Count="11">
+      <Item0 Name="/Zeljus/Component/Lazarus/RemoteComponent/Demo/project1.lpr"/>
+      <Item1 Name="/Zeljus/Lazarus/KorektJarToPas/KorektJarToPas.lpr"/>
+      <Item2 Name="/Zeljus/Lazarus/RDPGui/RdpGui.lpr"/>
+      <Item3 Name="/Zeljus/Lazarus/TEMP/Indy/project1.lpr"/>
+      <Item4 Name="/Zeljus/Temp/GetLazarus/ComponentStream/ComponentStream.lpr"/>
+      <Item5 Name="/Zeljus/Temp/GetLazarus/Property/project1.lpr"/>
+      <Item6 Name="/Zeljus/Temp/GetLazarus/StringStream/project1.lpr"/>
+      <Item7 Name="/Zeljus/Temp/GetLazarus/UIB/project1.lpr"/>
+      <Item8 Name="/Zeljus/Temp/GetLazarus/UIB_Stream/project1.lpr"/>
+      <Item9 Name="/home/zeljko/RAZVOJ/TMP/Test3Streeam/project1.lpr"/>
+      <Item10 Name="/home/zeljko/RAZVOJ/TMP/test2/project1.lpr"/>
     </FileEncodings>
   </InputHistory>
 </CONFIG>

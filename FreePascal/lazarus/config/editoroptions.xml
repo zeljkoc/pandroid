@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <EditorOptions Version="11">
-    <Display DoNotWarnForFont="DejaVu Sans Mono"/>
+    <Display DoNotWarnForFont="Courier New"/>
     <KeyMapping>
       <default>
         <Version Value="6"/>

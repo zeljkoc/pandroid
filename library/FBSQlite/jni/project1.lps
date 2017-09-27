@@ -16,8 +16,8 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="418"/>
-        <CursorPos X="34" Y="11"/>
+        <TopLine Value="200"/>
+        <CursorPos Y="74"/>
         <UsageCount Value="382"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -39,7 +39,7 @@
         <Filename Value="../src/jnireplicate.java"/>
         <EditorIndex Value="2"/>
         <CursorPos X="59" Y="21"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Java"/>
       </Unit4>
@@ -67,7 +67,7 @@
         <Filename Value="../compile.sh"/>
         <EditorIndex Value="3"/>
         <CursorPos Y="21"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit8>

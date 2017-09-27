@@ -23,7 +23,7 @@ const
   {$ifdef HAIKU}
     LibDL = 'root';
   {$else}
-    LibDL = 'dl';
+      LibDL = 'dl';
   {$endif}
 {$endif}
 

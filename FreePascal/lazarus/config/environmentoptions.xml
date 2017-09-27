@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave LastSavedProjectFile="/Zeljus/Temp/CodeTyphon/Indy/Test5/TCPServer.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave LastSavedProjectFile="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina.lpi" OpenLastProjectAtStart="False" ActiveDesktop="False"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -67,23 +67,23 @@
     </DebuggerOptions>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/sharedunits/Unit_Indy_Functions.pas"/>
-        <Item2 Value="/Zeljus/Temp/CodeTyphon/Indy/Test5/unit1.pas"/>
-        <Item3 Value="/Zeljus/Temp/CodeTyphon/Indy/Test03/Client/unit1.pas"/>
-        <Item4 Value="/Zeljus/Temp/CodeTyphon/Indy/Test03/Server/unit1.pas"/>
-        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/classes/classesh.inc"/>
-        <Item6 Value="/usr/local/pandroid/FreePascal/lazarus/components/indy/fpc/IdIOHandler.pas"/>
-        <Item7 Value="/Zeljus/Android/INDY/ZeljusServer/ZCPdaServer/TcpServer.pas"/>
-        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/objpas/sysutils/syshelph.inc"/>
-        <Item9 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/stdctrls.pp"/>
-        <Item10 Value="/usr/local/pandroid/FreePascal/lazarus/lcl/include/lcl_defines.inc"/>
+        <Item1 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqlite/sqlite3conn.pp"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/fpc/packages/sqlite/src/sqlite3.inc"/>
+        <Item3 Value="/usr/local/pandroid/FreePascal/fpc/rtl/inc/dynlibs.pas"/>
+        <Item4 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqldblib.pp"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/src/sqldb/sqldb.pp"/>
+        <Item6 Value="/usr/local/pandroid/FreePascal/fpc/rtl/inc/dynlibh.inc"/>
+        <Item7 Value="/usr/local/pandroid/FreePascal/fpc/rtl/unix/sysdlh.inc"/>
+        <Item8 Value="/usr/local/pandroid/FreePascal/fpc/rtl/inc/dynlib.inc"/>
+        <Item9 Value="/usr/local/pandroid/units/AZCScrollButons.pas"/>
+        <Item10 Value="/usr/local/pandroid/units/ADBDataBase.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/Zeljus/Temp/CodeTyphon/Indy/Test5/TCPServer.lpi"/>
-        <Item2 Value="/Zeljus/Temp/CodeTyphon/Indy/Test03/indy10clieservr-code-108/4_sample Stream Exchange/server2/stream_server.lpi"/>
-        <Item3 Value="/Zeljus/Temp/CodeTyphon/Indy/Test03/Client/Client.lpi"/>
-        <Item4 Value="/Zeljus/Temp/CodeTyphon/Indy/Test03/Server/Server.lpi"/>
-        <Item5 Value="/Zeljus/Temp/CodeTyphon/Indy/Test2/TCPClient/TCPClient.lpi"/>
+        <Item1 Value="/Zeljus/Android/Projekti/PDATrgovina/PDATrgovina.lpi"/>
+        <Item2 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/project1.lpi"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/project1.lpi"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Kasa/Kasa.lpi"/>
+        <Item5 Value="/Zeljus/Board/ElementiSenzori/PrimjeriPrograma/SMD/SMD.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="7">
         <Item1 Value="/Zeljus/Component/Lazarus/RemoteComponent/pRemoteComponent.lpk"/>

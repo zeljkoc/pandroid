@@ -5,26 +5,26 @@
     <Find>
       <History>
         <Find Count="20">
-          <Item1 Value="Thread"/>
-          <Item2 Value="TComponent"/>
-          <Item3 Value="fSQLiteDataBaseName"/>
-          <Item4 Value="FindProp"/>
-          <Item5 Value="TCPClient"/>
-          <Item6 Value="libfbclient"/>
-          <Item7 Value="lib"/>
-          <Item8 Value="Environment ="/>
-          <Item9 Value="Runtime ="/>
-          <Item10 Value="StringBuffer = "/>
-          <Item11 Value="connection ="/>
-          <Item12 Value="JTXXid"/>
-          <Item13 Value="Connection ="/>
-          <Item14 Value="DriverManager ="/>
-          <Item15 Value="rdata"/>
-          <Item16 Value="WriteTagEpcEx"/>
-          <Item17 Value="InnerSL_TagProtocol"/>
-          <Item18 Value="src"/>
-          <Item19 Value="filisinver"/>
-          <Item20 Value="filadr"/>
+          <Item1 Value="FCType"/>
+          <Item2 Value="SQLiteDefaultLibrary"/>
+          <Item3 Value="dialog"/>
+          <Item4 Value="LibDL"/>
+          <Item5 Value="SQLiteLibraryName"/>
+          <Item6 Value="Load"/>
+          <Item7 Value="TUIBaseLibrary"/>
+          <Item8 Value="CPUASM"/>
+          <Item9 Value="CPUARM"/>
+          <Item10 Value="serial"/>
+          <Item11 Value="9600"/>
+          <Item12 Value="19200"/>
+          <Item13 Value="baud"/>
+          <Item14 Value="baudrate"/>
+          <Item15 Value="Thread"/>
+          <Item16 Value="TComponent"/>
+          <Item17 Value="fSQLiteDataBaseName"/>
+          <Item18 Value="FindProp"/>
+          <Item19 Value="TCPClient"/>
+          <Item20 Value="libfbclient"/>
         </Find>
         <Replace Count="1">
           <Item1 Value="IBConn"/>
@@ -33,8 +33,10 @@
     </Find>
     <FindInFiles>
       <History>
-        <Paths Count="1">
-          <Item1 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/"/>
+        <Paths Count="3">
+          <Item1 Value="/Zeljus/Component/Lazarus/uib25/"/>
+          <Item2 Value="/Zeljus/pascalio/"/>
+          <Item3 Value="/usr/local/pandroid/FreePascal/lazarus/components/uib25/"/>
         </Paths>
         <Masks Count="1">
           <Item1 Value="*.pas;*.pp;*.inc"/>
@@ -42,31 +44,31 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="804" InitialDir="/Zeljus/Temp/CodeTyphon/Indy/Test5/">
+    <FileDialog Width="792" Height="804" InitialDir="/Zeljus/Android/Projekti/PDATrgovina/">
       <HistoryList Count="20">
-        <Item1 Value="/Zeljus/Temp/CodeTyphon/Indy/Test5/"/>
-        <Item2 Value="/Zeljus/Temp/CodeTyphon/Indy/Test03/indy10clieservr-code-108/4_sample Stream Exchange/client2/"/>
-        <Item3 Value="/Zeljus/Temp/CodeTyphon/Indy/Test03/indy10clieservr-code-108/4_sample Stream Exchange/server2/"/>
-        <Item4 Value="/Zeljus/Temp/CodeTyphon/Indy/Test03/Client/"/>
-        <Item5 Value="/Zeljus/Temp/CodeTyphon/Indy/Test2/TCPClient/"/>
-        <Item6 Value="/Zeljus/Board/OrangePi/Projekti/Test/"/>
-        <Item7 Value="/Zeljus/Android/INDY/ZeljusServer/Test2/TCPServer/"/>
-        <Item8 Value="/Zeljus/Android/INDY/ZeljusServer/ZCClient/"/>
-        <Item9 Value="/Zeljus/Android/INDY/ZeljusServer/Test2/idserver_daemon/"/>
-        <Item10 Value="/Zeljus/Android/INDY/ZeljusServer/ZCPdaServer/"/>
-        <Item11 Value="/home/android/Demo/Indy/pascalsrc/jni/"/>
-        <Item12 Value="/Zeljus/Temp/GetLazarus/ComponentStream/"/>
-        <Item13 Value="/home/zeljko/RAZVOJ/"/>
-        <Item14 Value="/Zeljus/Temp/GetLazarus/TestUib/"/>
-        <Item15 Value="/home/android/Demo/Indy/"/>
-        <Item16 Value="/Zeljus/Component/Lazarus/RemoteComponent/"/>
-        <Item17 Value="/Zeljus/Component/Lazarus/RemoteComponent/Demo/"/>
-        <Item18 Value="/Zeljus/Temp/GetLazarus/StringStream/"/>
-        <Item19 Value="/Zeljus/Temp/GetLazarus/"/>
-        <Item20 Value="/home/android/Demo/TestBaza/pascalsrc/jni/"/>
+        <Item1 Value="/Zeljus/Android/Projekti/PDATrgovina/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/PDATrgovina/pascalsrc/jni/"/>
+        <Item3 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item4 Value="/Zeljus/Android/Projekti/Kasa/"/>
+        <Item5 Value="/Zeljus/Board/ElementiSenzori/PrimjeriPrograma/SMD/"/>
+        <Item6 Value="/Zeljus/Board/ElementiSenzori/PrimjeriPrograma/arduino2PCviaSerial/"/>
+        <Item7 Value="/Zeljus/Board/ElementiSenzori/PrimjeriPrograma/arduino2RPIviaSerial/RPICode/"/>
+        <Item8 Value="/Zeljus/Android/Projekti/Popis/"/>
+        <Item9 Value="/Zeljus/Android/INDY/idPdaServer/"/>
+        <Item10 Value="/Zeljus/Temp/GetLazarus/ComponentStream/"/>
+        <Item11 Value="/Zeljus/"/>
+        <Item12 Value="/Zeljus/pascalio/test/spi_linux/"/>
+        <Item13 Value="/home/zeljko/Desktop/TESTARM/"/>
+        <Item14 Value="/Zeljus/Temp/GetLazarus/Indy/AttacmentIdText/"/>
+        <Item15 Value="/Zeljus/Temp/GetLazarus/Indy/AttacmentMessage/"/>
+        <Item16 Value="/Zeljus/Temp/GetLazarus/Indy/Test5/Client/"/>
+        <Item17 Value="/Zeljus/Temp/GetLazarus/Indy/Test5/Server/"/>
+        <Item18 Value="/home/zeljko/Desktop/Indy/c/"/>
+        <Item19 Value="/home/zeljko/Desktop/Indy/b/r2daemon/"/>
+        <Item20 Value="/home/zeljko/Desktop/Indy/a/"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="4">
+    <HistoryLists Count="2">
       <List0 Name="CleanBuildFileMask" Type="File" Count="2">
         <Item1 Value="*.ppu;*.ppl;*.o;*.or"/>
         <Item2 Value="*"/>
@@ -82,7 +84,7 @@
     <Conversion>
       <Delphi Project="/Zeljus/Temp/CodeTyphon/Indy/Test03/indy10clieservr-code-108/4_sample Stream Exchange/server2/stream_server.dpr" Package="/home/zeljko/RAZVOJ/PHP/php4delphi/php4DelphiR7.dpk" Unit="/Zeljus/Temp/CodeTyphon/Indy/Test03/indy10clieservr-code-108/4_sample Stream Exchange/client2/Unit_StreamClient.pas"/>
     </Conversion>
-    <FileEncodings Count="16">
+    <FileEncodings Count="19">
       <Item0 Name="/Zeljus/Android/INDY/ZeljusServer/ZCPdaServer/ZCPDAServer.lpr"/>
       <Item1 Name="/Zeljus/Android/INDY/ZeljusServer/ZCPdaServer/ZCPdaServer.lpr"/>
       <Item2 Name="/Zeljus/Component/Lazarus/RemoteComponent/Demo/project1.lpr"/>
@@ -92,13 +94,16 @@
       <Item6 Name="/Zeljus/Temp/CodeTyphon/Indy/Test03/Client/Client.lpr"/>
       <Item7 Name="/Zeljus/Temp/CodeTyphon/Indy/Test5/TCPServer.lpr"/>
       <Item8 Name="/Zeljus/Temp/GetLazarus/ComponentStream/ComponentStream.lpr"/>
-      <Item9 Name="/Zeljus/Temp/GetLazarus/Property/project1.lpr"/>
-      <Item10 Name="/Zeljus/Temp/GetLazarus/StringStream/project1.lpr"/>
-      <Item11 Name="/Zeljus/Temp/GetLazarus/TestUib/project1.lpr"/>
-      <Item12 Name="/Zeljus/Temp/GetLazarus/UIB/project1.lpr"/>
-      <Item13 Name="/Zeljus/Temp/GetLazarus/UIB_Stream/project1.lpr"/>
-      <Item14 Name="/home/zeljko/RAZVOJ/TMP/Test3Streeam/project1.lpr"/>
-      <Item15 Name="/home/zeljko/RAZVOJ/TMP/test2/project1.lpr"/>
+      <Item9 Name="/Zeljus/Temp/GetLazarus/Indy/AttacmentMessage/project1.lpr"/>
+      <Item10 Name="/Zeljus/Temp/GetLazarus/Indy/Test5/Client/TCPClient.lpr"/>
+      <Item11 Name="/Zeljus/Temp/GetLazarus/Property/project1.lpr"/>
+      <Item12 Name="/Zeljus/Temp/GetLazarus/StringStream/project1.lpr"/>
+      <Item13 Name="/Zeljus/Temp/GetLazarus/TestUib/project1.lpr"/>
+      <Item14 Name="/Zeljus/Temp/GetLazarus/UIB/project1.lpr"/>
+      <Item15 Name="/Zeljus/Temp/GetLazarus/UIB_Stream/project1.lpr"/>
+      <Item16 Name="/home/zeljko/Desktop/TESTARM/project1.lpr"/>
+      <Item17 Name="/home/zeljko/RAZVOJ/TMP/Test3Streeam/project1.lpr"/>
+      <Item18 Name="/home/zeljko/RAZVOJ/TMP/test2/project1.lpr"/>
     </FileEncodings>
   </InputHistory>
 </CONFIG>

@@ -4,7 +4,7 @@ unit Unit_Indy_Functions;
 interface
 
 uses IdBaseComponent, IdContext, IdComponent, IdTCPConnection, IdTCPClient,
-  StdCtrls,
+ // StdCtrls,
   SysUtils, Variants, Classes, Graphics, Controls, Forms, Unit_Indy_Classes;
 
 type

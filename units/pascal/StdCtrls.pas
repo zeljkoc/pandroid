@@ -78,6 +78,24 @@ type
     property OnLongClickListener: TonLongClickEvent read FonLongClick write FonLongClick;
   end;
 
+  { TImageButton }
+
+  TImageButton = class(AWImageButton,  AVView.InnerOnClickListener, AVView.InnerOnLongClickListener)
+  private
+    FOnclick            : TOnclickEvent;
+    FonLongClick        : TonLongClickEvent;
+  public
+    procedure onClick(para1: AVView); overload;
+    function onLongClick(para1: AVView): jboolean; overload;
+  public
+    constructor create(para1: ACContext); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
+  public
+    property onClickListener: TOnclickEvent read FOnClick write FOnClick;
+    property OnLongClickListener: TonLongClickEvent read FonLongClick write FonLongClick;
+  end;
+
   { TCheckBox }
 
   TCheckBox = class(AWCheckBox, AWCompoundButton.InnerOnCheckedChangeListener)
@@ -134,6 +152,40 @@ type
 
 
 implementation
+
+{ TImageButton }
+
+procedure TImageButton.onClick(para1: AVView);
+begin
+    if Assigned(FOnclick) then  FOnclick(para1);
+end;
+
+function TImageButton.onLongClick(para1: AVView): jboolean;
+begin
+  if Assigned(FonLongClick) then Result := FonLongClick(para1)
+  else Result:= onLongClick(para1);
+end;
+
+constructor TImageButton.create(para1: ACContext);
+begin
+  inherited create(para1);
+  self.setOnClickListener(Self);
+  self.setOnLongClickListener(Self);
+end;
+
+constructor TImageButton.create(para1: ACContext; para2: AUAttributeSet);
+begin
+    inherited create(para1, para2);
+    self.setOnClickListener(Self);
+    self.setOnLongClickListener(Self);
+end;
+
+constructor TImageButton.create(para1: ACContext; para2: AUAttributeSet; para3: jint);
+begin
+    inherited create(para1, para2, para3);
+    self.setOnClickListener(Self);
+    self.setOnLongClickListener(Self);
+end;
 
 { TGridViewLayout }
 

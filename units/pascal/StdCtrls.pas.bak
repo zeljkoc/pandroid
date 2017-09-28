@@ -78,6 +78,22 @@ type
     property OnLongClickListener: TonLongClickEvent read FonLongClick write FonLongClick;
   end;
 
+  TImageButton = class(AWImageButton,  AVView.InnerOnClickListener, AVView.InnerOnLongClickListener)
+  private
+    FOnclick            : TOnclickEvent;
+    FonLongClick        : TonLongClickEvent;
+  public
+    procedure onClick(para1: AVView); overload;
+    function onLongClick(para1: AVView): jboolean; overload;
+  public
+    constructor create(para1: ACContext); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet); overload;
+    constructor create(para1: ACContext; para2: AUAttributeSet; para3: jint); overload;
+  public
+    property onClickListener: TOnclickEvent read FOnClick write FOnClick;
+    property OnLongClickListener: TonLongClickEvent read FonLongClick write FonLongClick;
+  end;
+
   { TCheckBox }
 
   TCheckBox = class(AWCheckBox, AWCompoundButton.InnerOnCheckedChangeListener)

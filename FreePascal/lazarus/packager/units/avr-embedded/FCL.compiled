@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1518972144"/>
+  <Params Value=" -Tembedded -Pavr -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fu/usr/local/pandroid/FreePascal/lazarus/packager/registration/ -FU/usr/local/pandroid/FreePascal/lazarus/packager/units/avr-embedded/ -O2 -g- -Xs fcllaz.pas"/>
+  <Complete Value="False" MainPPUExists="False"/>
+</CONFIG>

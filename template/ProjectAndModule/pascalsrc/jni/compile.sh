@@ -1,2 +1,0 @@
-cd ..
-sh compile.sh

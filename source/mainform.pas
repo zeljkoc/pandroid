@@ -39,6 +39,7 @@ type
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
+    Memo1: TMemo;
     procedure buttonGenerateHeaders1Click(Sender: TObject);
     procedure buttonGenerateHeaders2Click(Sender: TObject);
     procedure buttonNewProjectClick(Sender: TObject);

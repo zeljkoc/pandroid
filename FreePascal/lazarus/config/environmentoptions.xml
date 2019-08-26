@@ -2,7 +2,7 @@
 <CONFIG>
   <EnvironmentOptions>
     <Version Value="109" Lazarus="1.7"/>
-    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False"/>
+    <AutoSave OpenLastProjectAtStart="False" ActiveDesktop="False" LastSavedProjectFile="/usr/local/pandroid/source/pandroid.lpi"/>
     <FormEditor>
       <Rubberband>
         <SelectionColor Value="8388608"/>
@@ -79,11 +79,11 @@
         <Item10 Value="/home/zeljko/Downloads/ndkmapping-master/ndkmapping.lpr"/>
       </OpenFiles>
       <ProjectFiles Count="5">
-        <Item1 Value="/usr/local/pandroid/FreePascal/fpc/compiler/ppcjvm.lpi"/>
-        <Item2 Value="/usr/local/pandroid/example/Vibrator/Vibrator.lpi"/>
-        <Item3 Value="/home/zeljko/Desktop/Pandroid/source/pandroid.lpi"/>
-        <Item4 Value="/home/zeljko/Downloads/Arduino/ModBus/Github01/pascal/examples/PascalModbusTCP_example/project1.lpi"/>
-        <Item5 Value="/home/zeljko/Downloads/Lazarus/lazarduinomodulewizard-master/demos/LamwinoDemo1/LamwinoDemo1.lpi"/>
+        <Item1 Value="/usr/local/pandroid/source/pandroid.lpi"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/fpc/compiler/ppcjvm.lpi"/>
+        <Item3 Value="/usr/local/pandroid/example/Vibrator/Vibrator.lpi"/>
+        <Item4 Value="/home/zeljko/Desktop/Pandroid/source/pandroid.lpi"/>
+        <Item5 Value="/home/zeljko/Downloads/Arduino/ModBus/Github01/pascal/examples/PascalModbusTCP_example/project1.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="9">
         <Item1 Value="/home/zeljko/Downloads/Lazarus/lazarduinomodulewizard-master/arduinonewprojectwizard.lpk"/>

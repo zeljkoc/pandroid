@@ -14,6 +14,7 @@ uses
 
 
 procedure CreateNewAndroidProject;
+procedure SetVersionAndroid;
 procedure Build_Apk(ACompPath, AProjPath, AJavaPackageName, AProjFile, AFPCSrcDir: String);
 
 
@@ -22,7 +23,7 @@ procedure BuildRJavaFiles(tAppName, tJavaPackageName, tRJava, tRJavaPAs: string)
 
 implementation
 
-uses process, mainform;
+uses process, mainform, LazFileUtils;
 
 procedure AddJavaBuildXml(); forward;
 procedure AddJavaBuildFiles(); forward;
@@ -71,6 +72,20 @@ begin
  end;
 end;
 
+procedure SetVersionAndroid;
+var
+  lFile: TStringList;
+begin
+  lFile := TStringList.Create;
+  try
+    lFile.LoadFromFile('/usr/local/pandroid/units/AndroidVersion.inc');
+    lFile.Strings[0] :=  stringReplace('{$DEFINE '+ AProject.gTarget +'}' , '-',  '' ,[rfReplaceAll, rfIgnoreCase]);
+    lFile.SaveToFile('/usr/local/pandroid/units/AndroidVersion.inc');
+  finally
+    lFile.Free;
+  end;
+end;
+
 procedure Build_Apk(ACompPath, AProjPath, AJavaPackageName,  AProjFile, AFPCSrcDir: String);
 var
   Str, Message: String;
@@ -79,9 +94,12 @@ var
 begin
    Form1.LoadIniFile;
    Form1.EditToAProject;
+   SetVersionAndroid; //podesava paskal za verziju na koju kompajlira
+
+   Sleep(200);
 
    AProject.gProjectDir := copy(AProjPath, 1, Length(AProjPath)-1);
-   AProject.gAppName :=  ExtractFileNameOnly(AProjFile);
+   AProject.gAppName := ExtractFileNameOnly(AProjFile);
    ReadLpiFile; //Read .lpi init files
 
    AProject.gJavaPackageName := AJavaPackageName;
@@ -100,7 +118,7 @@ begin
    Writeln('DELETE ..................... '); // Writeln(AProcess.Output.ReadAnsiString);
 
    AProcess.CommandLine := '/bin/mkdir -p '+AProject.gProjectDir+'/android/bin & ' +
-   												 '/bin/mkdir -p '+AProject.gProjectDir+'/android/gen & ' +
+                           '/bin/mkdir -p '+AProject.gProjectDir+'/android/gen & ' +
                            '/bin/mkdir -p '+AProject.gProjectDir+'/android/bin/classes';
    AProcess.Options := AProcess.Options + [poWaitOnExit, poUsePipes];
    AProcess.Execute;
@@ -178,11 +196,11 @@ begin
 
   if RunCommandInDir(AProject.gProjectDir+'/android/', ' ant -verbose release ', Message) then
                                Writeln('========================OK....ant -verbose release '+Message+#10)
-  														else begin Writeln('Error **** (ant -verbose release) *****: '+ Message+#10); Abort; end;
+  else begin Writeln('Error **** (ant -verbose release) *****: '+ Message+#10); Abort; end;
 
   if RunCommandInDir(AProject.gProjectDir+'/android/', 'jarsigner -verify -verbose -certs '+AProject.gProjectDir+'/'+AProject.gAppName+'.apk', Message) then
                                Writeln('========================OK....jarsigner -verify -verbose -certs '+Message+#10)
-   														else begin Writeln('Error **** (jarsigner -verify -verbose -certs) *****: '+ Message+#10); Abort; end;
+  else begin Writeln('Error **** (jarsigner -verify -verbose -certs) *****: '+ Message+#10); Abort; end;
 
 
   Writeln('****************************************************************'+#10);
@@ -263,6 +281,13 @@ begin
     lFile.LoadFromFile(ExtractFileDir(Application.ExeName)+PathDelim+'template'+PathDelim+Form1.cbProject.Text +PathDelim+'android'+PathDelim+ 'ant.properties');
     for i:=0 to lFile.Count - 1 do begin
       lFile.Strings[i] := StringNameReplace(lFile.Strings[i]);
+      {$IFDEF Windows}
+      if pos('key.store', lFile.Strings[i]) <> 0 then begin
+      lFile.Strings[i] := StringReplace(lFile.Strings[i], '\',   '\\' ,   [rfReplaceAll]);
+      lFile.Strings[i] := StringReplace(lFile.Strings[i], '/',   '\\' ,   [rfReplaceAll]);
+      end else
+      lFile.Strings[i] := StringReplace(lFile.Strings[i], '/',   '\' ,   [rfReplaceAll]);
+      {$ENDIF}
     end;
     lFile.SaveToFile(AProject.gProjectDir + PathDelim+ 'android' + PathDelim + 'ant.properties');
 

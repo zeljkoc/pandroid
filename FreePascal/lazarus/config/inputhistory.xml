@@ -51,28 +51,28 @@
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog Width="792" Height="698" InitialDir="/usr/local/pandroid/FreePascal/fpc/compiler/">
+    <FileDialog Width="792" Height="698" InitialDir="/usr/local/pandroid/source/">
       <HistoryList Count="20">
-        <Item1 Value="/usr/local/pandroid/FreePascal/fpc/compiler/"/>
-        <Item2 Value="/usr/local/pandroid/example/Vibrator/"/>
-        <Item3 Value="/home/zeljko/Desktop/Pandroid/source/"/>
-        <Item4 Value="/home/zeljko/Downloads/Arduino/ModBus/Github01/pascal/examples/PascalModbusTCP_example/"/>
-        <Item5 Value="/home/zeljko/Downloads/Lazarus/lazarduinomodulewizard-master/"/>
-        <Item6 Value="/home/zeljko/Downloads/Lazarus/lazarduinomodulewizard-master/demos/LamwinoDemo1/"/>
-        <Item7 Value="/home/zeljko/Downloads/Lazarus/LazPackageEmbeddedAVR-master/"/>
-        <Item8 Value="/usr/local/pandroid/example/DemoPModule/"/>
-        <Item9 Value="/usr/local/pandroid/example/"/>
-        <Item10 Value="/usr/local/"/>
-        <Item11 Value="/Zeljus/Board/Ostalo/Pascal-projects-on-Raspberry-master/Morse-code-translator/"/>
-        <Item12 Value="/Zeljus/LazarusDockedDesktops-0.8/StudioPlus/"/>
-        <Item13 Value="/home/zeljko/Downloads/test/onguard-master/examples/codegen/"/>
-        <Item14 Value="/usr/local/pandroid/example/DateTime/"/>
-        <Item15 Value="/Zeljus/LazarusDockedDesktops-0.8/Studio/"/>
-        <Item16 Value="/home/zeljko/Downloads/Free-JPDF-Pascal-master/"/>
-        <Item17 Value="/home/zeljko/Downloads/SynPDF-master/"/>
-        <Item18 Value="/home/zeljko/Downloads/PdfiumLib-master/Example/"/>
-        <Item19 Value="/home/zeljko/Downloads/PdfiumLib-master/Source/"/>
-        <Item20 Value="/usr/local/pandroid/source/"/>
+        <Item1 Value="/usr/local/pandroid/source/"/>
+        <Item2 Value="/usr/local/pandroid/FreePascal/fpc/compiler/"/>
+        <Item3 Value="/usr/local/pandroid/example/Vibrator/"/>
+        <Item4 Value="/home/zeljko/Desktop/Pandroid/source/"/>
+        <Item5 Value="/home/zeljko/Downloads/Arduino/ModBus/Github01/pascal/examples/PascalModbusTCP_example/"/>
+        <Item6 Value="/home/zeljko/Downloads/Lazarus/lazarduinomodulewizard-master/"/>
+        <Item7 Value="/home/zeljko/Downloads/Lazarus/lazarduinomodulewizard-master/demos/LamwinoDemo1/"/>
+        <Item8 Value="/home/zeljko/Downloads/Lazarus/LazPackageEmbeddedAVR-master/"/>
+        <Item9 Value="/usr/local/pandroid/example/DemoPModule/"/>
+        <Item10 Value="/usr/local/pandroid/example/"/>
+        <Item11 Value="/usr/local/"/>
+        <Item12 Value="/Zeljus/Board/Ostalo/Pascal-projects-on-Raspberry-master/Morse-code-translator/"/>
+        <Item13 Value="/Zeljus/LazarusDockedDesktops-0.8/StudioPlus/"/>
+        <Item14 Value="/home/zeljko/Downloads/test/onguard-master/examples/codegen/"/>
+        <Item15 Value="/usr/local/pandroid/example/DateTime/"/>
+        <Item16 Value="/Zeljus/LazarusDockedDesktops-0.8/Studio/"/>
+        <Item17 Value="/home/zeljko/Downloads/Free-JPDF-Pascal-master/"/>
+        <Item18 Value="/home/zeljko/Downloads/SynPDF-master/"/>
+        <Item19 Value="/home/zeljko/Downloads/PdfiumLib-master/Example/"/>
+        <Item20 Value="/home/zeljko/Downloads/PdfiumLib-master/Source/"/>
       </HistoryList>
     </FileDialog>
     <HistoryLists Count="2">

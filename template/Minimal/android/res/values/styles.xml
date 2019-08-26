@@ -1,0 +1,17 @@
+<resources>
+
+<!--  
+  <style name="DefaultTheme" parent="android:Theme.Holo">
+  <style name="DefaultTheme" parent="android:Theme">
+  <style name="DefaultTheme" parent="android:Theme.TransLucent">
+  <style name="DefaultTheme" parent="android:Theme.Dialog">
+  <style name="DefaultTheme" parent="android:Theme.DeviceDefault">
+ <style name="DefaultTheme" parent="android:Theme.DeviceDefault.Light">
+  <style name="DefaultTheme" parent="android:Theme.Holo.Light">
+-->
+
+
+  <style name="DefaultTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+  </style> 
+
+</resources>

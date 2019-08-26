@@ -1,0 +1,22 @@
+object DataM: TDataM
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 326
+  HorizontalOffset = 183
+  VerticalOffset = 374
+  Width = 701
+  object TCPClient: TIdTCPClient
+    ConnectTimeout = 0
+    IPVersion = Id_IPv4
+    Port = 0
+    ReadTimeout = -1
+    Left = 72
+    Top = 56
+  end
+  object Query: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    Left = 183
+    Top = 61
+  end
+end

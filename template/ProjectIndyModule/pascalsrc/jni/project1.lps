@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="63" Y="12"/>
+        <UsageCount Value="218"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="PandoidModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="74" Y="38"/>
+        <UsageCount Value="218"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="DataModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="8"/>
+        <CursorPos X="59" Y="8"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="PandroidPipesComm.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="9"/>
+        <UsageCount Value="37"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../compile.sh"/>
+        <EditorIndex Value="5"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../src/PandroidModule.java"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="43" Y="6"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Java"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../FreePascal/lazarus/components/uib25/source/uibase.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2936"/>
+        <CursorPos X="23" Y="2963"/>
+        <UsageCount Value="29"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../FreePascal/Komponente/zc_indy/Source/IdStreamVCL.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="8"/>
+        <UsageCount Value="2"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../../PROJEKTI/Lazarus/Units/zcDataStream.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="50" Y="70"/>
+        <UsageCount Value="11"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../../../PROJEKTI/Lazarus/Units/Unit_Indy_Classes.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="11"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../../../PROJEKTI/Lazarus/Units/Unit_Indy_Functions.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="114"/>
+        <CursorPos Y="114"/>
+        <UsageCount Value="11"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../../units/rtl/java/system.pp"/>
+        <UnitName Value="System"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="78"/>
+        <CursorPos X="22" Y="91"/>
+        <UsageCount Value="2"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../../units/rtl/android/jvm/java_sysh_android.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="380"/>
+        <CursorPos X="29" Y="393"/>
+        <UsageCount Value="2"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../../FreePascal/Komponente/zc_indy/Source/IdMessage.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="816"/>
+        <CursorPos X="47" Y="831"/>
+        <UsageCount Value="6"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="uReplicate.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="56"/>
+        <CursorPos X="11" Y="76"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit14>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="27" Column="14" TopLine="13"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="232" Column="36" TopLine="209"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="209" Column="74" TopLine="195"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="206" TopLine="192"/>
+      </Position4>
+      <Position5>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="214" Column="41" TopLine="200"/>
+      </Position5>
+      <Position6>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="37" Column="23" TopLine="17"/>
+      </Position6>
+      <Position7>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="279" Column="84" TopLine="265"/>
+      </Position7>
+      <Position8>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="31" Column="26" TopLine="25"/>
+      </Position8>
+      <Position9>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="254" Column="31" TopLine="232"/>
+      </Position9>
+      <Position10>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="212" Column="27" TopLine="197"/>
+      </Position10>
+      <Position11>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="213" Column="27" TopLine="198"/>
+      </Position11>
+      <Position12>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="212" Column="27" TopLine="197"/>
+      </Position12>
+      <Position13>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="201" Column="18" TopLine="195"/>
+      </Position13>
+      <Position14>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="21" Column="54" TopLine="7"/>
+      </Position14>
+      <Position15>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="221" Column="23" TopLine="201"/>
+      </Position15>
+      <Position16>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="204" Column="17" TopLine="188"/>
+      </Position16>
+      <Position17>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="218" TopLine="211"/>
+      </Position17>
+      <Position18>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="21" TopLine="6"/>
+      </Position18>
+      <Position19>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="250" Column="37" TopLine="238"/>
+      </Position19>
+      <Position20>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="18" Column="14" TopLine="4"/>
+      </Position20>
+      <Position21>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="130" Column="61" TopLine="125"/>
+      </Position21>
+      <Position22>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="131" Column="14" TopLine="116"/>
+      </Position22>
+      <Position23>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="140" Column="34" TopLine="116"/>
+      </Position23>
+      <Position24>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="145" Column="38" TopLine="121"/>
+      </Position24>
+      <Position25>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="154" Column="19" TopLine="131"/>
+      </Position25>
+      <Position26>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="60" Column="64" TopLine="41"/>
+      </Position26>
+      <Position27>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="323" Column="38" TopLine="305"/>
+      </Position27>
+      <Position28>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="258" Column="32" TopLine="241"/>
+      </Position28>
+      <Position29>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="18" Column="14" TopLine="4"/>
+      </Position29>
+      <Position30>
+        <Filename Value="DataModule.pas"/>
+        <Caret Line="8" Column="59"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

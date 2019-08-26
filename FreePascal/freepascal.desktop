@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Free Pascal Terminal
-Comment=Open a new terminal with the fpc program made available
-Icon=terminal
-Exec=x-terminal-emulator -e "/usr/local/pandroid/FreePascal/fpc/bin/fpc-terminal.sh"
-Terminal=false
-Type=Application

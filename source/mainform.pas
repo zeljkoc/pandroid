@@ -139,10 +139,11 @@ begin
         if ((Attr and faDirectory) <> 0) and (Name <> '.') and (Name <> '..') then
           cbProject.Items.Add(Name);
       end;
-    until FindNext(info)<>0;
+    until FindNext(info) <> 0;
   end;
   FindClose(Info);
   cbProject.Text := cbProject.Items[0];
+  ShowMessage(cbProject.Text );
 end;
 
 procedure TForm1.EditToAProject;

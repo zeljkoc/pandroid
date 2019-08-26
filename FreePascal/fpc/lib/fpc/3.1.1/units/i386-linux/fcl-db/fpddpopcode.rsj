@@ -1,4 +1,0 @@
-{"version":1,"strings":[
-{"hash":245822393,"name":"fpddpopcode.serrnodatadictionary","sourcebytes":[67,97,110,110,111,116,32,112,101,114,102,111,114,109,32,116,104,105,115,32,111,112,101,114,97,116,105,111,110,32,119,105,116,104,111,117,116,32,100,97,116,97,100,105,99,116,105,111,110,97,114,121],"value":"Cannot perform this operation without datadictionary"},
-{"hash":190654725,"name":"fpddpopcode.serrnodatadictionaryname","sourcebytes":[67,97,110,110,111,116,32,112,101,114,102,111,114,109,32,116,104,105,115,32,111,112,101,114,97,116,105,111,110,32,119,105,116,104,111,117,116,32,100,97,116,97,100,105,99,116,105,111,110,97,114,121,32,110,97,109,101],"value":"Cannot perform this operation without datadictionary name"}
-]}

@@ -1,9 +1,0 @@
-{"version":1,"strings":[
-{"hash":100492180,"name":"pqconnection.serrrollbackfailed","sourcebytes":[82,111,108,108,98,97,99,107,32,116,114,97,110,115,97,99,116,105,111,110,32,102,97,105,108,101,100],"value":"Rollback transaction failed"},
-{"hash":212943620,"name":"pqconnection.serrcommitfailed","sourcebytes":[67,111,109,109,105,116,32,116,114,97,110,115,97,99,116,105,111,110,32,102,97,105,108,101,100],"value":"Commit transaction failed"},
-{"hash":15646724,"name":"pqconnection.serrconnectionfailed","sourcebytes":[67,111,110,110,101,99,116,105,111,110,32,116,111,32,100,97,116,97,98,97,115,101,32,102,97,105,108,101,100],"value":"Connection to database failed"},
-{"hash":223141908,"name":"pqconnection.serrtransactionfailed","sourcebytes":[83,116,97,114,116,32,111,102,32,116,114,97,110,115,97,99,105,111,110,32,102,97,105,108,101,100],"value":"Start of transacion failed"},
-{"hash":92795492,"name":"pqconnection.serrexecutefailed","sourcebytes":[69,120,101,99,117,116,105,111,110,32,111,102,32,113,117,101,114,121,32,102,97,105,108,101,100],"value":"Execution of query failed"},
-{"hash":5249598,"name":"pqconnection.serrpreparefailed","sourcebytes":[80,114,101,112,97,114,97,116,105,111,110,32,111,102,32,113,117,101,114,121,32,102,97,105,108,101,100,46],"value":"Preparation of query failed."},
-{"hash":59775550,"name":"pqconnection.serrunpreparefailed","sourcebytes":[85,110,112,114,101,112,97,114,97,116,105,111,110,32,111,102,32,113,117,101,114,121,32,102,97,105,108,101,100,46],"value":"Unpreparation of query failed."}
-]}

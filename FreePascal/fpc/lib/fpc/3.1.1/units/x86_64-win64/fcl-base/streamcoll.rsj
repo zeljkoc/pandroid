@@ -1,3 +1,0 @@
-{"version":1,"strings":[
-{"hash":60651998,"name":"streamcoll.serrillegalstreamversion","sourcebytes":[73,108,108,101,103,97,108,32,115,116,114,101,97,109,32,118,101,114,115,105,111,110,58,32,37,100,32,62,32,37,100,46],"value":"Illegal stream version: %d > %d."}
-]}

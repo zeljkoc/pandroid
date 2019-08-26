@@ -1,8 +1,0 @@
-uiblaz,
-appexplore,
-customdrawn,
-indylaz,
-sparta_dockedformeditor,
-sqldblaz,
-allsyneditdsgn,
-anchordockingdsgn,

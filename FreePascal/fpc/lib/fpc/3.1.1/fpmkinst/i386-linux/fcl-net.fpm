@@ -1,9 +1,0 @@
-Name=fcl-net
-Version=3.1.1
-Checksum=1470866818
-CPU=i386
-OS=linux
-FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
-Depends=rtl,fcl-base|1470866810,openssl|1470866817,fcl-xml|1470866811,fcl-passrc|1470866817,fcl-async|1470866813,rtl-extra|1470866807
-NeedLibC=N
-FPMakeAddIn=N

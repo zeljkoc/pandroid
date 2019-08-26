@@ -1,5 +1,0 @@
-{"version":1,"strings":[
-{"hash":140638420,"name":"sqlscript.serrifxxxnestinglimitreached","sourcebytes":[35,73,70,68,69,70,32,110,101,115,116,105,110,103,32,108,105,109,105,116,32,114,101,97,99,104,101,100],"value":"#IFDEF nesting limit reached"},
-{"hash":5858422,"name":"sqlscript.serrinvalidendif","sourcebytes":[35,69,78,68,73,70,32,119,105,116,104,111,117,116,32,35,73,70,68,69,70],"value":"#ENDIF without #IFDEF"},
-{"hash":147304774,"name":"sqlscript.serrinvalidelse","sourcebytes":[35,69,76,83,69,32,119,105,116,104,111,117,116,32,35,73,70,68,69,70],"value":"#ELSE without #IFDEF"}
-]}

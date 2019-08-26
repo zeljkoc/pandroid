@@ -1,4 +1,0 @@
-{"version":1,"strings":[
-{"hash":201280419,"name":"blowfish.snoseekallowed","sourcebytes":[83,101,101,107,32,110,111,116,32,97,108,108,111,119,101,100,32,111,110,32,101,110,99,114,121,112,116,105,111,110,32,115,116,114,101,97,109,115],"value":"Seek not allowed on encryption streams"},
-{"hash":226663426,"name":"blowfish.serremptypassphrasenotallowed","sourcebytes":[69,109,112,116,121,32,112,97,115,115,112,104,114,97,115,101,32,105,115,32,110,111,116,32,97,108,108,111,119,101,100,32,105,110,32,99,111,110,115,116,114,117,99,116,111,114],"value":"Empty passphrase is not allowed in constructor"}
-]}

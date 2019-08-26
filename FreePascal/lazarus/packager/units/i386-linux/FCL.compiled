@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1566829248"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fu/usr/local/pandroid/FreePascal/lazarus/packager/registration/ -FU/usr/local/pandroid/FreePascal/lazarus/packager/units/i386-linux/ -O2 -g- -Xs fcllaz.pas"/>
-</CONFIG>

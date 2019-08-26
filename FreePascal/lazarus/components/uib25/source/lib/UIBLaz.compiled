@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1474791984"/>
-  <Params Value=" -MObjFPC -Scgi -O1 -g -gl -l -vewnibq -vh- -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/i386-linux -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/i386-linux -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/i386-linux -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/i386-linux/gtk2 -Fu/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/ -FU/usr/local/pandroid/FreePascal/lazarus/components/uib25/source/lib/ -dLCL -dLCLgtk2 uiblaz.pas"/>
-</CONFIG>

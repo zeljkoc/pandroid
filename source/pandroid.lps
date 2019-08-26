@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="11"/>
+    <Version Value="9"/>
     <BuildModes Active="Default"/>
     <Units Count="9">
       <Unit0>
         <Filename Value="pandroid.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="66" Y="13"/>
+        <CursorPos X="6" Y="32"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -19,8 +19,8 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="120"/>
-        <CursorPos X="3" Y="150"/>
+        <TopLine Value="110"/>
+        <CursorPos X="30" Y="146"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -29,7 +29,7 @@
         <Filename Value="FNewProject.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="92"/>
+        <TopLine Value="99"/>
         <CursorPos X="80" Y="99"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -79,7 +79,7 @@
         <UsageCount Value="10"/>
       </Unit8>
     </Units>
-    <JumpHistory Count="28" HistoryIndex="27">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
         <Filename Value="mainform.pas"/>
         <Caret Line="141" Column="41" TopLine="113"/>
@@ -192,10 +192,10 @@
         <Filename Value="mainform.pas"/>
         <Caret Line="149" Column="3" TopLine="119"/>
       </Position28>
+      <Position29>
+        <Filename Value="pandroid.lpr"/>
+        <Caret Line="13" Column="66"/>
+      </Position29>
     </JumpHistory>
-    <RunParams>
-      <FormatVersion Value="2"/>
-      <Modes Count="0" ActiveMode="default"/>
-    </RunParams>
   </ProjectSession>
 </CONFIG>

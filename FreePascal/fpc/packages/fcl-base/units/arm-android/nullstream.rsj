@@ -1,3 +1,0 @@
-{"version":1,"strings":[
-{"hash":205973006,"name":"nullstream.sinvalidoperation","sourcebytes":[67,97,110,110,111,116,32,112,101,114,102,111,114,109,32,116,104,105,115,32,111,112,101,114,97,116,105,111,110,32,111,110,32,97,32,78,117,108,108,83,116,114,101,97,109,46],"value":"Cannot perform this operation on a NullStream."}
-]}

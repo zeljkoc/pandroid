@@ -1,4 +1,0 @@
-{"version":1,"strings":[
-{"hash":187160836,"name":"fpopenssl.serrcountnotgetcontext","sourcebytes":[70,97,105,108,101,100,32,116,111,32,99,114,101,97,116,101,32,83,83,76,32,67,111,110,116,101,120,116],"value":"Failed to create SSL Context"},
-{"hash":196297340,"name":"fpopenssl.serrfailedtocreatessl","sourcebytes":[70,97,105,108,101,100,32,116,111,32,99,114,101,97,116,101,32,83,83,76],"value":"Failed to create SSL"}
-]}

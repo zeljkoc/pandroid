@@ -1,7 +1,0 @@
-{"version":1,"strings":[
-{"hash":140729443,"name":"contnrs.duplicatemsg","sourcebytes":[65,110,32,105,116,101,109,32,119,105,116,104,32,107,101,121,32,37,48,58,115,32,97,108,114,101,97,100,121,32,101,120,105,115,116,115],"value":"An item with key %0:s already exists"},
-{"hash":55732706,"name":"contnrs.keynotfoundmsg","sourcebytes":[77,101,116,104,111,100,58,32,37,48,58,115,32,107,101,121,32,91,39,37,49,58,115,39,93,32,110,111,116,32,102,111,117,110,100,32,105,110,32,99,111,110,116,97,105,110,101,114],"value":"Method: %0:s key ['%1:s'] not found in container"},
-{"hash":225887438,"name":"contnrs.notemptymsg","sourcebytes":[72,97,115,104,32,116,97,98,108,101,32,110,111,116,32,101,109,112,116,121,46],"value":"Hash table not empty."},
-{"hash":103542576,"name":"contnrs.serrnosuchitem","sourcebytes":[78,111,32,105,116,101,109,32,105,110,32,108,105,115,116,32,102,111,114,32,37,112],"value":"No item in list for %p"},
-{"hash":2506976,"name":"contnrs.sduplicateitem","sourcebytes":[73,116,101,109,32,97,108,114,101,97,100,121,32,101,120,105,115,116,115,32,105,110,32,108,105,115,116,58,32,37,112],"value":"Item already exists in list: %p"}
-]}

@@ -1,6 +1,0 @@
-{"version":1,"strings":[
-{"hash":239814903,"name":"synmacrorecorder.scannotrecord","sourcebytes":[67,97,110,110,111,116,32,114,101,99,111,114,100,32,109,97,99,114,111,32,119,104,101,110,32,114,101,99,111,114,100,105,110,103],"value":"Cannot record macro when recording"},
-{"hash":200764807,"name":"synmacrorecorder.scannotplay","sourcebytes":[67,97,110,110,111,116,32,112,108,97,121,98,97,99,107,32,109,97,99,114,111,32,119,104,101,110,32,114,101,99,111,114,100,105,110,103],"value":"Cannot playback macro when recording"},
-{"hash":169580599,"name":"synmacrorecorder.scannotpause","sourcebytes":[67,97,110,32,111,110,108,121,32,112,97,117,115,101,32,119,104,101,110,32,114,101,99,111,114,100,105,110,103],"value":"Can only pause when recording"},
-{"hash":133141428,"name":"synmacrorecorder.scannotresume","sourcebytes":[67,97,110,32,111,110,108,121,32,114,101,115,117,109,101,32,119,104,101,110,32,112,97,117,115,101,100],"value":"Can only resume when paused"}
-]}

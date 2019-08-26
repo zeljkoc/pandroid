@@ -1,21 +1,22 @@
 object Form1: TForm1
   Left = 343
-  Height = 404
+  Height = 405
   Top = 206
-  Width = 783
+  Width = 871
   Caption = 'Pandroid'
-  ClientHeight = 404
-  ClientWidth = 783
+  ClientHeight = 405
+  ClientWidth = 871
   OnCreate = FormCreate
+  LCLVersion = '1.7'
   Visible = False
   object GroupBox1: TGroupBox
     Left = 16
     Height = 120
     Top = 1
-    Width = 752
+    Width = 840
     Caption = 'New projects'
-    ClientHeight = 103
-    ClientWidth = 748
+    ClientHeight = 104
+    ClientWidth = 838
     TabOrder = 0
     object Label1: TLabel
       Left = 35
@@ -27,7 +28,7 @@ object Form1: TForm1
     end
     object eJavaPackageName: TEdit
       Left = 176
-      Height = 25
+      Height = 27
       Top = 8
       Width = 200
       CharCase = ecLowerCase
@@ -44,7 +45,7 @@ object Form1: TForm1
     end
     object eProjectDir: TDirectoryEdit
       Left = 176
-      Height = 25
+      Height = 27
       Top = 72
       Width = 560
       Directory = '/home/zeljko/RAZVOJ/Android/Projekti/TEMP/'
@@ -65,7 +66,7 @@ object Form1: TForm1
     end
     object eAppName: TEdit
       Left = 176
-      Height = 25
+      Height = 27
       Top = 40
       Width = 200
       TabOrder = 2
@@ -76,10 +77,10 @@ object Form1: TForm1
     Left = 16
     Height = 168
     Top = 160
-    Width = 752
+    Width = 840
     Caption = 'Options'
-    ClientHeight = 151
-    ClientWidth = 748
+    ClientHeight = 152
+    ClientWidth = 838
     TabOrder = 1
     object Label11: TLabel
       Left = 47
@@ -99,7 +100,7 @@ object Form1: TForm1
     end
     object eAndroidSDKDir: TDirectoryEdit
       Left = 176
-      Height = 25
+      Height = 27
       Top = 6
       Width = 560
       Directory = '/home/zeljko/RAZVOJ/Android/android-sdk-linux'
@@ -116,17 +117,12 @@ object Form1: TForm1
       Top = 40
       Width = 348
       ItemHeight = 0
+      ItemIndex = 0
       Items.Strings = (
         'android-15'
         'android-16'
-        'android-17'
-        'android-18'
         'android-19'
-        'android-20'
-        'android-21'
         'android-22'
-        'android-23'
-        'android-24'
         'android-25'
       )
       TabOrder = 1
@@ -138,11 +134,11 @@ object Form1: TForm1
       Top = 72
       Width = 348
       ItemHeight = 0
+      ItemIndex = 1
       Items.Strings = (
         '19.1.0'
         '23.0.3'
-        '24.0.3'
-        '25.0.0'
+        '29.0.2'
       )
       TabOrder = 2
       Text = '23.0.3'
@@ -177,6 +173,21 @@ object Form1: TForm1
       TabOrder = 3
       Text = '0'
     end
+    object Memo1: TMemo
+      Left = 536
+      Height = 102
+      Top = 37
+      Width = 288
+      Lines.Strings = (
+        'androidr15 - Android 4.0.3  (API 15) ok'
+        'androidr16 - Android 4.1.2  (API 16) ok '
+        'androidr19 - Android 4.4.2  (API 19) ok'
+        'androidr22 - Android 5.1.1  (API 22) ok'
+        'androidr25 - Android 7.1.1  (API 25) ok'
+      )
+      ScrollBars = ssAutoBoth
+      TabOrder = 4
+    end
   end
   object buttonGenerateHeaders2: TButton
     Left = 616
@@ -197,7 +208,7 @@ object Form1: TForm1
     TabOrder = 3
   end
   object buttonNewProject: TButton
-    Left = 600
+    Left = 696
     Height = 26
     Top = 128
     Width = 152
@@ -209,7 +220,7 @@ object Form1: TForm1
     Left = 193
     Height = 27
     Top = 128
-    Width = 399
+    Width = 495
     ItemHeight = 0
     TabOrder = 5
     Text = 'cbProject'

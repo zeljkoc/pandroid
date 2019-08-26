@@ -1,3 +1,0 @@
-{"version":1,"strings":[
-{"hash":145826492,"name":"fpcgsqlconst.ssqlconstdescr","sourcebytes":[71,101,110,101,114,97,116,101,32,80,97,115,99,97,108,32,99,111,110,115,116,97,110,116,47,83,116,114,105,110,103,108,105,115,116,32,102,114,111,109,32,83,81,76],"value":"Generate Pascal constant\/Stringlist from SQL"}
-]}

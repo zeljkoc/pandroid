@@ -39,6 +39,7 @@ type
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
+    Memo1: TMemo;
     procedure buttonGenerateHeaders1Click(Sender: TObject);
     procedure buttonGenerateHeaders2Click(Sender: TObject);
     procedure buttonNewProjectClick(Sender: TObject);
@@ -131,6 +132,7 @@ procedure TForm1.ProjectTemplateDirectory(ListDir: String);
 var
    Info: TSearchRec;
 begin
+  ShowMessage(ListDir);
   cbProject.Clear;
   if FindFirst(ListDir+'*', faAnyFile and faDirectory, Info) = 0 then begin
     repeat
@@ -138,7 +140,7 @@ begin
         if ((Attr and faDirectory) <> 0) and (Name <> '.') and (Name <> '..') then
           cbProject.Items.Add(Name);
       end;
-    until FindNext(info)<>0;
+    until FindNext(info) <> 0;
   end;
   FindClose(Info);
   cbProject.Text := cbProject.Items[0];

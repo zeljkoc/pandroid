@@ -1,3 +1,0 @@
-{"version":1,"strings":[
-{"hash":231641337,"name":"fpddsqldb.serrquerynotsqlquery","sourcebytes":[81,117,101,114,121,32,111,98,106,101,99,116,32,34,37,115,34,32,105,115,32,110,111,116,32,97,32,83,81,76,32,81,117,101,114,121],"value":"Query object \"%s\" is not a SQL Query"}
-]}

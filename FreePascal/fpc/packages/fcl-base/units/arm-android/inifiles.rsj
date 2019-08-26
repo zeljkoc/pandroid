@@ -1,3 +1,0 @@
-{"version":1,"strings":[
-{"hash":230284562,"name":"inifiles.serrcouldnotcreatepath","sourcebytes":[67,111,117,108,100,32,110,111,116,32,99,114,101,97,116,101,32,100,105,114,101,99,116,111,114,121,32,34,37,115,34],"value":"Could not create directory \"%s\""}
-]}

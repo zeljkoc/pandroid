@@ -1,0 +1,10 @@
+Name=fppkg
+Version=3.3.1
+Checksum=1566835286
+CPU=i386
+OS=win32
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fppkg/
+FPMakeOptions=-o -Twin32 -o -Pi386 -o -XPi386-win32- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,fcl-base|1566835249,fcl-xml|1566835253,fcl-process|1566835276,paszlib|1566835247,fpmkunit|1566835285,fcl-net|1566835275,fcl-web|1566835281,httpd22|1566835279
+NeedLibC=N
+FPMakeAddIn=N

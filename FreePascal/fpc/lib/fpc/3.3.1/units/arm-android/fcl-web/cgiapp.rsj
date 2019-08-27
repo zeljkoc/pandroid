@@ -1,0 +1,11 @@
+{"version":1,"strings":[
+{"hash":154720114,"name":"cgiapp.swebmaster","sourcebytes":[119,101,98,109,97,115,116,101,114],"value":"webmaster"},
+{"hash":189587666,"name":"cgiapp.scgierror","sourcebytes":[67,71,73,32,69,114,114,111,114],"value":"CGI Error"},
+{"hash":199601466,"name":"cgiapp.sappencounterederror","sourcebytes":[84,104,101,32,97,112,112,108,105,99,97,116,105,111,110,32,101,110,99,111,117,110,116,101,114,101,100,32,116,104,101,32,102,111,108,108,111,119,105,110,103,32,101,114,114,111,114,58],"value":"The application encountered the following error:"},
+{"hash":211379584,"name":"cgiapp.serror","sourcebytes":[69,114,114,111,114,58,32],"value":"Error: "},
+{"hash":112187792,"name":"cgiapp.snotify","sourcebytes":[78,111,116,105,102,121,58,32],"value":"Notify: "},
+{"hash":209281793,"name":"cgiapp.serrnocontentlength","sourcebytes":[78,111,32,99,111,110,116,101,110,116,32,108,101,110,103,116,104,32,112,97,115,115,101,100,32,102,114,111,109,32,115,101,114,118,101,114,33],"value":"No content length passed from server!"},
+{"hash":267366786,"name":"cgiapp.serrunsupportedcontenttype","sourcebytes":[85,110,115,117,112,112,111,114,116,101,100,32,99,111,110,116,101,110,116,32,116,121,112,101,58,32,34,37,115,34],"value":"Unsupported content type: \"%s\""},
+{"hash":262878222,"name":"cgiapp.serrnorequestmethod","sourcebytes":[78,111,32,82,69,81,85,69,83,84,95,77,69,84,72,79,68,32,112,97,115,115,101,100,32,102,114,111,109,32,115,101,114,118,101,114,46],"value":"No REQUEST_METHOD passed from server."},
+{"hash":13728894,"name":"cgiapp.serrinvalidrequestmethod","sourcebytes":[73,110,118,97,108,105,100,32,82,69,81,85,69,83,84,95,77,69,84,72,79,68,32,112,97,115,115,101,100,32,102,114,111,109,32,115,101,114,118,101,114,46],"value":"Invalid REQUEST_METHOD passed from server."}
+]}

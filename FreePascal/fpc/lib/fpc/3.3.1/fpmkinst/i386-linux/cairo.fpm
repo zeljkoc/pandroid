@@ -1,0 +1,10 @@
+Name=cairo
+Version=3.3.1
+Checksum=1566835005
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/cairo/
+FPMakeOptions=-o -Pi386 -o -XPi386-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,x11|1566834999,fcl-image|1566835005
+NeedLibC=Y
+FPMakeAddIn=N

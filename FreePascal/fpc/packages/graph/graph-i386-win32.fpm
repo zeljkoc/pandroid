@@ -1,0 +1,10 @@
+Name=graph
+Version=3.3.1
+Checksum=1566835290
+CPU=i386
+OS=win32
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/graph/
+FPMakeOptions=-o -Twin32 -o -Pi386 -o -XPi386-win32- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,sdl|1566835288,ptc|1566835289,fcl-base|1566835249,hermes|1566835288,opengl|1566835282
+NeedLibC=N
+FPMakeAddIn=N

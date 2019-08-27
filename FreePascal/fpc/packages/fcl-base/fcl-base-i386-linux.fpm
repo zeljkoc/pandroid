@@ -1,0 +1,10 @@
+Name=fcl-base
+Version=3.3.1
+Checksum=1566835004
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-base/
+FPMakeOptions=-o -Pi386 -o -XPi386-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,fcl-res|1566835002,rtl-objpas|1566835001
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,8 @@
+{"version":1,"strings":[
+{"hash":73452162,"name":"users.enosuchusername","sourcebytes":[85,110,107,110,111,119,110,32,117,115,101,114,110,97,109,101,58,32,34,37,115,34],"value":"Unknown username: \"%s\""},
+{"hash":150538340,"name":"users.enosuchuserid","sourcebytes":[85,110,107,110,111,119,110,32,117,115,101,114,32,73,68,58,32,37,100],"value":"Unknown user ID: %d"},
+{"hash":144257154,"name":"users.enosuchgroupname","sourcebytes":[85,110,107,110,111,119,110,32,103,114,111,117,112,110,97,109,101,58,32,34,37,115,34],"value":"Unknown groupname: \"%s\""},
+{"hash":119129940,"name":"users.enosuchgroupid","sourcebytes":[85,110,107,110,111,119,110,32,103,114,111,117,112,32,73,68,58,32,37,100],"value":"Unknown group ID: %d"},
+{"hash":19526386,"name":"users.enoshadowentry","sourcebytes":[78,111,32,115,104,97,100,111,119,32,102,105,108,101,32,101,110,116,114,121,32,102,111,114,32,34,37,115,34],"value":"No shadow file entry for \"%s\""},
+{"hash":266172325,"name":"users.eshadownotpermitted","sourcebytes":[78,111,116,32,101,110,111,117,103,104,32,112,101,114,109,105,115,115,105,111,110,115,32,116,111,32,97,99,99,101,115,115,32,115,104,97,100,111,119,32,112,97,115,115,119,111,114,100,32,102,105,108,101],"value":"Not enough permissions to access shadow password file"}
+]}

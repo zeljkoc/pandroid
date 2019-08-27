@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1550132345"/>
+  <Params Value=" -Paarch64 -MObjFPC -Scghi -O2 -g -gl -l -vewnhibq -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/aarch64-linux -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/aarch64-linux -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/aarch64-linux -Fu/usr/local/pandroid/FreePascal/lazarus/components/datetimectrls/ -FU/usr/local/pandroid/FreePascal/lazarus/components/datetimectrls/lib/aarch64-linux/qt/ datetimectrls.pas"/>
+</CONFIG>

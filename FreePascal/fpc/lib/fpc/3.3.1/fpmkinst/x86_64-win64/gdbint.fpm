@@ -1,0 +1,10 @@
+Name=gdbint
+Version=3.3.1
+Checksum=1566835434
+CPU=x86_64
+OS=win64
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/gdbint/
+FPMakeOptions=-o -Twin64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl
+NeedLibC=Y
+FPMakeAddIn=N

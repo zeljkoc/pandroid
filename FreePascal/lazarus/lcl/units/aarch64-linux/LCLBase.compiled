@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1550132345"/>
+  <Params Value=" -Paarch64 -MObjFPC -Scghi -O1 -g -gl -l -vewibq -vn-h- -Fi/usr/local/pandroid/FreePascal/lazarus/lcl/include -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/forms -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/widgetset -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/nonwin32 -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/aarch64-linux -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/aarch64-linux -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/ -FU/usr/local/pandroid/FreePascal/lazarus/lcl/units/aarch64-linux/ alllclunits.pp"/>
+</CONFIG>

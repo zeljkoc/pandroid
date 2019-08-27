@@ -1,0 +1,214 @@
+#
+#  Makefile.fpc for Free Pascal units, which participates in the tests
+#
+
+[target]
+
+[install]
+fpcpackage=y
+
+[clean]
+units = erroru popuperr ptest
+
+[compiler]
+targetdir=$(TARGETSUFFIX)
+
+[default]
+fpcdir=../..
+
+[rules]
+.NOTPARALLEL:
+.PHONY: rtl extra fpcunit packages all clean distclean clean_ctest
+.PHONY: cleanrtl distcleanrtl
+.PHONY: cleanfpcunit distcleanfpcunit
+.PHONY: cleanpackages distcleanpackages
+
+
+TESTOPT:=-n -FE$(COMPILER_TARGETDIR) -T$(OS_TARGET) $(OPT)
+ifeq ($(CPU_TARGET),armeb)
+override TESTOPT+=-Cb
+endif
+ifneq ($(BINUTILSPREFIX),)
+override TESTOPT+=-XP$(BINUTILSPREFIX) -Xc
+endif
+ifeq ($(OS_TARGET),msdos)
+override TESTOPT+=-CX
+endif
+TESTCOMPILER:=$(FPC) $(TESTOPT)
+
+ifdef CROSSCOMPILE
+override CROSSOPT:=$(OPT)
+override OPT=
+override BUILDFULLNATIVE=
+endif
+
+#############################
+# RTL
+#
+
+DUMMYINSTALLDIR=$(BASEDIR)/tmp
+INSTALLOPT=INSTALL_PREFIX=$(DUMMYINSTALLDIR) INSTALL_UNITDIR=$(BASEDIR)/$(COMPILER_TARGETDIR)
+
+rtl-stamp.$(FULL_TARGET):
+ifneq ($(inOS2),)
+        $(MAKE) -C ../../rtl all "OPT=$(OPT) -n" "CROSSOPT=$(CROSSOPT)"
+else
+        $(MAKE) -C ../../rtl all 'OPT=$(OPT) -n' 'CROSSOPT=$(CROSSOPT)'
+endif
+        $(MAKE) -C ../../rtl install $(INSTALLOPT) OPT= CROSSOPT=
+        $(ECHO) Compiled > rtl-stamp.$(FULL_TARGET)
+
+cleanrtl:
+        $(DELTREE) $(COMPILER_TARGETDIR)
+        $(DELTREE) $(DUMMYINSTALLDIR)
+        -$(DEL) rtl-stamp.$(FULL_TARGET)
+
+distcleanrtl: cleanrtl
+
+rtl : rtl-stamp.$(FULL_TARGET)
+
+
+#############################
+# FPCUnit
+#
+
+DUMMYINSTALLDIR=$(BASEDIR)/tmp
+INSTALLOPT=INSTALL_PREFIX=$(DUMMYINSTALLDIR) INSTALL_UNITDIR=$(BASEDIR)/$(COMPILER_TARGETDIR)
+FPCUNITDIR=$(FPCDIR)/packages/fcl-fpcunit/src
+
+fpcunit-stamp.$(FULL_TARGET):
+ifneq ($(OS_TARGET),msdos)
+ifneq ($(CPU_TARGET),avr)
+ifneq ($(CPU_TARGET),jvm)
+ 	$(TESTCOMPILER) -Fu$(BASEDIR)/$(COMPILER_TARGETDIR) $(FPCUNITDIR)/testutils
+        $(TESTCOMPILER) -Fu$(BASEDIR)/$(COMPILER_TARGETDIR) $(FPCUNITDIR)/fpcunit
+endif
+endif
+endif
+        $(ECHO) Compiled > fpcunit-stamp.$(FULL_TARGET)
+
+cleanfpcunit:
+        $(DELTREE) $(COMPILER_TARGETDIR)
+        $(DELTREE) $(DUMMYINSTALLDIR)
+        -$(DEL) fpcunit-stamp.$(FULL_TARGET)
+
+distcleanfpcunit: cleanfpcunit
+	$(MAKE) -C $(FPCUNITDIR)/.. clean
+
+fpcunit : fpcunit-stamp.$(FULL_TARGET)
+
+
+#############################
+# Packages
+#
+
+DUMMYINSTALLDIR=$(BASEDIR)/tmp
+INSTALLOPT=INSTALL_PREFIX=$(DUMMYINSTALLDIR) INSTALL_UNITDIR=$(BASEDIR)/$(COMPILER_TARGETDIR)
+PACKAGESDIR=$(FPCDIR)/packages
+
+packages-stamp.$(FULL_TARGET):
+ifneq ($(inOS2),)
+        $(MAKE) -C ../../packages all "OPT=$(OPT) -n" "CROSSOPT=$(CROSSOPT)"
+else
+        $(MAKE) -C ../../packages all 'OPT=$(OPT) -n' 'CROSSOPT=$(CROSSOPT)'
+endif
+        $(MAKE) -C ../../packages install $(INSTALLOPT) OPT= CROSSOPT=
+        $(ECHO) Compiled > packages-stamp.$(FULL_TARGET)
+
+cleanpackages:
+        $(DELTREE) $(COMPILER_TARGETDIR)
+        $(DELTREE) $(DUMMYINSTALLDIR)
+        -$(DEL) packages-stamp.$(FULL_TARGET)
+
+distcleanpackages: cleanpackages
+
+packages : packages-stamp.$(FULL_TARGET)
+
+
+#############################
+# Extra units
+#
+
+
+erroru$(PPUEXT) : erroru.pp
+        $(TESTCOMPILER) erroru.pp
+
+ptest$(PPUEXT) : ../test/cg/ptest.pp
+ifneq ($(OS_TARGET),msdos)
+        $(TESTCOMPILER) ../test/cg/ptest.pp
+endif
+
+popuperr$(PPUEXT) : popuperr.pp
+        $(TESTCOMPILER) popuperr.pp
+
+ifdef CCOMPILER
+ctest: ../test/cg/obj/ctest.c
+        $(CCOMPILER) -c -o ../test/cg/obj/$(OS_TARGET)/$(CPU_TARGET)/ctest.o ../test/cg/obj/ctest.c
+else
+ctest:
+        @$(ECHO) "No C compiler found"
+        @exit 1
+endif
+
+
+extra : erroru$(PPUEXT) ptest$(PPUEXT) popuperr$(PPUEXT)
+
+
+#####################################################################
+# PPU testing targets
+#####################################################################
+
+PPULIST:=$(wildcard */*.ppu) $(wildcard units/*/*.ppu)
+PPULOGLIST:=$(subst .ppu,.log-ppu,$(PPULIST))
+RMPPULOGLIST:=$(subst .ppu,.rm-log-ppu,$(PPULIST))
+
+.PHONY : ppulogs cleanppulogs testppudump $(RMPPULOGLIST)
+
+ppulogs : $(PPULOGLIST)
+
+vpath %.ppu $(ALLPPUDIRS)
+vpath %.log-ppu $(ALLPPUDIRS)
+vpath %.rm-log-ppu $(ALLPPUDIRS)
+
+%.log-ppu : %.ppu ../../compiler/utils/ppudump$(EXEEXT)
+	..$(PATHSEP)..$(PATHSEP)compiler$(PATHSEP)utils$(PATHSEP)ppudump -VA -M $< > $@
+
+%.rm-log-ppu : %.ppu ../../compiler/utils/ppudump$(EXEEXT)
+	-$(RMPROG) $<
+
+
+../../compiler/utils/ppudump$(EXEEXT):
+	$(MAKE) -C $(COMPILERDIR)/utils ppudump$(EXEEXT)
+
+ppuinfo :
+	echo PPU list is "$(PPULIST)"
+	echo PPULOG list is "$(PPULOGLIST)"
+
+cleanppulogs : $(RMPPULOGLIST)
+
+testppudump :
+        $(MAKE) cleanppulogs ppulogs
+
+#############################
+# Main rules
+#
+
+ifdef QUICKTEST
+all : rtl fpcunit extra
+else
+all : rtl fpcunit packages extra
+endif
+
+STAMPFILES=$(wildcard *stamp*)
+TEMPDIRS=$(wildcard $(MAKEFILETARGETS) tmp)
+
+
+clean : cleanrtl cleanall cleanfpcunit cleanpackages
+
+distclean : clean distcleanrtl distcleanfpcunit distcleanpackages
+	-$(DELTREE) $(TEMPDIRS)
+	-$(DELTREE) $(BASEDIR)/units
+	-$(DEL) $(STAMPFILES)
+
+clean_ctest :
+        -$(DEL) ../test/cg/obj/$(OS_TARGET)/$(CPU_TARGET)/ctest.o

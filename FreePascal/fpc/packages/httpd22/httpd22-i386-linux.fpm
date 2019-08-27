@@ -1,0 +1,10 @@
+Name=httpd22
+Version=3.3.1
+Checksum=1566835025
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/httpd22/
+FPMakeOptions=-o -Pi386 -o -XPi386-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,rtl-extra|1566834998
+NeedLibC=Y
+FPMakeAddIn=N

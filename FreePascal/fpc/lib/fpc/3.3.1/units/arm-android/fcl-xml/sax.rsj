@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":237323972,"name":"sax.ssaxattributeindexerror","sourcebytes":[73,110,118,97,108,105,100,32,97,116,116,114,105,98,117,116,101,32,105,110,100,101,120,32,37,100],"value":"Invalid attribute index %d"},
+{"hash":142593058,"name":"sax.ssaxunrecognizedfeature","sourcebytes":[85,110,107,110,111,119,110,32,83,65,88,32,102,101,97,116,117,114,101,58,32,34,37,115,34],"value":"Unknown SAX feature: \"%s\""},
+{"hash":100092754,"name":"sax.ssaxunrecognizedproperty","sourcebytes":[85,110,107,110,111,119,110,32,83,65,88,32,112,114,111,112,101,114,116,121,58,32,34,37,115,34],"value":"Unknown SAX property: \"%s\""}
+]}

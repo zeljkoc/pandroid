@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":67358702,"name":"unicodeset.sinvalidlength","sourcebytes":[73,110,118,97,108,105,100,32,108,101,110,103,116,104,32,118,97,108,117,101,32,58,32,34,37,100,34,46],"value":"Invalid length value : \"%d\"."},
+{"hash":116017342,"name":"unicodeset.sinvalidposition","sourcebytes":[73,110,118,97,108,105,100,32,112,111,115,105,116,105,111,110,32,58,32,34,37,100,34,46],"value":"Invalid position : \"%d\"."},
+{"hash":210577086,"name":"unicodeset.sinvalidrangelimits","sourcebytes":[73,110,118,97,108,105,100,32,114,97,110,103,101,32,108,105,109,105,116,115,32,58,32,91,34,37,120,34,32,44,32,34,37,120,34,93,46],"value":"Invalid range limits : [\"%x\" , \"%x\"]."},
+{"hash":61063550,"name":"unicodeset.sexpectedbut","sourcebytes":[69,120,112,101,99,116,115,32,34,37,115,34,32,98,117,116,32,103,111,116,32,34,37,115,46,46,46,34,32,46],"value":"Expects \"%s\" but got \"%s...\" ."},
+{"hash":135168190,"name":"unicodeset.sunexpectedeof","sourcebytes":[85,110,101,120,112,101,99,116,101,100,32,101,110,100,32,111,102,32,102,105,108,101,46],"value":"Unexpected end of file."}
+]}

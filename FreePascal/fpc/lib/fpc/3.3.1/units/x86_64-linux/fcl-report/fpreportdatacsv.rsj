@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":2465250,"name":"fpreportdatacsv.sfilenamedoesnotexist","sourcebytes":[70,105,108,101,110,97,109,101,32,100,111,101,115,32,110,111,116,32,101,120,105,115,116,58,32,34,37,115,34],"value":"Filename does not exist: \"%s\""},
+{"hash":21581109,"name":"fpreportdatacsv.serrneedfilename","sourcebytes":[78,101,101,100,32,97,32,67,83,86,32,102,105,108,101,32,110,97,109,101],"value":"Need a CSV file name"}
+]}

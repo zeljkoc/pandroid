@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1550132345"/>
+  <Params Value=" -Twin64 -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/x86_64-win64 -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/x86_64-win64 -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/x86_64-win64 -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/x86_64-win64/win32 -Fu/usr/local/pandroid/FreePascal/lazarus/components/anchordocking/ -FU/usr/local/pandroid/FreePascal/lazarus/components/anchordocking/units/x86_64-win64/win32/ -dLCL -dLCLwin32 anchordockpkg.pas"/>
+</CONFIG>

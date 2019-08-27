@@ -1,0 +1,200 @@
+object IDETodoWindow: TIDETodoWindow
+  Left = 415
+  Height = 300
+  Top = 398
+  Width = 837
+  ActiveControl = lvTodo
+  Caption = 'IDETodoWindow'
+  ClientHeight = 300
+  ClientWidth = 837
+  KeyPreview = True
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  Position = poScreenCenter
+  SessionProperties = 'chkListed.Checked;chkUsed.Checked;chkSourceEditor.Checked;chkPackages.Checked'
+  LCLVersion = '1.9.0.0'
+  object lvTodo: TListView
+    Left = 6
+    Height = 240
+    Top = 54
+    Width = 825
+    Align = alClient
+    BorderSpacing.Around = 6
+    Columns = <    
+      item
+        Caption = 'Done'
+        Width = 100
+      end    
+      item
+        Caption = 'Description'
+        Width = 700
+      end    
+      item
+        Caption = 'Priority'
+        Width = 100
+      end    
+      item
+        Caption = 'Module'
+        Width = 100
+      end    
+      item
+        Caption = 'Line'
+        Width = 100
+      end    
+      item
+        Caption = 'Owner'
+        Width = 100
+      end    
+      item
+        Caption = 'Category'
+      end>
+    RowSelect = True
+    ScrollBars = ssAutoBoth
+    SortType = stText
+    TabOrder = 1
+    ViewStyle = vsReport
+    OnClick = lvTodoClick
+    OnColumnClick = lvTodoColumnClick
+    OnCompare = lvTodoCompare
+  end
+  object ToolBar: TToolBar
+    Left = 0
+    Height = 48
+    Top = 0
+    Width = 837
+    AutoSize = True
+    ButtonHeight = 46
+    ButtonWidth = 47
+    Caption = 'ToolBar'
+    ParentShowHint = False
+    ShowCaptions = True
+    ShowHint = True
+    TabOrder = 0
+    object tbRefresh: TToolButton
+      Left = 1
+      Top = 2
+      Action = acRefresh
+      AutoSize = True
+    end
+    object tbGoto: TToolButton
+      Left = 53
+      Top = 2
+      Action = acGoto
+      AutoSize = True
+    end
+    object tbExport: TToolButton
+      Left = 100
+      Top = 2
+      Action = acExport
+      AutoSize = True
+    end
+    object N1: TToolButton
+      Left = 147
+      Height = 46
+      Top = 2
+      Caption = 'N1'
+      Style = tbsDivider
+    end
+    object grbOptions: TGroupBox
+      Left = 152
+      Height = 39
+      Top = 2
+      Width = 252
+      AutoSize = True
+      Caption = 'Options'
+      ClientHeight = 24
+      ClientWidth = 248
+      TabOrder = 0
+      object chkListed: TCheckBox
+        Left = 0
+        Height = 24
+        Top = 0
+        Width = 59
+        Align = alLeft
+        Caption = '&Listed'
+        Checked = True
+        OnChange = chkListedChange
+        State = cbChecked
+        TabOrder = 0
+      end
+      object chkUsed: TCheckBox
+        Left = 59
+        Height = 24
+        Top = 0
+        Width = 53
+        Align = alLeft
+        Caption = '&Used'
+        Checked = True
+        OnChange = chkUsedChange
+        State = cbChecked
+        TabOrder = 1
+      end
+      object chkSourceEditor: TCheckBox
+        Left = 112
+        Height = 24
+        Top = 0
+        Width = 60
+        Align = alLeft
+        Caption = 'Editor'
+        Checked = True
+        OnChange = chkSourceEditorChange
+        State = cbChecked
+        TabOrder = 2
+      end
+      object chkPackages: TCheckBox
+        Left = 172
+        Height = 24
+        Top = 0
+        Width = 76
+        Align = alLeft
+        Caption = '&Packages'
+        OnChange = chkPackagesChange
+        TabOrder = 3
+      end
+    end
+    object tbHelp: TToolButton
+      Left = 404
+      Top = 2
+      Action = acHelp
+    end
+  end
+  object ActionList: TActionList
+    left = 648
+    top = 10
+    object acGoto: TAction
+      Caption = 'Goto'
+      OnExecute = acGotoExecute
+    end
+    object acRefresh: TAction
+      Caption = 'Refresh'
+      OnExecute = acRefreshExecute
+    end
+    object acExport: TAction
+      Caption = 'Export'
+      OnExecute = acExportExecute
+    end
+    object acHelp: TAction
+      Caption = 'acHelp'
+      OnExecute = acHelpExecute
+    end
+  end
+  object SaveDialog: TSaveDialog
+    OnShow = SaveDialogShow
+    DefaultExt = '.csv'
+    Filter = 'csv|*.csv'
+    Options = [ofCreatePrompt, ofEnableSizing, ofViewDetail]
+    left = 448
+    top = 11
+  end
+  object XMLPropStorage: TXMLPropStorage
+    StoredValues = <>
+    FileName = 'todolistoptions.xml'
+    Active = False
+    OnRestoringProperties = XMLPropStorageRestoringProperties
+    OnRestoreProperties = XMLPropStorageRestoreProperties
+    left = 544
+    top = 11
+  end
+end

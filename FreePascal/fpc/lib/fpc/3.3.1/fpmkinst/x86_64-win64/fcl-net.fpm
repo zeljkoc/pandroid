@@ -1,0 +1,10 @@
+Name=fcl-net
+Version=3.3.1
+Checksum=1566835422
+CPU=x86_64
+OS=win64
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-net/
+FPMakeOptions=-o -Twin64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1566835397,fcl-xml|1566835401,fcl-passrc|1566835421,rtl-extra|1566835392
+NeedLibC=N
+FPMakeAddIn=N

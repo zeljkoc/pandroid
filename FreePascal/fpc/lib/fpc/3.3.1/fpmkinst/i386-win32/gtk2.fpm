@@ -1,0 +1,10 @@
+Name=gtk2
+Version=3.3.1
+Checksum=1566835291
+CPU=i386
+OS=win32
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/gtk2/
+FPMakeOptions=-o -Twin32 -o -Pi386 -o -XPi386-win32- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,cairo|1566835251
+NeedLibC=Y
+FPMakeAddIn=N

@@ -1,0 +1,12 @@
+{"version":1,"strings":[
+{"hash":187456526,"name":"ssockets.strhostnotfound","sourcebytes":[72,111,115,116,32,110,97,109,101,32,114,101,115,111,108,117,116,105,111,110,32,102,111,114,32,34,37,115,34,32,102,97,105,108,101,100,46],"value":"Host name resolution for \"%s\" failed."},
+{"hash":209444227,"name":"ssockets.strsocketcreationfailed","sourcebytes":[67,114,101,97,116,105,111,110,32,111,102,32,115,111,99,107,101,116,32,102,97,105,108,101,100,58,32,37,115],"value":"Creation of socket failed: %s"},
+{"hash":229333955,"name":"ssockets.strsocketbindfailed","sourcebytes":[66,105,110,100,105,110,103,32,111,102,32,115,111,99,107,101,116,32,102,97,105,108,101,100,58,32,37,115],"value":"Binding of socket failed: %s"},
+{"hash":19656580,"name":"ssockets.strsocketlistenfailed","sourcebytes":[76,105,115,116,101,110,105,110,103,32,111,110,32,112,111,114,116,32,35,37,100,32,102,97,105,108,101,100,44,32,101,114,114,111,114,58,32,37,100],"value":"Listening on port #%d failed, error: %d"},
+{"hash":203883054,"name":"ssockets.strsocketconnectfailed","sourcebytes":[67,111,110,110,101,99,116,32,116,111,32,37,115,32,102,97,105,108,101,100,46],"value":"Connect to %s failed."},
+{"hash":108117012,"name":"ssockets.strsocketacceptfailed","sourcebytes":[67,111,117,108,100,32,110,111,116,32,97,99,99,101,112,116,32,97,32,99,108,105,101,110,116,32,99,111,110,110,101,99,116,105,111,110,32,111,110,32,115,111,99,107,101,116,58,32,37,100,44,32,101,114,114,111,114,32,37,100],"value":"Could not accept a client connection on socket: %d, error %d"},
+{"hash":221097508,"name":"ssockets.strsocketacceptwouldblock","sourcebytes":[65,99,99,101,112,116,32,119,111,117,108,100,32,98,108,111,99,107,32,111,110,32,115,111,99,107,101,116,58,32,37,100],"value":"Accept would block on socket: %d"},
+{"hash":38756356,"name":"ssockets.strsocketiotimeout","sourcebytes":[70,97,105,108,101,100,32,116,111,32,115,101,116,32,73,79,32,84,105,109,101,111,117,116,32,116,111,32,37,100],"value":"Failed to set IO Timeout to %d"},
+{"hash":15783444,"name":"ssockets.strerrnostream","sourcebytes":[83,111,99,107,101,116,32,115,116,114,101,97,109,32,110,111,116,32,97,115,115,105,103,110,101,100],"value":"Socket stream not assigned"},
+{"hash":108958686,"name":"ssockets.strsocketconnecttimeout","sourcebytes":[67,111,110,110,101,99,116,105,111,110,32,116,111,32,37,115,32,116,105,109,101,100,32,111,117,116,46],"value":"Connection to %s timed out."}
+]}

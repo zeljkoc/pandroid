@@ -1,0 +1,10 @@
+Name=fcl-js
+Version=3.3.1
+Checksum=1566835018
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-js/
+FPMakeOptions=-o -Pi386 -o -XPi386-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,fcl-base|1566835004,fcl-json|1566835012
+NeedLibC=N
+FPMakeAddIn=N

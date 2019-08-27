@@ -1,0 +1,3 @@
+{"version":1,"strings":[
+{"hash":44707853,"name":"streamio.serrnilstream","sourcebytes":[67,97,110,32,110,111,116,32,97,115,115,105,103,110,32,102,105,108,101,32,116,111,32,78,105,108,32,115,116,114,101,97,109],"value":"Can not assign file to Nil stream"}
+]}

@@ -1,0 +1,10 @@
+Name=ncurses
+Version=3.3.1
+Checksum=1566835041
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/ncurses/
+FPMakeOptions=-o -Pi386 -o -XPi386-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl
+NeedLibC=N
+FPMakeAddIn=N

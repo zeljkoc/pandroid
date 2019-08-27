@@ -1,0 +1,10 @@
+Name=opengles
+Version=3.3.1
+Checksum=1566835043
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/opengles/
+FPMakeOptions=-o -Pi386 -o -XPi386-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,x11|1566834999
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,111 @@
+object Form1: TForm1
+  Left = 406
+  Height = 354
+  Top = 135
+  Width = 752
+  Caption = 'Form1'
+  ClientHeight = 354
+  ClientWidth = 752
+  LCLVersion = '2.1.0.0'
+  object Chart1: TChart
+    Left = 0
+    Height = 354
+    Top = 0
+    Width = 640
+    AxisList = <    
+      item
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Visible = False
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clCream
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    OnAfterDrawBackground = Chart1AfterDrawBackground
+    OnAfterPaint = Chart1AfterPaint
+    Align = alClient
+    object Chart1LineSeries1: TLineSeries
+      LineType = ltNone
+      Pointer.HorizSize = 1
+      Pointer.OverrideColor = [ocBrush, ocPen]
+      Pointer.VertSize = 1
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Chart1ManhattanSeries1: TManhattanSeries
+      Source = UserDefinedChartSource1
+    end
+  end
+  object pnlControls: TPanel
+    Left = 640
+    Height = 354
+    Top = 0
+    Width = 112
+    Align = alRight
+    ClientHeight = 354
+    ClientWidth = 112
+    TabOrder = 1
+    object btnGenerate: TButton
+      AnchorSideLeft.Control = seCount
+      AnchorSideTop.Control = seCount
+      AnchorSideTop.Side = asrBottom
+      Left = 10
+      Height = 25
+      Top = 40
+      Width = 73
+      AutoSize = True
+      BorderSpacing.Top = 8
+      Caption = 'Generate'
+      OnClick = btnGenerateClick
+      TabOrder = 0
+    end
+    object seCount: TSpinEdit
+      AnchorSideLeft.Control = pnlControls
+      AnchorSideTop.Control = pnlControls
+      AnchorSideRight.Control = pnlControls
+      AnchorSideRight.Side = asrBottom
+      Left = 10
+      Height = 23
+      Top = 9
+      Width = 92
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 9
+      BorderSpacing.Top = 8
+      BorderSpacing.Right = 9
+      Increment = 100000
+      MaxValue = 100000000
+      TabOrder = 1
+      Value = 1000000
+    end
+    object lblTime: TLabel
+      AnchorSideLeft.Control = btnGenerate
+      AnchorSideTop.Control = btnGenerate
+      AnchorSideTop.Side = asrBottom
+      Left = 10
+      Height = 15
+      Top = 89
+      Width = 30
+      BorderSpacing.Top = 24
+      Caption = 'Time:'
+      ParentColor = False
+    end
+  end
+  object UserDefinedChartSource1: TUserDefinedChartSource
+    OnGetChartDataItem = UserDefinedChartSource1GetChartDataItem
+    left = 284
+    top = 80
+  end
+end

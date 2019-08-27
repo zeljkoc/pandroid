@@ -1,0 +1,122 @@
+object SearchResultsView: TSearchResultsView
+  Left = 344
+  Height = 273
+  Top = 327
+  Width = 799
+  BorderIcons = [biSystemMenu]
+  Caption = 'SearchResultsView'
+  ClientHeight = 273
+  ClientWidth = 799
+  KeyPreview = True
+  OnClose = FormClose
+  OnCreate = Form1Create
+  OnKeyDown = FormKeyDown
+  LCLVersion = '1.9.0.0'
+  object ResultsNoteBook: TPageControl
+    AnchorSideTop.Control = ToolBar
+    AnchorSideTop.Side = asrBottom
+    Left = 0
+    Height = 251
+    Top = 22
+    Width = 799
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    MultiLine = True
+    TabOrder = 1
+    OnChange = ResultsNoteBookPageChanged
+    OnChanging = ResultsNoteBookChanging
+    OnCloseTabClicked = ResultsNoteBookClosetabclicked
+    OnMouseDown = ResultsNoteBookMouseDown
+    Options = [nboShowCloseButtons, nboMultiLine]
+  end
+  object ToolBar: TToolBar
+    Left = 0
+    Height = 22
+    Top = 0
+    Width = 55
+    Align = alNone
+    AutoSize = True
+    EdgeBorders = []
+    TabOrder = 2
+    object SearchAgainButton: TToolButton
+      Left = 1
+      Top = 0
+      Caption = 'SearchAgainButton'
+      OnClick = SearchAgainButtonClick
+    end
+    object ClosePageButton: TToolButton
+      Left = 24
+      Top = 0
+      Caption = 'ClosePageButton'
+      OnClick = ClosePageButtonClick
+    end
+    object ToolButton3: TToolButton
+      Left = 47
+      Height = 22
+      Top = 0
+      Caption = 'ToolButton3'
+      Style = tbsSeparator
+    end
+  end
+  object SearchInListEdit: TTreeFilterEdit
+    AnchorSideLeft.Control = ToolBar
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ToolBar
+    AnchorSideTop.Side = asrCenter
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 61
+    Height = 23
+    Top = 0
+    Width = 738
+    ButtonWidth = 23
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    NumGlyphs = 1
+    MaxLength = 0
+    TabOrder = 0
+    OnChange = SearchInListChange
+  end
+  object popList: TPopupMenu
+    Left = 190
+    Top = 133
+    object mniCopyItem: TMenuItem
+      Caption = 'Copy Item'
+      OnClick = mniCopyItemClick
+    end
+    object mniCopyAll: TMenuItem
+      Caption = 'Copy All'
+      OnClick = mniCopyAllClick
+    end
+    object mniCopySelected: TMenuItem
+      Caption = 'Copy Selected'
+      OnClick = mniCopySelectedClick
+    end
+    object MenuItem1: TMenuItem
+      Caption = '-'
+    end
+    object mniExpandAll: TMenuItem
+      Caption = 'Expand All'
+      OnClick = mniExpandAllClick
+    end
+    object mniCollapseAll: TMenuItem
+      Caption = 'Collapse All'
+      OnClick = mniCollapseAllClick
+    end
+  end
+  object ActionList: TActionList
+    Left = 93
+    Top = 133
+    object actClosePage: TAction
+      OnExecute = ClosePageButtonClick
+      ShortCut = 16499
+    end
+    object actNextPage: TAction
+      OnExecute = actNextPageExecute
+      ShortCut = 16393
+    end
+    object actPrevPage: TAction
+      OnExecute = actPrevPageExecute
+      ShortCut = 24585
+    end
+  end
+end

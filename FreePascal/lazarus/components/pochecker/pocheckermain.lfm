@@ -1,0 +1,328 @@
+object PoCheckerForm: TPoCheckerForm
+  Left = 318
+  Height = 513
+  Top = 163
+  Width = 644
+  Anchors = []
+  Caption = 'GUI Po-file checking tool'
+  ClientHeight = 513
+  ClientWidth = 644
+  Constraints.MinHeight = 450
+  Constraints.MinWidth = 600
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.9.0.0'
+  Visible = True
+  object TestListBox: TCheckListBox
+    AnchorSideLeft.Control = MasterPoListBox
+    AnchorSideTop.Control = SelectTestLabel
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = MasterPoListBox
+    AnchorSideRight.Side = asrBottom
+    Left = 6
+    Height = 145
+    Top = 79
+    Width = 632
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    Enabled = False
+    Items.Strings = (
+      'sCheckNumberOfItems'
+      'sCheckForIncompatibleFormatArguments'
+      'sCheckMissingIdentifiers'
+      'sCheckForMismatchesInUntranslatedStrings'
+    )
+    ItemHeight = 17
+    TabOrder = 1
+    Data = {
+      0400000000000000
+    }
+  end
+  object SelectTestLabel: TLabel
+    AnchorSideLeft.Control = MasterPoListBox
+    AnchorSideTop.Control = MainToolBar
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 15
+    Top = 58
+    Width = 93
+    BorderSpacing.Top = 6
+    Caption = 'Select test types'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object SelectAllTestsBtn: TButton
+    AnchorSideLeft.Control = TestListBox
+    AnchorSideTop.Control = TestListBox
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 25
+    Top = 230
+    Width = 104
+    AutoSize = True
+    BorderSpacing.Top = 6
+    Caption = 'Select All Tests'
+    Enabled = False
+    OnClick = SelectAllTestsBtnClick
+    TabOrder = 2
+  end
+  object UnselectAllTestsBtn: TButton
+    AnchorSideLeft.Control = SelectAllTestsBtn
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SelectAllTestsBtn
+    Left = 116
+    Height = 25
+    Top = 230
+    Width = 118
+    AutoSize = True
+    BorderSpacing.Left = 6
+    Caption = 'Unselect All Tests'
+    Enabled = False
+    OnClick = UnselectAllTestsBtnClick
+    TabOrder = 3
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 490
+    Width = 644
+    Panels = <>
+  end
+  object MasterPoListBox: TListBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = SelectAllTestsBtn
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = LangFilter
+    Left = 6
+    Height = 163
+    Top = 261
+    Width = 632
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Right = 6
+    BorderSpacing.Bottom = 6
+    ItemHeight = 0
+    MultiSelect = True
+    OnDrawItem = MasterPoListBoxDrawItem
+    OnResize = MasterPoListBoxResize
+    OnSelectionChange = MasterPoListBoxSelectionChange
+    ScrollWidth = 630
+    Sorted = True
+    Style = lbOwnerDrawFixed
+    TabOrder = 4
+  end
+  object LangFilter: TComboBox
+    AnchorSideLeft.Control = MasterPoListBox
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = MasterPoListBox
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = ClearMasterFilesBtn
+    Left = 6
+    Height = 23
+    Top = 430
+    Width = 632
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Bottom = 6
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'All languages'
+      'af_ZA'
+      'ar'
+      'ca'
+      'cs'
+      'de'
+      'en'
+      'es'
+      'fi'
+      'fr'
+      'he'
+      'hu'
+      'id'
+      'it'
+      'ja'
+      'lt'
+      'nl'
+      'pl'
+      'pt_BR'
+      'ru'
+      'sk'
+      'tr'
+      'uk'
+      'zh_CN'
+    )
+    OnChange = LangFilterChange
+    Style = csDropDownList
+    TabOrder = 5
+    Text = 'All languages'
+  end
+  object ClearMasterFilesBtn: TButton
+    AnchorSideLeft.Control = MasterPoListBox
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = StatusBar
+    Left = 6
+    Height = 25
+    Top = 459
+    Width = 53
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    BorderSpacing.Bottom = 6
+    Caption = 'Clear'
+    OnClick = ClearMasterFilesBtnClick
+    TabOrder = 6
+  end
+  object UnselectAllMasterFilesBtn: TButton
+    AnchorSideLeft.Control = SelectAllMasterFilesBtn
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideBottom.Control = StatusBar
+    Left = 167
+    Height = 25
+    Top = 459
+    Width = 110
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    BorderSpacing.Left = 6
+    BorderSpacing.Bottom = 6
+    Caption = 'Unselect all files'
+    Enabled = False
+    OnClick = UnselectAllMasterFilesBtnClick
+    TabOrder = 8
+  end
+  object SelectAllMasterFilesBtn: TButton
+    AnchorSideLeft.Control = ClearMasterFilesBtn
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideBottom.Control = StatusBar
+    Left = 65
+    Height = 25
+    Top = 459
+    Width = 96
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    BorderSpacing.Left = 6
+    BorderSpacing.Bottom = 6
+    Caption = 'Select all files'
+    OnClick = SelectAllMasterFilesBtnClick
+    TabOrder = 7
+  end
+  object MainToolBar: TToolBar
+    Left = 0
+    Height = 52
+    Top = 0
+    Width = 644
+    AutoSize = True
+    ButtonHeight = 50
+    ButtonWidth = 23
+    Caption = 'MainToolBar'
+    Images = TBImageList
+    ShowCaptions = True
+    TabOrder = 0
+    object ScanDirToolButton: TToolButton
+      Left = 1
+      Top = 2
+      AutoSize = True
+      Caption = 'Scan a folder'
+      ImageIndex = 0
+      OnClick = ScanDirToolButtonClick
+    end
+    object Div1ToolButton: TToolButton
+      Left = 77
+      Height = 50
+      Top = 2
+      AutoSize = True
+      Caption = 'Div1ToolButton'
+      ShowCaption = False
+      Style = tbsDivider
+    end
+    object RunToolButton: TToolButton
+      Left = 82
+      Top = 2
+      AutoSize = True
+      Caption = '&Run Selected Tests'
+      ImageIndex = 1
+      OnClick = RunToolButtonClick
+    end
+  end
+  object SelectDirectoryDialog: TSelectDirectoryDialog
+    Options = [ofEnableSizing]
+    left = 355
+    top = 435
+  end
+  object TBImageList: TImageList
+    left = 460
+    top = 435
+    Bitmap = {
+      4C69020000001000000010000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00659CA803B0A18EC4BFAE97FFC9AB8FFFCDAF95FFBEAB
+      98FF3174930AFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00AFA08EC4DDC3ABFFF4E6DAFFF8ECDFFFF2DDC9FFE3C9
+      B2FFB29D8BC4FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00CAAE95FFF2E3D5FFF6E0CAFFF5DEC6FFF5DEC5FFF7E5
+      D2FFC5AA94FFFFFFFF00FFFFFF0034B4D9D05EC2E1FA60C3E2FA60C3E2FA60C3
+      E2FA5FC3E2FA3CB6DBDDC8A98DFFF8EADCFFF4DDC6FFF4DCC4FFF3D8BDFFF8E2
+      CDFFCCAD93FFFFFFFF00FFFFFF0036B3DAF8FDFEFEFFFEFFFFFFFEFEFFFFFDFE
+      FFFFFEFFFFFFEAF7FBFFC9AC94FFF3E3D4FFF4DAC1FFF3D8BDFFF3D8BDFFF8E3
+      CCFFC4A48BFFFFFFFF00FFFFFF0035AFDAF0F7FCFEFF8EE4F8FF91DEF5FF9FE0
+      F5FFACE1F6FFEFFBFEFFC6B8AAFFE2CDBCFFF5E0CCFFF7E0C7FFF8E2CBFFF3D1
+      B3FFA7998FFF35628F5FFFFFFF0036AADAF2F1FAFDFF94DEF5FF93DCF4FF81D5
+      F2FF6ACAEDFF6CCBEAFF87C8DDFF98B2B4FFC7AC94FFCDAF96FFC8A88DFFAB99
+      8EFF96B1CBFF5486B4F220507C5835ABDAFAE8F6FBFF94D4EFFF88CEEEFF73C1
+      E9FFC9E9F6FFF2FCFEFFF3FCFEFFF2FCFEFFF0FCFEFFEFFBFEFFEEFBFEFFB0C1
+      D1FF568BB7FE8CB1D4FF3E6F9BF537A6DAFAFEFFFFFFF8FDFFFFF6FDFFFFF5FC
+      FFFFF3FCFEFFD8F6FCFF94E6F8FF85E3F7FF76DFF6FF68DBF5FF5CD8F4FFD7F4
+      FCFF2D86B8FA4777A0F6416F96FF36A1DAF9F6FCFEFFC8F2FCFFB9EFFBFFACEC
+      FAFF9CE8F9FF8BE3F7FF7CE0F6FF6CDCF6FF5DD9F5FF4FD6F4FF44D3F3FFD0F3
+      FCFF359FDAF7FFFFFF00FFFFFF00369ADAF8F2FAFDFFB3EDFAFFA4E9F9FF95E6
+      F8FF85E2F7FF76DEF6FF65DBF5FF57D7F4FF49D4F3FF3BD1F2FF30CEF1FFCCF2
+      FBFF3598DAF7FFFFFF00FFFFFF003594DAF7EFFAFEFFA1E9F9FF91E5F8FF81E1
+      F7FF72DEF6FF63DAF5FF54D7F4FF47D3F3FF39D0F2FF2ECDF1FF26CBF0FFCAF2
+      FBFF3594DAF7FFFFFF00FFFFFF00338ED9E6DCF0FAF0A7DDF4FD9EDBF4FF96DA
+      F3FF8ED8F3FF86D7F3FF7FD4F2FF79D3F2FF72D2F1FF6CD0F1FF69CFF1FFC2EA
+      F8FE338ED9F0FFFFFF00FFFFFF002C86D8002D88D8A62D87D8EA2D88D8F72D88
+      D8F72D88D8F72D88D8F72D88D8F72D88D8F72D88D8F72D88D8F72D87D8F72D88
+      D8F12C86D893FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000B77
+      423F0B77423FFFFFFF00FFFFFF00000000000000000000000000000000000000
+      000000000000000000000000000000000000FFFFFF00FFFFFF000B77423D54A0
+      7AFF54A07AFF0B774247FFFFFF00000000000000000000000000000000000000
+      000000000000000000000000000000000000FFFFFF000B77424C54A07AFF7BCC
+      AFFF81CBAFFF54A07AFF0B77423F000000000000000000000000000000000000
+      0000000000000000000000000000000000000B77424054A07AFF6DC9A8FF57C7
+      A2FF7BCCAFFF54A07AFF0B774239000000000B7742203A9166F60B7742200000
+      00000000000000000000FFFFFF000B77424054A07AFF7CCAAEFF52C39DFF81BD
+      A2FF54A07AFF0B77423F54A07A000B7742303A9166FC7FBBA0FF3A9166FC0B77
+      423000000000000000000B77426054A07AFF7BC5A9FF4EBE99FF5CC2A0FF54A0
+      7AFF0B77423F0B77421054A07A0054A07AFF7FC3A8FF5FBB9BFF7FBBA0FF3A91
+      66FF0B7742600B7742404D9C75FF7BC5A9FF4EBC97FF7BBEA2FF54A07AFF0B77
+      42400B77421054A07A00FFFFFF0054A07A0054A07AFF7DC1A7FF4DB391FF7FBB
+      9FFF4D9C75FF3E946AFF7BC5A9FF40B18BFF7BBEA2FF54A07AFF0B77424054A0
+      7A0054A07A00FFFFFF00FFFFFF00FFFFFF0054A07A0054A07AFF7CC0A6FF3CA9
+      85FF76BDA1FF7FBBA0FF4FB592FF7BBEA2FF54A07AFF0B77424054A07A0054A0
+      7A00FFFFFF00FFFFFF00FFFFFF0000000000FFFFFF00FFFFFF0054A07AFF7BBE
+      A4FF39A681FF55B191FF7AB698FF399166FF0B774240FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00000000000000000000000000FFFFFF0054A0
+      7AFF78BCA1FF7DB99EFF368F63FF0B774240FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF0000000000000000000000000000000000FFFF
+      FF0046986FFF379064FF0B774240FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00
+    }
+  end
+end

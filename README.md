@@ -34,6 +34,8 @@ Change source Pandroid: 15.08.2016.
 
  #: exit
 
+ (extract  /usr/local/pandroid/FreePascal/lazarus/lazarus.zip to /usr/local/pandroid/FreePascal/lazarus/lazarus  
+
  $: cp /usr/local/pandroid/FreePascal/lazarus.desktop $HOME/Desktop/lazarus.desktop
 
 

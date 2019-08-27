@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="IndyPackage"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="Source"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CustomOptions Value="-Ur"/>
+      </Other>
+    </CompilerOptions>
+    <Version Major="10" Minor="2" Build="3"/>
+    <Files Count="15">
+      <Item1>
+        <Filename Value="Source/indyreg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="IndyReg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="Source/IdTCPServer.pas"/>
+        <UnitName Value="IdTCPServer"/>
+      </Item2>
+      <Item3>
+        <Filename Value="Source/IdTCPClient.pas"/>
+        <UnitName Value="IdTCPClient"/>
+      </Item3>
+      <Item4>
+        <Filename Value="Source/IdCompressorZLib.pas"/>
+        <UnitName Value="IdCompressorZLib"/>
+      </Item4>
+      <Item5>
+        <Filename Value="Source/IdContext.pas"/>
+        <UnitName Value="IdContext"/>
+      </Item5>
+      <Item6>
+        <Filename Value="Source/IdUDPServer.pas"/>
+        <UnitName Value="IdUDPServer"/>
+      </Item6>
+      <Item7>
+        <Filename Value="Source/IdUDPClient.pas"/>
+        <UnitName Value="IdUDPClient"/>
+      </Item7>
+      <Item8>
+        <Filename Value="Source/IdIntercept.pas"/>
+        <UnitName Value="IdIntercept"/>
+      </Item8>
+      <Item9>
+        <Filename Value="Source/IdIOHandler.pas"/>
+        <UnitName Value="IdIOHandler"/>
+      </Item9>
+      <Item10>
+        <Filename Value="Source/IdCmdTCPServer.pas"/>
+        <UnitName Value="IdCmdTCPServer"/>
+      </Item10>
+      <Item11>
+        <Filename Value="Source/IdCmdTCPClient.pas"/>
+        <UnitName Value="IdCmdTCPClient"/>
+      </Item11>
+      <Item12>
+        <Filename Value="Source/IdMessage.pas"/>
+        <UnitName Value="IdMessage"/>
+      </Item12>
+      <Item13>
+        <Filename Value="Source/IdGlobal.pas"/>
+        <UnitName Value="IdGlobal"/>
+      </Item13>
+      <Item14>
+        <Filename Value="Source/IdGlobalCore.pas"/>
+        <UnitName Value="IdGlobalCore"/>
+      </Item14>
+      <Item15>
+        <Filename Value="Source/IdGlobalProtocols.pas"/>
+        <UnitName Value="IdGlobalProtocols"/>
+      </Item15>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

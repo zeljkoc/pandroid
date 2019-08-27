@@ -1,0 +1,8 @@
+#############################################################
+                CodeTyphon Studio 
+            PilotLogic Software House
+            http://www.pilotlogic.com
+#############################################################
+
+OS Libraries for 
+android-5.0.x-api21-arm

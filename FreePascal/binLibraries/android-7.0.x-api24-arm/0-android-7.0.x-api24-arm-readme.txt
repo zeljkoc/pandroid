@@ -1,0 +1,8 @@
+#############################################################
+                CodeTyphon Studio 
+            PilotLogic Software House
+            http://www.pilotlogic.com
+#############################################################
+
+OS Libraries for 
+android-7.0.x-api24-arm

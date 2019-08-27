@@ -1,0 +1,236 @@
+object Form1: TForm1
+  Left = 343
+  Height = 405
+  Top = 206
+  Width = 871
+  Caption = 'Pandroid'
+  ClientHeight = 405
+  ClientWidth = 871
+  OnCreate = FormCreate
+  LCLVersion = '1.7'
+  Visible = False
+  object GroupBox1: TGroupBox
+    Left = 16
+    Height = 120
+    Top = 1
+    Width = 840
+    Caption = 'New projects'
+    ClientHeight = 104
+    ClientWidth = 838
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 35
+      Height = 15
+      Top = 18
+      Width = 133
+      Caption = 'Java Package Name:'
+      ParentColor = False
+    end
+    object eJavaPackageName: TEdit
+      Left = 176
+      Height = 27
+      Top = 8
+      Width = 200
+      CharCase = ecLowerCase
+      TabOrder = 0
+      Text = 'com.zeljus.button'
+    end
+    object Label6: TLabel
+      Left = 87
+      Height = 15
+      Top = 82
+      Width = 81
+      Caption = 'Project Path:'
+      ParentColor = False
+    end
+    object eProjectDir: TDirectoryEdit
+      Left = 176
+      Height = 27
+      Top = 72
+      Width = 560
+      Directory = '/home/zeljko/RAZVOJ/Android/Projekti/TEMP/'
+      ShowHidden = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 1
+      Text = '/home/zeljko/RAZVOJ/Android/Projekti/TEMP/'
+    end
+    object Label8: TLabel
+      Left = 48
+      Height = 15
+      Top = 50
+      Width = 120
+      Caption = 'Application Name:'
+      ParentColor = False
+    end
+    object eAppName: TEdit
+      Left = 176
+      Height = 27
+      Top = 40
+      Width = 200
+      TabOrder = 2
+      Text = 'Button'
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 16
+    Height = 168
+    Top = 160
+    Width = 840
+    Caption = 'Options'
+    ClientHeight = 152
+    ClientWidth = 838
+    TabOrder = 1
+    object Label11: TLabel
+      Left = 47
+      Height = 15
+      Top = 52
+      Width = 121
+      Caption = 'APK SDK Platform:'
+      ParentColor = False
+    end
+    object Label7: TLabel
+      Left = 51
+      Height = 15
+      Top = 16
+      Width = 117
+      Caption = 'Android SDK Path:'
+      ParentColor = False
+    end
+    object eAndroidSDKDir: TDirectoryEdit
+      Left = 176
+      Height = 27
+      Top = 6
+      Width = 560
+      Directory = '/home/zeljko/RAZVOJ/Android/android-sdk-linux'
+      ShowHidden = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 0
+      Text = '/home/zeljko/RAZVOJ/Android/android-sdk-linux'
+    end
+    object eTarget: TComboBox
+      Left = 176
+      Height = 27
+      Top = 40
+      Width = 348
+      ItemHeight = 0
+      ItemIndex = 0
+      Items.Strings = (
+        'android-15'
+        'android-16'
+        'android-19'
+        'android-22'
+        'android-25'
+      )
+      TabOrder = 1
+      Text = 'android-15'
+    end
+    object eBuildTools: TComboBox
+      Left = 176
+      Height = 27
+      Top = 72
+      Width = 348
+      ItemHeight = 0
+      ItemIndex = 1
+      Items.Strings = (
+        '19.1.0'
+        '23.0.3'
+        '29.0.2'
+      )
+      TabOrder = 2
+      Text = '23.0.3'
+    end
+    object Label2: TLabel
+      Left = 95
+      Height = 15
+      Top = 84
+      Width = 73
+      Caption = 'Build tools:'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 104
+      Height = 15
+      Top = 118
+      Width = 64
+      Caption = 'Send apk:'
+      ParentColor = False
+    end
+    object eSendApk: TComboBox
+      Left = 176
+      Height = 27
+      Top = 106
+      Width = 120
+      ItemHeight = 0
+      ItemIndex = 0
+      Items.Strings = (
+        '0'
+        '1'
+      )
+      TabOrder = 3
+      Text = '0'
+    end
+    object Memo1: TMemo
+      Left = 536
+      Height = 102
+      Top = 37
+      Width = 288
+      Lines.Strings = (
+        'androidr15 - Android 4.0.3  (API 15) ok'
+        'androidr16 - Android 4.1.2  (API 16) ok '
+        'androidr19 - Android 4.4.2  (API 19) ok'
+        'androidr22 - Android 5.1.1  (API 22) ok'
+        'androidr25 - Android 7.1.1  (API 25) ok'
+      )
+      ScrollBars = ssAutoBoth
+      TabOrder = 4
+    end
+  end
+  object buttonGenerateHeaders2: TButton
+    Left = 616
+    Height = 25
+    Top = 352
+    Width = 152
+    Caption = 'E&xit'
+    OnClick = buttonGenerateHeaders2Click
+    TabOrder = 2
+  end
+  object buttonGenerateHeaders1: TButton
+    Left = 440
+    Height = 25
+    Top = 352
+    Width = 152
+    Caption = '&Save ini file'
+    OnClick = buttonGenerateHeaders1Click
+    TabOrder = 3
+  end
+  object buttonNewProject: TButton
+    Left = 696
+    Height = 26
+    Top = 128
+    Width = 152
+    Caption = '&Create new Project'
+    OnClick = buttonNewProjectClick
+    TabOrder = 4
+  end
+  object cbProject: TComboBox
+    Left = 193
+    Height = 27
+    Top = 128
+    Width = 495
+    ItemHeight = 0
+    TabOrder = 5
+    Text = 'cbProject'
+  end
+  object Label4: TLabel
+    Left = 64
+    Height = 15
+    Top = 136
+    Width = 116
+    Caption = 'Project template: '
+    ParentColor = False
+  end
+end

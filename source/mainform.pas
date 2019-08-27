@@ -143,7 +143,6 @@ begin
   end;
   FindClose(Info);
   cbProject.Text := cbProject.Items[0];
-  ShowMessage(cbProject.Text );
 end;
 
 procedure TForm1.EditToAProject;

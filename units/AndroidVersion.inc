@@ -1,4 +1,4 @@
-{$DEFINE android15}
+{$DEFINE android22}
 
 uses
    {$IFDEF android25} androidr25 {$else no android25}

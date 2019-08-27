@@ -1,0 +1,18 @@
+{"version":1,"strings":[
+{"hash":147506147,"name":"sqlstringspropertyeditordlg.sresulttabcaption","sourcebytes":[82,101,115,117,108,116,115],"value":"Results"},
+{"hash":98869285,"name":"sqlstringspropertyeditordlg.ssqltabcaption","sourcebytes":[83,81,76,32,67,111,100,101],"value":"SQL Code"},
+{"hash":212315537,"name":"sqlstringspropertyeditordlg.smetatabcaption","sourcebytes":[77,101,116,97,100,97,116,97],"value":"Metadata"},
+{"hash":94868163,"name":"sqlstringspropertyeditordlg.smetatables","sourcebytes":[84,97,98,108,101,115],"value":"Tables"},
+{"hash":174310419,"name":"sqlstringspropertyeditordlg.smetacolumns","sourcebytes":[67,111,108,117,109,110,115],"value":"Columns"},
+{"hash":163492243,"name":"sqlstringspropertyeditordlg.smetaprocedures","sourcebytes":[80,114,111,99,101,100,117,114,101,115],"value":"Procedures"},
+{"hash":160214798,"name":"sqlstringspropertyeditordlg.smetapleasespecifyatableintheobjectfield","sourcebytes":[80,108,101,97,115,101,32,115,112,101,99,105,102,121,32,97,32,116,97,98,108,101,32,105,110,32,116,104,101,32,111,98,106,101,99,116,32,102,105,101,108,100,46],"value":"Please specify a table in the object field."},
+{"hash":145222083,"name":"sqlstringspropertyeditordlg.smetasystables","sourcebytes":[83,121,115,84,97,98,108,101,115],"value":"SysTables"},
+{"hash":7447310,"name":"sqlstringspropertyeditordlg.sloadsqlcodehint","sourcebytes":[76,111,97,100,32,83,81,76,32,99,111,100,101,32,46,46,46],"value":"Load SQL code ..."},
+{"hash":8084478,"name":"sqlstringspropertyeditordlg.ssavesqlcodehint","sourcebytes":[83,97,118,101,32,83,81,76,32,99,111,100,101,32,46,46,46],"value":"Save SQL code ..."},
+{"hash":8036389,"name":"sqlstringspropertyeditordlg.srunsqlcodehint","sourcebytes":[82,117,110,32,83,81,76,32,99,111,100,101],"value":"Run SQL code"},
+{"hash":58711816,"name":"sqlstringspropertyeditordlg.squickcheckofsqlsyntaxhint","sourcebytes":[81,117,105,99,107,32,99,104,101,99,107,32,111,102,32,83,81,76,32,115,121,110,116,97,120],"value":"Quick check of SQL syntax"},
+{"hash":246926459,"name":"sqlstringspropertyeditordlg.ssqlok","sourcebytes":[81,117,105,99,107,32,83,81,76,32,99,104,101,99,107,32,79,75],"value":"Quick SQL check OK"},
+{"hash":248848718,"name":"sqlstringspropertyeditordlg.sqlsyntaxok","sourcebytes":[78,111,32,115,121,110,116,97,120,32,101,114,114,111,114,115,32,105,110,32,83,81,76,32,115,116,97,116,101,109,101,110,116,32,102,111,117,110,100,46],"value":"No syntax errors in SQL statement found."},
+{"hash":3316034,"name":"sqlstringspropertyeditordlg.ssqlerror","sourcebytes":[80,114,111,98,97,98,108,101,32,83,81,76,32,101,114,114,111,114],"value":"Probable SQL error"},
+{"hash":69702707,"name":"sqlstringspropertyeditordlg.ssqlsyntaxerror","sourcebytes":[80,114,111,98,97,98,108,101,32,115,121,110,116,97,120,32,101,114,114,111,114,32,105,110,32,83,81,76,32,115,116,97,116,101,109,101,110,116,58,10,37,115],"value":"Probable syntax error in SQL statement:\n%s"}
+]}

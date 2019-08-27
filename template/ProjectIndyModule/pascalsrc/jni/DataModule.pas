@@ -10,14 +10,14 @@ uses
 { TDataM }
 
 type
-  TDataM = class(TDataModule)
-    Query: TSQLQuery;
-    TCPClient: TIdTCPClient;
+  TDataM = class(TDataModule)        
     procedure DataModuleCreate(Sender: TObject);
   protected
     function RemoteFirebirdQuery(sSelect: String): TSQLQuery;
     function ExecuteSQLRemoteFirebird(aSQL: String): String;
   private
+    Query: TSQLQuery;
+    TCPClient: TIdTCPClient;
     fRemoteSQL: String;
     fSelectQuery: String;
     fInsertQuery: String;
@@ -45,6 +45,8 @@ type
     procedure SetRecordNo(AValue: integer);
   public
     { public declarations }
+    constructor Create(AOwner: TComponent); override;
+    destructor Destroy; override;     
   published
     property Parameters: String write SetParameters;
 
@@ -120,6 +122,20 @@ end;
 procedure TDataM.SetRecordNo(AValue: integer);
 begin
   if (aValue <= Query.RecordCount) and (aValue >= 0) then fRecordNo:= aValue;
+end;
+
+constructor TDataM.Create(AOwner: TComponent);
+begin
+  inherited Create(AOwner);
+  Query:= TSQLQuery.Create(nil);
+  TCPClient:= TIdTCPClient.Create(nil);
+end;
+
+destructor TDataM.Destroy;
+begin
+  Query.Free;
+  TCPClient.Free;
+  inherited Destroy;
 end;
 
 //----------------------------------------------------------------

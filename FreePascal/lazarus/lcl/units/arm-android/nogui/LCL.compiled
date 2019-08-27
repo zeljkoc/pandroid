@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1550132345"/>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1566834944"/>
   <Params Value=" -Tandroid -Parm -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -vm5044 -Fi/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/nogui -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/nogui -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/arm-android -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/interfaces/ -FU/usr/local/pandroid/FreePascal/lazarus/lcl/units/arm-android/nogui/ lcl.pas"/>
 </CONFIG>

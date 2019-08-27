@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1566829248"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fi/usr/local/pandroid/source/lib/i386-linux -Fl/opt/gnome/lib -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/i386-linux/gtk2 -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/i386-linux -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/i386-linux -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/i386-linux -Fu/usr/local/pandroid/source/ -FU/usr/local/pandroid/source/lib/i386-linux/ -FE/usr/local/pandroid/ -dLCL -dLCLgtk2 -dUseCThreads pandroid.lpr"/>
-</CONFIG>

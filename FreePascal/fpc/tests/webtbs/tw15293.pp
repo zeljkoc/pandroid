@@ -1,5 +1,0 @@
-{ %norun }
-
-begin
-(* ()* *)
-end.

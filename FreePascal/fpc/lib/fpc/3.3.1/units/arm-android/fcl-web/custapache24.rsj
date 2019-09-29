@@ -1,7 +1,0 @@
-{"version":1,"strings":[
-{"hash":75508628,"name":"custapache24.serrnomodulenameforrequest","sourcebytes":[67,111,117,108,100,32,110,111,116,32,100,101,116,101,114,109,105,110,101,32,72,84,84,80,32,109,111,100,117,108,101,32,110,97,109,101,32,102,111,114,32,114,101,113,117,101,115,116],"value":"Could not determine HTTP module name for request"},
-{"hash":113525922,"name":"custapache24.serrnomoduleforrequest","sourcebytes":[67,111,117,108,100,32,110,111,116,32,100,101,116,101,114,109,105,110,101,32,72,84,84,80,32,109,111,100,117,108,101,32,102,111,114,32,114,101,113,117,101,115,116,32,34,37,115,34],"value":"Could not determine HTTP module for request \"%s\""},
-{"hash":237736750,"name":"custapache24.serrnomodulerecord","sourcebytes":[78,111,32,109,111,100,117,108,101,32,114,101,99,111,114,100,32,108,111,99,97,116,105,111,110,32,115,101,116,46],"value":"No module record location set."},
-{"hash":180648660,"name":"custapache24.serrnomodulename","sourcebytes":[78,111,32,109,111,100,117,108,101,32,110,97,109,101,32,115,101,116],"value":"No module name set"},
-{"hash":144013902,"name":"custapache24.serrtoomanyrequests","sourcebytes":[84,111,111,32,109,97,110,121,32,115,105,109,117,108,116,97,110,101,111,117,115,32,114,101,113,117,101,115,116,115,46],"value":"Too many simultaneous requests."}
-]}

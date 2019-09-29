@@ -1,4 +1,0 @@
-{"version":1,"strings":[
-{"hash":177864404,"name":"sqldblib.serrconnnected","sourcebytes":[84,104,105,115,32,111,112,101,114,97,116,105,111,110,32,105,115,32,110,111,116,32,97,108,108,111,119,101,100,32,119,104,105,108,101,32,116,104,101,32,100,97,116,97,116,97,98,97,115,101,32,105,115,32,108,111,97,100,101,100],"value":"This operation is not allowed while the datatabase is loaded"},
-{"hash":224495634,"name":"sqldblib.serrinvalidconnectiontype","sourcebytes":[73,110,118,97,108,105,100,32,99,111,110,110,101,99,116,105,111,110,32,116,121,112,101,32,58,32,34,37,115,34],"value":"Invalid connection type : \"%s\""}
-]}

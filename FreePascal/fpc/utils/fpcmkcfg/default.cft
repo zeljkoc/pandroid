@@ -1,5 +1,0 @@
-[Defaults]
-ConfigVersion=5
-Compiler=%fpcbin%
-OS=%fpctargetos%
-CPU=%fpctarget%

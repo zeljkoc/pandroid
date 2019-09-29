@@ -1,6 +1,0 @@
-{"version":1,"strings":[
-{"hash":54831502,"name":"streamex.serrcannotwriteoutsidewindow","sourcebytes":[67,97,110,110,111,116,32,119,114,105,116,101,32,111,117,116,115,105,100,101,32,97,108,108,111,99,97,116,101,100,32,119,105,110,100,111,119,46],"value":"Cannot write outside allocated window."},
-{"hash":199067470,"name":"streamex.serrinvalidseekwindow","sourcebytes":[67,97,110,110,111,116,32,115,101,101,107,32,111,117,116,115,105,100,101,32,97,108,108,111,99,97,116,101,100,32,119,105,110,100,111,119,46],"value":"Cannot seek outside allocated window."},
-{"hash":81545502,"name":"streamex.serrinvalidseekorigin","sourcebytes":[73,110,118,97,108,105,100,32,115,101,101,107,32,111,114,105,103,105,110,46],"value":"Invalid seek origin."},
-{"hash":158304557,"name":"streamex.serrcannotchangewindowsize","sourcebytes":[67,97,110,110,111,116,32,99,104,97,110,103,101,32,116,104,101,32,115,105,122,101,32,111,102,32,97,32,119,105,110,100,111,119,101,100,32,115,116,114,101,97,109],"value":"Cannot change the size of a windowed stream"}
-]}

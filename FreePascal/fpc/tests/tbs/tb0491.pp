@@ -1,3 +1,0 @@
-{$WARN SYMBOL_PLATFORM OFF}
-begin
-end.

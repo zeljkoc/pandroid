@@ -1,3 +1,0 @@
-{$I ../netware/nwsnut.pp}
-
-

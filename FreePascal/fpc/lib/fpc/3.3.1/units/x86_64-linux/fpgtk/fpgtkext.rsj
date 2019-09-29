@@ -1,7 +1,0 @@
-{"version":1,"strings":[
-{"hash":248003470,"name":"fpgtkext.rsnothingtorun","sourcebytes":[78,111,32,109,97,105,110,32,119,105,110,100,111,119,32,100,101,102,105,110,101,100,44,32,110,111,116,104,105,110,103,32,116,111,32,100,111,46,46,46],"value":"No main window defined, nothing to do..."},
-{"hash":3857188,"name":"fpgtkext.rserrortitle","sourcebytes":[69,114,114,111,114,32,111,99,99,117,114,114,101,100],"value":"Error occurred"},
-{"hash":63608709,"name":"fpgtkext.rsmessagetitle","sourcebytes":[77,101,115,115,97,103,101],"value":"Message"},
-{"hash":127017646,"name":"fpgtkext.serrwrongitemtype","sourcebytes":[73,116,101,109,115,32,105,110,32,108,105,115,116,32,97,114,101,32,110,111,116,32,102,114,111,109,32,84,70,80,103,116,107,77,101,110,117,73,116,101,109,32,99,108,97,115,115,46],"value":"Items in list are not from TFPgtkMenuItem class."},
-{"hash":39178240,"name":"fpgtkext.rsok","sourcebytes":[32,32,32,79,107,32,32,32],"value":"   Ok   "}
-]}

@@ -1,7 +1,0 @@
-{ %VERSION=1.1 }
-
-  const
-     GUID_NULL : TGUID = '{00000000-0000-0000-0000-000000000000}';
-
-begin
-end.

@@ -1,6 +1,0 @@
-{"version":1,"strings":[
-{"hash":206176142,"name":"fpreportdb.serrnodatasetassigned","sourcebytes":[78,111,32,100,97,116,97,115,101,116,32,104,97,115,32,98,101,101,110,32,97,115,115,105,103,110,101,100,46],"value":"No dataset has been assigned."},
-{"hash":120814788,"name":"fpreportdb.serrdatasetnotopen","sourcebytes":[68,97,116,97,115,101,116,32,104,97,115,32,110,111,116,32,98,101,101,110,32,111,112,101,110,101,100,32,121,101,116],"value":"Dataset has not been opened yet"},
-{"hash":62680642,"name":"fpreportdb.serrfieldtypemismatch","sourcebytes":[70,105,101,108,100,32,116,121,112,101,32,102,111,114,32,102,105,101,108,100,32,34,37,115,34,32,99,104,97,110,103,101,100,46,32,69,120,112,101,99,116,101,100,32,34,37,115,34,44,32,103,111,116,32,34,37,115,34],"value":"Field type for field \"%s\" changed. Expected \"%s\", got \"%s\""},
-{"hash":146680978,"name":"fpreportdb.serrunknownfieldindataset","sourcebytes":[85,110,101,120,112,101,99,116,101,100,32,102,105,101,108,100,32,105,110,32,100,97,116,97,115,101,116,58,32,34,37,115,34],"value":"Unexpected field in dataset: \"%s\""}
-]}

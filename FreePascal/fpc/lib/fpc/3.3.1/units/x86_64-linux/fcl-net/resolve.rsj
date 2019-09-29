@@ -1,7 +1,0 @@
-{"version":1,"strings":[
-{"hash":222421589,"name":"resolve.serrhostbyname","sourcebytes":[72,111,115,116,32,98,121,32,110,97,109,101],"value":"Host by name"},
-{"hash":231561379,"name":"resolve.serrhostbyaddr","sourcebytes":[72,111,115,116,32,98,121,32,97,100,100,114,101,115,115],"value":"Host by address"},
-{"hash":165904981,"name":"resolve.serrnetbyname","sourcebytes":[78,101,116,32,98,121,32,110,97,109,101],"value":"Net by name"},
-{"hash":8030869,"name":"resolve.serrservbyname","sourcebytes":[83,101,114,118,105,99,101,32,98,121,32,110,97,109,101],"value":"Service by name"},
-{"hash":7911476,"name":"resolve.serrservbyport","sourcebytes":[83,101,114,118,105,99,101,32,98,121,32,112,111,114,116],"value":"Service by port"}
-]}

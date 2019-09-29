@@ -1,4 +1,0 @@
-{"version":1,"strings":[
-{"hash":215960007,"name":"fpparsettf.rsfontembeddingnotallowed","sourcebytes":[70,111,110,116,32,108,105,99,101,110,99,101,32,100,111,101,115,32,110,111,116,32,97,108,108,111,119,32,101,109,98,101,100,100,105,110,103],"value":"Font licence does not allow embedding"},
-{"hash":182815363,"name":"fpparsettf.rserrunexpectedunicodesubtable","sourcebytes":[85,110,101,120,112,101,99,116,101,100,32,117,110,105,99,111,100,101,32,115,117,98,116,97,98,108,101,32,102,111,114,109,97,116,44,32,101,120,112,101,99,116,101,100,32,52,44,32,103,111,116,32,37,115],"value":"Unexpected unicode subtable format, expected 4, got %s"}
-]}

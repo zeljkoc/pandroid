@@ -1,5 +1,0 @@
-{ %fail }
-
-begin
-  writestr;
-end.

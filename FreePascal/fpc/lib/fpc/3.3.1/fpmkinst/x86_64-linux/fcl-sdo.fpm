@@ -1,9 +1,0 @@
-Name=fcl-sdo
-Version=3.3.1
-Checksum=1566834836
-CPU=x86_64
-OS=linux
-FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
-Depends=rtl,fcl-base|1566834814,fcl-xml|1566834818,fcl-db|1566834829
-NeedLibC=N
-FPMakeAddIn=N

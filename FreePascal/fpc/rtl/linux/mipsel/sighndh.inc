@@ -1,1 +1,0 @@
-{$i ../mips/sighndh.inc}

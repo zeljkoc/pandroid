@@ -1,4 +1,0 @@
-uses uabstrcl;
-
-begin
-end.

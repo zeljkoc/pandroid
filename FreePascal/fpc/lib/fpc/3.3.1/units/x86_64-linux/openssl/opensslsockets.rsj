@@ -1,3 +1,0 @@
-{"version":1,"strings":[
-{"hash":20763705,"name":"opensslsockets.serrnolibraryinit","sourcebytes":[67,111,117,108,100,32,110,111,116,32,105,110,105,116,105,97,108,105,122,101,32,79,112,101,110,83,83,76,32,108,105,98,114,97,114,121],"value":"Could not initialize OpenSSL library"}
-]}

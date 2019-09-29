@@ -1,9 +1,0 @@
-Name=utils-pas2js
-Version=3.3.1
-Checksum=1566834944
-CPU=x86_64
-OS=linux
-FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE
-Depends=rtl,fcl-json|1566834823,fcl-js|1566834830,fcl-passrc|1566834832,pastojs|1566834897,fcl-web|1566834839,webidl|1566834899
-NeedLibC=N
-FPMakeAddIn=N

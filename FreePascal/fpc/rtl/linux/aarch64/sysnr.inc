@@ -1,1 +1,0 @@
-{$i ../sysnr-gen.inc}

@@ -1,1 +1,0 @@
-{$i ../mips/syscall.inc}

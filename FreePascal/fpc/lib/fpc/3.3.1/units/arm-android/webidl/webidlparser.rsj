@@ -1,0 +1,10 @@
+{"version":1,"strings":[
+{"hash":152455858,"name":"webidlparser.serrinvalidtoken","sourcebytes":[73,110,118,97,108,105,100,32,116,111,107,101,110,58,32,101,120,112,101,99,116,101,100,32,34,37,115,34,44,32,103,111,116,58,32,34,37,115,34],"value":"Invalid token: expected \"%s\", got: \"%s\""},
+{"hash":41395746,"name":"webidlparser.serrinvalidtokenlist","sourcebytes":[73,110,118,97,108,105,100,32,116,111,107,101,110,58,32,101,120,112,101,99,116,101,100,32,111,110,101,32,111,102,32,34,37,115,34,44,32,103,111,116,58,32,34,37,115,34],"value":"Invalid token: expected one of \"%s\", got: \"%s\""},
+{"hash":122603198,"name":"webidlparser.sexpectedother","sourcebytes":[85,110,101,120,112,101,99,116,101,100,32,116,111,107,101,110,32,105,110,32,97,116,116,114,105,98,117,116,101,32,108,105,115,116,58,32,34,37,115,34,46],"value":"Unexpected token in attribute list: \"%s\"."},
+{"hash":43430338,"name":"webidlparser.serrunexpectedtoken","sourcebytes":[85,110,101,120,112,101,99,116,101,100,32,116,111,107,101,110,32,58,32,34,37,115,34],"value":"Unexpected token : \"%s\""},
+{"hash":241420894,"name":"webidlparser.serrtypenotallowed","sourcebytes":[84,121,112,101,32,34,37,115,34,32,110,111,116,32,97,108,108,111,119,101,100,32,105,110,32,34,37,115,34,32,116,121,112,101,46],"value":"Type \"%s\" not allowed in \"%s\" type."},
+{"hash":76039204,"name":"webidlparser.serrdictionarynotfound","sourcebytes":[68,105,99,116,105,111,110,97,114,121,32,37,115,32,110,111,116,32,102,111,117,110,100],"value":"Dictionary %s not found"},
+{"hash":136397812,"name":"webidlparser.serrinterfacenotfound","sourcebytes":[73,110,116,101,114,102,97,99,101,32,37,115,32,110,111,116,32,102,111,117,110,100],"value":"Interface %s not found"},
+{"hash":102384275,"name":"webidlparser.serrinterfacenotfoundfor","sourcebytes":[73,110,99,108,117,100,101,100,32,73,110,116,101,114,102,97,99,101,32,37,115,32,110,111,116,32,102,111,117,110,100,32,102,111,114,32,37,115],"value":"Included Interface %s not found for %s"}
+]}

@@ -1,0 +1,10 @@
+Name=utils-fppkg
+Version=3.3.1
+Checksum=1569785473
+CPU=x86_64
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/utils/fppkg/
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1569785355,fcl-xml|1569785358,fcl-process|1569785386,fcl-net|1569785386,paszlib|1569785353,fppkg|1569785397
+NeedLibC=N
+FPMakeAddIn=N

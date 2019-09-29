@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":101897774,"name":"sdo_das_imp.sdodas_msg_no_handler_found","sourcebytes":[78,111,32,104,97,110,100,108,101,114,32,102,111,117,110,100,32,102,111,114,32,116,104,105,115,32,116,121,112,101,32,58,32,34,37,115,34,46],"value":"No handler found for this type : \"%s\"."},
+{"hash":12959870,"name":"sdo_das_imp.sdodas_msg_inalid_params","sourcebytes":[73,110,118,97,108,105,100,32,112,97,114,97,109,101,116,101,114,40,115,41,32,58,32,34,37,115,34,46],"value":"Invalid parameter(s) : \"%s\"."}
+]}

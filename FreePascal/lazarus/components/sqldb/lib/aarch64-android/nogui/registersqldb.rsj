@@ -1,0 +1,10 @@
+{"version":1,"strings":[
+{"hash":155139957,"name":"registersqldb.ssqlscript","sourcebytes":[83,81,76,32,83,99,114,105,112,116,32,102,105,108,101],"value":"SQL Script file"},
+{"hash":89519253,"name":"registersqldb.ssqlscriptdesc","sourcebytes":[67,114,101,97,116,101,32,97,32,110,101,119,32,83,81,76,32,83,99,114,105,112,116,32,102,105,108,101],"value":"Create a new SQL Script file"},
+{"hash":203268373,"name":"registersqldb.ssqlsource","sourcebytes":[73,110,115,101,114,116,32,121,111,117,114,32,83,81,76,32,115,116,97,116,101,109,101,110,116,115,32,104,101,114,101],"value":"Insert your SQL statements here"},
+{"hash":237922515,"name":"registersqldb.sfirebirddatabases","sourcebytes":[70,105,114,101,98,105,114,100,32,100,97,116,97,98,97,115,101,115],"value":"Firebird databases"},
+{"hash":10846275,"name":"registersqldb.ssqlite3databases","sourcebytes":[83,81,76,105,116,101,51,32,100,97,116,97,98,97,115,101,115],"value":"SQLite3 databases"},
+{"hash":45427603,"name":"registersqldb.sinterbasedatabases","sourcebytes":[73,110,116,101,114,98,97,115,101,32,100,97,116,97,98,97,115,101,115],"value":"Interbase databases"},
+{"hash":184560067,"name":"registersqldb.ssqlstringspropertyeditordlgtitle","sourcebytes":[69,100,105,116,105,110,103,32,37,115],"value":"Editing %s"},
+{"hash":20743091,"name":"registersqldb.slibraries","sourcebytes":[83,104,97,114,101,100,32,108,105,98,114,97,114,105,101,115],"value":"Shared libraries"}
+]}

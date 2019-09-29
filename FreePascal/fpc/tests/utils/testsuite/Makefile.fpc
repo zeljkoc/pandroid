@@ -1,0 +1,20 @@
+#
+# Makefile.fpc for Free Pascal testing utilities
+#
+
+[package]
+name=testsuite
+version=3.3.1
+
+[require]
+packages=fcl-base fcl-db
+libc=y
+
+[compiler]
+unitdir=..
+
+[target]
+programs=testsuite
+
+[default]
+fpcdir=../../..

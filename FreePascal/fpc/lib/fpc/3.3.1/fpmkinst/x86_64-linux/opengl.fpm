@@ -1,0 +1,9 @@
+Name=opengl
+Version=3.3.1
+Checksum=1569785393
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,x11|1569785351
+NeedLibC=N
+FPMakeAddIn=N

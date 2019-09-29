@@ -1,0 +1,10 @@
+Name=rtl-objpas
+Version=3.3.1
+Checksum=1569785658
+CPU=aarch64
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/rtl-objpas/
+FPMakeOptions=-o -Tandroid -o -Paarch64 -o -XPaarch64-linux-android- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FD/usr/local/pandroid/FreePascal/binToolchains/lin64-aarch64-android -o -daarch64 -o -dRELEASE -o -n -o -gl -o -vx -o -Fl/usr/local/pandroid/sdk/ndk/platforms/android-29/arch-arm64/usr/lib
+Depends=rtl
+NeedLibC=N
+FPMakeAddIn=N

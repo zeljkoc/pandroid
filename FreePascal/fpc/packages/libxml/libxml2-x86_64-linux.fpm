@@ -1,0 +1,9 @@
+Name=libxml2
+Version=3.3.1
+Checksum=1569785405
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,rtl-objpas|1569785352
+NeedLibC=N
+FPMakeAddIn=N

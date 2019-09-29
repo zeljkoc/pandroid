@@ -1,0 +1,9 @@
+Name=gtk2
+Version=3.3.1
+Checksum=1569785402
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,x11|1569785351,cairo|1569785357
+NeedLibC=Y
+FPMakeAddIn=N

@@ -1,0 +1,9 @@
+Name=fcl-web
+Version=3.3.1
+Checksum=1569785393
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,fcl-base|1569785355,fcl-db|1569785381,fcl-xml|1569785358,fcl-json|1569785376,fcl-net|1569785386,fcl-process|1569785386,fcl-fpcunit|1569785382,openssl|1569785390,fastcgi|1569785373,httpd22|1569785390,httpd24|1569785390
+NeedLibC=N
+FPMakeAddIn=N

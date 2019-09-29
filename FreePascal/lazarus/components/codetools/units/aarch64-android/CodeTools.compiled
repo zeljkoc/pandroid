@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1569787119"/>
+  <Params Value=" -Tandroid -Paarch64 -MObjFPC -Sci -O1 -g -gl -l -vewnhibq -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/aarch64-android -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/aarch64-android -Fu/usr/local/pandroid/FreePascal/lazarus/components/codetools/ -FU/usr/local/pandroid/FreePascal/lazarus/components/codetools/units/aarch64-android/ codetools.pas"/>
+</CONFIG>

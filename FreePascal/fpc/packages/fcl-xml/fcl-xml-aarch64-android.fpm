@@ -1,0 +1,10 @@
+Name=fcl-xml
+Version=3.3.1
+Checksum=1569785663
+CPU=aarch64
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-xml/
+FPMakeOptions=-o -Tandroid -o -Paarch64 -o -XPaarch64-linux-android- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FD/usr/local/pandroid/FreePascal/binToolchains/lin64-aarch64-android -o -daarch64 -o -dRELEASE -o -n -o -gl -o -vx -o -Fl/usr/local/pandroid/sdk/ndk/platforms/android-29/arch-arm64/usr/lib
+Depends=rtl,fcl-base|1569785661
+NeedLibC=N
+FPMakeAddIn=N

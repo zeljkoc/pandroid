@@ -1,0 +1,8 @@
+#############################################################
+                CodeTyphon Studio 
+            PilotLogic Software House
+            http://www.pilotlogic.com
+#############################################################
+
+Libraries for 
+Android-5.0-api21-aarch64

@@ -1,0 +1,9 @@
+Name=fcl-fpcunit
+Version=3.3.1
+Checksum=1569785382
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,paszlib|1569785353,fcl-base|1569785355,fcl-xml|1569785358,libtar|1569785382
+NeedLibC=N
+FPMakeAddIn=N

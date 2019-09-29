@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":25844742,"name":"stringtableresource.snamenotallowed","sourcebytes":[82,101,115,111,117,114,99,101,32,73,68,32,109,117,115,116,32,98,101,32,97,110,32,111,114,100,105,110,97,108,32,105,110,32,116,104,101,32,114,97,110,103,101,32,49,45,52,48,57,54],"value":"Resource ID must be an ordinal in the range 1-4096"},
+{"hash":239229956,"name":"stringtableresource.sindexoutofbounds","sourcebytes":[83,116,114,105,110,103,32,73,68,32,111,117,116,32,111,102,32,98,111,117,110,100,115,58,32,37,100],"value":"String ID out of bounds: %d"}
+]}

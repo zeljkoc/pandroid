@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":174379213,"name":"msgbox.sconfirm","sourcebytes":[67,111,110,102,105,114,109],"value":"Confirm"},
+{"hash":5020002,"name":"msgbox.serror","sourcebytes":[69,114,114,111,114],"value":"Error"},
+{"hash":157868862,"name":"msgbox.sinformation","sourcebytes":[73,110,102,111,114,109,97,116,105,111,110],"value":"Information"},
+{"hash":227102743,"name":"msgbox.swarning","sourcebytes":[87,97,114,110,105,110,103],"value":"Warning"}
+]}

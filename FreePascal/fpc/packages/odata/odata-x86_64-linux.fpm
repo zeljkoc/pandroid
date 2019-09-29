@@ -1,0 +1,9 @@
+Name=odata
+Version=3.3.1
+Checksum=1569785435
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,fcl-base|1569785355,rtl-extra|1569785350,rtl-objpas|1569785352,fcl-json|1569785376,fcl-web|1569785393
+NeedLibC=N
+FPMakeAddIn=N

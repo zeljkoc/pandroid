@@ -1,0 +1,15 @@
+{"version":1,"strings":[
+{"hash":101727218,"name":"fprepos.serrinvalidcpu","sourcebytes":[73,110,118,97,108,105,100,32,67,80,85,32,110,97,109,101,32,58,32,34,37,115,34],"value":"Invalid CPU name : \"%s\""},
+{"hash":245132706,"name":"fprepos.serrinvalidos","sourcebytes":[73,110,118,97,108,105,100,32,79,83,32,110,97,109,101,32,58,32,34,37,115,34],"value":"Invalid OS name : \"%s\""},
+{"hash":165853058,"name":"fprepos.serrinvalidmode","sourcebytes":[73,110,118,97,108,105,100,32,99,111,109,112,105,108,101,114,32,109,111,100,101,32,58,32,34,37,115,34],"value":"Invalid compiler mode : \"%s\""},
+{"hash":124166227,"name":"fprepos.serrinvalidtarget","sourcebytes":[73,110,118,97,108,105,100,32,99,111,109,112,105,108,101,114,32,116,97,114,103,101,116,58,32,37,115],"value":"Invalid compiler target: %s"},
+{"hash":69119198,"name":"fprepos.serrpackagenotfound","sourcebytes":[80,97,99,107,97,103,101,32,34,37,115,34,32,110,111,116,32,102,111,117,110,100,46],"value":"Package \"%s\" not found."},
+{"hash":27152676,"name":"fprepos.serrinvalidrepositorysig","sourcebytes":[73,110,118,97,108,105,100,32,114,101,112,111,115,105,116,111,114,121,32,115,116,114,101,97,109,46,32,83,116,114,101,97,109,32,115,105,103,110,97,116,117,114,101,32,105,110,99,111,114,114,101,99,116],"value":"Invalid repository stream. Stream signature incorrect"},
+{"hash":100912622,"name":"fprepos.serrbackupfailed","sourcebytes":[70,97,105,108,101,100,32,116,111,32,98,97,99,107,32,117,112,32,102,105,108,101,32,34,37,115,34,32,116,111,32,34,37,115,34,46],"value":"Failed to back up file \"%s\" to \"%s\"."},
+{"hash":53201774,"name":"fprepos.serrnofilename","sourcebytes":[78,111,32,102,105,108,101,110,97,109,101,32,102,111,114,32,114,101,112,111,115,105,116,111,114,121,32,115,112,101,99,105,102,105,101,100,46],"value":"No filename for repository specified."},
+{"hash":220027042,"name":"fprepos.serrduplicatepackagename","sourcebytes":[68,117,112,108,105,99,97,116,101,32,112,97,99,107,97,103,101,32,110,97,109,101,32,58,32,34,37,115,34],"value":"Duplicate package name : \"%s\""},
+{"hash":58547806,"name":"fprepos.serrmaxlevelexceeded","sourcebytes":[77,97,120,105,109,117,109,32,110,117,109,98,101,114,32,111,102,32,100,101,112,101,110,100,101,110,99,121,32,108,101,118,101,108,115,32,101,120,99,101,101,100,101,100,32,40,37,100,41,32,97,116,32,112,97,99,107,97,103,101,32,34,37,115,34,46],"value":"Maximum number of dependency levels exceeded (%d) at package \"%s\"."},
+{"hash":184456798,"name":"fprepos.serrmirrornotfound","sourcebytes":[77,105,114,114,111,114,32,34,37,115,34,32,110,111,116,32,102,111,117,110,100,46],"value":"Mirror \"%s\" not found."},
+{"hash":35911774,"name":"fprepos.srepounknown","sourcebytes":[82,101,112,111,115,105,116,111,114,121,85,110,107,110,111,119,110],"value":"RepositoryUnknown"},
+{"hash":70298613,"name":"fprepos.spackageunknown","sourcebytes":[117,110,107,110,111,119,110,32,112,97,99,107,97,103,101],"value":"unknown package"}
+]}

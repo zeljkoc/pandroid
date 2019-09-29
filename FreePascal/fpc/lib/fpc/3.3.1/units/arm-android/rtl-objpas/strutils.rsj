@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":62435464,"name":"strutils.serramountstrings","sourcebytes":[65,109,111,117,110,116,32,111,102,32,115,101,97,114,99,104,32,97,110,100,32,114,101,112,108,97,99,101,32,115,116,114,105,110,103,115,32,100,111,110,39,116,32,109,97,116,99,104],"value":"Amount of search and replace strings don't match"},
+{"hash":196294748,"name":"strutils.sinvalidromannumeral","sourcebytes":[37,115,32,105,115,32,110,111,116,32,97,32,118,97,108,105,100,32,82,111,109,97,110,32,110,117,109,101,114,97,108],"value":"%s is not a valid Roman numeral"}
+]}

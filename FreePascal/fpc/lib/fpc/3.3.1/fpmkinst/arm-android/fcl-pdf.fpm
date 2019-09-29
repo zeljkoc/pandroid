@@ -1,0 +1,10 @@
+Name=fcl-pdf
+Version=3.3.1
+Checksum=1569785597
+CPU=arm
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-pdf/
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FD/usr/local/pandroid/FreePascal/binToolchains/lin64-arm-android -o -dFPC_ARMEL -o -darm -o -dRELEASE
+Depends=rtl,rtl-objpas|1569785536,fcl-base|1569785539,fcl-image|1569785571,fcl-xml|1569785541,paszlib|1569785567
+NeedLibC=N
+FPMakeAddIn=N

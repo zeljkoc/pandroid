@@ -1,0 +1,10 @@
+Name=fcl-db
+Version=3.3.1
+Checksum=1569785565
+CPU=arm
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-db/
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FD/usr/local/pandroid/FreePascal/binToolchains/lin64-arm-android -o -dFPC_ARMEL -o -darm -o -dRELEASE
+Depends=rtl,fcl-base|1569785539,fcl-xml|1569785541,rtl-objpas|1569785536,rtl-extra|1569785532,ibase|1569785554,mysql|1569785556,odbc|1569785556,oracle|1569785556,postgres|1569785556,sqlite|1569785557,dblib|1569785553,fcl-json|1569785558
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,10 @@
+Name=utils
+Version=3.3.1
+Checksum=1569785462
+CPU=x86_64
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/utils/
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1569785355,paszlib|1569785353,hash|1569785353,fcl-json|1569785376,rtl-extra|1569785350,rtl-objpas|1569785352
+NeedLibC=N
+FPMakeAddIn=N

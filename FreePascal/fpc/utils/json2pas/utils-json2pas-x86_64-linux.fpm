@@ -1,0 +1,10 @@
+Name=utils-json2pas
+Version=3.3.1
+Checksum=1569785475
+CPU=x86_64
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/utils/json2pas/
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-json|1569785376
+NeedLibC=N
+FPMakeAddIn=N

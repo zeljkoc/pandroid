@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1569787119"/>
+  <Params Value=" -Tandroid -Paarch64 -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fi/usr/local/pandroid/FreePascal/lazarus/components/ideintf/images -Fu/usr/local/pandroid/FreePascal/lazarus/packager/units/aarch64-android -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazutils/lib/aarch64-android -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/aarch64-android -Fu/usr/local/pandroid/FreePascal/lazarus/lcl/units/aarch64-android/nogui -Fu/usr/local/pandroid/FreePascal/lazarus/components/lazcontrols/lib/aarch64-android/nogui -Fu/usr/local/pandroid/FreePascal/lazarus/components/ideintf/ -FU/usr/local/pandroid/FreePascal/lazarus/components/ideintf/units/aarch64-android/nogui/ -dLCL -dLCLnogui ideintf.pas"/>
+</CONFIG>

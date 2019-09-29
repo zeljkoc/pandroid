@@ -1,0 +1,10 @@
+Name=utils-fpcres
+Version=3.3.1
+Checksum=1569785464
+CPU=x86_64
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/utils/fpcres/
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-res|1569785354,paszlib|1569785353
+NeedLibC=N
+FPMakeAddIn=N

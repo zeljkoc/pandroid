@@ -1,0 +1,9 @@
+Name=pastojs
+Version=3.3.1
+Checksum=1569785440
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,paszlib|1569785353,fcl-js|1569785383,fcl-json|1569785376,fcl-passrc|1569785386,fcl-process|1569785386
+NeedLibC=N
+FPMakeAddIn=N

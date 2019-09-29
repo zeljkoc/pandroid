@@ -1,0 +1,10 @@
+Name=fcl-js
+Version=3.3.1
+Checksum=1569785572
+CPU=arm
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-js/
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FD/usr/local/pandroid/FreePascal/binToolchains/lin64-arm-android -o -dFPC_ARMEL -o -darm -o -dRELEASE
+Depends=rtl,fcl-base|1569785539,fcl-json|1569785558
+NeedLibC=N
+FPMakeAddIn=N

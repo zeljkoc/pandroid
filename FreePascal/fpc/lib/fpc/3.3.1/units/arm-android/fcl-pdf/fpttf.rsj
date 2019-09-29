@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":136295588,"name":"fpttf.rsnosearchpathdefined","sourcebytes":[78,111,32,115,101,97,114,99,104,32,112,97,116,104,32,119,97,115,32,100,101,102,105,110,101,100],"value":"No search path was defined"},
+{"hash":80928622,"name":"fpttf.rsnofontfilename","sourcebytes":[84,104,101,32,70,105,108,101,78,97,109,101,32,112,114,111,112,101,114,116,121,32,105,115,32,101,109,112,116,121,44,32,115,111,32,119,101,32,99,97,110,39,116,32,108,111,97,100,32,102,111,110,116,32,100,97,116,97,46],"value":"The FileName property is empty, so we can't load font data."},
+{"hash":5459598,"name":"fpttf.rsmissingfontfile","sourcebytes":[84,104,101,32,102,111,110,116,32,102,105,108,101,32,60,37,115,62,32,99,97,110,39,116,32,98,101,32,102,111,117,110,100,46],"value":"The font file <%s> can't be found."},
+{"hash":125563940,"name":"fpttf.serrfontnotfound","sourcebytes":[84,104,101,32,102,111,110,116,32,60,37,115,62,32,99,97,110,39,116,32,98,101,32,102,111,117,110,100],"value":"The font <%s> can't be found"}
+]}

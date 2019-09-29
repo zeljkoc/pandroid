@@ -1,0 +1,10 @@
+Name=mysql
+Version=3.3.1
+Checksum=1569785556
+CPU=arm
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/mysql/
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FD/usr/local/pandroid/FreePascal/binToolchains/lin64-arm-android -o -dFPC_ARMEL -o -darm -o -dRELEASE
+Depends=rtl
+NeedLibC=N
+FPMakeAddIn=N

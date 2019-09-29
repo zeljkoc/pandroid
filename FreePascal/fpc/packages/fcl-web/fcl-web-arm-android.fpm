@@ -1,0 +1,10 @@
+Name=fcl-web
+Version=3.3.1
+Checksum=1569785585
+CPU=arm
+OS=android
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-web/
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FD/usr/local/pandroid/FreePascal/binToolchains/lin64-arm-android -o -dFPC_ARMEL -o -darm -o -dRELEASE
+Depends=rtl,fcl-base|1569785539,fcl-db|1569785565,fcl-xml|1569785541,fcl-json|1569785558,fcl-net|1569785575,fcl-process|1569785576,fcl-fpcunit|1569785568,openssl|1569785580,fastcgi|1569785554,httpd22|1569785581,httpd24|1569785581
+NeedLibC=N
+FPMakeAddIn=N

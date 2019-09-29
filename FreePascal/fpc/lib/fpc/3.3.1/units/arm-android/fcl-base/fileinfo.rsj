@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":194117268,"name":"fileinfo.serrnoresourcesloaded","sourcebytes":[78,111,32,118,101,114,115,105,111,110,32,105,110,102,111,32,108,111,97,100,101,100],"value":"No version info loaded"},
+{"hash":81255358,"name":"fileinfo.serrnotranslation","sourcebytes":[84,114,97,110,115,108,97,116,105,111,110,32,34,37,115,34,32,110,111,116,32,102,111,117,110,100,32,105,110,32,118,101,114,115,105,111,110,32,115,116,114,105,110,103,115,46],"value":"Translation \"%s\" not found in version strings."},
+{"hash":253399838,"name":"fileinfo.serrnotversionquad","sourcebytes":[81,117,97,100,114,117,112,108,101,32,34,37,115,34,32,105,115,32,110,111,116,32,97,32,118,97,108,105,100,32,118,101,114,115,105,111,110],"value":"Quadruple \"%s\" is not a valid version"}
+]}

@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":58497571,"name":"fpsqlexport.ssqldescription","sourcebytes":[83,81,76,32,73,78,83,69,82,84,47,85,112,100,97,116,101,32,83,116,97,116,101,109,101,110,116,115],"value":"SQL INSERT\/Update Statements"},
+{"hash":44396820,"name":"fpsqlexport.serrmissingtablename","sourcebytes":[78,111,32,116,97,98,108,101,110,97,109,101,32,115,101,116,32,102,111,114,32,83,81,76,32,69,120,112,111,114,116],"value":"No tablename set for SQL Export"},
+{"hash":34101364,"name":"fpsqlexport.serrnokeyfieldforupdate","sourcebytes":[78,111,32,107,101,121,32,102,105,101,108,100,115,32,100,101,102,105,110,101,100,32,102,111,114,32,117,112,100,97,116,101,32,115,116,97,116,101,109,101,110,116,32,105,110,32,83,81,76,32,101,120,112,111,114,116],"value":"No key fields defined for update statement in SQL export"}
+]}

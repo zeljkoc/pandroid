@@ -1,0 +1,9 @@
+{"version":1,"strings":[
+{"hash":75508628,"name":"custweb.serrnomodulenameforrequest","sourcebytes":[67,111,117,108,100,32,110,111,116,32,100,101,116,101,114,109,105,110,101,32,72,84,84,80,32,109,111,100,117,108,101,32,110,97,109,101,32,102,111,114,32,114,101,113,117,101,115,116],"value":"Could not determine HTTP module name for request"},
+{"hash":113525922,"name":"custweb.serrnomoduleforrequest","sourcebytes":[67,111,117,108,100,32,110,111,116,32,100,101,116,101,114,109,105,110,101,32,72,84,84,80,32,109,111,100,117,108,101,32,102,111,114,32,114,101,113,117,101,115,116,32,34,37,115,34],"value":"Could not determine HTTP module for request \"%s\""},
+{"hash":177143443,"name":"custweb.serrsendingcontent","sourcebytes":[65,110,32,101,114,114,111,114,32,40,37,115,41,32,104,97,112,112,101,110,101,100,32,119,104,105,108,101,32,115,101,110,100,105,110,103,32,114,101,115,112,111,110,115,101,32,99,111,110,116,101,110,116,58,32,37,115],"value":"An error (%s) happened while sending response content: %s"},
+{"hash":34153794,"name":"custweb.smoduleerror","sourcebytes":[77,111,100,117,108,101,32,69,114,114,111,114],"value":"Module Error"},
+{"hash":199601466,"name":"custweb.sappencounterederror","sourcebytes":[84,104,101,32,97,112,112,108,105,99,97,116,105,111,110,32,101,110,99,111,117,110,116,101,114,101,100,32,116,104,101,32,102,111,108,108,111,119,105,110,103,32,101,114,114,111,114,58],"value":"The application encountered the following error:"},
+{"hash":211379584,"name":"custweb.serror","sourcebytes":[69,114,114,111,114,58,32],"value":"Error: "},
+{"hash":112187792,"name":"custweb.snotify","sourcebytes":[78,111,116,105,102,121,58,32],"value":"Notify: "}
+]}

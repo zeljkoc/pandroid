@@ -1,0 +1,10 @@
+Name=chm
+Version=3.3.1
+Checksum=1566835254
+CPU=i386
+OS=win32
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/chm/
+FPMakeOptions=-o -Twin32 -o -Pi386 -o -XPi386-win32- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,fcl-xml|1566835253,fcl-base|1566835249
+NeedLibC=N
+FPMakeAddIn=N

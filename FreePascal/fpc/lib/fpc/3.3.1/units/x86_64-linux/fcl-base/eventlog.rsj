@@ -1,0 +1,11 @@
+{"version":1,"strings":[
+{"hash":328911,"name":"eventlog.sloginfo","sourcebytes":[73,110,102,111],"value":"Info"},
+{"hash":227102743,"name":"eventlog.slogwarning","sourcebytes":[87,97,114,110,105,110,103],"value":"Warning"},
+{"hash":5020002,"name":"eventlog.slogerror","sourcebytes":[69,114,114,111,114],"value":"Error"},
+{"hash":4897207,"name":"eventlog.slogdebug","sourcebytes":[68,101,98,117,103],"value":"Debug"},
+{"hash":95969753,"name":"eventlog.slogcustom","sourcebytes":[67,117,115,116,111,109,32,40,37,100,41],"value":"Custom (%d)"},
+{"hash":254534697,"name":"eventlog.serrlogfailedmsg","sourcebytes":[70,97,105,108,101,100,32,116,111,32,108,111,103,32,101,110,116,114,121,32,40,69,114,114,111,114,58,32,37,115,41],"value":"Failed to log entry (Error: %s)"},
+{"hash":51237065,"name":"eventlog.serrnosyslog","sourcebytes":[67,111,117,108,100,32,110,111,116,32,111,112,101,110,32,115,121,115,116,101,109,32,108,111,103,32,40,101,114,114,111,114,32,37,100,41],"value":"Could not open system log (error %d)"},
+{"hash":133396457,"name":"eventlog.serrlogfailed","sourcebytes":[70,97,105,108,101,100,32,116,111,32,108,111,103,32,101,110,116,114,121,32,40,101,114,114,111,114,32,37,100,41],"value":"Failed to log entry (error %d)"},
+{"hash":103149038,"name":"eventlog.serroperationnotallowed","sourcebytes":[79,112,101,114,97,116,105,111,110,32,110,111,116,32,97,108,108,111,119,101,100,32,119,104,101,110,32,101,118,101,110,116,108,111,103,32,105,115,32,97,99,116,105,118,101,46],"value":"Operation not allowed when eventlog is active."}
+]}

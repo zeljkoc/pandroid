@@ -1,0 +1,10 @@
+Name=utils-fpcm
+Version=3.3.1
+Checksum=1566834923
+CPU=x86_64
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/utils/fpcm/
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1566834814
+NeedLibC=N
+FPMakeAddIn=N

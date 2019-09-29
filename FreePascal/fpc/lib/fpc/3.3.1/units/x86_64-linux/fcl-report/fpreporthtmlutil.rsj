@@ -1,0 +1,10 @@
+{"version":1,"strings":[
+{"hash":5048740,"name":"fpreporthtmlutil.sfirstpage","sourcebytes":[70,105,114,115,116],"value":"First"},
+{"hash":147653555,"name":"fpreporthtmlutil.spreviouspage","sourcebytes":[80,114,101,118,105,111,117,115],"value":"Previous"},
+{"hash":338084,"name":"fpreporthtmlutil.slastpage","sourcebytes":[76,97,115,116],"value":"Last"},
+{"hash":347380,"name":"fpreporthtmlutil.snextpage","sourcebytes":[78,101,120,116],"value":"Next"},
+{"hash":108884708,"name":"fpreporthtmlutil.scurrentpage","sourcebytes":[80,97,103,101,32,37,100],"value":"Page %d"},
+{"hash":2682964,"name":"fpreporthtmlutil.scurrentpageof","sourcebytes":[80,97,103,101,32,37,100,32,111,102,32,37,100],"value":"Page %d of %d"},
+{"hash":176142804,"name":"fpreporthtmlutil.stotalpages","sourcebytes":[116,111,116,97,108,58,32,37,100],"value":"total: %d"},
+{"hash":260621123,"name":"fpreporthtmlutil.snoframesupport","sourcebytes":[89,111,117,114,32,98,114,111,119,115,101,114,32,109,117,115,116,32,115,117,112,112,111,114,116,32,102,114,97,109,101,115,32,116,111,32,118,105,101,119,32,116,104,105,115],"value":"Your browser must support frames to view this"}
+]}

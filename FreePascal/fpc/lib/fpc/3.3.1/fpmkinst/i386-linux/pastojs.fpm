@@ -1,0 +1,10 @@
+Name=pastojs
+Version=3.3.1
+Checksum=1566835081
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/pastojs/
+FPMakeOptions=-o -Pi386 -o -XPi386-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,paszlib|1566835001,fcl-js|1566835018,fcl-json|1566835012,fcl-passrc|1566835021,fcl-process|1566835021
+NeedLibC=N
+FPMakeAddIn=N

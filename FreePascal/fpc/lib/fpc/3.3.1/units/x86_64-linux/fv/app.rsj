@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":37033646,"name":"app.svideofailed","sourcebytes":[86,105,100,101,111,32,105,110,105,116,105,97,108,105,122,97,116,105,111,110,32,102,97,105,108,101,100,46],"value":"Video initialization failed."},
+{"hash":188188622,"name":"app.stypeexitonreturn","sourcebytes":[84,121,112,101,32,69,88,73,84,32,116,111,32,114,101,116,117,114,110,46,46,46],"value":"Type EXIT to return..."}
+]}

@@ -1,0 +1,11 @@
+{"version":1,"strings":[
+{"hash":251572126,"name":"paradox.serrfieldtypenotsupported","sourcebytes":[70,105,101,108,100,116,121,112,101,32,111,102,32,70,105,101,108,100,32,34,37,115,34,32,110,111,116,32,115,117,112,112,111,114,116,101,100,58,32,37,100,46],"value":"Fieldtype of Field \"%s\" not supported: %d."},
+{"hash":263055694,"name":"paradox.serrbookmarknotfound","sourcebytes":[66,111,111,107,109,97,114,107,32,37,100,32,110,111,116,32,102,111,117,110,100,46],"value":"Bookmark %d not found."},
+{"hash":74120174,"name":"paradox.serrnofilename","sourcebytes":[70,105,108,101,110,97,109,101,32,109,117,115,116,32,110,111,116,32,98,101,32,101,109,112,116,121,46],"value":"Filename must not be empty."},
+{"hash":32223508,"name":"paradox.serrnoblobfile","sourcebytes":[66,108,111,98,32,102,105,108,101,32,34,37,115,34,32,100,111,101,115,32,110,111,116,32,101,120,105,115,116],"value":"Blob file \"%s\" does not exist"},
+{"hash":235480532,"name":"paradox.serrinvalidblobfile","sourcebytes":[66,108,111,98,32,102,105,108,101,32,34,37,115,34,32,105,115,32,105,110,118,97,108,105,100],"value":"Blob file \"%s\" is invalid"},
+{"hash":208843342,"name":"paradox.serrfailedtoopenfile","sourcebytes":[70,97,105,108,101,100,32,116,111,32,111,112,101,110,32,102,105,108,101,32,34,37,115,34,32,97,115,32,97,32,112,97,114,97,100,111,120,32,102,105,108,101,46],"value":"Failed to open file \"%s\" as a paradox file."},
+{"hash":2955188,"name":"paradox.serrparadoxnotopen","sourcebytes":[80,97,114,97,100,111,120,32,102,105,108,101,32,110,111,116,32,111,112,101,110,101,100],"value":"Paradox file not opened"},
+{"hash":248453134,"name":"paradox.serrgetparamfailed","sourcebytes":[71,101,116,32,111,102,32,112,97,114,97,109,101,116,101,114,32,37,115,32,102,97,105,108,101,100,46],"value":"Get of parameter %s failed."},
+{"hash":248450062,"name":"paradox.serrsetparamfailed","sourcebytes":[83,101,116,32,111,102,32,112,97,114,97,109,101,116,101,114,32,37,115,32,102,97,105,108,101,100,46],"value":"Set of parameter %s failed."}
+]}

@@ -1,0 +1,13 @@
+{"version":1,"strings":[
+{"hash":25320882,"name":"fpreportdata.serrduplicatedata","sourcebytes":[68,117,112,108,105,99,97,116,101,32,100,97,116,97,32,115,101,116,32,110,97,109,101,58,32,34,37,115,34],"value":"Duplicate data set name: \"%s\""},
+{"hash":44932034,"name":"fpreportdata.serrinvaliddataname","sourcebytes":[73,110,118,97,108,105,100,32,100,97,116,97,32,115,101,116,32,110,97,109,101,58,32,34,37,115,34],"value":"Invalid data set name: \"%s\""},
+{"hash":189475717,"name":"fpreportdata.serrneedname","sourcebytes":[68,97,116,97,32,115,101,116,32,110,101,101,100,115,32,97,32,110,97,109,101],"value":"Data set needs a name"},
+{"hash":189525461,"name":"fpreportdata.serrneeddatatype","sourcebytes":[68,97,116,97,32,115,101,116,32,110,101,101,100,115,32,97,32,116,121,112,101],"value":"Data set needs a type"},
+{"hash":5495346,"name":"fpreportdata.serrinvaliddatatype","sourcebytes":[73,110,118,97,108,105,100,32,100,97,116,97,32,116,121,112,101,58,32,34,37,115,34],"value":"Invalid data type: \"%s\""},
+{"hash":121277342,"name":"fpreportdata.serrinvalidjsonconfig","sourcebytes":[37,115,58,32,73,110,118,97,108,105,100,32,74,83,79,78,32,67,111,110,102,105,103,117,114,97,116,105,111,110],"value":"%s: Invalid JSON Configuration"},
+{"hash":66953539,"name":"fpreportdata.serrunknowndatatype","sourcebytes":[85,110,107,110,111,119,110,32,114,101,112,111,114,116,32,100,97,116,97,32,116,121,112,101,58,32,37,115],"value":"Unknown report data type: %s"},
+{"hash":43528690,"name":"fpreportdata.serrnomasterdetailsupport","sourcebytes":[78,111,32,109,97,115,116,101,114,45,100,101,116,97,105,108,32,115,117,112,112,111,114,116,32,102,111,114,32,99,108,97,115,115,32,34,37,115,34],"value":"No master-detail support for class \"%s\""},
+{"hash":180111315,"name":"fpreportdata.serropeningdataset","sourcebytes":[69,114,114,111,114,32,111,112,101,110,105,110,103,32,100,97,116,97,32,34,37,115,34,32,58,32,69,120,99,101,112,116,105,111,110,32,37,115,32,119,105,116,104,32,109,101,115,115,97,103,101,32,37,115],"value":"Error opening data \"%s\" : Exception %s with message %s"},
+{"hash":86413090,"name":"fpreportdata.serrinvaliddatasourcename","sourcebytes":[73,110,118,97,108,105,100,32,100,97,116,97,32,115,111,117,114,99,101,32,110,97,109,101,32,58,32,34,37,115,34],"value":"Invalid data source name : \"%s\""},
+{"hash":172161598,"name":"fpreportdata.serrcircularreference","sourcebytes":[73,110,118,97,108,105,100,32,109,97,115,116,101,114,32,100,97,116,97,32,115,111,117,114,99,101,32,34,37,115,34,44,32,99,105,114,99,117,108,97,114,32,114,101,102,101,114,101,110,99,101,115,32,110,111,116,32,97,108,108,111,119,101,100,46],"value":"Invalid master data source \"%s\", circular references not allowed."}
+]}

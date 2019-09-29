@@ -1,0 +1,9 @@
+Name=fcl-pdf
+Version=3.3.1
+Checksum=1566834886
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,rtl-objpas|1566834812,fcl-base|1566834814,fcl-image|1566834816,fcl-xml|1566834818,paszlib|1566834812
+NeedLibC=N
+FPMakeAddIn=N

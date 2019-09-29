@@ -1,0 +1,9 @@
+Name=opencl
+Version=3.3.1
+Checksum=1566834854
+CPU=x86_64
+OS=linux
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -Cg -o -dx86_64 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,opengl|1566834840
+NeedLibC=Y
+FPMakeAddIn=N

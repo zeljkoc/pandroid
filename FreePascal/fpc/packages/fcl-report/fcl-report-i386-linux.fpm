@@ -1,0 +1,10 @@
+Name=fcl-report
+Version=3.3.1
+Checksum=1566835082
+CPU=i386
+OS=linux
+SourcePath=/usr/local/pandroid/FreePascal/fpc/packages/fcl-report/
+FPMakeOptions=-o -Pi386 -o -XPi386-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,fcl-base|1566835004,fcl-image|1566835005,fcl-xml|1566835007,fcl-pdf|1566835071,fcl-json|1566835012,fcl-db|1566835017,fcl-web|1566835027
+NeedLibC=N
+FPMakeAddIn=N

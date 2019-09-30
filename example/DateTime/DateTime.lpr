@@ -13,7 +13,8 @@ unit DateTime;
 
 interface
 
-uses androidr15, Rjava, AActivity, AZCDialogs;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity, Dialogs;
 
  
 
@@ -32,10 +33,10 @@ type
   public
     bDatePicker, bTimePicker: AWButton;
     tDate, tTime: AWEditText;
-    mYear, mMonth, mDay, mHour, mMinute: jint;
+    mYear, mMonth, mDay: jint;
 
-    DateDialog: AADatePickerDialog;
-    TimeDialog: AATimePickerDialog;
+    DateDialog: TDatePickerDialog;
+    TimeDialog: TTimePickerDialog;
   end;
 
 implementation
@@ -80,15 +81,18 @@ begin
       mYear  := c.get(JUCalendar.YEAR);
       mMonth := c.get(JUCalendar.MONTH);
       mDay   := c.get(JUCalendar.DAY_OF_MONTH);
-      DateDialog:= AADatePickerDialog.Create(Self, Self, mYear, mMonth, mDay );
+      DateDialog:= TDatePickerDialog.Create(Self); //, Self, mYear, mMonth, mDay );
+      DateDialog.DatePicker.init(mYear, mMonth, mDay, nil);
       DateDialog.Show;
     end;
 
     2: begin
       c := JUCalendar.getInstance;
-      mHour := c.get(JUCalendar.HOUR_OF_DAY);
-      mMinute := c.get(JUCalendar.MINUTE);
-      TimeDialog:= AATimePickerDialog.Create(Self, Self, mHour, mMinute, true);
+   //   mHour := c.get(JUCalendar.HOUR_OF_DAY);
+   //   mMinute := c.get(JUCalendar.MINUTE);
+      TimeDialog:= TTimePickerDialog.Create(Self); //, Self, mHour, mMinute, true);
+     // TimeDialog.TimePicker.setCurrentHour(c.get(JUCalendar.HOUR_OF_DAY));
+     // TimeDialog.TimePicker.setCurrentMinute(c.get(JUCalendar.MINUTE));
       TimeDialog.Show;
     end;
   end;

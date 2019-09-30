@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="DateTime.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="78"/>
+        <CursorPos X="70" Y="95"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../units/androidr15.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11901"/>
+        <CursorPos X="13" Y="11928"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../units/androidr15.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56582"/>
+        <CursorPos X="3" Y="56607"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../units/AZCDialogs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="183"/>
+        <CursorPos X="3" Y="185"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../FreePascal/fpc/packages/fv/src/dialogs.pas"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="852"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../units/pascal/Dialogs.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="44"/>
+        <CursorPos X="18" Y="58"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="16" Column="11" TopLine="8"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="27" Column="48" TopLine="14"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="30" Column="16"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="26" Column="54" TopLine="9"/>
+      </Position4>
+      <Position5>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="16" Column="41"/>
+      </Position5>
+      <Position6>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="24" Column="31"/>
+      </Position6>
+      <Position7>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="32" Column="82" TopLine="8"/>
+      </Position7>
+      <Position8>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="37" Column="26" TopLine="23"/>
+      </Position8>
+      <Position9>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="17" Column="24"/>
+      </Position9>
+      <Position10>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="92" Column="42" TopLine="69"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../units/pascal/Dialogs.pas"/>
+        <Caret Line="58" Column="18" TopLine="45"/>
+      </Position11>
+      <Position12>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="85" Column="41" TopLine="64"/>
+      </Position12>
+      <Position13>
+        <Filename Value="DateTime.lpr"/>
+        <Caret Line="37" Column="22" TopLine="24"/>
+      </Position13>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

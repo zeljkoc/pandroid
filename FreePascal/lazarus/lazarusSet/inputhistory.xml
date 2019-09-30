@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <InputHistory>
+    <Version Value="1"/>
+    <Find>
+      <Version Value="1"/>
+    </Find>
+    <FileDialog InitialDir="/home/zeljko/android/Test3/pascalsrc/jni/">
+      <HistoryList Count="5">
+        <Item1 Value="/home/zeljko/android/Test3/pascalsrc/jni/"/>
+        <Item2 Value="/Zeljus/Android/Projekti/Kasa/pascalsrc/jni/"/>
+        <Item3 Value="/home/zeljko/android/Test2/"/>
+        <Item4 Value="/usr/local/pandroid/source/"/>
+        <Item5 Value="/usr/local/pandroid/FreePascal/LazarusDockedDesktops-0.8/StudioPlus/"/>
+      </HistoryList>
+    </FileDialog>
+    <HistoryLists Count="2"/>
+  </InputHistory>
+</CONFIG>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <CodeExplorer>
+    <Version Value="1"/>
+    <CodeObserver>
+      <UnnamedConsts>
+        <IgnoreInFuncs Count="15">
+          <Item1 Value="Assert"/>
+          <Item2 Value="CurrToStrF"/>
+          <Item3 Value="DbgOut"/>
+          <Item4 Value="Debug"/>
+          <Item5 Value="DebugLn"/>
+          <Item6 Value="FloatToStr"/>
+          <Item7 Value="FloatToStrF"/>
+          <Item8 Value="FmtStr"/>
+          <Item9 Value="Format"/>
+          <Item10 Value="FormatBuf"/>
+          <Item11 Value="FormatDateTime"/>
+          <Item12 Value="StrFmt"/>
+          <Item13 Value="StrLFmt"/>
+          <Item14 Value="write"/>
+          <Item15 Value="writeln"/>
+        </IgnoreInFuncs>
+      </UnnamedConsts>
+    </CodeObserver>
+  </CodeExplorer>
+</CONFIG>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <EditorOptions Version="13">
+    <Display DoNotWarnForFont="Courier New"/>
+    <KeyMapping>
+      <default>
+        <Version Value="6"/>
+        <ExternalToolCount Value="1"/>
+      </default>
+    </KeyMapping>
+    <CodeTools CodeTemplateFileName="/home/zeljko/.lazarus/lazarus.dci" CompletionLongLineHintTypeCompletionLongLineHintType="sclpExtendRightOnly"/>
+    <Mouse>
+      <Default Version="1"/>
+    </Mouse>
+    <Color Version="13">
+      <LangObjectPascal>
+        <ColorScheme Value="Delphi"/>
+      </LangObjectPascal>
+    </Color>
+  </EditorOptions>
+</CONFIG>

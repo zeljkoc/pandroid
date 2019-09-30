@@ -10,10 +10,10 @@ Change source Pandroid: 27.08.2019.
 $: su
 #: apt-get update
 
-#Debian 8.5 32 LXDE in red
+#Debian 8.5 32 LXDE. 
 #: apt-get install libgtk2.0-dev gdb openjdk-7-jdk android-tools-adb ant mtp-tools zip git
 
-#Mint 18 32 MATE; Debian 9.11 LXDE in red     
+#Mint 18 32 MATE; Debian 9.11 LXDE.  
 #: apt-get install libgtk2.0-dev gdb openjdk-8-jdk android-tools-adb ant mtp-tools zip git
 
 

@@ -7,18 +7,16 @@ Change source Pandroid: 27.08.2019.
 
 #install:
 
-#Debian 8.5 32 LXDE #: apt-get install openjdk-7-jdk
-#Mint 18 32 MATE    #: apt-get install openjdk-8-jdk
+$: su
+#: apt-get update
 
- $: su
+#Debian 8.5 32 LXDE 
+#: apt-get install libgtk2.0-dev gdb openjdk-7-jdk android-tools-adb ant mtp-tools zip git
 
- #: apt-get update
-
- #: apt-get install libgtk2.0-dev gdb openjdk-7-jdk android-tools-adb ant mtp-tools zip git
-
+#Mint 18 32 MATE; Debian 9.11 LXDE     
+#: apt-get install libgtk2.0-dev gdb openjdk-8-jdk android-tools-adb ant mtp-tools zip git
 
 
- 
  #: cd /usr/local
 
  #: git clone https://github.com/zeljkoc/pandroid.git
@@ -27,10 +25,9 @@ Change source Pandroid: 27.08.2019.
 
  #: exit
 
- (extract  /usr/local/pandroid/FreePascal/lazarus/lazarus.zip to /usr/local/pandroid/FreePascal/lazarus/lazarus  
+ $: cd /usr/local/pandroid/FreePascal/lazarus/  
 
- $: cp /usr/local/pandroid/FreePascal/lazarus.desktop $HOME/Desktop/lazarus.desktop
-
+ $: ./install.sh
 
 #YouTube
 [![Everything Is AWESOME](https://i.ytimg.com/vi/ZHlzS15Jy9k/2.jpg?time=1471235652334)](https://youtu.be/G7qLtrcSD6s "Everything Is AWESOME")

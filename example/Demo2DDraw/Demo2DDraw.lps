@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="3">
       <Unit0>
         <Filename Value="Demo2DDraw.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="48" Y="15"/>
+        <TopLine Value="36"/>
+        <CursorPos X="31" Y="63"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -21,10 +22,9 @@
       </Unit1>
       <Unit2>
         <Filename Value="android/build_debug_apk.sh"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="9" Y="4"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit2>
     </Units>
@@ -50,5 +50,9 @@
         <Caret Line="62" Column="3" TopLine="32"/>
       </Position5>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
 </CONFIG>

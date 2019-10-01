@@ -15,7 +15,8 @@ unit Demo2DDraw;
 
 interface
 
-uses androidr15, Rjava, AActivity;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity;
 
 
 type
@@ -45,12 +46,12 @@ end;
 
 procedure MyView.onDraw(canvas: AGCanvas);
 var
-  x,y, radius: integer;
+  x1,y1, radius: integer;
  paint: AGPaint;
 begin
   inherited onDraw(canvas);
-  x := getWidth;
-  y := getHeight;
+  x1 := getWidth;
+  y1 := getHeight;
   radius := 100;
 
   paint:= AGPaint.create();
@@ -59,7 +60,7 @@ begin
   canvas.drawPaint(paint);
   // Use Color.parseColor to define HTML colors
   paint.setColor(AGColor.parseColor(JLString('#CD5C5C')));
-  canvas.drawCircle(x / 2, y / 2, radius, paint);
+  canvas.drawCircle(x1 / 2, y1 / 2, radius, paint);
 
 end;
 

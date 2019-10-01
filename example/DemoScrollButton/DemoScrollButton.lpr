@@ -15,7 +15,8 @@ unit DemoScrollButton;
 
 interface
 
-uses androidr15, Rjava, AActivity;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity;
 
 type
   MainActivity = class(Activity)
@@ -28,7 +29,7 @@ type
 
 implementation
 
-uses AZCDialogs;
+uses Dialogs;
 
 
 procedure MainActivity.onCreate(savedInstanceState: AOBundle);

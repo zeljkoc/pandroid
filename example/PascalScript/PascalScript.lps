@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="3">
       <Unit0>
         <Filename Value="PascalScript.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="7"/>
-        <CursorPos X="27" Y="11"/>
+        <TopLine Value="15"/>
+        <CursorPos X="28" Y="17"/>
         <UsageCount Value="41"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="APascalScript.pas"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="16" Y="24"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="22"/>
-        <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="APascalScript.inc"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="36" Y="3"/>
         <UsageCount Value="21"/>
-        <Loaded Value="True"/>
       </Unit2>
     </Units>
     <JumpHistory Count="4" HistoryIndex="3">
@@ -42,9 +39,13 @@
         <Caret Line="16" Column="42" TopLine="5"/>
       </Position3>
       <Position4>
-        <Filename Value="APascalScript.pas"/>
-        <Caret Line="24" Column="16"/>
+        <Filename Value="PascalScript.lpr"/>
+        <Caret Line="17" Column="28" TopLine="15"/>
       </Position4>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
 </CONFIG>

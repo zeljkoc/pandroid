@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="10">
       <Unit0>
         <Filename Value="Fragment.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos Y="126"/>
+        <TopLine Value="29"/>
+        <CursorPos Y="61"/>
         <UsageCount Value="54"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="/usr/local/pandroid/units/androidr15.inc"/>
+        <Filename Value="../../units/androidr15.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="53577"/>
         <CursorPos X="22" Y="53603"/>
         <UsageCount Value="26"/>
       </Unit1>
       <Unit2>
-        <Filename Value="/usr/local/pandroid/units/androidr15.pas"/>
+        <Filename Value="../../units/androidr15.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="12028"/>
         <CursorPos X="66" Y="12066"/>
@@ -68,15 +69,13 @@
         <UsageCount Value="17"/>
       </Unit8>
       <Unit9>
-        <Filename Value="/usr/local/pandroid/units/AActivity.pas"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="262"/>
+        <Filename Value="../../units/AActivity.pas"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="296"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit9>
     </Units>
-    <JumpHistory Count="6" HistoryIndex="5">
+    <JumpHistory Count="5" HistoryIndex="4">
       <Position1>
         <Filename Value="Fragment.lpr"/>
         <Caret Line="118" Column="10" TopLine="91"/>
@@ -97,10 +96,10 @@
         <Filename Value="Fragment.lpr"/>
         <Caret Line="39" Column="26" TopLine="13"/>
       </Position5>
-      <Position6>
-        <Filename Value="/usr/local/pandroid/units/AActivity.pas"/>
-        <Caret Line="117" Column="111" TopLine="70"/>
-      </Position6>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
 </CONFIG>

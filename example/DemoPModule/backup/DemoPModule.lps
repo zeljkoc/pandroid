@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="DemoPModule.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="40"/>
+        <CursorPos X="3" Y="64"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="PandroidModule.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="48" Y="5"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="DemoPModule.lpr"/>
+        <Caret Line="16" Column="52" TopLine="9"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DemoPModule.lpr"/>
+        <Caret Line="27" Column="40" TopLine="9"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DemoPModule.lpr"/>
+        <Caret Line="16" Column="53" TopLine="15"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -13,7 +13,8 @@ unit PascalScript;
 
 interface
 
-uses androidr15, Rjava, AActivity, APascalScript;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity, APascalScript;
 
  
 

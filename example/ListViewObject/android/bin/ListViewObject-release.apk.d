@@ -3,4 +3,3 @@
 /usr/local/pandroid/example/ListViewObject/android/bin/classes.dex \
 /usr/local/pandroid/example/ListViewObject/android/src/zc \
 /usr/local/pandroid/example/ListViewObject/android/libs/TIniFile.jar \
-/usr/local/pandroid/sdk/tools/support/annotations.jar \

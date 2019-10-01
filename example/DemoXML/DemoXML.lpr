@@ -15,7 +15,8 @@ unit DemoXML;
 
 interface
 
-uses androidr15, Rjava, AActivity;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity;
 
 
 type

@@ -13,7 +13,8 @@ unit DemoPModule;
 
 interface
 
-uses androidr15, Rjava, AActivity, StdCtrls, PandroidModule;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity, StdCtrls, PandroidModule;
 
  
 
@@ -62,7 +63,7 @@ begin
   ID := pm.CreateObject('TDataM');
 
   //set property value
-  pm.SetPropertyValue(ID, JLString('DatabaseName'), JLString('192.168.1.50:01Zeljus'));
+  pm.SetPropertyValue(ID, JLString('DatabaseName'), JLString('192.168.10.50:01Zeljus'));
 
   //Get property value
   tv.Text := pm.GetPropertyValue(ID, JLString('DatabaseName'))

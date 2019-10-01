@@ -3,5 +3,4 @@
 /usr/local/pandroid/example/DemoPModule/android/bin/classes.dex \
 /usr/local/pandroid/example/DemoPModule/android/src/zeljus/com/demopmodule/zeljus \
 /usr/local/pandroid/example/DemoPModule/android/libs/TIniFile.jar \
-/usr/local/pandroid/sdk/tools/support/annotations.jar \
 /usr/local/pandroid/example/DemoPModule/android/libs/PandroidModule.jar \

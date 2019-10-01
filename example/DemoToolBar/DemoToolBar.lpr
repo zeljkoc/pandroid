@@ -15,7 +15,8 @@ unit DemoToolBar;
 
 interface
 
-uses androidr15, Rjava, AActivity, AZCToolBar;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity, AZCToolBar;
 
 type
   MainActivity = class(Activity)
@@ -29,7 +30,7 @@ type
 
 implementation
 
-uses AZCDialogs;
+uses Dialogs;
 
 procedure MainActivity.onCreate(savedInstanceState: AOBundle);
 var

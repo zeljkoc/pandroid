@@ -6,8 +6,8 @@ unit MyElement;
 
 interface
 
-uses
-  androidr15, Rjava;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava;
 
 type
 

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="2">
       <Unit0>
         <Filename Value="DemoChart.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="24" Y="132"/>
+        <TopLine Value="166"/>
+        <CursorPos Y="195"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -20,7 +21,7 @@
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="DemoChart.lpr"/>
         <Caret Line="76" Column="45" TopLine="57"/>
@@ -33,6 +34,14 @@
         <Filename Value="DemoChart.lpr"/>
         <Caret Line="80" Column="51" TopLine="60"/>
       </Position3>
+      <Position4>
+        <Filename Value="DemoChart.lpr"/>
+        <Caret Line="19" Column="35"/>
+      </Position4>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
 </CONFIG>

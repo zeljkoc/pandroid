@@ -6,8 +6,8 @@ unit MyView;
 
 interface
 
-uses
-  androidr15, MyElement;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, MyElement;
 
 type
 
@@ -86,7 +86,7 @@ type
       const
         TOUCH_SCALE: jfloat = 0.2;		//Proved to be good for normal rotation
    public
-     constructor create(context: ACContext); overload;
+     constructor create(aContext: ACContext); overload;
      function onKeyUp(keyCode: jint; event: AVKeyEvent): jboolean; overload; override;
      function onTouchEvent(event: AVMotionEvent): jboolean; overload; override;
    end;
@@ -96,10 +96,10 @@ implementation
 
 { MyGLSurfaceView }
 
-constructor MyGLSurfaceView.create(context: ACContext);
+constructor MyGLSurfaceView.create(aContext: ACContext);
 begin
-  inherited Create(context);
-  renderer := MyGLRenderer.Create(context);
+  inherited Create(aContext);
+  renderer := MyGLRenderer.Create(aContext);
   setRenderer(renderer);
   // Request focus, otherwise key/button won't react
   requestFocus();
@@ -132,26 +132,26 @@ end;
 
 function MyGLSurfaceView.onTouchEvent(event: AVMotionEvent): jboolean;
 var
-  x, y: jfloat;
+  x1, y1: jfloat;
   dx, dy: jfloat;
   upperArea: jint;
   lowerArea: jint;
 begin
   Result:=inherited onTouchEvent(event);
     //
-  x := event.getX();
-  y := event.getY();
+  x1 := event.getX();
+  y1 := event.getY();
 
   //If a touch is moved on the screen
   if(event.getAction() = AVMotionEvent.ACTION_MOVE) then begin
       //Calculate the change
-      dx := x - oldX;
-      dy := y - oldY;
+      dx := x1 - oldX;
+      dy := y1 - oldY;
       //Define an upper area of 10% on the screen
       upperArea := getHeight div 10;
 
       //Zoom in/out if the touch move has been made in the upper
-      if (y < upperArea) then
+      if (y1 < upperArea) then
               renderer.z := renderer.z - (dx * TOUCH_SCALE / (getWidth() / 16))
 
       //Rotate around the axis otherwise
@@ -168,9 +168,9 @@ begin
         lowerArea := getHeight() - upperArea;
 
         //
-        if (y > lowerArea) then begin
+        if (y1 > lowerArea) then begin
                 //Change the blend setting if the lower area left has been pressed
-                if (x < (getWidth() / 2)) then begin
+                if (x1 < (getWidth() / 2)) then begin
 		      renderer.fogFilter := renderer.fogFilter + 1; 	//Increase fogFilter By One ( NEW )
 
 		      //Is fogFilter Greater Than 2? ( NEW )
@@ -184,8 +184,8 @@ begin
    end;
 
     //Remember the values
-    oldX := x;
-    oldY := y;
+    oldX := x1;
+    oldY := y1;
 
     //We handled the event
    Result:= true;

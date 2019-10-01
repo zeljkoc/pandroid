@@ -15,7 +15,8 @@ unit DemoMenu;
 
 interface
 
-uses androidr15, Rjava, AActivity;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity;
 
 
 type
@@ -32,7 +33,7 @@ type
 
 implementation
 
-uses AZCForms, AZCDialogs;
+uses AZCForms, Dialogs;
 
 procedure MainActivity.onCreate(savedInstanceState: AOBundle);
 var

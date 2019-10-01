@@ -4,8 +4,8 @@ unit MyElemnet;
 
 interface
 
-uses
-  androidr15;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+;
 
 type
    { Pyramid }

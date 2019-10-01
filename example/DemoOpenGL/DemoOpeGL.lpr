@@ -15,7 +15,8 @@ unit DemoOpeGL;
 
 interface
 
-uses androidr15, Rjava, Elements;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, Elements;
 
 
 type
@@ -143,25 +144,25 @@ end;
 
 function MyGLSurfaceView.onTouchEvent(e: AVMotionEvent): jboolean;
 var
- x, y, dx, dy: real;
+ x1, y1, dx, dy: real;
 begin
     // MotionEvent reports input details from the touch screen
     // and other input controls. In this case, we are only
     // interested in events where the touch position changed.
 
-    x := e.getX();
-    y := e.getY();
+    x1 := e.getX();
+    y1 := e.getY();
 
     case e.getAction of
       AVMotionEvent.ACTION_MOVE: begin
-         dx := x - mPreviousX;
-         dy := y - mPreviousY;
+         dx := x1 - mPreviousX;
+         dy := y1 - mPreviousY;
 
          // reverse direction of rotation above the mid-line
-         if (y > getHeight() / 2) then dx := dx * -1 ;
+         if (y1 > getHeight() / 2) then dx := dx * -1 ;
 
          // reverse direction of rotation to left of the mid-line
-         if (x < getWidth() / 2) then dy := dy * -1 ;
+         if (x1 < getWidth() / 2) then dy := dy * -1 ;
 
          mRenderer.setAngle(
                         mRenderer.getAngle() +
@@ -171,8 +172,8 @@ begin
       end;
     end;
 
-    mPreviousX := x;
-    mPreviousY := y;
+    mPreviousX := x1;
+    mPreviousY := y1;
     Result := true;
 end;
 

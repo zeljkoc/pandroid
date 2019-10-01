@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="7">
       <Unit0>
         <Filename Value="DemoOpeGL.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="31" Y="87"/>
+        <TopLine Value="151"/>
+        <CursorPos X="21" Y="176"/>
         <UsageCount Value="53"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="Reinder.pas"/>
-        <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="2" Y="16"/>
         <UsageCount Value="53"/>
       </Unit1>
       <Unit2>
         <Filename Value="SurfaceView.pas"/>
-        <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="24" Y="15"/>
         <UsageCount Value="51"/>
@@ -29,9 +28,8 @@
       <Unit3>
         <Filename Value="Elements.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="37"/>
-        <CursorPos X="19" Y="61"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="15"/>
         <UsageCount Value="49"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -51,10 +49,9 @@
       </Unit5>
       <Unit6>
         <Filename Value="android/build_debug_apk.sh"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="36" Y="4"/>
         <UsageCount Value="22"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit6>
     </Units>
@@ -180,5 +177,9 @@
         <Caret Line="47" Column="27" TopLine="19"/>
       </Position30>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
 </CONFIG>

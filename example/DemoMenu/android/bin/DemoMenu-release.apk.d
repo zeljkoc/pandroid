@@ -2,4 +2,3 @@
 /usr/local/pandroid/example/DemoMenu/android/bin/DemoMenu.ap_ \
 /usr/local/pandroid/example/DemoMenu/android/bin/classes.dex \
 /usr/local/pandroid/example/DemoMenu/android/src/zc \
-/usr/local/pandroid/sdk/tools/support/annotations.jar \

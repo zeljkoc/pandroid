@@ -15,7 +15,8 @@ unit Demo3DCube2;
 
 interface
 
-uses androidr15, Rjava, AActivity, MyView;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity, MyView;
 
 type
 

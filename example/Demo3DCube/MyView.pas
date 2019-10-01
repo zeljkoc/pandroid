@@ -4,8 +4,8 @@ unit MyView;
 
 interface
 
-uses
-  androidr15, MyElemnet;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, MyElemnet;
 
 type
 
@@ -32,7 +32,7 @@ type
    MyGLSurfaceView = class(AOGLSurfaceView)
      renderer: MyGLRenderer;
    public
-     constructor create(context: ACContext); overload;
+     constructor create(aContext: ACContext); overload;
    end;
 
 
@@ -40,10 +40,10 @@ implementation
 
 { MyGLSurfaceView }
 
-constructor MyGLSurfaceView.create(context: ACContext);
+constructor MyGLSurfaceView.create(aContext: ACContext);
 begin
-  inherited Create(context);
-  renderer := MyGLRenderer.Create(context);
+  inherited Create(aContext);
+  renderer := MyGLRenderer.Create(aContext);
   setRenderer(renderer);
   // Request focus, otherwise key/button won't react
   requestFocus();

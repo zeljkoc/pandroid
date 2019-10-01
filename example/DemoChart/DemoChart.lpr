@@ -15,7 +15,8 @@ unit DemoChart;
 
 interface
 
-uses androidr15, Rjava, AActivity, IniFile, AZCEditFile;
+{$include /usr/local/pandroid/units/AndroidVersion.inc}
+, Rjava, AActivity, IniFile;
 
 var
    IniFileName : JLString;
@@ -42,7 +43,7 @@ type
 
 implementation
 
-uses AZCForms, chart;
+uses AZCForms, chart, Dialogs;
 
 procedure MainActivity.onCreate(savedInstanceState: AOBundle);
 var
@@ -167,23 +168,18 @@ begin
 end;
 
 function MainActivity.onOptionsItemSelected(Item: AVMenuItem): JBoolean;
-var
-  edit: AEditFile;
 begin
    Result := true;
    case item.getItemID of
       1: begin
-         edit := AEditFile.create(Self , IniFileName) ;
-         edit.show;
+         With TEditFileDialog.create(Self , IniFileName) do
+          show;
       end else Result := false;
    end;
 end;
 
 procedure MainActivity.SetingsIniFile;
 begin
-
-
-
     ini.setInt(JLString('PDAsetings'), JLString('IDRadnoMjesto'),
        ini.getInt(JLString('PDAsetings'), JLString('IDRadnoMjesto'), 1) );
     ini.setInt(JLString('PDAsetings'), JLString('IDPDA'),
@@ -194,11 +190,8 @@ end;
 
 procedure MainActivity.ReadIniFile;
 begin
-
-
   IDRadnoMjesto := ini.getInt(JLString('PDAsetings'), JLString('IDRadnoMjesto'), 1);
   IDPDA :=  ini.getInt(JLString('PDAsetings'), JLString('IDPDA'), 1);
-
-end;  
+end;
 
 end.

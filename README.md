@@ -19,6 +19,7 @@ $: su
 
 ### lubuntu-19.04-desktop-amd64.iso 
 #: apt-get install libgtk2.0-dev gdb openjdk-8-jdk android-tools-adb ant mtp-tools zip git
+
 #: update-alternatives --config java 
 
 (set openjdk-8-jdk)

@@ -1,0 +1,24 @@
+/usr/local/pandroid/example/DemoSQLite/android/gen/zeljus/com/demosqlite/R.java \
+ : /usr/local/pandroid/example/DemoSQLite/android/res/values/styles.xml \
+/usr/local/pandroid/example/DemoSQLite/android/res/values/strings.xml \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/bluetooth_on.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/add_record.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/logo.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/settings.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/addrecord.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/about.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/sum.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/document.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/ic_launcher.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/delete_record.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/data_synchronization.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/bluetooth_off.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/tools.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/mail.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/rfid.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/apply_database.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/notes.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/print.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/data_transmission.png \
+/usr/local/pandroid/example/DemoSQLite/android/res/drawable/exit.png \
+/usr/local/pandroid/example/DemoSQLite/android/bin/AndroidManifest.xml \
